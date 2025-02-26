@@ -1,0 +1,274 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
+	(paper "A4")
+	(title_block
+		(title "Revision History")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 19.05 31.75) (xy 19.05 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4849fe72-6429-4f5b-a9e6-56656658a37b")
+	)
+	(polyline
+		(pts
+			(xy 85.09 31.75) (xy 85.09 160.02)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5f29c90a-4bd5-401c-a0f6-a99df09914f4")
+	)
+	(polyline
+		(pts
+			(xy 85.09 31.75) (xy 85.09 149.86)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "74018a10-ab58-4dc2-b4e6-376117e1ffc0")
+	)
+	(polyline
+		(pts
+			(xy 151.13 31.75) (xy 151.13 149.86)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a6b610d4-f09b-4d6e-ac67-0bb3d0e09fbe")
+	)
+	(polyline
+		(pts
+			(xy 19.05 31.75) (xy 19.05 149.86)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b271ef24-6836-4d14-b8f8-8568bc734aca")
+	)
+	(polyline
+		(pts
+			(xy 217.17 31.75) (xy 217.17 149.86)
+		)
+		(stroke
+			(width 0.635)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fe21cbb6-f53c-41a1-bc1c-520e82f71f78")
+	)
+	(text_box "- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+		(exclude_from_sim no)
+		(at 220.98 40.64 0)
+		(size 58.42 115.57)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0c062e2b-2be1-4307-b752-045c211787f4")
+	)
+	(text_box "31.10.2024 - Xplore IDR\nVariant: V1.0 Preliminary -> V1.0 Checked"
+		(exclude_from_sim no)
+		(at 86.36 31.75 0)
+		(size 57.15 7.62)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "14f2d7b6-dcd6-4c43-91a3-c7a76690654c")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 80.01 16.51 0)
+		(size 137.16 12.7)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "20a0a094-ac98-46df-bdac-21d5721f7697")
+	)
+	(text_box "10.02.2025 - Xplore Final Review\nVariant: V1.0 Checked -> V1.0 Released"
+		(exclude_from_sim no)
+		(at 152.4 31.75 0)
+		(size 57.15 7.62)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
+	)
+	(text_box "- Added the pin 29 on the ESP32 that was missing.\n\n- Added test points for the status pins of the other ICs.\n\n- Improved brightness of debug LED 30->130 mcd.\n\n- Switch to differential pairs for shunt resistors.\n\n- Connecting some debug GPIO to Ics (ex: VALID1/2).\n\n- Found board name, added Logo.\n\n- Added bulk capacitors and refined their value from dev board of LM51772.\n\n- Change the source of power generation from VSUPPLY to VOUT to constantly enable the MCU.\n\n- Added jumpers and larger footprint resistors for easy test of gate resistors values.\n\n- Added fault and current sensing from LTC7000 to ESP32.\n\n- Increased spacing between high voltage copper pours and GND to provide more isolation.\n\n- Reduced power-path diode size.\n\n- Increased via spacing to avoid ground splitting\n\n- Re-arranged TVS diodes placement.\n\n- Added series inductance on the XTAL_P line.\n\n\n"
+		(exclude_from_sim no)
+		(at 20.32 40.64 0)
+		(size 64.77 118.11)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7cea8527-91c8-47c3-a860-064e128bcffe")
+	)
+	(text_box "- Added solder jumpers for GPIO3, to be able to choose between USB or JTAG lines flashing.\n\n- Changed charger's MOSFETs to reduce losses, therefore reducing heat to an acceptable level. Old: CSD18540Q5B \nNew: BSC059N04LS6\n\n- Added UART programming support.\n\n- Placed TVS diodes before the 27Ω resistors for the JTAG lines.\n\n- Improved documentation for Connectors & LED schematic.\n\n- Fixed TS connection of drivers for power path.\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+		(exclude_from_sim no)
+		(at 154.94 40.64 0)
+		(size 59.055 115.57)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8ad0acb7-8a2e-40a2-87c7-888a93359ccd")
+	)
+	(text_box "15.10.2024 - Xplore Schematic Review\nVariant: V1.0 Draft -> V1.0 Preliminary"
+		(exclude_from_sim no)
+		(at 20.32 31.75 0)
+		(size 57.15 7.62)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "922c5813-4880-4ddf-ba01-939f72022a9d")
+	)
+	(text_box "- Added polarity to the XT60 connectors.\n\n- Completely re-rooted the charger section with the following improvements: wider gate traces, switched to 2 layer for the power planes, greatly improved the overall rooting especially the diff pairs.\n\n- Added thermal reliefs.\n\n- Simulated then added feritte bead EMI filtering at the inputs of the 3v3 buck.\n\n- Improved Branding.\n\n- Fixed fiducials placement.\n\n- Added 4th mounting hole.\n\n- Increased board lenght by 5mm (95->100)\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+		(exclude_from_sim no)
+		(at 88.9 40.64 0)
+		(size 58.42 115.57)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cd63b456-8f62-4290-9191-6ad427c40f65")
+	)
+	(text_box "DD.MM.YYYY - After test revision\nVariant: V1.0 -> V1.1"
+		(exclude_from_sim no)
+		(at 218.44 31.75 0)
+		(size 57.15 7.62)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f47af890-f55a-44bf-b54f-b7df3adde008")
+	)
+)

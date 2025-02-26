@@ -1,0 +1,1766 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.4
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.25,
+          "via_gap": 0.3,
+          "width": 0.3
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|136550000|98650000|214e62ff-ea64-470e-a3b8-876cd76a6a59|8074218d-30d0-45ad-aea1-769811cbdd48",
+          ""
+        ],
+        [
+          "clearance|136550000|99600000|15bc0f91-bc4c-473a-bd81-8d6e6a000996|8074218d-30d0-45ad-aea1-769811cbdd48",
+          ""
+        ],
+        [
+          "clearance|137410000|109820000|9206d53a-0117-4cb3-983c-f3541332de13|77cba9a6-bf8a-43b1-87b8-36856b069ea4",
+          ""
+        ],
+        [
+          "clearance|137410000|110790000|ddddeced-839c-4230-bb79-a4a855d5f100|c4e1b062-959d-47fc-ac2e-4c77af7f0241",
+          ""
+        ],
+        [
+          "clearance|138215000|110790000|77cba9a6-bf8a-43b1-87b8-36856b069ea4|c4e1b062-959d-47fc-ac2e-4c77af7f0241",
+          ""
+        ],
+        [
+          "clearance|138300000|110810000|1a21baa6-130d-4016-8aee-6e125fc25392|c1214d46-a783-4158-99c9-f26d1e356880",
+          ""
+        ],
+        [
+          "clearance|138447016|102895298|c5b4c5bc-e06b-4999-adc8-98fbaacf3751|9971273f-f820-4859-b460-29a3ba4b6cc9",
+          ""
+        ],
+        [
+          "clearance|138587500|102925000|22524a54-fd61-446d-9e48-adb5fc603103|9971273f-f820-4859-b460-29a3ba4b6cc9",
+          ""
+        ],
+        [
+          "clearance|138587500|103425000|9971273f-f820-4859-b460-29a3ba4b6cc9|3a2d1b91-6e18-4b52-9621-86b8fbebed82",
+          ""
+        ],
+        [
+          "clearance|139201755|99450000|178dd38c-4a96-444e-acaa-0d47d5c35d41|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|139225000|101900000|c540f4d8-a6e1-484f-a477-dda377ecf1e5|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|101900000|ca1c0d6d-2a4a-4c7b-9aa1-f215096abbd7|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|101925000|277d8706-ab3c-4758-8f43-04957ba01000|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|101925000|3514197f-2cfc-4855-a34b-e4c0fd85c2fd|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|101925000|fac7276d-23fe-439e-bbfa-c9dfc1aa4585|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|102425000|c60c386a-9636-4b34-b6e2-f03ebe66c752|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|104900000|f7de1054-363b-4e1f-85da-24a57b795c02|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|104925000|9aa505d2-e979-456f-a95a-4951c1c3b622|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|105425000|2f0d650a-f9e4-4f48-9a74-bacb279fa2c5|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|105925000|022bee4f-b79e-492b-95ed-5b2508272e8f|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|106475000|abdb8003-6f92-4a0c-8ede-584228d7b077|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139225000|106475000|c611b7fc-15c4-49ab-8d55-6c9fd4e469b4|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139275000|100375000|a981f958-ab2a-4b35-b885-75f38e29c2c2|93ebcac6-1367-4df3-8fe9-22550f95079f",
+          ""
+        ],
+        [
+          "clearance|139275000|101237500|fb41adf2-1118-4ba4-9fbd-8e2d4726a0cc|14241bc4-2ec5-4e36-a846-1a420603927d",
+          ""
+        ],
+        [
+          "clearance|139275000|106475000|182afb5f-2ba9-4848-ba9e-6d1a4aff6788|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|139500000|110820000|c01027ab-9084-4d1c-a002-77306fdda378|50a6cbe2-32d7-4d5e-bfbd-1e1b9d574ad1",
+          ""
+        ],
+        [
+          "clearance|139624347|99301916|493f1a99-7bf5-4940-87ff-6eaa78fd3fe0|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|139650000|100050000|a88181aa-2adc-4e93-802e-8245edd53894|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|139674204|99254304|fc957291-6284-485c-be24-101dde4c0569|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|139726457|99202052|1437a40d-44d1-49ae-ba4f-41808c2970af|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|139775000|101612500|14241bc4-2ec5-4e36-a846-1a420603927d|e3bdc4c9-fbc6-4715-9d14-4ff476c2ce4c",
+          ""
+        ],
+        [
+          "clearance|139775000|106475000|8e2ff118-6bdc-4dd6-afa5-28e01eb293a8|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|140214255|99000000|a5dc9182-a79f-46fd-aad9-7c8252723a24|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|140300000|99400000|8df6203b-8f25-4ce7-a96c-7a10c3f3b17c|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|140400000|109820000|9e02ac41-75d3-4c4d-ba3f-3beb2a2be67c|50a6cbe2-32d7-4d5e-bfbd-1e1b9d574ad1",
+          ""
+        ],
+        [
+          "clearance|140400000|109960000|50a6cbe2-32d7-4d5e-bfbd-1e1b9d574ad1|c0217243-d5cb-499b-a103-7e67ed1392ad",
+          ""
+        ],
+        [
+          "clearance|140400000|99000000|ff7827a7-0142-4428-bd9d-8605fce2575a|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|140775000|106475000|b9f1d655-6c3d-4aeb-9c1d-df5a2292f905|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|141060000|99800000|c15b03f6-4a40-44ae-a8ef-2d52a435af96|9f48b707-b7ff-48ff-8a2a-312d45de0bc9",
+          ""
+        ],
+        [
+          "clearance|141060000|99850000|9f48b707-b7ff-48ff-8a2a-312d45de0bc9|163ea4e6-01cb-4442-b4d7-3579b586b4db",
+          ""
+        ],
+        [
+          "clearance|141060000|99970000|163ea4e6-01cb-4442-b4d7-3579b586b4db|93ebcac6-1367-4df3-8fe9-22550f95079f",
+          ""
+        ],
+        [
+          "clearance|141275000|106475000|f2b39514-62f4-40fd-a37b-369caec6b919|41d4c992-a001-481b-946b-16fda43b7d53",
+          ""
+        ],
+        [
+          "clearance|141500000|106800000|b97a7933-11c5-4bb9-a26b-e9807eb98dc8|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141500885|106800885|83c8a38c-d056-4799-a39f-b6ce516b9d1e|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141500885|106879781|c092d6a0-882c-4c7a-851d-ee460bf61210|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141500885|106879781|c6bc172d-c092-44ce-9a71-cdccdeab3788|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141500885|106879781|ea71755d-2de2-4f94-b53d-ac6bbece5832|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141550000|106800000|fc9dcea6-4ff2-4c3d-97af-67326014054b|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141750000|106800000|92968eea-1df8-4086-bca1-e8fffa2041cb|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141775000|106800000|b2e31e76-b383-4ca4-bee2-34f0f910815d|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|141775000|107112500|02c1a571-1c62-440e-af41-d6c76b8275d2|957c691d-fa5d-4c83-a534-7bff1d367c3d",
+          ""
+        ],
+        [
+          "clearance|142000000|99800000|c5e3d045-841b-4b6c-bd77-f1ad45466ebd|a03e0fd0-b8b4-4cf5-9cb0-ea59ad041b91",
+          ""
+        ],
+        [
+          "clearance|142000000|99850000|85012e74-35d0-4c8d-95c2-826b73dab976|a03e0fd0-b8b4-4cf5-9cb0-ea59ad041b91",
+          ""
+        ],
+        [
+          "clearance|142275000|106737500|957c691d-fa5d-4c83-a534-7bff1d367c3d|3eee4d25-7b0b-4954-853e-353c8501bf0b",
+          ""
+        ],
+        [
+          "clearance|142306397|99190000|1a0b72b7-fde9-48ec-b401-9f8d64c88648|a03e0fd0-b8b4-4cf5-9cb0-ea59ad041b91",
+          ""
+        ],
+        [
+          "clearance|142960000|99190000|a03e0fd0-b8b4-4cf5-9cb0-ea59ad041b91|8bef0dae-492b-40bd-9a68-b164eeab74d4",
+          ""
+        ],
+        [
+          "clearance|143100000|99190000|8bef0dae-492b-40bd-9a68-b164eeab74d4|a61dd957-2d98-4867-a763-c4ed562986c7",
+          ""
+        ],
+        [
+          "clearance|143610000|108600000|731707e6-c40c-4391-b9d4-d62707da80c7|c2e04abe-47f3-4ab4-bb04-ddc4d7341756",
+          ""
+        ],
+        [
+          "clearance|176581134|70640000|6d415846-43ed-44ec-88da-1fd7b0fdb189|1129cb05-6395-480f-9665-340627575130",
+          ""
+        ],
+        [
+          "clearance|176581134|70640000|769a5eff-347b-485e-bc4f-1c907ae46751|6d415846-43ed-44ec-88da-1fd7b0fdb189",
+          ""
+        ],
+        [
+          "clearance|176581134|70640000|96bfca1b-ccf7-4bf4-9ea8-e42d71b7fe4b|1129cb05-6395-480f-9665-340627575130",
+          ""
+        ],
+        [
+          "clearance|177075000|70600000|1129cb05-6395-480f-9665-340627575130|45009d2d-2017-45af-b105-8edc0ac70dc7",
+          ""
+        ],
+        [
+          "clearance|177075000|70600000|4c21d114-c4a7-492b-be70-344f4721d57a|45009d2d-2017-45af-b105-8edc0ac70dc7",
+          ""
+        ],
+        [
+          "clearance|177075000|70600000|6777aeeb-c11b-40c2-a0e5-4b8eb5417775|45009d2d-2017-45af-b105-8edc0ac70dc7",
+          ""
+        ],
+        [
+          "clearance|177775000|70750000|c9b699ad-5d0c-4cbb-bb30-8f6c636e2ca5|1129cb05-6395-480f-9665-340627575130",
+          ""
+        ],
+        [
+          "clearance|199862500|96025000|f362ba95-bda7-4d0a-80e4-e776ebfd8f16|fe31dc6c-de06-4fcb-b92b-24a888f7c0a2",
+          ""
+        ],
+        [
+          "clearance|199950000|95475000|4a86300c-3773-4c35-b59f-41112eb67e0d|f362ba95-bda7-4d0a-80e4-e776ebfd8f16",
+          ""
+        ],
+        [
+          "clearance|199950000|96500000|4455644d-9d78-4304-8762-00facc7283f6|fe31dc6c-de06-4fcb-b92b-24a888f7c0a2",
+          ""
+        ],
+        [
+          "clearance|201025000|94675000|65992342-e6aa-4388-8bbd-bfbbefdc76f2|a0e5f38f-a589-4784-92e1-0c627e878c20",
+          ""
+        ],
+        [
+          "clearance|201187500|94837500|3a419f90-8341-42d5-8df5-6c3f00a8a96e|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|201187500|94837500|8fa2aa12-12eb-432c-b7fc-625e3b8fed34|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|201195000|95975000|51402951-ec89-4ef1-9703-2ef6fa311e9f|02c936f6-c39e-4c36-9588-c3c594613b32",
+          ""
+        ],
+        [
+          "clearance|201440000|95090000|02c936f6-c39e-4c36-9588-c3c594613b32|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|201766846|95090000|77b40f82-1ba6-4d24-839a-e4767a045ff8|a0e5f38f-a589-4784-92e1-0c627e878c20",
+          ""
+        ],
+        [
+          "clearance|201766846|95090000|f2551847-863f-46ee-b977-376189c41a2b|a0e5f38f-a589-4784-92e1-0c627e878c20",
+          ""
+        ],
+        [
+          "clearance|202113423|95436577|52060c79-6a81-432c-af89-61c702adf227|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|202300000|95500000|236fe897-a6c0-43d8-90b1-b02f09041c6d|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|202380000|95730000|972b7489-4881-4155-bdd8-57335a3f9feb|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|202380000|95750000|7c6ab6cd-cbee-4503-92ae-2dc7e5b11aed|214e1d8f-38be-41b1-ae59-5243c2755b1d",
+          ""
+        ],
+        [
+          "clearance|202575000|89250000|ae493631-28b0-4936-a50c-292af73b6173|8a8dac4e-37b3-4cea-84c3-b5dbc04aa4bd",
+          ""
+        ],
+        [
+          "clearance|202575000|90000000|a3520fc2-b6a7-4aa6-9ac1-aced544669b8|8a8dac4e-37b3-4cea-84c3-b5dbc04aa4bd",
+          ""
+        ],
+        [
+          "clearance|203825000|95025000|a9fe3ef5-7b68-430e-9099-6789d94d803e|236fe897-a6c0-43d8-90b1-b02f09041c6d",
+          ""
+        ],
+        [
+          "clearance|203825000|95025000|b53395a7-d56b-45c9-9065-4503bdf11e8c|236fe897-a6c0-43d8-90b1-b02f09041c6d",
+          ""
+        ],
+        [
+          "clearance|204025000|95600000|20e48281-4e04-4d97-af58-0dcf7b139188|130e6934-bedc-4117-ba60-8ff650b89ac2",
+          ""
+        ],
+        [
+          "clearance|204025000|96000000|bae0ec41-4df7-4103-bec0-511478372ba0|130e6934-bedc-4117-ba60-8ff650b89ac2",
+          ""
+        ],
+        [
+          "clearance|204375000|96000000|130e6934-bedc-4117-ba60-8ff650b89ac2|af3ede1e-8b3e-4a89-acee-5d1e61059a0f",
+          ""
+        ],
+        [
+          "clearance|204375000|96000000|1f515efb-970f-49cc-9d7a-3ce2a2addd11|af3ede1e-8b3e-4a89-acee-5d1e61059a0f",
+          ""
+        ],
+        [
+          "clearance|204487500|95137500|4f7d18bb-94e7-40c8-80fe-4206702e1ab5|130e6934-bedc-4117-ba60-8ff650b89ac2",
+          ""
+        ],
+        [
+          "clearance|204700000|95500000|2829090e-8ee0-44dc-ac1c-0767ac015cfd|130e6934-bedc-4117-ba60-8ff650b89ac2",
+          ""
+        ]
+      ],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "error",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "ignore",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "warning",
+        "starved_thermal": "error",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.2,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.25,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.254,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.16,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.55,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.16,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.5,
+        0.7,
+        1.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "ElonMux.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Kelvin Diff Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Other High Voltage",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Bat",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Charge",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Out",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Rounded Gates",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.276,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB Diff Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": {
+      "+3V3": "rgb(255, 157, 0)",
+      "+VBAT": "rgb(221, 24, 255)",
+      "+VBAT_O": "rgb(224, 21, 255)",
+      "+VBUS": "rgb(255, 0, 0)",
+      "+VCHARGE": "rgb(0, 255, 219)",
+      "+VCHARGE_O": "rgb(0, 255, 219)",
+      "+VOUT": "rgb(194, 194, 194)",
+      "+VSUPPLY": "rgb(114, 255, 0)",
+      "+VSUPPLY_C": "rgb(0, 255, 0)",
+      "+VSUPPLY_O": "rgb(114, 255, 0)",
+      "/Project Architecture/Interface - Connectors/MTCK": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTCK_C": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDI": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDI_C": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDO": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTDO_C": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTMS": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/MTMS_C": "rgb(0, 132, 0)",
+      "/Project Architecture/Interface - Connectors/USB_C+": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_C-": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_D+": "rgb(0, 0, 255)",
+      "/Project Architecture/Interface - Connectors/USB_D-": "rgb(0, 0, 255)",
+      "/Project Architecture/MCU - Unit/SCL": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SDA": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_CLK": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_MISO": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_MOSI": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/SPI_NCS": "rgb(132, 0, 132)",
+      "/Project Architecture/MCU - Unit/VDD3P3": "rgb(255, 153, 0)",
+      "/Project Architecture/Power - Charger/+VCHARGE_O": "rgb(0, 255, 219)",
+      "/Project Architecture/Power - Charger/SW1": "rgb(194, 194, 0)",
+      "/Project Architecture/Power - Charger/SW2": "rgb(132, 132, 0)",
+      "/Project Architecture/Power - Charger/VAC": "rgb(114, 255, 0)",
+      "/Project Architecture/Power - Generation/+VOUT": "rgb(194, 194, 194)",
+      "/Project Architecture/Power - Generation/PVIN1": "rgb(194, 194, 194)",
+      "/Project Architecture/Power - Generation/SW_3V3": "rgb(255, 153, 0)",
+      "/Project Architecture/Power - Power Path/+VBAT": "rgb(224, 21, 255)",
+      "/Project Architecture/Power - Power Path/+VBAT_O": "rgb(224, 21, 255)",
+      "/Project Architecture/Power - Power Path/+VSUPPLY_O": "rgb(114, 255, 0)",
+      "/Project Architecture/Power - Power Path/VDD": "rgb(132, 132, 0)",
+      "GND": "rgb(64, 64, 64)"
+    },
+    "netclass_assignments": {
+      "+3V3": [
+        "Power 3V3"
+      ],
+      "+VBAT": [
+        "+VBAT"
+      ],
+      "+VBAT_O": [
+        "+VBAT"
+      ],
+      "+VBUS": [
+        "Power USB"
+      ],
+      "+VCHARGE": [
+        "Power Charge"
+      ],
+      "+VCHARGE_O": [
+        "Power Charge"
+      ],
+      "+VOUT": [
+        "+VOUT"
+      ],
+      "+VSUPPLY": [
+        "Power Supply"
+      ],
+      "+VSUPPLY_C": [
+        "Power Supply"
+      ],
+      "+VSUPPLY_O": [
+        "+VSUPPLY_O"
+      ],
+      "/Project Architecture/+VCHARGE": [
+        "+CHARGE"
+      ],
+      "/Project Architecture/Interface - Connectors/GND": [
+        "GND"
+      ],
+      "/Project Architecture/MCU - Unit/PGOOD": [
+        "Default"
+      ],
+      "/Project Architecture/MCU - Unit/VDD3P3": [
+        "Power 3V3"
+      ],
+      "/Project Architecture/Power - Charger/+VCHARGE": [
+        "+VCHARGE"
+      ],
+      "/Project Architecture/Power - Charger/+VCHARGE_O": [
+        "Power Charge"
+      ],
+      "/Project Architecture/Power - Charger/BIAS": [
+        "+24V"
+      ],
+      "/Project Architecture/Power - Charger/HO2": [
+        "+24V"
+      ],
+      "/Project Architecture/Power - Charger/LO2": [
+        "+24V"
+      ],
+      "/Project Architecture/Power - Charger/SW2": [
+        "+24V"
+      ],
+      "/Project Architecture/Power - Charger/shunt_charger+": [
+        "Power Charge"
+      ],
+      "/Project Architecture/Power - Charger/shunt_charger-": [
+        "Power Charge"
+      ],
+      "/Project Architecture/Power - Connectors/+VBAT": [
+        "+VBAT"
+      ],
+      "/Project Architecture/Power - Connectors/+VCHARGE": [
+        "+VCHARGE"
+      ],
+      "/Project Architecture/Power - Connectors/+VOUT": [
+        "+VOUT"
+      ],
+      "/Project Architecture/Power - Generation/+VOUT": [
+        "Power Out"
+      ],
+      "/Project Architecture/Power - Generation/PVIN1": [
+        "Power Out"
+      ],
+      "/Project Architecture/Power - Generation/PVIN2": [
+        "Power USB"
+      ],
+      "/Project Architecture/Power - Generation/SW1_3V3": [
+        "+3V3"
+      ],
+      "/Project Architecture/Power - Generation/SW_3V3": [
+        "Power 3V3"
+      ],
+      "/Project Architecture/Power - Generation/VIN1": [
+        "+VOUT"
+      ],
+      "/Project Architecture/Power - Power Path/+VBAT": [
+        "Power Bat"
+      ],
+      "/Project Architecture/Power - Power Path/+VBAT_O": [
+        "Power Bat"
+      ],
+      "/Project Architecture/Power - Power Path/+VSUPPLY_O": [
+        "Power Supply"
+      ],
+      "/Project Architecture/Power - Power Path/SENS_LOW": [
+        "+VBAT"
+      ],
+      "/Project Architecture/Power - Power Path/TS": [
+        "+VOUT"
+      ],
+      "/Project Architecture/Power - Power Path/shunt_bat+": [
+        "Power Bat"
+      ],
+      "/Project Architecture/Power - Power Path/shunt_bat-": [
+        "Power Bat"
+      ],
+      "/Project Architecture/Power - Power Path/shunt_supply+": [
+        "Power Supply"
+      ],
+      "/Project Architecture/Power - Power Path/shunt_supply-": [
+        "Power Supply"
+      ],
+      "/Project Architecture/Sensing - Battery/+3V3": [
+        "+3V3"
+      ],
+      "/Project Architecture/Sensing - Battery/+CHARGE": [
+        "+VCHARGE"
+      ],
+      "/Project Architecture/Sensing - Battery/SENS_IN": [
+        "+VBAT"
+      ],
+      "/Project Architecture/Sensing - Battery/SENS_OUT": [
+        "+VBAT"
+      ],
+      "/Project Architecture/Sensing - Battery/shunt_bat+": [
+        "Power Bat"
+      ],
+      "/Project Architecture/Sensing - Battery/shunt_bat-": [
+        "Power Bat"
+      ],
+      "GND": [
+        "GND"
+      ],
+      "Net-(Q701-G)": [
+        "Other High Voltage"
+      ],
+      "Net-(Q702-G)": [
+        "Other High Voltage"
+      ],
+      "Net-(Q703-G)": [
+        "Other High Voltage"
+      ],
+      "Net-(Q704-G)": [
+        "Other High Voltage"
+      ]
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power Supply",
+        "pattern": "+VSUPPLY"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Sensing - Battery/shunt_bat+"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Sensing - Battery/shunt_bat-"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "+VBAT"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/Interface - Connectors/USB_D-"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/Interface - Connectors/USB_D+"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/Interface - Connectors/USB_C-"
+      },
+      {
+        "netclass": "USB Diff Pair",
+        "pattern": "/Project Architecture/Interface - Connectors/USB_C+"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "+VCHARGE"
+      },
+      {
+        "netclass": "Power Out",
+        "pattern": "+VOUT"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "+VSUPPLY_O"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "+VCHARGE_O"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SW1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/shunt_bridge-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/LO1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HO1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/LO2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/HO2"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "/Project Architecture/Power - Power Path/SOURCE1"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SOURCE2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/LED_S1"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SNS2-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGDN2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGDN1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/VDD"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TS"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SENS_IN"
+      },
+      {
+        "netclass": "Power Bat",
+        "pattern": "/Project Architecture/Power - Power Path/SENS_OUT"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "/Project Architecture/Power - Charger/shunt_charger+"
+      },
+      {
+        "netclass": "Power Charge",
+        "pattern": "/Project Architecture/Power - Charger/shunt_charger-"
+      },
+      {
+        "netclass": "Power Out",
+        "pattern": "/Project Architecture/Power - Generation/+VOUT"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/GATE1"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "/Project Architecture/Power - Power Path/SNS1-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/BST_D1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/BST_D2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SW2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/GATE2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TS2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TS1"
+      },
+      {
+        "netclass": "Power Supply",
+        "pattern": "+VSUPPLY_C"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV2"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/BTST1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/BTST2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/LODRV1"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV1_M"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/HIDRV2_M"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/LODRV2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/ACN"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/VAC"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/LODRV2_M"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Charger/+3V3"
+      },
+      {
+        "netclass": "Rounded Gates",
+        "pattern": "/Project Architecture/Power - Charger/LODRV1_M"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TG1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TG2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGUP1"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Power Path/TGUP2"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/IN+"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/IN-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/ACP"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/OUT+"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/OUT-"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SRP"
+      },
+      {
+        "netclass": "Other High Voltage",
+        "pattern": "/Project Architecture/Power - Charger/SRN"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "amulet_controller.net",
+      "plot": "Manufacturing/Fabrication/Gerbers/",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "STEP/ElonMux.step",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": "Templates/KDT_Template_ElonMux.kicad_wks"
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "Manufacturing/ElonMuxBom.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part Number",
+          "name": "Supplier Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": false,
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Value"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "KiCad",
+    "page_layout_descr_file": "Templates/KDT_Template_ElonMux.kicad_wks",
+    "plot_directory": "Schematic/",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "0650c7a8-acba-429c-9f8e-eec0baf0bc1c",
+      "Root"
+    ],
+    [
+      "de68a101-7eef-4ba8-abb4-14d03adb087f",
+      "Block Diagram"
+    ],
+    [
+      "fede4c36-00cc-4d3d-b71c-5243ba232202",
+      "Project Architecture"
+    ],
+    [
+      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
+      "MCU - Unit"
+    ],
+    [
+      "3c6a6bb2-bac2-4596-a27d-6bc23ae8595a",
+      "Power - Connectors"
+    ],
+    [
+      "48ff3b30-a438-4b4b-961d-9d1d1a2954de",
+      "Power - Generation"
+    ],
+    [
+      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
+      "Power - Charger"
+    ],
+    [
+      "051f2c7b-cce4-418f-ba21-e71251f2ff31",
+      "Power - Power Path"
+    ],
+    [
+      "99347527-3de9-4089-9239-f84ef9d2c36f",
+      "Sensing - Battery"
+    ],
+    [
+      "d2534d42-af00-4b33-8090-e590be5797ef",
+      "Interface - Connectors"
+    ],
+    [
+      "95e919be-32f9-400a-bc42-ccd9343a00dc",
+      "User - LED Indicators"
+    ],
+    [
+      "e246552c-c235-46f6-8325-624faa438117",
+      "Misc - Mounting Holes & Fiducials"
+    ],
+    [
+      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
+      "Power - Sequencing"
+    ],
+    [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
+    ]
+  ],
+  "text_variables": {
+    "BOARD_NAME": "ElonMux",
+    "COMPANY": "EPFL Xplore",
+    "DESIGNER": "Théo Heng",
+    "PROJECT_NAME": "ERC",
+    "RELEASE_DATE": "11-02-2025",
+    "REVIEWER": "Federico Bise",
+    "REVISION": "1.0",
+    "VARIANT": "Released"
+  }
+}

@@ -1,0 +1,1043 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
+	(paper "A4")
+	(title_block
+		(title "Project Architecture")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols
+		(symbol "power:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 115.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b80b2746-cede-427d-8899-8a62defb628a")
+	)
+	(junction
+		(at 120.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c0d0e6-ede8-4be8-9061-c9d8bafb4264")
+	)
+	(bus
+		(pts
+			(xy 115.57 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d01923-6e46-499c-8b90-97ffcaccf6ec")
+	)
+	(bus
+		(pts
+			(xy 102.87 80.01) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13848d0d-c7e0-4f0a-be84-8629f35ce6a8")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a100822-b153-46f3-973f-7dcab29a0dfa")
+	)
+	(wire
+		(pts
+			(xy 168.91 137.16) (xy 175.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e351d7e-45bd-4f26-ac1a-d5ab38bc2258")
+	)
+	(bus
+		(pts
+			(xy 115.57 109.22) (xy 115.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3194c8c0-c08d-4298-bba2-ee70d9a180d1")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 175.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f35c288-3092-43ff-8575-b98168f5a28d")
+	)
+	(wire
+		(pts
+			(xy 102.87 63.5) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3c5a60-e7d9-4d04-a26c-27af87ba0d16")
+	)
+	(wire
+		(pts
+			(xy 168.91 59.69) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612d2ca8-1f2b-46d6-a1ae-5a1b806c9a62")
+	)
+	(wire
+		(pts
+			(xy 102.87 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbe244f-5331-417d-a1c6-de387dd04dfd")
+	)
+	(bus
+		(pts
+			(xy 102.87 137.16) (xy 115.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90902cf0-9c06-44ae-8d6f-3e774662b188")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 196.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931ad3e4-702e-40cb-9e12-abf3eaca3cb6")
+	)
+	(wire
+		(pts
+			(xy 168.91 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafe1af2-902f-4fae-9640-08bc38c625a5")
+	)
+	(bus
+		(pts
+			(xy 102.87 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cede3e08-36cc-42c0-8849-4390adfdd7fd")
+	)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72244d5-8dbd-49ae-8ff1-39cdd39990ba")
+	)
+	(wire
+		(pts
+			(xy 120.65 137.16) (xy 129.54 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9157700-4c1e-4897-81d5-703b0667b08e")
+	)
+	(bus
+		(pts
+			(xy 102.87 113.03) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b4c23f-2434-4235-b2d7-f0a0e63c1176")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17f1f7-9a0e-4449-9ac0-dbc8aa123c81")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.065 19.05 0)
+		(size 273.05 12.7)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(text "Page 10"
+		(exclude_from_sim no)
+		(at 227.965 118.745 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#10")
+		)
+		(uuid "28aa8986-dd29-45fe-8504-6cd91a71a05c")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 102.108 69.088 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "2c0f8ec7-7cce-4f6c-9271-7612fc4f0e02")
+	)
+	(text "Page 9"
+		(exclude_from_sim no)
+		(at 167.64 146.558 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#9")
+		)
+		(uuid "680b94f1-9964-42de-98c1-39245f5169cb")
+	)
+	(text "Page 8"
+		(exclude_from_sim no)
+		(at 167.005 102.235 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#8")
+		)
+		(uuid "7e6f037b-625e-42f0-9648-98285dedd88b")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 101.6 119.38 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "978bb74e-ca07-4b21-b2dc-19b812f717e9")
+	)
+	(text "Page 11"
+		(exclude_from_sim no)
+		(at 229.362 146.812 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#11")
+		)
+		(uuid "a24dcc72-d440-4be2-bcf5-7b2d09b2958b")
+	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 167.005 81.915 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#7")
+		)
+		(uuid "a597f273-a3f8-4f6f-a65d-e15b1efb84dc")
+	)
+	(text "Page 6"
+		(exclude_from_sim no)
+		(at 101.854 146.304 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#6")
+		)
+		(uuid "f5062686-850d-4885-8787-f4185c499f85")
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 175.26 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b29121e-f23b-4811-bb73-8fbca2aab4f8")
+		(property "Reference" "#PWR0301"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89b79f38-a40a-4de0-90ac-2a2b03ee3c6a")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 130.81)
+		(size 33.274 17.018)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.1216)
+		)
+		(uuid "1dbdd458-9c8a-4b0b-ac5b-dcf9040035b1")
+		(property "Sheetname" "Mechanical Holes"
+			(at 196.85 129.7809 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical holes.kicad_sch"
+			(at 196.85 148.4126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 55.88)
+		(size 33.02 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "241ddead-b9bb-4c1d-8ae3-89c5fb55221c")
+		(property "Sheetname" "Power - Converter"
+			(at 196.85 54.8509 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_converter.kicad_sch"
+			(at 196.85 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT_FILTERED" input
+			(at 196.85 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c36aaf1-4318-4d02-a0a1-56ad3257bd2a")
+		)
+		(pin "{PMBUS}" bidirectional
+			(at 196.85 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cceedb67-d761-4a9d-8090-9a803e3c03b4")
+		)
+		(pin "{FAULT_BUS}" bidirectional
+			(at 196.85 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "733afcc8-dc45-4309-a715-672e2994a039")
+		)
+		(pin "MVA_OUT" output
+			(at 196.85 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c2d98ec-85bb-4151-92bc-6f101e22c329")
+		)
+		(pin "MVB_OUT" output
+			(at 196.85 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3962dbe1-ca4a-49ff-949c-e90f8693c0a6")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 55.88)
+		(size 33.02 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 255 0.5020)
+		)
+		(uuid "3d1802e1-bbda-43bc-9064-3e13fe6f262e")
+		(property "Sheetname" "Connector - Rail Output"
+			(at 69.85 54.8509 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_output.kicad_sch"
+			(at 69.85 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_A" input
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86c66822-7849-44e0-88ee-63b85a1bdb7b")
+		)
+		(pin "OUT_B" input
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1f7a93f-ecfc-4744-af3a-d4b688bf57fa")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 90.805)
+		(size 39.37 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "77888261-b82c-492e-964b-e22da403724a")
+		(property "Sheetname" "Power - Input Filter"
+			(at 129.54 89.7759 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emc_input_filter.kicad_sch"
+			(at 129.54 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT_IN" input
+			(at 129.54 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c205e4d-afa6-439d-afdd-115600b81556")
+		)
+		(pin "+VBAT_FILTERED" output
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0249b599-be90-450c-a7aa-b85621e06a29")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 77.216)
+		(size 33.02 43.434)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 255 0.5020)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "Connector - Motherboard"
+			(at 69.85 76.1869 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_connector.kicad_sch"
+			(at 69.85 121.2346 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PMBUS}" bidirectional
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29bbffe7-20f0-41b5-9d8b-562b43408fa8")
+		)
+		(pin "{FAULT_BUS}" bidirectional
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd3494d3-3830-43b6-9883-e9d251088e9d")
+		)
+		(pin "+VBAT_IN" output
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1058383f-5b4f-4515-8368-0fa523b49a3b")
+		)
+		(pin "{SHDN_CTRL}" bidirectional
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "531a2481-28da-4a73-9185-dc8eb60c487c")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 55.88)
+		(size 39.37 27.305)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "996acfbd-05f1-4fa3-a220-90f33c957428")
+		(property "Sheetname" "Power - Output Protection"
+			(at 129.54 54.8509 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emc_output_filter.kicad_sch"
+			(at 129.54 83.7696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_A" input
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "edb29a7c-3983-4cec-aa98-a0a32ba7956d")
+		)
+		(pin "IN_B" input
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "307057aa-5051-4cc8-bd67-89717bc296e1")
+		)
+		(pin "OUT_A" output
+			(at 129.54 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fcf6021-31f9-4902-8c3e-c8e3357f3b41")
+		)
+		(pin "OUT_B" output
+			(at 129.54 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b118586-634e-48fa-995c-85d69a26c90d")
+		)
+		(pin "{SHDN_CTRL}" bidirectional
+			(at 129.54 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a4a67de-706e-4df3-a3c6-a2e8f92cfdc3")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 130.81)
+		(size 33.02 17.018)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 150 255 0.5020)
+		)
+		(uuid "9c958759-f731-4f13-8a4f-98d04607c158")
+		(property "Sheetname" "Connector - Debug"
+			(at 69.85 129.7809 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_debug.kicad_sch"
+			(at 69.85 148.4126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{PMBUS}" bidirectional
+			(at 102.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3b5af0e-5117-49f8-ae2b-1c5c74a1f44d")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 130.81)
+		(size 39.37 17.018)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "e473a05a-7df5-4923-9156-fad3374dd463")
+		(property "Sheetname" "Power - Local Generation"
+			(at 129.54 129.7809 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_generation.kicad_sch"
+			(at 129.54 148.4126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT_IN" input
+			(at 129.54 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9ca242d-85d0-4beb-9940-0f51511b4a44")
+		)
+		(pin "+12V" output
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2dc4d7ff-9f37-4b2d-8cec-e733244cd0c3")
+		)
+		(instances
+			(project "SMPS_legged_robot_module"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "9")
+				)
+			)
+		)
+	)
+)

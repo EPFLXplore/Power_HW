@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------------------------
+
+Module current changes :
+	- Added Debug connector + Flash
+	- Added local 12V generation (easier debug)
+	- Added output rail 
+	- Added SHARE_CLK pin for module synchronisation
+	- Choosed output rail connector	
+	
+Motherboard current changes :
+	- Corrected USB 
+	- 
+
+
+
+--------------------------------------------------------------------------------------------------
+
+To Do list Module :
+	- Verify the synchronisation function
+	- Add more input bulk capacitance as LTPowerCAD recommend
+	- Layout (LTC3889 relocation, New output rail location)
+
+To Do list Motherboard :
+	- Change LEDs schematic
+	- Change input of local generation before pre-charge
+	- Add protections on local generation (fuses, diode)
+	- Add easy debug connector 
+	- Remove output rail connector
+	- Add module synchronisation switch
+	-
+	- Layout (Bus bar, )

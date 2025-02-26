@@ -1,0 +1,1595 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76fdf276-640d-4309-b858-be8054ec6225")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SMBJ51CD-M3/H_1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMBJ51CD-M3/H"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMB"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TVS Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ51CD-M3/H_1_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMBJ51CD-M3/H_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 51.435 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e658599-d8b9-4757-9d70-6fe001dca586")
+	)
+	(junction
+		(at 137.16 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "378adea9-ede3-4972-ba86-dc604a0b6d2b")
+	)
+	(junction
+		(at 137.16 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5198a83e-9568-4e6f-9d8d-8e41c09834db")
+	)
+	(junction
+		(at 159.385 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f9ec4e5-035c-4499-8c25-9f08a4768af5")
+	)
+	(junction
+		(at 73.66 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f60d98-2c1d-493f-b7e9-e20ba5fef669")
+	)
+	(junction
+		(at 51.435 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd55d49-cb22-45ca-9b9c-4eb9660713ab")
+	)
+	(junction
+		(at 73.66 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99a70838-980f-4fb2-9118-271887b6c0f9")
+	)
+	(junction
+		(at 159.385 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cad01c-5c19-4ff0-bd76-89862bc3a128")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.245) (xy 159.385 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "0161a7bf-1f09-476f-93a4-db804072d90b")
+	)
+	(wire
+		(pts
+			(xy 91.44 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eff9ce9-e384-475e-a01e-e67d03e5a06b")
+	)
+	(wire
+		(pts
+			(xy 137.16 65.405) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1b1bda-1d72-4aa4-9924-e0fc6268ddc6")
+	)
+	(wire
+		(pts
+			(xy 41.275 68.58) (xy 41.275 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5b760a-9ec6-41d4-b182-4da0a0a143f4")
+	)
+	(wire
+		(pts
+			(xy 41.275 55.245) (xy 51.435 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "1eee979f-a9d0-490b-a7f3-9b542dfff739")
+	)
+	(wire
+		(pts
+			(xy 91.44 68.58) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a60b0cf-a94c-4c69-bef9-3810a3bdde57")
+	)
+	(wire
+		(pts
+			(xy 159.385 55.245) (xy 177.165 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "2b02fe03-6cf3-4626-8d1f-afc207810deb")
+	)
+	(wire
+		(pts
+			(xy 177.165 68.58) (xy 177.165 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c517ab8-a4d7-4867-86b7-1b675ac3da89")
+	)
+	(wire
+		(pts
+			(xy 51.435 55.245) (xy 51.435 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36743c76-1ff5-4d13-9a65-18920ce60f3e")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.245) (xy 73.66 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54fa126a-5e51-4f33-a056-87bdbd6b36ea")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.325) (xy 41.275 60.325)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "567f5e41-209f-4472-8ead-1715e620ec95")
+	)
+	(wire
+		(pts
+			(xy 51.435 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5682636c-5e32-49b2-afea-612b44f1b9e2")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.245) (xy 137.16 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bad168-8a23-403a-9f32-5d73af25311b")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a80448-9e92-4574-99f6-7e9067803061")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 159.385 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ae1f92-48b1-4083-b254-98c0bf2309a1")
+	)
+	(wire
+		(pts
+			(xy 41.275 62.865) (xy 39.37 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715be60c-8c01-4432-81ac-a99b0fd17f6e")
+	)
+	(wire
+		(pts
+			(xy 73.66 65.405) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726eb997-66ec-4594-9721-e540acd93bf3")
+	)
+	(wire
+		(pts
+			(xy 177.165 68.58) (xy 159.385 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d0d366-f64d-45a2-a243-260d4d92991f")
+	)
+	(wire
+		(pts
+			(xy 127 55.245) (xy 137.16 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "882670a3-70b2-493b-9d7e-a77ab320d80f")
+	)
+	(wire
+		(pts
+			(xy 127 62.865) (xy 125.095 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a581ca7-174b-4fc5-935f-ae21ff6d9e07")
+	)
+	(wire
+		(pts
+			(xy 159.385 65.405) (xy 159.385 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9668ca-de35-4c45-bbdf-033e5ece8eac")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.245) (xy 91.44 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "9d0e50d4-712c-48bd-b50f-df0471a14efd")
+	)
+	(wire
+		(pts
+			(xy 127 55.245) (xy 127 60.325)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "9d5baa6f-3b54-45e2-ba4f-d9e8dc689fb5")
+	)
+	(wire
+		(pts
+			(xy 51.435 65.405) (xy 51.435 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0795b2a-7d54-4710-9e0e-f7b9fd209f32")
+	)
+	(wire
+		(pts
+			(xy 41.275 55.245) (xy 41.275 60.325)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "a8a3e2a3-5235-44ec-8b54-7c2cf9d1f6d2")
+	)
+	(wire
+		(pts
+			(xy 41.275 68.58) (xy 51.435 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6de87e7-479d-4b24-8380-bfba78b38654")
+	)
+	(wire
+		(pts
+			(xy 125.095 60.325) (xy 127 60.325)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "c32791e6-8c46-4b2c-850d-d19106e9d6ec")
+	)
+	(wire
+		(pts
+			(xy 51.435 55.245) (xy 73.66 55.245)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "e1bd1c0c-f1f7-4970-af71-e80738ad4f53")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 127 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81134aa-5c40-4e6c-ab09-22c7f5e9cb14")
+	)
+	(wire
+		(pts
+			(xy 159.385 55.245) (xy 159.385 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3ea913-1cb4-4b0b-a699-1e402f17e8ab")
+	)
+	(rectangle
+		(start 19.685 41.91)
+		(end 102.87 83.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d8be390-f0b8-4d62-b51e-0990b765228c)
+	)
+	(rectangle
+		(start 105.41 41.91)
+		(end 190.5 83.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e3a3c3ad-53d9-40ae-a0d7-7b47908f0d6d)
+	)
+	(text_box "[5] Connector - Power\n"
+		(exclude_from_sim no)
+		(at 12.065 13.97 0)
+		(size 185.42 12.7)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "05464fd2-16ef-4c79-a274-96bc82d15933")
+	)
+	(text_box "Power Connectors Out, TVS Diode"
+		(exclude_from_sim no)
+		(at 107.315 73.025 0)
+		(size 80.645 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3ec58eca-9dcb-4d45-bd35-0148f0a95a53")
+	)
+	(text_box "Power Connectors In, TVS Diode"
+		(exclude_from_sim no)
+		(at 22.225 73.025 0)
+		(size 80.645 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f28bcb52-3f98-4347-8ed9-59fe54cafb2b")
+	)
+	(hierarchical_label "+VBAT_OUT"
+		(shape output)
+		(at 177.165 55.245 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c83ba01e-396c-4e55-b3d0-7d908fccd105")
+	)
+	(hierarchical_label "+VBAT_IN"
+		(shape output)
+		(at 91.44 55.245 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "cc6a9325-5ed7-437e-b199-5f0145710cc9")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 128.27 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3507d5e-23ad-4613-a15e-743ec92f2b8e")
+		(property "High Power" "High Power"
+			(at 128.27 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+					(color 255 0 0 1)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 42.545 55.245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e877e8ba-6696-435e-8111-ed24bbdfe25a")
+		(property "High Power" "High Power"
+			(at 42.545 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+					(color 255 0 0 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.165 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49728681-5983-42e0-92f0-0fba50a02337")
+		(property "Reference" "#PWR0502"
+			(at 177.165 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.165 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.165 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "161af56c-0bf1-487d-b8c6-d34e1ec9ae6f")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "#PWR0502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 120.015 62.865 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6214a16a-505e-43ad-8e21-a43d72375746")
+		(property "Reference" "J502"
+			(at 117.475 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT90PW-F"
+			(at 117.475 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connectors:AMASS_XT90PW-F"
+			(at 120.015 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.015 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.015 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2512a7-cc4f-4ae1-80fb-fa9d9d54b52a")
+		)
+		(pin "2"
+			(uuid "d4997bb3-bdd0-4408-9e64-012dd051a8ef")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SMBJ51CD-M3/H_1")
+		(lib_id "0_diode:SMBJ51CD-M3/H")
+		(at 73.66 61.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa62a7f-a544-4eff-ab8e-611ef9d62ba8")
+		(property "Reference" "D502"
+			(at 76.2 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ51CD-M3/H"
+			(at 76.2 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_diode_smd:DIOM4336X24N"
+			(at 77.47 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+			(at 80.01 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors"
+			(at 73.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 73.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ51CD-M3/H"
+			(at 73.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 73.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND"
+			(at 73.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fade425d-ec55-43e5-a1b7-bc20b66a709f")
+		)
+		(pin "2"
+			(uuid "788746fd-847e-4e8b-b761-aea19ec5baad")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "D502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SMBJ51CD-M3/H_1")
+		(lib_id "0_diode:SMBJ51CD-M3/H")
+		(at 137.16 61.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a44e8b08-5d09-42e3-93fe-76b2316610ba")
+		(property "Reference" "D503"
+			(at 139.7 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ51CD-M3/H"
+			(at 139.7 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_diode_smd:DIOM4336X24N"
+			(at 140.97 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+			(at 143.51 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ51CD-M3/H"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND"
+			(at 137.16 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7de72f-2352-47eb-9870-d11503d46653")
+		)
+		(pin "2"
+			(uuid "b27ef172-f90c-42fc-a5fb-ad41ff644b80")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "D503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SMBJ51CD-M3/H_1")
+		(lib_id "0_diode:SMBJ51CD-M3/H")
+		(at 51.435 61.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9617e89-5e5c-4948-b44f-9427c61b8aa5")
+		(property "Reference" "D501"
+			(at 53.975 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ51CD-M3/H"
+			(at 53.975 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_diode_smd:DIOM4336X24N"
+			(at 55.245 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+			(at 57.785 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors"
+			(at 51.435 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 51.435 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ51CD-M3/H"
+			(at 51.435 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 51.435 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND"
+			(at 51.435 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f14ccae-ca83-493a-ad59-2cca5fa4ae50")
+		)
+		(pin "2"
+			(uuid "46b9a290-ac22-445e-bd38-075409612811")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 34.29 62.865 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce6db4dc-dd2c-4231-ac60-54e694b25e1c")
+		(property "Reference" "J501"
+			(at 31.75 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT90PW-M"
+			(at 31.75 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connectors:AMASS_XT90PW-M"
+			(at 34.29 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdec080e-9210-4804-86d7-ba5e15916bf7")
+		)
+		(pin "2"
+			(uuid "b1bf8ff1-f770-499b-b24c-e7cc043fb09c")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SMBJ51CD-M3/H_1")
+		(lib_id "0_diode:SMBJ51CD-M3/H")
+		(at 159.385 61.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e401a557-90dd-44f6-bfe2-2bece7ab53c1")
+		(property "Reference" "D504"
+			(at 161.925 60.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ51CD-M3/H"
+			(at 161.925 62.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_diode_smd:DIOM4336X24N"
+			(at 163.195 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+			(at 165.735 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors"
+			(at 159.385 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 159.385 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ51CD-M3/H"
+			(at 159.385 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digikey"
+			(at 159.385 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND"
+			(at 159.385 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d78afcc3-ed8e-4be0-afa9-f16d9951d78e")
+		)
+		(pin "2"
+			(uuid "daf982fe-9246-4994-8551-2e2354d5943a")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "D504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebf0a27a-e92e-4f7a-b80a-955442d54e08")
+		(property "Reference" "#PWR0501"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab6703db-891b-4430-913a-249a01561e01")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
