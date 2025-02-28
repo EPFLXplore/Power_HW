@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_279071"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-16:42:14)
+    (utime 2024-09-05-08:07:47)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "3555")
+)
+
+
+(pinAssign "ECS_279071"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-16:42:14)
+    (utime 2024-09-05-08:07:47)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_279071")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "3555")
+)
+
+
+(part "3555"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-01-16:42:14)
+    (utime 2024-09-05-08:07:47)
+    (packageRef "3555")
+    (pinAssignRef "ECS_279071")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "F")
+    (property "description" "Keystone Tin Nickel Plated Copper Through Hole PCB Mount Fuse Clip for 7.9 x 0.8mm Automotive Fuse")
+    (property "Mouser_Part_Number" "534-3555")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3555?qs=qOqV1E1P08QI697WpZIiyQ%3D%3D")
+    (property "Manufacturer_Name" "Keystone Electronics")
+    (property "Manufacturer_Part_Number" "3555")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/2/3555.pdf")
+    (property "compAreaTopHeight" 4.6)
+)
+
+

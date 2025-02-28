@@ -1,0 +1,175 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XT60PW-F"
+   (description "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow")
+   (family "CON")
+   (package "XT60PWF")
+   (attribute "Datasheet Link" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf")
+   (attribute "Geometry.Height" "8.4mm")
+   (attribute "Manufacturer_Name" "Amass")
+   (attribute "Manufacturer_Part_Number" "XT60PW-F")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "XT60PW-F")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "MH1" 3 PS)
+    (pin "MH2" 4 PS)
+   )
+  )
+  (symbol "XT60PW-F"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XT60PWF"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 13.6 16.35)
+      (pt -6.4 16.35)
+      (pt -6.4 -3.025)
+      (pt 13.6 -3.025)
+      (pt 13.6 16.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 4.6 -1.85)
+      (pt 9.6 -1.85)
+      (pt 11.1 1.5)
+      (pt 11.35 1.5)
+      (pt 11.35 3.5)
+      (pt 11.35 5)
+      (pt 11.35 7.65)
+      (pt -4.15 7.65)
+      (pt -4.15 1.5)
+      (pt -3.9 1.5)
+      (pt -2.4 -1.85)
+      (pt 4.6 -1.85))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 10.6 7.65)
+      (pt 10.6 15.35)
+      (pt -3.4 15.35)
+      (pt -3.4 7.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 10.6 8.5)
+      (pt 10.6 15.35)
+      (pt -3.4 15.35)
+      (pt -3.4 8.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 9.6 7.65)
+      (pt -2.4 7.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 11.35 4)
+      (pt 11.35 1.5)
+      (pt 11.1 1.5)
+      (pt 9.6 -1.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -2.55)
+      (arc (pt 0.000 -2.550) (pt -0.050 -2.650) (pt 0.050 -2.550) (start 180.0) (sweep 90.0))
+      (pt 0 -2.65)
+      (arc (pt 0.000 -2.650) (pt -0.050 -2.650) (pt 0.050 -2.550) (start 180.0) (sweep -90.0))
+      (pt 0 -2.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.15 4)
+      (pt -4.15 1.5)
+      (pt -3.9 1.5)
+      (pt -2.8 -1))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 7.200 0.000) (padstack 2))
+   (leg 3 (pt -3.150 6.000) (padstack 0))
+   (leg 4 (pt 10.350 6.000) (padstack 0))
+   (padstack 0
+    (hole 1.8)
+    (plated true)
+    (pad (layer TCOP) (round 2.700))
+    (pad (layer INNER) (round 2.700))
+    (pad (layer BCOP) (round 2.700))
+   )
+   (padstack 1
+    (hole 2.7)
+    (plated true)
+    (pad (layer TCOP) (square 4.050))
+    (pad (layer INNER) (round 4.050))
+    (pad (layer BCOP) (square 4.050))
+   )
+   (padstack 2
+    (hole 2.7)
+    (plated true)
+    (pad (layer TCOP) (round 4.050))
+    (pad (layer INNER) (round 4.050))
+    (pad (layer BCOP) (round 4.050))
+   )
+   (model "XT60PW-F.stp"
+    (euler 90 0 180)
+    (offset 3.5999999046325684 -0.09000000357627869 -0.029999999329447746)
+   )
+  )
+ )
+)

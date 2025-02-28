@@ -1,0 +1,170 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SQJQ160E-T1_GE3"
+   (description "MOSFET N-CHANNEL 60-V (D-S) 175C MOSFET")
+   (family "TRX")
+   (package "SQJQ160ET1_GE3")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/63059/sqjq160e.pdf")
+   (attribute "Geometry.Height" "1.65mm")
+   (attribute "Mouser Part Number" "78-SQJQ160E-T1_GE3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJQ160E-T1_GE3?qs=Wj%2FVkw3K%252BMDBWZlqh0rWDw%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "SQJQ160E-T1_GE3")
+   (gate
+    (symbol "SQJQ160E-T1_GE3")
+    (pin "G" 1 PS)
+    (pin "S_1" 2 PS)
+    (pin "S_2" 3 PS)
+    (pin "S_3" 4 PS)
+    (pin "D_1" 5 PS)
+    (pin "D_2" 6 PS)
+    (pin "D_3" 7 PS)
+    (pin "D_4" 8 PS)
+    (pin "D_5" 9 PS)
+   )
+  )
+  (symbol "SQJQ160E-T1_GE3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SQJQ160ET1_GE3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.95 3.11)
+      (pt 3.95 3.11)
+      (pt 3.95 -3.11)
+      (pt -3.95 -3.11)
+      (pt -3.95 3.11))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.2 5.245)
+      (pt 5.2 5.245)
+      (pt 5.2 -5.545)
+      (pt -5.2 -5.545)
+      (pt -5.2 5.245))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.2 -5)
+      (arc (pt -3.200 -5.000) (pt -3.200 -5.050) (pt -3.100 -4.950) (start 180.0) (sweep 180.0))
+      (pt -3.1 -5)
+      (arc (pt -3.100 -5.000) (pt -3.200 -5.050) (pt -3.100 -4.950) (start 180.0) (sweep .0))
+      (pt -3.2 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.95 3.11)
+      (pt 3.95 -3.11))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.95 3.11)
+      (pt -3.95 -3.11))))
+   (leg 1 (pt -3.000 -3.895) (padstack 0))
+   (leg 2 (pt -1.000 -3.895) (padstack 0))
+   (leg 3 (pt 1.000 -3.895) (padstack 0))
+   (leg 4 (pt 3.000 -3.895) (padstack 0))
+   (leg 5 (pt 3.028 3.200) (padstack 5))
+   (leg 6 (pt 2.175 3.895) (padstack 6))
+   (leg 7 (pt -2.175 3.895) (padstack 7))
+   (leg 8 (pt -3.028 3.200) (padstack 8))
+   (leg 9 (pt 0.000 0.930) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.280 1.300 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.534 0.690 0 0 90.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 4.050 0 0 0.000))
+   )
+   (padstack 7
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 4.050 0 0 0.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.534 0.690 0 0 90.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 3.850 6.820 0 0 0.000))
+   )
+   (model "SQJQ160E-T1_GE3.stp"
+    (euler 0 0 0)
+    (offset 0.029999999329447746 0.46000000834465027 0)
+   )
+  )
+ )
+)

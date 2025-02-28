@@ -1,0 +1,95 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "0448.500MR"
+   (description "Surface Mount Fuses 125VAC 0.5A .38ohms 448 NANO2")
+   (family "FUS")
+   (package "FUSC6127X294N")
+   (attribute "Datasheet Link" "https://www.mouser.in/datasheet/2/240/Littelfuse_Fuse_448_Datasheet_pdf-970935.pdf")
+   (attribute "Geometry.Height" "2.94mm")
+   (attribute "Mouser Part Number" "576-0448.500MR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0448.500MR?qs=sba%2FvSn%252BnuOI9c6%252BQVFrGA%3D%3D")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "0448.500MR")
+   (gate
+    (symbol "0448.500MR")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "0448.500MR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 500 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FUSC6127X294N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.76 1.725)
+      (pt 3.76 1.725)
+      (pt 3.76 -1.725)
+      (pt -3.76 -1.725)
+      (pt -3.76 1.725))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.05 1.345)
+      (pt 3.05 1.345)
+      (pt 3.05 -1.345)
+      (pt -3.05 -1.345)
+      (pt -3.05 1.345))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.245)
+      (pt 0 -1.245))))
+   (leg 1 (pt -2.5 0) (padstack 0))
+   (leg 2 (pt 2.5 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.02 2.95 0 0 90))
+   )
+   (model "0448.500MR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

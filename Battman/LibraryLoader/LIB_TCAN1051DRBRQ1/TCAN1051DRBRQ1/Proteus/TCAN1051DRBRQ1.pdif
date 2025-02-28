@@ -1,0 +1,153 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TCAN1051DRBRQ1"
+   (description "Automotive Fault Protected CAN Transceiver With Flexible Data-Rate")
+   (family "ANA")
+   (package "SON65P300X300X100-9N-D")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/TCAN1051-Q1")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "595-TCAN1051DRBRQ1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN1051DRBRQ1?qs=HXFqYaX1Q2zpm8gPQfcrEA%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TCAN1051DRBRQ1")
+   (gate
+    (symbol "TCAN1051DRBRQ1")
+    (pin "TXD" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "VCC" 3 PS)
+    (pin "RXD" 4 PS)
+    (pin "EP" 9 PS)
+    (pin "S" 8 PS)
+    (pin "CANH" 7 PS)
+    (pin "CANL" 6 PS)
+    (pin "NC" 5 NC)
+   )
+  )
+  (symbol "TCAN1051DRBRQ1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SON65P300X300X100-9N-D"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.125 1.8)
+      (pt 2.125 1.8)
+      (pt 2.125 -1.8)
+      (pt -2.125 -1.8)
+      (pt -2.125 1.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 0.75)
+      (pt -0.75 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -1.75 1.65) (pt -2 1.65)
+     )
+    )
+   )
+   (leg 1 (pt -1.45 0.975) (padstack 0))
+   (leg 2 (pt -1.45 0.325) (padstack 0))
+   (leg 3 (pt -1.45 -0.325) (padstack 0))
+   (leg 4 (pt -1.45 -0.975) (padstack 0))
+   (leg 5 (pt 1.45 -0.975) (padstack 2))
+   (leg 6 (pt 1.45 -0.325) (padstack 2))
+   (leg 7 (pt 1.45 0.325) (padstack 2))
+   (leg 8 (pt 1.45 0.975) (padstack 2))
+   (leg 9 (pt 0 0) (padstack 9))
+   (padstack 0
+    (pad (layer TCOP) (path (pt -0.425 0.175) (arc (pt 0.25 0.175) (pt 0.075 -0.175) (pt 0.425 0.175) (start -180) (sweep 90)) (pt 0.25 -0.175) (pt -0.425 -0.175) (pt -0.425 0.175)))
+   )
+   (padstack 1
+    (pad (layer TCOP) (path (pt -0.175 -0.425) (arc (pt -0.175 0.25) (pt -0.175 0.075) (pt 0.175 0.425) (start -180) (sweep 180)) (pt 0.175 0.25) (pt 0.175 -0.425) (pt -0.175 -0.425)))
+   )
+   (padstack 2
+    (pad (layer TCOP) (path (pt 0.425 -0.175) (arc (pt -0.25 -0.175) (pt -0.425 -0.175) (pt -0.075 0.175) (start -180) (sweep 270)) (pt -0.25 0.175) (pt 0.425 0.175) (pt 0.425 -0.175)))
+   )
+   (padstack 3
+    (pad (layer TCOP) (path (pt 0.175 0.425) (arc (pt 0.175 -0.25) (pt -0.175 -0.425) (pt 0.175 -0.075) (start -180) (sweep 0)) (pt -0.175 -0.25) (pt -0.175 0.425) (pt 0.175 0.425)))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 1.65 2.45 0 0 90))
+   )
+   (model "TCAN1051DRBRQ1.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

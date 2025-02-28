@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_702106"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-11-09:16:39)
+    (utime 2025-02-04-11:25:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1061TR")
+)
+
+
+(pinAssign "ECS_702106"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-11-09:16:39)
+    (utime 2025-02-04-11:25:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_702106")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1061TR")
+)
+
+
+(part "1061TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-11-09:16:39)
+    (utime 2025-02-04-11:25:39)
+    (packageRef "1061TR")
+    (pinAssignRef "ECS_702106")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "U")
+    (property "description" "Battery Holder (Open) Coin, 20.0mm 1, 2 Cell SMD (SMT) Tab")
+    (property "Mouser_Part_Number" "534-1061TR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1061TR?qs=q0tsjPZWdm8mEkIEudXsxA%3D%3D")
+    (property "Manufacturer_Name" "Keystone Electronics")
+    (property "Manufacturer_Part_Number" "1061TR")
+    (property "Datasheet_Link" "https://www.keyelco.com/product-pdf.cfm?p=3845")
+    (property "compAreaTopHeight" 7.62)
+)
+
+
