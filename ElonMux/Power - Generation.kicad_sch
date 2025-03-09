@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Charge_Manager_SYM:IMC0805ER4R7J01"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,20 +115,8 @@
 			)
 			(symbol "IMC0805ER4R7J01_0_1"
 				(arc
-					(start -1.27 0)
+					(start -2.54 0)
 					(mid -1.905 0.6323)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -0.635 0.6323)
 					(end -1.27 0)
 					(stroke
 						(width 0)
@@ -137,8 +127,8 @@
 					)
 				)
 				(arc
-					(start 1.27 0)
-					(mid 0.635 0.6323)
+					(start -1.27 0)
+					(mid -0.635 0.6323)
 					(end 0 0)
 					(stroke
 						(width 0)
@@ -149,9 +139,21 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 1.905 0.6323)
+					(start 0 0)
+					(mid 0.635 0.6323)
 					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -199,9 +201,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:SM1206SRC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -305,10 +310,22 @@
 			(symbol "SM1206SRC_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -329,7 +346,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+						(xy 0 -1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -341,22 +358,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -402,11 +407,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -504,9 +514,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -579,7 +592,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -591,7 +604,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -640,9 +653,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -713,7 +729,7 @@
 			(symbol "FerriteBead_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
 					)
 					(stroke
 						(width 0)
@@ -737,7 +753,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+						(xy 0 -1.27) (xy 0 -1.2192)
 					)
 					(stroke
 						(width 0)
@@ -786,9 +802,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -907,6 +926,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LTC3126EFE#TRPBF:LTC3126EFE#TRPBF"
 			(exclude_from_sim no)
@@ -1006,240 +1026,6 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 -39.37 180)
-					(length 5.08)
-					(name "~{VALID2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -29.21 180)
-					(length 5.08)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -41.91 180)
-					(length 5.08)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -34.29 180)
-					(length 5.08)
-					(name "~{PRIORITY}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "PVIN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -26.67 0)
-					(length 5.08)
-					(name "ENA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -1.27 180)
-					(length 5.08)
-					(name "BST2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 6.35 180)
-					(length 5.08)
-					(name "COM2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -10.16 180)
-					(length 5.08)
-					(name "SW_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -50.8 90)
-					(length 5.08)
-					(name "PGND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 -50.8 90)
-					(length 5.08)
-					(name "PGND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -24.13 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -6.35 180)
-					(length 5.08)
-					(name "SW_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 6.35 0)
 					(length 5.08)
 					(name "COM1"
@@ -1268,24 +1054,6 @@
 						)
 					)
 					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -41.91 0)
-					(length 5.08)
-					(name "DIODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1330,6 +1098,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "PVIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "VIN2"
@@ -1340,60 +1126,6 @@
 						)
 					)
 					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -39.37 0)
-					(length 5.08)
-					(name "PWM/SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -36.83 180)
-					(length 5.08)
-					(name "~{VALID1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -50.8 90)
-					(length 5.08)
-					(name "PGND_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1420,16 +1152,52 @@
 					)
 				)
 				(pin passive line
-					(at 40.64 -12.7 180)
+					(at 0 -24.13 0)
 					(length 5.08)
-					(name "EXTVCC"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -26.67 0)
+					(length 5.08)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -29.21 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1474,16 +1242,34 @@
 					)
 				)
 				(pin passive line
-					(at 0 -29.21 0)
+					(at 0 -39.37 0)
 					(length 5.08)
-					(name "VREF"
+					(name "PWM/SYNC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -41.91 0)
+					(length 5.08)
+					(name "DIODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1510,6 +1296,150 @@
 					)
 				)
 				(pin passive line
+					(at 20.32 -50.8 90)
+					(length 5.08)
+					(name "PGND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -50.8 90)
+					(length 5.08)
+					(name "PGND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -50.8 90)
+					(length 5.08)
+					(name "PGND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 6.35 180)
+					(length 5.08)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -1.27 180)
+					(length 5.08)
+					(name "BST2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -6.35 180)
+					(length 5.08)
+					(name "SW_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -10.16 180)
+					(length 5.08)
+					(name "SW_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 5.08)
+					(name "EXTVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 40.64 -20.32 180)
 					(length 5.08)
 					(name "FB"
@@ -1527,13 +1457,108 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 40.64 -29.21 180)
+					(length 5.08)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -34.29 180)
+					(length 5.08)
+					(name "~{PRIORITY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -36.83 180)
+					(length 5.08)
+					(name "~{VALID1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -39.37 180)
+					(length 5.08)
+					(name "~{VALID2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -41.91 180)
+					(length 5.08)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1624,12 +1649,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1720,7 +1750,460 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 67.31 77.47)
+		(end 84.455 82.55)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e2e16e9-807e-4224-aad1-dac488f70db4)
+	)
+	(rectangle
+		(start 67.31 54.61)
+		(end 83.82 59.69)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fdc4586-f521-4cc2-b4ac-2da9ff677d8e)
+	)
+	(rectangle
+		(start 263.525 65.405)
+		(end 270.51 69.215)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d7b5eb7-e8ed-49b7-b63e-03c7c44fcc34)
+	)
+	(rectangle
+		(start 213.995 78.105)
+		(end 220.345 86.36)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64050f20-bfb1-40d6-bda8-172d033cf807)
+	)
+	(rectangle
+		(start 92.71 156.21)
+		(end 139.065 196.85)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 775da759-483e-44d7-ab25-2448ad8a954e)
+	)
+	(rectangle
+		(start 130.175 97.79)
+		(end 137.795 100.33)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 93bff35e-35b3-407d-9dbe-d11f79f67152)
+	)
+	(rectangle
+		(start 31.75 30.48)
+		(end 280.035 149.86)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 109.855 142.875)
+		(end 121.92 147.955)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0640611-068f-4e3e-b134-1f3a2bb1ec82)
+	)
+	(text "LTC3126 Datasheet p.22 (layout)"
+		(exclude_from_sim no)
+		(at 141.986 165.862 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/3126f.pdf")
+		)
+		(uuid "5848659b-3166-4aa4-a475-442a6d238033")
+	)
+	(text "LTC3126 Datasheet p.24 (schematic)"
+		(exclude_from_sim no)
+		(at 141.986 162.814 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/3126f.pdf")
+		)
+		(uuid "e6fea1fe-2cf8-4a39-929e-14f4aedafb02")
+	)
+	(text "Ferrite Beads Demystified"
+		(exclude_from_sim no)
+		(at 141.986 168.91 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.analog.com/media/en/analog-dialogue/volume-50/number-1/articles/ferrite-beads-demystified.pdf")
+		)
+		(uuid "ed67ad5c-7cf7-474f-8a34-6e7780876f5e")
+	)
+	(text_box "DESIGN NOTE:\n\nHigher switching frequency like 2Mhz induce more switching losses, but smaller inductance meaning smaller PCB footprint."
+		(exclude_from_sim no)
+		(at 110.49 116.205 0)
+		(size 20.955 19.05)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "148737dd-e808-459c-a66a-d8f2ea2e11da")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 92.075 187.96 0)
+		(size 47.625 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "195e16be-b047-429d-976e-2cde3cfa2f92")
+	)
+	(text_box "LAYOUT NOTE:\nPlace each components as close \nas possible to minimize size of: \n- input loop\n- output loop\n- power switching loop (important)\n- rectifier loop (important)"
+		(exclude_from_sim no)
+		(at 187.325 38.735 0)
+		(size 40.64 20.32)
+		(margins 1.893 1.893 1.893 1.893)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "34f82e54-4217-4d14-a0e5-49efcb1e034d")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 92.71 177.8 0)
+		(size 64.77 8.255)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "553554aa-2f27-407e-b397-a8c6cbd0eeb7")
+	)
+	(text_box "Filtered Power Rails"
+		(exclude_from_sim no)
+		(at 91.44 153.67 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ade7059-7878-46c0-977f-17eb3c02b533")
+	)
+	(text_box "DESIGN NOTE - 3V3 STATUS LED\nSM1206SRC has a typical luminous \nintensity of 28mcd (millicandela) @ 20 mA.\nTyp. Vf = 1.85V Max Vf = 2.3V\n\nTyp. If = (3.3V - 1.85V)/56hm ≈ 26 mA\nMax. If = (3.3V - 2.3V)/56hm ≈ 18 mA\nP = 1.85V×26mA ≈ 48 mW < 69 mW (max rating)"
+		(exclude_from_sim no)
+		(at 235.585 116.205 0)
+		(size 42.545 19.05)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9f114302-c766-4a16-8e0c-e0111e50fda7")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 100.965 15.24 0)
+		(size 99.06 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "DESIGN NOTE - LTC3126 status pins:\n\nPRIORITY, VALID1, VALID2 & PGOOD are open drain -> pull-up resistors.\nPRIORITY is driven low when the buck converter is currently using the priority input, VIN1.\nVALID1 is driven low when VIN1 is above the internal fixed UVLO threshold (2.54V)\nVALID2 is driven low when VIN2 is above the internal fixed UVLO threshold (2.54V)\nPGOOD is driven low if the output voltage is more than 8.7% below or more than 9.8% above the regulation voltage or whenever the buck converter is disabled."
+		(exclude_from_sim no)
+		(at 133.35 116.205 0)
+		(size 100.965 19.05)
+		(margins 1.3462 1.3462 1.3462 1.3462)
+		(stroke
+			(width 0.7874)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b4936f7a-e258-4ed1-a9fe-0274a11d8d24")
+	)
+	(text_box "DESIGN NOTE:\n\nDIODE to GND activate priority mode. VIN1 (+VOUT) will be used first."
+		(exclude_from_sim no)
+		(at 88.265 116.205 0)
+		(size 20.32 19.05)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b4de4970-c9ba-452e-880f-1ca75d93e6e2")
+	)
+	(text_box "3.3V, 750kHz synchronous step-down regulator with no-loss input PowerPath"
+		(exclude_from_sim no)
+		(at 40.005 141.605 0)
+		(size 240.03 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
+	)
+	(text_box "DESIGN NOTE - Ferrite Beads: \n\nFerite Beads needs to be used with care, as they can cause more harm than good by producing unwanted resonance\nin a circuit when used with high Q bulk capacitors. Adding a large capacitor (relative to the following bulk capacitor) with a resistor in series after the bead mitigate this LC resonnance effect. \n\n4.7uF capacitors are used for the input bulk capacitors of the LTC3126 as they provide a trade of between low resonance effect and capability to smooth the incoming power rail."
+		(exclude_from_sim no)
+		(at 33.655 116.205 0)
+		(size 52.705 31.75)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c291e577-88e5-4b8d-8f42-6bf8d71f690d")
+	)
+	(text_box "DESIGN NOTE:\n\n87% EFFICIENCY, VIN=24V, 1A LOAD\n330mV DROPOUT AT 1A LOAD\n660mV DROPOUT AT 2A LOAD\n\nVOUT 2.5A max"
+		(exclude_from_sim no)
+		(at 236.855 38.735 0)
+		(size 40.64 20.32)
+		(margins 1.643 1.643 1.643 1.643)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cde6ca41-ad20-4e1e-b42e-dfd37f0ae083")
+	)
+	(text_box "DESIGN NOTE - Ferrite Beads: \n\nLT-spice filter frequency response analysis was performed. The plot shows significant attenuation starting near 100 kHz, which is excellent for suppressing switching noise harmonics. This means most of the noise generated at and above the switching frequency (750 kHz) is effectively filtered. The damping resistor and capacitor values effectively mitigate the resonance effect for both inputs.\n\nSimulation file can be found in the computations folder."
+		(exclude_from_sim no)
+		(at 17.145 165.1 0)
+		(size 36.83 29.21)
+		(margins 1.3573 1.3573 1.3573 1.3573)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.143 1.143)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d7727c14-fffb-4470-ab89-63799029179b")
 	)
 	(junction
 		(at 194.31 67.31)
@@ -3246,110 +3729,6 @@
 			(type default)
 		)
 		(uuid "fcb1835c-1116-47c8-a22e-c104e4df699e")
-	)
-	(rectangle
-		(start 67.31 77.47)
-		(end 84.455 82.55)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0e2e16e9-807e-4224-aad1-dac488f70db4)
-	)
-	(rectangle
-		(start 67.31 54.61)
-		(end 83.82 59.69)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4fdc4586-f521-4cc2-b4ac-2da9ff677d8e)
-	)
-	(rectangle
-		(start 263.525 65.405)
-		(end 270.51 69.215)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5d7b5eb7-e8ed-49b7-b63e-03c7c44fcc34)
-	)
-	(rectangle
-		(start 213.995 78.105)
-		(end 220.345 86.36)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 64050f20-bfb1-40d6-bda8-172d033cf807)
-	)
-	(rectangle
-		(start 92.71 156.21)
-		(end 139.065 196.85)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 775da759-483e-44d7-ab25-2448ad8a954e)
-	)
-	(rectangle
-		(start 130.175 97.79)
-		(end 137.795 100.33)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 93bff35e-35b3-407d-9dbe-d11f79f67152)
-	)
-	(rectangle
-		(start 31.75 30.48)
-		(end 280.035 149.86)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(rectangle
-		(start 109.855 142.875)
-		(end 121.92 147.955)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d0640611-068f-4e3e-b134-1f3a2bb1ec82)
 	)
 	(image
 		(at 52.07 175.895)
@@ -18360,343 +18739,26 @@
 			"P+n1l7F+1utPvf7W64+9/upr2r3+3OvvNnfs5w/9/KWfP/lNFOeLEPr5Wz9/6+dv/fytn7/187d+"
 			"/tbP3/r52/P1/A1/nfPLX/6SvSv21ukrX/my8V8+/f7v//7pX/7L3z/9zu987vRbv/Vbp3/+z//f"
 			"0/d8z793+v6Pf+z0vd/7vafv+q7vPL3nG94DRyR9yb6w5u9sydoaXmL7/wHwVrNB3erMvAAAAABJ"
-			"RU5ErkJggg=="
+			"RU5ErkJggmQAAAAyAAAARgAAAGIAAAB5AAAAKwAAAG4AAAB2AAAAUAAAAE4AAAA3AAAANQAAAEcA"
+			"AABMAAAANgAAACsAAABkAAAAVgAAAEgAAABaAAAAOQAAADQAAAA4AAAAdAAAADAAAAB2AAAAZAAA"
+			"ADAAAABGAAAAcgAAAHYAAABjAAAATQAAADgAAABsAAAAVQAAAFkAAAB3AAAAdgAAAHAAAAA4AAAA"
+			"dgAAAEoAAAA0AAAAWQAAAGkAAABjAAAATwAAAGYAAABkAAAAMQAAAG8AAAA1AAAANwAAAEsAAABT"
+			"AAAAbgAAAFcAAAB4AAAAawAAAHQAAABtAAAAZAAAAGMAAAAvAAAAOAAAADMAAAA5AAAAMQAAADUA"
+			"AABYAAAALwAAAHMAAAByAAAAQwAAADcAAAAvAAAAZgAAAFYAAAAvAAAAQQAAAG0AAABPAAAAbgAA"
+			"AGQAAABzAAAARgAAAFYAAABlAAAANQAAAGoAAAA5AAAASAAAAE0AAAB2AAAAdAAAAC8AAAA5AAAA"
+			"dgAAAC8AAABzAAAALwAAADYAAAB0AAAAcAAAAC8AAABzAAAALwAAAHgAAAByAAAANgAAADUAAABw"
+			"AAAAWgAAAEQAAAB6AAAAMwAAAEEAAAA3AAAAegAAAEgAAABkAAAAYgAAAEEAAABmAAAATQAAAFcA"
+			"AABIAAAATgAAAHAAAABDAAAANwAAAGEAAAA1AAAALwAAADEAAABQAAAAVAAAAEMAAABrAAAATwAA"
+			"AFgAAABUAAAANQAAAC8AAABwAAAAcAAAAGoAAAA0AAAAUAAAAEsAAAB2AAAANQAAAE4AAABGAAAA"
+			"aAAAAGoAAAArAAAAQQAAAFQAAAB6AAAAZQAAAE8AAAAzAAAAawAAAEgAAAAvAAAAOQAAAFUAAABx"
+			"AAAASgAAAHcAAABaAAAAaAAAAFcAAABQAAAAcgAAAGwAAABpAAAAMQAAADAAAABZAAAAagAAADQA"
+			"AAB1AAAALwAAAHAAAAB3AAAAOQAAAFgAAABqAAAAdgAAAG4AAABqAAAAeQAAAHUAAAB2AAAAcwAA"
+			"AGoAAAA5AAAASAAAAHIAAAAzAAAAdAAAADgAAAA4AAAATQAAADkAAAAvAAAANwAAAHYAAABXAAAA"
+			"dgAAAGYAAAAvAAAAMwAAAGkAAABpAAAAMQAAAC8AAAA4AAAAWQAAAHYAAABuAAAAaQAAAFcAAABq"
+			"AAAAdAAAADQAAABSAAAAdgAAAFUAAABDAAAAeQAAAHYAAABIAAAAcQAAAFEAAABmAAAATwAAAGUA"
+			"AABOAAAAMQAAAHoAAABhAAAAWgAAAG8AAAAwAAAAVwAAAFoAAABiAAAAbQAAADkAAABGAAAASwAA"
+			"AFQAAABkAA=="
 		)
-	)
-	(text_box "DESIGN NOTE:\n\nHigher switching frequency like 2Mhz induce more switching losses, but smaller inductance meaning smaller PCB footprint."
-		(exclude_from_sim no)
-		(at 110.49 116.205 0)
-		(size 20.955 19.05)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "148737dd-e808-459c-a66a-d8f2ea2e11da")
-	)
-	(text_box "Test Points"
-		(exclude_from_sim no)
-		(at 92.075 187.96 0)
-		(size 47.625 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "195e16be-b047-429d-976e-2cde3cfa2f92")
-	)
-	(text_box "LAYOUT NOTE:\nPlace each components as close \nas possible to minimize size of: \n- input loop\n- output loop\n- power switching loop (important)\n- rectifier loop (important)"
-		(exclude_from_sim no)
-		(at 187.325 38.735 0)
-		(size 40.64 20.32)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "34f82e54-4217-4d14-a0e5-49efcb1e034d")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 92.71 177.8 0)
-		(size 64.77 8.255)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "553554aa-2f27-407e-b397-a8c6cbd0eeb7")
-	)
-	(text_box "Filtered Power Rails"
-		(exclude_from_sim no)
-		(at 91.44 153.67 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ade7059-7878-46c0-977f-17eb3c02b533")
-	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LED\nSM1206SRC has a typical luminous \nintensity of 28mcd (millicandela) @ 20 mA.\nTyp. Vf = 1.85V Max Vf = 2.3V\n\nTyp. If = (3.3V - 1.85V)/56hm ≈ 26 mA\nMax. If = (3.3V - 2.3V)/56hm ≈ 18 mA\nP = 1.85V×26mA ≈ 48 mW < 69 mW (max rating)"
-		(exclude_from_sim no)
-		(at 235.585 116.205 0)
-		(size 42.545 19.05)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "9f114302-c766-4a16-8e0c-e0111e50fda7")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 100.965 15.24 0)
-		(size 99.06 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "DESIGN NOTE - LTC3126 status pins:\n\nPRIORITY, VALID1, VALID2 & PGOOD are open drain -> pull-up resistors.\nPRIORITY is driven low when the buck converter is currently using the priority input, VIN1.\nVALID1 is driven low when VIN1 is above the internal fixed UVLO threshold (2.54V)\nVALID2 is driven low when VIN2 is above the internal fixed UVLO threshold (2.54V)\nPGOOD is driven low if the output voltage is more than 8.7% below or more than 9.8% above the regulation voltage or whenever the buck converter is disabled."
-		(exclude_from_sim no)
-		(at 133.35 116.205 0)
-		(size 100.965 19.05)
-		(stroke
-			(width 0.7874)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b4936f7a-e258-4ed1-a9fe-0274a11d8d24")
-	)
-	(text_box "DESIGN NOTE:\n\nDIODE to GND activate priority mode. VIN1 (+VOUT) will be used first."
-		(exclude_from_sim no)
-		(at 88.265 116.205 0)
-		(size 20.32 19.05)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b4de4970-c9ba-452e-880f-1ca75d93e6e2")
-	)
-	(text_box "3.3V, 750kHz synchronous step-down regulator with no-loss input PowerPath"
-		(exclude_from_sim no)
-		(at 40.005 141.605 0)
-		(size 240.03 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
-	)
-	(text_box "DESIGN NOTE - Ferrite Beads: \n\nFerite Beads needs to be used with care, as they can cause more harm than good by producing unwanted resonance\nin a circuit when used with high Q bulk capacitors. Adding a large capacitor (relative to the following bulk capacitor) with a resistor in series after the bead mitigate this LC resonnance effect. \n\n4.7uF capacitors are used for the input bulk capacitors of the LTC3126 as they provide a trade of between low resonance effect and capability to smooth the incoming power rail."
-		(exclude_from_sim no)
-		(at 33.655 116.205 0)
-		(size 52.705 31.75)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c291e577-88e5-4b8d-8f42-6bf8d71f690d")
-	)
-	(text_box "DESIGN NOTE:\n\n87% EFFICIENCY, VIN=24V, 1A LOAD\n330mV DROPOUT AT 1A LOAD\n660mV DROPOUT AT 2A LOAD\n\nVOUT 2.5A max"
-		(exclude_from_sim no)
-		(at 236.855 38.735 0)
-		(size 40.64 20.32)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "cde6ca41-ad20-4e1e-b42e-dfd37f0ae083")
-	)
-	(text_box "DESIGN NOTE - Ferrite Beads: \n\nLT-spice filter frequency response analysis was performed. The plot shows significant attenuation starting near 100 kHz, which is excellent for suppressing switching noise harmonics. This means most of the noise generated at and above the switching frequency (750 kHz) is effectively filtered. The damping resistor and capacitor values effectively mitigate the resonance effect for both inputs.\n\nSimulation file can be found in the computations folder."
-		(exclude_from_sim no)
-		(at 17.145 165.1 0)
-		(size 36.83 29.21)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type color)
-			(color 194 194 194 1)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.143 1.143)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d7727c14-fffb-4470-ab89-63799029179b")
-	)
-	(text "LTC3126 Datasheet p.22 (layout)"
-		(exclude_from_sim no)
-		(at 141.986 165.862 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/3126f.pdf")
-		)
-		(uuid "5848659b-3166-4aa4-a475-442a6d238033")
-	)
-	(text "LTC3126 Datasheet p.24 (schematic)"
-		(exclude_from_sim no)
-		(at 141.986 162.814 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/3126f.pdf")
-		)
-		(uuid "e6fea1fe-2cf8-4a39-929e-14f4aedafb02")
-	)
-	(text "Ferrite Beads Demystified"
-		(exclude_from_sim no)
-		(at 141.986 168.91 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.analog.com/media/en/analog-dialogue/volume-50/number-1/articles/ferrite-beads-demystified.pdf")
-		)
-		(uuid "ed67ad5c-7cf7-474f-8a34-6e7780876f5e")
 	)
 	(label "SW_3V3"
 		(at 166.37 63.5 0)

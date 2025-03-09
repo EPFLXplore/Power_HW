@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A3")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Charge_Manager_SYM:74439323010"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -113,20 +115,8 @@
 			)
 			(symbol "74439323010_0_1"
 				(arc
-					(start -1.27 0)
+					(start -2.54 0)
 					(mid -1.905 0.6323)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -0.635 0.6323)
 					(end -1.27 0)
 					(stroke
 						(width 0)
@@ -137,8 +127,8 @@
 					)
 				)
 				(arc
-					(start 1.27 0)
-					(mid 0.635 0.6323)
+					(start -1.27 0)
+					(mid -0.635 0.6323)
 					(end 0 0)
 					(stroke
 						(width 0)
@@ -149,9 +139,21 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 1.905 0.6323)
+					(start 0 0)
+					(mid 0.635 0.6323)
 					(end 1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 0)
+					(mid 1.905 0.6323)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -199,6 +201,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:BQ25756E"
 			(exclude_from_sim no)
@@ -260,384 +263,6 @@
 					)
 				)
 				(pin input line
-					(at -41.91 -12.7 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 44.45 -10.16 180)
-					(length 5.08)
-					(name "ILIM_HIZ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 44.45 1.27 180)
-					(length 5.08)
-					(name "FBG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 44.45 8.89 180)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 44.45 11.43 180)
-					(length 5.08)
-					(name "SRN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 44.45 13.97 180)
-					(length 5.08)
-					(name "SRP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -6.35 -33.02 90)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -3.81 -33.02 90)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 -33.02 90)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 26.67 30.48 270)
-					(length 5.08)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 36.83 30.48 270)
-					(length 5.08)
-					(name "HIDRV2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -41.91 -15.24 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 31.75 30.48 270)
-					(length 5.08)
-					(name "BTST2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 21.59 30.48 270)
-					(length 5.08)
-					(name "LODRV2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 3.81 -33.02 90)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -41.91 -3.81 0)
-					(length 5.08)
-					(name "DRV_SUP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -41.91 -6.35 0)
-					(length 5.08)
-					(name "REGN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 30.48 270)
-					(length 5.08)
-					(name "LODRV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -29.21 30.48 270)
-					(length 5.08)
-					(name "BTST1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -34.29 30.48 270)
-					(length 5.08)
-					(name "HIDRV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -24.13 30.48 270)
-					(length 5.08)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -41.91 16.51 0)
 					(length 5.08)
 					(name "ACN"
@@ -648,24 +273,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -41.91 -17.78 0)
-					(length 5.08)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -684,24 +291,6 @@
 						)
 					)
 					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 -33.02 90)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -781,17 +370,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 44.45 -15.24 180)
+				(pin power_out line
+					(at -41.91 -3.81 0)
 					(length 5.08)
-					(name "FSW_SYNC"
+					(name "DRV_SUP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,17 +388,89 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 6.35 -33.02 90)
+				(pin power_out line
+					(at -41.91 -6.35 0)
 					(length 5.08)
-					(name "Thermal_Pad"
+					(name "REGN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -41.91 -12.7 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -41.91 -15.24 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -41.91 -17.78 0)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -41.91 -20.32 0)
+					(length 5.08)
+					(name "~{PG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -854,16 +515,52 @@
 					)
 				)
 				(pin output line
-					(at -41.91 -20.32 0)
+					(at -34.29 30.48 270)
 					(length 5.08)
-					(name "~{PG}"
+					(name "HIDRV1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -29.21 30.48 270)
+					(length 5.08)
+					(name "BTST1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -24.13 30.48 270)
+					(length 5.08)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -882,6 +579,276 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -19.05 30.48 270)
+					(length 5.08)
+					(name "LODRV1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -6.35 -33.02 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -3.81 -33.02 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -1.27 -33.02 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -33.02 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -33.02 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -33.02 90)
+					(length 5.08)
+					(name "Thermal_Pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 21.59 30.48 270)
+					(length 5.08)
+					(name "LODRV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 26.67 30.48 270)
+					(length 5.08)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 31.75 30.48 270)
+					(length 5.08)
+					(name "BTST2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 36.83 30.48 270)
+					(length 5.08)
+					(name "HIDRV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 13.97 180)
+					(length 5.08)
+					(name "SRP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 11.43 180)
+					(length 5.08)
+					(name "SRN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 8.89 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 44.45 1.27 180)
+					(length 5.08)
+					(name "FBG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -908,6 +875,24 @@
 					)
 				)
 				(pin input line
+					(at 44.45 -10.16 180)
+					(length 5.08)
+					(name "ILIM_HIZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 44.45 -12.7 180)
 					(length 5.08)
 					(name "ICHG"
@@ -925,10 +910,31 @@
 						)
 					)
 				)
+				(pin input line
+					(at 44.45 -15.24 180)
+					(length 5.08)
+					(name "FSW_SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:SM1206SRC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1032,10 +1038,22 @@
 			(symbol "SM1206SRC_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1056,7 +1074,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+						(xy 0 -1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1068,22 +1086,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1129,6 +1135,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:Solder_Holes_2x1_22AWG"
 			(exclude_from_sim no)
@@ -1179,7 +1186,7 @@
 			)
 			(symbol "Solder_Holes_2x1_22AWG_0_1"
 				(circle
-					(center 1.905 -1.27)
+					(center 1.905 1.27)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1190,7 +1197,7 @@
 					)
 				)
 				(circle
-					(center 1.905 1.27)
+					(center 1.905 -1.27)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -1239,10 +1246,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Conn_01x02_Mounting_1"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1348,7 +1358,7 @@
 			(symbol "Conn_01x02_Mounting_1_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy 3.81 -5.08)
+						(xy -1.27 2.54) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1360,7 +1370,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy 3.81 2.54)
+						(xy -1.27 -5.08) (xy 3.81 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1373,14 +1383,14 @@
 			)
 			(symbol "Conn_01x02_Mounting_1_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -1395,14 +1405,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1478,11 +1488,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1580,9 +1595,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1655,7 +1673,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1667,7 +1685,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1716,11 +1734,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1825,9 +1848,9 @@
 					)
 				)
 				(arc
-					(start 2.032 -1.27)
+					(start -2.032 -1.27)
 					(mid 0 -0.5572)
-					(end -2.032 -1.27)
+					(end 2.032 -1.27)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -1875,11 +1898,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:NetTie_2"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1996,10 +2024,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Q_NMOS_SGD"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2060,18 +2091,6 @@
 			(symbol "Q_NMOS_SGD_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -2084,7 +2103,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2108,34 +2139,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2166,6 +2173,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -2190,59 +2254,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Q_NMOS_SGD_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.08)
@@ -2279,10 +2292,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -2401,11 +2435,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Small_Open"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -2496,9 +2535,9 @@
 			)
 			(symbol "Jumper_2_Small_Open_0_1"
 				(arc
-					(start 0.762 1.0196)
+					(start -0.762 1.0196)
 					(mid 0 1.2729)
-					(end -0.762 1.0196)
+					(end 0.762 1.0196)
 					(stroke
 						(width 0)
 						(type default)
@@ -2546,6 +2585,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PMEG4030EXEX_1"
 			(exclude_from_sim no)
@@ -2688,24 +2728,6 @@
 			)
 			(symbol "PMEG4030EXEX_1_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -2723,13 +2745,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2801,7 +2846,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2813,7 +2858,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2844,12 +2889,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2940,12 +2990,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3036,10 +3091,987 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "CHARGER_OPERATION"
 		(members "PGn" "INTn")
+	)
+	(rectangle
+		(start 328.295 214.63)
+		(end 399.415 215.392)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid 198dfc04-214b-406e-9a67-b39bc6062cd1)
+	)
+	(rectangle
+		(start 140.97 53.975)
+		(end 164.465 97.155)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34320bda-27eb-412e-ba6f-7611bffecc75)
+	)
+	(rectangle
+		(start 22.86 39.37)
+		(end 71.12 140.335)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44ff0c90-6cf7-4cd4-abd1-9c39517d546b)
+	)
+	(rectangle
+		(start 70.485 274.955)
+		(end 80.01 278.13)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6eefed4c-79da-4f4c-822a-534bde18300c)
+	)
+	(rectangle
+		(start 70.485 278.13)
+		(end 80.01 281.305)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b23ff550-48f8-4bba-a22d-897d9c362c77)
+	)
+	(rectangle
+		(start 282.575 53.34)
+		(end 306.07 101.6)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b64a8a65-bd94-4b5e-811a-6d577df89758)
+	)
+	(rectangle
+		(start 86.995 219.075)
+		(end 402.59 29.21)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 94.615 174.625)
+		(end 137.16 188.595)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de209a73-474f-4260-9663-2cdc60fdcf29)
+	)
+	(rectangle
+		(start 328.295 174.625)
+		(end 399.415 175.387)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 1)
+		)
+		(uuid e295a155-d584-4ee5-8bfd-9085101c1446)
+	)
+	(text "ORANGE LED"
+		(exclude_from_sim no)
+		(at 356.108 221.996 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3048)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "2f90f915-ccfa-485a-a737-ead290254944")
+	)
+	(text "Gate drive voltage: 5V"
+		(exclude_from_sim no)
+		(at 222.504 106.172 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "66c8f977-28e4-49ba-8681-a758739b9cfb")
+	)
+	(text "24V fan holes"
+		(exclude_from_sim no)
+		(at 181.102 40.64 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9afc8f9b-5daa-4eeb-bab6-50b0d3dea99e")
+	)
+	(text "Detailled computations are availaible \nin the computations folder, using TI's \nprovided tool."
+		(exclude_from_sim no)
+		(at 264.668 253.746 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0668a5d-4bf9-4fd8-ac4d-1013a289fa64")
+	)
+	(text "GREEN LED"
+		(exclude_from_sim no)
+		(at 395.986 222.25 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3048)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "f7feb71c-5913-448f-bc66-4d047a8a84e4")
+	)
+	(text_box "28,7V"
+		(exclude_from_sim no)
+		(at 374.65 199.39 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0358a64c-431b-41ef-917f-a9608cfe813d")
+	)
+	(text_box "A 0.47-μF ceramic capacitor is placed from ACN to ACP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the ACN and ACP pin to PGND for common-mode filtering."
+		(exclude_from_sim no)
+		(at 126.365 30.48 0)
+		(size 40.64 18.415)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "05b7df15-c4f0-485b-a57c-0b0ddf9a5c07")
+	)
+	(text_box "Bridge Driver"
+		(exclude_from_sim no)
+		(at 24.13 54.61 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "08f42850-01a3-47fa-bf9b-837e84295d8e")
+	)
+	(text_box "A 0.47-μF ceramic capacitor is placed from SRN to SRP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the SRN and SRP pin to PGND for common-mode filtering.\n\nDifferential-Mode Cutoff  f_{c,diff} = 1 / (2pi * (R_{+} + R_{-}) * C_{diff}) = 1 / (2pi * 2R * C_{diff}) ≈ 17kHz\n\nCommon-Mode Cutoff f_{c,CM} = 1 / (2pi * R *C_{CM}) ≈ 159kHz"
+		(exclude_from_sim no)
+		(at 274.955 30.48 0)
+		(size 125.73 18.415)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "10bbf4b1-8f07-4774-b432-eb1c0db092ef")
+	)
+	(text_box "Desired Battery Regulation Target:\nThe battery regulation voltage is programmed using a resistor divider to the FB pin. The default internal voltage reference is 1.536V, and can be changed via the VFB_REG register bits. The top of the resistor divider is recommended to be 249kΩ.\nThe bottom resistor can be calculated as:\nRF_вот = (RFB_тор * VFB / (VBATREG - VFB) ) + RFBG\nVFB is the target feedback voltage programmed through I2C\nVBATREG is the desired battery regulation target (28,7V)\nRFBG is the internal FBG pull-down resistor (33Ω)\n\nIn this case, VFB need to be set to 1,524V to obtain VBATREG = 28,69V\n"
+		(exclude_from_sim no)
+		(at 335.28 94.615 0)
+		(size 66.04 37.465)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "188fbc6a-f03a-480c-a79e-6c2e2cd12deb")
+	)
+	(text_box "I^{2}C address:\n0X6A"
+		(exclude_from_sim no)
+		(at 95.885 152.4 0)
+		(size 20.32 9.525)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "1aa9079d-317e-4bf4-bc28-ac9fd45d2a8f")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 24.13 116.84 0)
+		(size 45.72 8.255)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1df516a1-3bdc-4895-ad5d-8763884f7a63")
+	)
+	(text_box "600kHz"
+		(exclude_from_sim no)
+		(at 374.65 193.04 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2af0597b-19ba-43be-96b6-7851626753fe")
+	)
+	(text_box "DESIGN NOTE - Thermal MOS dissipation\n\nThermal resistance on PCB: 50°C/W\n\n-> 0.65W * 50°C = 32,5 °C increase\nMOSFET @ ~55 °C \n\n-> 1.03W * 50°C = 51,5 °C increase\nMOSFET @ ~75 °C \n"
+		(exclude_from_sim no)
+		(at 86.36 249.555 0)
+		(size 58.42 33.02)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2b1a390b-8abe-4d17-8f92-7492697f0e72")
+	)
+	(text_box "BQ25756E circuit design settings:"
+		(exclude_from_sim no)
+		(at 325.755 167.005 0)
+		(size 73.66 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3be8e673-4057-495a-bdc4-d4a06222a6e6")
+	)
+	(text_box "10A"
+		(exclude_from_sim no)
+		(at 374.65 205.74 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4153d959-e488-42dc-a245-869565456da9")
+	)
+	(text_box "Battery charging is enabled when EN_CHG bit is 1 and ~{CE} pin is\nLOW. ~{CE} pin must be pulled HIGH or LOW, do not leave floating. "
+		(exclude_from_sim no)
+		(at 172.72 184.15 0)
+		(size 27.94 17.78)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "456b8a8c-9d58-46cd-ab19-1aab6c3910d1")
+	)
+	(text_box "Nominal Input:"
+		(exclude_from_sim no)
+		(at 328.93 181.61 0)
+		(size 43.18 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4bb29093-ac68-4cb7-8feb-debfabca7bc3")
+	)
+	(text_box "Input voltage:"
+		(exclude_from_sim no)
+		(at 328.93 175.26 0)
+		(size 41.91 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4d7b20c2-b2b0-49e6-8a19-13c440d2244b")
+	)
+	(text_box "Regulation Target:"
+		(exclude_from_sim no)
+		(at 328.93 199.39 0)
+		(size 49.53 6.985)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "50ccea21-9595-4781-a400-328535ac95c4")
+	)
+	(text_box "Under/over voltage input protection:\nIf unused, tie ACUV to VAC and ACOV to PGND in order to apply the internal VAC operating window (VVAC_OP: 4.2-36V)"
+		(exclude_from_sim no)
+		(at 22.86 144.145 0)
+		(size 48.26 14.605)
+		(margins 1.632 1.632 1.632 1.632)
+		(stroke
+			(width 0.7874)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "598e4ad6-819e-4e6f-a4b1-933ea6ae7c91")
+	)
+	(text_box "Max Input current:"
+		(exclude_from_sim no)
+		(at 328.93 187.325 0)
+		(size 44.45 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "62e0952a-3caf-4a5e-9949-1519d43fd257")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 23.495 130.81 0)
+		(size 46.99 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "6349fc34-e1d3-46dd-882b-53c8a4e5b540")
+	)
+	(text_box "DESIGN NOTE:\nCAUTION, always respect the battery rated voltage and current."
+		(exclude_from_sim no)
+		(at 280.035 196.85 0)
+		(size 38.1 17.145)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "6cf2fb3e-51e8-444e-84a2-77fc57865ed2")
+	)
+	(text_box "DESIGN NOTE - 3V3 STATUS LEDs\n\nORANGE LED:\nSM0805UOC has a typical luminous \nintensity of 80 mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.6V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.6)/56Ω = 13 mA\nP = 2.1V×21mA = 44 mW < 78 mW (max rating)\n\n\nGREEN LED:\nAP2012MGC has a typical luminous \nintensity of 60mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 75 mW (max rating)\n"
+		(exclude_from_sim no)
+		(at 22.86 160.655 0)
+		(size 48.26 45.085)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7db4685a-f69f-44ad-bec4-7baead8306fc")
+	)
+	(text_box "DESIGN NOTE - Charger Losses:\n\nSwitching losses:\nPswitch = 0.5 * Vds * I * (trise + tfall) * fswitch\nPswitch = 0.5 * 28.8V * 7A * (1.2ns + 2 ns) * 600kHz\nPswitch = 0.19 W\n\nConduction losses:\nPcond = I^2 * Rds\nPcond = 7^2 A * 5.9 mOmh = 0.29 W\n\nGate drive losses:\nPgate = Qg * Vgs * fswitch\nPgate = 9.4nC * 28.8V * 600 kHz\nPgate = 0.16 W\n\nTotal pwr at 7A = 0.19W + 0.29W + 0.16W = 0.65W\nTotal pwr at 10A = 0.27W + 0.6W + 0.16W = 1.03W "
+		(exclude_from_sim no)
+		(at 13.97 219.71 0)
+		(size 69.215 63.5)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "843b90a1-0b6b-4421-8d4b-2ec09f2f12b4")
+	)
+	(text_box "The device switching frequency can be programmed between 200 kHz to 600 kHz using a resistor from the FSW_SYNC pin to PGND. 40kΩ programs a 600kHz switching frequency."
+		(exclude_from_sim no)
+		(at 260.35 168.275 0)
+		(size 45.085 15.875)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "864629d9-51f8-414c-bc41-d8e16bffb50a")
+	)
+	(text_box "The NTC monitoring window can be disabled by clearing the EN_TS register bit. In this case, the TS pin voltage is ignored, and the device always reports normal TS status. If EN_TS is set to 0, TS pin can be floated or connected to PGND."
+		(exclude_from_sim no)
+		(at 297.18 140.97 0)
+		(size 45.085 21.59)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "966f0d46-42f3-4555-ab4b-0b9770e808b4")
+	)
+	(text_box "Switching Frequency:"
+		(exclude_from_sim no)
+		(at 328.93 193.04 0)
+		(size 49.53 6.985)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "98fdac9b-8ce0-4630-8c54-1581df1f17e0")
+	)
+	(text_box "DESIGN NOTE:\n\nCAUTION: Charging the battery with more than 7A requires proper thermal management, such as adequate airflow or heatsinks, to prevent overheating of the MOSFETs."
+		(exclude_from_sim no)
+		(at 86.995 220.98 0)
+		(size 57.15 26.035)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "9a28c966-b290-4fb6-84a9-720c593b93cb")
+	)
+	(text_box "24V"
+		(exclude_from_sim no)
+		(at 374.65 181.61 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b10f1d12-cea0-4d30-872a-29f45c114aac")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 161.29 14.605 0)
+		(size 95.885 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "20A"
+		(exclude_from_sim no)
+		(at 374.65 187.325 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b5559172-ac39-492d-be7a-678c081d6b68")
+	)
+	(text_box "Max Charge current:"
+		(exclude_from_sim no)
+		(at 328.93 205.74 0)
+		(size 44.45 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b6e1088f-a6cc-44d9-80b5-d5eeec3c6829")
+	)
+	(text_box "Filtered Power Rails"
+		(exclude_from_sim no)
+		(at 24.13 36.83 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc27e00e-fffe-4f71-9014-800e183cfab4")
+	)
+	(text_box "BSC059N04LS6ATMA1 40V N-Channel NexFET™ Power MOSFETs:\n\nVDS(Drain-Source Breakdown Voltage) = 40V\nMaximum voltage the MOSFET can handle between the drain and source when it's off.\n\nRDS(on) (Drain-Source On-Resistance) = 6.8 mΩ @ 4.5V VGS\n\nID - Continuous Drain Current = 59A\nMaximum continuous current the MOSFET can handle under specified conditions without overheating. \n\nVGS(th) - Gate-Source Threshold Voltage = 1.3V - 2.3V\n\nVGS - Gate-Source Voltage = ±20V\nMaximum safe voltage between the gate and source terminals without damaging the gate."
+		(exclude_from_sim no)
+		(at 148.59 220.98 0)
+		(size 103.505 61.595)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cf98a07f-f5a5-4a75-9e4f-9d9cb1a51297")
+	)
+	(text_box "BQ25756E: I2C Controlled, 1- to 7-Cell 600kHz Buck-Boost Battery Charge Controller"
+		(exclude_from_sim no)
+		(at 86.995 210.185 0)
+		(size 191.77 8.89)
+		(margins 2.6669 2.6669 2.6669 2.6669)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.556 3.556)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "eb1860b4-e3d4-4d69-9587-b18340112d52")
+	)
+	(text_box "4.2V - 33V"
+		(exclude_from_sim no)
+		(at 374.65 175.26 0)
+		(size 27.305 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ef1e0931-342d-40f7-a5c4-a817be428c64")
+	)
+	(text_box "A combination of ceramic and bulk capacitors should be used to provide a short path of high di/dt current and to reduce the voltage ripple. Ceramic capacitors should be placed close to the switching half-bridge. Given total bulk input/output capacitance, it is recommended to distribute equally on either side of the sense resistors."
+		(exclude_from_sim no)
+		(at 192.405 30.48 0)
+		(size 62.865 18.415)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f9aa1271-c196-4766-8183-1448b6e95760")
 	)
 	(junction
 		(at 303.53 55.88)
@@ -5816,125 +6848,6 @@
 			(type default)
 		)
 		(uuid "ff9513e5-6416-4958-90bb-4e7e93a7c770")
-	)
-	(rectangle
-		(start 328.295 214.63)
-		(end 399.415 215.392)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 1)
-		)
-		(uuid 198dfc04-214b-406e-9a67-b39bc6062cd1)
-	)
-	(rectangle
-		(start 140.97 53.975)
-		(end 164.465 97.155)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 34320bda-27eb-412e-ba6f-7611bffecc75)
-	)
-	(rectangle
-		(start 22.86 39.37)
-		(end 71.12 140.335)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 44ff0c90-6cf7-4cd4-abd1-9c39517d546b)
-	)
-	(rectangle
-		(start 70.485 274.955)
-		(end 80.01 278.13)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6eefed4c-79da-4f4c-822a-534bde18300c)
-	)
-	(rectangle
-		(start 70.485 278.13)
-		(end 80.01 281.305)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b23ff550-48f8-4bba-a22d-897d9c362c77)
-	)
-	(rectangle
-		(start 282.575 53.34)
-		(end 306.07 101.6)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b64a8a65-bd94-4b5e-811a-6d577df89758)
-	)
-	(rectangle
-		(start 86.995 219.075)
-		(end 402.59 29.21)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(rectangle
-		(start 94.615 174.625)
-		(end 137.16 188.595)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid de209a73-474f-4260-9663-2cdc60fdcf29)
-	)
-	(rectangle
-		(start 328.295 174.625)
-		(end 399.415 175.387)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 1)
-		)
-		(uuid e295a155-d584-4ee5-8bfd-9085101c1446)
 	)
 	(image
 		(at 224.79 134.62)
@@ -13997,7 +14910,25 @@
 			"CDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDw0CDz11FMbJ0+e7D00C/KFOAKOgCPgCDgCjoAj4Ag4Ao6A"
 			"I+AIOAKOgCPgCDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDgCjoAj"
 			"4Ag4Ao6AI+AIOAKOgCPgCDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDgCjoAj4Ag4Ao6AI+AIOAKOgCPg"
-			"CDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDgCjsB9gcD/D3/Qy417TykZAAAAAElFTkSuQmCC"
+			"CDgCjoAj4Ag4Ao6AI+AIOAKOgCPgCDgCjsB9gcD/D3/Qy417TykZAAAAAElFTkSuQmCCNAAAAEYA"
+			"AABOAAAAcwAAAGQAAAAvAAAAOQAAADMAAABkAAAAOQAAAGQAAABkAAAANQAAAEMAAAA1AAAAMgAA"
+			"AG8AAAB6AAAAWAAAADQAAAA0AAAAMgAAAE8AAABXAAAAMgAAAFAAAABPAAAAVAAAADMAAABiAAAA"
+			"NAAAAHkAAABvAAAAYgAAAGEAAAB1AAAAZAAAAGcAAAA1AAAAeAAAAFgAAAA4AAAANAAAAEIAAABY"
+			"AAAAOAAAAFEAAABMAAAAMQAAAG4AAAA0AAAALwAAAEkAAAB2AAAAMwAAADAAAABjAAAATwAAAHgA"
+			"AAB1AAAASAAAAEwAAABkAAAAbAAAAGYAAABYAAAAKwAAAEYAAABUAAAAeQAAACsAAABLAAAASAAA"
+			"AGcAAAB2AAAAagAAAEMAAAA4AAAATwAAADcAAABpAAAANQAAADcAAAB4AAAANwAAAHkAAAAwAAAA"
+			"MwAAAHcAAABJAAAAKwAAAEgAAABXAAAAUwAAAE4AAABuAAAAMwAAAC8AAABaAAAAMAAAAHkAAAA0"
+			"AAAAKwAAAGoAAABpAAAAawAAADcAAABJAAAATgAAADQAAAA5AAAALwAAAHYAAABsAAAAWAAAAHYA"
+			"AABkAAAAUAAAAHkAAABPAAAAMQAAAHIAAAA5AAAANAAAAC8AAABxAAAAWQAAAFQAAABvAAAAYwAA"
+			"AHoAAABBAAAAdgAAADYAAABZAAAAZAAAAGkAAAB6AAAANwAAAFYAAABQAAAAdgAAADUAAABWAAAA"
+			"WgAAADMAAABjAAAAYgAAAHEAAABPAAAAMgAAAGUAAAB2AAAAbAAAAHcAAABkAAAARgAAADcAAABD"
+			"AAAASAAAAGYAAAB2AAAAegAAAE8AAABOAAAAeQAAAEIAAABmAAAAKwAAAGUAAAA1AAAAbAAAAHEA"
+			"AAA2AAAAZAAAAEoAAAAxAAAAKwAAAGUAAABUAAAAZAAAADIAAAA0AAAAMAAAAHQAAABzAAAAeAAA"
+			"ADIAAAAvAAAARwAAAE8AAAAzAAAAMQAAAE8AAABCAAAAZgAAAE0AAABhAAAAYgAAAHYAAAB1AAAA"
+			"UwAAAGUAAAByAAAAQgAAAC8AAABmAAAAOAAAADEAAAAzAAAAdgAAADQAAAAyAAAAdQAAAE0AAABi"
+			"AAAATwAAADcAAAB0AAAAcAAAACsAAABzAAAARAAAADIAAABWAAAAMgAAACsAAABPAAAASwAAAGoA"
+			"AABQAAAAYQAAAHQAAABOAAAALwAAAEYAAABqAAAAVQAAADEAAAAwAAAAdwAAAEEAAABBAAAAUQAA"
+			"AEEAAABCAAAASgAAAFIAAABFAAAARgAAAFUAAABIAAAASQAAADkAAAByAAAAMgAAAA=="
 		)
 	)
 	(image
@@ -16778,7 +17709,25 @@
 			"BEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzA"
 			"BEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzA"
 			"BEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzABEzA"
-			"BEzABEzABEzABEzABEzABEzABNYXgf8P36imK/Rr6HkAAAAASUVORK5CYII="
+			"BEzABEzABEzABEzABEzABEzABNYXgf8P36imK/Rr6HkAAAAASUVORK5CYIIzalZUWG5EVk5PTm9F"
+			"QUFRSUVDQkFnUUlBQWdib0V5cHM2eS9kOHlrTUo3bGxYRWZJU0lFQ0F3TkFGZHNpS0Z3eDlWUXNT"
+			"bUwzQTNiTEVpWW55TTFpRFFCMEM3MDNTenlkK1cwZHlPYXQ5WS9DS3hGTllORTdnMGFub2ZZa3RH"
+			"MWVaZ2dnUUlFQ0FBQUVDQkNZVnNQSFBwRHdPRWlCQWdBQUJBZ1FJRUNCQWdFQ1BCUFpQcitmMHFG"
+			"K3RFaUJBZ0FDQm8wTndPb2FSQ2Z3cUs3ODA4WCtKc3RtSVFhRHJBdVhOSkErN1BXYmE2L3ljdUt3"
+			"TmdlN1lJS2c4emJUY1JMcmtaajUzZkg3SHgzSnphZG4wcDJ6K1l4QWdjR2VCeGZueWpZblAzZmxs"
+			"WHhFZ1FJQUFnY2tGRmxVTEQxcWhXdUgxK1N1V3YyTk5UdVVvQVFJRUNCQWdRSUFBZ1RvRnprN3ly"
+			"UkxsVGZnR0FRSUVDTFJmNEtOcDRVUHRiME1ISFJYWU9YMDlwNk85YWFzZEF1WCtnR01UTDBxVUI1"
+			"OFo0eFc0T2VtMlRwVDd6bFlhYjJyWkJoQW9Ed0k4SmZIVkFlYWFRb0FBQVFJRUNCQWcwQkFCRy84"
+			"MDVFSW9nd0FCQWdRSUVDQkFnQUFCQWdScUZUZ3YyZmV1dFFMSkNSQWdRSURBZUFVdVNicDNqRGRs"
+			"TDdPVm0reGZrdmhHd3VZL3Zmd2xvT2xwQ3R3ajgrOS9lMHp6Vk5NSkVCaEFvTng4ZWZJQTgwd2hR"
+			"SUFBQVFKM0V0aXd1dnlucDFhcmZ6bTcvcFFuK0JvRUNCQWdRSUFBQVFJRUNEUlg0S1NVOXRURWRz"
+			"MHRVV1VFQ0JBZ01JREFUekpueXdIbW1VS2dEb0VuSmVsZWRTU1drOEJTQWkvTTEyV0RrL0xnTTJQ"
+			"OEFqOU95bmNsRGg1L2Foa0hFQ2diWXoweGNlMEFjMDBoUUlBQUFRSUVDQkJvZ0VCNUtxcEJnQUFC"
+			"QWdRSUVDQkFnQUFCQWdUNkxMQWd6VythS0I4TkFnUUlFQ0RRRjRGdDB1ajFmV20yNWo3UFN2Nnkr"
+			"YzgxTmRjaFBRRUNCQWowVytEdGFmK1lmaFBvbmdBQkFnUm1JekJSTFQ1Z051Yzdsd0FCQWdRSUVD"
+			"QkFnQUNCc1Fuc21FeW5qeTJiUkFRSUVDQXdiSUhMcytBR2lWdUd2YkQxQ0F4QllNV3NVVFlhTEE5"
+			"ME1RZzBRZUNnRlBId0poVFMweG9PUzkvKzdkSE1pNzk2eWlyWHh5QkFnQUFCQWdRSUVHaUpnSTEv"
+			"V25LaGxFbUFBQUVDQkFnUUlFQ0FBQUVDSXhQWVB5dWZNN0xWTFV5QUFBRQ=="
 		)
 	)
 	(image
@@ -18177,831 +19126,26 @@
 			"BCAAAQhAAAIQgAAEIAABCEAAAuOSAEKDcTnsdBoCEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQg"
 			"AAEIQAACEIAABCDQGwGEBr1x4ygIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAAC"
 			"EIDAuCSA0GBcDjudhgAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCPRG4P8A"
-			"7tluoG3sR4gAAAAASUVORK5CYII="
+			"7tluoG3sR4gAAAAASUVORK5CYIJMbDI2Sk91T2lNOERYNFA3cXZYSW8zSDN4ZSswdHlTeE92TDND"
+			"Lzh1OHRqMHY2ZXV4bWMxSFZrWDlaYWNmMTk1Um8rRmRlL1F2cjNVdmVwRGxXV1oraSsxZGJ4NjVV"
+			"b2N6Nkx5ZmVuVjh6bHR0b1B2Yjhlbm45YkdySjlKNXZ1M1kvdjJPUDdiVWExeUZkbUd6M2MyQTJK"
+			"RkhkWDk0UzNyWHI5dVhVMVBSek1ncWEyamZyeitzbzhaRUV1YWpSZzBDTGdtc0Z4a1RSZC9ZS2lR"
+			"OENGNHVYZHYrY1k1dmZEN2VPR2xsNmgwbVRMeTVOV3JWN251eEVkcXhSOUNPWklPVHordHplSnd3"
+			"Wk50MnNqeTJMaFl3NXNySytxK2NNR1BkT0hDQmVLTTkwTmZHNmF0a3c4UEQ2ZEhoSDhFeThFREIr"
+			"U1cvN09pamp4YnhkS3NSUXRxMExDaDNPZi8yclpyUjQwYU41SEhZcG1QVnU3TE92NzV4eC9VckhG"
+			"amV1bUZGMmpseWhYYW1KM3RiUHQzcTZ4cTFib1ZWYTllWFd2V3NGRWpDZzBObGNmOHBsbUplTUNn"
+			"eFlzV3k4TUJBd2RwNi9URHhPZGhvRGhtT1h2MkRBa2pTTzU3NDcvRTZzaXpPL3k3eUFsVjg4ZnI1"
+			"R3BjVnRTUjlUbXczL1o3eUxNSXlqZUx2MXViTldzbTFiMTI3U3F4bndDTEwraTRSL2pOOFN3cXk1"
+			"dHZ2VWtCQWJiSHZreVpNbEhidHUxa09ZLzUxTW1UY3AvLzY5cTVDN1Y5OGtrU3k3UG82dFVyV3Jt"
+			"akhhdnFxTmRsN3V6WjB2OUQzVTk5SGUvN2dvN21NZm5ETVF3UWY3aUwwQUVFVEFUMjdOb3RTMnJY"
+			"cVUzOHgxRUpPNER5Z3p6THJ2OTJxV0tmM29xM3YzSjg0V0hoaG5IbXk1ZVBlRGtCeTVuVFo3UTZL"
+			"K3ErZTdmdFhyUnMxVXA3MkZRS1RSSkxKUDVhdFlyR2ZqeE9GWkVWZFR4MjlKZ2NmLzM2OVRROTFF"
+			"N1RwazNsN3JhdDI0Ump1bTBabGkvcnlJWjlqWm8xdFI5bFJDaDl6RnZoY3lXTHFsU3BhcTZpbWc4"
+			"L0xNdE9uenF0MVowOGNZSWlJbTdKNHdZTkcyamx2Tk84WlF1NUZKSDNkKzN5M3U5d1luVlV5NitL"
+			"RnkraEdkQThSbWRpUlIxWmwram9LS2xTSHBQemRxSENoVFZWMVdmWUYzUlVuejEyckRZN2tOZDh4"
+			"UGJaNDRGejRsc2xsUjZxcEgyMitYUHVTcXlxbzlMcDh1WExOUG5UeVpRalJ3NGFMSlltT3hKZjBO"
+			"SFJ1S3hlOXVESnhPcWFZUHdnQQ=="
 		)
-	)
-	(text_box "28,7V"
-		(exclude_from_sim no)
-		(at 374.65 199.39 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "0358a64c-431b-41ef-917f-a9608cfe813d")
-	)
-	(text_box "A 0.47-μF ceramic capacitor is placed from ACN to ACP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the ACN and ACP pin to PGND for common-mode filtering."
-		(exclude_from_sim no)
-		(at 126.365 30.48 0)
-		(size 40.64 18.415)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "05b7df15-c4f0-485b-a57c-0b0ddf9a5c07")
-	)
-	(text_box "Bridge Driver"
-		(exclude_from_sim no)
-		(at 24.13 54.61 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "08f42850-01a3-47fa-bf9b-837e84295d8e")
-	)
-	(text_box "A 0.47-μF ceramic capacitor is placed from SRN to SRP to provide differential-mode filtering. An optional 0.1-μF ceramic capacitor is placed from the SRN and SRP pin to PGND for common-mode filtering.\n\nDifferential-Mode Cutoff  f_{c,diff} = 1 / (2pi * (R_{+} + R_{-}) * C_{diff}) = 1 / (2pi * 2R * C_{diff}) ≈ 17kHz\n\nCommon-Mode Cutoff f_{c,CM} = 1 / (2pi * R *C_{CM}) ≈ 159kHz"
-		(exclude_from_sim no)
-		(at 274.955 30.48 0)
-		(size 125.73 18.415)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "10bbf4b1-8f07-4774-b432-eb1c0db092ef")
-	)
-	(text_box "Desired Battery Regulation Target:\nThe battery regulation voltage is programmed using a resistor divider to the FB pin. The default internal voltage reference is 1.536V, and can be changed via the VFB_REG register bits. The top of the resistor divider is recommended to be 249kΩ.\nThe bottom resistor can be calculated as:\nRF_вот = (RFB_тор * VFB / (VBATREG - VFB) ) + RFBG\nVFB is the target feedback voltage programmed through I2C\nVBATREG is the desired battery regulation target (28,7V)\nRFBG is the internal FBG pull-down resistor (33Ω)\n\nIn this case, VFB need to be set to 1,524V to obtain VBATREG = 28,69V\n"
-		(exclude_from_sim no)
-		(at 335.28 94.615 0)
-		(size 66.04 37.465)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "188fbc6a-f03a-480c-a79e-6c2e2cd12deb")
-	)
-	(text_box "I^{2}C address:\n0X6A"
-		(exclude_from_sim no)
-		(at 95.885 152.4 0)
-		(size 20.32 9.525)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "1aa9079d-317e-4bf4-bc28-ac9fd45d2a8f")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 24.13 116.84 0)
-		(size 45.72 8.255)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1df516a1-3bdc-4895-ad5d-8763884f7a63")
-	)
-	(text_box "600kHz"
-		(exclude_from_sim no)
-		(at 374.65 193.04 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "2af0597b-19ba-43be-96b6-7851626753fe")
-	)
-	(text_box "DESIGN NOTE - Thermal MOS dissipation\n\nThermal resistance on PCB: 50°C/W\n\n-> 0.65W * 50°C = 32,5 °C increase\nMOSFET @ ~55 °C \n\n-> 1.03W * 50°C = 51,5 °C increase\nMOSFET @ ~75 °C \n"
-		(exclude_from_sim no)
-		(at 86.36 249.555 0)
-		(size 58.42 33.02)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "2b1a390b-8abe-4d17-8f92-7492697f0e72")
-	)
-	(text_box "BQ25756E circuit design settings:"
-		(exclude_from_sim no)
-		(at 325.755 167.005 0)
-		(size 73.66 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "3be8e673-4057-495a-bdc4-d4a06222a6e6")
-	)
-	(text_box "10A"
-		(exclude_from_sim no)
-		(at 374.65 205.74 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4153d959-e488-42dc-a245-869565456da9")
-	)
-	(text_box "Battery charging is enabled when EN_CHG bit is 1 and ~{CE} pin is\nLOW. ~{CE} pin must be pulled HIGH or LOW, do not leave floating. "
-		(exclude_from_sim no)
-		(at 172.72 184.15 0)
-		(size 27.94 17.78)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "456b8a8c-9d58-46cd-ab19-1aab6c3910d1")
-	)
-	(text_box "Nominal Input:"
-		(exclude_from_sim no)
-		(at 328.93 181.61 0)
-		(size 43.18 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4bb29093-ac68-4cb7-8feb-debfabca7bc3")
-	)
-	(text_box "Input voltage:"
-		(exclude_from_sim no)
-		(at 328.93 175.26 0)
-		(size 41.91 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4d7b20c2-b2b0-49e6-8a19-13c440d2244b")
-	)
-	(text_box "Regulation Target:"
-		(exclude_from_sim no)
-		(at 328.93 199.39 0)
-		(size 49.53 6.985)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "50ccea21-9595-4781-a400-328535ac95c4")
-	)
-	(text_box "Under/over voltage input protection:\nIf unused, tie ACUV to VAC and ACOV to PGND in order to apply the internal VAC operating window (VVAC_OP: 4.2-36V)"
-		(exclude_from_sim no)
-		(at 22.86 144.145 0)
-		(size 48.26 14.605)
-		(stroke
-			(width 0.7874)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "598e4ad6-819e-4e6f-a4b1-933ea6ae7c91")
-	)
-	(text_box "Max Input current:"
-		(exclude_from_sim no)
-		(at 328.93 187.325 0)
-		(size 44.45 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "62e0952a-3caf-4a5e-9949-1519d43fd257")
-	)
-	(text_box "Test Points"
-		(exclude_from_sim no)
-		(at 23.495 130.81 0)
-		(size 46.99 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "6349fc34-e1d3-46dd-882b-53c8a4e5b540")
-	)
-	(text_box "DESIGN NOTE:\nCAUTION, always respect the battery rated voltage and current."
-		(exclude_from_sim no)
-		(at 280.035 196.85 0)
-		(size 38.1 17.145)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "6cf2fb3e-51e8-444e-84a2-77fc57865ed2")
-	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LEDs\n\nORANGE LED:\nSM0805UOC has a typical luminous \nintensity of 80 mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.6V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.6)/56Ω = 13 mA\nP = 2.1V×21mA = 44 mW < 78 mW (max rating)\n\n\nGREEN LED:\nAP2012MGC has a typical luminous \nintensity of 60mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 75 mW (max rating)\n"
-		(exclude_from_sim no)
-		(at 22.86 160.655 0)
-		(size 48.26 45.085)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "7db4685a-f69f-44ad-bec4-7baead8306fc")
-	)
-	(text_box "DESIGN NOTE - Charger Losses:\n\nSwitching losses:\nPswitch = 0.5 * Vds * I * (trise + tfall) * fswitch\nPswitch = 0.5 * 28.8V * 7A * (1.2ns + 2 ns) * 600kHz\nPswitch = 0.19 W\n\nConduction losses:\nPcond = I^2 * Rds\nPcond = 7^2 A * 5.9 mOmh = 0.29 W\n\nGate drive losses:\nPgate = Qg * Vgs * fswitch\nPgate = 9.4nC * 28.8V * 600 kHz\nPgate = 0.16 W\n\nTotal pwr at 7A = 0.19W + 0.29W + 0.16W = 0.65W\nTotal pwr at 10A = 0.27W + 0.6W + 0.16W = 1.03W "
-		(exclude_from_sim no)
-		(at 13.97 219.71 0)
-		(size 69.215 63.5)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "843b90a1-0b6b-4421-8d4b-2ec09f2f12b4")
-	)
-	(text_box "The device switching frequency can be programmed between 200 kHz to 600 kHz using a resistor from the FSW_SYNC pin to PGND. 40kΩ programs a 600kHz switching frequency."
-		(exclude_from_sim no)
-		(at 260.35 168.275 0)
-		(size 45.085 15.875)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "864629d9-51f8-414c-bc41-d8e16bffb50a")
-	)
-	(text_box "The NTC monitoring window can be disabled by clearing the EN_TS register bit. In this case, the TS pin voltage is ignored, and the device always reports normal TS status. If EN_TS is set to 0, TS pin can be floated or connected to PGND."
-		(exclude_from_sim no)
-		(at 297.18 140.97 0)
-		(size 45.085 21.59)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "966f0d46-42f3-4555-ab4b-0b9770e808b4")
-	)
-	(text_box "Switching Frequency:"
-		(exclude_from_sim no)
-		(at 328.93 193.04 0)
-		(size 49.53 6.985)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "98fdac9b-8ce0-4630-8c54-1581df1f17e0")
-	)
-	(text_box "DESIGN NOTE:\n\nCAUTION: Charging the battery with more than 7A requires proper thermal management, such as adequate airflow or heatsinks, to prevent overheating of the MOSFETs."
-		(exclude_from_sim no)
-		(at 86.995 220.98 0)
-		(size 57.15 26.035)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "9a28c966-b290-4fb6-84a9-720c593b93cb")
-	)
-	(text_box "24V"
-		(exclude_from_sim no)
-		(at 374.65 181.61 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b10f1d12-cea0-4d30-872a-29f45c114aac")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 161.29 14.605 0)
-		(size 95.885 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "20A"
-		(exclude_from_sim no)
-		(at 374.65 187.325 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b5559172-ac39-492d-be7a-678c081d6b68")
-	)
-	(text_box "Max Charge current:"
-		(exclude_from_sim no)
-		(at 328.93 205.74 0)
-		(size 44.45 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b6e1088f-a6cc-44d9-80b5-d5eeec3c6829")
-	)
-	(text_box "Filtered Power Rails"
-		(exclude_from_sim no)
-		(at 24.13 36.83 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc27e00e-fffe-4f71-9014-800e183cfab4")
-	)
-	(text_box "BSC059N04LS6ATMA1 40V N-Channel NexFET™ Power MOSFETs:\n\nVDS(Drain-Source Breakdown Voltage) = 40V\nMaximum voltage the MOSFET can handle between the drain and source when it's off.\n\nRDS(on) (Drain-Source On-Resistance) = 6.8 mΩ @ 4.5V VGS\n\nID - Continuous Drain Current = 59A\nMaximum continuous current the MOSFET can handle under specified conditions without overheating. \n\nVGS(th) - Gate-Source Threshold Voltage = 1.3V - 2.3V\n\nVGS - Gate-Source Voltage = ±20V\nMaximum safe voltage between the gate and source terminals without damaging the gate."
-		(exclude_from_sim no)
-		(at 148.59 220.98 0)
-		(size 103.505 61.595)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "cf98a07f-f5a5-4a75-9e4f-9d9cb1a51297")
-	)
-	(text_box "BQ25756E: I2C Controlled, 1- to 7-Cell 600kHz Buck-Boost Battery Charge Controller"
-		(exclude_from_sim no)
-		(at 86.995 210.185 0)
-		(size 191.77 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.556 3.556)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "eb1860b4-e3d4-4d69-9587-b18340112d52")
-	)
-	(text_box "4.2V - 33V"
-		(exclude_from_sim no)
-		(at 374.65 175.26 0)
-		(size 27.305 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "ef1e0931-342d-40f7-a5c4-a817be428c64")
-	)
-	(text_box "A combination of ceramic and bulk capacitors should be used to provide a short path of high di/dt current and to reduce the voltage ripple. Ceramic capacitors should be placed close to the switching half-bridge. Given total bulk input/output capacitance, it is recommended to distribute equally on either side of the sense resistors."
-		(exclude_from_sim no)
-		(at 192.405 30.48 0)
-		(size 62.865 18.415)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "f9aa1271-c196-4766-8183-1448b6e95760")
-	)
-	(text "ORANGE LED"
-		(exclude_from_sim no)
-		(at 356.108 221.996 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3048)
-				(bold yes)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "2f90f915-ccfa-485a-a737-ead290254944")
-	)
-	(text "Gate drive voltage: 5V"
-		(exclude_from_sim no)
-		(at 222.504 106.172 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "66c8f977-28e4-49ba-8681-a758739b9cfb")
-	)
-	(text "24V fan holes"
-		(exclude_from_sim no)
-		(at 181.102 40.64 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "9afc8f9b-5daa-4eeb-bab6-50b0d3dea99e")
-	)
-	(text "Detailled computations are availaible \nin the computations folder, using TI's \nprovided tool."
-		(exclude_from_sim no)
-		(at 264.668 253.746 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0668a5d-4bf9-4fd8-ac4d-1013a289fa64")
-	)
-	(text "GREEN LED"
-		(exclude_from_sim no)
-		(at 395.986 222.25 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.3048)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-		)
-		(uuid "f7feb71c-5913-448f-bc66-4d047a8a84e4")
 	)
 	(label "SW2"
 		(at 26.67 85.09 0)

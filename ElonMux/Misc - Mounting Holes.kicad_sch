@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -84,10 +88,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -96,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -145,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -266,6 +273,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -345,11 +353,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -447,6 +460,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -526,7 +540,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -543,7 +558,217 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 215.265 64.135)
+		(end 246.38 126.365)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3cfa9ff3-f161-4621-8ee8-890166a81f4e)
+	)
+	(rectangle
+		(start 64.77 64.135)
+		(end 210.82 126.365)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(text "Inspired by Amulet controller Schematics\nby Vincent Nguyen"
+		(exclude_from_sim no)
+		(at 141.478 165.354 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW/tree/master/amulet_controller")
+		)
+		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
+	)
+	(text "How to connect mounting holes."
+		(exclude_from_sim no)
+		(at 141.478 168.656 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://youtu.be/yHn-XOcvJOY")
+		)
+		(uuid "4c9a9d8a-d6c5-4bcf-bc84-4625d132582d")
+	)
+	(text "PCB Mounting Holes"
+		(exclude_from_sim no)
+		(at 141.478 171.45 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://youtu.be/RxPKQAC6t5c")
+		)
+		(uuid "d2b0cd13-f4cf-492c-bed3-31bd029ad961")
+	)
+	(text_box "Front"
+		(exclude_from_sim no)
+		(at 215.265 69.215 0)
+		(size 31.115 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "22be1be4-2b4a-4052-b50d-ba1cc4f04c97")
+	)
+	(text_box "DESIGN NOTE:\n\nIn general, do not ground mounting holes that are connected to chassis if there is a risk that the chassis sends current into the PCB and dammages it or if the PCB works with high voltage and there is a risk for the user which is in contact with the chassis.\n\nFor a PCB in a metallic enclosure, the enclosure can act like a big antenna. The cavities (space between the ground plane on the pcb and the bottom metallic plane of the enclosure) cause capacitive coupling. This is because we have two metallic planes separated by a dielectric, at a separated potential, causing common mode noise. and result in the noise being amplified by the metal enclosure.  \nIdeally, in this case, the case should be grounded. But the grounding will cause multiple return paths if multiples mounting holes are connected to GND. In that case, some current will flow in the enclosure and can give a little choc when the user touch it. This can be fine for small battery operated devices.\n\nThe best option is therefore to ground only one mounting hole. "
+		(exclude_from_sim no)
+		(at 64.77 129.54 0)
+		(size 60.96 45.085)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3587abe1-c0bf-48dc-8197-8200dc4df3d5")
+	)
+	(text_box "Fiducial Markers"
+		(exclude_from_sim no)
+		(at 214.63 116.84 0)
+		(size 32.385 8.89)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "576549f8-1836-4373-8dbe-62a0e3f06590")
+	)
+	(text_box "DESIGN NOTE:\n\nHOLE2 is connected to GND to increase thermal dissipation in the charger area. Also very useful as a GND reference for multimeter debug."
+		(exclude_from_sim no)
+		(at 102.235 66.04 0)
+		(size 42.545 12.7)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "69122cd1-7948-49dc-9066-f96293b92e49")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 10.16 15.24 0)
+		(size 276.86 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "Mechanical Mounting holes"
+		(exclude_from_sim no)
+		(at 64.135 118.11 0)
+		(size 147.32 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
 	)
 	(junction
 		(at 151.13 101.6)
@@ -890,209 +1115,6 @@
 			(type default)
 		)
 		(uuid "fbc34369-7d5a-44b7-9a9b-28df568a388d")
-	)
-	(rectangle
-		(start 215.265 64.135)
-		(end 246.38 126.365)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3cfa9ff3-f161-4621-8ee8-890166a81f4e)
-	)
-	(rectangle
-		(start 64.77 64.135)
-		(end 210.82 126.365)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(text_box "Front"
-		(exclude_from_sim no)
-		(at 215.265 69.215 0)
-		(size 31.115 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "22be1be4-2b4a-4052-b50d-ba1cc4f04c97")
-	)
-	(text_box "DESIGN NOTE:\n\nIn general, do not ground mounting holes that are connected to chassis if there is a risk that the chassis sends current into the PCB and dammages it or if the PCB works with high voltage and there is a risk for the user which is in contact with the chassis.\n\nFor a PCB in a metallic enclosure, the enclosure can act like a big antenna. The cavities (space between the ground plane on the pcb and the bottom metallic plane of the enclosure) cause capacitive coupling. This is because we have two metallic planes separated by a dielectric, at a separated potential, causing common mode noise. and result in the noise being amplified by the metal enclosure.  \nIdeally, in this case, the case should be grounded. But the grounding will cause multiple return paths if multiples mounting holes are connected to GND. In that case, some current will flow in the enclosure and can give a little choc when the user touch it. This can be fine for small battery operated devices.\n\nThe best option is therefore to ground only one mounting hole. "
-		(exclude_from_sim no)
-		(at 64.77 129.54 0)
-		(size 60.96 45.085)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "3587abe1-c0bf-48dc-8197-8200dc4df3d5")
-	)
-	(text_box "Fiducial Markers"
-		(exclude_from_sim no)
-		(at 214.63 116.84 0)
-		(size 32.385 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "576549f8-1836-4373-8dbe-62a0e3f06590")
-	)
-	(text_box "DESIGN NOTE:\n\nHOLE2 is connected to GND to increase thermal dissipation in the charger area. Also very useful as a GND reference for multimeter debug."
-		(exclude_from_sim no)
-		(at 102.235 66.04 0)
-		(size 42.545 12.7)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "69122cd1-7948-49dc-9066-f96293b92e49")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 10.16 15.24 0)
-		(size 276.86 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "Mechanical Mounting holes"
-		(exclude_from_sim no)
-		(at 64.135 118.11 0)
-		(size 147.32 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
-	)
-	(text "Inspired by Amulet controller Schematics\nby Vincent Nguyen"
-		(exclude_from_sim no)
-		(at 141.478 165.354 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW/tree/master/amulet_controller")
-		)
-		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
-	)
-	(text "How to connect mounting holes."
-		(exclude_from_sim no)
-		(at 141.478 168.656 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://youtu.be/yHn-XOcvJOY")
-		)
-		(uuid "4c9a9d8a-d6c5-4bcf-bc84-4625d132582d")
-	)
-	(text "PCB Mounting Holes"
-		(exclude_from_sim no)
-		(at 141.478 171.45 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://youtu.be/RxPKQAC6t5c")
-		)
-		(uuid "d2b0cd13-f4cf-492c-bed3-31bd029ad961")
 	)
 	(label "HOLE3"
 		(at 151.13 91.44 0)

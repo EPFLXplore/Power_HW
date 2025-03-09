@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "0_transistor_fet:PMV90ENER"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -96,115 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 0) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -240,10 +134,94 @@
 				)
 				(polyline
 					(pts
+						(xy -2.54 -3.81) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -2.032 -1.778) (xy -2.159 -1.905) (xy -2.921 -1.905) (xy -3.048 -2.032)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -266,6 +244,74 @@
 					(pts
 						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -298,50 +344,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "PMV90ENER_1_1"
 				(pin input line
@@ -355,24 +357,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -6.35 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -398,10 +382,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:SM1206GC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -503,10 +508,22 @@
 			(symbol "SM1206GC_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -527,7 +544,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -539,22 +556,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -600,9 +605,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -721,6 +729,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -798,7 +807,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -810,7 +819,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -824,7 +833,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -841,6 +851,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -920,7 +931,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -937,7 +949,190 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 168.275 97.155)
+		(end 189.865 107.315)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1948b5c1-ae86-4578-bb76-2d028bef9e7c)
+	)
+	(rectangle
+		(start 55.88 30.48)
+		(end 248.92 149.86)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 171.45 82.55)
+		(end 179.07 92.71)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc7a4da2-a4bf-407e-aa1a-4e760d3c8966)
+	)
+	(rectangle
+		(start 151.765 104.14)
+		(end 163.195 111.125)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9e1708e-cb4e-4dbe-b878-7e0bf814c09b)
+	)
+	(text "Inspired by Amulet controller Schematics\n\nby Vincent Nguyen"
+		(exclude_from_sim no)
+		(at 140.97 167.64 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW/tree/master/amulet_controller")
+		)
+		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
+	)
+	(text_box "Pull-down to avoid unwanted led activation due to noise when GPIO is floating.\n\nPlace the Pull down resistor before the gate resistor to avoid forming a voltage divider."
+		(exclude_from_sim no)
+		(at 111.76 118.11 0)
+		(size 27.94 16.51)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "2e12ff73-d0d9-4ab8-b35a-276da005d063")
+	)
+	(text_box "DESIGN NOTE - 3V3 STATUS LED\n599-0240-007F  has a typical luminous \nintensity of 126mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 72 mW (max rating)\n\nDirect activation through ESP32-S3's GPIO should be fine since we only need 21mA, but hey, why do simple when we can overkill stuff."
+		(exclude_from_sim no)
+		(at 120.015 60.325 0)
+		(size 42.545 26.67)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "73bb37b7-abce-43b7-91fd-b2c3e87493fe")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 96.52 15.24 0)
+		(size 107.315 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "LED Debug Indicator"
+		(exclude_from_sim no)
+		(at 57.15 139.7 0)
+		(size 190.5 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
+	)
+	(text_box "DESIGN NOTE - PMV90ENER\n\nVgs = 1.5V\nRdson = 54 mΩ"
+		(exclude_from_sim no)
+		(at 200.66 113.665 0)
+		(size 27.305 10.16)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "fe97d876-7802-4125-a46c-208c816e4667")
 	)
 	(junction
 		(at 153.67 114.3)
@@ -1093,58 +1288,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "e15f06ba-d469-460d-835a-f7b4f06144ae")
-	)
-	(rectangle
-		(start 168.275 97.155)
-		(end 189.865 107.315)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1948b5c1-ae86-4578-bb76-2d028bef9e7c)
-	)
-	(rectangle
-		(start 55.88 30.48)
-		(end 248.92 149.86)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(rectangle
-		(start 171.45 82.55)
-		(end 179.07 92.71)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid dc7a4da2-a4bf-407e-aa1a-4e760d3c8966)
-	)
-	(rectangle
-		(start 151.765 104.14)
-		(end 163.195 111.125)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e9e1708e-cb4e-4dbe-b878-7e0bf814c09b)
 	)
 	(image
 		(at 140.97 52.705)
@@ -2927,7 +3070,25 @@
 			"QAABBBBAAAEEEEAAAQQQQKChBEikN1RzESwCCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAAC"
 			"CCCAQNYCJNKzFqZ+BBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAIGGEiCR3lDNRbAI"
 			"IIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAlkL/D9IoPQZBZBeHAAAAABJRU5ErkJg"
-			"gg=="
+			"gnJjdVhuejVtekdyRzJiMW1WNGtmdGp0ZHZPSXRIWTIyU1BTNFVDeXFlWnp2SmUwTzVjVWRueWZG"
+			"QVVGa0hIUC92c3M2Mnp6ejQ3TnlhaFRwMFBFZzBFNDQ1Y3U0ZDk0bVFOK0Rac2hqd2xTRENoR08y"
+			"cGFFYkdQbmtNc0Y0dTFJNlFySkc5eUtOQnlLZCt5M3RET3dPdXZJRElSYnI0bGlYdGwwaEZQejVE"
+			"MzhKU003RjFybHh4eFJWeFg2OUNBN1hCdXJ1V2kveDJ5VElJYmVsbHVXYk5tbHdWMXFOQjFYNmNk"
+			"dHBwa1lIYXNuNzkrbHpaZFg2UTBWZWhPblF1dHVPZzgreXd3dzRyblhVVjJxaFo3S0VjblQ5VjBs"
+			"TlBQUldQVlJuZHVnM1g5VXRpTFhsaFNMOFRvUzFhNnZ0Njhza25aMkthS3UxcVdsNTl2eFZpcDhn"
+			"amhZeW44dlR3bDcvOHBiVFovUlFhcUNMVnAydTdGWFlGOWhvVENZcjBmUzlLdmQ2M2lzb3EyOWF2"
+			"ZTcvcTZKZlE0Rld2ZWxWWmt3djNwVVo1ZWRLUjZDdjFMS0h2bjg0VGV5OUpDd3hqcEtXOUIxWjl2"
+			"cEZIZ0ZEV2NJVUc4azVVbHF4SEE0WHhTVk5vUjlxbk5OOTk5OTJYZVFJNTVwaGpNbGZXK2o2ZGNN"
+			"SUpyYTkvL2V0WldKanp6anN2OWlrMStsZmwwK241TDdSTm9YOUMrL1ZNUmhvc0FZUUdnK1ZQN1JB"
+			"WVRRVDBQQzNoWmVyQkwxelR0ZFJ2ZFAxRzBQTlE2bld1cUs4SURZcW9zQTBDRUdnYUFZUUdUUnNS"
+			"MmdPQjVoTGdlYW01WTBQTElBQ0IrZ2gwRWhwTVVOWCtCMk5wOHJNT25YL3g2N3dCdVRRZk93ZER3"
+			"QnRybkRkc09UL1l6c2YwZGo3ZXVQT3plNTEzTWV5OFlYOGdqZkl2SFp5ZmhlcThRY1I1NDdXYk9u"
+			"V3E4N01Sblg4QlBwRDJoRXJWSmgrK0lYeDBEei84Y05hdXVLRmd4YnZUZHo0MGcvTXhxSjEzeDUr"
+			"eEZWOGZtN0lnOS9BMmFmejg3R3puWi9HN043LzV6YzU3SW5EZTREYThRczNSR3BjLy9lbFBidHUy"
+			"YmM3UEtIYit4NVR6aHAydXp4TnZ1SGM3ZCs3TXhsWFhCTFZSNTlsdzIramRLanZ2QXQ5NTd3dk9H"
+			"NEtkZHhWdld0MmZWVEgxd29ic3UrSUZCdGs0YXVtRkpGMVhvSE5CWlR6MjJHUE91eGQxTTJmT3pC"
+			"aDJYVUFYR1gvNzI5OW01U3FyNmxDN2ZiaUxMbzRrU3lEZ0RaTFp0VkRYUkYwYnhVL25xUmVGWkV4"
+			"RA=="
 		)
 	)
 	(image
@@ -6740,133 +6901,26 @@
 			"AAiAAAiAAAiAAAiAAAiAAAiAAAiAQKwSgBAaq1cO8wYBEAABEAABEAABEAABEAABEAABEAABEAAB"
 			"EPBMAEKoZ1RoCAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgEKsEIITG6pXDvEEABEAABEAABEAA"
 			"BEAABEAABEAABEAABEAABDwTgBDqGRUaggAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIxCoBCKGx"
-			"euUwbxAAARAAARAAARAAARAAARAAARAAARAAARAAAc8E/g8XYE6YsSxp0gAAAABJRU5ErkJggg=="
+			"euUwbxAAARAAARAAARAAARAAARAAARAAARAAARAAAc8E/g8XYE6YsSxp0gAAAABJRU5ErkJgggAA"
+			"AHcAAABNAAAATQAAAHkAAABWAAAATAAAAGwAAABvAAAAVAAAAGYAAABmAAAAdgAAACsAAABOAAAA"
+			"KwAAAFEAAABqAAAAZAAAAEQAAABmAAAAMwAAADYAAABtAAAAaAAAADkAAABwAAAATAAAADEAAABx"
+			"AAAAcwAAAEsAAABPAAAAegAAAGYAAAB2AAAANQAAAC8AAAB2AAAAZwAAADcAAAArAAAAYgAAAG8A"
+			"AABpAAAASwAAAHgAAABTAAAAYQAAAHoAAAA3AAAAZwAAAE4AAABYAAAAZgAAAGIAAAA0AAAAawAA"
+			"AEkAAAA1AAAAUwAAAEcAAABsAAAAagAAAEkAAABZAAAAUQAAADAAAABEAAAAdwAAAFIAAABPAAAA"
+			"bwAAAEYAAAB0AAAAKwAAAFYAAAArAAAANQAAAGMAAABxAAAAWAAAAEQAAABTAAAANAAAAFoAAABr"
+			"AAAANgAAAFcAAABuAAAAMgAAAEIAAAB6AAAAUgAAAGoAAAB4AAAAbwAAAHkAAAA4AAAATAAAAHQA"
+			"AAB6AAAANQAAAHUAAABYAAAAUAAAAEgAAABEAAAAbgAAAGoAAAAxAAAANgAAAGgAAABVAAAAOAAA"
+			"AGYAAABmAAAAbwAAAFUAAABiAAAAdAAAAHkAAAA0AAAASQAAAFUAAABpAAAAQQAAADYAAABqAAAA"
+			"cQAAADAAAABhAAAATgAAAGsAAABDAAAAbAAAAG8AAABqAAAANAAAADYAAABOAAAAQwAAADEAAABv"
+			"AAAAUwAAAHMAAABoAAAANAAAAEEAAABvAAAARQAAAGkAAABBAAAAaAAAADEAAABCAAAAYwAAAG8A"
+			"AAAwAAAAaAAAAHEAAABzAAAAUgAAAGMAAABCAAAAWQAAAFIAAAArAAAAdQAAAEwAAAA1AAAAYwAA"
+			"ADUAAABnAAAAKwAAAFkAAAB3AAAAYgAAAHMAAABZAAAARQAAAEUAAABEAAAATAAAAEUAAABYAAAA"
+			"dgAAAEQAAABBAAAAagAAAHcAAABoAAAAKwAAAEgAAABEAAAAUgAAADAAAABDAAAAWAAAAHIAAABs"
+			"AAAAMAAAAHMAAABCAAAAdQAAAFQAAABUAAAANAAAAFMAAABMAAAAbAAAAFEAAABWAAAANwAAAFgA"
+			"AAAxAAAALwAAAEMAAABLAAAAcAAAAHgAAAAvAAAAdwAAAG8AAABYAAAAagAAADUAAABqAAAAegAA"
+			"AC8AAABDAAAAKwAAAGYAAABOAAAAaQAAADAAAABUAAAAOAAAAE4AAABlAAAAeQAAAFQAAABsAAAA"
+			"OAAAACsAAABUAAAATgAAAEEAAAAyAAAAMQAAAGEAAAB0AAAANAAAAEgAAAArAAAAQQAAAC8AAA=="
 		)
-	)
-	(text_box "Pull-down to avoid unwanted led activation due to noise when GPIO is floating.\n\nPlace the Pull down resistor before the gate resistor to avoid forming a voltage divider."
-		(exclude_from_sim no)
-		(at 111.76 118.11 0)
-		(size 27.94 16.51)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "2e12ff73-d0d9-4ab8-b35a-276da005d063")
-	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LED\n599-0240-007F  has a typical luminous \nintensity of 126mcd (millicandela) @ 20 mA.\nTyp. Vf = 2.1V Max Vf = 2.5V\n\nTyp. If = (3.3V - 2.1V)/56Ω = 21 mA\nMax. If = (3.3V - 2.5)/56Ω = 14 mA\nP = 2.1V×21mA = 44 mW < 72 mW (max rating)\n\nDirect activation through ESP32-S3's GPIO should be fine since we only need 21mA, but hey, why do simple when we can overkill stuff."
-		(exclude_from_sim no)
-		(at 120.015 60.325 0)
-		(size 42.545 26.67)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "73bb37b7-abce-43b7-91fd-b2c3e87493fe")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 96.52 15.24 0)
-		(size 107.315 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "LED Debug Indicator"
-		(exclude_from_sim no)
-		(at 57.15 139.7 0)
-		(size 190.5 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
-	)
-	(text_box "DESIGN NOTE - PMV90ENER\n\nVgs = 1.5V\nRdson = 54 mΩ"
-		(exclude_from_sim no)
-		(at 200.66 113.665 0)
-		(size 27.305 10.16)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "fe97d876-7802-4125-a46c-208c816e4667")
-	)
-	(text "Inspired by Amulet controller Schematics\n\nby Vincent Nguyen"
-		(exclude_from_sim no)
-		(at 140.97 167.64 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW/tree/master/amulet_controller")
-		)
-		(uuid "09a71bee-c035-4f31-b6f1-a6f71c64254c")
 	)
 	(label "LED_D0"
 		(at 166.37 101.6 270)

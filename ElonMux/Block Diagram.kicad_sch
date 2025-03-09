@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
 	(paper "A3")
 	(title_block
@@ -38,6 +38,275 @@
 			(color 0 0 0 1)
 		)
 		(uuid d631d51a-2515-45dc-a2c0-e57c4fee46cd)
+	)
+	(text "Made in draw.io"
+		(exclude_from_sim no)
+		(at 264.668 249.682 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e0291e4-94ee-477a-876f-6fd276930e8e")
+	)
+	(text_box "Continuous discharge current:"
+		(exclude_from_sim no)
+		(at 173.355 263.525 0)
+		(size 61.595 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "094af17b-7d27-428a-ac7d-32c4461d72c7")
+	)
+	(text_box "The purpose of this board is to be able to charge a battery and power the main load simultaneously from the same external power supply. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. \n\nThe system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible. "
+		(exclude_from_sim no)
+		(at 62.23 238.76 0)
+		(size 103.505 40.64)
+		(margins 2.405 2.405 2.405 2.405)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0c4ce08a-2b20-4f7e-a6b4-660e292a9fba")
+	)
+	(text_box "Continuous charge current:"
+		(exclude_from_sim no)
+		(at 173.355 271.145 0)
+		(size 74.295 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "16ff5c12-a59a-498f-9a58-8440cea84b9d")
+	)
+	(text_box "Input voltage (battery&supply):"
+		(exclude_from_sim no)
+		(at 173.355 248.285 0)
+		(size 64.135 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "347e7e61-7c93-449c-8c65-b1d74937394e")
+	)
+	(text_box "30A"
+		(exclude_from_sim no)
+		(at 234.95 255.905 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "3d9a8928-04fd-4c32-8894-e3210045027d")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 144.78 20.32 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
+	)
+	(text_box "10A"
+		(exclude_from_sim no)
+		(at 234.95 271.145 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "78d608bb-1019-4e7c-a021-75f0f5c2db11")
+	)
+	(text_box "Maximum rating:"
+		(exclude_from_sim no)
+		(at 172.72 238.76 0)
+		(size 73.66 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "874bfc99-fafe-40d4-b7af-9ddb98b61eea")
+	)
+	(text_box "30A"
+		(exclude_from_sim no)
+		(at 234.95 263.525 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "8d13c5b4-c5e0-49ad-8e30-5a14333c15f4")
+	)
+	(text_box "10V - 33V"
+		(exclude_from_sim no)
+		(at 236.22 248.285 0)
+		(size 24.13 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "aa388299-5267-444a-a70f-fbbbf3a9efdc")
+	)
+	(text_box "Continuous supply current:"
+		(exclude_from_sim no)
+		(at 173.355 255.905 0)
+		(size 62.23 7.62)
+		(margins 2.2859 2.2859 2.2859 2.2859)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3.048 3.048)
+				(thickness 0.4572)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f73ecd5d-28d4-4dc6-ad8d-2c156959b733")
 	)
 	(image
 		(at 213.995 133.35)
@@ -22679,265 +22948,25 @@
 			"CBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAg"
 			"QIAAAQIECBAgQIAAAQIECBAgQIAAAQEqzgECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQ"
 			"IECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECA"
-			"AAECBAgQIECAAAECBAgQIECAAAECBFYm8H/0+ysruxA+twAAAABJRU5ErkJggg=="
+			"AAECBAgQIECAAAECBAgQIECAAAECBFYm8H/0+ysruxA+twAAAABJRU5ErkJgggBRAAAAcQAAAGwA"
+			"AABYAAAAaAAAAEUAAABWAAAAOAAAAHEAAABGAAAAVgAAAEUAAABqAAAAdAAAAEEAAAA1AAAAWQAA"
+			"AFgAAAB5AAAAagAAAFQAAABUAAAARAAAAGQAAABkAAAAUgAAADUAAAB2AAAAZgAAAGoAAAB6AAAA"
+			"VwAAAGwAAABzAAAASQAAAGoAAAA5AAAARwAAAHkAAABZAAAAZAAAAHMAAABlAAAAYQAAAGQAAABU"
+			"AAAAaAAAAFAAAABiAAAAKwAAAGYAAABVAAAAeAAAAFYAAABFAAAAdAAAAE8AAABYAAAASAAAADYA"
+			"AABaAAAASQAAAHIAAABlAAAAMQAAAFoAAABKAAAAWAAAADcAAABDAAAAeQAAAHcAAAAzAAAAZwAA"
+			"AEUAAABxAAAAQgAAAGoAAABkAAAATQAAAGYAAAAvAAAAVQAAAEkAAAAwAAAARAAAAEYAAABQAAAA"
+			"NgAAADcAAAAwAAAANgAAAG4AAAA4AAAAQgAAAHMAAAAxAAAAOAAAAGEAAAA1AAAAMwAAADgAAABC"
+			"AAAAUgAAAGsAAABBAAAAQQAAAEEAAABRAAAAUQAAAFEAAABRAAAAQQAAAEEAAABCAAAAQgAAAEIA"
+			"AABCAAAAQQAAAEEAAABBAAAARQAAAEUAAABFAAAARQAAAEEAAABnAAAATQAAAEEAAABLAAAAUgAA"
+			"AG4AAABhAAAATQAAAGwAAABLAAAAaQAAAEkAAABtAAAATQAAAEkAAABPAAAANwAAAE8AAABhAAAA"
+			"cQAAAFoAAABnAAAAbAAAAFEAAABJAAAAVQAAAEQAAABHAAAAMgAAAGUAAABkAAAANAAAAEcAAABx"
+			"AAAATQAAAFQAAABFAAAAeAAAAEkAAABnAAAASwAAAEIAAABmAAAAbgAAADEAAAAxAAAAMQAAAC8A"
+			"AABqAAAAQgAAAGkAAAB4AAAAWgAAAHMAAABxAAAAUgAAAEQAAABjAAAASQAAAFcAAABxAAAAMQAA"
+			"ADYAAABGAAAARAAAAEIAAAB6AAAAbAAAADEAAAA2AAAAcAAAAFQAAABEAAAAeAAAAEYAAABUAAAA"
+			"WQAAAFIAAABzAAAARwAAAEMAAABCAAAAVwAAADEAAABCAAAASQAAAFkAAABjAAAATwAAAEgAAABk"
+			"AAAASwAAAGMAAAB1AAAAQQAAAHAAAABlAAAAaQAAAFgAAAArAAAAaAAAACsAAAA1AAAAawAAAHoA"
+			"AABaAAAANgAAAFIAAAAxAAAANgAAADkAAABZAAAASgAAADYAAABuAAAANwAAAC8AAAAvAAAAZgAA"
+			"AGUAAABTAAAASgAAAFUAAABzAAAAVwAAAGgAAAAvAAAAYgAAAHEAAABrAAAAbg=="
 		)
-	)
-	(text_box "Continuous discharge current:"
-		(exclude_from_sim no)
-		(at 173.355 263.525 0)
-		(size 61.595 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "094af17b-7d27-428a-ac7d-32c4461d72c7")
-	)
-	(text_box "The purpose of this board is to be able to charge a battery and power the main load simultaneously from the same external power supply. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. \n\nThe system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible. "
-		(exclude_from_sim no)
-		(at 62.23 238.76 0)
-		(size 103.505 40.64)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "0c4ce08a-2b20-4f7e-a6b4-660e292a9fba")
-	)
-	(text_box "Continuous charge current:"
-		(exclude_from_sim no)
-		(at 173.355 271.145 0)
-		(size 74.295 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "16ff5c12-a59a-498f-9a58-8440cea84b9d")
-	)
-	(text_box "Input voltage (battery&supply):"
-		(exclude_from_sim no)
-		(at 173.355 248.285 0)
-		(size 64.135 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "347e7e61-7c93-449c-8c65-b1d74937394e")
-	)
-	(text_box "30A"
-		(exclude_from_sim no)
-		(at 234.95 255.905 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "3d9a8928-04fd-4c32-8894-e3210045027d")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 144.78 20.32 0)
-		(size 130.81 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 8 8)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
-	)
-	(text_box "10A"
-		(exclude_from_sim no)
-		(at 234.95 271.145 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "78d608bb-1019-4e7c-a021-75f0f5c2db11")
-	)
-	(text_box "Maximum rating:"
-		(exclude_from_sim no)
-		(at 172.72 238.76 0)
-		(size 73.66 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "874bfc99-fafe-40d4-b7af-9ddb98b61eea")
-	)
-	(text_box "30A"
-		(exclude_from_sim no)
-		(at 234.95 263.525 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "8d13c5b4-c5e0-49ad-8e30-5a14333c15f4")
-	)
-	(text_box "10V - 33V"
-		(exclude_from_sim no)
-		(at 236.22 248.285 0)
-		(size 24.13 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "aa388299-5267-444a-a70f-fbbbf3a9efdc")
-	)
-	(text_box "Continuous supply current:"
-		(exclude_from_sim no)
-		(at 173.355 255.905 0)
-		(size 62.23 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 3.048 3.048)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "f73ecd5d-28d4-4dc6-ad8d-2c156959b733")
-	)
-	(text "Made in draw.io"
-		(exclude_from_sim no)
-		(at 264.668 249.682 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e0291e4-94ee-477a-876f-6fd276930e8e")
 	)
 )
