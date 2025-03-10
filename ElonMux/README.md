@@ -32,7 +32,7 @@ The system will always try to use the external power supply as the primary power
 | Mass | TBD |
 | Communication | USB 2.0 / JTAG / UART / I2C |
 | MCU | ESP32-S3FN8 |
-| Dimensions | 100x70x13mm |
+| Dimensions | 100x70x14mm |
 | Designer   | Théo Heng        |
 | Date       | Oct. 2024 - Feb. 2025 |
 | Project    | ERC            |
@@ -46,6 +46,7 @@ ElonMux
 ├── Blender             # .pcb3d file and Blender files
 ├── Computations        # Computation sheets an simulation performed
 ├── Datasheets          # Datasheet of major components
+├── Documentation       # PDF explaining design choices, component choices, user manual and much more.
 ├── Images              # Various images, pictures and screenshot used in the project 
     └── Photos          # High res. pictures of the assembled PCB
 ├── lib
@@ -74,7 +75,7 @@ The firware for ElonMux was written in the Arduino Framwork on Platform.io in VS
 
 ## DOCUMENTATION
 
-A complete documentation document is available on the Google Drive [here](https://docs.google.com/document/d/1wnfp4IymsS4xULBs1ejpKDn9L_p6JvAJ51K0PfjIKNA/edit?tab=t.0). 
+A complete documentation document is available in the Documentation folder. The latest version might be on the Google Drive [here](https://docs.google.com/document/d/1wnfp4IymsS4xULBs1ejpKDn9L_p6JvAJ51K0PfjIKNA/edit?tab=t.0). 
 
 ***
 
