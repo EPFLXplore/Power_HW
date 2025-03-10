@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A3")
 	(title_block
@@ -99,10 +99,20 @@
 				)
 			)
 			(symbol "B3U-1100P_1_0_1"
-				(polyline
-					(pts
-						(xy 15.24 -16.51) (xy 15.24 -11.43)
+				(circle
+					(center 13.97 -11.938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 13.97 -16.002)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -114,6 +124,18 @@
 				(polyline
 					(pts
 						(xy 15.24 -13.97) (xy 17.018 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -16.51) (xy 15.24 -11.43)
 					)
 					(stroke
 						(width 0)
@@ -149,28 +171,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 13.97 -16.002)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 13.97 -11.938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "B3U-1100P_1_1_1"
 				(rectangle
@@ -182,6 +182,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at 10.16 -13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -220,28 +238,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -13.97 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:LQP02HQ2N0B02E"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -342,20 +345,8 @@
 			)
 			(symbol "LQP02HQ2N0B02E_0_1"
 				(arc
-					(start 8.89 0)
+					(start 7.62 0)
 					(mid 8.255 0.6323)
-					(end 7.62 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 9.525 0.6323)
 					(end 8.89 0)
 					(stroke
 						(width 0)
@@ -366,8 +357,8 @@
 					)
 				)
 				(arc
-					(start 11.43 0)
-					(mid 10.795 0.6323)
+					(start 8.89 0)
+					(mid 9.525 0.6323)
 					(end 10.16 0)
 					(stroke
 						(width 0)
@@ -378,9 +369,21 @@
 					)
 				)
 				(arc
-					(start 12.7 0)
-					(mid 12.065 0.6323)
+					(start 10.16 0)
+					(mid 10.795 0.6323)
 					(end 11.43 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 0)
+					(mid 12.065 0.6323)
+					(end 12.7 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -428,11 +431,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -530,9 +538,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -605,7 +616,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -617,7 +628,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -666,9 +677,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -787,6 +801,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ECS-400-10-33B-CKM-TR:ECS-400-10-33B-CKM-TR"
 			(pin_names
@@ -966,6 +981,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "ESP32-S3_1"
 			(exclude_from_sim no)
@@ -1127,6 +1143,17 @@
 				)
 			)
 			(symbol "ESP32-S3_1_1_1"
+				(rectangle
+					(start 0 78.74)
+					(end 34.29 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 34.29 71.12) (xy 1.27 71.12)
@@ -1137,17 +1164,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0 78.74)
-					(end 34.29 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(text "I/Os"
@@ -1170,6 +1186,96 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 66.04 0)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 63.5 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 60.96 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 58.42 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 55.88 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1483,6 +1589,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "XTAL_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "XTAL_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 36.83 66.04 180)
 					(length 2.54)
@@ -1663,24 +1805,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 36.83 7.62 180)
-					(length 2.54)
-					(name "CHIP_PU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 36.83 38.1 180)
 					(length 2.54)
@@ -1772,24 +1896,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 20.32 180)
-					(length 2.54)
-					(name "MTDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 36.83 25.4 180)
 					(length 2.54)
 					(name "MTMS"
@@ -1808,6 +1914,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 36.83 20.32 180)
+					(length 2.54)
+					(name "MTDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 36.83 17.78 180)
 					(length 2.54)
 					(name "U0TXD"
@@ -1818,24 +1942,6 @@
 						)
 					)
 					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 66.04 0)
-					(length 2.54)
-					(name "GPIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1879,107 +1985,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "XTAL_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -2.54 7.62 0)
+					(at 36.83 7.62 180)
 					(length 2.54)
-					(name "XTAL_P"
+					(name "CHIP_PU"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 63.5 0)
-					(length 2.54)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 60.96 0)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 58.42 0)
-					(length 2.54)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 55.88 0)
-					(length 2.54)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,6 +2025,17 @@
 				)
 			)
 			(symbol "ESP32-S3_1_2_1"
+				(rectangle
+					(start 0 78.74)
+					(end 34.29 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 33.02 69.85) (xy 1.27 69.85)
@@ -2021,59 +2048,12 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0 78.74)
-					(end 34.29 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "Power"
 					(at 17.018 75.438 0)
 					(effects
 						(font
 							(size 2 2)
 							(bold yes)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 48.26 0)
-					(length 2.54)
-					(name "VDD3P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 31.75 0)
-					(length 2.54)
-					(name "VDD3P3_RTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -2095,6 +2075,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 48.26 0)
+					(length 2.54)
+					(name "VDD3P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -2.54 45.72 0)
 					(length 2.54)
@@ -2106,6 +2104,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 31.75 0)
+					(length 2.54)
+					(name "VDD3P3_RTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2168,11 +2184,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Small_Bridged"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -2263,9 +2284,9 @@
 			)
 			(symbol "Jumper_2_Small_Bridged_0_1"
 				(arc
-					(start 0.762 0.254)
+					(start -0.762 0.254)
 					(mid 0 0.5696)
-					(end -0.762 0.254)
+					(end 0.762 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -2313,11 +2334,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Small_Open"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -2408,9 +2434,9 @@
 			)
 			(symbol "Jumper_2_Small_Open_0_1"
 				(arc
-					(start 0.762 1.0196)
+					(start -0.762 1.0196)
 					(mid 0 1.2729)
-					(end -0.762 1.0196)
+					(end 0.762 1.0196)
 					(stroke
 						(width 0)
 						(type default)
@@ -2458,6 +2484,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "MCU_Espressif:ESP32-S3"
 			(exclude_from_sim no)
@@ -2619,6 +2646,17 @@
 				)
 			)
 			(symbol "ESP32-S3_1_1"
+				(rectangle
+					(start 0 78.74)
+					(end 34.29 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 34.29 71.12) (xy 1.27 71.12)
@@ -2629,17 +2667,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0 78.74)
-					(end 34.29 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(text "I/Os"
@@ -2662,6 +2689,96 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 66.04 0)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 63.5 0)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 60.96 0)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 58.42 0)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 55.88 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2975,6 +3092,42 @@
 						)
 					)
 				)
+				(pin input line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "XTAL_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "XTAL_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 36.83 66.04 180)
 					(length 2.54)
@@ -3155,24 +3308,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 36.83 7.62 180)
-					(length 2.54)
-					(name "CHIP_PU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 36.83 38.1 180)
 					(length 2.54)
@@ -3264,24 +3399,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 20.32 180)
-					(length 2.54)
-					(name "MTDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 36.83 25.4 180)
 					(length 2.54)
 					(name "MTMS"
@@ -3300,6 +3417,24 @@
 					)
 				)
 				(pin bidirectional line
+					(at 36.83 20.32 180)
+					(length 2.54)
+					(name "MTDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 36.83 17.78 180)
 					(length 2.54)
 					(name "U0TXD"
@@ -3310,24 +3445,6 @@
 						)
 					)
 					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 66.04 0)
-					(length 2.54)
-					(name "GPIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3371,107 +3488,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "XTAL_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -2.54 7.62 0)
+					(at 36.83 7.62 180)
 					(length 2.54)
-					(name "XTAL_P"
+					(name "CHIP_PU"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 63.5 0)
-					(length 2.54)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 60.96 0)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 58.42 0)
-					(length 2.54)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 55.88 0)
-					(length 2.54)
-					(name "GPIO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3501,6 +3528,17 @@
 				)
 			)
 			(symbol "ESP32-S3_2_1"
+				(rectangle
+					(start 0 78.74)
+					(end 34.29 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 33.02 69.85) (xy 1.27 69.85)
@@ -3513,59 +3551,12 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0 78.74)
-					(end 34.29 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "Power"
 					(at 17.018 75.438 0)
 					(effects
 						(font
 							(size 2 2)
 							(bold yes)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 48.26 0)
-					(length 2.54)
-					(name "VDD3P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 31.75 0)
-					(length 2.54)
-					(name "VDD3P3_RTC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -3587,6 +3578,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 48.26 0)
+					(length 2.54)
+					(name "VDD3P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -2.54 45.72 0)
 					(length 2.54)
@@ -3598,6 +3607,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 31.75 0)
+					(length 2.54)
+					(name "VDD3P3_RTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3660,12 +3687,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3737,7 +3769,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3749,7 +3781,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3780,12 +3812,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3876,12 +3913,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3972,6 +4014,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "3v3_STATUS"
@@ -3991,6 +4034,1072 @@
 	)
 	(bus_alias "USB"
 		(members "USB_D-" "USB_D+")
+	)
+	(rectangle
+		(start 18.415 229.87)
+		(end 113.03 248.92)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0adf023a-ceea-4acb-ae28-7732fda61315)
+	)
+	(rectangle
+		(start 213.36 243.205)
+		(end 260.35 255.27)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 13195511-48e1-469c-a6ac-82c54d453b49)
+	)
+	(rectangle
+		(start 101.6 73.66)
+		(end 109.855 82.55)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d455f8c-f01b-427e-8f53-7a1f8e802e27)
+	)
+	(rectangle
+		(start 18.415 251.46)
+		(end 113.03 269.875)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 355edb46-56f8-4839-8d93-6147e28d0989)
+	)
+	(rectangle
+		(start 18.415 201.295)
+		(end 113.03 226.695)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bbcd483-1244-4e90-a623-8e92bdb50965)
+	)
+	(rectangle
+		(start 335.28 38.735)
+		(end 403.86 165.1)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73968c8a-9a4b-4f35-b1c2-cf50dc88c8d4)
+	)
+	(rectangle
+		(start 115.57 229.87)
+		(end 208.28 269.875)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 78ff44b1-f378-46de-a490-96b25ff36496)
+	)
+	(rectangle
+		(start 213.36 257.81)
+		(end 260.35 276.86)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7fb8ab83-7edb-4c01-aa10-adbe97af3328)
+	)
+	(rectangle
+		(start 115.57 171.45)
+		(end 208.28 198.755)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 817ce8fd-8e45-4490-a98e-256b7eb23373)
+	)
+	(rectangle
+		(start 18.415 171.45)
+		(end 113.03 198.755)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b93dab2-e383-465b-af55-d72f8c534abc)
+	)
+	(rectangle
+		(start 213.36 38.735)
+		(end 332.105 165.1)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f359a42-0fc4-41fd-9bb4-fea1b5ccbc1d)
+	)
+	(rectangle
+		(start 83.185 73.66)
+		(end 100.965 82.55)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa3fee64-4da6-458b-8f2d-d07fb7f9989f)
+	)
+	(rectangle
+		(start 213.36 171.45)
+		(end 275.59 240.03)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb27a2c7-3e74-4cc1-bc4f-bb300ca7e221)
+	)
+	(rectangle
+		(start 340.995 171.45)
+		(end 403.86 240.03)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c67dc1ee-49d1-456d-8c4a-1908892a61f0)
+	)
+	(rectangle
+		(start 115.57 201.295)
+		(end 208.28 226.695)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cae32d9f-e69c-4516-ac32-753480080ea5)
+	)
+	(rectangle
+		(start 18.415 38.735)
+		(end 208.28 165.1)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed78b7e7-9d87-4eba-bb13-ab88d26954ef)
+	)
+	(rectangle
+		(start 248.285 208.915)
+		(end 267.335 215.265)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f54a9020-6a36-445a-a0b4-35dc6a7e1227)
+	)
+	(text "Espressif Datasheet p.25 (CHIP_PU)"
+		(exclude_from_sim no)
+		(at 264.414 251.968 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")
+		)
+		(uuid "358cd1e8-e285-4ba8-8979-f8b7f34bd88d")
+	)
+	(text "Flashing ESP32-s3 with USB"
+		(exclude_from_sim no)
+		(at 264.414 258.318 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/establish-serial-connection.html")
+		)
+		(uuid "479ed9db-d1db-4f31-a6ca-307603e5f7a1")
+	)
+	(text "Phil's Lab - SPI Hardware & PCB Design"
+		(exclude_from_sim no)
+		(at 264.414 256.286 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://youtu.be/X71YDKgRJvA")
+		)
+		(uuid "69bb6471-2334-4c87-9034-694ff887637a")
+	)
+	(text "Espressif Datasheet p.30 (GPIO0 boot)"
+		(exclude_from_sim no)
+		(at 264.414 254 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")
+		)
+		(uuid "a3141fda-8803-4fc5-a657-6691a460ba3f")
+	)
+	(text "ESP32-s3 BOOT selection"
+		(exclude_from_sim no)
+		(at 264.414 260.35 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html")
+		)
+		(uuid "cd5b35ba-bfc9-4077-a5a6-d80a21870328")
+	)
+	(text "Espressif Scematic Checklist"
+		(exclude_from_sim no)
+		(at 264.414 249.936 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html")
+		)
+		(uuid "cef733a5-e678-471b-8f0a-f5d96b10a6bb")
+	)
+	(text_box "MCU Additional I/Os"
+		(exclude_from_sim no)
+		(at 114.935 189.23 0)
+		(size 93.98 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "161081fe-0ca9-4b19-84ad-7b270f330eea")
+	)
+	(text_box "MCU Chip Reset"
+		(exclude_from_sim no)
+		(at 212.725 229.87 0)
+		(size 63.5 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "19ce87ee-1bf5-4630-91a8-068acb5d6d0c")
+	)
+	(text_box "SPI Bus to Discharge Sensor"
+		(exclude_from_sim no)
+		(at 17.78 189.865 0)
+		(size 95.885 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "1a0a48f5-ac61-4eeb-8549-2cafd4f1de15")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 339.725 142.24 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8b2b31-36cb-4a96-9aa8-9777d3732a6f")
+	)
+	(text_box "Charger Operation"
+		(exclude_from_sim no)
+		(at 212.725 267.335 0)
+		(size 48.26 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "20cd0feb-4c7b-4682-a7f7-b9700357c5af")
+	)
+	(text_box "The ESP32-S3 will enter the serial bootloader when GPIO0 is held low on reset. Otherwise it will run the program in flash."
+		(exclude_from_sim no)
+		(at 278.765 229.235 0)
+		(size 59.055 10.16)
+		(margins 1.1429 1.1429 1.1429 1.1429)
+		(stroke
+			(width -0.0001)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "254f1ae8-89cb-4938-893f-e118cbea2c26")
+	)
+	(text_box "JTAG (Debug) port"
+		(exclude_from_sim no)
+		(at 17.78 217.805 0)
+		(size 95.885 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "2f6e04dd-6598-45ae-acd9-8b02c1a351a1")
+	)
+	(text_box "DESIGN NOTE - I2C pull-Up resistors:\n\nRmin = (VDDmax - VOLmax) / IOL\nSystem I/O voltage: VDD = 3.3V +- 5% -> 3.47V\nLow level output volatge (I2C specs): VOLmax = 0.4V\nLow level output current (I2C specs): IOL = 3mA\nRmin = (3.47V - 0.4V) / 3mA ≈ 1k Ohm\n\nRmax ≈ (1.18 x trmax ) / Cb\nStandard mode (I2C specs): trmax = 1000ns\nCbmax = 400pF (worst case)\n-> Rmax = (1.18 x 1000ns ) / 400pF ≈ 3k  Ohm \nCbmin = 50pF (only 1-2 devices on bus)\n-> Rmax = (1.18 x 1000ns ) / 50pF  ≈ 24k Ohm \n\nSmaller resistors decrease rise time but \nincrease power consumption.\n\n"
+		(exclude_from_sim no)
+		(at 20.32 41.275 0)
+		(size 46.355 38.1)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "36b322d2-ea48-4769-8133-829df845670b")
+	)
+	(text_box "User LED"
+		(exclude_from_sim no)
+		(at 212.725 246.38 0)
+		(size 48.26 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "45fa5523-884e-4bca-8d5e-0fc2bba9edeb")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 10.16 20.32 0)
+		(size 399.415 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "524c500e-48b2-4d74-9c30-5c34bf6c2558")
+	)
+	(text_box "DESIGN NOTE - CLK caps:\n\nCl = 10pF (load capacitance)\nCp = 5pF (stray capacitance)\nC1 = C2 = C\n\nCl = (C1 x C2)/(C1+C2) + Cp\n10pF = C/2 + Cp\n\nC1 = C2 = 10pF\n\n"
+		(exclude_from_sim no)
+		(at 20.32 114.3 0)
+		(size 26.035 22.86)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "53ed7bc1-1d5f-4826-86b1-5a264746b60b")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 334.645 154.94 0)
+		(size 69.85 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "58c2d440-64b5-4500-a8be-dcdea3453306")
+	)
+	(text_box "The pullup on the CS pin ensure that the slave remain deselected when the master is in reset or starting up. In that case, its pins are usually hi-Z and thus floating, which could lead to multiple slaves being selected and driving the MISO bus (resulting in short-circuits). \nCS is an active low line."
+		(exclude_from_sim no)
+		(at 20.32 81.28 0)
+		(size 46.355 14.605)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5e7d24ac-9908-42e6-adac-a14e3c277553")
+	)
+	(text_box "USB flash: bridge to 3V3\nJTAG flash: bridge to GND\nSOLDER ONLY ONE AT A TIME\nDO NOT LEAVE FLOATING"
+		(exclude_from_sim no)
+		(at 74.93 44.45 0)
+		(size 37.465 12.065)
+		(margins 1.524 1.524 1.524 1.524)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "62e185ac-c3a8-439a-9518-4a4fdfe16d9a")
+	)
+	(text_box "SPI - Sense"
+		(exclude_from_sim no)
+		(at 339.725 59.055 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "66398ed0-58c5-49da-b38b-088e0aa53f2e")
+	)
+	(text_box "MCU JTAG Boot"
+		(exclude_from_sim no)
+		(at 340.36 229.87 0)
+		(size 64.135 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "69f1db26-1eeb-4499-b35c-03b5b7c0dcb7")
+	)
+	(text_box "Ideally if space allows, add a 0.1uF capacitor on each ADC lines used to read values (IMON 1 & 2)"
+		(exclude_from_sim no)
+		(at 47.625 149.86 0)
+		(size 27.94 12.065)
+		(margins 1.524 1.524 1.524 1.524)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "86f74ed0-6259-4ba0-a52b-2cab057997ac")
+	)
+	(text_box "JTAG - Debug"
+		(exclude_from_sim no)
+		(at 339.725 37.465 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "88118d49-a3a1-4206-ac5d-ba0ea93c7045")
+	)
+	(text_box "I2C - Charge"
+		(exclude_from_sim no)
+		(at 339.725 80.645 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a996275-b439-4fcc-8ebc-dea5be8e932d")
+	)
+	(text_box "DESIGN NOTE:\n\nGPIO 35, 36 & 37 are availaible only because we are not using octal SPI for the internal 8MB FLASH."
+		(exclude_from_sim no)
+		(at 175.895 173.355 0)
+		(size 30.48 17.145)
+		(margins 1.651 1.651 1.651 1.651)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8fc33726-c3ec-43d3-a658-3656c94782dc")
+	)
+	(text_box "LAYOUT NOTE:\nPlace each capacitor close to the relevant pin\nto minimize loop inductance."
+		(exclude_from_sim no)
+		(at 227.33 44.45 0)
+		(size 43.815 17.78)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "909ae094-ed03-4437-8eb7-874d020dbecc")
+	)
+	(text_box "MCU I/O"
+		(exclude_from_sim no)
+		(at 17.78 154.94 0)
+		(size 191.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "96ca24d3-fb87-492b-b46b-2ff8e6f8597a")
+	)
+	(text_box "I2C Bus to Battery Charger"
+		(exclude_from_sim no)
+		(at 17.78 240.03 0)
+		(size 95.885 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "a40f04e2-0b13-4ad4-9c0a-1e518b3beb91")
+	)
+	(text_box "USB-C Interface"
+		(exclude_from_sim no)
+		(at 18.415 260.985 0)
+		(size 95.25 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "a6d88201-b58c-4670-9dd4-2d50f2fbf85b")
+	)
+	(text_box "LAYOUT NOTE:\nPlace the 24nH inductor as close as the IC as possible. It is best not to route any signal trace under the crystal."
+		(exclude_from_sim no)
+		(at 20.32 144.145 0)
+		(size 24.765 17.78)
+		(margins 1.3589 1.3589 1.3589 1.3589)
+		(stroke
+			(width 0.8128)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "af28dd33-f8f3-46e9-96ae-a44450f9a480")
+	)
+	(text_box "The MISO pin doesn't require a pull-ip resistor as the only slave device on this line, INA239AQDGSRQ1, has an internal push-pull."
+		(exclude_from_sim no)
+		(at 20.32 97.79 0)
+		(size 46.355 8.255)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c349b41b-f802-4ec2-9d5d-3fee2187318e")
+	)
+	(text_box "MCU POWER"
+		(exclude_from_sim no)
+		(at 207.645 154.94 0)
+		(size 120.015 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "d975f102-c262-465d-91fc-7f6c552cfb8d")
+	)
+	(text_box "3V3 Buck Status"
+		(exclude_from_sim no)
+		(at 114.935 217.805 0)
+		(size 93.98 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e0478cb1-c74d-49f7-8f06-fa09711f3725")
+	)
+	(text_box "OTHER SIGNALS"
+		(exclude_from_sim no)
+		(at 339.725 94.615 0)
+		(size 64.77 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecda6a84-991b-4dcb-831e-0b7bb5355030")
+	)
+	(text_box "Drivers Status & Sensing"
+		(exclude_from_sim no)
+		(at 114.935 262.89 0)
+		(size 93.98 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ed0e6db0-a92f-432f-8034-6a77f1712101")
+	)
+	(text_box "DESIGN NOTE:\n\nUSB flashing is fully automated because of its ability to reset the ESP32 directly, while JTAG debugging operates through distinct dedicated pins that do not handle the board's power state changes automatically. Therefore, the BOOT button is necessary to enable flash mode when using JTAG for programming or debugging."
+		(exclude_from_sim no)
+		(at 278.13 206.375 0)
+		(size 60.325 33.655)
+		(margins 1.543 1.543 1.543 1.543)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f0cc2c3f-153b-435e-8c22-c2c9bff485bd")
+	)
+	(text_box "DESIGN NOTE - reset button capacitor:\n\nDebouncing: It smooths out any quick, unintended changes in voltage due to mechanical bounce in the button switch. This ensures that when the reset button is pressed, it reliably resets without multiple unintended toggles.\n\nPower Stabilization: It can also help stabilize the power when the chip resets, which may reduce potential issues during the reset process."
+		(exclude_from_sim no)
+		(at 278.13 171.45 0)
+		(size 60.325 32.385)
+		(margins 1.5494 1.5494 1.5494 1.5494)
+		(stroke
+			(width 0.8128)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.524 1.524)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f4cc3ad7-66ef-4370-8dcb-e0a1cf64cb94")
 	)
 	(junction
 		(at 246.38 193.04)
@@ -7133,227 +8242,6 @@
 			(type default)
 		)
 		(uuid "ff589f7e-2293-40cd-81df-cb1c535c1db3")
-	)
-	(rectangle
-		(start 18.415 229.87)
-		(end 113.03 248.92)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0adf023a-ceea-4acb-ae28-7732fda61315)
-	)
-	(rectangle
-		(start 213.36 243.205)
-		(end 260.35 255.27)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 13195511-48e1-469c-a6ac-82c54d453b49)
-	)
-	(rectangle
-		(start 101.6 73.66)
-		(end 109.855 82.55)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2d455f8c-f01b-427e-8f53-7a1f8e802e27)
-	)
-	(rectangle
-		(start 18.415 251.46)
-		(end 113.03 269.875)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 355edb46-56f8-4839-8d93-6147e28d0989)
-	)
-	(rectangle
-		(start 18.415 201.295)
-		(end 113.03 226.695)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6bbcd483-1244-4e90-a623-8e92bdb50965)
-	)
-	(rectangle
-		(start 335.28 38.735)
-		(end 403.86 165.1)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 73968c8a-9a4b-4f35-b1c2-cf50dc88c8d4)
-	)
-	(rectangle
-		(start 115.57 229.87)
-		(end 208.28 269.875)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 78ff44b1-f378-46de-a490-96b25ff36496)
-	)
-	(rectangle
-		(start 213.36 257.81)
-		(end 260.35 276.86)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7fb8ab83-7edb-4c01-aa10-adbe97af3328)
-	)
-	(rectangle
-		(start 115.57 171.45)
-		(end 208.28 198.755)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 817ce8fd-8e45-4490-a98e-256b7eb23373)
-	)
-	(rectangle
-		(start 18.415 171.45)
-		(end 113.03 198.755)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8b93dab2-e383-465b-af55-d72f8c534abc)
-	)
-	(rectangle
-		(start 213.36 38.735)
-		(end 332.105 165.1)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8f359a42-0fc4-41fd-9bb4-fea1b5ccbc1d)
-	)
-	(rectangle
-		(start 83.185 73.66)
-		(end 100.965 82.55)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aa3fee64-4da6-458b-8f2d-d07fb7f9989f)
-	)
-	(rectangle
-		(start 213.36 171.45)
-		(end 275.59 240.03)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb27a2c7-3e74-4cc1-bc4f-bb300ca7e221)
-	)
-	(rectangle
-		(start 340.995 171.45)
-		(end 403.86 240.03)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c67dc1ee-49d1-456d-8c4a-1908892a61f0)
-	)
-	(rectangle
-		(start 115.57 201.295)
-		(end 208.28 226.695)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cae32d9f-e69c-4516-ac32-753480080ea5)
-	)
-	(rectangle
-		(start 18.415 38.735)
-		(end 208.28 165.1)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ed78b7e7-9d87-4eba-bb13-ab88d26954ef)
-	)
-	(rectangle
-		(start 248.285 208.915)
-		(end 267.335 215.265)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f54a9020-6a36-445a-a0b4-35dc6a7e1227)
 	)
 	(image
 		(at 158.115 154.305)
@@ -11253,7 +12141,25 @@
 			"BBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAIHmCBCw1Jy+pCUIIIAAAggggAACCCCA"
 			"AAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCFRegIClyncRFUQAAQQQQAABBBBAAAEEEEAAAQQQ"
 			"QAABBBBAAAEEEEAAAQQQQAABBBBAoDkCBCw1py9pCQIIIIAAAggggAACCCCAAAIIIIAAAggggAAC"
-			"CCCAAAIIIIAAAggggAAClRf4fw0K2JjavvUsAAAAAElFTkSuQmCC"
+			"CCCAAAIIIIAAAggggAAClRf4fw0K2JjavvUsAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -14753,7 +15659,25 @@
 			"ARIgARIgARIgARIgARIgARIgARIgARIgARKwJkABqTUqRiQBEiABEiABEiABEiABEiABEiABEiAB"
 			"EiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiABEiCB8iBAAWl5tCNrQQIkQAIkQAIkQAIk"
 			"QAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQALWBP4PjMXDYMGd"
-			"gosAAAAASUVORK5CYII="
+			"gosAAAAASUVORK5CYIJEdGNuQVJ2NXFONG9uR2JlVStaVVgrVml1YjJ2Z3VyWlg3a2llbDVXdWtH"
+			"d3U5am92L2F0LytzbHp2Ym5PMW1OSEhwMnVMeTlYS3lLUlZZbE0veFJ1cWUrQWpzUnNwNWtpblc1"
+			"TnE3a3JqL3k3YjR3U0w3alB0OGliSStBSU9BS09nQ1BnQ0RnQ2pvQWo0QWc0QXE4ckFrNlF2YTV3"
+			"UHZ6R1JGcmNGSW56YldWMXZWTTF5T1pGa3IxRFdXVXhYd2R5QjFKbnBPd2FDQjRqaFVRU1JFSkV0"
+			"Y3Z1RlY2SDdJQUFRWWZlbmlGQUlHWmtPOHA0NXFJWk9ZS3VYVFptNDhUQVdMTWhzMWl3WFJNL3RZ"
+			"YlpNUm14bUE3ellvMHd0c3pwMzFRWlJ5SUc0MFN6aHo2Tk9MaTNlTGhuS3luWmI4eEJuekhxc0Zs"
+			"ODVzZUswVnNzOUdhUEdGNXQzT0psM0h6YWZCc2pCb3NQbWVsWm5NaTRKd09ReG54a2xyR0hQdEJE"
+			"ZWtFb2lkeUpSZWFSd1hSQkNOWFpaS0NqdWZHOXpESzRvbEkwaStVNFg2YWhyMkljK0RWL1JoRGFt"
+			"cG5GT0hHQW9iMC9aRFJpWkk3b1E5blRxWkFRVXhyaWhFamlJYU5MYjFFMjVBdGlVLzhKSm8wSmcw"
+			"bDlLcVZtS0dNTVIzcHZHc3RFNlBWbDUwaXZFMWJtRjhMNjJrYlkwTFcydkI0V1YxYkMzUEp5V0Zo"
+			"WkRyMmxwWEJ6ZXpzTUQvYkM1UXZuUldMbG9aZTFxMkU1blk1SHc2bzltS2M0Mlo2UzVHN3JsTTI3"
+			"cW4yMnFZRE9DOVhUeWkyN1ZaWEpWS1JYUHQ5cTcvM1RmL3dmWDlvOUdPLzgwdi95djk2SkMvTVBS"
+			"OEFSY0FRY0FVZkFFWEFFSEFGSHdCRndCQnlCdHd3Qko4amVNdWdmVE1jNnpmTEd4ei8rOGUrSXRG"
+			"a1dvZEVWUVphS3hIaE1xeEYvQXVOUWswVjJieVNJeVNFN2pPZ3dHVG8wNnlGQXVMZkxiRFY3N0Zo"
+			"RGpxNlJMbWJMNXRNYmtZU3UyVEc5cGgySUxKdUhQWFRKSUtQeHpEanhXVU9YUm8rdWpVSHUwTXd2"
+			"Y3JQWDFETmY2Tm85NDF3bXM5NThNV1lFbmVtWkRqMit6SWFObTIxNmk5RmlzbmRpT3N5eGV4blNm"
+			"V1MyUkNsRkwzcFdEMm1XMVBXNjZpMld5R2FYNkNsdEtJMlBySUtyOWlzRi9WY1grcTh4MWRDOXRZ"
+			"S1BYUmEzOWZmaW1ka3lMSXRTVkpqaUE2NjZqcGppVXFZYWppREpPQ0NBZW1LSmVFMFZ1dzl0blQ0"
+			"SnFUVVpqVVhDamtKWA=="
 		)
 	)
 	(image
@@ -17684,7 +18608,25 @@
 			"CZAACZAACZAACZAACZAACZBAMAEKcMF8eJUESIAESIAESIAESIAESIAESIAESIAESIAEYhGgABcL"
 			"H28mARIgARIgARIgARIgARIgARIgARIgARIggWACFOCC+fAqCZAACZAACZAACZAACZAACZAACZAA"
 			"CZAACcQiQAEuFj7eTAIkQAIkQAIkQAIkQAIkQAIkQAIkQAIkQALBBP4f0LYD15N7ZYgAAAAASUVO"
-			"RK5CYII="
+			"RK5CYIIAAAA4AAAARAAAAEwAAAA3AAAAbQAAAEkAAAAyAAAAUQAAAEUAAABtAAAATgAAADkAAABk"
+			"AAAAcgAAAFAAAABtAAAAegAAAGUAAAB2AAAAMwAAAFYAAABPAAAASQAAAGEAAAAzAAAAOAAAADgA"
+			"AABNAAAARwAAAFcAAABhAAAAMQAAADAAAAB4AAAAdwAAAGkAAAA1AAAAawAAADYAAABPAAAAcQAA"
+			"AEMAAABaAAAAYwAAAEIAAABlAAAAegAAAGYAAABaAAAAawAAAEoAAABFAAAAcgAAAEUAAABqAAAA"
+			"dAAAAE0AAABUAAAATQAAAE8AAABLAAAAWQAAAHgAAABYAAAAVgAAAFQAAABSAAAAMQAAAGYAAABk"
+			"AAAAWAAAAEwAAABuAAAASgAAAG0AAABxAAAAZwAAAGcAAABnAAAAZwAAAEkAAABDAAAAbgAAAEIA"
+			"AABMAAAAaQAAAC8AAAA4AAAAdAAAAFIAAAAyAAAAcwAAAGgAAABnAAAARQAAAEQAAABpAAAANwAA"
+			"AG0AAABOAAAAQQAAAEEAAABBAAAASQAAAEEAAABCAAAASgAAAFIAAABFAAAARgAAAFUAAABFAAAA"
+			"RQAAAEEAAABBAAAAQQAAAFEAAABRAAAAUQAAAGMAAABJAAAAWQAAAEEAAABuAAAAOAAAACsAAABk"
+			"AAAAcwAAAFEAAAAvAAAATQAAAEEAAABnAAAARQAAAEUAAABFAAAARQAAAEEAAABBAAAAQQAAAFEA"
+			"AABRAAAAUQAAAFEAAABBAAAAQQAAAEIAAABCAAAAQgAAAEIAAABBAAAAQQAAAEEAAABFAAAARQAA"
+			"AEUAAABpAAAAUgAAAEEAAABnAAAARQAAAHEAAABDAAAAbwAAAEIAAABrAAAARwAAAEEAAABRAAAA"
+			"UQAAAFEAAABRAAAAQQAAAEEAAABCAAAAQgAAAEIAAABCAAAAQQAAAEEAAABBAAAARQAAAEUAAABF"
+			"AAAARQAAAEEAAABBAAAAQQAAAFEAAABzAAAAQwAAAEIAAABLAAAAaAAAAFkAAAB3AAAAUAAAAE4A"
+			"AAA0AAAAMAAAADQAAAAwAAAAYgAAAE4AAAB3AAAAYgAAAE8AAABBAAAATwAAAHIAAABmAAAASwAA"
+			"AFEAAABoAAAANAAAAFMAAABhAAAAQgAAAGEAAAB0AAAAVwAAAHAAAABTAAAAdgAAAFgAAAByAAAA"
+			"MQAAAHcAAABEAAAAbAAAAG0AAABpAAAAbwAAAHMAAABGAAAAQwAAAEYAAABCAAAAeAAAADgAAABl"
+			"AAAAWQAAADUAAABlAAAATwAAAG8AAABFAAAAcQAAAEQAAABoAAAANAAAAGMAAAA1AAAAaQAAAGEA"
+			"AABWAA=="
 		)
 	)
 	(image
@@ -17767,7 +18709,25 @@
 			"Y6PvqJMiDJfPXijHmZp3FRuGG7uZH7P8YbICcIGlrVe6Mlt7d9lxIYDg2vxu9A+U1QOBIwwdp3B2"
 			"Kmw7n+/2WqGHDNz2lfmF0h+qZrdhu2H/NujplMr1TqdeLoY7WIBwI/rWrbHDP1nW3/NygBEIgi4s"
 			"Fnqmuv58NW/+voXbMLZD2fXW1e2FdkLW6MepapmOq5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR"
-			"kVEG/Q9bCKOmOPi4ZgAAAABJRU5ErkJggg=="
+			"kVEG/Q9bCKOmOPi4ZgAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -17850,821 +18810,26 @@
 			"Y6PvqJMiDJfPXijHmZp3FRuGG7uZH7P8YbICcIGlrVe6Mlt7d9lxIYDg2vxu9A+U1QOBIwwdp3B2"
 			"Kmw7n+/2WqGHDNz2lfmF0h+qZrdhu2H/NujplMr1TqdeLoY7WIBwI/rWrbHDP1nW3/NygBEIgi4s"
 			"Fnqmuv58NW/+voXbMLZD2fXW1e2FdkLW6MepapmOq5GRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGR"
-			"kVEG/Q9bCKOmOPi4ZgAAAABJRU5ErkJggg=="
+			"kVEG/Q9bCKOmOPi4ZgAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
-	)
-	(text_box "MCU Additional I/Os"
-		(exclude_from_sim no)
-		(at 114.935 189.23 0)
-		(size 93.98 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "161081fe-0ca9-4b19-84ad-7b270f330eea")
-	)
-	(text_box "MCU Chip Reset"
-		(exclude_from_sim no)
-		(at 212.725 229.87 0)
-		(size 63.5 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "19ce87ee-1bf5-4630-91a8-068acb5d6d0c")
-	)
-	(text_box "SPI Bus to Discharge Sensor"
-		(exclude_from_sim no)
-		(at 17.78 189.865 0)
-		(size 95.885 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "1a0a48f5-ac61-4eeb-8549-2cafd4f1de15")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 339.725 142.24 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b8b2b31-36cb-4a96-9aa8-9777d3732a6f")
-	)
-	(text_box "Charger Operation"
-		(exclude_from_sim no)
-		(at 212.725 267.335 0)
-		(size 48.26 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "20cd0feb-4c7b-4682-a7f7-b9700357c5af")
-	)
-	(text_box "The ESP32-S3 will enter the serial bootloader when GPIO0 is held low on reset. Otherwise it will run the program in flash."
-		(exclude_from_sim no)
-		(at 278.765 229.235 0)
-		(size 59.055 10.16)
-		(stroke
-			(width -0.0001)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "254f1ae8-89cb-4938-893f-e118cbea2c26")
-	)
-	(text_box "JTAG (Debug) port"
-		(exclude_from_sim no)
-		(at 17.78 217.805 0)
-		(size 95.885 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "2f6e04dd-6598-45ae-acd9-8b02c1a351a1")
-	)
-	(text_box "DESIGN NOTE - I2C pull-Up resistors:\n\nRmin = (VDDmax - VOLmax) / IOL\nSystem I/O voltage: VDD = 3.3V +- 5% -> 3.47V\nLow level output volatge (I2C specs): VOLmax = 0.4V\nLow level output current (I2C specs): IOL = 3mA\nRmin = (3.47V - 0.4V) / 3mA ≈ 1k Ohm\n\nRmax ≈ (1.18 x trmax ) / Cb\nStandard mode (I2C specs): trmax = 1000ns\nCbmax = 400pF (worst case)\n-> Rmax = (1.18 x 1000ns ) / 400pF ≈ 3k  Ohm \nCbmin = 50pF (only 1-2 devices on bus)\n-> Rmax = (1.18 x 1000ns ) / 50pF  ≈ 24k Ohm \n\nSmaller resistors decrease rise time but \nincrease power consumption.\n\n"
-		(exclude_from_sim no)
-		(at 20.32 41.275 0)
-		(size 46.355 38.1)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "36b322d2-ea48-4769-8133-829df845670b")
-	)
-	(text_box "User LED"
-		(exclude_from_sim no)
-		(at 212.725 246.38 0)
-		(size 48.26 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "45fa5523-884e-4bca-8d5e-0fc2bba9edeb")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 10.16 20.32 0)
-		(size 399.415 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 8 8)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "524c500e-48b2-4d74-9c30-5c34bf6c2558")
-	)
-	(text_box "DESIGN NOTE - CLK caps:\n\nCl = 10pF (load capacitance)\nCp = 5pF (stray capacitance)\nC1 = C2 = C\n\nCl = (C1 x C2)/(C1+C2) + Cp\n10pF = C/2 + Cp\n\nC1 = C2 = 10pF\n\n"
-		(exclude_from_sim no)
-		(at 20.32 114.3 0)
-		(size 26.035 22.86)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "53ed7bc1-1d5f-4826-86b1-5a264746b60b")
-	)
-	(text_box "Test Points"
-		(exclude_from_sim no)
-		(at 334.645 154.94 0)
-		(size 69.85 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "58c2d440-64b5-4500-a8be-dcdea3453306")
-	)
-	(text_box "The pullup on the CS pin ensure that the slave remain deselected when the master is in reset or starting up. In that case, its pins are usually hi-Z and thus floating, which could lead to multiple slaves being selected and driving the MISO bus (resulting in short-circuits). \nCS is an active low line."
-		(exclude_from_sim no)
-		(at 20.32 81.28 0)
-		(size 46.355 14.605)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "5e7d24ac-9908-42e6-adac-a14e3c277553")
-	)
-	(text_box "USB flash: bridge to 3V3\nJTAG flash: bridge to GND\nSOLDER ONLY ONE AT A TIME\nDO NOT LEAVE FLOATING"
-		(exclude_from_sim no)
-		(at 74.93 44.45 0)
-		(size 37.465 12.065)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "62e185ac-c3a8-439a-9518-4a4fdfe16d9a")
-	)
-	(text_box "SPI - Sense"
-		(exclude_from_sim no)
-		(at 339.725 59.055 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "66398ed0-58c5-49da-b38b-088e0aa53f2e")
-	)
-	(text_box "MCU JTAG Boot"
-		(exclude_from_sim no)
-		(at 340.36 229.87 0)
-		(size 64.135 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "69f1db26-1eeb-4499-b35c-03b5b7c0dcb7")
-	)
-	(text_box "Ideally if space allows, add a 0.1uF capacitor on each ADC lines used to read values (IMON 1 & 2)"
-		(exclude_from_sim no)
-		(at 47.625 149.86 0)
-		(size 27.94 12.065)
-		(stroke
-			(width 0.762)
-			(type solid)
-			(color 255 153 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "86f74ed0-6259-4ba0-a52b-2cab057997ac")
-	)
-	(text_box "JTAG - Debug"
-		(exclude_from_sim no)
-		(at 339.725 37.465 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "88118d49-a3a1-4206-ac5d-ba0ea93c7045")
-	)
-	(text_box "I2C - Charge"
-		(exclude_from_sim no)
-		(at 339.725 80.645 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a996275-b439-4fcc-8ebc-dea5be8e932d")
-	)
-	(text_box "DESIGN NOTE:\n\nGPIO 35, 36 & 37 are availaible only because we are not using octal SPI for the internal 8MB FLASH."
-		(exclude_from_sim no)
-		(at 175.895 173.355 0)
-		(size 30.48 17.145)
-		(stroke
-			(width 1.016)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "8fc33726-c3ec-43d3-a658-3656c94782dc")
-	)
-	(text_box "LAYOUT NOTE:\nPlace each capacitor close to the relevant pin\nto minimize loop inductance."
-		(exclude_from_sim no)
-		(at 227.33 44.45 0)
-		(size 43.815 17.78)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "909ae094-ed03-4437-8eb7-874d020dbecc")
-	)
-	(text_box "MCU I/O"
-		(exclude_from_sim no)
-		(at 17.78 154.94 0)
-		(size 191.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "96ca24d3-fb87-492b-b46b-2ff8e6f8597a")
-	)
-	(text_box "I2C Bus to Battery Charger"
-		(exclude_from_sim no)
-		(at 17.78 240.03 0)
-		(size 95.885 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "a40f04e2-0b13-4ad4-9c0a-1e518b3beb91")
-	)
-	(text_box "USB-C Interface"
-		(exclude_from_sim no)
-		(at 18.415 260.985 0)
-		(size 95.25 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "a6d88201-b58c-4670-9dd4-2d50f2fbf85b")
-	)
-	(text_box "LAYOUT NOTE:\nPlace the 24nH inductor as close as the IC as possible. It is best not to route any signal trace under the crystal."
-		(exclude_from_sim no)
-		(at 20.32 144.145 0)
-		(size 24.765 17.78)
-		(stroke
-			(width 0.8128)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "af28dd33-f8f3-46e9-96ae-a44450f9a480")
-	)
-	(text_box "The MISO pin doesn't require a pull-ip resistor as the only slave device on this line, INA239AQDGSRQ1, has an internal push-pull."
-		(exclude_from_sim no)
-		(at 20.32 97.79 0)
-		(size 46.355 8.255)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c349b41b-f802-4ec2-9d5d-3fee2187318e")
-	)
-	(text_box "MCU POWER"
-		(exclude_from_sim no)
-		(at 207.645 154.94 0)
-		(size 120.015 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "d975f102-c262-465d-91fc-7f6c552cfb8d")
-	)
-	(text_box "3V3 Buck Status"
-		(exclude_from_sim no)
-		(at 114.935 217.805 0)
-		(size 93.98 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "e0478cb1-c74d-49f7-8f06-fa09711f3725")
-	)
-	(text_box "OTHER SIGNALS"
-		(exclude_from_sim no)
-		(at 339.725 94.615 0)
-		(size 64.77 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "ecda6a84-991b-4dcb-831e-0b7bb5355030")
-	)
-	(text_box "Drivers Status & Sensing"
-		(exclude_from_sim no)
-		(at 114.935 262.89 0)
-		(size 93.98 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "ed0e6db0-a92f-432f-8034-6a77f1712101")
-	)
-	(text_box "DESIGN NOTE:\n\nUSB flashing is fully automated because of its ability to reset the ESP32 directly, while JTAG debugging operates through distinct dedicated pins that do not handle the board's power state changes automatically. Therefore, the BOOT button is necessary to enable flash mode when using JTAG for programming or debugging."
-		(exclude_from_sim no)
-		(at 278.13 206.375 0)
-		(size 60.325 33.655)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "f0cc2c3f-153b-435e-8c22-c2c9bff485bd")
-	)
-	(text_box "DESIGN NOTE - reset button capacitor:\n\nDebouncing: It smooths out any quick, unintended changes in voltage due to mechanical bounce in the button switch. This ensures that when the reset button is pressed, it reliably resets without multiple unintended toggles.\n\nPower Stabilization: It can also help stabilize the power when the chip resets, which may reduce potential issues during the reset process."
-		(exclude_from_sim no)
-		(at 278.13 171.45 0)
-		(size 60.325 32.385)
-		(stroke
-			(width 0.8128)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.524 1.524)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "f4cc3ad7-66ef-4370-8dcb-e0a1cf64cb94")
-	)
-	(text "Espressif Datasheet p.25 (CHIP_PU)"
-		(exclude_from_sim no)
-		(at 264.414 251.968 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")
-		)
-		(uuid "358cd1e8-e285-4ba8-8979-f8b7f34bd88d")
-	)
-	(text "Flashing ESP32-s3 with USB"
-		(exclude_from_sim no)
-		(at 264.414 258.318 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/establish-serial-connection.html")
-		)
-		(uuid "479ed9db-d1db-4f31-a6ca-307603e5f7a1")
-	)
-	(text "Phil's Lab - SPI Hardware & PCB Design"
-		(exclude_from_sim no)
-		(at 264.414 256.286 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://youtu.be/X71YDKgRJvA")
-		)
-		(uuid "69bb6471-2334-4c87-9034-694ff887637a")
-	)
-	(text "Espressif Datasheet p.30 (GPIO0 boot)"
-		(exclude_from_sim no)
-		(at 264.414 254 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf")
-		)
-		(uuid "a3141fda-8803-4fc5-a657-6691a460ba3f")
-	)
-	(text "ESP32-s3 BOOT selection"
-		(exclude_from_sim no)
-		(at 264.414 260.35 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html")
-		)
-		(uuid "cd5b35ba-bfc9-4077-a5a6-d80a21870328")
-	)
-	(text "Espressif Scematic Checklist"
-		(exclude_from_sim no)
-		(at 264.414 249.936 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html")
-		)
-		(uuid "cef733a5-e678-471b-8f0a-f5d96b10a6bb")
 	)
 	(label "SPICS1"
 		(at 184.15 73.66 180)

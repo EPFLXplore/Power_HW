@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A3")
 	(title_block
@@ -99,10 +99,20 @@
 				)
 			)
 			(symbol "B3U-1100P_1_0_1"
-				(polyline
-					(pts
-						(xy 15.24 -16.51) (xy 15.24 -11.43)
+				(circle
+					(center 13.97 -11.938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
 					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 13.97 -16.002)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -114,6 +124,18 @@
 				(polyline
 					(pts
 						(xy 15.24 -13.97) (xy 17.018 -13.97)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -16.51) (xy 15.24 -11.43)
 					)
 					(stroke
 						(width 0)
@@ -149,28 +171,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 13.97 -16.002)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 13.97 -11.938)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "B3U-1100P_1_1_1"
 				(rectangle
@@ -182,6 +182,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at 10.16 -13.97 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -220,28 +238,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -13.97 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:SM1206SRC"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -345,10 +348,22 @@
 			(symbol "SM1206SRC_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -369,7 +384,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+						(xy 0 -1.27) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -381,22 +396,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.762) (xy -2.032 -2.286) (xy -1.27 -2.286) (xy -2.032 -2.286) (xy -2.032 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -442,6 +445,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:TPS3701DDCR"
 			(exclude_from_sim no)
@@ -557,42 +561,6 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -1.27 180)
-					(length 5.08)
-					(name "OUTA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 -17.78 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -1.27 0)
 					(length 5.08)
 					(name "INA"
@@ -647,6 +615,42 @@
 					)
 				)
 				(pin passive line
+					(at 13.97 -17.78 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -1.27 180)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 27.94 -6.35 180)
 					(length 5.08)
 					(name "OUTB"
@@ -665,6 +669,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Charge_Manager_SYM:VBT3045C-E3_8W"
 			(exclude_from_sim no)
@@ -770,18 +775,6 @@
 			(symbol "VBT3045C-E3_8W_0_0"
 				(polyline
 					(pts
-						(xy 3.302 -3.81) (xy 3.302 -3.556)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.302 1.27) (xy 3.302 1.524)
 					)
 					(stroke
@@ -794,7 +787,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -3.81) (xy 3.302 -3.81)
+						(xy 3.302 -3.81) (xy 3.302 -3.556)
 					)
 					(stroke
 						(width 0.254)
@@ -806,19 +799,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.27) (xy 3.81 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 4.318 -1.27)
+						(xy 3.81 3.81) (xy 4.318 3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -854,7 +835,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 3.81) (xy 4.318 3.81)
+						(xy 3.81 -1.27) (xy 3.81 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -866,7 +847,19 @@
 				)
 				(polyline
 					(pts
-						(xy 4.318 -1.27) (xy 4.318 -1.524)
+						(xy 3.81 -1.27) (xy 4.318 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -3.81) (xy 3.302 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -888,11 +881,23 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 4.318 -1.27) (xy 4.318 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "VBT3045C-E3_8W_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 6.35 0)
+						(xy 0 -2.54) (xy 5.08 -2.54) (xy 5.08 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -904,10 +909,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 5.08 -2.54) (xy 5.08 2.54) (xy 0 2.54)
+						(xy 1.27 3.81) (xy 3.81 2.54) (xy 1.27 1.27) (xy 1.27 3.81) (xy 1.27 3.81) (xy 1.27 3.81)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -928,10 +933,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 3.81) (xy 3.81 2.54) (xy 1.27 1.27) (xy 1.27 3.81) (xy 1.27 3.81) (xy 1.27 3.81)
+						(xy 5.08 0) (xy 6.35 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1017,11 +1022,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1119,9 +1129,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1194,7 +1207,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1206,7 +1219,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1255,11 +1268,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:NetTie_2"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -1376,9 +1394,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1497,6 +1518,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LTC7000EMSE#PBF_1"
 			(exclude_from_sim no)
@@ -1610,168 +1632,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 -16.51 0)
-					(length 5.08)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -29.21 0)
-					(length 5.08)
-					(name "IMON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -13.97 180)
-					(length 5.08)
-					(name "TGDN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -11.43 180)
-					(length 5.08)
-					(name "TGUP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -25.4 180)
-					(length 5.08)
-					(name "TS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -17.78 180)
-					(length 5.08)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "SNS-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "SNS+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -38.1 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "VIN"
@@ -1808,24 +1668,6 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -38.1 90)
-					(length 5.08)
-					(name "VCCUV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -11.43 0)
 					(length 5.08)
 					(name "~{FAULT}"
@@ -1836,6 +1678,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1880,16 +1740,16 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -30.48 180)
+					(at 0 -29.21 0)
 					(length 5.08)
-					(name "OVLO"
+					(name "IMON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1915,7 +1775,170 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 16.51 -38.1 90)
+					(length 5.08)
+					(name "VCCUV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -38.1 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "SNS+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "SNS-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -11.43 180)
+					(length 5.08)
+					(name "TGUP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -13.97 180)
+					(length 5.08)
+					(name "TGDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -17.78 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -25.4 180)
+					(length 5.08)
+					(name "TS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -30.48 180)
+					(length 5.08)
+					(name "OVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PMEG4030EXEX_1"
 			(exclude_from_sim no)
@@ -2058,24 +2081,6 @@
 			)
 			(symbol "PMEG4030EXEX_1_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
@@ -2093,10 +2098,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET:CSD18540Q5B"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2169,18 +2195,6 @@
 			(symbol "CSD18540Q5B_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -2193,7 +2207,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2217,34 +2243,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -2275,6 +2277,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -2299,95 +2358,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "CSD18540Q5B_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2424,13 +2396,74 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2521,10 +2554,851 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "DRIVERS_STATUS"
 		(members "FAULT1" "FAULT2" "IMON1" "IMON2")
+	)
+	(rectangle
+		(start 161.925 118.11)
+		(end 182.245 155.575)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0091c520-5cba-4ee8-981f-69f2528f265e)
+	)
+	(arc
+		(start 351.79 44.45)
+		(mid 351.4123 45.3423)
+		(end 350.52 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 014bcd70-0878-456d-ac6e-199b6a028db9)
+	)
+	(arc
+		(start 351.79 62.865)
+		(mid 352.5426 61.0776)
+		(end 354.33 60.325)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12208f2f-87a1-40fc-8f4c-4f23b030220a)
+	)
+	(rectangle
+		(start 283.21 35.56)
+		(end 294.005 48.26)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12ec3530-8cf3-4f74-9779-215b70164eab)
+	)
+	(rectangle
+		(start 269.24 146.685)
+		(end 279.4 153.035)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1c0e9e6e-9dc6-4e38-8e9d-653e368c20fa)
+	)
+	(rectangle
+		(start 368.3 146.685)
+		(end 378.46 153.035)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1c6cd0cb-e48f-42c4-83ca-187e1a9fc5a1)
+	)
+	(arc
+		(start 350.52 45.72)
+		(mid 351.4123 46.0977)
+		(end 351.79 46.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26b811e6-558d-4e7f-a6a3-00d4f5aa8ec0)
+	)
+	(arc
+		(start 350.52 68.58)
+		(mid 351.4134 68.9552)
+		(end 351.79 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33d5c6a8-636b-4376-a674-0b03b6993727)
+	)
+	(rectangle
+		(start 132.715 93.98)
+		(end 147.32 111.125)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ea153d8-7271-46aa-9244-20d0b5a86d47)
+	)
+	(arc
+		(start 351.79 40.005)
+		(mid 352.5444 38.2208)
+		(end 354.33 37.465)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 570288fd-40f8-4186-bafa-6378c31787bb)
+	)
+	(rectangle
+		(start 332.74 85.09)
+		(end 401.32 106.045)
+		(stroke
+			(width 0.762)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 608248be-f4f3-41ca-a4b1-a58ba3eb8f35)
+	)
+	(rectangle
+		(start 118.745 114.935)
+		(end 129.54 156.845)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7488a018-c6f7-4a28-ad90-fa3a1433e0ff)
+	)
+	(arc
+		(start 351.79 67.31)
+		(mid 351.4134 68.2019)
+		(end 350.52 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 761797ce-7a6b-4919-aa77-1bf6782946fc)
+	)
+	(rectangle
+		(start 279.4 84.455)
+		(end 290.195 97.155)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90b0b5eb-0e6d-4068-b106-faccebb1c1e8)
+	)
+	(rectangle
+		(start 263.525 188.595)
+		(end 403.225 241.3)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3735900-366a-43a6-b3f9-60614ff03685)
+	)
+	(arc
+		(start 354.33 54.61)
+		(mid 352.5339 53.8661)
+		(end 351.79 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b00babf1-d6c5-4606-ab03-ca8b76fe6e30)
+	)
+	(rectangle
+		(start 26.035 27.94)
+		(end 403.225 184.785)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 217.805 149.225)
+		(end 229.235 155.575)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d78760e4-11f8-428c-bfa9-4ef35c56518a)
+	)
+	(arc
+		(start 354.33 77.47)
+		(mid 352.5322 76.7264)
+		(end 351.79 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d82c51b0-52b6-4a30-b405-dbf1a8f8b26a)
+	)
+	(rectangle
+		(start 360.68 134.62)
+		(end 377.825 140.97)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8948659-620a-41dd-bf95-572df2b5e7cd)
+	)
+	(rectangle
+		(start 316.865 149.225)
+		(end 327.66 155.575)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec8abe3c-f3e9-40a7-9782-719ebe49ac34)
+	)
+	(text "Gate drive voltage: 12V"
+		(exclude_from_sim no)
+		(at 219.456 44.196 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "663bf086-b01b-4084-9d50-7c5a234716b3")
+	)
+	(text "Gate drive voltage: 12V"
+		(exclude_from_sim no)
+		(at 222.25 97.282 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.4572)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "76eab0f4-811f-4cef-bae3-e6c955f11f9e")
+	)
+	(text "Inspiration from TI Design: \nTIDA-00394 Dual Power Path \nMultiplexer Reference Design."
+		(exclude_from_sim no)
+		(at 264.414 252.984 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.ti.com/lit/ug/tiduaz2/tiduaz2.pdf?ts=1728853451705&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FTIDA-00394")
+		)
+		(uuid "b4d5d4a8-a0b9-4436-9e4a-fdd8a4d49c8d")
+	)
+	(text "External Gate Resistor Design Guide \nfor Gate Drivers"
+		(exclude_from_sim no)
+		(at 264.414 257.556 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.ti.com/lit/ab/slla385a/slla385a.pdf?ts=1729247439040&ref_url=https%253A%252F%252Fwww.google.com%252F")
+		)
+		(uuid "ed986122-ef88-4786-81c1-58a74c2bf4e1")
+	)
+	(text_box "ZHCS350:\nReverse Voltage: 40V\nPeak surge forward current: 4.2A\nForward voltage: ~400mV << 6V\n->will conduct before damaging the TS pin."
+		(exclude_from_sim no)
+		(at 288.925 167.005 0)
+		(size 46.99 15.875)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0081e26d-13fa-44f8-af50-5dbfd5a73c5b")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 343.535 224.79 0)
+		(size 12.7 8.255)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "079d1f6c-1dc9-43d8-a8fd-292c7527f3a2")
+	)
+	(text_box "DESIGN NOTE - Ensuring faster turn off time:\n\nThe load being large, complex and capacitive, inrush current must be limited, and the turn on time need to be slower than the turn off. The pull-up gate drive to the power MOSFET from TGUP is passed through an RC delay network, RG and CG, which greatly reduces the turn-on ramp rate of the MOSFET. Since the MOSFET source voltage follows the gate voltage, the load is powered smoothly from ground. This dramatically reduces the inrush current from the source supply and reduces the transient ramp rate of the load allowing for slower activation. The turn-off of the MOSFET is not affected by the RC delay network as the pull-down for the MOSFET gate is directly from the TGDN pin.\n\nThe values for RG and CG if we aim at at voltage ramp of 0.1V / us\nRG * CG ≈ 0.7V * 12V / (0.1V / us) = 84 us\nIf we fix CG to be 470pF, we calculate RG to be 178kΩ."
+		(exclude_from_sim no)
+		(at 127 237.49 0)
+		(size 133.985 45.72)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1a59082f-cd7b-4f30-96ad-14d0bb416121")
+	)
+	(text_box "DESIGN NOTE - Optimized gate Resistors:\n\nTurn ON: RG = RHI + RGATE + 2xRGI = 2.2 Ohm + RGATE + 2x0.8 Ohm\nTurn OFF: RG = RLO + RGATE + 2xRGI = 1Ohm + RGATE + 2x0.8 Ohm\n\nSource inductance = 1 / (CISS x (2pi x fR)^2) => impossible, fR unknown.\n-> LT Spice simulation?\n\nThe CSD18540Q5B has a total gate charge Qg of 41nC (when driven at 10V)\nSwitching Speed: tswitch = Rtotal x Qg where Rtotal = Rgate_ext + Rgate_MOS + Rgate_driver. \nThe LTC7000 gate driver has a pull-down resistance of 1Ω on the TGDN pin.\nWe aim for a switching time of around 100ns, typical for efficient switching in power applications. \nRtotal = tswich / 2xQg		-> 		Rtotal = 100ns/2x41nC ≈ 1.21 Ohm\nRgate = Rtotal - Rgate_driver = 1.21 - 1 = 0.21 Ohm ≈ X Ohm \n\nThis resistor value allows for controlled switching, minimizing both EMI and inrush current while achieving a reasonable turn-on time.\n\n "
+		(exclude_from_sim no)
+		(at 127.635 301.625 0)
+		(size 133.985 67.945)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1c4911ab-17b2-46a6-8548-c7688f8dac8b")
+	)
+	(text_box "DESIGN NOTE:\nOptionally increase gate resistors if need of a slower switching. "
+		(exclude_from_sim no)
+		(at 166.37 29.845 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "21d5c783-1bc6-4f45-90c5-8d9e3efcaa98")
+	)
+	(text_box "Power Path Logic"
+		(exclude_from_sim no)
+		(at 267.97 198.755 0)
+		(size 18.415 14.605)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "2e0bf8e5-3106-4e38-bcf1-76c51477e71b")
+	)
+	(text_box "DESIGN NOTE:\nCurrent setup will use battery energy to power the power path when VBAT > VSUPPLY"
+		(exclude_from_sim no)
+		(at 28.575 116.84 0)
+		(size 48.895 15.875)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "561fa5ad-6f04-4cf6-a5fc-3deb452266f6")
+	)
+	(text_box "Drivers Status & Sensing"
+		(exclude_from_sim no)
+		(at 356.235 92.71 0)
+		(size 46.99 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "64d76e5d-871b-463c-8b74-e7cc14b909f7")
+	)
+	(text_box "Power Supply\nLED"
+		(exclude_from_sim no)
+		(at 328.32 38.755 0)
+		(size 26.65 8.89)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "6cbfc7d0-1bcf-4899-bdb7-a325de3a9e09")
+	)
+	(text_box "DESIGN NOTE - Delay when switching between loads:\n\nBattery Plugged (OUTA low, OUTB high) -> Plugging of Supply:\nTPS3701: OUTA: low -> high 28.1us + 2.7us	  OUTB: high -> low 28.1us + 0.12us\nLTC7000 TGDN1 low -> high worst case:  35ns + 13ns = 48ns\nLTC7000 TGDN2 high -> low worst case:  70ns + 40ns = 110ns\nCSD18540Q5B: low -> high: 6+9ns = 15ns  high -> low: 20+3ns = 23ns\n-> fastest transition low -> high supply (worst case) = 30.8us + 63ns = 30.863us\n-> slowest transition high -> low battery (worst case) = 28.22us + 133ns = 28.353us\nWe have arround 2.5 us of margin.\n\nSupply Plugged (OUTA hign, OUTB low) -> Plugging of Battery:\nTPS3701: OUTA: high -> low 9.9us + 0.12us	OUTB: low -> high 9.9us + 2.7us\nLTC7000 TGDN1 high -> low worst case:  70ns + 40ns = 110ns\nLTC7000 TGDN2 low -> high worst case:  35ns + 13ns = 48ns\nCSD18540Q5B: low -> high 6+9ns = 15ns  high -> low 20+3ns = 23ns\n-> fastest transition low -> high supply (worst case) = 12.6us + 63ns = 12.663us\n-> slowest transition high -> low battery (worst case) = 10.02us + 133ns = 10.153us\nWe have arround 2.5 us of margin.\n\nBattery & Supply Plugged (OUTA hign, OUTB low) -> Unplugging of Supply:\n-> slowest transition low -> high battery (worst case) = 12.6us + 160ns = 12.760us\n-> fastest transition high -> low supply (worst case) = 10.2us + 48ns = 10.248us\n-> transition takes around 2.5us\n\nThe turn-off phase being faster than the turn-on phase for both scnenario ensure that not both source will be activated at the same time while keeping the global down-time of the transition below the uS, ensuring continuous power to the rover.\n"
+		(exclude_from_sim no)
+		(at 14.605 188.595 0)
+		(size 110.49 94.615)
+		(margins 1.9288 1.9288 1.9288 1.9288)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "821e8f0a-e557-4583-b01f-04f6c9138995")
+	)
+	(text_box "Drivers"
+		(exclude_from_sim no)
+		(at 339.725 206.375 0)
+		(size 18.415 8.255)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "90b1d1db-44c4-4e8d-97d1-ac48c79e6f2e")
+	)
+	(text_box "Test Points"
+		(exclude_from_sim no)
+		(at 262.89 232.41 0)
+		(size 140.97 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "a8d9d073-ba18-469f-87be-976699657bc3")
+	)
+	(text_box "STPS15L60C - Power Schottky rectifier:\nReverse Voltage: 60V\nForward current: 7.5A per diode, 15A total.\nForward voltage: 520mV @ 7.5A\n\nSchottky diodes have a relatively small forward voltage, enabling them to switch on and off much faster than traditional PN junction diodes."
+		(exclude_from_sim no)
+		(at 28.575 87.63 0)
+		(size 48.895 27.305)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "aa4ee3cf-7769-4db6-b514-6bdbfe7a6b44")
+	)
+	(text_box "Battery\nLED"
+		(exclude_from_sim no)
+		(at 332.74 64.77 0)
+		(size 26.015 8.89)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "ad4eb331-9725-4eab-a59d-16d204098c4f")
+	)
+	(text_box "DESIGN NOTE - LTC7000 connections:\n\nRUN: Connect to Vin to ensure normal operation of the IC\nTIMER: Connect to VCC to disable the auto-restart feature.\nIMON: Can be left floating if no need of current monitoring. The voltage on this pin with respect to GND represents the voltage across the sense resistor multiplied by 20. \nISET: Can be left floating if default 30mV threshold is ok, or connect a resitors to GND to set higher thresholds. Now @ 50mV\nOVLO: Has to be connected to ground if not used.\nBSST: Has to be connected to the bootstrap capacitor.\nTS: Need Schotky diode for complex loads.\nFAULT: When timer is connected to VCC, this pin is driven low when the MOSFET is OFF.\nSense Resistor: R = DeltaV/Imax = 50mV/50A = 1mOhm\n"
+		(exclude_from_sim no)
+		(at 184.785 188.595 0)
+		(size 76.2 46.99)
+		(margins 1.8335 1.8335 1.8335 1.8335)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.778 1.778)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ae867f26-05b4-42e0-8ea8-b058dec3a558")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 10.16 15.24 0)
+		(size 399.415 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "Dual Power Path Multiplexer"
+		(exclude_from_sim no)
+		(at 24.13 174.625 0)
+		(size 377.825 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
+	)
+	(text_box "DESIGN NOTE - Power Path LEDs:\nSM1206SRC has a typical luminous intensity \nof 28 mcd (millicandela) @ 20mA. \nTyp. Vf = 1.85V, Max Vf = 2.3V\n\nR = 1100 Ohm\nMin:\nIf = (24V - 2.3V)/1100 ≈ 20 mA\nP = 2.3V×20mA ≈ 46 mW < 69 mW (max rating)\nMax:\nIf = (36V - 1.85V)/1100 ≈ 31 mA\nP = 1.85V×31mA ≈ 57 mW < 69 mW (max rating)\n\n\nR = 1000 Ohm\nMin:\nIf = (21V - 2.3V)/1000 ≈ 19 mA\nP = 2.3V×19mA = 44 mW < 69 mW (max rating)\nMax:\nIf = (29V - 1.85V)/1000 ≈ 27 mA\nP = 1.85V×27mA ≈ 50 mW < 69 mW (max rating)\n\nThis way of connecting the diodes ensure that only the one actually powering the load is lit."
+		(exclude_from_sim no)
+		(at 356.235 29.845 0)
+		(size 45.035 53.36)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cea9ecd8-332b-4f1a-8272-b392d0e4249a")
+	)
+	(text_box "Filtered Power Rails"
+		(exclude_from_sim no)
+		(at 267.335 219.075 0)
+		(size 19.05 15.24)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "d6c94fa3-7947-4e6d-ba19-538b7719cae7")
+	)
+	(text_box "DESIGN NOTE - Voltage divider:\n\nINA/INB @ VSUPPLY = 36V:\n36V x 10k1 /(10k1 + 240k) = 1.454V\n\nINA/INB @ VSUPPLY = 10V:\n10V x 10k1 /(10k1 + 240k) = 404mV\n\n10 <= VSUPPLY <= 36V:\n-> INA/INB > VIT (400mV) -> OUTA high\n                                           -> OUTB low\n0 <= VSUPPLY < 10V:\n-> INA/INB < VIT (400mV) -> OUTA low\n                                           -> OUTB high\n\n\n"
+		(exclude_from_sim no)
+		(at 28.575 134.62 0)
+		(size 48.895 48.26)
+		(margins 1.8335 1.8335 1.8335 1.8335)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.778 1.778)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e341b1c2-2630-4de3-bf76-6e2764f88751")
+	)
+	(text_box "Design note - Bootsrtrap capacitors:\nThis relation must hold for the bootstrap capacitor:\nCB > External MOSFET Qg / 1V + Rdamp * CG\nIn our case we are good:\n100nF > 2 x 41 nC / 1V + 10 x 0.47n"
+		(exclude_from_sim no)
+		(at 344.17 167.005 0)
+		(size 57.15 15.875)
+		(margins 1.4923 1.4923 1.4923 1.4923)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.651 1.651)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ee857ac9-b67f-4407-a572-483797948bd7")
+	)
+	(text_box "DESIGN NOTE - Pull-up/\nDivider Resistors:\n\nOUTA/B are open drain, so this design ensure a logic signal between 3.4V (10V input) and 12.4V (36V input). The INP pin of LTC7000 requires at least 2V but less than 15V to turn on the FETs, making this design a proper fit.\n\n3V3 is not used for the pull up, as it is generated from VOUT, which itself needs first to be turned using OUTA/B, signals requiring 3V3 pull-up."
+		(exclude_from_sim no)
+		(at 127 188.595 0)
+		(size 55.245 46.99)
+		(margins 1.8335 1.8335 1.8335 1.8335)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.778 1.778)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f587607b-7fbd-4625-872a-1186839f59ba")
 	)
 	(junction
 		(at 297.18 93.98)
@@ -5610,279 +6484,6 @@
 		)
 		(uuid "ff3a1210-a5d3-445d-af36-912f624131d9")
 	)
-	(rectangle
-		(start 161.925 118.11)
-		(end 182.245 155.575)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0091c520-5cba-4ee8-981f-69f2528f265e)
-	)
-	(arc
-		(start 351.79 44.45)
-		(mid 351.4123 45.3423)
-		(end 350.52 45.72)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 014bcd70-0878-456d-ac6e-199b6a028db9)
-	)
-	(arc
-		(start 351.79 62.865)
-		(mid 352.5426 61.0776)
-		(end 354.33 60.325)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 12208f2f-87a1-40fc-8f4c-4f23b030220a)
-	)
-	(rectangle
-		(start 283.21 35.56)
-		(end 294.005 48.26)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 12ec3530-8cf3-4f74-9779-215b70164eab)
-	)
-	(rectangle
-		(start 269.24 146.685)
-		(end 279.4 153.035)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1c0e9e6e-9dc6-4e38-8e9d-653e368c20fa)
-	)
-	(rectangle
-		(start 368.3 146.685)
-		(end 378.46 153.035)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1c6cd0cb-e48f-42c4-83ca-187e1a9fc5a1)
-	)
-	(arc
-		(start 350.52 45.72)
-		(mid 351.4123 46.0977)
-		(end 351.79 46.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 26b811e6-558d-4e7f-a6a3-00d4f5aa8ec0)
-	)
-	(arc
-		(start 350.52 68.58)
-		(mid 351.4134 68.9552)
-		(end 351.79 69.85)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 33d5c6a8-636b-4376-a674-0b03b6993727)
-	)
-	(rectangle
-		(start 132.715 93.98)
-		(end 147.32 111.125)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4ea153d8-7271-46aa-9244-20d0b5a86d47)
-	)
-	(arc
-		(start 351.79 40.005)
-		(mid 352.5444 38.2208)
-		(end 354.33 37.465)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 570288fd-40f8-4186-bafa-6378c31787bb)
-	)
-	(rectangle
-		(start 332.74 85.09)
-		(end 401.32 106.045)
-		(stroke
-			(width 0.762)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 608248be-f4f3-41ca-a4b1-a58ba3eb8f35)
-	)
-	(rectangle
-		(start 118.745 114.935)
-		(end 129.54 156.845)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7488a018-c6f7-4a28-ad90-fa3a1433e0ff)
-	)
-	(arc
-		(start 351.79 67.31)
-		(mid 351.4134 68.2019)
-		(end 350.52 68.58)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 761797ce-7a6b-4919-aa77-1bf6782946fc)
-	)
-	(rectangle
-		(start 279.4 84.455)
-		(end 290.195 97.155)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 90b0b5eb-0e6d-4068-b106-faccebb1c1e8)
-	)
-	(rectangle
-		(start 263.525 188.595)
-		(end 403.225 241.3)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a3735900-366a-43a6-b3f9-60614ff03685)
-	)
-	(arc
-		(start 354.33 54.61)
-		(mid 352.5339 53.8661)
-		(end 351.79 52.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b00babf1-d6c5-4606-ab03-ca8b76fe6e30)
-	)
-	(rectangle
-		(start 26.035 27.94)
-		(end 403.225 184.785)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(rectangle
-		(start 217.805 149.225)
-		(end 229.235 155.575)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d78760e4-11f8-428c-bfa9-4ef35c56518a)
-	)
-	(arc
-		(start 354.33 77.47)
-		(mid 352.5322 76.7264)
-		(end 351.79 74.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d82c51b0-52b6-4a30-b405-dbf1a8f8b26a)
-	)
-	(rectangle
-		(start 360.68 134.62)
-		(end 377.825 140.97)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e8948659-620a-41dd-bf95-572df2b5e7cd)
-	)
-	(rectangle
-		(start 316.865 149.225)
-		(end 327.66 155.575)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ec8abe3c-f3e9-40a7-9782-719ebe49ac34)
-	)
 	(image
 		(at 258.445 173.355)
 		(scale 0.310815)
@@ -7315,553 +7916,26 @@
 			"CEAAAhCAAAQgAIFmEEAAaQZ12oQABCAAAQhAAAIQgEBGCSCAZHTiGTYEIAABCEAAAhCAAASaQQAB"
 			"pBnUaRMCEIAABCAAAQhAAAIZJYAAktGJZ9gQgAAEIAABCEAAAhBoBgEEkGZQp00IQAACEIAABCAA"
 			"AQhklAACSEYnnmFDAAIQgAAEIAABCECgGQQQQJpBnTYhAAEIQAACEIAABCCQUQL/AmVYB2XjdF/z"
-			"AAAAAElFTkSuQmCC"
+			"AAAAAElFTkSuQmCCiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
+			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
+			"iC6ILoguiC6ILg=="
 		)
-	)
-	(text_box "ZHCS350:\nReverse Voltage: 40V\nPeak surge forward current: 4.2A\nForward voltage: ~400mV << 6V\n->will conduct before damaging the TS pin."
-		(exclude_from_sim no)
-		(at 288.925 167.005 0)
-		(size 46.99 15.875)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "0081e26d-13fa-44f8-af50-5dbfd5a73c5b")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 343.535 224.79 0)
-		(size 12.7 8.255)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "079d1f6c-1dc9-43d8-a8fd-292c7527f3a2")
-	)
-	(text_box "DESIGN NOTE - Ensuring faster turn off time:\n\nThe load being large, complex and capacitive, inrush current must be limited, and the turn on time need to be slower than the turn off. The pull-up gate drive to the power MOSFET from TGUP is passed through an RC delay network, RG and CG, which greatly reduces the turn-on ramp rate of the MOSFET. Since the MOSFET source voltage follows the gate voltage, the load is powered smoothly from ground. This dramatically reduces the inrush current from the source supply and reduces the transient ramp rate of the load allowing for slower activation. The turn-off of the MOSFET is not affected by the RC delay network as the pull-down for the MOSFET gate is directly from the TGDN pin.\n\nThe values for RG and CG if we aim at at voltage ramp of 0.1V / us\nRG * CG ≈ 0.7V * 12V / (0.1V / us) = 84 us\nIf we fix CG to be 470pF, we calculate RG to be 178kΩ."
-		(exclude_from_sim no)
-		(at 127 237.49 0)
-		(size 133.985 45.72)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1a59082f-cd7b-4f30-96ad-14d0bb416121")
-	)
-	(text_box "DESIGN NOTE - Optimized gate Resistors:\n\nTurn ON: RG = RHI + RGATE + 2xRGI = 2.2 Ohm + RGATE + 2x0.8 Ohm\nTurn OFF: RG = RLO + RGATE + 2xRGI = 1Ohm + RGATE + 2x0.8 Ohm\n\nSource inductance = 1 / (CISS x (2pi x fR)^2) => impossible, fR unknown.\n-> LT Spice simulation?\n\nThe CSD18540Q5B has a total gate charge Qg of 41nC (when driven at 10V)\nSwitching Speed: tswitch = Rtotal x Qg where Rtotal = Rgate_ext + Rgate_MOS + Rgate_driver. \nThe LTC7000 gate driver has a pull-down resistance of 1Ω on the TGDN pin.\nWe aim for a switching time of around 100ns, typical for efficient switching in power applications. \nRtotal = tswich / 2xQg		-> 		Rtotal = 100ns/2x41nC ≈ 1.21 Ohm\nRgate = Rtotal - Rgate_driver = 1.21 - 1 = 0.21 Ohm ≈ X Ohm \n\nThis resistor value allows for controlled switching, minimizing both EMI and inrush current while achieving a reasonable turn-on time.\n\n "
-		(exclude_from_sim no)
-		(at 127.635 301.625 0)
-		(size 133.985 67.945)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1c4911ab-17b2-46a6-8548-c7688f8dac8b")
-	)
-	(text_box "DESIGN NOTE:\nOptionally increase gate resistors if need of a slower switching. "
-		(exclude_from_sim no)
-		(at 166.37 29.845 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "21d5c783-1bc6-4f45-90c5-8d9e3efcaa98")
-	)
-	(text_box "Power Path Logic"
-		(exclude_from_sim no)
-		(at 267.97 198.755 0)
-		(size 18.415 14.605)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "2e0bf8e5-3106-4e38-bcf1-76c51477e71b")
-	)
-	(text_box "DESIGN NOTE:\nCurrent setup will use battery energy to power the power path when VBAT > VSUPPLY"
-		(exclude_from_sim no)
-		(at 28.575 116.84 0)
-		(size 48.895 15.875)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "561fa5ad-6f04-4cf6-a5fc-3deb452266f6")
-	)
-	(text_box "Drivers Status & Sensing"
-		(exclude_from_sim no)
-		(at 356.235 92.71 0)
-		(size 46.99 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "64d76e5d-871b-463c-8b74-e7cc14b909f7")
-	)
-	(text_box "Power Supply\nLED"
-		(exclude_from_sim no)
-		(at 328.32 38.755 0)
-		(size 26.65 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "6cbfc7d0-1bcf-4899-bdb7-a325de3a9e09")
-	)
-	(text_box "DESIGN NOTE - Delay when switching between loads:\n\nBattery Plugged (OUTA low, OUTB high) -> Plugging of Supply:\nTPS3701: OUTA: low -> high 28.1us + 2.7us	  OUTB: high -> low 28.1us + 0.12us\nLTC7000 TGDN1 low -> high worst case:  35ns + 13ns = 48ns\nLTC7000 TGDN2 high -> low worst case:  70ns + 40ns = 110ns\nCSD18540Q5B: low -> high: 6+9ns = 15ns  high -> low: 20+3ns = 23ns\n-> fastest transition low -> high supply (worst case) = 30.8us + 63ns = 30.863us\n-> slowest transition high -> low battery (worst case) = 28.22us + 133ns = 28.353us\nWe have arround 2.5 us of margin.\n\nSupply Plugged (OUTA hign, OUTB low) -> Plugging of Battery:\nTPS3701: OUTA: high -> low 9.9us + 0.12us	OUTB: low -> high 9.9us + 2.7us\nLTC7000 TGDN1 high -> low worst case:  70ns + 40ns = 110ns\nLTC7000 TGDN2 low -> high worst case:  35ns + 13ns = 48ns\nCSD18540Q5B: low -> high 6+9ns = 15ns  high -> low 20+3ns = 23ns\n-> fastest transition low -> high supply (worst case) = 12.6us + 63ns = 12.663us\n-> slowest transition high -> low battery (worst case) = 10.02us + 133ns = 10.153us\nWe have arround 2.5 us of margin.\n\nBattery & Supply Plugged (OUTA hign, OUTB low) -> Unplugging of Supply:\n-> slowest transition low -> high battery (worst case) = 12.6us + 160ns = 12.760us\n-> fastest transition high -> low supply (worst case) = 10.2us + 48ns = 10.248us\n-> transition takes around 2.5us\n\nThe turn-off phase being faster than the turn-on phase for both scnenario ensure that not both source will be activated at the same time while keeping the global down-time of the transition below the uS, ensuring continuous power to the rover.\n"
-		(exclude_from_sim no)
-		(at 14.605 188.595 0)
-		(size 110.49 94.615)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.905 1.905)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "821e8f0a-e557-4583-b01f-04f6c9138995")
-	)
-	(text_box "Drivers"
-		(exclude_from_sim no)
-		(at 339.725 206.375 0)
-		(size 18.415 8.255)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "90b1d1db-44c4-4e8d-97d1-ac48c79e6f2e")
-	)
-	(text_box "Test Points"
-		(exclude_from_sim no)
-		(at 262.89 232.41 0)
-		(size 140.97 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "a8d9d073-ba18-469f-87be-976699657bc3")
-	)
-	(text_box "STPS15L60C - Power Schottky rectifier:\nReverse Voltage: 60V\nForward current: 7.5A per diode, 15A total.\nForward voltage: 520mV @ 7.5A\n\nSchottky diodes have a relatively small forward voltage, enabling them to switch on and off much faster than traditional PN junction diodes."
-		(exclude_from_sim no)
-		(at 28.575 87.63 0)
-		(size 48.895 27.305)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "aa4ee3cf-7769-4db6-b514-6bdbfe7a6b44")
-	)
-	(text_box "Battery\nLED"
-		(exclude_from_sim no)
-		(at 332.74 64.77 0)
-		(size 26.015 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 132 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "ad4eb331-9725-4eab-a59d-16d204098c4f")
-	)
-	(text_box "DESIGN NOTE - LTC7000 connections:\n\nRUN: Connect to Vin to ensure normal operation of the IC\nTIMER: Connect to VCC to disable the auto-restart feature.\nIMON: Can be left floating if no need of current monitoring. The voltage on this pin with respect to GND represents the voltage across the sense resistor multiplied by 20. \nISET: Can be left floating if default 30mV threshold is ok, or connect a resitors to GND to set higher thresholds. Now @ 50mV\nOVLO: Has to be connected to ground if not used.\nBSST: Has to be connected to the bootstrap capacitor.\nTS: Need Schotky diode for complex loads.\nFAULT: When timer is connected to VCC, this pin is driven low when the MOSFET is OFF.\nSense Resistor: R = DeltaV/Imax = 50mV/50A = 1mOhm\n"
-		(exclude_from_sim no)
-		(at 184.785 188.595 0)
-		(size 76.2 46.99)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.778 1.778)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "ae867f26-05b4-42e0-8ea8-b058dec3a558")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 10.16 15.24 0)
-		(size 399.415 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "Dual Power Path Multiplexer"
-		(exclude_from_sim no)
-		(at 24.13 174.625 0)
-		(size 377.825 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
-	)
-	(text_box "DESIGN NOTE - Power Path LEDs:\nSM1206SRC has a typical luminous intensity \nof 28 mcd (millicandela) @ 20mA. \nTyp. Vf = 1.85V, Max Vf = 2.3V\n\nR = 1100 Ohm\nMin:\nIf = (24V - 2.3V)/1100 ≈ 20 mA\nP = 2.3V×20mA ≈ 46 mW < 69 mW (max rating)\nMax:\nIf = (36V - 1.85V)/1100 ≈ 31 mA\nP = 1.85V×31mA ≈ 57 mW < 69 mW (max rating)\n\n\nR = 1000 Ohm\nMin:\nIf = (21V - 2.3V)/1000 ≈ 19 mA\nP = 2.3V×19mA = 44 mW < 69 mW (max rating)\nMax:\nIf = (29V - 1.85V)/1000 ≈ 27 mA\nP = 1.85V×27mA ≈ 50 mW < 69 mW (max rating)\n\nThis way of connecting the diodes ensure that only the one actually powering the load is lit."
-		(exclude_from_sim no)
-		(at 356.235 29.845 0)
-		(size 45.035 53.36)
-		(stroke
-			(width 0.8)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "cea9ecd8-332b-4f1a-8272-b392d0e4249a")
-	)
-	(text_box "Filtered Power Rails"
-		(exclude_from_sim no)
-		(at 267.335 219.075 0)
-		(size 19.05 15.24)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "d6c94fa3-7947-4e6d-ba19-538b7719cae7")
-	)
-	(text_box "DESIGN NOTE - Voltage divider:\n\nINA/INB @ VSUPPLY = 36V:\n36V x 10k1 /(10k1 + 240k) = 1.454V\n\nINA/INB @ VSUPPLY = 10V:\n10V x 10k1 /(10k1 + 240k) = 404mV\n\n10 <= VSUPPLY <= 36V:\n-> INA/INB > VIT (400mV) -> OUTA high\n                                           -> OUTB low\n0 <= VSUPPLY < 10V:\n-> INA/INB < VIT (400mV) -> OUTA low\n                                           -> OUTB high\n\n\n"
-		(exclude_from_sim no)
-		(at 28.575 134.62 0)
-		(size 48.895 48.26)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.778 1.778)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "e341b1c2-2630-4de3-bf76-6e2764f88751")
-	)
-	(text_box "Design note - Bootsrtrap capacitors:\nThis relation must hold for the bootstrap capacitor:\nCB > External MOSFET Qg / 1V + Rdamp * CG\nIn our case we are good:\n100nF > 2 x 41 nC / 1V + 10 x 0.47n"
-		(exclude_from_sim no)
-		(at 344.17 167.005 0)
-		(size 57.15 15.875)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.651 1.651)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "ee857ac9-b67f-4407-a572-483797948bd7")
-	)
-	(text_box "DESIGN NOTE - Pull-up/\nDivider Resistors:\n\nOUTA/B are open drain, so this design ensure a logic signal between 3.4V (10V input) and 12.4V (36V input). The INP pin of LTC7000 requires at least 2V but less than 15V to turn on the FETs, making this design a proper fit.\n\n3V3 is not used for the pull up, as it is generated from VOUT, which itself needs first to be turned using OUTA/B, signals requiring 3V3 pull-up."
-		(exclude_from_sim no)
-		(at 127 188.595 0)
-		(size 55.245 46.99)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.778 1.778)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "f587607b-7fbd-4625-872a-1186839f59ba")
-	)
-	(text "Gate drive voltage: 12V"
-		(exclude_from_sim no)
-		(at 219.456 44.196 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "663bf086-b01b-4084-9d50-7c5a234716b3")
-	)
-	(text "Gate drive voltage: 12V"
-		(exclude_from_sim no)
-		(at 222.25 97.282 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "76eab0f4-811f-4cef-bae3-e6c955f11f9e")
-	)
-	(text "Inspiration from TI Design: \nTIDA-00394 Dual Power Path \nMultiplexer Reference Design."
-		(exclude_from_sim no)
-		(at 264.414 252.984 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.ti.com/lit/ug/tiduaz2/tiduaz2.pdf?ts=1728853451705&ref_url=https%253A%252F%252Fwww.ti.com%252Ftool%252FTIDA-00394")
-		)
-		(uuid "b4d5d4a8-a0b9-4436-9e4a-fdd8a4d49c8d")
-	)
-	(text "External Gate Resistor Design Guide \nfor Gate Drivers"
-		(exclude_from_sim no)
-		(at 264.414 257.556 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://www.ti.com/lit/ab/slla385a/slla385a.pdf?ts=1729247439040&ref_url=https%253A%252F%252Fwww.google.com%252F")
-		)
-		(uuid "ed986122-ef88-4786-81c1-58a74c2bf4e1")
 	)
 	(label "TGDN1"
 		(at 265.43 130.81 180)

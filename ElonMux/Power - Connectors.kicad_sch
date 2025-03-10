@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A3")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "Charge_Manager_SYM:SMBJ30CA"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -128,6 +130,18 @@
 				)
 				(polyline
 					(pts
+						(xy 5.08 0) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 5.08 -2.032) (xy 5.08 2.032)
 					)
 					(stroke
@@ -141,18 +155,6 @@
 				(polyline
 					(pts
 						(xy 5.08 -2.032) (xy 6.096 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -223,10 +225,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Conn_01x02_Mounting_1"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -332,7 +337,7 @@
 			(symbol "Conn_01x02_Mounting_1_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy 3.81 -5.08)
+						(xy -1.27 2.54) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0)
@@ -344,7 +349,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy 3.81 2.54)
+						(xy -1.27 -5.08) (xy 3.81 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -357,14 +362,14 @@
 			)
 			(symbol "Conn_01x02_Mounting_1_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -379,14 +384,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -462,12 +467,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -539,7 +549,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -551,7 +561,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -582,12 +592,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -678,12 +693,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -774,7 +794,433 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 99.695 145.415)
+		(end 200.66 213.995)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0acb3b90-9e0a-4b48-a168-998b5090247d)
+	)
+	(rectangle
+		(start 221.615 145.415)
+		(end 322.58 213.995)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bbe74e5-aea0-49af-a223-e42e1045ed16)
+	)
+	(rectangle
+		(start 163.83 160.02)
+		(end 180.975 177.8)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 188019ce-b404-40b3-83c3-722305017d47)
+	)
+	(rectangle
+		(start 167.64 63.5)
+		(end 184.785 81.28)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d95e40b-2bfb-46ac-aef7-d61406185c71)
+	)
+	(rectangle
+		(start 244.475 160.02)
+		(end 261.62 177.8)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d9ec07f-2de3-44fc-b84c-2dcea2f31f4d)
+	)
+	(rectangle
+		(start 29.845 117.475)
+		(end 55.88 121.285)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 0 1)
+		)
+		(uuid 7becc00a-fdc6-4c13-a661-eb17a1a1215b)
+	)
+	(rectangle
+		(start 221.615 48.895)
+		(end 322.58 117.475)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9b8ed37a-3361-4dfc-8cee-a03433842290)
+	)
+	(rectangle
+		(start 244.475 63.5)
+		(end 261.62 81.28)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e774238-1c2f-4476-adbe-bdfb043ab414)
+	)
+	(rectangle
+		(start 99.695 48.895)
+		(end 200.66 117.475)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
+	)
+	(rectangle
+		(start 49.53 113.665)
+		(end 85.725 121.285)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 0 1)
+		)
+		(uuid ff95169a-9524-460e-a815-0b403ad04df2)
+	)
+	(text "Inspired by Amulet controller Schematics\nby Vincent Nguyen"
+		(exclude_from_sim no)
+		(at 264.16 251.206 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW")
+		)
+		(uuid "5606ac02-9423-4060-a12f-b855b1e21bcd")
+	)
+	(text "Uni or bi directional TVS diodes?"
+		(exclude_from_sim no)
+		(at 264.16 254.254 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://toshiba.semicon-storage.com/ap-en/semiconductor/knowledge/faq/diode_tvs-diodes/is-it-necessary-to-use-bidirectional-tvs-diodes-esd-protection-diodes-to-protect-against-both-positive-and-negative-esd-events.html")
+		)
+		(uuid "b640d48f-726b-406f-a53f-e3f01d017864")
+	)
+	(text_box "SMBJ33CA:\n\nReverse Stand off voltage (= working voltage): 33.0V (maximum continuous voltage that can be applied to the diode without it conducting current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 38.6V \nThe breakdown voltage range (from 36.7V to 38.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 53.3V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
+		(exclude_from_sim no)
+		(at 73.025 243.205 0)
+		(size 187.325 38.735)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "283a220d-f4ac-4b80-890d-82968222bd81")
+	)
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
+		(exclude_from_sim no)
+		(at 105.41 88.9 0)
+		(size 38.1 17.145)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4f40d781-9a57-448b-bdd0-f8340d2150e9")
+	)
+	(text_box "LAYOUT NOTE:\nPlace TVS diode near\ninput power connectors, with an orientation minimizing the return path."
+		(exclude_from_sim no)
+		(at 198.12 125.73 0)
+		(size 26.67 12.7)
+		(margins 1.4525 1.4525 1.4525 1.4525)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "59800026-abce-490f-af73-e553b627145c")
+	)
+	(text_box "Power Output Connector to Battery, TVS Diode"
+		(exclude_from_sim no)
+		(at 227.33 109.22 0)
+		(size 90.17 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "5f08f9ee-2018-4f1a-9ab0-3e5cb38d7711")
+	)
+	(text_box "Power Input Connector from Battery, TVS Diode"
+		(exclude_from_sim no)
+		(at 105.41 205.74 0)
+		(size 90.17 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "a6bdd22f-e5ff-48d2-8c61-d66b4340ddfb")
+	)
+	(text_box "Power Output Connector to rover, TVS Diode"
+		(exclude_from_sim no)
+		(at 227.33 205.74 0)
+		(size 90.17 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ad2b3891-686f-4758-a0b0-8fb531d228e1")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 156.21 17.145 0)
+		(size 98.425 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
+	)
+	(text_box "Power Input Connector from Power Supply, TVS Diode"
+		(exclude_from_sim no)
+		(at 105.41 109.22 0)
+		(size 90.17 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
+	)
+	(text_box "DESIGN NOTE:\n\nTVS (Transient Voltage Suppresion) are used to protect circuits from voltage spikes by clamping high voltages to a safe level.\n\nBidirectional diodes brings no additional benefits compared to unidirectional diodes and are in fact even a bit worse, as they will clamp later negative transients. \n\nIn sintuations like this, when the battery and power supply are always positive values, unidirectional diodes are better suitted.\n\nBidirectional diodes are meant to be use to proetct lines that usually goes to negative values, like differential lines."
+		(exclude_from_sim no)
+		(at 13.97 207.645 0)
+		(size 57.15 74.295)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c4849e0a-a525-42bc-9ec3-393265ab14eb")
+	)
+	(text_box "DESIGN NOTE:\n\nNo reverse polarity protection implemented. TVS diodes does not protect the PCB against reverse polarity. \n\nAlways adhere to established industry conventions for connector polarity and gender to ensure compatibility and prevent reverse polarity connections. The female connector should always carry the power source with recessed contacts to minimize the risk of accidental short circuits. Polarity protection could be nice improvements for V1.1."
+		(exclude_from_sim no)
+		(at 29.21 102.235 0)
+		(size 59.055 55.88)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d875dbd2-306c-44d6-8bfb-f9fb129fdf60")
+	)
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
+		(exclude_from_sim no)
+		(at 105.41 187.325 0)
+		(size 38.1 17.145)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d8961e16-7e6a-406b-8fc1-852f3e8bf7d3")
 	)
 	(junction
 		(at 274.32 179.07)
@@ -1427,138 +1873,6 @@
 			(type default)
 		)
 		(uuid "fec8fe42-d0dd-4aec-9eb6-327c24f6d43a")
-	)
-	(rectangle
-		(start 99.695 145.415)
-		(end 200.66 213.995)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0acb3b90-9e0a-4b48-a168-998b5090247d)
-	)
-	(rectangle
-		(start 221.615 145.415)
-		(end 322.58 213.995)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0bbe74e5-aea0-49af-a223-e42e1045ed16)
-	)
-	(rectangle
-		(start 163.83 160.02)
-		(end 180.975 177.8)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 188019ce-b404-40b3-83c3-722305017d47)
-	)
-	(rectangle
-		(start 167.64 63.5)
-		(end 184.785 81.28)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1d95e40b-2bfb-46ac-aef7-d61406185c71)
-	)
-	(rectangle
-		(start 244.475 160.02)
-		(end 261.62 177.8)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5d9ec07f-2de3-44fc-b84c-2dcea2f31f4d)
-	)
-	(rectangle
-		(start 29.845 117.475)
-		(end 55.88 121.285)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 0 1)
-		)
-		(uuid 7becc00a-fdc6-4c13-a661-eb17a1a1215b)
-	)
-	(rectangle
-		(start 221.615 48.895)
-		(end 322.58 117.475)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9b8ed37a-3361-4dfc-8cee-a03433842290)
-	)
-	(rectangle
-		(start 244.475 63.5)
-		(end 261.62 81.28)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9e774238-1c2f-4476-adbe-bdfb043ab414)
-	)
-	(rectangle
-		(start 99.695 48.895)
-		(end 200.66 117.475)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb86d4de-8a6c-49fd-bb3c-0c8f9cc72e55)
-	)
-	(rectangle
-		(start 49.53 113.665)
-		(end 85.725 121.285)
-		(stroke
-			(width -0.0001)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 0 1)
-		)
-		(uuid ff95169a-9524-460e-a815-0b403ad04df2)
 	)
 	(image
 		(at 116.84 161.925)
@@ -4754,7 +5068,25 @@
 			"4btzcZwN4xmhjoOPGaR9plrYInt2ZSTzkZ2/mwXS29LA1WDfH8lxto1HgY6D/78YvJAxMyO6uKr9"
 			"wV3AW8OXdSclx3HexPcCHefn4/3cHeen4BLoOD8TIiLyiM1xfg4ugY7jOM5G8XQYx/lTsCTI/Nfl"
 			"gB9Ph3GcreNRoOP8KaAfSYR5Y6TLb8dxvodHgY7jOM5G8SjQcRzH2SgugY7jOM5GcQl0HMdxNopL"
-			"oOM4jrNRXAIdx3GcjeIS6DiO42yU/wADxR0hpImf3QAAAABJRU5ErkJggg=="
+			"oOM4jrNRXAIdx3GcjeIS6DiO42yU/wADxR0hpImf3QAAAABJRU5ErkJggv//////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////w=="
 		)
 	)
 	(image
@@ -7723,7 +8055,25 @@
 			"xVZkonfE4KHjubc12u6+20x372vq8FrbALR1njHGiArO8dDB2NPf7uqmu5mIXoHBQ0REu2LwEBHR"
 			"rhg8RES0KzYX0MHID2suuNvKxkkeopfjljlEK4doqSP6qbHiIVph2BC9N87xEBHRrhg8RES0KwYP"
 			"ERHtisFDRES7YvAQEdGuGDxERLQrBg8REe2KwUNERLti8BAR0a4YPEREtCsGDxER7YrBQ0REu2Lw"
-			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggg=="
+			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggitjZFk4S04vZG5CMStI"
+			"NUVCbndSL0g4ak05SUFtaFl6R3AvWCtqa3psc1gzTnF1T1h2MCtIRHRsMEh6a2VsYXU1ZlA1RWVY"
+			"SGVkWGtlR1JoNys2b29hemliYjg4Y2d3a3lIZjVtbDA2Y1FVZmZxaXQvU1piMFd2L04wcjF0TzFP"
+			"dGNXc0l1TnlPV0hRT1VXa3hyYUpvY1BpVXRmRFJlZnpVdVBjdml3TDF2MFk5am82RUpDcVI2eFRa"
+			"cHluQzVza1hQMjhhd0pmNkJMZlREOWU0R3pGQm45S1lac2VFY1djSmlnMGZSTkVqYnQ1SzlmMmp4"
+			"N1VqOXZEQ1pCZTVBMng1MEFNdUZOOXRuL2NzVHUwRUxrTFdmQkhjK0xFL0s5NUFndkU0anlYdTVX"
+			"NUQvallJTWlQZmxLYlVTSGpHMTc3TmNMcmVpa0hGWmk4dnlNbi9BeGVjK1l5V1BCK3ZaanJOcU5v"
+			"YjcvNUhDVHViZ3hUMnpTaisvRVowS2cxbkxzeFhGL3VhTVczeElENHFkK2hlKzc4bjRCSTFiTkww"
+			"b3ZnTU8zK3VXOGRva2R5QUJyT0pLUHJjbXYvZGZuOFFvK2JOR3ZybkdYWTZXTFIvckV4MTcyNTVj"
+			"cHUxRENiL01YdjFOS085cXhGNWxnWHg4T2hyV1I4MmUrMEgrNWJ6blF1VUlPdnNnL1A4Vm1aTExC"
+			"R0gxbGVXUjNuV3FyNEtYT3BxQ2htTGZGRG5wb0VYaDFXVFJHUGoraVdmdkVKL25JYkx0OGt5RE5l"
+			"WVlrQngwUGk1bmp3ZDg5QStOY0xxcTlxMmRzMkZ6MytIZm96UGUrNlRlcTVUVVBJbmZSYTUwZ1ls"
+			"TW5UNlBGcmhaaEhpNytNZklyOUhsVUdzWTVnZWZxcCt0aG8wN2VhVWVWdGxiV1FkZForeFh0aU5u"
+			"cUtBSDZ0N3hIWlVwYmpBQTE0d0tHeEQrYUpzMFpCNTJiMEc2aTdaVjM2QUNGd2wzTlpiekVSNUZB"
+			"UFRwUm1LRzdTazhET2Q4N1pCZEdBZnBLaG05ODZDckFVbm9GbjMwbjk5RGc2TlhuMFprY0N2blFK"
+			"RjgvbjR6QkZFRk9YN29wZlVyZGl2TVp6d0dOSXg5bkF2R09nMU5vSHI1TkJLNk9vblBDdjdyZEZk"
+			"T1NnZ1hUZ2xBZzJOeTlJUmNlbFRNeWNBWTRYR0FWMS9RbHp5VWJDZHE1SXRESWNBVXU5RzlncDlM"
+			"Q3BlM3BvdTdHTVN2NXExOWtic0lNZjBsRC8vT05mdTRkT3JXclJXSCt5S0ZlNmFLcCtBekhUMW1Z"
+			"U1JMdEUzb1NvQklMaHlZN1RlWm9Ha3F4YjVJcnJ6V3A5QzVZK3BJNWpjWA=="
 		)
 	)
 	(image
@@ -10920,7 +11270,25 @@
 			"4btzcZwN4xmhjoOPGaR9plrYInt2ZSTzkZ2/mwXS29LA1WDfH8lxto1HgY6D/78YvJAxMyO6uKr9"
 			"wV3AW8OXdSclx3HexPcCHefn4/3cHeen4BLoOD8TIiLyiM1xfg4ugY7jOM5G8XQYx/lTsCTI/Nfl"
 			"gB9Ph3GcreNRoOP8KaAfSYR5Y6TLb8dxvodHgY7jOM5G8SjQcRzH2SgugY7jOM5GcQl0HMdxNopL"
-			"oOM4jrNRXAIdx3GcjeIS6DiO42yU/wADxR0hpImf3QAAAABJRU5ErkJggg=="
+			"oOM4jrNRXAIdx3GcjeIS6DiO42yU/wADxR0hpImf3QAAAABJRU5ErkJgggAAAHYAAABvAAAAWAAA"
+			"AHkAAAA1AAAASgAAAFcAAABtAAAATAAAAE0AAAA5AAAAcAAAAGcAAABEAAAAegAAAGUAAABOAAAA"
+			"MAAAAFkAAAArAAAAVwAAAGoAAABxAAAAdAAAAFQAAABBAAAAOAAAAG8AAABMAAAASwAAAHEAAABM"
+			"AAAAYwAAAFkAAAB5AAAAcQAAAHcAAABjAAAAdAAAAFUAAABlAAAAMQAAAFEAAABpAAAAYgAAAGkA"
+			"AABQAAAAMQAAAFYAAABOAAAAUAAAAEUAAABHAAAAVQAAAGQAAABYAAAAYgAAAGoAAAArAAAATgAA"
+			"AE0AAABBAAAATQAAAHgAAABFAAAAUwAAAFcAAAArAAAASwAAAEYAAABBAAAAdQAAADkAAABGAAAA"
+			"UwAAAHAAAAA0AAAATwAAAHIAAAB5AAAAKwAAAFAAAABEAAAAVAAAADMAAAA5AAAAOAAAAFAAAABm"
+			"AAAAbwAAAHcAAAA2AAAASAAAAGYAAABhAAAASwAAAGwAAABKAAAAUwAAAEMAAABoAAAAUQAAAEkA"
+			"AABLAAAAQgAAAEcAAABsAAAAMwAAAFMAAABsAAAARwAAAGIAAABQAAAAZAAAAFQAAABHAAAAbQAA"
+			"AE4AAABNAAAAWgAAAHIAAABKAAAAVQAAAGEAAAA2AAAATQAAAEIAAABEAAAAQgAAAHAAAABHAAAA"
+			"TgAAAEoAAAB5AAAAZgAAAEsAAABzAAAAcgAAAE0AAAB3AAAAbQAAAGcAAAAyAAAAbQAAAHAAAABo"
+			"AAAAUQAAAGEAAAB5AAAASgAAAFcAAAB6AAAAQgAAAEoAAABBAAAAQwAAAEIAAABRAAAATQAAAGwA"
+			"AABPAAAAbgAAAGgAAABNAAAARAAAAFAAAAB2AAAAMwAAAC8AAAArAAAAZQAAAEcAAABmAAAAbAAA"
+			"AFgAAABqAAAAcAAAAEcAAABWAAAAWAAAAEkAAAA4AAAAcwAAADEAAABRAAAATQAAAEcAAABKAAAA"
+			"dQAAAHYAAABCAAAAWQAAADQAAAA5AAAARgAAAEEAAABnAAAASAAAAE0AAABBAAAAaAAAAG0AAABB"
+			"AAAAcgAAAGUAAABkAAAATQAAAEoAAABmAAAAbwAAADMAAABHAAAAcwAAAGQAAAB6AAAALwAAAGUA"
+			"AABFAAAALwAAAHcAAABnAAAAQwAAAE0AAABJAAAAeAAAAEkAAABDAAAAdQAAAFoAAAAzAAAAUwAA"
+			"AEcAAABNAAAAcAAAAHoAAABRAAAATQAAAEgAAABJAAAAcgAAAEEAAABrAAAAawAAAFMAAABBAAAA"
+			"UwAAAHAAAABFAAAAWgAAAG0AAABJAAAAbQAAAGQAAABxAAAAcgAAAHoAAA=="
 		)
 	)
 	(image
@@ -13889,290 +14257,26 @@
 			"xVZkonfE4KHjubc12u6+20x372vq8FrbALR1njHGiArO8dDB2NPf7uqmu5mIXoHBQ0REu2LwEBHR"
 			"rhg8RES0KzYX0MHID2suuNvKxkkeopfjljlEK4doqSP6qbHiIVph2BC9N87xEBHRrhg8RES0KwYP"
 			"ERHtisFDRES7YvAQEdGuGDxERLQrBg8REe2KwUNERLti8BAR0a4YPEREtCsGDxER7YrBQ0REu2Lw"
-			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggg=="
+			"EBHRrhg8RES0KwYPERHtisFDRES7+gcBGmpUY36r4gAAAABJRU5ErkJggk5rcTY0YklkUTBKL0dq"
+			"QkcyS01SbUNSSm5VaEdnbHhGRTgrYUlqTUdvTjY4MlpLYk5Ccy9MS0owT3lRM2ZURXFqdTFJaDNT"
+			"WkF1c2E5S01UTE91VWNuSUNZUE1yRGNqSm1VWElaWjBpc3dHb0dzYnkzNG1zV3ViVG5oOC9CRDh3"
+			"M0F2anpkdlU0QmJLZ1JHQkNkQ1pHVGFtRG9ZYVFoK0RCWWlqS0JRaFpFUGlwaUtLQWlJREdKZ0px"
+			"NjZ4ZVN4a1RkSEljQnpoajV0eXptRTJHTmIrZjJyK2pSTjRad0x6dUZqanJXZEhJMFlOWTB5MG5D"
+			"VWU4N0dQRS9FSGdkTVJqOHpSRFVpRXlkdHQ0alJ4cUJqakZFeGhQZzRCblp0czE0dkRvK096aTgy"
+			"SjhlUk1jUXdoQkEwSGwxZVhsNWNja3E0dCsyLy81Ly9lbmYvK3gvZmZ6eGNycVNKSVVRUkI4QjdQ"
+			"M2c5UGwxZnZiZzhPNytRRmo2TXhEU0dmb3pqR01hYjl6L2NmWHIzOW8vdHdkSEI4ZG4xMWV0djI5"
+			"VVJuRUFFR21GS3draVpaR0ZxTVpjUEltUVhLQU5xaG9pczRUY3psQW82R2Q2V3NaLzBGWGdpdkpl"
+			"UmU0WnlQRG55WEpzN0Y4M0V2K1Q2UWtRcGcyWFNsVkJ5eDlnREtIV1N5NlZmOE5Cbnozd1NFZjIz"
+			"QlFlMi83a1Foa2srdGhyK1NBUVJSdDZsWE1VSVN6bUtMWnNaY2sya1NRVUNBQ21EMWFRN0FaWHBu"
+			"OHZrT3hET1RIMFlBUk5RMHpUcnpjSFIwZkhISCs5OGp4amo2TDBRR0NSQ000R20vSnNNVWtEUngx"
+			"aGFsNmt3THlkeVlWRXRxbG5RNkVQRGp0dFdTVVpGSDdBTkJ0ZEl1NFMwM0N6YWt4ZGYvYS8vNStM"
+			"MHBXdVhXS3dnTGFnQm5FRXEyNTNvZFIzVDdJOVIxK3R6S3ZVSmNNeG40MWZFQloraXdHZGFscDFB"
+			"QUFzN2t4Yk5ndHMxdGIycWh0aVR5VHd0SGszWDVROEZJR2ZXVTVZR1ozNUlWck9GR1ZvU0ViQ0JG"
+			"UjR4a2tXQVJGenlBNlNjN2ordEExVU9LY09WUlV4SzBSbVptZmVxT0x1VlFuYUZZbVRtWEQwYmNx"
+			"Y3RpLzlJRURObFpnT2xrSU9TVnJ0cWgxa0VJQ1dCRUlSWndEU1FCaGhIbnp1Z1JBUmpRaFNoZ3Fn"
+			"b2JVWDEwV3FGTUlOcGpHbUhwdmlidW5PUlBaS1Q4b1ZnTStveW9iLzYxZ1JNYXQ0NkVEODk0VS9Q"
+			"c0VyUmFxS1FySVNtbEJyUWlyQmNCdlV6YWRubWpmTVJaaEdDa2dnemhhaA=="
 		)
-	)
-	(text_box "SMBJ33CA:\n\nReverse Stand off voltage (= working voltage): 33.0V (maximum continuous voltage that can be applied to the diode without it conducting current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 38.6V \nThe breakdown voltage range (from 36.7V to 38.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 53.3V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
-		(exclude_from_sim no)
-		(at 73.025 243.205 0)
-		(size 187.325 38.735)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "283a220d-f4ac-4b80-890d-82968222bd81")
-	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
-		(exclude_from_sim no)
-		(at 105.41 88.9 0)
-		(size 38.1 17.145)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "4f40d781-9a57-448b-bdd0-f8340d2150e9")
-	)
-	(text_box "LAYOUT NOTE:\nPlace TVS diode near\ninput power connectors, with an orientation minimizing the return path."
-		(exclude_from_sim no)
-		(at 198.12 125.73 0)
-		(size 26.67 12.7)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "59800026-abce-490f-af73-e553b627145c")
-	)
-	(text_box "Power Output Connector to Battery, TVS Diode"
-		(exclude_from_sim no)
-		(at 227.33 109.22 0)
-		(size 90.17 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "5f08f9ee-2018-4f1a-9ab0-3e5cb38d7711")
-	)
-	(text_box "Power Input Connector from Battery, TVS Diode"
-		(exclude_from_sim no)
-		(at 105.41 205.74 0)
-		(size 90.17 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "a6bdd22f-e5ff-48d2-8c61-d66b4340ddfb")
-	)
-	(text_box "Power Output Connector to rover, TVS Diode"
-		(exclude_from_sim no)
-		(at 227.33 205.74 0)
-		(size 90.17 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "ad2b3891-686f-4758-a0b0-8fb531d228e1")
-	)
-	(text_box "[${#}] ${TITLE}"
-		(exclude_from_sim no)
-		(at 156.21 17.145 0)
-		(size 98.425 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
-	)
-	(text_box "Power Input Connector from Power Supply, TVS Diode"
-		(exclude_from_sim no)
-		(at 105.41 109.22 0)
-		(size 90.17 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "b610ad11-6470-4e17-bb6a-df05c5ad2515")
-	)
-	(text_box "DESIGN NOTE:\n\nTVS (Transient Voltage Suppresion) are used to protect circuits from voltage spikes by clamping high voltages to a safe level.\n\nBidirectional diodes brings no additional benefits compared to unidirectional diodes and are in fact even a bit worse, as they will clamp later negative transients. \n\nIn sintuations like this, when the battery and power supply are always positive values, unidirectional diodes are better suitted.\n\nBidirectional diodes are meant to be use to proetct lines that usually goes to negative values, like differential lines."
-		(exclude_from_sim no)
-		(at 13.97 207.645 0)
-		(size 57.15 74.295)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c4849e0a-a525-42bc-9ec3-393265ab14eb")
-	)
-	(text_box "DESIGN NOTE:\n\nNo reverse polarity protection implemented. TVS diodes does not protect the PCB against reverse polarity. \n\nAlways adhere to established industry conventions for connector polarity and gender to ensure compatibility and prevent reverse polarity connections. The female connector should always carry the power source with recessed contacts to minimize the risk of accidental short circuits. Polarity protection could be nice improvements for V1.1."
-		(exclude_from_sim no)
-		(at 29.21 102.235 0)
-		(size 59.055 55.88)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d875dbd2-306c-44d6-8bfb-f9fb129fdf60")
-	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
-		(exclude_from_sim no)
-		(at 105.41 187.325 0)
-		(size 38.1 17.145)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d8961e16-7e6a-406b-8fc1-852f3e8bf7d3")
-	)
-	(text "Inspired by Amulet controller Schematics\nby Vincent Nguyen"
-		(exclude_from_sim no)
-		(at 264.16 251.206 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://github.com/EPFLXplore/XRE_LeggedRobot_HW")
-		)
-		(uuid "5606ac02-9423-4060-a12f-b855b1e21bcd")
-	)
-	(text "Uni or bi directional TVS diodes?"
-		(exclude_from_sim no)
-		(at 264.16 254.254 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "https://toshiba.semicon-storage.com/ap-en/semiconductor/knowledge/faq/diode_tvs-diodes/is-it-necessary-to-use-bidirectional-tvs-diodes-esd-protection-diodes-to-protect-against-both-positive-and-negative-esd-events.html")
-		)
-		(uuid "b640d48f-726b-406f-a53f-e3f01d017864")
 	)
 	(hierarchical_label "+VSUPPLY"
 		(shape output)
