@@ -24,13 +24,13 @@ The system will always try to use the external power supply as the primary power
 | Voltage Input | 10-33V |
 | Continuous Supply Current | 30A |
 | Continuous Discharge Current | 30A |
-| Continuous Charge Current | 7A |
+| Max. Continuous Charge Current | 10A |
 | Mass | TBD |
-| Communication | USB 2.0 / JTAG |
+| Communication | USB 2.0 / JTAG / UART / I2C |
 | MCU | ESP32-S3FN8 |
 | Dimensions | 100x70x13mm |
 | Designer   | Théo Heng        |
-| Date       | Oct. - Nov. 2024 |
+| Date       | Oct. 2024 - Feb. 2024 |
 | Project    | ERC            |
 
 ***
@@ -39,9 +39,11 @@ The system will always try to use the external power supply as the primary power
 
 ```
 ElonMux
+├── Blender             # .pcb3d file and Blender files
 ├── Computations        # Computation sheets an simulation performed
 ├── Datasheets          # Datasheet of major components
-├── Images              # Pictures and screenshots
+├── Images              # Various images, pictures and screenshot used in the project 
+    └── Photos          # High res. pictures of the assembled PCB
 ├── lib
     |── 3d_models       # Component 3D models
     |── lib_fp          # Footprint libraries
@@ -62,7 +64,7 @@ ElonMux
 
 ## FIRMWARE
 
-TBI
+The firware for ElonMux was written in the Arduino Framwork on Platform.io in VScode and flashed over USB. This is the recommended way of flashing the firmware. The firmware can be found 
 
 ***
 
