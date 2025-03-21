@@ -1,0 +1,10177 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09af1747-b62c-48f4-91b0-b0d281588276")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Battman-altium-import:3V3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:5V_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5V"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5V_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:5V_Reg_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5V_Reg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"5V_Reg\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5V_Reg_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "5V_Reg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:5V_USB_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "5V_USB"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"5V_USB\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "5V_USB_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "5V_USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_11868f565c42a9108669ba33697ecf6_Altium Content Vault"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors 2.2uF ±10% 100V X7S SMD 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FP-C3216-160-0_2-IPC_B*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_11868f565c42a9108669ba33697ecf6_Altium Content Vault_1_0"
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.302) (xy -2.54 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_GRM31C5C1H224JE02L_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC3216X180N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_GRM31C5C1H224JE02L_SamacSys.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_Inductor - 2_Altium Content Vault"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*WE-PD_1050P*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_Inductor - 2_Altium Content Vault_1_0"
+				(circle
+					(center 1.778 1.27)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.912 0.898)
+					(end 3.81 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.27)
+					(mid 4.708 0.898)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 5.452 0.898)
+					(end 6.35 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 1.27)
+					(mid 7.248 0.898)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 7.992 0.898)
+					(end 8.89 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 1.27)
+					(mid 9.788 0.898)
+					(end 10.16 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 10.532 0.898)
+					(end 11.43 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 1.27)
+					(mid 12.328 0.898)
+					(end 12.7 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 8.89 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_LM1117MPX-3.3_NOPB_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOT230P700X180-4N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_LM1117MPX-3.3_NOPB_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 25.4 2.54)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_LT3990IMSE-5#PBF_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOP50P490X110-17N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_LT3990IMSE-5#PBF_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 30.48 2.54)
+					(end 5.08 -30.48)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VOUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VOUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "EN/UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -35.56 90)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "NC_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "BD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "NC_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "BOOST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "NC_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -17.78 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_PRTR5V0U2X,215_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PRTR5V0U2X*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_PRTR5V0U2X,215_SamacSys.SchLib_1_0"
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 20.32 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 3.81) (xy 8.89 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 1.778) (xy 8.89 1.778) (xy 11.43 1.778) (xy 10.16 3.81) (xy 8.89 1.778) (xy 11.43 1.778)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -1.524) (xy 8.89 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -3.556) (xy 8.89 -3.556) (xy 11.43 -3.556) (xy 10.16 -1.524) (xy 8.89 -3.556) (xy 11.43 -3.556)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.462 0.762) (xy 13.97 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 1.27) (xy 13.97 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 1.27) (xy 17.018 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -0.762) (xy 13.97 -0.762) (xy 16.51 -0.762) (xy 15.24 1.27) (xy 13.97 -0.762) (xy 16.51 -0.762)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 5.08) (xy 20.32 4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 5.08) (xy 20.32 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 0) (xy 20.32 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -2.54) (xy 20.32 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -2.54) (xy 20.32 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 3.81) (xy 19.05 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 1.778) (xy 19.05 1.778) (xy 21.59 1.778) (xy 20.32 3.81) (xy 19.05 1.778) (xy 21.59 1.778)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -1.524) (xy 19.05 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 -3.556) (xy 19.05 -3.556) (xy 21.59 -3.556) (xy 20.32 -1.524) (xy 19.05 -3.556) (xy 21.59 -3.556)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 22.86 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 0)
+					(length 5.08)
+					(name "input/output_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 270)
+					(length 5.08)
+					(name "supply_voltage"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -10.16 90)
+					(length 5.08)
+					(name "ground"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "input/output_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_RK73B1JTTD270J_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_RK73B1JTTD270J_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 12.7 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_TPS2116DRLR_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOTFL50P160X60-8N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_TPS2116DRLR_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 27.94 2.54)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "PR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "VOUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "VOUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "ST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_Test Pad 1mm-Symbol-1_EPFL Racing Team"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1mm radius circuilar test pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Test{space}Pad{space}1mm-Footprint-1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_Test Pad 1mm-Symbol-1_EPFL Racing Team_1_0"
+				(rectangle
+					(start 15.316 2.54)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 7.62)
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_0_mirrored_02cd4be3c70576c341d710602a673aa_Altium Content Vault"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Ceramic Capacitor, 1206, 22uF, 10%, X5R, 15%, 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FP-1206-L_3_2_0_2-W_1_6_0-IPC_C*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_0_mirrored_02cd4be3c70576c341d710602a673aa_Altium Content Vault_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.302) (xy 2.54 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 1.778)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1608X90N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 7.112) (xy 2.54 7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.588) (xy 2.54 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_1_CRCW0603100KFKEAC_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_1_CRCW0603100KFKEAC_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 1.27 12.7)
+					(end -1.27 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_1_CRCW0603100RFKEA_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X50N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_1_CRCW0603100RFKEA_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 1.27 12.7)
+					(end -1.27 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_1_MCT0603MD1304BP500_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_1_MCT0603MD1304BP500_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 1.27 12.7)
+					(end -1.27 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 17.78 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_2_RMCF0603FT374K_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_2_RMCF0603FT374K_SamacSys.SchLib_1_0"
+				(rectangle
+					(start -5.08 1.27)
+					(end -12.7 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_3_SMF5.0CA_*"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SODFL3618X108N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_3_SMF5.0CA_*_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:AuxSupply/USB_3_Test Pad 1mm-Symbol-1_EPFL Racing Team"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1mm radius circuilar test pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Test{space}Pad{space}1mm-Footprint-1*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AuxSupply/USB_3_Test Pad 1mm-Symbol-1_EPFL Racing Team_1_0"
+				(rectangle
+					(start 2.54 -7.62)
+					(end -2.54 -15.316)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 7.62)
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:Bat_GND_Fused_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Bat_GND_Fused"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"Bat_GND_Fused\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Bat_GND_Fused_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "Bat_GND_Fused"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 15.24 49.9872) (xy 25.4 49.9872)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cefd4f92-fe3c-4d59-8561-2a7040ba3bbb)
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 271.78 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eb62bb6-616d-4ae0-827e-35b75a685a4b")
+	)
+	(text "USB INPUT Protection"
+		(exclude_from_sim no)
+		(at 50.8 29.6672 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fb32418-d47f-4da3-b685-f16d43840261")
+	)
+	(text "5V Selector"
+		(exclude_from_sim no)
+		(at 43.18 159.2072 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "354ce18f-4351-4fd2-9b82-bed6b705f555")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cd71284-b3bf-4d79-8af6-11593e35595e")
+	)
+	(text "5VDC From VBatt"
+		(exclude_from_sim no)
+		(at 55.88 77.9272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "764e24c3-ac05-4879-a89e-2001a175e2bd")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 259.588 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93ff11d1-e271-4fe7-bae2-37965c840965")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 255.524 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a07f12fa-1d07-4a77-a823-a656114a7e1d")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2480d40-f06d-4be5-9a57-7249fd3c0978")
+	)
+	(text "Otto Riha"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5f08b3c-2116-4d3c-81a7-70f1e6ceed38")
+	)
+	(text "3,3V LDO"
+		(exclude_from_sim no)
+		(at 200.66 49.9872 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "fac680e1-505c-4ae4-89f1-70cd999bcd6f")
+	)
+	(text_box "USB"
+		(exclude_from_sim no)
+		(at 5.08 48.7172 0)
+		(size 10.16 2.54)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.0002)
+			(type default)
+			(color 143 158 201 1)
+		)
+		(fill
+			(type color)
+			(color 237 242 251 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "18f1e5c1-de4f-4a90-a405-00b653cd3eb2")
+	)
+	(text_box "Undervoltage Lockup configured for 16.7V which corresponds to 2.4V/ cell on 7s and is an additional measure against deep discharge"
+		(exclude_from_sim no)
+		(at 88.9 131.2672 0)
+		(size -45.72 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3c72ec3c-8424-482f-84f7-94d826ec79ad")
+	)
+	(text_box "Defaults to battery supply, USB is only a fallback option to program/read out data without connected battery"
+		(exclude_from_sim no)
+		(at 99.06 189.6872 0)
+		(size -45.72 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b1f4657d-9951-4255-9f7f-0757a3552c94")
+	)
+	(junction
+		(at 22.86 75.3872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f9e8b5-0865-463f-b8a3-41f633bb4907")
+	)
+	(junction
+		(at 93.98 60.1472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07dcbf3d-13e1-4c7c-a2fd-f9e023a3c178")
+	)
+	(junction
+		(at 45.72 85.5472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd251af-c2bf-45aa-9489-27f520207116")
+	)
+	(junction
+		(at 248.92 75.3872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e776a2-b84f-473d-900e-3732f53aa403")
+	)
+	(junction
+		(at 35.56 184.6072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b01f88-817a-443b-bc98-fedd0eb8d87d")
+	)
+	(junction
+		(at 38.1 103.3272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2543e936-0df3-4a22-910b-dddd5bd45ad9")
+	)
+	(junction
+		(at 83.82 166.8272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b13e8e-045d-4483-a63f-65d3435af178")
+	)
+	(junction
+		(at 55.88 39.8272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54adb101-1955-449e-af54-02babf99f978")
+	)
+	(junction
+		(at 233.68 75.3872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e9a07e-8973-4b42-931d-db1ef0ff8ce3")
+	)
+	(junction
+		(at 93.98 98.2472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d26715b-e210-4220-aeb8-cedb05335c9f")
+	)
+	(junction
+		(at 114.3 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717f3098-fbb9-4918-a6eb-37202c109266")
+	)
+	(junction
+		(at 109.22 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e7ce21-3f73-4463-a77c-1a0755720269")
+	)
+	(junction
+		(at 22.86 121.1072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77382b64-9ed9-4878-a721-11c468bf7be2")
+	)
+	(junction
+		(at 55.88 60.1472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80886e98-bf34-4f8e-bd4f-5cb9c0c7e8c5")
+	)
+	(junction
+		(at 78.74 166.8272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953c3ebb-a432-497e-9a26-1b67533464aa")
+	)
+	(junction
+		(at 198.12 75.3872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986711d3-1ec1-4b53-aa32-ed6959064a14")
+	)
+	(junction
+		(at 45.72 166.8272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeface67-2285-4159-b5a1-4f91e7027e5a")
+	)
+	(junction
+		(at 93.98 39.8272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f84f8e-4b13-4a3c-86c8-fbffeeeca65c")
+	)
+	(junction
+		(at 78.74 179.5272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a97af6-89eb-45b5-8e7e-20094e7bbae4")
+	)
+	(junction
+		(at 38.1 121.1072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5237589-ab0d-456a-a447-fa908cda3f69")
+	)
+	(junction
+		(at 22.86 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ebb85a-5101-4022-887e-9f6c3211316d")
+	)
+	(junction
+		(at 38.1 98.2472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa68c7c0-731c-4eb9-ba2d-fb6cc9411dbc")
+	)
+	(junction
+		(at 63.5 121.1072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd6e9990-7986-4f6e-9362-a0ce75188767")
+	)
+	(junction
+		(at 45.72 169.3672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff2b6c95-db81-4614-b13f-7a74176196c8")
+	)
+	(no_connect
+		(at 81.28 90.6272)
+		(uuid "37603cac-3874-48e3-957e-99431e05c230")
+	)
+	(no_connect
+		(at 81.28 95.7072)
+		(uuid "8700fb87-4680-4329-a8df-620a2b7ee891")
+	)
+	(no_connect
+		(at 78.74 171.9072)
+		(uuid "8997e534-5e96-42a0-a346-4a72a96d0c04")
+	)
+	(no_connect
+		(at 45.72 100.7872)
+		(uuid "bd36e3d2-70cb-4809-9228-debfa172d66c")
+	)
+	(no_connect
+		(at 81.28 100.7872)
+		(uuid "c16802f4-ada3-4a96-9ab5-de2dff51b848")
+	)
+	(no_connect
+		(at 45.72 95.7072)
+		(uuid "cb94007e-50ec-4866-b54a-8591c33d1b53")
+	)
+	(no_connect
+		(at 45.72 90.6272)
+		(uuid "cd2366b8-b440-4454-94a1-b049dfb6176d")
+	)
+	(no_connect
+		(at 81.28 88.0872)
+		(uuid "f5ca69e1-0ddc-4218-afd5-4ae82cd553d5")
+	)
+	(wire
+		(pts
+			(xy 22.86 110.9472) (xy 22.86 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b991d7-bff0-4699-8406-c828d6596a2d")
+	)
+	(wire
+		(pts
+			(xy 55.88 39.8272) (xy 38.1 39.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0846ae9b-9241-4951-b846-1e9274942b23")
+	)
+	(wire
+		(pts
+			(xy 93.98 103.3272) (xy 81.28 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169631d0-2050-49da-91e6-5c73441a73b9")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.0672) (xy 121.92 55.0672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d45678-88b4-454a-a7bb-1f64ec1d1bad")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.4672) (xy 45.72 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9ad4d8-c36d-49eb-b653-8a0b2f5a66f6")
+	)
+	(wire
+		(pts
+			(xy 45.72 171.9072) (xy 45.72 169.3672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d430145-c618-4ebd-a8ed-86ba0481c0de")
+	)
+	(polyline
+		(pts
+			(xy 160.02 67.7672) (xy 5.08 67.7672)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 152 0 0 1)
+		)
+		(uuid "2484b760-d501-4777-9501-26f61e358345")
+	)
+	(polyline
+		(pts
+			(xy 160.02 67.7672) (xy 160.02 204.9272)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 152 0 0 1)
+		)
+		(uuid "2670dee8-c1b1-4763-b10f-cb06dc0f742a")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.1672) (xy 81.28 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cf3740-dc7f-4d7f-ad09-32d26b591f54")
+	)
+	(wire
+		(pts
+			(xy 109.22 98.2472) (xy 109.22 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fdd9e1-c078-484c-a8fb-4d10f7a83add")
+	)
+	(wire
+		(pts
+			(xy 38.1 75.3872) (xy 38.1 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2936f521-1c6e-4c08-9bda-39795dc97c5e")
+	)
+	(wire
+		(pts
+			(xy 93.98 98.2472) (xy 93.98 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f15aa96-65b9-4126-ba13-f39f7aa8f079")
+	)
+	(wire
+		(pts
+			(xy 38.1 60.1472) (xy 55.88 60.1472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd271f6-3b9e-4a6a-817a-e453c4211c4f")
+	)
+	(wire
+		(pts
+			(xy 45.72 174.4472) (xy 40.64 174.4472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305f3d1b-d667-4604-833c-8aac952c4796")
+	)
+	(wire
+		(pts
+			(xy 198.12 75.3872) (xy 203.2 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3973cdf9-c1a0-4b91-baf7-7e582fd3050a")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.1672) (xy 119.38 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408dc434-fb34-4735-805f-4d3f595f3a19")
+	)
+	(wire
+		(pts
+			(xy 55.88 60.1472) (xy 55.88 55.0672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449c57fc-a2d7-463e-9c62-0c43282435ff")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.4672) (xy 45.72 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b96d847-bcdd-401d-8855-8d541bbc47ef")
+	)
+	(wire
+		(pts
+			(xy 30.48 171.9072) (xy 30.48 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5c32b4-4fd0-4db5-9b60-4f0d351241ae")
+	)
+	(wire
+		(pts
+			(xy 40.64 184.6072) (xy 35.56 184.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc9c218-e4b7-424f-9f85-8292ed010d2c")
+	)
+	(wire
+		(pts
+			(xy 121.92 47.4472) (xy 116.84 47.4472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcb6aca-c774-4a13-85c1-99b8138e9f2e")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.9872) (xy 78.74 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559d5b30-d4b4-4eee-be13-f12a9f930d33")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.9872) (xy 50.8 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e271f3-0fe9-41f9-8f37-3a311dded9fc")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.7072) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594661ed-09bd-45eb-8bd8-c414bebb8986")
+	)
+	(wire
+		(pts
+			(xy 228.6 75.3872) (xy 233.68 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d618cb3-d88d-41eb-95a1-4f0060b1c49b")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.1672) (xy 109.22 80.4672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdb13e4-6f85-4f84-97e0-db73046ae1b7")
+	)
+	(wire
+		(pts
+			(xy 38.1 121.1072) (xy 38.1 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694d5c11-7045-46bd-bdf4-f8f0031b5a3a")
+	)
+	(wire
+		(pts
+			(xy 83.82 166.8272) (xy 78.74 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca86989-9f9d-4aab-922e-5c487fee8a39")
+	)
+	(wire
+		(pts
+			(xy 248.92 75.3872) (xy 254 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f53ed05-89c8-44e2-8b2f-fe1ef5816221")
+	)
+	(wire
+		(pts
+			(xy 38.1 103.3272) (xy 45.72 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d9d204-7d24-475a-acd8-eef6670dae6d")
+	)
+	(wire
+		(pts
+			(xy 38.1 121.1072) (xy 63.5 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a026f98-e17a-465e-ac90-d7ca663e72b8")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.5272) (xy 38.1 60.1472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b40daa-aa59-44f1-a6db-5ea4ed925a91")
+	)
+	(wire
+		(pts
+			(xy 45.72 93.1672) (xy 22.86 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87acc665-88b1-4e15-9e62-937da80df076")
+	)
+	(wire
+		(pts
+			(xy 78.74 174.4472) (xy 78.74 179.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb4f21a-6dd5-4eea-9f4c-c606c6bf4e92")
+	)
+	(wire
+		(pts
+			(xy 83.82 179.5272) (xy 78.74 179.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f08b753-b87a-459f-a72e-2b843fe1e567")
+	)
+	(wire
+		(pts
+			(xy 35.56 52.5272) (xy 38.1 52.5272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c8c4b5-011e-44ff-9a49-10b2ca42a621")
+	)
+	(wire
+		(pts
+			(xy 114.3 103.3272) (xy 114.3 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c08f31-3891-4810-aa0d-aea9e2b4a3e2")
+	)
+	(wire
+		(pts
+			(xy 78.74 169.3672) (xy 78.74 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b198e0b-4491-41a6-84f7-eacb6ee81868")
+	)
+	(wire
+		(pts
+			(xy 22.86 75.3872) (xy 38.1 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f29956b-7dd2-4e3f-b4c9-daea643a9ec4")
+	)
+	(wire
+		(pts
+			(xy 198.12 80.4672) (xy 198.12 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fc56b5-b1b8-43da-b141-8b67a370928d")
+	)
+	(wire
+		(pts
+			(xy 35.56 184.6072) (xy 30.48 184.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2184649-4ebc-4eca-a7a3-44240ff45fd9")
+	)
+	(wire
+		(pts
+			(xy 104.14 49.9872) (xy 109.22 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87666d9-422e-415b-8e8d-1b2993cdbefc")
+	)
+	(wire
+		(pts
+			(xy 38.1 98.2472) (xy 45.72 98.2472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92d2dd9-db29-4163-bf2b-d006bd0fe5fe")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.9072) (xy 35.56 44.9072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd8871d-9fa6-4015-ae30-6c3876801367")
+	)
+	(wire
+		(pts
+			(xy 55.88 39.8272) (xy 93.98 39.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5cabe0-70e4-4319-a727-6eccad2462e4")
+	)
+	(polyline
+		(pts
+			(xy 5.08 149.0472) (xy 160.02 149.0472)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 152 0 0 1)
+		)
+		(uuid "b491cefc-234c-4079-8114-f28559243677")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.1472) (xy 254 60.1472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b552ad4d-0583-47c9-9da7-6bb613fc5e78")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.0872) (xy 45.72 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd12c58b-06b2-4bb8-b3a4-f00e858af37b")
+	)
+	(wire
+		(pts
+			(xy 38.1 98.2472) (xy 38.1 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee97b26-17ea-4970-85b6-cc408af8187c")
+	)
+	(wire
+		(pts
+			(xy 22.86 121.1072) (xy 38.1 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19f7bb7-f6f1-43d0-990a-f1fecebd67dd")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.8272) (xy 101.6 39.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c1edd8-d575-43ff-ae42-c1239679ab67")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.1672) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e98e65-ccfa-4137-9562-270250e8050f")
+	)
+	(wire
+		(pts
+			(xy 35.56 47.4472) (xy 50.8 47.4472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba0a4f9-f248-4f24-a3c3-00e0d4d52b36")
+	)
+	(wire
+		(pts
+			(xy 30.48 166.8272) (xy 45.72 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce06be7e-1a52-4c06-95f5-7d6cb8cc078f")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.8272) (xy 38.1 44.9072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a68025-5e05-4e5f-8b56-1a717f0d545e")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.1472) (xy 55.88 60.1472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d390282f-40a9-425c-896c-9638f1eb45d1")
+	)
+	(polyline
+		(pts
+			(xy 160.02 22.0472) (xy 160.02 67.7672)
+		)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 152 0 0 1)
+		)
+		(uuid "d67cbf14-a40b-4fa8-872f-daf3ad755f7b")
+	)
+	(wire
+		(pts
+			(xy 20.122 121.1072) (xy 22.86 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d887f5cb-9101-4536-b5e1-aeb63a080ac1")
+	)
+	(wire
+		(pts
+			(xy 233.68 75.3872) (xy 248.92 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaeb5657-d202-48fb-a513-d12146c80fd8")
+	)
+	(wire
+		(pts
+			(xy 45.72 169.3672) (xy 45.72 166.8272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba2e6ca-8b48-4d51-9f0f-eb6ef3cbd8a8")
+	)
+	(wire
+		(pts
+			(xy 20.722 75.3872) (xy 22.86 75.3872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6720af-9e77-48c4-9c2a-11538a634429")
+	)
+	(label "D_n"
+		(at 104.14 49.9872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c526637-06f3-4df2-8463-1e4a85053f8d")
+	)
+	(label "D_p"
+		(at 116.84 47.4472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6713fd0e-6533-4da5-b12e-bf62d1eb6aa0")
+	)
+	(label "D_n"
+		(at 38.1 49.9872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c3a00f4-2881-4e3d-8857-2a9cbb9ff510")
+	)
+	(label "D_p"
+		(at 38.1 47.4472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e050e35-5c6b-4608-b954-a2d85f288f4a")
+	)
+	(label "D_n"
+		(at 116.84 55.0672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0521357-b69d-457a-a099-837874598898")
+	)
+	(label "D_p"
+		(at 78.74 49.9872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc3827d7-17ac-4cd3-9a05-5a2188395a15")
+	)
+	(hierarchical_label "VBat"
+		(shape input)
+		(at 20.722 75.3872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "061056cf-10af-4b91-b578-a20247b7809a")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 154.387 47.4472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42e1c9d2-da8a-4e54-ba3e-95bbab2d1e5e")
+	)
+	(hierarchical_label "3V3"
+		(shape output)
+		(at 254 75.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "762511f7-dca2-410e-aa06-759d183fac9e")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 154.816 55.0672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f1c3d6d-09c9-482c-80c1-4b99649bc239")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 20.122 121.1072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6dfe4d0-db44-4266-8ad9-b5ce37a749c7")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 254 60.1472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e60c351d-2641-4f9c-a39a-f1eaffc8be3f")
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 93.98 60.1472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05d61326-7df7-4d29-aaaa-139c691c137a")
+		(property "Reference" "#PWR?"
+			(at 93.98 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 93.98 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4eff76f0-8f02-4488-83e2-d703d61f0f64")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_GRM31C5C1H224JE02L_SamacSys.SchLib")
+		(at 81.28 98.2472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09abfcae-4223-44e9-b1e0-e57cfc959a04")
+		(property "Reference" "C402"
+			(at 86.106 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GRM31C5C1H224JE02L"
+			(at 86.106 103.5812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC3216X180N"
+			(at 81.28 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 81.28 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31C5C1H224JE02-01A.pdf"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.8mm"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Murata Electronics"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "GRM31C5C1H224JE02L"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "81-GRM31C5C1H224JE2L"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31C5C1H224JE02L?qs=qSfuJ%252Bfl%2Fd7ovrk3%2F2FSbQ%3D%3D"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "GRM31C5C1H224JE02L"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/grm31c5c1h224je02l/murata-manufacturing?region=nac"
+			(at 80.772 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "220nF 100V"
+			(at 81.28 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "406267d0-a85a-4a97-a180-377d200ac362")
+		)
+		(pin "2"
+			(uuid "597fdabd-23b6-4f30-a9a3-682bbf82101a")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_PRTR5V0U2X,215_SamacSys.SchLib")
+		(at 78.74 49.9872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c1406f8-851e-44bc-bb0a-b68e1d29b9b5")
+		(property "Reference" "D401"
+			(at 101.6 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PRTR5V0U2X,215"
+			(at 96.52 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:PRTR5V0U2X"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Nexperia"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PRTR5V0U2X,215"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "771-PRTR5V0U2X-T/R"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cRj8Lw%3D%3D"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "PRTR5V0U2X,215"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/prtr5v0u2x215/nexperia?utm_currency=USD&region=europe"
+			(at 78.74 49.9872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a64f95db-7856-4754-a42f-3d73e057b511")
+		)
+		(pin "2"
+			(uuid "006c54eb-6359-4343-b2ad-ccac19b215b4")
+		)
+		(pin "3"
+			(uuid "6be339c0-e555-4836-a50f-9842855f20ec")
+		)
+		(pin "4"
+			(uuid "32837f72-1170-468d-845d-6742a752c9ea")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "D401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_CRCW0603100KFKEAC_SamacSys.SchLib")
+		(at 22.86 110.9472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf0517e-e4d4-4b75-b116-11ccf0380239")
+		(property "Reference" "R405"
+			(at 24.13 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 22.86 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.mouser.com/datasheet/2/427/crcwce3-1223726.pdf"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100KFKEAC"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW0603100KFKEAC"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100KFKEAC?qs=E3Y5ESvWgWPxzfNYyMgX1w%3D%3D"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW0603100KFKEAC"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100kfkeac/vishay?utm_currency=USD&region=nac"
+			(at 21.59 92.6592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100k"
+			(at 24.13 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "df32fabf-cd6d-49d5-a139-0d746e4d6727")
+		)
+		(pin "2"
+			(uuid "470643ac-409f-4569-8de6-576428d5dd0b")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_MCT0603MD1304BP500_SamacSys.SchLib")
+		(at 22.86 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1feb3644-839e-4040-a27a-020ae3e30f56")
+		(property "Reference" "R402"
+			(at 24.13 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1.3M"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 22.86 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MCT0603MD1304BP500"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "594-MCT0603MD1304BP5"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay/MCT0603MD1304BP500?qs=Jslch3jnSjn3NEL17BAJuQ%3D%3D"
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 21.59 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1.3M"
+			(at 24.13 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b694c82f-60c9-41d9-8b28-cbdb918f8854")
+		)
+		(pin "2"
+			(uuid "858da2b7-5162-4b82-af02-e21f4892b870")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_3_Test Pad 1mm-Symbol-1_EPFL Racing Team")
+		(at 248.92 75.3872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "319e2b64-2e38-4d2a-afb8-80ecbf6149fc")
+		(property "Reference" "TP401"
+			(at 246.38 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Pad 1mm"
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Pad 1mm-Footprint-1"
+			(at 248.92 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm radius circuilar test pad"
+			(at 248.92 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX CURRENT RATING" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 246.38 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71d0d9b8-ad47-494c-9e1a-ffd6c70ba1f1")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "TP401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:3V3_BAR")
+		(at 233.68 75.3872 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32bfeba5-dc96-47a0-8405-34a326281b5b")
+		(property "Reference" "#PWR?"
+			(at 233.68 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 233.68 71.5772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5fd01aed-b62e-453f-b4b7-662807eadab6")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_BAR")
+		(at 78.74 166.8272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36d308a0-38cc-4e02-a985-a44efc674880")
+		(property "Reference" "#PWR?"
+			(at 78.74 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 78.74 163.0172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f8ff6f5a-3977-4ccc-9870-0fc513c08e0f")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 35.56 184.6072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "372ad394-9b2a-4121-b44f-1886e7f52568")
+		(property "Reference" "#PWR?"
+			(at 35.56 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 35.56 188.4172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c41ddf44-cb32-4b59-b5f8-6a3e8cd73745")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_BAR")
+		(at 251.46 60.1472 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37dcf837-9601-4855-9529-760481290e60")
+		(property "Reference" "#PWR?"
+			(at 251.46 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 251.46 56.3372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "95643501-ece7-4701-95db-3d469d5a2102")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_LM1117MPX-3.3_NOPB_SamacSys.SchLib")
+		(at 198.12 75.3872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "398e4458-b87d-4176-be7c-b287a46ad80f")
+		(property "Reference" "IC400"
+			(at 208.28 72.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM1117MPX-3.3_NOPB"
+			(at 205.74 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOT230P700X180-4N"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.8mm"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LM1117MPX-3.3/NOPB"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "926-LM1117MPX3.3NOPB"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1117MPX-3.3-NOPB?qs=X1J7HmVL2ZHRbBIxXi4utg%3D%3D"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LM1117MPX-3.3/NOPB"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/lm1117mpx-3.3nopb/texas-instruments?utm_currency=USD&region=nac"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9007023e-be18-41a4-b679-686a98f0f6ed")
+		)
+		(pin "2"
+			(uuid "785dac76-6f1b-443f-a0d7-bc4237baac80")
+		)
+		(pin "3"
+			(uuid "72cc6082-db98-48c7-916c-527c7a1264c3")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "IC400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_2_RMCF0603FT374K_SamacSys.SchLib")
+		(at 99.06 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fb09758-3287-4931-9c3e-9f707fe0d4d2")
+		(property "Reference" "R403"
+			(at 86.36 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RMCF0603FT374K"
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Stackpole Electronics"
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RMCF0603FT374K"
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" ""
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" ""
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 80.772 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "374k"
+			(at 86.36 89.3572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b41ec2c7-18a3-4e71-b85b-3b877914dc8b")
+		)
+		(pin "2"
+			(uuid "9452a4ef-dbf1-4833-ad59-7718f6d20962")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 114.3 103.3272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c02c73-57ab-4618-aa87-2750e97ff8b9")
+		(property "Reference" "#PWR?"
+			(at 114.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 114.3 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "11a2af0e-b04d-4b6f-92ed-fb14e63afe9d")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_BAR")
+		(at 198.12 75.3872 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "488730a5-6d01-4758-8527-c82d99646b47")
+		(property "Reference" "#PWR?"
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 198.12 71.5772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 75.3872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0a8fb927-c476-4d48-852b-2fb9e70f10a9")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_Reg_BAR")
+		(at 45.72 166.8272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50b66f9a-bd3d-42de-9c59-07e585fc30b2")
+		(property "Reference" "#PWR?"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_Reg"
+			(at 45.72 163.0172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "54b38451-8227-4bc4-9a8e-f16aff47e7b3")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 63.5 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "521e7576-109c-4c74-9f6e-f6b1e82b34c3")
+		(property "Reference" "#PWR?"
+			(at 63.5 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 63.5 124.9172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "60b395ba-1a09-442a-93c8-859704081ed2")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_USB_BAR")
+		(at 93.98 39.8272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52ab11f7-da31-41d4-9278-0a1d9a441d1d")
+		(property "Reference" "#PWR?"
+			(at 93.98 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 93.98 36.0172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f419bdeb-1ed8-454b-a4f7-bb9cf8cadccf")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 215.9 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5923cc66-cee7-4430-aee9-baf9fcba30eb")
+		(property "Reference" "#PWR?"
+			(at 215.9 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 215.9 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f483d144-3e74-450a-b3be-0b2a48149ab9")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_3_SMF5.0CA_*")
+		(at 55.88 39.8272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd17da1-2076-455f-ae70-06b3e3aba228")
+		(property "Reference" "D400"
+			(at 58.674 44.6532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMF5.0CA"
+			(at 58.674 47.1932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SODFL3618X108N"
+			(at 55.88 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 55.88 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet.pdf-1698977.pdf"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.08mm"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "LITTELFUSE"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SMF5.0CA"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "576-SMF5.0CA"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMF5.0CA?qs=d0WKAl%252BL4KbRT8gYdmqI%252Bg%3D%3D"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "SMF5.0CA"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/smf5.0ca/littelfuse?utm_currency=USD&region=nac"
+			(at 53.086 39.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1857280b-79f5-4ab8-9e1d-7d94e20b2627")
+		)
+		(pin "2"
+			(uuid "6be5506d-8b56-4adf-bce4-9cad8d9e92b7")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "D400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 78.74 179.5272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd8963f-c529-467e-9729-b1d3886e5821")
+		(property "Reference" "#PWR?"
+			(at 78.74 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 78.74 183.3372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "824abc73-d827-4711-ab3d-d9ba6e7e8aa0")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 198.12 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69bcec51-0873-49d5-857b-29c34360cc7c")
+		(property "Reference" "#PWR?"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 198.12 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d6013f68-304b-4c4f-bab6-c70a69c935a1")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_LT3990IMSE-5#PBF_SamacSys.SchLib")
+		(at 45.72 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6af84892-8c50-4bb4-b14c-7c24d1b29b20")
+		(property "Reference" "IC401"
+			(at 50.8 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LT3990IMSE-5#PBF"
+			(at 63.5 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-17N"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.analog.com/LT3990/datasheet"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Analog Devices"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LT3990IMSE-5#PBF"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "584-LT3990IMSE-5#PBF"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT3990IMSE-5PBF?qs=hVkxg5c3xu%252BVMOa5O8HlFw%3D%3D"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LT3990IMSE-5#PBF"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/lt3990imse-5pbf/analog-devices?region=nac"
+			(at 45.72 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d93f0c10-907b-49ad-87a9-a2ea70460e9a")
+		)
+		(pin "3"
+			(uuid "f4a79d7c-dc90-41b0-8790-cc87415b504c")
+		)
+		(pin "4"
+			(uuid "cb216a4b-7f90-4482-8b36-1e1fcb22e765")
+		)
+		(pin "5"
+			(uuid "759e8029-b0e9-4d76-8f42-6da450fb3ee3")
+		)
+		(pin "6"
+			(uuid "344ab439-ee0d-4363-b1cf-7e49840dd749")
+		)
+		(pin "7"
+			(uuid "8fc7f929-5700-4cf5-8f41-41ea68cb1586")
+		)
+		(pin "8"
+			(uuid "f2f20a8f-faaf-4a31-8431-3d11438984a5")
+		)
+		(pin "17"
+			(uuid "9f5aa128-b05c-4a12-8119-1b430a3b1eac")
+		)
+		(pin "16"
+			(uuid "6d6bcc2d-5709-43a7-9c31-6326c0df0655")
+		)
+		(pin "15"
+			(uuid "ba30c3fb-1621-4790-a2aa-f56e59d588b7")
+		)
+		(pin "14"
+			(uuid "bab1fdca-eb17-4a70-ac10-332756efa1ad")
+		)
+		(pin "13"
+			(uuid "2ceef8ec-3dde-4153-bbe6-3eb4edcaa14d")
+		)
+		(pin "12"
+			(uuid "bde6dbc8-482c-4c63-be4f-7f155c35ed90")
+		)
+		(pin "11"
+			(uuid "c28efb8b-ac38-4815-8529-06cbea0651cc")
+		)
+		(pin "10"
+			(uuid "f91b2525-498e-40c7-a8c6-d329b851b602")
+		)
+		(pin "9"
+			(uuid "f2266b14-d3ce-4c8d-8b2a-b9aaffa365b0")
+		)
+		(pin "1"
+			(uuid "b8847ffa-9e85-4631-9a37-594a8956a2d8")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "IC401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_11868f565c42a9108669ba33697ecf6_Altium Content Vault")
+		(at 38.1 98.2472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "707bea4d-7c3d-46bd-b132-0b43a24fd00e")
+		(property "Reference" "C404"
+			(at 30.48 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C3216X7S2A225K160AB"
+			(at 40.894 104.0892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FP-C3216-160-0_2-IPC_B"
+			(at 38.1 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors 2.2uF ±10% 100V X7S SMD 1206"
+			(at 38.1 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PINS" "2"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" "3216"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "No SVHC"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "2.2uF"
+			(at 30.48 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "SMD/SMT"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (DC)" "100V"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "100V"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" "1206"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" "X7S"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.6mm"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WEIGHT" "0.000571oz"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" "No"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" "0.063inch"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LENGTH" "3.2mm"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" "1206"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEPTH" "1.6mm"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "125°C"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "C"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "100V"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTOR TYPE" "Ceramic"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" "0.071inch"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONSTRUCTION" "Flat"
+			(at 35.306 97.7392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93862f58-a3cd-4f08-bef2-87ef69bd97fd")
+		)
+		(pin "2"
+			(uuid "fb644cf7-db92-4e42-a63f-508a79bdbf86")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_RK73B1JTTD270J_SamacSys.SchLib")
+		(at 121.92 55.0672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c86b4f-7ac7-4bd0-8fb7-91f45b5d8fe1")
+		(property "Reference" "R401"
+			(at 127 53.7972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "27R"
+			(at 120.65 58.8772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "KOA Speer"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RK73B1JTTD270J"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "660-RK73B1JTTD270J"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JTTD270J?qs=Ng4KxyU0dfwqvzJSFEpRVQ%3D%3D"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "RK73B1JTTD270J"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/rk73b1jttd270j/koa-speer-electronics?region=nac"
+			(at 121.92 55.0672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "27R"
+			(at 127 58.8772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4d37eb43-c2ee-4ed6-84e8-5683bb9e8b1e")
+		)
+		(pin "2"
+			(uuid "fffed9df-af72-4881-8e2e-0f6183c64e76")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 233.68 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "832a4222-0740-4542-bd03-f84e099182bf")
+		(property "Reference" "C401"
+			(at 236.474 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 230.886 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 236.474 85.2932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5dc5e42f-b075-43e4-a7d8-e294d4ff065f")
+		)
+		(pin "2"
+			(uuid "5e7eb296-32e9-4ab9-86cc-d7ef55595159")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_USB_BAR")
+		(at 40.64 174.4472 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a7b7cc6-2dfa-40c6-81b0-1299b67dced6")
+		(property "Reference" "#PWR?"
+			(at 40.64 174.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 40.64 170.6372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 174.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 174.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 174.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5f4bf12c-a7ee-4459-adbd-942265326bc3")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 40.64 184.6072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0c56b7b-bd23-45b5-8ab6-eaa0218f13d3")
+		(property "Reference" "C407"
+			(at 43.434 179.2732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 40.64 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 40.64 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 37.846 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 43.434 181.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "c037f911-67b0-4571-b6dc-a52ad5ff4e28")
+		)
+		(pin "2"
+			(uuid "a96c800d-5518-4f43-8124-915ddbfaf984")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_CRCW0603100RFKEA_SamacSys.SchLib")
+		(at 38.1 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a60fcb2e-75c4-4ea7-94c2-d9c50ac63095")
+		(property "Reference" "R404"
+			(at 39.37 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100R"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 38.1 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
+			(at 36.83 77.4192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 39.37 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f2b87743-d761-44a3-9ab6-73fc0437d985")
+		)
+		(pin "2"
+			(uuid "262155f7-cec9-4d3a-9810-b374b8ccfc63")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_Inductor - 2_Altium Content Vault")
+		(at 93.98 98.2472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa49fd6b-f42c-41b2-ad1b-78d9fc7a72f2")
+		(property "Reference" "L400"
+			(at 95.25 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7447714330"
+			(at 95.25 101.5492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "WE-PD_1050P"
+			(at 93.98 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "20%"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PINS" "2"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "5mm"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SATURATION CURRENT" "2.9A"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" "10mm"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" "79mΩ"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-40°C"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DC RESISTANCE (DCR)" "66mΩ"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INDUCTANCE TOLERANCE" "20%"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "SMD/SMT"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NEXARPARTID" "22866944"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SHIELDING" "Shielded"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEPTH" "10mm"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Cut Tape (CT)"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AMBIENT TEMPERATURE RANGE HIGH" "110°C"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RMS CURRENT (IRMS)" "2.5A"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "5.0038mm"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEST FREQUENCY" "100kHz"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SELF RESONANT FREQUENCY" "11.1MHz"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COMPOSITION" "Wirewound"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "150°C"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX DC CURRENT" "2.5A"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "Unknown"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INDUCTANCE" "33µH"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" "2.5A"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CORE MATERIAL" "Ferrite"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES RESISTANCE" "79mΩ"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" "Nonstandard"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AMBIENT TEMPERATURE RANGE LOW" "-40°C"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS" "Compliant"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LENGTH" "10mm"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 93.472 95.4532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1dd6843-c3a4-4b8a-b45c-bf10f5d9027e")
+		)
+		(pin "1"
+			(uuid "191c8f0c-716a-4b49-b66a-031aa27b77b0")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "L400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 83.82 179.5272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf89d14-29cb-44b6-9242-20fae74b6aca")
+		(property "Reference" "C405"
+			(at 86.614 174.1932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 83.82 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 83.82 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 81.026 166.3192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 86.614 176.7332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8e9a9af7-a1e0-430f-b0bd-dbdae8b1cdbf")
+		)
+		(pin "2"
+			(uuid "bea35f6a-4c4f-4842-8b41-58ecd07864d5")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 198.12 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b0fb48-e191-42ef-a1f2-65a2946adfe2")
+		(property "Reference" "C400"
+			(at 200.914 82.7532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 195.326 74.8792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 198.12 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 200.914 85.2932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "315714d7-f98e-4daf-acb2-6c9fe08cea40")
+		)
+		(pin "2"
+			(uuid "cc276c22-dfa8-43d4-b690-34366002449f")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_Test Pad 1mm-Symbol-1_EPFL Racing Team")
+		(at 101.6 39.8272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd969be7-39cc-4546-97df-60fa5e38cbce")
+		(property "Reference" "TP400"
+			(at 109.22 44.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Pad 1mm"
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Pad 1mm-Footprint-1"
+			(at 101.6 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm radius circuilar test pad"
+			(at 101.6 39.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX CURRENT RATING" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 101.092 37.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c59a8d-a58e-49e7-a24e-12048c94aa6f")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "TP400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 30.48 184.6072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdb9558d-8d00-4e63-b22b-ce7ed05cb44f")
+		(property "Reference" "C406"
+			(at 33.274 179.2732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 30.48 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 30.48 184.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 27.686 171.3992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 33.274 181.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "34f819d5-eb0f-4c31-b0d5-18a44970242f")
+		)
+		(pin "2"
+			(uuid "aeba272f-b298-437c-922d-d278be9f9c80")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_Test Pad 1mm-Symbol-1_EPFL Racing Team")
+		(at 119.38 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d05f15-5bb1-4e72-abb0-b0e6de158506")
+		(property "Reference" "TP402"
+			(at 129.54 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Pad 1mm"
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Pad 1mm-Footprint-1"
+			(at 119.38 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm radius circuilar test pad"
+			(at 119.38 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX CURRENT RATING" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 118.872 90.6272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346753be-1ec3-492f-b2f0-3967ab71b9d9")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "TP402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_TPS2116DRLR_SamacSys.SchLib")
+		(at 45.72 166.8272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2886e8b-1aa4-4429-95f8-7411d8fb2bc1")
+		(property "Reference" "IC402"
+			(at 50.8 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TPS2116DRLR"
+			(at 50.8 179.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOTFL50P160X60-8N"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.ti.com/lit/gpn/tps2116"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.6mm"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "TPS2116DRLR"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "595-TPS2116DRLR"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS2116DRLR?qs=aP1CjGhiNiGo3XAyXcVPaQ%3D%3D"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "TPS2116DRLR"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/tps2116drlr/texas-instruments?utm_currency=USD&region=nac"
+			(at 45.72 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57923ea8-983c-406c-aa87-5c4a840c5df3")
+		)
+		(pin "2"
+			(uuid "e7bc7064-63ae-415c-8c3f-80470f55d589")
+		)
+		(pin "3"
+			(uuid "7502cac1-bd8e-4bc6-b01d-91ba72cec855")
+		)
+		(pin "4"
+			(uuid "a3d0cad7-92dc-4616-95ab-1b2362e09fb2")
+		)
+		(pin "5"
+			(uuid "c4a0f484-5749-4732-bdd1-78c0ba4ea34b")
+		)
+		(pin "6"
+			(uuid "3f702cd8-fe8b-4f99-bfee-877a35b607d7")
+		)
+		(pin "7"
+			(uuid "33c980f3-84b1-48b4-9355-09cd09266cf5")
+		)
+		(pin "8"
+			(uuid "3c0d2bee-ed2d-4356-8e99-b1a343e6de13")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "IC402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 233.68 88.0872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9afd821-ab88-4598-9521-72997b65e35c")
+		(property "Reference" "#PWR?"
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 233.68 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0fa1b44b-484d-431e-8036-ed520bc782e6")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_RK73B1JTTD270J_SamacSys.SchLib")
+		(at 121.92 47.4472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd02aca5-cb55-4414-982a-d6cadbaaeae4")
+		(property "Reference" "R400"
+			(at 127 46.1772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "27R"
+			(at 120.65 51.2572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.koaspeer.com/catimages/Products/RK73-RT/RK73-RT.pdf"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "KOA Speer"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "RK73B1JTTD270J"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "660-RK73B1JTTD270J"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B1JTTD270J?qs=Ng4KxyU0dfwqvzJSFEpRVQ%3D%3D"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "RK73B1JTTD270J"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/rk73b1jttd270j/koa-speer-electronics?region=nac"
+			(at 121.92 47.4472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "27R"
+			(at 127 51.2572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "287b8f88-b301-4e1c-bc4c-f7105a337d2b")
+		)
+		(pin "2"
+			(uuid "0a918aec-225e-46f3-b224-f666428f1009")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "R400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:5V_Reg_BAR")
+		(at 114.3 93.1672 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9073126-8fda-4e4d-998e-b9aeacf69f6b")
+		(property "Reference" "#PWR?"
+			(at 114.3 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_Reg"
+			(at 114.3 89.3572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "98507740-3963-4a60-ae2f-bd023d262699")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_mirrored_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
+		(at 114.3 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9470f7e-2811-4d4e-9fab-c8c394305410")
+		(property "Reference" "C403"
+			(at 117.094 99.0092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1206YD226KAT2A"
+			(at 114.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FP-1206-L_3_2_0_2-W_1_6_0-IPC_C"
+			(at 114.3 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Ceramic Capacitor, 1206, 22uF, 10%, X5R, 15%, 16V"
+			(at 114.3 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" "No SVHC"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.07mm"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" "16V"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" "0.063inch"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (DC)" "16V"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Surface Mount"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CAPACITANCE" "22uF"
+			(at 116.84 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" "1206"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" "1"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" "No"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PINS" "2"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONSTRUCTION" "Flat"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" "85°C"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEPTH" "1.6mm"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" "3216"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS" "0.07inch"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" "-55°C"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Tin"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" "X5R"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" "1206"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "-"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" "SMD/SMT"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LENGTH" "3.2mm"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" "Yes"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "10%"
+			(at 111.506 95.1992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83ed8e67-ad57-4f6b-8db6-a096cc4fce15")
+		)
+		(pin "2"
+			(uuid "1f5ee0f1-e320-4912-8d7d-8e6b8840cdf3")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "C403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Bat_GND_Fused_BAR")
+		(at 99.06 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa330aa9-e996-4b09-8bbf-be6e2fccfb27")
+		(property "Reference" "#PWR?"
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Bat_GND_Fused"
+			(at 99.06 89.3572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "74ad43be-fe82-4bc7-8be0-1ed92cbcaae7")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:AuxSupply/USB_0_Test Pad 1mm-Symbol-1_EPFL Racing Team")
+		(at 83.82 166.8272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fec6e9a7-4d1a-4208-bb1b-6b0effd9a9c4")
+		(property "Reference" "TP403"
+			(at 91.44 171.9072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Test Pad 1mm"
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Pad 1mm-Footprint-1"
+			(at 83.82 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm radius circuilar test pad"
+			(at 83.82 166.8272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANT" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX CURRENT RATING" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TECHNOLOGY" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 83.312 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d79abf2-2d15-4fca-8ffd-a9f90a9cd3f6")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(reference "TP403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 42.3672)
+		(size 10.16 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 143 158 201 1)
+		)
+		(fill
+			(color 237 242 251 1.0000)
+		)
+		(uuid "25644ed6-c27d-4e2d-aeaa-39feb9e987cc")
+		(property "Sheetname" "USB"
+			(at 33.02 42.3672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 128 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 25.4 55.6518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VUSB" passive
+			(at 35.56 44.9072 0)
+			(uuid "d0bfe948-a729-4261-a523-6ceead588ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" passive
+			(at 35.56 47.4472 0)
+			(uuid "3ca13249-5d97-4272-b7d9-357dca496d59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" passive
+			(at 35.56 49.9872 0)
+			(uuid "09bae076-6ce2-4ef9-9da8-4d731b4f18b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 35.56 52.5272 0)
+			(uuid "86ea9dbe-8486-4254-a9eb-0d57f56b07eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Battman"
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/42e35939-75c1-42a3-9d3a-2c03b6ea39b7"
+					(page "Harness #")
+				)
+			)
+		)
+	)
+)

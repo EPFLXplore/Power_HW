@@ -1,0 +1,2047 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1281937b-e0c1-4212-a1d1-e7b068c4fdf7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Battman-altium-import:GND_LTC_H_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_LTC_H"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"GND_LTC_H\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_LTC_H_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND_LTC_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:Repeat(Multiplexer,1,8)_0_ADG704BRMZ_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOP50P490X110-10N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Repeat(Multiplexer,1,8)_0_ADG704BRMZ_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 20.32 2.54)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:Repeat(Multiplexer,1,8)_1_0603YG104ZAT2A_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1608X90N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Repeat(Multiplexer,1,8)_1_0603YG104ZAT2A_SamacSys.SchLib_1_0"
+				(polyline
+					(pts
+						(xy -2.54 7.112) (xy 2.54 7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.588) (xy 2.54 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SolderJumper*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib_1_0"
+				(arc
+					(start 0.7544 5.0724)
+					(mid 1.0269 3.7782)
+					(end 0.7275 2.49)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.416)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.411)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.032)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.032)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Battman-altium-import:Vreg_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Vreg"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spannungssymbol erstellt einen globalen Bezeichner mit Namen \"Vreg\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vreg_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "Vreg"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 271.78 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "396f9d77-66e7-4081-804a-b01efa79805d")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 259.588 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de2d37a-56ec-4671-9d4e-eba93b1934a4")
+	)
+	(text "Otto Riha"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45b06a35-2975-46a3-b977-26642b77c08e")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "56d0cc5e-8358-4afe-9ad0-11c2bc05b62b")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 255.524 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b25ee66-9dd5-4580-9003-8b542d6e68dd")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "a877cd60-dca9-4543-8b91-b50b52039dba")
+	)
+	(text_box "Jumper for default setting when miultiplexer in A0=A1=0 position, max consumption 1uA"
+		(exclude_from_sim no)
+		(at 210.82 80.4672 0)
+		(size -33.02 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e7707ac8-5805-4da0-94d7-26c3dfb59c22")
+	)
+	(junction
+		(at 160.02 85.5472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "239de639-0c41-4b0b-91b5-82441012294e")
+	)
+	(junction
+		(at 132.08 110.9472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4238e9ab-7b27-463f-b8cf-c7b96c828d0c")
+	)
+	(junction
+		(at 160.02 77.9272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ab63f6-842d-4fbd-b45c-3773d48910f4")
+	)
+	(junction
+		(at 165.1 77.9272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68c03e4f-b678-4421-b3c2-770f0852cb6a")
+	)
+	(junction
+		(at 109.22 83.0072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77aef463-5573-4f32-b951-b84617ea6602")
+	)
+	(junction
+		(at 165.1 88.0872)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac596f3-4bd9-4a6d-b122-89a1c4426565")
+	)
+	(junction
+		(at 109.22 95.7072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c677b397-aac5-4d1f-a555-73a052eb13a4")
+	)
+	(junction
+		(at 132.08 105.8672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e65cc8-7f08-4730-80d8-e63d5825faf6")
+	)
+	(junction
+		(at 170.18 90.6272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a1c4f0-ca2e-47a1-9d0d-82133bbebb6c")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.7072) (xy 149.86 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056f940f-b8e0-488e-961f-56dd1b5a5b2d")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.9472) (xy 170.18 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46983ca1-bc64-4e8e-97d7-7026d694620d")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.5472) (xy 165.1 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ce8a51-76a7-4653-af29-9921060e872a")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.9272) (xy 149.86 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a6cb76-693d-4f87-90ef-b73731591d39")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.7072) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cd4ed9-bc8a-4bd1-a0c1-c05b83f6bbf9")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.7072) (xy 149.86 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a3f8b0-224f-400d-bde6-c976aa595c34")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.9272) (xy 149.86 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599592fc-941d-4095-9a44-1b3b5c95700a")
+	)
+	(wire
+		(pts
+			(xy 165.1 108.4072) (xy 124.46 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ffa6d1-ac14-49b3-bc74-99fb4b6cfb94")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.8672) (xy 132.08 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7316cde8-2519-4e3e-bbc1-515c817fc276")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.0872) (xy 165.1 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80217208-ed8b-466c-868a-2fd03a751b8c")
+	)
+	(wire
+		(pts
+			(xy 165.1 77.9272) (xy 160.02 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840224c7-4539-4e7d-8c39-273b93aeef39")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.8672) (xy 160.02 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e3c7fc-e53b-4598-8f91-9934e910b9ac")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.0872) (xy 149.86 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dc99b8-dacd-402c-a2c2-269278dace37")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.8672) (xy 160.02 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbce5b0-cc52-4bed-991e-4fc5a08e5ae9")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.9272) (xy 165.1 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32c4373-6438-4dfe-8e9b-c38389693a35")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.5472) (xy 149.86 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e10bb0-217d-4605-90e2-879dc3038367")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.9472) (xy 132.08 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af80e5b3-0b92-4c2e-94ed-b806e7ac1a45")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.1672) (xy 124.46 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85f062b-6f19-4443-af43-4b77be657e1b")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.5472) (xy 170.18 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbc6d97-941d-4b1c-a9dc-73906d651e03")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.9472) (xy 170.18 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7157718-6c16-4f66-bcfa-4698ce866031")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.6272) (xy 149.86 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8390130-aaa8-4a46-80b8-1e384acc8887")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.7072) (xy 114.3 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a1d1cd-e55b-40be-b5b6-ce9b1563fd55")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.0072) (xy 124.46 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb44ac6b-0460-4ae4-b4a0-3eae7d47906f")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 124.46 90.6272 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0beae98a-dec8-4e33-92af-ee66f3bb9799")
+	)
+	(hierarchical_label "Vref"
+		(shape input)
+		(at 124.46 108.4072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27d2af2e-a5e2-4474-8285-7666ec63421d")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 124.46 85.5472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28af7336-1aa4-43d2-8b07-952fb164bc66")
+	)
+	(hierarchical_label "Vreg"
+		(shape input)
+		(at 124.46 105.8672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d62ef7f-8925-4808-9af3-614fd346f5fc")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 124.46 88.0872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76d0277a-b694-41d4-aad9-7e13ff93fb9f")
+	)
+	(hierarchical_label "V-"
+		(shape input)
+		(at 124.46 110.9472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f57c206e-06b5-49eb-8523-9c2f05f0f27e")
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
+		(at 132.08 110.9472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "136abc47-c529-4a18-824e-7bd1168c187c")
+		(property "Reference" "#PWR?"
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_LTC_H"
+			(at 132.08 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "97f79da8-6dea-4410-9ab8-977a5b592c41")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 165.1 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d915324-2071-4d80-b431-fb41d58c684d")
+		(property "Reference" "JS501"
+			(at 168.91 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 166.127 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 165.1 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68cc7016-1caf-4c71-9bde-1134efacb624")
+		)
+		(pin "2"
+			(uuid "9c37279a-e047-44a8-9769-cdf5e30657f6")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "JS501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 109.22 83.0072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "355e0998-d6c3-4ab3-80cf-66ab7fde64d2")
+		(property "Reference" "#PWR?"
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 109.22 79.1972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e7f2ddd8-e493-4697-8b5d-8846bd815113")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 160.02 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c938b4e-41aa-4f07-a4f4-239d4d6eddde")
+		(property "Reference" "JS500"
+			(at 163.83 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 161.047 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 160.02 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d445a76-136f-4153-8ac7-45b2cb533493")
+		)
+		(pin "2"
+			(uuid "fa3c2aaf-6659-4cd4-8114-7631fdef0b00")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "JS500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 154.94 95.7072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65d50a22-50fd-42ac-842e-976b5a1d3af6")
+		(property "Reference" "#PWR?"
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 154.94 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2fabbebc-00db-4c71-82df-2bc94bed06fe")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_0_ADG704BRMZ_SamacSys.SchLib")
+		(at 124.46 83.0072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b5d67f7-4868-4e9e-88f2-e10b2df0a425")
+		(property "Reference" "IC500"
+			(at 129.54 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ADG704BRMZ"
+			(at 129.54 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-10N"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69549.pdf"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Analog Devices"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "584-ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG704BRMZ?qs=BpaRKvA4VqEkN1EGAKO1Aw%3D%3D"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/adg704brmz/analog-devices?utm_currency=USD&region=nac"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e26a69-7db9-4f56-8fb1-dcd8009aa34d")
+		)
+		(pin "2"
+			(uuid "414af5bf-bd02-4d6b-a030-23081a4c100d")
+		)
+		(pin "3"
+			(uuid "753ef234-713d-4163-a567-0ca8b08f01c1")
+		)
+		(pin "4"
+			(uuid "587e6615-ed0c-4ea7-80ab-b8ccf1c63153")
+		)
+		(pin "5"
+			(uuid "d57f08ab-4136-4392-be02-d5aed872804d")
+		)
+		(pin "10"
+			(uuid "4dcf2c3d-fc2f-418d-83b1-a8b9638a339f")
+		)
+		(pin "9"
+			(uuid "b5af7165-6e54-4649-b061-bd0c8cf45ee8")
+		)
+		(pin "8"
+			(uuid "70434400-7030-4058-8d26-28f7e8fbd506")
+		)
+		(pin "7"
+			(uuid "64a01cf0-086d-4cc0-8cc0-e9405858475b")
+		)
+		(pin "6"
+			(uuid "7a2b9567-89d2-4905-8344-bd6bb7434952")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "IC500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
+		(at 109.22 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8433a430-1d61-4ac5-bb46-4932a04159c2")
+		(property "Reference" "#PWR?"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_LTC_H"
+			(at 109.22 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d8c6de39-f6a7-425e-8f31-e5b1cfec6de0")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_0603YG104ZAT2A_SamacSys.SchLib")
+		(at 109.22 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b453efa-5e91-48e6-a35a-ece409f1611c")
+		(property "Reference" "C500"
+			(at 101.6 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0603YG104ZAT2A"
+			(at 106.426 82.4992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 101.6 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5713b10b-92b7-4ad4-98a1-87dce4caddfd")
+		)
+		(pin "2"
+			(uuid "ed394da8-aa4e-485a-819f-e8701386945e")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "C500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 132.08 105.8672 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d20b44d4-ad5d-4ad5-b81c-eee06f101b14")
+		(property "Reference" "#PWR?"
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 132.08 102.0572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "8faae249-5209-4712-bd7c-224be46c289f")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 170.18 85.5472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f349c61c-7847-47f0-b79e-6d8430870e4a")
+		(property "Reference" "JS502"
+			(at 173.99 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 171.207 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbeffec3-890c-485b-9357-293bbae47bad")
+		)
+		(pin "1"
+			(uuid "15f97cb1-a0cd-4cd6-a7ef-06243537179e")
+		)
+		(instances
+			(project ""
+				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/a80007b6-97e7-4b40-8b75-72d87d37c290/5f3eff8c-07f9-40d1-8180-73f3c9847313"
+					(reference "JS502")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
