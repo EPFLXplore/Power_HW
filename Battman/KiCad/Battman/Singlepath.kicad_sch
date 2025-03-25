@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "754e8f57-e41c-40d0-bea8-f8cd1104a715")
+	(uuid "8cdd8a0a-07b3-4f9d-88b0-d12bb9a44c2c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Battman-altium-import:3.3V_BAR"
@@ -215,7 +215,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_0_3555_SamacSys.SchLib"
+		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_0_CGA3E1X7R1V684K080AC_SamacSys.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -259,7 +259,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse"
+			(property "Description" "Capacitor 680nF, 35V, X7R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -268,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*3555*"
+			(property "ki_fp_filters" "*CAPC1608X90N*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -277,10 +277,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Repeat(SinglePath,1,2)_0_3555_SamacSys.SchLib_1_0"
+			(symbol "Repeat(SinglePath,1,2)_0_CGA3E1X7R1V684K080AC_SamacSys.SchLib_1_0"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 12.7 0)
+						(xy 5.08 0) (xy 5.588 0)
 					)
 					(stroke
 						(width 0)
@@ -290,16 +290,40 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 12.7 1.27)
-					(end 5.08 -1.27)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type solid)
-						(color 128 0 0 1)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -321,7 +345,7 @@
 					)
 				)
 				(pin passive line
-					(at 17.78 0 180)
+					(at 12.7 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -499,7 +523,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor 3k3 1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1081,7 +1105,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Capacitor"
+			(property "Description" "Capacitor 1uF 50V X7R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1301,7 +1325,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_1_HMK107BJ104KA-T_SamacSys.SchLib"
+		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_1_MAJCH168BB7104KTEA01_SamacSys.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1345,7 +1369,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Capacitor"
+			(property "Description" "Capacitor 100nF, 100V, X7R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1354,7 +1378,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*CAPC1608X90N*"
+			(property "ki_fp_filters" "*MAJx16*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1363,7 +1387,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Repeat(SinglePath,1,2)_1_HMK107BJ104KA-T_SamacSys.SchLib_1_0"
+			(symbol "Repeat(SinglePath,1,2)_1_MAJCH168BB7104KTEA01_SamacSys.SchLib_1_0"
 				(polyline
 					(pts
 						(xy -2.54 7.112) (xy 2.54 7.112)
@@ -2281,157 +2305,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_2_0603YG104ZAT2A_SamacSys.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC1608X90N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Repeat(SinglePath,1,2)_2_0603YG104ZAT2A_SamacSys.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -7.112 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.112 -2.54) (xy -7.112 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 -2.54) (xy -5.588 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.588 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_2_150060GS75000_SamacSys.SchLib"
+		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_2_150060VS75000_SamacSys.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2493,7 +2367,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Repeat(SinglePath,1,2)_2_150060GS75000_SamacSys.SchLib_1_0"
+			(symbol "Repeat(SinglePath,1,2)_2_150060VS75000_SamacSys.SchLib_1_0"
 				(polyline
 					(pts
 						(xy -10.16 2.54) (xy -5.08 0)
@@ -2697,156 +2571,6 @@
 					(at 0 0 180)
 					(length 2.54)
 					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Battman-altium-import:Repeat(SinglePath,1,2)_2_GRM31C5C1H224JE02L_SamacSys.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC3216X180N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Repeat(SinglePath,1,2)_2_GRM31C5C1H224JE02L_SamacSys.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -7.112 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.112 -2.54) (xy -7.112 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.588 -2.54) (xy -5.588 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -5.588 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 180)
-					(length 5.08)
-					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3315,18 +3039,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 223.52 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f7bbaec-7aab-4a07-92e3-d9bec4277a71")
-	)
-	(text "A1"
+	(text "A2"
 		(exclude_from_sim no)
 		(at 271.78 199.8472 0)
 		(effects
@@ -3335,29 +3048,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1b121879-fcfb-485c-922c-d48433e128e8")
-	)
-	(text "${FILENAME}"
-		(exclude_from_sim no)
-		(at 208.28 192.2272 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fb4a966-5b62-42a7-a423-a34fce57accc")
-	)
-	(text "${#}"
-		(exclude_from_sim no)
-		(at 255.016 202.3872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9ac3829-d707-4757-9923-7f30fdde1ed4")
+		(uuid "33327b7f-1929-48fc-94d8-d54226ce53da")
 	)
 	(text "Otto Riha"
 		(exclude_from_sim no)
@@ -3368,7 +3059,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "abdd9d7f-6701-419c-8eb2-8e4803560929")
+		(uuid "b1d39cc3-0ea8-4abe-93f3-b7aa5f3eb878")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "b525fdf3-96ef-4e5a-9d5e-aeed8bad51eb")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 255.016 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8c97276-8deb-447b-acc4-da9dbc150901")
 	)
 	(text "${##}"
 		(exclude_from_sim no)
@@ -3379,11 +3092,22 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b5fccfcd-6928-4d5c-81ee-8f6d7b8ee046")
+		(uuid "cb46146d-b4a4-465c-8492-2679202f7d05")
 	)
-	(text_box "VOC 0V : 66A, with voltage divider parametrable from 33 to 132A"
+	(text "1"
 		(exclude_from_sim no)
-		(at 203.2 88.0872 0)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaf7d7a4-210d-4242-9d73-0347433366a7")
+	)
+	(text_box "Fuse on Battery cable as fuses with interruption capability of 2600A (8p VTC6 shortcircuit) are huge"
+		(exclude_from_sim no)
+		(at 132.08 52.5272 0)
 		(size -38.1 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3401,7 +3125,73 @@
 			)
 			(justify left top)
 		)
-		(uuid "60ad02b1-3bf6-49ee-9ff7-30c2847ebf7c")
+		(uuid "260f0aef-c22c-4be5-be28-92784d69f7da")
+	)
+	(text_box "Qc 275nC x2 -> \nC>550nF"
+		(exclude_from_sim no)
+		(at 193.04 131.2672 0)
+		(size -17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "46669a0b-5ac3-438d-b4ca-eabe1409787a")
+	)
+	(text_box "Propagation delay \nCurrent Sensor    2us\nLatch 	      300ns"
+		(exclude_from_sim no)
+		(at 182.88 90.6272 0)
+		(size -25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "48a105f4-427e-46e9-9c90-e45c2431f0d0")
+	)
+	(text_box "VOC 0V : 66A, with voltage divider parametrable from 33 to 132A"
+		(exclude_from_sim no)
+		(at 96.52 83.0072 0)
+		(size -38.1 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "64202a90-52e4-417b-ad94-e9371086afbc")
 	)
 	(text_box "No gate resistance for fast turn On/Off, it may need to be readjusted if heavy ringing exists"
 		(exclude_from_sim no)
@@ -3423,429 +3213,129 @@
 			)
 			(justify left top)
 		)
-		(uuid "866086c6-0409-408c-b7a8-e10b3eef1c5e")
-	)
-	(text_box "Maxi Blade fuse"
-		(exclude_from_sim no)
-		(at 121.92 55.0672 0)
-		(size -15.24 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 255 150 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9e378568-d62d-43a7-8e27-9320a5becb7a")
+		(uuid "b78f866d-2d87-4ea6-8e85-fe37954bd2a0")
 	)
 	(junction
-		(at 177.8 80.4672)
+		(at 162.56 121.1072)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ac97822-4032-4aed-9957-698e56ce26ad")
-	)
-	(junction
-		(at 121.92 70.3072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c15f234-deb2-4603-91a8-fce81baecec2")
-	)
-	(junction
-		(at 137.16 108.4072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e2f0d1f-8ea8-4c18-b380-2b9b1a7644a6")
-	)
-	(junction
-		(at 170.18 57.6072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15a47c2c-76c0-49cd-987d-5a1d3eaf9caa")
-	)
-	(junction
-		(at 134.62 70.3072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19f41de6-2a5f-4714-bcb5-b275d48722be")
+		(uuid "03d35b75-4ae4-446d-9699-9d8e41024b17")
 	)
 	(junction
 		(at 165.1 141.4272)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c5cecad-291d-4a09-a3d7-1cd89b625e4c")
-	)
-	(junction
-		(at 124.46 70.3072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cad53fa-0fed-40f7-92ef-895bec58323c")
-	)
-	(junction
-		(at 147.32 108.4072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fb2f86f-c8ac-49af-8be5-8d3b6b03276f")
-	)
-	(junction
-		(at 147.32 131.2672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b4179b-f2b2-4470-af42-c0a6a8f3c336")
-	)
-	(junction
-		(at 170.18 70.3072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53aee976-e744-4410-a390-b9087d247a29")
-	)
-	(junction
-		(at 139.7 70.3072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80ac4aa5-1580-4dc7-b3b8-bdbbffbe144a")
+		(uuid "08ea79ed-c3c0-4634-bd9e-a27477819c72")
 	)
 	(junction
 		(at 127 70.3072)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b19a6975-df67-491d-a2bc-4520662bc5b0")
-	)
-	(junction
-		(at 139.7 108.4072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e9bf70-d83b-4f66-88b7-167d632ad900")
+		(uuid "0fd45a9c-7fcc-4182-aa89-e8edca372ceb")
 	)
 	(junction
 		(at 104.14 105.8672)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dca3525c-2620-4d03-83fe-36b7532e3023")
+		(uuid "23910ce9-416e-42bf-960d-26a28756e824")
+	)
+	(junction
+		(at 170.18 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351487c7-b99a-476b-bc6e-bb1018eb4ad5")
+	)
+	(junction
+		(at 157.48 108.4072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bea6e10-b1ea-4ea6-b863-25068fa63208")
+	)
+	(junction
+		(at 170.18 57.6072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79767019-5c7b-4920-a0be-b1f110b4754c")
+	)
+	(junction
+		(at 139.7 108.4072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89970bd1-b361-4493-99b3-d66d44ed3713")
+	)
+	(junction
+		(at 137.16 108.4072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ea8075c-36b9-410d-9191-cb7232955a9a")
+	)
+	(junction
+		(at 177.8 80.4672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95952c4e-7e6f-457d-ae60-6d3584e82b5a")
+	)
+	(junction
+		(at 121.92 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d281e9-3e59-4d99-bb1b-7c9fd2719772")
+	)
+	(junction
+		(at 134.62 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66c49ae-1ee9-42c3-8637-fef89a0e73ef")
+	)
+	(junction
+		(at 147.32 131.2672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caec64d6-1600-47fe-8342-8ee05e92ae1e")
 	)
 	(junction
 		(at 137.16 70.3072)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f295eecc-6583-4e34-8846-bd0c4e2bd538")
+		(uuid "d5c582d0-a2b9-4225-ada4-ae9e25b12034")
 	)
-	(no_connect
-		(at 147.32 146.5072)
-		(uuid "206aa0cf-3a2d-4541-8df2-04bba5ab6e9a")
+	(junction
+		(at 139.7 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed75d167-f6ad-4054-8927-c8b81d4fcb94")
+	)
+	(junction
+		(at 147.32 108.4072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3c8f97c-0b72-4327-aaaa-28baa6941163")
+	)
+	(junction
+		(at 124.46 70.3072)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fff29aec-d267-41be-8a32-d69b0420fb5e")
 	)
 	(no_connect
 		(at 111.76 138.8872)
-		(uuid "4da78431-3b48-406d-b2b2-84830a316edb")
+		(uuid "3584004f-6c40-43ce-abd3-d7f7c20f3e63")
+	)
+	(no_connect
+		(at 147.32 146.5072)
+		(uuid "b3ec7d53-1dee-49cb-86ba-79b0f619b857")
 	)
 	(no_connect
 		(at 111.76 141.4272)
-		(uuid "6d87138b-b57e-4b3c-a3a9-3eaa1f74a22d")
+		(uuid "bcd920f1-ae13-47b3-82f4-e97440e1dca8")
 	)
 	(no_connect
 		(at 111.76 143.9672)
-		(uuid "c3241909-2c5c-4764-8e1c-cd0dc629891f")
+		(uuid "bfeffc71-06b4-440f-89f3-4b55d7d55554")
 	)
 	(no_connect
 		(at 147.32 149.0472)
-		(uuid "c4356de7-95f6-401a-98fc-48458d8798dd")
-	)
-	(wire
-		(pts
-			(xy 177.8 80.4672) (xy 154.94 80.4672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bf4627-2d34-4fa2-9df9-f7da9c15c716")
-	)
-	(wire
-		(pts
-			(xy 93.98 131.2672) (xy 111.76 131.2672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128e1516-1e75-49d8-ad37-25769fc50b30")
-	)
-	(wire
-		(pts
-			(xy 127 118.5672) (xy 127 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16089dc8-6695-4342-a4a0-1e831c7ba98d")
-	)
-	(wire
-		(pts
-			(xy 137.16 108.4072) (xy 134.62 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192b7d7d-5e3b-4223-8384-ecabec35a744")
-	)
-	(wire
-		(pts
-			(xy 129.54 113.4872) (xy 129.54 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2177c809-a37f-474a-81fa-1d528dea5733")
-	)
-	(wire
-		(pts
-			(xy 79.026 110.9472) (xy 86.36 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2262b07a-47c9-4e84-8655-e1b09ef1ae3d")
-	)
-	(wire
-		(pts
-			(xy 185.42 57.6072) (xy 170.18 57.6072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2267857a-2e16-422a-9c67-8e35b18608b7")
-	)
-	(wire
-		(pts
-			(xy 187.96 70.3072) (xy 185.42 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eacd04a-4f2a-45e4-85a9-edc44aff2b89")
-	)
-	(wire
-		(pts
-			(xy 162.56 108.4072) (xy 160.02 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ce0237-17b4-4a99-b6ca-60c8be8667da")
-	)
-	(wire
-		(pts
-			(xy 104.14 136.3472) (xy 111.76 136.3472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2d9fb7-7436-4614-83ac-2a36b0231588")
-	)
-	(wire
-		(pts
-			(xy 124.46 108.4072) (xy 124.46 113.4872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee0c684-2c74-48e8-8741-170b0656ec15")
-	)
-	(wire
-		(pts
-			(xy 111.76 105.8672) (xy 104.14 105.8672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b6ad81-f1f6-49f3-b246-38922293f7f8")
-	)
-	(wire
-		(pts
-			(xy 170.18 57.6072) (xy 170.18 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b6561c-a28f-4301-9688-31dd62dc5347")
-	)
-	(wire
-		(pts
-			(xy 88.9 146.5072) (xy 111.76 146.5072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef49615-0932-459e-ba2b-71cd83d2bc98")
-	)
-	(wire
-		(pts
-			(xy 147.32 70.3072) (xy 139.7 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672a83ba-bf94-4186-a45a-ae3decc17364")
-	)
-	(wire
-		(pts
-			(xy 139.7 108.4072) (xy 137.16 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a29adae-07b7-4689-a021-157b17123a0b")
-	)
-	(wire
-		(pts
-			(xy 165.1 141.4272) (xy 165.1 143.9672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b96305a-0db5-4609-9e0a-95fa3648f885")
-	)
-	(wire
-		(pts
-			(xy 119.38 70.3072) (xy 121.92 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cdd2adf-8d2c-461f-9b50-4cdef12fc7a7")
-	)
-	(wire
-		(pts
-			(xy 111.76 133.8072) (xy 93.98 133.8072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ef8da3-bf41-41d1-80c7-0e5fe6e2ded2")
-	)
-	(wire
-		(pts
-			(xy 134.62 70.3072) (xy 132.08 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731567c7-af00-492d-9429-3d8f9d325f8e")
-	)
-	(wire
-		(pts
-			(xy 81.28 118.5672) (xy 78.74 118.5672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b4acd6-1de9-46f7-b154-224354bfc1d1")
-	)
-	(wire
-		(pts
-			(xy 147.32 138.8872) (xy 162.56 138.8872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89501699-52d9-4a4a-a5f7-1a7840ac5562")
-	)
-	(wire
-		(pts
-			(xy 165.1 141.4272) (xy 172.72 141.4272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98787d30-6fbe-4592-96ea-156af73eb439")
-	)
-	(wire
-		(pts
-			(xy 93.98 133.8072) (xy 93.98 136.3472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df04297-47aa-4d25-bb50-5c138616b939")
-	)
-	(wire
-		(pts
-			(xy 162.56 138.8872) (xy 162.56 136.3472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9427259-4464-4c62-8fb1-4bfa01246660")
-	)
-	(wire
-		(pts
-			(xy 121.92 113.4872) (xy 121.92 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a2cf5d-da80-4e0e-b687-935aa14fee6f")
-	)
-	(wire
-		(pts
-			(xy 78.74 103.3272) (xy 81.28 103.3272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9ad7908-aa24-48a6-b55b-bf2106adadb5")
-	)
-	(wire
-		(pts
-			(xy 127 70.3072) (xy 129.54 70.3072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4720609-537a-48a3-bdd9-9ea1503e8bb7")
-	)
-	(wire
-		(pts
-			(xy 132.08 110.9472) (xy 132.08 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59722c7-d0e7-40e6-84b6-2b0d23d39f4e")
+		(uuid "f6ba7a55-0105-4973-9a0b-f8621ae21535")
 	)
 	(wire
 		(pts
@@ -3855,37 +3345,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bf2650d6-a542-4796-82c4-e8424f77008e")
+		(uuid "01862bb4-0c84-4535-81bf-81e12ccc969c")
 	)
 	(wire
 		(pts
-			(xy 124.46 70.3072) (xy 127 70.3072)
+			(xy 111.76 133.8072) (xy 93.98 133.8072)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c864eb9d-8724-43ad-aea3-1ededb196647")
+		(uuid "0714f2d8-b43b-42c5-a8b9-aa36dfce8e18")
 	)
 	(wire
 		(pts
-			(xy 147.32 131.2672) (xy 147.32 133.8072)
+			(xy 147.32 70.3072) (xy 139.7 70.3072)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf5bcb1c-dd1e-45a7-955b-2f4b0b02f759")
+		(uuid "0cd331b4-0137-4d2a-9f94-d3390c1c7f3a")
 	)
 	(wire
 		(pts
-			(xy 121.92 70.3072) (xy 124.46 70.3072)
+			(xy 127 70.3072) (xy 129.54 70.3072)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5c6ee51-79cb-4373-8e8d-84be07b852d6")
+		(uuid "1417d0bb-0b6d-42c5-9f00-3c4d518a3eaa")
 	)
 	(wire
 		(pts
@@ -3895,7 +3385,67 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de3c24ee-e4ae-4556-8c85-ecf8588dfbf3")
+		(uuid "14bfd65c-d405-479f-9b1d-eb3d51f41948")
+	)
+	(wire
+		(pts
+			(xy 147.32 131.2672) (xy 147.32 133.8072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cbfa1d-52df-4885-8d32-2fbdef0467c2")
+	)
+	(wire
+		(pts
+			(xy 137.16 108.4072) (xy 134.62 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8c0730-14f1-4838-af2f-92681de794ee")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.8072) (xy 93.98 136.3472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2614c786-8f72-4982-8bc4-725d2fdf14fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 108.4072) (xy 124.46 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d00da5f-843d-4f7c-8bd1-82aa2eaae5be")
+	)
+	(wire
+		(pts
+			(xy 104.14 136.3472) (xy 111.76 136.3472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362e6f80-13ab-4058-ad4c-41108dbb208c")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.1072) (xy 157.48 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c97f25-ed5b-4eac-9e6c-3dd5526fdfde")
 	)
 	(wire
 		(pts
@@ -3905,27 +3455,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "df8e3721-0355-4702-b893-451bfc19e64c")
+		(uuid "52760731-1c62-489f-8280-b6e9bf1dc74e")
 	)
 	(wire
 		(pts
-			(xy 134.62 113.4872) (xy 129.54 113.4872)
+			(xy 129.54 113.4872) (xy 129.54 108.4072)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e22b3635-60fd-40c1-ae0e-a608fa958771")
+		(uuid "528d2892-a296-45a2-b55f-e8074329c347")
 	)
 	(wire
 		(pts
-			(xy 134.62 110.9472) (xy 132.08 110.9472)
+			(xy 134.62 70.3072) (xy 132.08 70.3072)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ccc03b-586d-494d-8d4f-8f69437238cb")
+		(uuid "5e22df69-52cd-43f8-bc5d-fa18a37aeeb1")
+	)
+	(wire
+		(pts
+			(xy 88.9 146.5072) (xy 111.76 146.5072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2753ba-8541-4bdd-8f86-3c9303a89f85")
 	)
 	(wire
 		(pts
@@ -3935,7 +3495,97 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e210d9-a011-413d-9f16-ba2b36f6df90")
+		(uuid "60b603b3-8102-4974-9a56-fca6686c8957")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.8672) (xy 104.14 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff38b49-1c37-45a8-b627-ed6aaeca36bd")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.4872) (xy 129.54 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780b3dd9-13f1-4886-8864-e572539bbdba")
+	)
+	(wire
+		(pts
+			(xy 81.28 118.5672) (xy 78.74 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecd118a-a2af-4f49-a7a6-f079018d4bb2")
+	)
+	(wire
+		(pts
+			(xy 79.026 110.9472) (xy 86.36 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1b56de-0581-42a5-aba9-11b97d00e8a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.9472) (xy 132.08 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813cd93a-44e9-49fa-866d-d11b0ea06802")
+	)
+	(wire
+		(pts
+			(xy 147.32 138.8872) (xy 162.56 138.8872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c2920a-177f-4957-9ce7-1934d01883e6")
+	)
+	(wire
+		(pts
+			(xy 127 118.5672) (xy 127 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a578e26-11c5-4c5d-bdfc-1c55d15ebabe")
+	)
+	(wire
+		(pts
+			(xy 139.7 108.4072) (xy 137.16 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8f6545-e75d-418a-bac3-d90d42658499")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.8872) (xy 162.56 136.3472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32577cd-5b6b-453d-91a1-95f44f9c9569")
 	)
 	(wire
 		(pts
@@ -3945,7 +3595,57 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f33b9de5-110a-4c55-9a3a-82055241bef7")
+		(uuid "a4eb03e0-4bc1-4f63-a4ed-607092cf7a9d")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.4872) (xy 121.92 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5874290-8432-4e13-b1b7-e81f1ea1c641")
+	)
+	(wire
+		(pts
+			(xy 93.98 131.2672) (xy 111.76 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac40156f-fa70-44cf-8997-be28e0987ac6")
+	)
+	(wire
+		(pts
+			(xy 185.42 57.6072) (xy 170.18 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3a9bf6-eed9-4887-a90e-51b97753662f")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.1072) (xy 162.56 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b093dd2e-b67c-48ad-b4da-e3ce6cbf6636")
+	)
+	(wire
+		(pts
+			(xy 157.48 108.4072) (xy 147.32 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19267c6-1eaa-4437-8e56-68ddd53b5580")
 	)
 	(wire
 		(pts
@@ -3955,87 +3655,117 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fc535a09-44cb-4f6d-9990-a7ab9b74005c")
+		(uuid "b2cf1f00-5c67-4a84-bb91-6b5e1f639682")
 	)
-	(label "VOC"
-		(at 106.68 105.8672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 167.64 108.4072) (xy 157.48 108.4072)
 		)
-		(uuid "237a9fb9-2397-4db7-94b3-42666ac679cd")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b947b817-6bff-4ff4-9d3f-6ad11e8f2485")
 	)
-	(label "TS"
-		(at 162.56 70.3072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 124.46 70.3072) (xy 127 70.3072)
 		)
-		(uuid "56c80c5d-d7be-407f-b8ef-05a3e03ae8d9")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ec9df8-018c-4d62-8853-0bdbdea91a78")
 	)
-	(label "~{Fault}"
-		(at 127 118.5672 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 134.62 110.9472) (xy 132.08 110.9472)
 		)
-		(uuid "631d07f4-a9d2-49bb-8e79-5387e0c4811a")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75d3815-0ee7-495b-b6f6-9d39ae1832a5")
 	)
-	(label "~{Fault}"
-		(at 81.28 110.9472 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 170.18 57.6072) (xy 170.18 70.3072)
 		)
-		(uuid "64a2175a-86a8-4268-8a56-9df86dc665bd")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf89b25-2d1f-4222-a911-4bbf932a8885")
 	)
-	(label "TS"
-		(at 147.32 131.2672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 177.8 80.4672) (xy 154.94 80.4672)
 		)
-		(uuid "6643ce29-f016-4ccd-a341-2b42e74d407b")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea8ac4b-d1e9-4101-b04b-f81176eb9c7e")
 	)
-	(label "Gate"
-		(at 165.1 141.4272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 78.74 103.3272) (xy 81.28 103.3272)
 		)
-		(uuid "d4a8ec32-b5af-423a-b145-541a35e29e45")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43f7558-5c6d-4074-8b8f-81c1840c1ba8")
 	)
-	(label "TS"
-		(at 147.32 138.8872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 165.1 141.4272) (xy 165.1 143.9672)
 		)
-		(uuid "ecd67c00-8af8-4829-878c-c7bdbf207422")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81e46e0-1537-408a-aed9-d7178f4e2398")
 	)
-	(label "VOC"
-		(at 124.46 113.4872 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 101.6 70.3072) (xy 121.92 70.3072)
 		)
-		(uuid "f361a783-e1d5-48df-9abe-1c6ee7b5b59e")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91bd49e-83dd-42fa-b72b-f19af70ebfe8")
+	)
+	(wire
+		(pts
+			(xy 165.1 141.4272) (xy 172.72 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1cfce32-01bc-4a86-a3aa-614c829b996e")
+	)
+	(wire
+		(pts
+			(xy 187.96 70.3072) (xy 185.42 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca523cf-5e10-46da-a18e-98033a558224")
+	)
+	(wire
+		(pts
+			(xy 121.92 70.3072) (xy 124.46 70.3072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd62fc3b-191b-4ec9-92b0-d3e9b59c9e18")
 	)
 	(label "Gate"
 		(at 162.56 80.4672 0)
@@ -4045,62 +3775,87 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f6e922c1-7752-4fc2-8579-6e6434ae6f57")
+		(uuid "25237857-1aa9-4d9e-a08c-14cdd822b7e9")
 	)
-	(hierarchical_label "CurrentRef"
-		(shape output)
-		(at 134.62 110.9472 0)
+	(label "TS"
+		(at 147.32 138.8872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "1e91100c-c38e-4ec3-8c4b-2f40a38560b5")
+		(uuid "311e581f-d01d-4b70-b8a0-07e538a8a8a5")
 	)
-	(hierarchical_label "~{Fault}"
-		(shape bidirectional)
-		(at 79.026 110.9472 180)
+	(label "~{Fault}"
+		(at 81.28 110.9472 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "5f3bdb9f-0d38-4fa8-979b-a10edcde477e")
+		(uuid "4a0cdd8e-2ca4-4ad2-824b-958d745bcdc7")
 	)
-	(hierarchical_label "Battery"
-		(shape bidirectional)
-		(at 101.6 70.3072 180)
+	(label "VOC"
+		(at 106.68 105.8672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "64dfc743-b3ce-4534-aec6-8e5a64669841")
+		(uuid "4a67f63d-ac03-4ef0-844a-039f2b2a55e1")
 	)
-	(hierarchical_label "OutputEnable"
-		(shape input)
-		(at 93.98 131.2672 180)
+	(label "Gate"
+		(at 165.1 141.4272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "6925768d-c1f3-4aed-9e8e-bc15ab69beac")
+		(uuid "4c6eeebf-700d-4a63-bbe4-1cc8d7609fb8")
 	)
-	(hierarchical_label "Out"
-		(shape bidirectional)
-		(at 187.96 70.3072 0)
+	(label "TS"
+		(at 147.32 131.2672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "783e5c3f-9986-4023-852d-d0cf494fa6f2")
+		(uuid "6bfabc50-98c4-43fa-abd4-bcaf89d0b0e7")
+	)
+	(label "~{Fault}"
+		(at 127 118.5672 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aafa6acd-f0a8-4d4d-8a6c-66d99dde5f85")
+	)
+	(label "VOC"
+		(at 124.46 113.4872 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8974ba2-7604-4c88-a3f1-324944fda045")
+	)
+	(label "TS"
+		(at 162.56 70.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85a6b57-ff86-4915-af0d-0a65ace3f4a7")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -4111,18 +3866,18 @@
 			)
 			(justify right)
 		)
-		(uuid "898beecc-832a-4a87-b354-5e8947ef983a")
+		(uuid "0e016cef-42e2-4875-a106-edcaf62d4a77")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 78.74 103.3272 180)
+	(hierarchical_label "~{Fault}"
+		(shape bidirectional)
+		(at 79.026 110.9472 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bbfad48d-e426-4944-acc2-9ec9bd39d2ee")
+		(uuid "1e46a46d-d4ac-47ed-8684-b5af56635009")
 	)
 	(hierarchical_label "Current"
 		(shape output)
@@ -4133,7 +3888,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c6bd584c-3348-4c25-b651-fc5a438b7154")
+		(uuid "20542039-0bc3-4b63-8337-5ad9b19e33ed")
 	)
 	(hierarchical_label "Enable"
 		(shape input)
@@ -4144,7 +3899,18 @@
 			)
 			(justify right)
 		)
-		(uuid "d42ce22a-adad-4f31-8ac1-ea93eba4bcd9")
+		(uuid "295bdc5b-0cf6-4a07-b6db-3004eb39b0db")
+	)
+	(hierarchical_label "Battery"
+		(shape bidirectional)
+		(at 101.6 70.3072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c500ed1-5280-4b3d-bb28-ab42b5c39df2")
 	)
 	(hierarchical_label "BatteryFused"
 		(shape input)
@@ -4155,1904 +3921,51 @@
 			)
 			(justify right)
 		)
-		(uuid "ef02a82a-dbd2-4a7a-bf4a-8fc0cef49b81")
+		(uuid "6de7916f-c311-46f6-a286-c09f782b543f")
 	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_06035C105MAT2A_SamacSys.SchLib")
-		(at 104.14 149.0472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0389b7a1-d007-4000-9fcd-2732998d5adb")
-		(property "Reference" "C801"
-			(at 106.934 143.7132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(hierarchical_label "OutputEnable"
+		(shape input)
+		(at 93.98 131.2672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "06035C105MAT2A"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 104.14 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor"
-			(at 104.14 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 101.346 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 106.934 146.2532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "5f39e559-b22c-4d14-88ea-0257c1fd5ca0")
-		)
-		(pin "2"
-			(uuid "a1ff83aa-e6f2-4b1c-95bb-0d518b522166")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "C801")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "7699b296-a2f1-4b47-988a-80d76e6cfd8f")
 	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRGH0603F3K3_SamacSys.SchLib")
-		(at 185.42 57.6072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06677b22-9799-48cd-80f9-65114ec58ef9")
-		(property "Reference" "R800"
-			(at 190.5 56.3372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(hierarchical_label "Out"
+		(shape bidirectional)
+		(at 187.96 70.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "3k3"
-			(at 184.15 61.4172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://docs-europe.electrocomponents.com/webdocs/12d7/0900766b812d7379.pdf"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.55mm"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "TE Connectivity"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRGH0603F3K3"
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" ""
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" ""
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 185.42 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "3k3"
-			(at 190.5 61.4172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "91c01104-eecf-4803-8612-2cf87da73114")
-		)
-		(pin "2"
-			(uuid "71ec9b0b-6516-4ada-99cc-05216f4bafff")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "R800")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "a448af2a-deed-4dc9-b228-bf3ffd730b40")
 	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_2_150060GS75000_SamacSys.SchLib")
-		(at 218.44 57.6072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ba0695f-f32d-475e-a5bf-9721f6180cb4")
-		(property "Reference" "LED800"
-			(at 205.486 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(hierarchical_label "CurrentRef"
+		(shape output)
+		(at 134.62 110.9472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "150060GS75000"
-			(at 205.486 65.4812 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:LEDC1608X80N"
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LED"
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/150060GS75000.pdf"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.8mm"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Wurth Elektronik"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "150060GS75000"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "710-150060GS75000"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D"
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 202.692 54.8132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a8b25f3-a326-4a4f-bc0b-265945047aa7")
-		)
-		(pin "2"
-			(uuid "1a8f5c44-a441-4c41-9440-8e809fb346b8")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "LED800")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c397fa86-7f31-4256-ab1e-5c11cac0de9e")
 	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 121.92 113.4872 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1abaca9b-b761-4b41-88f3-090b3750912f")
-		(property "Reference" "#PWR?"
-			(at 121.92 113.4872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 117.2972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 113.4872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 113.4872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 113.4872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "2f2df2d2-2346-4d4a-a85e-26fa167db286")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_3555_SamacSys.SchLib")
-		(at 101.6 70.3072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26307988-4a37-4f90-af6f-97be148cecc2")
-		(property "Reference" "F800"
-			(at 106.426 69.0372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3555"
-			(at 106.426 74.1172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:3555"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/3555.pdf"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "4.6mm"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Keystone Electronics"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "3555"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "534-3555"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3555?qs=qOqV1E1P08QI697WpZIiyQ%3D%3D"
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 101.6 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a23a530b-64e6-441f-a6be-35887b0d0123")
-		)
-		(pin "2"
-			(uuid "c73f8d4c-d0f0-4596-b661-0f80364986ef")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "F800")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 218.44 57.6072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "327f73aa-b5b0-411d-9a65-e0002ad14f4d")
-		(property "Reference" "#PWR?"
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 61.4172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 57.6072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f4d77b15-b8e1-4d28-9373-c0ea8c6365bb")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_3_ACS37002KMABTR-050B3_SamacSys.SchLib")
-		(at 139.7 70.3072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f6b2d79-3aea-452a-b087-910ac6fc5ae4")
-		(property "Reference" "IC800"
-			(at 142.24 77.9272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ACS37002KMABTR-050B3"
-			(at 119.38 103.3272 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOIC127P1030X265-16N"
-			(at 139.7 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Integrated Circuit"
-			(at 139.7 70.3072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://www.allegromicro.com/-/media/files/datasheets/acs37002-datasheet.ashx?sc_lang=en&hash=FFD236A6D18C7717C5A7906548FB48D2"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "2.65mm"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Allegro Microsystems"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "ACS37002KMABTR-050B3"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "250-37002KMABTR050B3"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37002KMABTR-050B3?qs=pUKx8fyJudCSE%2FoW6XxDYQ%3D%3D"
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 119.38 69.7992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "9b1c2e8f-e1d3-40eb-91f0-7da4f0cb0333")
-		)
-		(pin "1"
-			(uuid "f1317a61-f59d-48fc-90dc-eb52daa433cb")
-		)
-		(pin "2"
-			(uuid "c1e3b77e-d779-48cc-8453-7659b819737d")
-		)
-		(pin "3"
-			(uuid "e0bd6167-72fa-43f5-9fae-ce1783a4fb70")
-		)
-		(pin "4"
-			(uuid "93184eb3-8ce9-4cb0-8a2e-6e83a4151c00")
-		)
-		(pin "5"
-			(uuid "a739daac-b777-41d1-abbd-764f296279b4")
-		)
-		(pin "7"
-			(uuid "c5ca095d-4194-4fb1-a684-24ae29b9cfbc")
-		)
-		(pin "8"
-			(uuid "ab860bce-66a4-4ca6-88ff-50359894b61a")
-		)
-		(pin "16"
-			(uuid "d3ddf6b8-ef63-4b30-9f47-c118f7cc70ae")
-		)
-		(pin "15"
-			(uuid "80206502-0bce-49ed-adbf-e4d7b6617252")
-		)
-		(pin "14"
-			(uuid "f905e4c2-8201-4e9e-a8a9-1040ac7f3fa5")
-		)
-		(pin "13"
-			(uuid "56979666-1fe4-44d0-83d2-64bdf9382b84")
-		)
-		(pin "12"
-			(uuid "eb9fd049-f7de-4a56-a6cc-f77b007ca01c")
-		)
-		(pin "11"
-			(uuid "ede93d06-f08d-485a-8101-4b7d6a8463f7")
-		)
-		(pin "10"
-			(uuid "60b24b40-9cb9-4b49-b8cb-df4f22ff9f29")
-		)
-		(pin "9"
-			(uuid "8b04d749-52b8-4000-824b-de0cf027b16f")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "IC800")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRCW06030000Z0EC_SamacSys.SchLib")
-		(at 147.32 143.9672 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dbbf721-92e9-43eb-ac7c-7006d7b6e43c")
-		(property "Reference" "R804"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 146.05 147.7772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
-			(at 147.32 143.9672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7c651b5-39ea-48ce-aabd-f55bbe13722d")
-		)
-		(pin "2"
-			(uuid "aac1b021-3099-423c-84a3-8671951dfe78")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "R804")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_HMK107BJ104KA-T_SamacSys.SchLib")
-		(at 93.98 149.0472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6268b58a-e5e9-4bbf-8226-49a02547f32b")
-		(property "Reference" "C803"
-			(at 96.774 143.7132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF 100V"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 93.98 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor"
-			(at 93.98 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/jp/specSheet?pn=MSASH168SB5104KTNA01"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "HMK107BJ104KA-T"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "963-HMK107BJ104KA-T"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/HMK107BJ104KA-T?qs=I6KAKw0tg2wpEwZmo3gKZg%3D%3D"
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 91.186 135.8392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 96.774 146.2532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "dbe10835-1340-44e5-975b-d563d921d51c")
-		)
-		(pin "2"
-			(uuid "5e55e3f3-b4b7-40e1-8254-26dcbeb3dacd")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "C803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_SQJQ160E-T1_GE3_SamacSys.SchLib")
-		(at 154.94 80.4672 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6334bdeb-5ead-4fb4-895e-3c28e3e59edd")
-		(property "Reference" "Q800"
-			(at 152.146 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SQJQ160E-T1_GE3"
-			(at 149.86 65.2272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SQJQ160ET1_GE3"
-			(at 154.94 80.4672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 80.4672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET (N-Channel)"
-			(at 154.94 80.4672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://www.vishay.com/docs/63059/sqjq160e.pdf"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.65mm"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "SQJQ160E-T1_GE3"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "78-SQJQ160E-T1_GE3"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJQ160E-T1_GE3?qs=Wj%2FVkw3K%252BMDBWZlqh0rWDw%3D%3D"
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 146.812 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f6e804e-fc80-41a0-b425-1804a4f57164")
-		)
-		(pin "3"
-			(uuid "19e9f7af-022c-46c4-8bd9-2282e14621ca")
-		)
-		(pin "1"
-			(uuid "db4a2b47-ca82-4dce-98e7-da6ce9c81393")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "Q800")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 81.28 118.5672 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63ba4d17-2a29-45b8-9e81-72d0a2f3acaf")
-		(property "Reference" "#PWR?"
-			(at 81.28 118.5672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 122.3772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 118.5672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 118.5672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 118.5672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "ec69d399-65e2-40f2-89be-020835ff8f1c")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_CRCW06030000Z0EC_SamacSys.SchLib")
-		(at 104.14 123.6472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75a22b31-27db-4cc4-8f6c-1bb33fb57fb6")
-		(property "Reference" "R802"
-			(at 105.41 113.4872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
-			(at 102.87 105.3592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 105.41 116.0272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "87ebffc8-23b7-483b-b0f4-186d12f7a514")
-		)
-		(pin "2"
-			(uuid "22796a47-bc31-468a-a587-2fff368436ec")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "R802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:3.3V_BAR")
-		(at 81.28 103.3272 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7955a372-6f7c-473f-9500-6b15117779c8")
-		(property "Reference" "#PWR?"
-			(at 81.28 103.3272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 81.28 99.5172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 103.3272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 103.3272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 103.3272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "fdf08378-a786-444f-841a-d76f050abbd8")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:3.3V_BAR")
-		(at 104.14 88.0872 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7baa7ac5-5358-4929-9e90-2f25fe9de9ee")
-		(property "Reference" "#PWR?"
-			(at 104.14 88.0872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 104.14 84.2772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 88.0872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 88.0872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 88.0872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9db8e26b-6f37-44ea-b4ca-0d7c2dcba825")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRCW06030000Z0EC_SamacSys.SchLib")
-		(at 147.32 141.4272 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d7fbfc4-7d64-4250-9acd-fa441b00f8f5")
-		(property "Reference" "R803"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 146.05 145.2372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
-			(at 147.32 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "0R"
-			(at 152.654 148.0312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "0dcc88e9-2d1c-4f14-b8fa-3f3ff8c41915")
-		)
-		(pin "2"
-			(uuid "bc355b58-5e04-4bb0-b72b-ed4d2f8134e3")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "R803")
-					(unit 1)
-				)
-			)
-		)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 78.74 103.3272 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed7947e5-d2df-4ee1-84ec-57f40f57b403")
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_2_Test Pad 1mm-Symbol-1_EPFL Racing Team")
@@ -6062,7 +3975,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "832ae4f1-790b-4027-9913-3bcc2504ccaa")
+		(uuid "11f362ac-40c6-4579-ad04-7b158ac26848")
 		(property "Reference" "TP800"
 			(at 154.864 62.6872 0)
 			(effects
@@ -6210,11 +4123,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "510aeda4-26ce-442b-9977-22c64f227638")
+			(uuid "4b3cbb13-6c36-4499-84d4-7fe7a98cfdae")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "TP800")
 					(unit 1)
 				)
@@ -6223,15 +4136,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:GND_BAR")
-		(at 93.98 149.0472 0)
+		(at 104.14 149.0472 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9442a478-56c5-41cd-9e9b-5568758a0ac4")
+		(uuid "12a71545-5893-4a66-96c1-a189dcca2861")
 		(property "Reference" "#PWR?"
-			(at 93.98 149.0472 0)
+			(at 104.14 149.0472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +4153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 152.8572 0)
+			(at 104.14 152.8572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 149.0472 0)
+			(at 104.14 149.0472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +4169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 149.0472 0)
+			(at 104.14 149.0472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +4177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 149.0472 0)
+			(at 104.14 149.0472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,294 +4185,11 @@
 			)
 		)
 		(pin ""
-			(uuid "b6b412f5-26fd-4996-928f-4cdd566091b3")
+			(uuid "e066726a-ad90-4b09-82fa-e6752902d288")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_2_GRM31C5C1H224JE02L_SamacSys.SchLib")
-		(at 162.56 136.3472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad2d4c59-44c8-4f97-b73b-45414a2660fe")
-		(property "Reference" "C800"
-			(at 154.686 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "220nF 100V"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC3216X180N"
-			(at 162.56 136.3472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 136.3472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor"
-			(at 162.56 136.3472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31C5C1H224JE02-01A.pdf"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.8mm"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM31C5C1H224JE02L"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "81-GRM31C5C1H224JE2L"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31C5C1H224JE02L?qs=qSfuJ%252Bfl%2Fd7ovrk3%2F2FSbQ%3D%3D"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "GRM31C5C1H224JE02L"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/grm31c5c1h224je02l/murata-manufacturing?region=nac"
-			(at 149.352 133.5532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "220nF 100V"
-			(at 157.48 136.3472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "4ee2d7bb-310e-4bd3-a07b-af1254c5075f")
-		)
-		(pin "2"
-			(uuid "073420ef-3dc5-464e-b64e-274fb1244508")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "C800")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 129.54 164.2872 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b93b4061-544a-497d-a629-91da6d03c8b0")
-		(property "Reference" "#PWR?"
-			(at 129.54 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 168.0972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "29420e84-ee27-4cbe-8430-738c5867f0ce")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 162.56 108.4072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3b61b64-bf7f-4ea8-ad30-852d70263225")
-		(property "Reference" "#PWR?"
-			(at 162.56 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 112.2172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "7a87fc32-a55f-4bb7-b3db-c424db3f6f7b")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -6574,7 +4204,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c454a6eb-452d-42d4-8799-995d0f2724b3")
+		(uuid "15d58eec-955a-4987-ba01-7dfc42ad1da7")
 		(property "Reference" "R801"
 			(at 105.41 95.7072 0)
 			(effects
@@ -6711,14 +4341,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "092024ba-90ba-455b-ba9f-5e9e39b44c0a")
+			(uuid "5831110c-0baf-400a-b69c-b38f4b14a190")
 		)
 		(pin "2"
-			(uuid "b15c3156-334b-447d-9d89-3ca91e338845")
+			(uuid "0bf8c6e3-3251-46ef-8ba3-373739dae594")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "R801")
 					(unit 1)
 				)
@@ -6726,16 +4356,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_mirrored_SQJQ160E-T1_GE3_SamacSys.SchLib")
-		(at 177.8 80.4672 0)
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CGA3E1X7R1V684K080AC_SamacSys.SchLib")
+		(at 149.86 136.3472 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d531f478-d136-45b6-87d8-01cf4d85ed87")
-		(property "Reference" "Q801"
-			(at 175.006 67.7672 0)
+		(uuid "17282deb-ca49-40bc-a9b1-0a11feac1e67")
+		(property "Reference" "C802"
+			(at 154.686 133.5532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,8 +4373,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "QJQ160E-T1_GE3"
-			(at 172.72 65.2272 0)
+		(property "Value" "680nF, 35V, X7R"
+			(at 157.48 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,8 +4382,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SQJQ160ET1_GE3"
-			(at 177.8 80.4672 0)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +4392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 80.4672 0)
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,8 +4400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET (N-Channel)"
-			(at 177.8 80.4672 0)
+		(property "Description" "Capacitor 680nF, 35V, X7R"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,18 +4409,8 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://www.vishay.com/docs/63059/sqjq160e.pdf"
-			(at 169.672 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.65mm"
-			(at 169.672 67.7672 0)
+		(property "DATASHEET LINK" "http://docs-europe.electrocomponents.com/webdocs/14e9/0900766b814e9125.pdf"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,8 +4419,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 169.672 67.7672 0)
+		(property "HEIGHT" "0.9mm"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,8 +4429,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "SQJQ160E-T1_GE3"
-			(at 169.672 67.7672 0)
+		(property "MANUFACTURER_NAME" "TDK"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,8 +4439,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PART NUMBER" "78-SQJQ160E-T1_GE3"
-			(at 169.672 67.7672 0)
+		(property "MANUFACTURER_PART_NUMBER" "CGA3E1X7R1V684K080AC"
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,8 +4449,18 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJQ160E-T1_GE3?qs=Wj%2FVkw3K%252BMDBWZlqh0rWDw%3D%3D"
-			(at 169.672 67.7672 0)
+		(property "MOUSER PART NUMBER" ""
+			(at 149.86 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" ""
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +4470,7 @@
 			)
 		)
 		(property "ARROW PART NUMBER" ""
-			(at 169.672 67.7672 0)
+			(at 149.86 136.3472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +4480,37 @@
 			)
 		)
 		(property "ARROW PRICE/STOCK" ""
-			(at 169.672 67.7672 0)
+			(at 149.86 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Multilayer Ceramic Chip Capacitors"
+			(at 149.86 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 148.59 132.5372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "810-CGA3E1X7R1V684KC"
+			(at 148.59 132.5372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,18 +4520,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "5060da31-81cb-46e4-bc64-16a2766e9bb4")
+			(uuid "1324c685-c537-45d8-9d7d-9a7de62e8402")
 		)
 		(pin "2"
-			(uuid "5d7f3f4f-f2f5-43f2-9a40-caa6ed73b65a")
-		)
-		(pin "3"
-			(uuid "a4a73555-0b18-4cf5-8050-4aab14d2ad61")
+			(uuid "a6cd8cc6-ee64-496f-b797-c522efd66943")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "Q801")
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "C802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:3.3V_BAR")
+		(at 81.28 103.3272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d61ed3a-348e-408b-a2ea-12af796c9b9f")
+		(property "Reference" "#PWR?"
+			(at 81.28 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 81.28 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "7f6cb428-396c-4718-9f0b-465b2c4ac8e7")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6879,15 +4598,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:GND_BAR")
-		(at 104.14 149.0472 0)
+		(at 218.44 57.6072 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da40c366-a4d4-4a1d-b5dd-fdd13b3673c3")
+		(uuid "22ea7f3b-93ef-47f9-995f-b2a675f5e441")
 		(property "Reference" "#PWR?"
-			(at 104.14 149.0472 0)
+			(at 218.44 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +4615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 152.8572 0)
+			(at 218.44 61.4172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,11 +4623,306 @@
 			)
 		)
 		(property "Footprint" ""
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f766a1d9-1706-431d-82d6-3115fcb07d20")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
+		(at 93.98 149.0472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34ce7854-24cc-4f9f-89fb-386cfc5fb71d")
+		(property "Reference" "C803"
+			(at 93.98 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100 nF, 100V, X7R"
+			(at 71.12 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:MAJx16"
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 100nF, 100V, X7R"
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.8mm"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MAJCH168BB7104KTEA01"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "963-MAJCH168BB7104KT"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "MAJCH168BB7104KTEA01"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/majch168bb7104ktea01/taiyo-yuden?utm_currency=USD&region=nac"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "963-MAJCH168BB7104KT"
+			(at 91.186 135.8392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8ae0d33-dfc7-40f5-8346-aef69fb53279")
+		)
+		(pin "2"
+			(uuid "6c241d7d-cd4d-4307-8a38-a2ee8e5cf0aa")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "C803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 129.54 164.2872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36a36f0c-9c24-4521-a0c9-b97860138da1")
+		(property "Reference" "#PWR?"
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 168.0972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "baa0ecf7-223e-40ea-9094-772f0ac5b054")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_06035C105MAT2A_SamacSys.SchLib")
+		(at 104.14 149.0472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c8ae352-c6ce-41b3-8433-f1498c476a2e")
+		(property "Reference" "C801"
+			(at 104.14 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 99.06 156.6672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
 			(at 104.14 149.0472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -6917,10 +4931,819 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 1uF 50V X7R"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 104.14 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 102.87 154.3812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f8e1671-e2d4-466e-b83d-bbe4a05d3cb1")
+		)
+		(pin "2"
+			(uuid "f713ca53-1721-4d9d-bf8a-f10f512912c6")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "C801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRCW06030000Z0EC_SamacSys.SchLib")
+		(at 147.32 141.4272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42bbc9bc-88db-4a7d-9eb4-f006cc261e93")
+		(property "Reference" "R803"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 146.05 145.2372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
+			(at 147.32 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 152.654 148.0312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "66f45123-046d-41c6-98c5-40ce514d356b")
+		)
+		(pin "2"
+			(uuid "3f99ddd4-9c59-4bb1-a9c6-066bfd4e5902")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "R803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRCW06030000Z0EC_SamacSys.SchLib")
+		(at 147.32 143.9672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4587537d-099f-40dc-952d-26ed67bf4139")
+		(property "Reference" "R804"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 146.05 147.7772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
+			(at 147.32 143.9672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f2f57a-4576-4673-bace-e95b59117e28")
+		)
+		(pin "2"
+			(uuid "11b90ca9-5591-4952-b50d-74b0d5fd0dba")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "R804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_LTC7000EMSE#PBF_SamacSys.SchLib")
+		(at 111.76 131.2672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e92fa13-1ce2-43bb-934e-76acc3ac956a")
+		(property "Reference" "IC801"
+			(at 116.84 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTC7000EMSE#PBF"
+			(at 106.68 161.7472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-17N"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc7000-7000-1.pdf"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Analog Devices"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LTC7000EMSE#PBF"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "584-LTC7000EMSEPBF"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC7000EMSEPBF?qs=BZBei1rCqCABaEvAxqf5Sw%3D%3D"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LTC7000EMSE#PBF"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/ltc7000emsepbf/analog-devices?region=nac"
+			(at 111.76 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "521b8f4d-854d-4b8b-86e9-d9a4728e6df2")
+		)
+		(pin "2"
+			(uuid "9cf99178-51cd-4702-a974-de53e0decc10")
+		)
+		(pin "3"
+			(uuid "f7a2426d-dfb5-4f28-901f-21279b895191")
+		)
+		(pin "4"
+			(uuid "0043f68a-ebaf-4ba8-8321-92e7b70e7c22")
+		)
+		(pin "5"
+			(uuid "8257ce66-f7c4-4d32-a493-ce106a9f5d25")
+		)
+		(pin "6"
+			(uuid "be47d68a-0814-47e4-8ae8-84172e8924fe")
+		)
+		(pin "7"
+			(uuid "73d10af3-8767-41ed-979e-b932c328ba31")
+		)
+		(pin "8"
+			(uuid "842d8c0f-086d-4a5c-82c7-d48c3da5301c")
+		)
+		(pin "17"
+			(uuid "a7d44643-2549-4daa-9693-682d1700235d")
+		)
+		(pin "16"
+			(uuid "f11ca8bc-73c4-4c35-b9b8-0a69bdc85b71")
+		)
+		(pin "15"
+			(uuid "b96c3648-aff9-49a2-a938-ab1c4df76507")
+		)
+		(pin "14"
+			(uuid "f7e7d01b-0338-4455-b6d7-e7314dd9d263")
+		)
+		(pin "13"
+			(uuid "96b34471-f555-4c5f-b9b9-5831aedb6153")
+		)
+		(pin "12"
+			(uuid "732727f7-8a31-447b-a1c1-46b12689d35c")
+		)
+		(pin "11"
+			(uuid "e87be11c-6909-413d-927f-3c3f460401b2")
+		)
+		(pin "10"
+			(uuid "13a5d544-f3ca-4cf1-9654-9f857c01ae49")
+		)
+		(pin "9"
+			(uuid "c48edb7b-dcbd-429b-b372-2c49a38ed1c0")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "IC801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_2_150060VS75000_SamacSys.SchLib")
+		(at 218.44 57.6072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "715561cd-4197-4834-ba73-c40cdfbc9a27")
+		(property "Reference" "LED800"
+			(at 205.486 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "150060VS75000"
+			(at 205.486 65.4812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:LEDC1608X80N"
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED"
+			(at 218.44 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/2/150060VS75000.pdf"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.8mm"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Wurth Elektronik"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "150060VS75000"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "710-150060VS75000"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150060VS75000?qs=LlUlMxKIyB1Q1Bi5mQ%2FKLw%3D%3D"
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 202.692 54.8132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ad4ff77-1388-4129-8578-f113806d6b38")
+		)
+		(pin "2"
+			(uuid "aea5ba8c-d146-44bf-856a-627ca63ef94c")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "LED800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 104.14 123.6472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b9a11dc-ebbf-4eb9-921a-0c6c269aa5c8")
+		(property "Reference" "#PWR?"
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 127.4572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Description" ""
-			(at 104.14 149.0472 0)
+			(at 104.14 123.6472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,11 +5751,677 @@
 			)
 		)
 		(pin ""
-			(uuid "ae39c621-7fa0-46c4-8b2f-bc56f0337327")
+			(uuid "7fc4e5ec-f9a1-4ffd-9637-0d09e161f3f5")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
+		(at 157.48 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8264ad88-d9f2-444d-9003-a8ceccf82695")
+		(property "Reference" "C800"
+			(at 160.274 115.7732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100 nF, 100V, X7R"
+			(at 139.7 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:MAJx16"
+			(at 157.48 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 100nF, 100V, X7R"
+			(at 157.48 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.8mm"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MAJCH168BB7104KTEA01"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "963-MAJCH168BB7104KT"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "MAJCH168BB7104KTEA01"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/majch168bb7104ktea01/taiyo-yuden?utm_currency=USD&region=nac"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "963-MAJCH168BB7104KT"
+			(at 154.686 107.8992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d20980e-7cfc-4f56-819c-f6ccf4c448dd")
+		)
+		(pin "2"
+			(uuid "1bc35856-d9bc-4104-9df9-189910d14e86")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "C800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_CRCW06030000Z0EC_SamacSys.SchLib")
+		(at 104.14 123.6472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8497bda1-9768-4169-8c21-c1b440ac9dd7")
+		(property "Reference" "R802"
+			(at 105.41 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 123.6472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW06030000Z0EC"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW06030000Z0EC"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EC?qs=5Vo7YKalRVV5nT3RQodYAA%3D%3D"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW06030000Z0EC"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw06030000z0ec/vishay?utm_currency=USD&region=nac"
+			(at 102.87 105.3592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0R"
+			(at 105.41 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8fd42f9c-671c-45e5-b7e4-a991a3d42171")
+		)
+		(pin "2"
+			(uuid "26a61d76-e282-4d13-80c2-5155d16a2a9d")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "R802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 162.56 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a93fd090-f716-4c9a-9ec4-9803fb402818")
+		(property "Reference" "#PWR?"
+			(at 162.56 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 124.9172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ab688952-19a1-4aa1-9548-c9991fb48576")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 81.28 118.5672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf1ace0-4115-4682-9d11-4617cda3b82a")
+		(property "Reference" "#PWR?"
+			(at 81.28 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 122.3772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "0923b916-44e9-487d-918e-15edd012c6e1")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_SQJQ160E-T1_GE3_SamacSys.SchLib")
+		(at 154.94 80.4672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae206d68-2b0d-4f67-8d97-7c1076413e6c")
+		(property "Reference" "Q800"
+			(at 152.146 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SQJQ160E-T1_GE3"
+			(at 149.86 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SQJQ160ET1_GE3"
+			(at 154.94 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET (N-Channel)"
+			(at 154.94 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.vishay.com/docs/63059/sqjq160e.pdf"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.65mm"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SQJQ160E-T1_GE3"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "78-SQJQ160E-T1_GE3"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJQ160E-T1_GE3?qs=Wj%2FVkw3K%252BMDBWZlqh0rWDw%3D%3D"
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 146.812 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e1e2cf-5a00-41f2-a213-b41c4579b52a")
+		)
+		(pin "2"
+			(uuid "65d5ad44-dcb2-4644-9b62-e418e5f9292b")
+		)
+		(pin "3"
+			(uuid "e871a61f-e6a6-42b4-b28a-dc1e6d80252a")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "Q800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:3.3V_BAR")
+		(at 104.14 88.0872 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b041fa0b-d9f3-492f-8e40-5b3ef7c320c8")
+		(property "Reference" "#PWR?"
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 104.14 84.2772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 88.0872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ec525d41-e16d-4f99-bd24-82b4909b49dc")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -6947,7 +6436,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dde63614-ac01-4ca2-9f8a-1a72c368a03f")
+		(uuid "df201f59-c0c1-43fc-84a7-744516b6f868")
 		(property "Reference" "TP801"
 			(at 185.42 85.5472 0)
 			(effects
@@ -7095,233 +6584,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "502a31c2-0750-47b3-b386-7c2c03571db9")
+			(uuid "a3e40dd2-1f86-49c5-afa1-7000b30862f7")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "TP801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_BAR")
-		(at 104.14 123.6472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de107c02-daae-4470-b5e8-cf2085b2a628")
-		(property "Reference" "#PWR?"
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 127.4572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 123.6472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b2102e8e-1da2-4713-95c8-0a9d4a5d9f19")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_2_0603YG104ZAT2A_SamacSys.SchLib")
-		(at 160.02 108.4072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2e3e96b-6001-4cee-b330-15f45d53240a")
-		(property "Reference" "C802"
-			(at 152.146 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0603YG104ZAT2A"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 160.02 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor"
-			(at 160.02 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "0603YG104ZAT2A"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-0603YG104ZAT2A"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/AVX/0603YG104ZAT2A?qs=b9lrxWun4G3w2hKVYW6fsQ%3D%3D"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "0603YG104ZAT2A"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0603yg104zat2a/avx?region=nac"
-			(at 146.812 105.6132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100nF"
-			(at 152.146 113.7412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "560cc3d2-d446-4a7a-affc-9c9b0154c186")
-		)
-		(pin "2"
-			(uuid "ccc07863-df14-449e-b9c0-f30c1e54b40c")
-		)
-		(instances
-			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "C802")
 					(unit 1)
 				)
 			)
@@ -7335,7 +6603,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb92106d-3c42-42b2-ab9d-c0d64ef76dd3")
+		(uuid "e0b67a3a-21a4-4e6f-9c0b-0866ce13116f")
 		(property "Reference" "#PWR?"
 			(at 111.76 149.0472 0)
 			(effects
@@ -7378,11 +6646,423 @@
 			)
 		)
 		(pin ""
-			(uuid "ede9c08a-e295-4e30-a9e4-4e36d3aea3f7")
+			(uuid "e37e92d4-6b20-49bb-a4ba-51fd0d824ec9")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_06035C105MAT2A_SamacSys.SchLib")
+		(at 167.64 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c47dac-0acb-430f-ae93-b9a6c2abfcca")
+		(property "Reference" "C804"
+			(at 167.64 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 167.64 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 1uF 50V X7R"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 167.64 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 166.37 126.4412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87a811f-907c-4906-beab-5229ae29d821")
+		)
+		(pin "2"
+			(uuid "aa3f9d20-bff3-455e-99f5-ab5765def19b")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "C804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_3_ACS37002KMABTR-050B3_SamacSys.SchLib")
+		(at 139.7 70.3072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c03b15-dae0-40e0-b054-2233cab6be94")
+		(property "Reference" "IC800"
+			(at 142.24 77.9272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ACS37002KMABTR-050B3"
+			(at 119.38 103.3272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOIC127P1030X265-16N"
+			(at 139.7 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 139.7 70.3072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.allegromicro.com/-/media/files/datasheets/acs37002-datasheet.ashx?sc_lang=en&hash=FFD236A6D18C7717C5A7906548FB48D2"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "2.65mm"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Allegro Microsystems"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ACS37002KMABTR-050B3"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "250-37002KMABTR050B3"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37002KMABTR-050B3?qs=pUKx8fyJudCSE%2FoW6XxDYQ%3D%3D"
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 119.38 69.7992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "45224058-85b3-4c16-960a-a1d81a58137a")
+		)
+		(pin "1"
+			(uuid "3bc6c72c-64f0-42a6-8045-a041686c38b7")
+		)
+		(pin "2"
+			(uuid "7cf65d85-1101-4c2d-a589-5c426d57adbf")
+		)
+		(pin "3"
+			(uuid "3f20cec5-1287-4b0f-9a2e-24ddf69840c4")
+		)
+		(pin "5"
+			(uuid "fead2bb6-0650-4936-b8ba-3d06ff4b91fc")
+		)
+		(pin "6"
+			(uuid "356ca707-bae6-40df-a346-645749cfe095")
+		)
+		(pin "7"
+			(uuid "22b6edaf-3a05-4d54-a188-6f3dd66e10f4")
+		)
+		(pin "8"
+			(uuid "2c741eba-bb62-4082-b21f-97f7b08d3897")
+		)
+		(pin "16"
+			(uuid "d7a17be0-0f95-4cb0-9807-b44658b27e52")
+		)
+		(pin "15"
+			(uuid "2fa8b4e4-418b-4bd3-8cad-43bd6f694e9e")
+		)
+		(pin "14"
+			(uuid "3bab6ff7-6f40-44e1-871f-273e05c8f126")
+		)
+		(pin "13"
+			(uuid "e7eea1e9-efd7-42df-bc6e-c20ad0aab83b")
+		)
+		(pin "12"
+			(uuid "0f15db15-ce31-4f0e-8ff6-807161bcb9fe")
+		)
+		(pin "11"
+			(uuid "6a947abd-c90a-4c1c-8741-da41f8c458f0")
+		)
+		(pin "10"
+			(uuid "79daa579-fc85-4569-97ac-7923d7e61b0e")
+		)
+		(pin "9"
+			(uuid "4c21cdda-137f-4bc1-8ad6-7e1cc7ff3c26")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "IC800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 121.92 113.4872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9d34c01-e489-4ce7-8ee9-d5c250f6dfd8")
+		(property "Reference" "#PWR?"
+			(at 121.92 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 117.2972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "42743975-5542-49f4-850d-73ca5c2074a3")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7397,7 +7077,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f38b9536-0aa5-4644-9b79-3756cf1a071a")
+		(uuid "ebd1713f-ddf8-4a44-83f7-c4e2433d7ddb")
 		(property "Reference" "#PWR?"
 			(at 147.32 108.4072 0)
 			(effects
@@ -7440,11 +7120,11 @@
 			)
 		)
 		(pin ""
-			(uuid "61032641-e1f9-47dc-bd27-0f2d067a8986")
+			(uuid "e50a5385-7973-49e0-8690-973405768015")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7452,16 +7132,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_LTC7000EMSE#PBF_SamacSys.SchLib")
-		(at 111.76 131.2672 0)
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_0_CRGH0603F3K3_SamacSys.SchLib")
+		(at 185.42 57.6072 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9818aaa-c9e6-4637-bb46-9a8db5b55570")
-		(property "Reference" "IC801"
-			(at 116.84 128.7272 0)
+		(uuid "ef4cb4ee-09d2-4cbc-bcfa-71642f1c6da3")
+		(property "Reference" "R800"
+			(at 190.5 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,8 +7149,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LTC7000EMSE#PBF"
-			(at 106.68 161.7472 0)
+		(property "Value" "3k3 1%"
+			(at 190.5 62.6872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,8 +7158,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-17N"
-			(at 111.76 131.2672 0)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 131.2672 0)
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,8 +7176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Integrated Circuit"
-			(at 111.76 131.2672 0)
+		(property "Description" "Resistor 3k3 1%"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7505,18 +7185,8 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc7000-7000-1.pdf"
-			(at 111.76 131.2672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.1mm"
-			(at 111.76 131.2672 0)
+		(property "DATASHEET LINK" "http://docs-europe.electrocomponents.com/webdocs/12d7/0900766b812d7379.pdf"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,8 +7195,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Analog Devices"
-			(at 111.76 131.2672 0)
+		(property "HEIGHT" "0.55mm"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,8 +7205,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "LTC7000EMSE#PBF"
-			(at 111.76 131.2672 0)
+		(property "MANUFACTURER_NAME" "TE Connectivity"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7545,8 +7215,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PART NUMBER" "584-LTC7000EMSEPBF"
-			(at 111.76 131.2672 0)
+		(property "MANUFACTURER_PART_NUMBER" "CRGH0603F3K3"
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,8 +7225,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC7000EMSEPBF?qs=BZBei1rCqCABaEvAxqf5Sw%3D%3D"
-			(at 111.76 131.2672 0)
+		(property "MOUSER PART NUMBER" ""
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,8 +7235,8 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW PART NUMBER" "LTC7000EMSE#PBF"
-			(at 111.76 131.2672 0)
+		(property "MOUSER PRICE/STOCK" ""
+			(at 185.42 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,8 +7245,48 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/ltc7000emsepbf/analog-devices?region=nac"
-			(at 111.76 131.2672 0)
+		(property "ARROW PART NUMBER" ""
+			(at 185.42 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 185.42 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "3k3"
+			(at 190.5 61.4172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Avnet"
+			(at 184.15 53.7972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "46AK9312"
+			(at 184.15 53.7972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,60 +7296,229 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d477001-7682-4808-9c2c-bcb91f2efa32")
+			(uuid "e1034ccc-d82f-4e42-9bad-d0bf6b4413de")
 		)
 		(pin "2"
-			(uuid "dc70c5cb-882b-4737-b0b1-11bcc1e06944")
-		)
-		(pin "3"
-			(uuid "7771d8ad-727c-4733-859e-f3dc2afd2519")
-		)
-		(pin "4"
-			(uuid "7ff43a52-ded9-427e-afa8-2e71722a5d4a")
-		)
-		(pin "5"
-			(uuid "839c72a8-8f14-415c-adcc-68157e654cb5")
-		)
-		(pin "6"
-			(uuid "97ba25b6-214e-420b-a428-cf50c8b3af58")
-		)
-		(pin "7"
-			(uuid "6f8ec359-7e57-47fb-bc28-9c2bbe3d2b88")
-		)
-		(pin "8"
-			(uuid "9c871164-7166-4220-957e-28814b8a3530")
-		)
-		(pin "17"
-			(uuid "3821ef8b-7242-42dd-880e-6485e98f67af")
-		)
-		(pin "16"
-			(uuid "62b41f83-9b55-49d6-9f26-018fe9c97c77")
-		)
-		(pin "15"
-			(uuid "4af95565-8c2d-4e71-a20b-ab377acccd60")
-		)
-		(pin "14"
-			(uuid "9dad9f6b-7d93-4723-9c1a-96330e2902ae")
-		)
-		(pin "13"
-			(uuid "e0472d75-9d30-432c-ab87-f2a87b734d7c")
-		)
-		(pin "12"
-			(uuid "84d97627-fc56-43e5-addb-abee5493e126")
-		)
-		(pin "11"
-			(uuid "5b4f80be-50a4-4730-8038-6fd8c0b727aa")
-		)
-		(pin "10"
-			(uuid "ae25280b-fbc2-4261-9334-084fc0107b08")
-		)
-		(pin "9"
-			(uuid "0012eb7f-d0cb-44af-a7ad-3ed378d5b28f")
+			(uuid "091ce040-2da8-450f-8e36-8af9a0f32580")
 		)
 		(instances
 			(project ""
-				(path "/7682512d-ff0d-4fa3-b66f-88b99cbc1832/f1abf625-e448-4a75-ae3b-3d47165071af/ccaac384-6323-4555-be82-56475bc260c5"
-					(reference "IC801")
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "R800")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_BAR")
+		(at 93.98 149.0472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbb42aa5-3f4c-4c29-971a-28f4c83d4088")
+		(property "Reference" "#PWR?"
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 152.8572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e3fba430-caab-4a48-a8d1-9c121ddf26fa")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(SinglePath,1,2)_1_mirrored_SQJQ160E-T1_GE3_SamacSys.SchLib")
+		(at 177.8 80.4672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcfc48fd-364d-4e5b-9dd7-53a7e8f54901")
+		(property "Reference" "Q801"
+			(at 175.006 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "QJQ160E-T1_GE3"
+			(at 172.72 65.2272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SQJQ160ET1_GE3"
+			(at 177.8 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET (N-Channel)"
+			(at 177.8 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.vishay.com/docs/63059/sqjq160e.pdf"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.65mm"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SQJQ160E-T1_GE3"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "78-SQJQ160E-T1_GE3"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQJQ160E-T1_GE3?qs=Wj%2FVkw3K%252BMDBWZlqh0rWDw%3D%3D"
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 169.672 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c59f0c-8bb1-47c9-9023-2cd2c96b0fdc")
+		)
+		(pin "2"
+			(uuid "83bf09d3-c620-42f6-9dd0-64de4b67572e")
+		)
+		(pin "3"
+			(uuid "8dcb4d79-7bd0-4e24-bf14-2f3e3a7d7aee")
+		)
+		(instances
+			(project ""
+				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/4b7bd378-2979-4781-a2f4-2573bda5a5b9/52fe1c01-73bd-4e1f-beba-b69735bba893"
+					(reference "Q801")
 					(unit 1)
 				)
 			)
