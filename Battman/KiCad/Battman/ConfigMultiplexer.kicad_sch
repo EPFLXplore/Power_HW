@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c9b8cc03-571d-4242-8300-6e7314962b1e")
+	(uuid "930cb9b5-1cff-4b9f-85c0-35b46f6838af")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Battman-altium-import:GND_LTC_H_BAR"
@@ -754,16 +754,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "${#}"
+	(text "1"
 		(exclude_from_sim no)
-		(at 255.524 202.3872 0)
+		(at 223.52 199.8472 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 3.81 3.81)
 			)
 			(justify left bottom)
 		)
-		(uuid "09a3e4fc-7583-40bc-9d69-19f1ac4e7e4e")
+		(uuid "40690fdf-d70b-427e-bca5-319df2e141da")
 	)
 	(text "A1"
 		(exclude_from_sim no)
@@ -774,7 +774,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "94000b1a-a8cb-4de7-a7a7-015431678abd")
+		(uuid "4c784b35-1d79-4e52-b3c3-f6a0108feadf")
 	)
 	(text "${FILENAME}"
 		(exclude_from_sim no)
@@ -785,18 +785,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d81db2cc-0406-4913-9c94-a9f0244a7660")
-	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 223.52 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "db8c611f-d64a-4742-9b4b-0006912150a4")
+		(uuid "6e628c40-f9d3-4e8e-a90c-513b06cc2784")
 	)
 	(text "${##}"
 		(exclude_from_sim no)
@@ -807,7 +796,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eaa63551-61fb-4082-8a06-07d5929557a7")
+		(uuid "831d206b-28b7-48f5-9fdf-20f2372a1886")
 	)
 	(text "Otto Riha"
 		(exclude_from_sim no)
@@ -818,7 +807,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f25fbc56-340d-4afe-8442-535a5e29794b")
+		(uuid "cb094735-cc4e-418f-a6d4-e26ced55f6e3")
+	)
+	(text "${#}"
+		(exclude_from_sim no)
+		(at 255.524 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6636c11-9b05-434f-b514-1f692f2a8c10")
 	)
 	(text_box "Jumper for default setting when miultiplexer in A0=A1=0 position, max consumption 1uA"
 		(exclude_from_sim no)
@@ -840,121 +840,31 @@
 			)
 			(justify left top)
 		)
-		(uuid "dc5fd77e-e15a-46ff-887a-8d5f2e6c2362")
-	)
-	(junction
-		(at 160.02 85.5472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14bec158-fc79-49c5-9103-9779a1980eb5")
-	)
-	(junction
-		(at 132.08 110.9472)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "162a0306-4080-46bb-8097-ccfab6c44fc6")
-	)
-	(junction
-		(at 170.18 90.6272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "189f53f0-2aa2-4101-8827-1985d939a4d2")
-	)
-	(junction
-		(at 165.1 88.0872)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dcd9cf0-b594-4702-93e5-0b835def3281")
+		(uuid "8fe9f79c-d85d-4725-a26c-fe00772895bc")
 	)
 	(junction
 		(at 132.08 105.8672)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a50e2495-2fdd-4e63-8326-b27dacf95cc9")
+		(uuid "157c87db-3ce7-4274-a3a9-d13c4e24026e")
 	)
 	(junction
-		(at 109.22 83.0072)
+		(at 165.1 88.0872)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b04790df-f755-4bbb-a292-2c4ab7e32f0a")
+		(uuid "294c120e-8722-4b21-b132-65dcd74cdc28")
 	)
 	(junction
-		(at 160.02 77.9272)
+		(at 170.18 90.6272)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e77fbb64-0de4-406f-851e-b2897b6f63d9")
+		(uuid "523e5c2c-cef6-4361-bf42-0401b70cc916")
 	)
 	(junction
-		(at 165.1 77.9272)
+		(at 132.08 110.9472)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3e2595e-e678-4e77-9d50-b04ca94ed6ea")
-	)
-	(junction
-		(at 109.22 95.7072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffbae75a-76ec-4b83-b7cd-e454baebb0d3")
-	)
-	(wire
-		(pts
-			(xy 165.1 88.0872) (xy 149.86 88.0872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002d9af2-d43d-4ec3-b38d-531f65d18a48")
-	)
-	(wire
-		(pts
-			(xy 160.02 85.5472) (xy 149.86 85.5472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19c8d308-9a63-45bc-9ae9-18348ad3ec32")
-	)
-	(wire
-		(pts
-			(xy 170.18 77.9272) (xy 165.1 77.9272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff2863e-f275-4a29-bc43-42f21aba8771")
-	)
-	(wire
-		(pts
-			(xy 165.1 88.0872) (xy 165.1 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d10b7fd-3696-40ee-87e5-02319d2eb4e5")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.9272) (xy 160.02 77.9272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4298260c-49ff-4d25-baf6-ab055c9bae6d")
-	)
-	(wire
-		(pts
-			(xy 165.1 108.4072) (xy 124.46 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ceba0fc-43ce-4b4a-9a98-78d90eff5cb4")
+		(uuid "5ae785cc-dfff-400a-8e0b-38c1d0838c86")
 	)
 	(wire
 		(pts
@@ -964,27 +874,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5179490f-dcd5-4962-9546-4db277d185a1")
+		(uuid "082951d5-afaa-4578-b2a3-baf8c4aa3e58")
 	)
 	(wire
 		(pts
-			(xy 109.22 83.0072) (xy 124.46 83.0072)
+			(xy 165.1 88.0872) (xy 149.86 88.0872)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bac358d-c2a5-4022-ae23-07b1bc3707e2")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.7072) (xy 114.3 95.7072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9d40bd-4444-450c-a7e3-84777a92bacb")
+		(uuid "1dd8f185-757f-452e-8268-b7447f577a4e")
 	)
 	(wire
 		(pts
@@ -994,67 +894,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5fa4e6f9-a522-40d7-8c88-163e966a0f70")
+		(uuid "2633f9fb-d881-4d94-ba67-93fd020ed56a")
 	)
 	(wire
 		(pts
-			(xy 149.86 95.7072) (xy 149.86 93.1672)
+			(xy 149.86 77.9272) (xy 170.18 77.9272)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67b6437d-8dcd-425b-b1bf-f3a3158e6f63")
-	)
-	(wire
-		(pts
-			(xy 160.02 77.9272) (xy 149.86 77.9272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c55794e-abfa-4ab8-852d-e25916033b32")
-	)
-	(wire
-		(pts
-			(xy 124.46 110.9472) (xy 132.08 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745f8618-dded-4594-aef7-886ee48b9f30")
-	)
-	(wire
-		(pts
-			(xy 160.02 105.8672) (xy 160.02 85.5472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ff3b43-4452-471d-9e58-c133f238d417")
-	)
-	(wire
-		(pts
-			(xy 124.46 105.8672) (xy 132.08 105.8672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88187036-d2b3-46d1-a20d-01344711e007")
-	)
-	(wire
-		(pts
-			(xy 154.94 95.7072) (xy 149.86 95.7072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1eb9288-7c85-493b-884f-973d5d822194")
+		(uuid "3111e995-7d7c-43be-866e-79c83b620da5")
 	)
 	(wire
 		(pts
@@ -1064,47 +914,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b116f776-01aa-4830-b139-9c3d1cbf1aae")
-	)
-	(wire
-		(pts
-			(xy 170.18 85.5472) (xy 170.18 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bab6c0c4-58f4-460e-80c7-80f69b7fb2f5")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.6272) (xy 149.86 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be19f3c6-9c47-42a5-be5b-5ff9828198f9")
-	)
-	(wire
-		(pts
-			(xy 132.08 110.9472) (xy 170.18 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb79f12d-ae09-442c-9f3d-be37fa884f03")
-	)
-	(wire
-		(pts
-			(xy 170.18 110.9472) (xy 170.18 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d236cdea-3251-471b-ab3d-83e4387ffdab")
+		(uuid "3473ee97-e2a2-4412-ad50-97af9d137457")
 	)
 	(wire
 		(pts
@@ -1114,7 +924,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eedcace5-24b9-45cb-a1e3-50b6662a948a")
+		(uuid "34c61c94-9186-4919-ba3d-7aa9c37ab2eb")
 	)
 	(wire
 		(pts
@@ -1124,51 +934,147 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "faf544c5-bf04-4ba5-8c62-eb3a08f6a6c5")
+		(uuid "4afd5352-69dd-4cb2-b8a8-2412a1a4eaa2")
 	)
-	(hierarchical_label "Vref"
-		(shape input)
-		(at 124.46 108.4072 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 160.02 85.5472) (xy 149.86 85.5472)
 		)
-		(uuid "009ec188-0af2-4aa0-b0e5-510c82776065")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c6bbed-5179-436d-97dd-410b52f77598")
 	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 124.46 88.0872 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 109.22 83.0072) (xy 124.46 83.0072)
 		)
-		(uuid "1d3e6451-f331-4915-a905-7c55f8aa42ed")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5501db5d-2530-4010-8dc9-8c2833891028")
 	)
-	(hierarchical_label "A1"
-		(shape input)
-		(at 124.46 90.6272 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 109.22 95.7072) (xy 114.3 95.7072)
 		)
-		(uuid "6ee3c2b4-929a-4428-9412-d916bf5e4bf3")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584922ff-9289-4e2e-b1cd-cb4c72c7e3e0")
 	)
-	(hierarchical_label "A0"
-		(shape input)
-		(at 124.46 85.5472 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 170.18 85.5472) (xy 170.18 90.6272)
 		)
-		(uuid "8a939551-02f1-46b8-aab5-f08dbb79febc")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691049b1-81ae-4af5-84d8-78f3fd4729cd")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.0872) (xy 165.1 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f254568-9de3-4bff-a592-8b4d8b268395")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.8672) (xy 132.08 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0c62cc-bf7d-4c81-9d87-76479aff6c47")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.6272) (xy 149.86 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c92ef01-0ab2-4dba-8b4d-94d76b983854")
+	)
+	(wire
+		(pts
+			(xy 165.1 108.4072) (xy 124.46 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a922dacd-0bff-4aa2-8e36-c43d7ffde7c3")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.7072) (xy 149.86 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51cabfa-6889-4eac-b3d2-a58cfe736db9")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.9472) (xy 170.18 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b8f144-58c3-47b4-a847-e64edcca49eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.9472) (xy 132.08 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91d0f0a-197c-41ff-a965-7e3e110bf18d")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.8672) (xy 160.02 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c23066-d1d4-450f-b914-acdc61244f81")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.7072) (xy 149.86 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8eada1-cb74-4fc1-a213-1826d35013a3")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.9472) (xy 170.18 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63b78f3-fae6-46a0-829f-8cd351675e3a")
 	)
 	(hierarchical_label "V-"
 		(shape input)
@@ -1179,7 +1085,40 @@
 			)
 			(justify right)
 		)
-		(uuid "cfc50cba-35f3-4351-871a-16804c10a5b9")
+		(uuid "0f9a3ab1-5df7-45ba-bec8-9e8ca31d5a1d")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 124.46 90.6272 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21c46a16-5c80-4dbc-8be2-97ed82a2b459")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 124.46 85.5472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64bdd4ed-cb58-4697-bcc0-27c07e2a89c0")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 124.46 88.0872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc644703-b921-4ad2-80a8-4878836bba53")
 	)
 	(hierarchical_label "Vreg"
 		(shape input)
@@ -1190,69 +1129,18 @@
 			)
 			(justify right)
 		)
-		(uuid "f563b80d-2c4f-43ae-aa3e-1d402da09313")
+		(uuid "efb9006f-e2e8-4f14-8ca8-8c37a8f26441")
 	)
-	(symbol
-		(lib_id "Battman-altium-import:Vreg_BAR")
-		(at 154.94 95.7072 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35fd6004-0599-48f2-a8f8-e086c8eda8da")
-		(property "Reference" "#PWR?"
-			(at 154.94 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "Vref"
+		(shape input)
+		(at 124.46 108.4072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "Vreg"
-			(at 154.94 91.8972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d33297b0-e20c-4948-a076-ec08da51f904")
-		)
-		(instances
-			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f1c28ba8-c2eb-4a04-b083-304b8950e057")
 	)
 	(symbol
 		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
@@ -1262,7 +1150,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "36dc747c-38d3-4ed5-9264-a46c963046ad")
+		(uuid "6ea6f8da-0163-416a-85fa-7925278db7ab")
 		(property "Reference" "#PWR?"
 			(at 109.22 95.7072 0)
 			(effects
@@ -1305,11 +1193,11 @@
 			)
 		)
 		(pin ""
-			(uuid "47f8dfa3-fdf4-4795-acc1-a88fc064e0eb")
+			(uuid "9efc87ea-a526-4ebb-a7f2-0794aa510c8e")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -1317,35 +1205,96 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
-		(at 160.02 85.5472 0)
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 132.08 105.8672 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48427786-ffb4-48d6-acf2-48bd352d4084")
-		(property "Reference" "JS500"
-			(at 163.83 85.5472 90)
+		(uuid "8a51c771-9b60-4a74-88f0-e40ebb379ba1")
+		(property "Reference" "#PWR?"
+			(at 132.08 105.8672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 161.047 85.1312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SolderJumper"
-			(at 160.02 85.5472 0)
+		(property "Value" "Vreg"
+			(at 132.08 102.0572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "15e4e982-0093-4a8f-860f-b921cca3ff32")
+		)
+		(instances
+			(project ""
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_0_ADG704BRMZ_SamacSys.SchLib")
+		(at 124.46 83.0072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9473c6fc-7d8c-4145-b2ac-3561c143dded")
+		(property "Reference" "IC500"
+			(at 129.54 80.4672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ADG704BRMZ"
+			(at 129.54 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-10N"
+			(at 124.46 83.0072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 85.5472 0)
+			(at 124.46 83.0072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,25 +1311,253 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 160.02 85.5472 0)
+		(property "Description" "Integrated Circuit"
+			(at 124.46 83.0072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69549.pdf"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Analog Devices"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "584-ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG704BRMZ?qs=BpaRKvA4VqEkN1EGAKO1Aw%3D%3D"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "ADG704BRMZ"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/adg704brmz/analog-devices?utm_currency=USD&region=nac"
+			(at 124.46 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "22aa7911-486c-42b9-8943-a79833608ca5")
+			(uuid "439b47ab-8d75-47e6-a575-4dfad71f1605")
 		)
 		(pin "2"
-			(uuid "9b02906a-ac60-437c-b3d9-ca7f0b694620")
+			(uuid "c97a1e51-008b-4b60-ba09-80e06ea5e60b")
+		)
+		(pin "3"
+			(uuid "fd8d4240-6f77-4360-8d00-e8a1f679bf55")
+		)
+		(pin "4"
+			(uuid "9be41469-e0e1-4bc8-a286-53f473ebb182")
+		)
+		(pin "5"
+			(uuid "41e7c121-d9ef-40ea-a529-7f8001950876")
+		)
+		(pin "10"
+			(uuid "8b6dddfc-fb5c-49dd-ab35-8f35fbeb1d6e")
+		)
+		(pin "9"
+			(uuid "d67751d9-95d1-40d3-909c-52c5ded55dc5")
+		)
+		(pin "8"
+			(uuid "83d148c7-56d9-4295-ab64-541a9613c8a6")
+		)
+		(pin "7"
+			(uuid "b19a5579-f035-44f4-8d07-677080610865")
+		)
+		(pin "6"
+			(uuid "94139c99-3578-41e2-9d73-749c1b6296b5")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
-					(reference "JS500")
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
+					(reference "IC500")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 109.22 83.0072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d548eb-3eb6-4c65-888c-c0017b917a6d")
+		(property "Reference" "#PWR?"
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 109.22 79.1972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b199c770-98c6-4528-b958-936cd477f2b9")
+		)
+		(instances
+			(project ""
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 154.94 95.7072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2bf0265-a072-424e-990a-4bd89b1307bd")
+		(property "Reference" "#PWR?"
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 154.94 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "3a5846ec-a061-479d-a544-b43575e096dc")
+		)
+		(instances
+			(project ""
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1389,12 +1566,12 @@
 	(symbol
 		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
 		(at 109.22 95.7072 0)
-		(unit 1)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6455bfc2-3561-4eaa-81c5-304c18be4851")
+		(uuid "bafc57b4-2db6-4fd1-9c0f-1a240dbb9f6e")
 		(property "Reference" "C500"
 			(at 101.6 90.6272 0)
 			(effects
@@ -1541,31 +1718,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "7429bab2-a1ed-40a7-8a29-fc5c735c5730")
+			(uuid "d1b52bb6-d9f9-42d9-9122-baac0ecb2f03")
 		)
 		(pin "2"
-			(uuid "7a0d7269-2e51-415b-bfd6-19d5904acb17")
+			(uuid "79b2dce3-2246-458e-976f-40b9e3aa1137")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
 					(reference "C500")
-					(unit 1)
+					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Vreg_BAR")
-		(at 109.22 83.0072 180)
-		(unit 1)
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 160.02 85.5472 0)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "76af25e7-1ce7-4c14-a7be-25a84817074f")
-		(property "Reference" "#PWR?"
-			(at 109.22 83.0072 0)
+		(uuid "be155f27-72e0-45e3-be72-3f0922a8b348")
+		(property "Reference" "JS500"
+			(at 163.83 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 161.047 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 160.02 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,219 +1769,35 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Vreg"
-			(at 109.22 79.1972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 109.22 83.0072 0)
+			(at 160.02 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 109.22 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f15f394c-a79b-4869-8b2d-deb83609cdf4")
-		)
-		(instances
-			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_0_ADG704BRMZ_SamacSys.SchLib")
-		(at 124.46 83.0072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "797dae21-403c-4e5e-b25a-fc96743c039a")
-		(property "Reference" "IC500"
-			(at 129.54 80.4672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ADG704BRMZ"
-			(at 129.54 98.2472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-10N"
-			(at 124.46 83.0072 0)
+			(at 160.02 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Integrated Circuit"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69549.pdf"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.1mm"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Analog Devices"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "ADG704BRMZ"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "584-ADG704BRMZ"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG704BRMZ?qs=BpaRKvA4VqEkN1EGAKO1Aw%3D%3D"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "ADG704BRMZ"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/adg704brmz/analog-devices?utm_currency=USD&region=nac"
-			(at 124.46 83.0072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1b8172f-a4ae-45d4-beb8-3a48502b0612")
 		)
 		(pin "2"
-			(uuid "9e8b4dae-fe6a-4e23-a0c4-6999dea0a2a1")
+			(uuid "5ab73b3d-c510-4343-a8f3-d292002cae43")
 		)
-		(pin "3"
-			(uuid "b00d967b-f077-4956-b69c-d52e448a54c3")
-		)
-		(pin "4"
-			(uuid "337110df-e817-43af-9ce3-20482b9dce44")
-		)
-		(pin "5"
-			(uuid "9b66bffa-210f-4e4d-aba2-0a285abda66c")
-		)
-		(pin "10"
-			(uuid "8b99fe98-911c-4aaf-afa6-50f33c87b098")
-		)
-		(pin "9"
-			(uuid "0cfb77e0-d6b4-4e9e-a8f3-a125eff4158c")
-		)
-		(pin "8"
-			(uuid "850c35e4-7616-4ef7-b0ee-94ac11ed5a3c")
-		)
-		(pin "7"
-			(uuid "ef6348ec-af7e-49aa-ad2b-b4c6237f6059")
-		)
-		(pin "6"
-			(uuid "403649c0-a965-412b-bb7c-60965d44680f")
+		(pin "1"
+			(uuid "be0000a0-7724-4d22-863b-5a7bf8848460")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
-					(reference "IC500")
-					(unit 1)
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
+					(reference "JS500")
+					(unit 0)
 				)
 			)
 		)
@@ -1793,12 +1805,12 @@
 	(symbol
 		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
 		(at 170.18 85.5472 0)
-		(unit 1)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9790c5b3-0c82-410f-ad3c-d51f01306989")
+		(uuid "c8ff82a8-f851-43f8-ac39-9557a217366e")
 		(property "Reference" "JS502"
 			(at 173.99 85.5472 90)
 			(effects
@@ -1845,17 +1857,17 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4ec68deb-6cd2-4ee9-bb9d-383bf689e640")
-		)
 		(pin "1"
-			(uuid "6a6dc4a3-5aa1-4dc8-819d-f24910b58e36")
+			(uuid "a04d6ed7-ccf5-43af-9b85-8fdc196f63c4")
+		)
+		(pin "2"
+			(uuid "ca550743-5aab-408b-a76e-5efc0148958d")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
 					(reference "JS502")
-					(unit 1)
+					(unit 0)
 				)
 			)
 		)
@@ -1863,12 +1875,12 @@
 	(symbol
 		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
 		(at 165.1 85.5472 0)
-		(unit 1)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d6ff24f6-44a9-45ba-a450-a2aa3c4f1f43")
+		(uuid "d20feaa5-7a73-4ccb-8836-46c4227674a7")
 		(property "Reference" "JS501"
 			(at 168.91 85.5472 90)
 			(effects
@@ -1916,16 +1928,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "38d03c5a-78cc-4926-8ff7-eb2fbfec337c")
+			(uuid "b20de0dd-ec85-4d35-8821-90c624b92214")
 		)
 		(pin "2"
-			(uuid "bd254309-3237-402e-9625-61fdbda60dc5")
+			(uuid "a0667999-183a-4bcd-9b03-751dcce51fd3")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
 					(reference "JS501")
-					(unit 1)
+					(unit 0)
 				)
 			)
 		)
@@ -1938,7 +1950,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0a61321-1f3d-4067-a17f-811e415ba899")
+		(uuid "f56b4246-0494-4305-98b1-9dc6c5a8a803")
 		(property "Reference" "#PWR?"
 			(at 132.08 110.9472 0)
 			(effects
@@ -1981,73 +1993,11 @@
 			)
 		)
 		(pin ""
-			(uuid "c9bf6272-6c88-4563-9661-86c7ef043f2f")
+			(uuid "4e9877cf-dde4-4ffd-9c92-ce34b6df93e5")
 		)
 		(instances
 			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Vreg_BAR")
-		(at 132.08 105.8672 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8388dce-4c01-4751-ba24-78462f5da955")
-		(property "Reference" "#PWR?"
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vreg"
-			(at 132.08 102.0572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "140ed0cd-5a40-4435-9836-a384a48f2d3d")
-		)
-		(instances
-			(project ""
-				(path "/393b0c9a-2438-48e8-b071-be31c4f5e38a/a94e8097-0bc1-493e-a12a-e3a9ce0e9737/71d08972-f5b5-4826-bcad-08faca930c29"
+				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
 					(reference "#PWR?")
 					(unit 1)
 				)
