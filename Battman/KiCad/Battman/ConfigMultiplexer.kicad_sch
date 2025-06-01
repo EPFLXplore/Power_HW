@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "930cb9b5-1cff-4b9f-85c0-35b46f6838af")
+	(uuid "9ed5f835-d794-4d4b-9bbd-1f0eaeeab912")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Battman-altium-import:GND_LTC_H_BAR"
@@ -754,50 +754,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 223.52 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "40690fdf-d70b-427e-bca5-319df2e141da")
-	)
-	(text "A1"
-		(exclude_from_sim no)
-		(at 271.78 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c784b35-1d79-4e52-b3c3-f6a0108feadf")
-	)
-	(text "${FILENAME}"
-		(exclude_from_sim no)
-		(at 208.28 192.2272 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e628c40-f9d3-4e8e-a90c-513b06cc2784")
-	)
-	(text "${##}"
-		(exclude_from_sim no)
-		(at 259.588 202.3872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "831d206b-28b7-48f5-9fdf-20f2372a1886")
-	)
 	(text "Otto Riha"
 		(exclude_from_sim no)
 		(at 261.62 204.9272 0)
@@ -807,7 +763,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cb094735-cc4e-418f-a6d4-e26ced55f6e3")
+		(uuid "07c190c9-8809-4d5c-894e-53c4eab9fa9a")
 	)
 	(text "${#}"
 		(exclude_from_sim no)
@@ -818,7 +774,51 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e6636c11-9b05-434f-b514-1f692f2a8c10")
+		(uuid "1a03c9f8-a9ac-4f78-9dd8-ae5fc7f116c4")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 259.588 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cbd1cba-117f-44e9-a6fe-49f0796e1daa")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 271.78 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad46f145-4d6b-40db-b320-4fd2eb77b2ec")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3c434a8-8ceb-472b-a5ae-9dc63da32184")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7a90b9f-e1bc-4354-a012-34afe4e80513")
 	)
 	(text_box "Jumper for default setting when miultiplexer in A0=A1=0 position, max consumption 1uA"
 		(exclude_from_sim no)
@@ -840,211 +840,31 @@
 			)
 			(justify left top)
 		)
-		(uuid "8fe9f79c-d85d-4725-a26c-fe00772895bc")
-	)
-	(junction
-		(at 132.08 105.8672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "157c87db-3ce7-4274-a3a9-d13c4e24026e")
+		(uuid "3b6238dd-7ea4-41d4-89c1-0deddbc699dd")
 	)
 	(junction
 		(at 165.1 88.0872)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "294c120e-8722-4b21-b132-65dcd74cdc28")
-	)
-	(junction
-		(at 170.18 90.6272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "523e5c2c-cef6-4361-bf42-0401b70cc916")
+		(uuid "81b21199-4e7f-4b9c-96b9-3415adc938f4")
 	)
 	(junction
 		(at 132.08 110.9472)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ae785cc-dfff-400a-8e0b-38c1d0838c86")
+		(uuid "a8eab62e-1a68-401d-89af-889f6cdbf007")
 	)
-	(wire
-		(pts
-			(xy 132.08 105.8672) (xy 160.02 105.8672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082951d5-afaa-4578-b2a3-baf8c4aa3e58")
+	(junction
+		(at 170.18 90.6272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa9102a-1faf-4900-afc7-5dadca89a270")
 	)
-	(wire
-		(pts
-			(xy 165.1 88.0872) (xy 149.86 88.0872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd8f185-757f-452e-8268-b7447f577a4e")
-	)
-	(wire
-		(pts
-			(xy 114.3 95.7072) (xy 114.3 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2633f9fb-d881-4d94-ba67-93fd020ed56a")
-	)
-	(wire
-		(pts
-			(xy 149.86 77.9272) (xy 170.18 77.9272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3111e995-7d7c-43be-866e-79c83b620da5")
-	)
-	(wire
-		(pts
-			(xy 165.1 85.5472) (xy 165.1 88.0872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3473ee97-e2a2-4412-ad50-97af9d137457")
-	)
-	(wire
-		(pts
-			(xy 114.3 93.1672) (xy 124.46 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34c61c94-9186-4919-ba3d-7aa9c37ab2eb")
-	)
-	(wire
-		(pts
-			(xy 149.86 77.9272) (xy 149.86 83.0072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afd5352-69dd-4cb2-b8a8-2412a1a4eaa2")
-	)
-	(wire
-		(pts
-			(xy 160.02 85.5472) (xy 149.86 85.5472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53c6bbed-5179-436d-97dd-410b52f77598")
-	)
-	(wire
-		(pts
-			(xy 109.22 83.0072) (xy 124.46 83.0072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5501db5d-2530-4010-8dc9-8c2833891028")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.7072) (xy 114.3 95.7072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584922ff-9289-4e2e-b1cd-cb4c72c7e3e0")
-	)
-	(wire
-		(pts
-			(xy 170.18 85.5472) (xy 170.18 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "691049b1-81ae-4af5-84d8-78f3fd4729cd")
-	)
-	(wire
-		(pts
-			(xy 165.1 88.0872) (xy 165.1 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f254568-9de3-4bff-a592-8b4d8b268395")
-	)
-	(wire
-		(pts
-			(xy 124.46 105.8672) (xy 132.08 105.8672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0c62cc-bf7d-4c81-9d87-76479aff6c47")
-	)
-	(wire
-		(pts
-			(xy 170.18 90.6272) (xy 149.86 90.6272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c92ef01-0ab2-4dba-8b4d-94d76b983854")
-	)
-	(wire
-		(pts
-			(xy 165.1 108.4072) (xy 124.46 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a922dacd-0bff-4aa2-8e36-c43d7ffde7c3")
-	)
-	(wire
-		(pts
-			(xy 149.86 95.7072) (xy 149.86 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51cabfa-6889-4eac-b3d2-a58cfe736db9")
-	)
-	(wire
-		(pts
-			(xy 132.08 110.9472) (xy 170.18 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b8f144-58c3-47b4-a847-e64edcca49eb")
-	)
-	(wire
-		(pts
-			(xy 124.46 110.9472) (xy 132.08 110.9472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91d0f0a-197c-41ff-a965-7e3e110bf18d")
+	(junction
+		(at 132.08 105.8672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae2ec98-ed56-4813-9fd2-f1ea0c91b5e1")
 	)
 	(wire
 		(pts
@@ -1054,17 +874,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c1c23066-d1d4-450f-b914-acdc61244f81")
+		(uuid "2f511a23-2f61-4ff6-8d94-ef636856c1b4")
 	)
 	(wire
 		(pts
-			(xy 154.94 95.7072) (xy 149.86 95.7072)
+			(xy 114.3 95.7072) (xy 114.3 93.1672)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df8eada1-cb74-4fc1-a213-1826d35013a3")
+		(uuid "3034405b-4ce5-4e1c-9e24-a5a0d820e29a")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.5472) (xy 165.1 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36154fb1-4dfb-4d94-ad32-63f97a425861")
+	)
+	(wire
+		(pts
+			(xy 124.46 110.9472) (xy 132.08 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528df7d3-b390-431d-9095-07a87ab02fdf")
 	)
 	(wire
 		(pts
@@ -1074,18 +914,167 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e63b78f3-fae6-46a0-829f-8cd351675e3a")
+		(uuid "572aeea9-5be2-45fa-91b3-e8cc3d65e0ec")
 	)
-	(hierarchical_label "V-"
-		(shape input)
-		(at 124.46 110.9472 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 160.02 85.5472) (xy 149.86 85.5472)
 		)
-		(uuid "0f9a3ab1-5df7-45ba-bec8-9e8ca31d5a1d")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9df8bd-166e-4868-988a-da8794762e65")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.0872) (xy 149.86 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de8a1bc-69a2-4133-bc5c-4c53b4c99a57")
+	)
+	(wire
+		(pts
+			(xy 170.18 90.6272) (xy 149.86 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eea09c1-a03b-4296-9363-8c95d3d7c691")
+	)
+	(wire
+		(pts
+			(xy 149.86 95.7072) (xy 149.86 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808a03dc-008e-47e7-8e0c-168f732802a7")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.7072) (xy 114.3 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e23159-1ebf-4cf7-a7c3-fe0d384b5124")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.1672) (xy 124.46 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9763e04f-51e6-4179-a182-f1051310ccf4")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.5472) (xy 170.18 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6cfc2f-5a55-42e7-ad21-e6e5f28205ad")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.8672) (xy 160.02 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a104939b-bad7-42eb-b154-3e47c4f3c847")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.9472) (xy 170.18 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c6518-693b-4845-aa5e-2562157a5c1f")
+	)
+	(wire
+		(pts
+			(xy 165.1 108.4072) (xy 124.46 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b090179a-abad-4ddc-9d13-568e3a0a7cac")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.9272) (xy 149.86 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a02cc4-4c18-4611-9239-6a0ae4db7062")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.9272) (xy 170.18 77.9272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c711e83e-86d1-488e-9944-361250a9f69f")
+	)
+	(wire
+		(pts
+			(xy 109.22 83.0072) (xy 124.46 83.0072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce40eed3-df8a-4eba-872e-18947dbaa519")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.7072) (xy 149.86 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02381f7-27e2-44e0-aba7-dd3d2dc3783e")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.0872) (xy 165.1 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e047d4d7-ecb8-42fd-b075-8642139f212c")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.8672) (xy 132.08 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41abbca-fac1-4ddd-8e89-9990eaffa36f")
 	)
 	(hierarchical_label "A1"
 		(shape input)
@@ -1096,29 +1085,7 @@
 			)
 			(justify right)
 		)
-		(uuid "21c46a16-5c80-4dbc-8be2-97ed82a2b459")
-	)
-	(hierarchical_label "A0"
-		(shape input)
-		(at 124.46 85.5472 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64bdd4ed-cb58-4697-bcc0-27c07e2a89c0")
-	)
-	(hierarchical_label "Out"
-		(shape output)
-		(at 124.46 88.0872 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc644703-b921-4ad2-80a8-4878836bba53")
+		(uuid "64af1a35-355d-416b-8dd0-bb720d0a354d")
 	)
 	(hierarchical_label "Vreg"
 		(shape input)
@@ -1129,7 +1096,40 @@
 			)
 			(justify right)
 		)
-		(uuid "efb9006f-e2e8-4f14-8ca8-8c37a8f26441")
+		(uuid "8dda0452-8404-4abd-9b6e-82658470bbfd")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 124.46 88.0872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6be11b8-307f-4167-8372-1c17e0e3fa99")
+	)
+	(hierarchical_label "A0"
+		(shape input)
+		(at 124.46 85.5472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a821bcee-c9b3-4c66-864d-7fdf2b4d8856")
+	)
+	(hierarchical_label "V-"
+		(shape input)
+		(at 124.46 110.9472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8c3db1b-7aa2-47c8-96f1-a775d08ec649")
 	)
 	(hierarchical_label "Vref"
 		(shape input)
@@ -1140,19 +1140,38 @@
 			)
 			(justify right)
 		)
-		(uuid "f1c28ba8-c2eb-4a04-b083-304b8950e057")
+		(uuid "da57ea37-9e0c-4471-8e7a-d940ad0fe6d2")
 	)
 	(symbol
-		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
-		(at 109.22 95.7072 0)
-		(unit 1)
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 165.1 85.5472 0)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ea6f8da-0163-416a-85fa-7925278db7ab")
-		(property "Reference" "#PWR?"
-			(at 109.22 95.7072 0)
+		(uuid "02a61840-ddd6-430e-b974-078650eaa2f8")
+		(property "Reference" "JS500B"
+			(at 168.91 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 166.127 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 165.1 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,61 +1179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_LTC_H"
-			(at 109.22 99.5172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 109.22 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 95.7072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9efc87ea-a526-4ebb-a7f2-0794aa510c8e")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Vreg_BAR")
-		(at 132.08 105.8672 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a51c771-9b60-4a74-88f0-e40ebb379ba1")
-		(property "Reference" "#PWR?"
-			(at 132.08 105.8672 0)
+			(at 165.1 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,46 +1188,54 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Vreg"
-			(at 132.08 102.0572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Description" ""
-			(at 132.08 105.8672 0)
+			(at 165.1 85.5472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "15e4e982-0093-4a8f-860f-b921cca3ff32")
+		(pin "1"
+			(uuid "c259d49c-fc90-4d20-b663-a5b3aee994e6")
+		)
+		(pin "2"
+			(uuid "f583a6dc-3c9e-4c73-82d6-2b26566a7563")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "#PWR?")
-					(unit 1)
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "JS501H")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "JS501E")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "JS501G")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "JS501F")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "JS501D")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "JS500B")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "JS501C")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "JS501A")
+					(unit 0)
 				)
 			)
 		)
@@ -1274,8 +1248,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9473c6fc-7d8c-4145-b2ac-3561c143dded")
-		(property "Reference" "IC500"
+		(uuid "09a23268-c5d2-472c-bb64-b2132a42f6ad")
+		(property "Reference" "IC500B"
 			(at 129.54 80.4672 0)
 			(effects
 				(font
@@ -1400,40 +1374,436 @@
 				(hide yes)
 			)
 		)
+		(pin "6"
+			(uuid "1325aab1-cb33-4a4f-8a39-77d9c533d9e6")
+		)
 		(pin "1"
-			(uuid "439b47ab-8d75-47e6-a575-4dfad71f1605")
+			(uuid "6c958db5-82bc-4bfe-a04b-5e3f3e5bf624")
 		)
 		(pin "2"
-			(uuid "c97a1e51-008b-4b60-ba09-80e06ea5e60b")
+			(uuid "9e5f8c25-e45f-4274-ac48-99422813dbd4")
 		)
 		(pin "3"
-			(uuid "fd8d4240-6f77-4360-8d00-e8a1f679bf55")
+			(uuid "cc232720-3600-42d6-a977-51b63a4ac298")
 		)
 		(pin "4"
-			(uuid "9be41469-e0e1-4bc8-a286-53f473ebb182")
+			(uuid "aeef770a-bbb7-43cb-9090-d35f3741c324")
 		)
 		(pin "5"
-			(uuid "41e7c121-d9ef-40ea-a529-7f8001950876")
+			(uuid "81c38565-ad12-4d94-af58-53f480095ea9")
 		)
 		(pin "10"
-			(uuid "8b6dddfc-fb5c-49dd-ab35-8f35fbeb1d6e")
+			(uuid "cacbece3-c27d-458a-81be-eaf63b2a0558")
 		)
 		(pin "9"
-			(uuid "d67751d9-95d1-40d3-909c-52c5ded55dc5")
+			(uuid "20fbd8f0-2053-4a66-88e4-22908c8d803c")
 		)
 		(pin "8"
-			(uuid "83d148c7-56d9-4295-ab64-541a9613c8a6")
+			(uuid "38c781c3-7c7e-4641-9284-ab6f644b798e")
 		)
 		(pin "7"
-			(uuid "b19a5579-f035-44f4-8d07-677080610865")
-		)
-		(pin "6"
-			(uuid "94139c99-3578-41e2-9d73-749c1b6296b5")
+			(uuid "e2791cb1-1456-4634-89da-29ac5b87bb44")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "IC500")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "IC500H")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "IC500E")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "IC500G")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "IC500F")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "IC500D")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "IC500B")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "IC500C")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "IC500A")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Vreg_BAR")
+		(at 132.08 105.8672 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c2ae25e-8b87-4390-8259-bd66b26f41b9")
+		(property "Reference" "#PWR04"
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vreg"
+			(at 132.08 102.0572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "1238524b-3cc4-4cf9-9fc2-ef3011be467b")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
+		(at 132.08 110.9472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ef44e24-1609-4845-96a9-847b8bf07d1e")
+		(property "Reference" "#PWR05"
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_LTC_H"
+			(at 132.08 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 110.9472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "87c46ee2-37a2-4895-8cb4-8250f826364a")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
+		(at 109.22 95.7072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5263d4e1-1dc8-4fee-8c00-22a6c7495180")
+		(property "Reference" "#PWR02"
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_LTC_H"
+			(at 109.22 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f9487f4d-8ad6-457c-a944-35bd5dd04f20")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "#PWR032")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
+		(at 170.18 85.5472 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5976e5ea-987f-4e5b-a01f-c266bcf90d7c")
+		(property "Reference" "JS500B"
+			(at 173.99 85.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 171.207 85.1312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SolderJumper"
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62741e7f-9e24-43d3-bf5c-f4aed7070cea")
+		)
+		(pin "1"
+			(uuid "c52d7e9a-5b50-4012-a6c8-53b8cfa4faa7")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "JS502H")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "JS502E")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "JS502G")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "JS502F")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "JS502D")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "JS500B")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "JS502C")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "JS502A")
 					(unit 0)
 				)
 			)
@@ -1447,8 +1817,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8d548eb-3eb6-4c65-888c-c0017b917a6d")
-		(property "Reference" "#PWR?"
+		(uuid "5bcd6631-9492-4ffb-9986-c0024a7f22f4")
+		(property "Reference" "#PWR01"
 			(at 109.22 83.0072 0)
 			(effects
 				(font
@@ -1490,12 +1860,40 @@
 			)
 		)
 		(pin ""
-			(uuid "b199c770-98c6-4528-b958-936cd477f2b9")
+			(uuid "746e790e-4dec-4240-9217-97824e4fbc42")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "#PWR?")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1509,8 +1907,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b2bf0265-a072-424e-990a-4bd89b1307bd")
-		(property "Reference" "#PWR?"
+		(uuid "681a4537-1a73-4e37-a221-288237135100")
+		(property "Reference" "#PWR03"
 			(at 154.94 95.7072 0)
 			(effects
 				(font
@@ -1552,12 +1950,40 @@
 			)
 		)
 		(pin ""
-			(uuid "3a5846ec-a061-479d-a544-b43575e096dc")
+			(uuid "4334e8c0-5119-4e04-8e05-3fa8cd30e498")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "#PWR?")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1571,9 +1997,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bafc57b4-2db6-4fd1-9c0f-1a240dbb9f6e")
-		(property "Reference" "C500"
-			(at 101.6 90.6272 0)
+		(uuid "6d7199de-7a08-4d2e-ad98-b994431f2ae3")
+		(property "Reference" "C500B"
+			(at 100.076 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +2008,7 @@
 			)
 		)
 		(property "Value" "100 nF, 100V, X7R"
-			(at 91.44 93.1672 0)
+			(at 90.17 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,15 +2144,43 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1b52bb6-d9f9-42d9-9122-baac0ecb2f03")
+			(uuid "847aab9d-82c9-4959-b2c9-847049a2289b")
 		)
 		(pin "2"
-			(uuid "79b2dce3-2246-458e-976f-40b9e3aa1137")
+			(uuid "ab5d5431-4a9d-48e9-b21c-130cec8bb6a9")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "C500")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "C500H")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "C500E")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "C500G")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "C500F")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "C500D")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "C500B")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "C500C")
+					(unit 0)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "C500A")
 					(unit 0)
 				)
 			)
@@ -1740,8 +2194,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be155f27-72e0-45e3-be72-3f0922a8b348")
-		(property "Reference" "JS500"
+		(uuid "c348597d-3681-42eb-922b-865a535aa83a")
+		(property "Reference" "JS500B"
 			(at 163.83 85.5472 90)
 			(effects
 				(font
@@ -1787,219 +2241,45 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5ab73b3d-c510-4343-a8f3-d292002cae43")
-		)
 		(pin "1"
-			(uuid "be0000a0-7724-4d22-863b-5a7bf8848460")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "JS500")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
-		(at 170.18 85.5472 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8ff82a8-f851-43f8-ac39-9557a217366e")
-		(property "Reference" "JS502"
-			(at 173.99 85.5472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 171.207 85.1312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SolderJumper"
-			(at 170.18 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a04d6ed7-ccf5-43af-9b85-8fdc196f63c4")
+			(uuid "fda8a9d3-3a1d-414a-a67a-ddb250081203")
 		)
 		(pin "2"
-			(uuid "ca550743-5aab-408b-a76e-5efc0148958d")
+			(uuid "139e7b9e-1085-4003-88bc-55f77a9e9b78")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "JS502")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/156d7add-d9c2-405a-b2f6-7478852c6ed0"
+					(reference "JS500H")
 					(unit 0)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Repeat(Multiplexer,1,8)_1_SolderJumper_SamacSys.SchLib")
-		(at 165.1 85.5472 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d20feaa5-7a73-4ccb-8836-46c4227674a7")
-		(property "Reference" "JS501"
-			(at 168.91 85.5472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 166.127 85.1312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SolderJumper"
-			(at 165.1 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 85.5472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b20de0dd-ec85-4d35-8821-90c624b92214")
-		)
-		(pin "2"
-			(uuid "a0667999-183a-4bcd-9b03-751dcce51fd3")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "JS501")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/3f302bf9-6acb-4546-b02f-f0287eec822f"
+					(reference "JS500E")
 					(unit 0)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:GND_LTC_H_BAR")
-		(at 132.08 110.9472 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56b4246-0494-4305-98b1-9dc6c5a8a803")
-		(property "Reference" "#PWR?"
-			(at 132.08 110.9472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/4b2f105b-e378-4dd1-93cd-0802c9573070"
+					(reference "JS500G")
+					(unit 0)
 				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_LTC_H"
-			(at 132.08 114.7572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/5932e243-411e-4f4e-a327-3b51e462ccbb"
+					(reference "JS500F")
+					(unit 0)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 110.9472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/78811150-8056-4d26-a2cc-29007a317d47"
+					(reference "JS500D")
+					(unit 0)
 				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 110.9472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/88c0588e-41d9-4765-8572-a9812594c919"
+					(reference "JS500B")
+					(unit 0)
 				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 110.9472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/bdd3df0b-1d9d-47a5-b093-529cb4470f77"
+					(reference "JS500C")
+					(unit 0)
 				)
-			)
-		)
-		(pin ""
-			(uuid "4e9877cf-dde4-4ffd-9c92-ce34b6df93e5")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/a6421925-c533-4c7f-91e8-b399bbcde96e/87996e0f-63cf-42c0-b767-5d67e986fec7"
-					(reference "#PWR?")
-					(unit 1)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/34ee213a-8c0a-4f50-8108-9a0e240ea16e/ec24c7a7-90ee-40cb-9376-d08b621f5e00"
+					(reference "JS500A")
+					(unit 0)
 				)
 			)
 		)

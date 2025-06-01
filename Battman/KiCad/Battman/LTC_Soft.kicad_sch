@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "970762e1-88ca-48a6-a5af-3629656c87d9")
+	(uuid "0e4ace56-4a56-4662-a6df-11903da1188d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Battman-altium-import:Batt_GND_LTC_S_BAR"
@@ -2391,39 +2391,6 @@
 			"S10"
 		)
 	)
-	(text "${##}"
-		(exclude_from_sim no)
-		(at 259.588 202.3872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a857c04-5d24-4c7e-97a0-bfed6ab4f9d2")
-	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 223.52 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd37474-0743-440e-ad9e-047707fcd2a9")
-	)
-	(text "Otto Riha"
-		(exclude_from_sim no)
-		(at 261.62 204.9272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bc0d72e-0131-4803-8809-9fa2145c511a")
-	)
 	(text "A1"
 		(exclude_from_sim no)
 		(at 271.78 199.8472 0)
@@ -2433,18 +2400,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ae7cc94c-7bdd-48c4-b797-8d2a898c69e3")
-	)
-	(text "${FILENAME}"
-		(exclude_from_sim no)
-		(at 208.28 192.2272 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7dc5e26-b52b-4aba-9887-2e29f0de395a")
+		(uuid "0ca8e9bb-3855-48ab-bb22-e77ead2fbe44")
 	)
 	(text "${#}"
 		(exclude_from_sim no)
@@ -2455,11 +2411,55 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "dc3790af-c489-45d6-bf30-a263f49b6817")
+		(uuid "17b9162e-78b1-4918-886f-a62fc50e9868")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "59cda65e-fec8-486f-ac56-5fd5ceb949d0")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 259.588 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbadd56a-e3ce-41dd-8880-0baf658b2c9a")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "f90623f3-6b1f-4b20-bf0c-0ce6ee2e3468")
+	)
+	(text "Otto Riha"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb72fcde-d1ff-4aed-87f5-4c5ed0d29b36")
 	)
 	(text_box "Transistor can handle 1W which is 28mA at 42V input, enough for the LTC6811-2 consuming 12.3mA in worstcase"
 		(exclude_from_sim no)
-		(at 245.11 75.3872 0)
+		(at 245.11 74.93 0)
 		(size -29.21 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2477,947 +2477,1369 @@
 			)
 			(justify left top)
 		)
-		(uuid "c17acf37-feb9-4a10-a82a-eaaee55396c6")
+		(uuid "aaa9155b-7495-4019-97f3-8fa501d718e4")
 	)
 	(junction
-		(at 170.18 124.9172)
+		(at 71.12 56.3372)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2cea1126-de83-44f5-b3be-d874b3e8d0d3")
+		(uuid "13222bcc-7e2f-4333-99c0-d088464e738b")
 	)
 	(junction
-		(at 163.83 79.1972)
+		(at 175.26 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4facb41a-1e19-4398-81ef-f9b4908b4983")
+		(uuid "14e82462-0e62-4d24-8eaf-ee96e02c2148")
 	)
 	(junction
-		(at 116.84 79.1972)
+		(at 187.96 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "508b4c27-419f-4f0f-8c72-640c8a8dc9d5")
+		(uuid "31b7a911-39ed-453c-9c80-a7d29e829d91")
 	)
 	(junction
-		(at 157.48 76.6572)
+		(at 116.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6785c123-0cc6-4b5e-9da8-27e1818ab585")
+		(uuid "40216a60-2702-48eb-955f-c102098cdd19")
 	)
 	(junction
-		(at 172.72 129.9972)
+		(at 170.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88fb9db0-13b4-4d96-88f4-57bf1683f304")
+		(uuid "4d36a7ba-4b38-4d70-86e9-1beacab5828b")
 	)
 	(junction
-		(at 187.96 117.2972)
+		(at 195.58 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e26a05c-69d7-4b39-ab62-82dbcafedab9")
+		(uuid "84e3df08-9f3c-42f8-a17a-7d5c8108f81b")
 	)
 	(junction
-		(at 58.42 95.25)
+		(at 160.02 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "900dc56a-7441-4196-8cbb-b054df44699f")
+		(uuid "925131d6-9fdc-42a0-8aaa-ba6628079fe4")
 	)
 	(junction
-		(at 195.58 142.6972)
+		(at 163.83 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "941be8f7-900e-4523-b898-5c1ac286996b")
+		(uuid "aa431793-cbae-405c-9990-4f3b75f81868")
 	)
 	(junction
-		(at 176.53 84.2772)
+		(at 66.04 76.6572)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97c82f29-35e9-440f-9d29-89edb7110018")
+		(uuid "aacd1ca6-d18b-494f-a607-576ae6567026")
 	)
 	(junction
-		(at 162.56 94.4372)
+		(at 116.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cd54d74-d092-4652-9013-648539bd939f")
+		(uuid "ae65d352-c114-4de2-9d3d-d43919699de6")
 	)
 	(junction
-		(at 170.18 81.7372)
+		(at 170.18 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6acd2f1-0b79-4b6f-8dda-d09a00d0027a")
+		(uuid "c86c53c9-0223-4199-aacf-bf45ec205437")
 	)
 	(junction
-		(at 53.34 115.57)
+		(at 162.56 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cdee9b88-de00-4c27-9de8-2efde1566588")
+		(uuid "d467cb55-eebd-48cf-adbe-acdede159b12")
 	)
 	(junction
-		(at 116.84 74.1172)
+		(at 172.72 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da0d358f-a69f-49a0-8564-8dd86c743ac4")
+		(uuid "d5dc0a38-3eea-4d28-bdfd-2513251eb0e8")
 	)
 	(junction
-		(at 175.26 135.0772)
+		(at 176.53 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f71f40b4-584b-4a70-88a5-1f96caa97a50")
+		(uuid "ee6f1dac-4e4b-4192-8084-60aac8546644")
 	)
 	(junction
-		(at 160.02 86.8172)
+		(at 157.48 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb589438-3375-42cc-b68b-66bae2d0eaf2")
+		(uuid "f42e52cf-04f4-4b5f-8582-a7d809af8c3b")
 	)
 	(no_connect
-		(at 119.38 71.5772)
-		(uuid "28197169-1e30-4b26-adf5-e17dad00d6e7")
+		(at 119.38 71.12)
+		(uuid "59edb5d9-dd20-48cb-9c68-537efe230944")
 	)
 	(no_connect
-		(at 119.38 76.6572)
-		(uuid "59a95b43-7c4c-45a0-a76f-434b35db5880")
+		(at 154.94 88.9)
+		(uuid "8d2c7f93-6a1c-48ab-aa0c-0dc53f52b908")
 	)
 	(no_connect
-		(at 154.94 89.3572)
-		(uuid "e8cfa475-b2d9-4078-a9fe-621e3d5889e9")
+		(at 119.38 76.2)
+		(uuid "999ad344-cb7e-463a-a0c3-1d408511e309")
 	)
 	(bus_entry
-		(at 101.6 114.7572)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce61f0b-4321-478b-a98e-83ef1bd2847c")
-	)
-	(bus_entry
-		(at 101.6 89.3572)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f6308ec-c69e-481f-b746-fa8465f4746d")
-	)
-	(bus_entry
-		(at 101.6 96.9772)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "257222f7-e486-4e72-8579-caab689e6c25")
-	)
-	(bus_entry
-		(at 101.6 124.9172)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48917dfe-1cb6-42ad-a870-111d3f3786e3")
-	)
-	(bus_entry
-		(at 101.6 107.1372)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2884dd-6311-4d53-a945-e3dcbc156e93")
-	)
-	(bus_entry
-		(at 101.6 84.2772)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57813a48-3cce-485e-ab45-9b8b3304f615")
-	)
-	(bus_entry
-		(at 101.6 112.2172)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58319f2c-e64e-4f1f-b8c7-e88dbdd2bc24")
-	)
-	(bus_entry
-		(at 101.6 104.5972)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a63f9a6-a5a5-43e5-8132-750850b11167")
-	)
-	(bus_entry
-		(at 179.07 81.7372)
+		(at 179.07 81.28)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68d48ff8-cfa7-4c9c-8f2a-7dcd17a48b82")
+		(uuid "116e0056-0ed2-4c24-9d4c-59cecfed4903")
 	)
 	(bus_entry
-		(at 101.6 129.9972)
+		(at 101.6 127)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cf69cd4-8872-497e-af3c-444e5e7263a1")
+		(uuid "1a954d5c-bea8-46fc-8f25-eef5ca8612d6")
 	)
 	(bus_entry
-		(at 101.6 81.7372)
+		(at 101.6 99.06)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "803e38bb-71e6-46cf-b44f-ee1240a85662")
+		(uuid "1bd7e674-cfcb-4211-a52f-eb2b12a1941c")
 	)
 	(bus_entry
-		(at 101.6 86.8172)
+		(at 101.6 101.6)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80c6bc00-18c7-4fcd-bf6c-aba2e4459e45")
+		(uuid "233a5c75-d776-40d1-8c2d-294f7b294322")
 	)
 	(bus_entry
-		(at 101.6 117.2972)
+		(at 101.6 93.98)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84900b6e-a998-44d0-96c9-0e42955623c5")
+		(uuid "2d149401-e430-4b13-a299-ce5df583ae05")
 	)
 	(bus_entry
-		(at 101.6 122.3772)
+		(at 101.6 114.3)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84dcea34-03d0-431c-8cfc-b261ae331b71")
+		(uuid "4c20ff97-9e17-4b1c-aaf5-670f55d651e9")
 	)
 	(bus_entry
-		(at 179.07 84.2772)
+		(at 179.07 83.82)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8544ce02-14b7-4d0f-89ba-711351113da2")
+		(uuid "4c75f3ba-6737-4539-a5ad-3ce72f38a4e6")
 	)
 	(bus_entry
-		(at 101.6 119.8372)
+		(at 101.6 121.92)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "855efc27-a37c-4cca-a76e-e80bbc7c7f50")
+		(uuid "4e69157a-bdef-4255-ae87-8f192d58ec58")
 	)
 	(bus_entry
-		(at 101.6 109.6772)
+		(at 101.6 86.36)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "976f9951-911e-4e7f-8118-417174e8a980")
+		(uuid "5383e6fd-b646-470c-8677-0313ebaccbb2")
 	)
 	(bus_entry
-		(at 179.07 79.1972)
+		(at 179.07 76.2)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a448d289-7661-4d42-9922-549cdf33ebc4")
+		(uuid "5ff05f4f-2688-4afd-8c15-c30bf6522882")
 	)
 	(bus_entry
-		(at 101.6 94.4372)
+		(at 101.6 88.9)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b70cf175-1cf7-4fa6-8ef1-0fba77d9506f")
+		(uuid "65586aa8-a91e-4e43-a989-14a45e54fcd1")
 	)
 	(bus_entry
-		(at 101.6 99.5172)
+		(at 101.6 124.46)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb55f646-591a-4cff-aabf-d10b23da6613")
+		(uuid "6f970176-c786-4fec-82fe-6fecaec5c8af")
 	)
 	(bus_entry
-		(at 179.07 76.6572)
+		(at 101.6 104.14)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7841e0-7b78-47f8-8106-b95f2ee80c3f")
+	)
+	(bus_entry
+		(at 101.6 81.28)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ba18e6-6872-4d16-8e35-e669ab779847")
+	)
+	(bus_entry
+		(at 101.6 116.84)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2562ae-457b-48a9-b118-ea2278fa5742")
+	)
+	(bus_entry
+		(at 101.6 106.68)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97734230-2e50-44ed-a885-a117317bd332")
+	)
+	(bus_entry
+		(at 101.6 83.82)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b204540-643a-4342-bf48-07d22674676e")
+	)
+	(bus_entry
+		(at 101.6 78.74)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f9327a-3d47-4c2c-878e-f77ced7f6bdb")
+	)
+	(bus_entry
+		(at 101.6 109.22)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3971991-28bb-4a6e-9292-4a967c88137e")
+	)
+	(bus_entry
+		(at 179.07 78.74)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5281c9a-7cb2-4b05-9148-1369d7405c6a")
+		(uuid "c3dab576-6cdc-473d-9409-25a9a6eafdbf")
 	)
 	(bus_entry
-		(at 101.6 79.1972)
+		(at 101.6 119.38)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d66f1847-5159-4f71-8c20-65cd543a84b6")
+		(uuid "d15a9c02-fda6-4453-8540-a47dca5660f6")
 	)
 	(bus_entry
-		(at 101.6 127.4572)
+		(at 101.6 91.44)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d71443e5-3918-4982-ba29-310886cdc374")
+		(uuid "efecbf8b-b30b-4b80-bd8f-82a2ab749b06")
 	)
 	(bus_entry
-		(at 101.6 102.0572)
+		(at 101.6 129.54)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f394bda5-9835-4930-9bfb-b43bd7f9b518")
+		(uuid "f17a86af-bde6-4017-9e45-9823202fd6c0")
 	)
 	(bus_entry
-		(at 101.6 91.8972)
+		(at 101.6 96.52)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbb0d954-ec3b-436c-8218-54a94fbc2975")
+		(uuid "f31d10c3-2973-42a1-9146-8957c4f99a3b")
+	)
+	(bus_entry
+		(at 101.6 111.76)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb67e7fd-c172-427f-b8b9-52335652b2ed")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016d0f4f-8db5-416e-b562-1338b8dc5661")
+	)
+	(wire
+		(pts
+			(xy 121.92 132.08) (xy 154.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a71244-26e5-4cf8-960b-496097a851a8")
 	)
 	(bus
 		(pts
-			(xy 99.06 117.2972) (xy 99.06 114.7572)
+			(xy 181.61 81.28) (xy 184.15 81.28)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "0096d98a-6a8e-4e21-a796-ea650ca996c5")
+		(uuid "045a3333-2abf-46e1-ac6b-28bf88d326cf")
+	)
+	(wire
+		(pts
+			(xy 154.94 66.04) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b23700e-d3b8-4675-89de-d9bb070a3ba2")
+	)
+	(wire
+		(pts
+			(xy 177.8 157.48) (xy 170.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b82c1ff-14f6-47d3-81c2-1fc3659b4ae3")
+	)
+	(wire
+		(pts
+			(xy 195.58 142.24) (xy 195.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf3560d-d29a-4046-a846-a1205e1f1afe")
 	)
 	(bus
 		(pts
-			(xy 99.06 89.3572) (xy 99.06 86.8172)
+			(xy 99.06 86.36) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "051d885b-4787-40ed-820c-4622ac9edc93")
+		(uuid "0c2bee25-c3ce-402a-b3c8-d7e03a505858")
+	)
+	(wire
+		(pts
+			(xy 116.84 73.66) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e47a291-77ba-41d5-95b7-1ff4e35d2a41")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d05e7d-37ea-4805-8826-f7ed7549be8c")
+	)
+	(wire
+		(pts
+			(xy 71.12 56.3372) (xy 71.12 63.9572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d96b92-39de-45ee-b424-76c8498df7d8")
+	)
+	(wire
+		(pts
+			(xy 116.84 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae3ca08-47cc-44b1-817f-c6847e5ba655")
 	)
 	(bus
 		(pts
-			(xy 99.06 122.3772) (xy 99.06 119.8372)
+			(xy 184.15 81.28) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "05c31040-0b9f-4373-8b3f-0ad5f34cbd35")
+		(uuid "1ebaf287-9871-4634-acf6-d945cc696ec2")
 	)
 	(wire
 		(pts
-			(xy 180.34 124.9172) (xy 170.18 124.9172)
+			(xy 198.12 116.84) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06a7d089-f8d5-4e89-b5d7-c4dcebff7b1d")
+		(uuid "21a4a638-b499-4e98-9e66-b2953b488cf0")
 	)
 	(wire
 		(pts
-			(xy 154.94 99.5172) (xy 187.96 99.5172)
+			(xy 172.72 129.54) (xy 172.72 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0710c6c9-1154-4825-bf79-017bc0b1aabc")
+		(uuid "25f6e8f6-35d5-4504-b9f2-d51131b60f6a")
 	)
 	(wire
 		(pts
-			(xy 187.96 99.5172) (xy 187.96 104.5972)
+			(xy 170.18 81.28) (xy 154.94 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "079fa951-a510-4c02-883e-4f3a69e4c272")
+		(uuid "27c603aa-6fe4-48de-9571-fa181ea4fdf4")
 	)
 	(wire
 		(pts
-			(xy 116.84 79.1972) (xy 101.6 79.1972)
+			(xy 187.96 99.06) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a4e20b7-2bb1-4923-9c76-2b085125a11a")
-	)
-	(wire
-		(pts
-			(xy 172.72 129.9972) (xy 172.72 150.3172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f024618-2abf-4c93-b036-3458d6357421")
-	)
-	(wire
-		(pts
-			(xy 179.07 79.1972) (xy 163.83 79.1972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e16db8-2a95-4de8-8e3c-51dbb5806aed")
-	)
-	(wire
-		(pts
-			(xy 180.34 135.0772) (xy 175.26 135.0772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1423529d-d313-4e8d-8043-b6a7f369e361")
-	)
-	(wire
-		(pts
-			(xy 170.18 124.9172) (xy 170.18 119.8372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14f7f593-2203-4380-9634-11086a1c6a77")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.6572) (xy 157.48 76.6572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162ba1c9-2c1d-4090-809b-c3c544daf1cb")
-	)
-	(wire
-		(pts
-			(xy 154.94 109.6772) (xy 154.94 112.2172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b4f711c-b340-4f61-b545-0cc2301c1422")
-	)
-	(wire
-		(pts
-			(xy 101.6 117.2972) (xy 119.38 117.2972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2450bb-1359-4853-af1d-fe31f72b81b6")
-	)
-	(wire
-		(pts
-			(xy 119.38 119.8372) (xy 101.6 119.8372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e6c10e1-2b7f-49fa-8af3-b2cb692f7c4f")
-	)
-	(wire
-		(pts
-			(xy 185.42 91.8972) (xy 185.42 86.8172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235cd313-baa5-41ac-bcbd-d2a9fd5b3153")
-	)
-	(wire
-		(pts
-			(xy 64.193 137.6172) (xy 68.58 137.6172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244607ff-5dc0-41b8-8ccb-8807da258674")
-	)
-	(wire
-		(pts
-			(xy 160.02 74.1172) (xy 154.94 74.1172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27473a1c-b262-47ff-a96c-8b52709562c0")
-	)
-	(wire
-		(pts
-			(xy 154.94 122.3772) (xy 157.48 122.3772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27fcab6f-f788-49da-8011-ea3f786c4e32")
+		(uuid "2c59ec52-39ae-4a25-94ca-4951485304b6")
 	)
 	(bus
 		(pts
-			(xy 99.06 109.6772) (xy 99.06 107.1372)
+			(xy 99.06 106.68) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "2a30fcbd-8ea5-4888-8abc-61ccfa5dfa7e")
+		(uuid "2daa6cd5-dd83-42ef-aff0-6e6413d7fa85")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a78d2d-5a88-4226-a384-6cff76833bb8")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36985768-9171-411e-b2c0-20ae6b5b4389")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380a6ee8-2952-4554-a78a-f810fb06a7ce")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d7737c-7a88-45dd-a303-d6bb50ba3616")
 	)
 	(bus
 		(pts
-			(xy 99.06 99.5172) (xy 99.06 96.9772)
+			(xy 99.06 109.22) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "2c007153-3a01-4dcd-9f64-521d38eefc79")
+		(uuid "38f3890a-6594-4c17-8371-727a881ca3f1")
 	)
 	(wire
 		(pts
-			(xy 119.38 74.1172) (xy 116.84 74.1172)
+			(xy 165.1 86.36) (xy 160.02 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c2bfc79-5e7c-4f06-b7fa-52880c64d89c")
+		(uuid "3c1df08e-606e-4843-9f3f-6c7ec95ed0ad")
 	)
 	(wire
 		(pts
-			(xy 198.12 117.2972) (xy 187.96 117.2972)
+			(xy 157.48 121.92) (xy 157.48 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d4254f2-b481-46a7-84aa-2929cbbab042")
-	)
-	(wire
-		(pts
-			(xy 187.96 117.2972) (xy 177.8 117.2972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1ff876-deb8-4e11-a931-42f07e0564d2")
-	)
-	(wire
-		(pts
-			(xy 116.84 74.1172) (xy 116.84 79.1972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3314bbcc-ab9d-42dc-b39d-142ce50e840e")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.8172) (xy 160.02 86.8172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3557a8e7-8ef7-42f0-b42a-5b9feb0d4837")
-	)
-	(wire
-		(pts
-			(xy 27.86 95.25) (xy 30.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3892623f-9675-42b5-a6b0-690f0419ae4b")
+		(uuid "3cfa4771-ec2a-451e-bbd0-aa6bdbb5b2fe")
 	)
 	(bus
 		(pts
-			(xy 99.06 104.5972) (xy 99.06 102.0572)
+			(xy 99.06 83.82) (xy 99.06 81.28)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "396912a9-f008-4761-8f55-c22cf89ac920")
+		(uuid "3e1a2989-3957-43bd-8e71-14f0c435f17e")
 	)
 	(wire
 		(pts
-			(xy 119.38 84.2772) (xy 101.6 84.2772)
+			(xy 179.07 83.82) (xy 176.53 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3afc7690-226f-450f-b13c-ccddb77835d5")
+		(uuid "3ea60417-5ee2-40ce-bcb1-837d77997367")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee347c2-a794-40ba-97ce-b23059dd8b05")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eeffcd5-34df-4f84-9cba-47395ec1c4ab")
+	)
+	(wire
+		(pts
+			(xy 43.18 56.3372) (xy 43.18 63.9572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f627670-f6a8-40e5-84c8-2a0c6971c51e")
+	)
+	(wire
+		(pts
+			(xy 195.58 142.24) (xy 198.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410bc24b-2070-49e2-a81b-fc79c1db9062")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 101.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416b0d5c-8467-4ba9-bc9b-4ae00092389d")
 	)
 	(bus
 		(pts
-			(xy 99.06 76.6572) (xy 99.06 76.2)
+			(xy 193.04 63.5) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(uuid "423e6070-cd0a-4622-8b28-66d25ce7c823")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439498ef-bd73-412d-99d1-7abc5b381150")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474e52e7-45d1-42ad-ad21-90548e3bf14a")
+	)
+	(wire
+		(pts
+			(xy 175.26 134.62) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e94e2-d3d9-4703-803b-f70841e09007")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 175.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c78d7e1-6a4d-4570-8373-54a8ef63eced")
+	)
+	(bus
+		(pts
+			(xy 99.06 119.38) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "3b5ba972-24f3-4269-9264-773b60f7e6b8")
+		(uuid "4cd096a5-2af6-41eb-80c7-e22497e4ba12")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f42babd-cff9-4745-baed-d84cb579e969")
 	)
 	(bus
 		(pts
-			(xy 68.58 76.2) (xy 99.06 76.2)
+			(xy 181.61 76.2) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "3bbe4614-a4cb-47b5-af08-18bd9243de3e")
+		(uuid "52fcb141-5590-4ea8-8ed2-418e67544e90")
 	)
 	(wire
 		(pts
-			(xy 53.34 115.57) (xy 58.42 115.57)
+			(xy 154.94 99.06) (xy 187.96 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bc9c9d5-7d41-46df-9eb6-b6ab40a94deb")
+		(uuid "55250a2b-ebbd-4560-88ed-b87451a93e72")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.6572) (xy 71.12 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56003e13-a4ca-4440-9971-88a0e8889b89")
 	)
 	(bus
 		(pts
-			(xy 99.06 86.8172) (xy 99.06 84.2772)
+			(xy 181.61 78.74) (xy 181.61 76.2)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "3f8296e0-d494-4afb-8266-7a76436b05ad")
+		(uuid "56026f71-aad0-46da-9b39-4632db2ce49a")
 	)
 	(wire
 		(pts
-			(xy 177.8 157.9372) (xy 170.18 157.9372)
+			(xy 175.26 104.14) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4852215b-2de9-4cec-a7ca-57d758abc4b3")
+		(uuid "58099ba9-a085-4fb8-92a6-5a5f95f2f308")
 	)
 	(wire
 		(pts
-			(xy 179.07 84.2772) (xy 176.53 84.2772)
+			(xy 101.6 101.6) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48c39e66-3749-402b-a464-32814a4cff77")
+		(uuid "5ad27dc3-4a74-4e19-b470-3d4082601e0a")
+	)
+	(wire
+		(pts
+			(xy 176.53 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b438d92-63dd-4559-afdc-e2541324b47a")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcd8df2-c116-4980-8f6c-18cacdc7d8a3")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e357ae2-2dba-408f-992b-d4b1e724cc24")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62882888-3a51-4e60-a8d7-9181dca42790")
 	)
 	(bus
 		(pts
-			(xy 99.06 84.2772) (xy 99.06 81.7372)
+			(xy 99.06 124.46) (xy 99.06 121.92)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "4d568ae6-e82e-4ba8-9f29-91d070a18aab")
+		(uuid "6582fc7e-8d91-4b33-aa32-4fbc1021f27a")
 	)
 	(wire
 		(pts
-			(xy 162.56 94.4372) (xy 154.94 94.4372)
+			(xy 177.8 142.24) (xy 175.26 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57f8b1ca-8233-41f0-a95c-171f88de4caf")
+		(uuid "670e4fe6-8b59-43d8-a800-efb982c418a2")
 	)
 	(wire
 		(pts
-			(xy 195.58 142.6972) (xy 198.12 142.6972)
+			(xy 119.38 111.76) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae92d9c-2b89-4880-9789-039ec10028c8")
+		(uuid "6aa70ca3-0e46-4de2-b33f-ca788b961173")
 	)
 	(wire
 		(pts
-			(xy 101.6 91.8972) (xy 119.38 91.8972)
+			(xy 160.02 86.36) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bbecfe2-616a-4283-8838-cb9ba461f6f6")
-	)
-	(wire
-		(pts
-			(xy 119.38 104.5972) (xy 101.6 104.5972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d49274b-8596-404b-bcb8-0fc10aafaae2")
-	)
-	(wire
-		(pts
-			(xy 175.26 104.5972) (xy 175.26 102.0572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5b5bc4-3934-4aff-a76e-9f3eb861cfd0")
-	)
-	(wire
-		(pts
-			(xy 154.94 117.2972) (xy 172.72 117.2972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5bf4a6-e551-4143-b28c-d363077374f8")
+		(uuid "6b0752d8-69ac-48b5-a10d-0103d94e8a8e")
 	)
 	(bus
 		(pts
-			(xy 99.06 102.0572) (xy 99.06 99.5172)
+			(xy 99.06 81.28) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "5ff8fc17-a582-47b2-a559-ce2d830fcba0")
+		(uuid "6bcd9c0e-a6ef-4b2c-bdcd-89fc3ee331d5")
 	)
 	(wire
 		(pts
-			(xy 175.26 142.6972) (xy 175.26 135.0772)
+			(xy 154.94 121.92) (xy 157.48 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67eb12d7-dc8b-4e06-a61a-3746c5136fd0")
+		(uuid "6bcf3f04-6cff-487f-9021-e802c501bdd7")
 	)
 	(wire
 		(pts
-			(xy 176.53 62.6872) (xy 176.53 84.2772)
+			(xy 157.48 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a907aba-f40d-4219-a0d3-52a73e0de92d")
+		(uuid "6cd686d1-8cff-4f0d-bef4-c09e7b0897e5")
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 58.42 102.87)
+			(xy 175.26 114.3) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bd916b0-31af-41b3-aa9c-fb554b8051a2")
+		(uuid "6d58f756-dd50-49a7-af03-cdffe265e9be")
 	)
 	(wire
 		(pts
-			(xy 172.72 150.3172) (xy 177.8 150.3172)
+			(xy 157.48 134.62) (xy 119.38 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6db3de41-2de5-4a56-8ce8-0ed4cbc94e64")
-	)
-	(wire
-		(pts
-			(xy 101.6 127.4572) (xy 121.92 127.4572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0194c3-7c0c-443e-ad2e-e042ee81b4fa")
-	)
-	(wire
-		(pts
-			(xy 119.38 135.0772) (xy 119.38 129.9972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701d9f0d-7ad5-4d16-9074-7592b2ff69dc")
-	)
-	(wire
-		(pts
-			(xy 115.57 66.4972) (xy 119.38 66.4972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7303cff8-ec1e-484e-b232-bd58c4190e47")
-	)
-	(wire
-		(pts
-			(xy 170.18 119.8372) (xy 154.94 119.8372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ae0a41-b0ae-46d3-b350-39573ccc6775")
-	)
-	(wire
-		(pts
-			(xy 177.8 142.6972) (xy 175.26 142.6972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d029216-334f-4f4e-9c27-d333182c48be")
-	)
-	(wire
-		(pts
-			(xy 163.83 62.6872) (xy 163.83 79.1972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d656af8-e93f-4330-89c3-91dad86c314f")
-	)
-	(wire
-		(pts
-			(xy 49.53 102.87) (xy 48.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e563f53-aa99-43ca-947c-e3f5302dc63f")
-	)
-	(wire
-		(pts
-			(xy 163.83 79.1972) (xy 154.94 79.1972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e82438c-eb41-4efb-9b6f-439bc9dc6b19")
-	)
-	(wire
-		(pts
-			(xy 119.38 69.0372) (xy 116.84 69.0372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a14e27-ee46-440d-b650-70d86b81c49a")
+		(uuid "6f7f07cc-ff7c-4f89-ad3a-21a932e835a6")
 	)
 	(bus
 		(pts
-			(xy 181.61 63.9572) (xy 181.61 74.1172)
+			(xy 99.06 104.14) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "82bc3f54-3370-4719-8b95-98af7a72356c")
+		(uuid "700723a6-64ad-4be2-9202-8294435b1ded")
 	)
 	(wire
 		(pts
-			(xy 119.38 129.9972) (xy 101.6 129.9972)
+			(xy 119.38 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "837e0fd0-b844-42b5-ab75-09b1780ee981")
+		(uuid "7056bc6b-1113-439c-8b52-1302504d047b")
+	)
+	(wire
+		(pts
+			(xy 101.6 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726be66a-b08c-40ee-9013-a1a9a19eba9b")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767bd26d-e8e0-4bed-9ee3-92a56e7303cb")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c32593-397d-4eb1-86da-24ee2360f361")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.9572) (xy 60.96 63.9572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2e8edf-affe-4ef1-b3cd-4493fec0456d")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc3e7af-73ae-4e79-b8c7-f269cad30707")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daf97f4-da4e-4850-abcb-16647239743b")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edaa2d3-5195-4d13-b9a0-50ca96116c83")
+	)
+	(wire
+		(pts
+			(xy 40.56 56.3372) (xy 43.18 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b57d69-c5d4-4e01-beb4-9f782fe9e840")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83901cc6-f4a8-4b7e-a55c-180b73cf0c47")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 177.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88814704-1d45-4c84-b55f-c3249debc3ae")
 	)
 	(bus
 		(pts
-			(xy 181.61 76.6572) (xy 181.61 79.1972)
+			(xy 184.15 80.01) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "85d5e792-4778-4d87-8308-978c8a5da40e")
+		(uuid "8e1034b5-5264-4798-9c6e-4793cd77e8d7")
 	)
 	(wire
 		(pts
-			(xy 119.38 124.9172) (xy 101.6 124.9172)
+			(xy 119.38 129.54) (xy 101.6 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8787444a-a2ee-4957-b51c-6223e5f41779")
+		(uuid "8fc4aca8-d351-4d6b-ac43-46849405649f")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9116f0fa-5c2c-4cde-84c8-787b98bfb045")
+	)
+	(bus
+		(pts
+			(xy 99.06 78.74) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "9135f865-d350-4f45-b158-538ca260039a")
+	)
+	(bus
+		(pts
+			(xy 99.06 121.92) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "922f1d6b-dc4c-4faf-8979-f9568179198d")
+	)
+	(bus
+		(pts
+			(xy 99.06 93.98) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "93700176-c161-4f03-8269-783abf64fd0e")
+	)
+	(wire
+		(pts
+			(xy 170.18 124.46) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9432a3e6-0fa4-433f-8f83-44caedef0fab")
+	)
+	(bus
+		(pts
+			(xy 75.928 102.0572) (xy 96.52 102.0572)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(uuid "94d57d3f-0cd3-4e21-915b-27663d8c10ae")
+	)
+	(bus
+		(pts
+			(xy 99.06 91.44) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "95782327-d7cd-4bb0-8a96-8ee2d255f618")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.9272) (xy 66.04 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967dc9c5-1276-43bf-9b81-a7733583f696")
+	)
+	(bus
+		(pts
+			(xy 99.06 127) (xy 96.52 127)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "96a705df-6f58-409f-ba38-11338ed302fe")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d63ef88-e631-41fb-bc7c-dd56112d0d63")
+	)
+	(wire
+		(pts
+			(xy 175.26 142.24) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fef6a3f-282e-418a-bc8f-3cdb5e1052fe")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b0668f-483c-4e3b-a19b-7af1b674d913")
+	)
+	(bus
+		(pts
+			(xy 99.06 114.3) (xy 99.06 111.76)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "a8547353-7249-4aa3-b707-400e5b118872")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 119.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab77414b-d613-49ef-ab79-ae1256a79392")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedfd371-97c0-4a09-bb78-aa3333be53a2")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af761a94-7b91-4f87-bb24-edabe8da8a9f")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.6572) (xy 62.23 76.6572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d3bfe6-3343-48b9-859b-b52a41b56f7d")
+	)
+	(wire
+		(pts
+			(xy 170.18 157.48) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67341bb-260f-4136-9696-80cce55903b8")
+	)
+	(bus
+		(pts
+			(xy 99.06 88.9) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "b74820dc-0871-4d23-b5dd-933ba31921b7")
+	)
+	(wire
+		(pts
+			(xy 71.12 56.3372) (xy 60.96 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e0de20-4327-4e1a-8ba6-2bef75706eeb")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd17d30-8ac9-452e-b8c0-3d6e8c1147a4")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5dd229-24db-4964-a300-7cbb71101c3d")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf10e3f-77bc-4a39-8370-bff738d7ce6d")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c769f8be-8629-4380-a026-ecf234bae9e3")
+	)
+	(bus
+		(pts
+			(xy 99.06 116.84) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "c8411423-1783-4546-b63c-68825f56d7ed")
+	)
+	(bus
+		(pts
+			(xy 99.06 101.6) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 173 188 231 1)
+		)
+		(uuid "cadac062-5b02-43b0-b9a0-d4de1e2da056")
+	)
+	(wire
+		(pts
+			(xy 157.48 62.23) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc20dd2-1a20-4270-a5ae-170aa02096bb")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1384ac-8486-4b6a-9100-7ad0828c992d")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec600f4-7db7-44ef-a5bd-c151bc120eca")
+	)
+	(bus
+		(pts
+			(xy 198.12 63.5) (xy 193.04 63.5)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 173 188 231 1)
+		)
+		(uuid "cf20f16e-428a-4d2e-b3f4-067cfe81ea99")
 	)
 	(wire
 		(pts
@@ -3427,716 +3849,533 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8833061b-e94f-42c9-ba5e-26341d08be1e")
+		(uuid "d15d7687-d9f4-4421-ba41-2e7313453463")
 	)
 	(wire
 		(pts
-			(xy 49.53 100.33) (xy 49.53 102.87)
+			(xy 115.57 66.04) (xy 119.38 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88bc804c-84e3-432d-8f6b-3657f3641803")
+		(uuid "d18a43da-660f-4aaf-aa4d-e8b320ce326a")
 	)
 	(wire
 		(pts
-			(xy 30.48 95.25) (xy 30.48 102.87)
+			(xy 64.193 137.6172) (xy 68.58 137.6172)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b059ee3-9a3b-4dd2-a901-e4ae50e59c4d")
+		(uuid "d222440c-e556-442c-b766-2921db982df5")
 	)
 	(wire
 		(pts
-			(xy 101.6 102.0572) (xy 119.38 102.0572)
+			(xy 160.02 86.36) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c91ce4e-7f17-43db-91ba-a960cdc9d7ed")
+		(uuid "d59d5a75-2c92-407d-ac03-9682e921305c")
+	)
+	(wire
+		(pts
+			(xy 71.12 55.0672) (xy 71.12 56.3372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2eebf7-6185-465a-924c-9d48c47cb3d7")
+	)
+	(wire
+		(pts
+			(xy 185.42 91.44) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02f3760-6645-4ac5-8e67-992c0ec8b865")
 	)
 	(bus
 		(pts
-			(xy 181.61 79.1972) (xy 181.61 81.7372)
+			(xy 99.06 111.76) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "8c9e9685-22b9-406a-89b1-7f58b39f57c7")
+		(uuid "e0736223-7477-4d55-b497-c93c569ddd5d")
 	)
 	(wire
 		(pts
-			(xy 162.56 96.9772) (xy 162.56 94.4372)
+			(xy 187.96 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e9c0745-4cb6-444a-ade0-c8ef47bbe72f")
+		(uuid "e3048381-18fe-4cf8-90f5-cb7ffe8011e0")
 	)
 	(wire
 		(pts
-			(xy 170.18 62.6872) (xy 170.18 81.7372)
+			(xy 154.94 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ea6f999-0180-4671-83f2-969c8be4ce0f")
-	)
-	(wire
-		(pts
-			(xy 58.42 93.98) (xy 58.42 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9102bba2-f48a-47c7-b7a9-c397d02835e0")
-	)
-	(wire
-		(pts
-			(xy 170.18 81.7372) (xy 154.94 81.7372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f91371-3bff-4ce5-ad95-f67684eb10d1")
-	)
-	(wire
-		(pts
-			(xy 180.34 129.9972) (xy 172.72 129.9972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9614ab07-3e86-4ae3-a5b5-fde22ff60732")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.8972) (xy 185.42 91.8972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9628127f-18f8-4127-aa5c-03b178aec868")
+		(uuid "e5ea56ff-05f8-434f-822a-1ab56d38db83")
 	)
 	(bus
 		(pts
-			(xy 99.06 107.1372) (xy 99.06 104.5972)
+			(xy 99.06 99.06) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "96e00f86-1a30-423e-8023-8f33e8f3f492")
+		(uuid "e829d4e9-8aea-4808-8294-f5941cbe1128")
 	)
 	(wire
 		(pts
-			(xy 53.34 115.57) (xy 49.53 115.57)
+			(xy 62.23 61.4172) (xy 62.23 63.9572)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96fafde9-96ad-4cbf-9fab-b5c3a3b4cdbf")
-	)
-	(wire
-		(pts
-			(xy 119.38 89.3572) (xy 101.6 89.3572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9832a231-649d-41d4-88b3-4290cade7fd8")
-	)
-	(wire
-		(pts
-			(xy 121.92 132.5372) (xy 154.94 132.5372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b126c00-fdd7-468b-b3db-7d05fc42d229")
-	)
-	(wire
-		(pts
-			(xy 176.53 84.2772) (xy 154.94 84.2772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4f9818-2b10-438e-87f5-2107203fba57")
+		(uuid "eea638e1-35d1-4d19-ac98-0ddd6fd93ca0")
 	)
 	(bus
 		(pts
-			(xy 99.06 96.9772) (xy 99.06 94.4372)
+			(xy 99.06 127) (xy 99.06 124.46)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "9dafa98d-b5f5-4329-af7d-82d95257e551")
+		(uuid "f24f999c-977f-4444-bb30-168e51dc7125")
 	)
 	(wire
 		(pts
-			(xy 198.12 104.5972) (xy 198.12 94.4372)
+			(xy 170.18 119.38) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0ca83d1-2457-4334-b636-2f63706309bc")
-	)
-	(wire
-		(pts
-			(xy 160.02 86.8172) (xy 154.94 86.8172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a183d99c-3f82-4cf1-992d-36eaa0ea9fde")
-	)
-	(wire
-		(pts
-			(xy 101.6 107.1372) (xy 119.38 107.1372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c9e43e-7b50-497e-a7a4-1484726acd96")
+		(uuid "f389de31-2816-4dd0-a261-270682638e0b")
 	)
 	(bus
 		(pts
-			(xy 99.06 79.1972) (xy 99.06 76.6572)
+			(xy 181.61 81.28) (xy 181.61 78.74)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "a6277442-384d-4760-9710-c264b3cc5621")
+		(uuid "f3a8af0e-b7f4-4876-8d4b-b639908239e5")
 	)
 	(wire
 		(pts
-			(xy 185.42 86.8172) (xy 190.5 86.8172)
+			(xy 180.34 124.46) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6339543-6a96-41a1-8a87-2727c3b97722")
+		(uuid "f4218c6e-75b4-4364-b570-fae519e1cd97")
 	)
 	(wire
 		(pts
-			(xy 101.6 96.9772) (xy 119.38 96.9772)
+			(xy 170.18 62.23) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6721508-8b2a-4ebe-815c-81bca68a608e")
+		(uuid "f4a6d93d-0050-4a94-9e22-688824d6413d")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5007938-9b35-4d56-b097-044a7da032dc")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 101.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60b1b5f-bff5-4238-80e5-e98c17e8c84e")
+	)
+	(wire
+		(pts
+			(xy 101.6 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6313511-4e58-451a-973d-ef8e742377e7")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f632ff35-9b31-4016-a12c-cb35af004f2c")
 	)
 	(bus
 		(pts
-			(xy 99.06 112.2172) (xy 99.06 109.6772)
+			(xy 99.06 96.52) (xy 99.06 93.98)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "a6f79e17-2128-46c2-bba5-37507806890a")
+		(uuid "f6b3e464-9c4a-4892-b52a-0d9f3aafb3b8")
 	)
 	(wire
 		(pts
-			(xy 165.1 109.6772) (xy 154.94 109.6772)
+			(xy 165.1 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa2aa994-d4d1-4075-803f-f8cb34716a29")
+		(uuid "f7b81931-d457-4d76-bbf8-e408f37d1f20")
 	)
 	(bus
 		(pts
-			(xy 181.61 63.9572) (xy 198.12 63.9572)
+			(xy 96.52 127) (xy 96.52 102.0572)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 173 188 231 1)
 		)
-		(uuid "acc99c05-0fcc-4b65-979a-677ec62d03ba")
+		(uuid "f993062d-5c65-4afd-9e48-9acf7623364f")
 	)
 	(wire
 		(pts
-			(xy 53.34 116.84) (xy 53.34 115.57)
+			(xy 101.6 91.44) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad839e46-f710-4ab2-90db-0d3bcec4065e")
-	)
-	(bus
-		(pts
-			(xy 99.06 114.7572) (xy 99.06 112.2172)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "ae5d26b7-fdaa-4a66-ac15-3d9480dac4ac")
-	)
-	(bus
-		(pts
-			(xy 99.06 91.8972) (xy 99.06 89.3572)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "af83645c-eaea-48fe-8743-88354caf41a9")
+		(uuid "f9a7b310-3b33-4414-9a2f-746a42040389")
 	)
 	(wire
 		(pts
-			(xy 172.72 117.2972) (xy 172.72 129.9972)
+			(xy 119.38 124.46) (xy 101.6 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a1b6e2-df18-4e7d-900a-43ca940b89eb")
+		(uuid "fa8de0fc-a8b4-4bf0-bedc-9e7892733637")
 	)
 	(wire
 		(pts
-			(xy 119.38 79.1972) (xy 116.84 79.1972)
+			(xy 163.83 78.74) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0bb961c-259c-4a7b-840d-1da3c9f91e47")
+		(uuid "fbf40d7d-17cd-46a1-811d-34f8216f77c6")
 	)
-	(wire
-		(pts
-			(xy 160.02 86.8172) (xy 160.02 74.1172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b504929b-af87-4799-bcdc-3b68770016b3")
-	)
-	(wire
-		(pts
-			(xy 179.07 81.7372) (xy 170.18 81.7372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba82a2ff-96c4-4d4b-95f8-4c6236d645f5")
-	)
-	(wire
-		(pts
-			(xy 101.6 81.7372) (xy 119.38 81.7372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb53229a-cee6-4b51-841d-8f7e4bd16915")
-	)
-	(bus
-		(pts
-			(xy 99.06 119.8372) (xy 99.06 117.2972)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "bcc58609-757e-4ed9-9e8a-87ea39d51064")
-	)
-	(wire
-		(pts
-			(xy 198.12 94.4372) (xy 162.56 94.4372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf865baf-f017-4649-9907-1a9f5b4d99e8")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.6572) (xy 179.07 76.6572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ca6ff2-6464-43fa-a8d4-780f5c67fa91")
-	)
-	(bus
-		(pts
-			(xy 181.61 76.6572) (xy 181.61 74.1172)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "c2c28dfb-1005-4110-b615-190d2b98e40d")
-	)
-	(wire
-		(pts
-			(xy 58.42 95.25) (xy 48.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c474d776-3cea-46a7-b794-0accb014352e")
-	)
-	(bus
-		(pts
-			(xy 99.06 124.9172) (xy 99.06 122.3772)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "c7b5d329-46fc-497c-a61e-94795daa6eaf")
-	)
-	(wire
-		(pts
-			(xy 195.58 142.6972) (xy 195.58 157.9372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87ce4b6-1780-40c1-80d1-97babbd4f00e")
-	)
-	(wire
-		(pts
-			(xy 119.38 114.7572) (xy 101.6 114.7572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb92ee34-edbd-427f-a8df-621e54b253df")
-	)
-	(wire
-		(pts
-			(xy 175.26 135.0772) (xy 175.26 114.7572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc5998d-9c60-4620-9c3c-3cfe3dd956e5")
-	)
-	(wire
-		(pts
-			(xy 154.94 132.5372) (xy 154.94 124.9172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc8a55d-acb9-42ff-9757-f3584bdea6cb")
-	)
-	(wire
-		(pts
-			(xy 157.48 62.6872) (xy 157.48 76.6572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3fa48be-6867-4221-b205-f6a1184629e5")
-	)
-	(wire
-		(pts
-			(xy 119.38 94.4372) (xy 101.6 94.4372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4bfedd6-37c9-4bf6-a8a7-d09073df20ab")
-	)
-	(wire
-		(pts
-			(xy 119.38 99.5172) (xy 101.6 99.5172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a26444-49ff-44dc-a0b0-e9969ad27fe0")
-	)
-	(wire
-		(pts
-			(xy 175.26 102.0572) (xy 154.94 102.0572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d909e8a3-1f0d-4cb0-b7ad-bf244d7b3b7a")
-	)
-	(wire
-		(pts
-			(xy 116.84 69.0372) (xy 116.84 74.1172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb0d34f-bfb9-44af-9afb-c259daa57176")
-	)
-	(wire
-		(pts
-			(xy 177.8 104.5972) (xy 175.26 104.5972)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de50a46c-1249-48f6-9e8b-3a0bd3be1320")
-	)
-	(wire
-		(pts
-			(xy 119.38 112.2172) (xy 101.6 112.2172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea8a5ff-c7f7-4627-aa95-fc7c3c62f617")
-	)
-	(wire
-		(pts
-			(xy 154.94 66.4972) (xy 154.94 74.1172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0c9282a-a488-41c6-a977-93a4fb97e918")
-	)
-	(wire
-		(pts
-			(xy 101.6 109.6772) (xy 119.38 109.6772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33fc09c-279a-44cb-9959-dc1ee9770f1c")
-	)
-	(bus
-		(pts
-			(xy 99.06 81.7372) (xy 99.06 79.1972)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "edce69b5-4c9d-4e66-8893-e6c2f4a8cb0e")
-	)
-	(wire
-		(pts
-			(xy 170.18 157.9372) (xy 170.18 124.9172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f04630f9-f7f2-4710-9b8a-1ce08edaf583")
-	)
-	(bus
-		(pts
-			(xy 99.06 127.4572) (xy 99.06 124.9172)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "f3d8aace-cb26-4283-940a-1a18cf469c4f")
-	)
-	(wire
-		(pts
-			(xy 157.48 135.0772) (xy 119.38 135.0772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f669dd1c-72ed-4024-9e59-73c2ba97fb2e")
-	)
-	(bus
-		(pts
-			(xy 99.06 94.4372) (xy 99.06 91.8972)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 173 188 231 1)
-		)
-		(uuid "f6971f8f-be33-4121-bfe3-75efc911b8a2")
-	)
-	(wire
-		(pts
-			(xy 121.92 127.4572) (xy 121.92 132.5372)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f75c7c79-eb87-4bf0-ab47-8456742a55a1")
-	)
-	(wire
-		(pts
-			(xy 101.6 122.3772) (xy 119.38 122.3772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe2015c-77c8-4b8f-a921-ccb8f7cdabab")
-	)
-	(wire
-		(pts
-			(xy 101.6 86.8172) (xy 119.38 86.8172)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcb10cbc-144e-4e3e-9c29-49d9e9a0c2e8")
-	)
-	(wire
-		(pts
-			(xy 175.26 114.7572) (xy 154.94 114.7572)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde7a740-4422-42dc-8867-23eb7f3c4e2e")
-	)
-	(wire
-		(pts
-			(xy 157.48 122.3772) (xy 157.48 135.0772)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff1392f0-7f19-415e-9c06-d5cbe2937711")
-	)
-	(label "{SPI_LTC}"
-		(at 193.4479 63.9572 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32322250-7a61-4af6-b595-3092a3b40064")
-	)
-	(label "{Software Protection Taps}"
-		(at 68.58 76.2 0)
+	(label "LTC_S_C8"
+		(at 104.14 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "87bd0415-362e-4291-b358-aac165bf4a88")
+		(uuid "0b59da54-bcea-47e9-94fb-e9cbc3187792")
 	)
-	(hierarchical_label "V_Bat_Fused"
-		(shape input)
-		(at 27.86 95.25 180)
+	(label "LTC_S_C5"
+		(at 104.14 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0984b021-e54b-4703-8137-017faba8e9e6")
+		(uuid "141c4541-3dda-4967-8433-7cc555f855f7")
 	)
-	(hierarchical_label "Temp1"
-		(shape input)
-		(at 180.34 124.9172 0)
+	(label "LTC_S_C9"
+		(at 104.14 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "214a84d8-05b3-4d25-83d2-ce6893239dcb")
+		(uuid "152bc15d-1c53-4e68-9ab5-cce790a0139c")
 	)
-	(hierarchical_label "SPI_LTC"
-		(shape bidirectional)
-		(at 198.12 63.9572 0)
+	(label "LTC_S_C2"
+		(at 104.14 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "266df893-3d0e-41a9-bc7d-4f96897a595c")
+		(uuid "1d975fb7-0503-4078-a8d9-83c5098e4b1f")
 	)
-	(hierarchical_label "Temp3"
-		(shape input)
-		(at 180.34 135.0772 0)
+	(label "LTC_S_S2"
+		(at 104.14 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "7a287a53-037e-4105-850d-e18679bc50a7")
+		(uuid "24dee4c7-71e0-45be-9aaf-e7477400b9a3")
 	)
-	(hierarchical_label "Temp2"
-		(shape input)
-		(at 180.34 129.9972 0)
+	(label "LTC_S_C6"
+		(at 104.14 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "b1386d52-2e35-40cb-bdd2-d4397dd05ab7")
+		(uuid "3071ab7e-8a21-4d79-b74c-1a32b48b744e")
+	)
+	(label "MOSI"
+		(at 165.1 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36a2f899-1a19-4ada-8d80-902ec934af30")
+	)
+	(label "LTC_S_S3"
+		(at 104.14 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a0d3b84-10be-44ba-be2c-84b8f4d7f27d")
+	)
+	(label "LTC_S_S5"
+		(at 104.14 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fab4b9b-6704-4310-a1b3-07d7fe032299")
+	)
+	(label "LTC_S_C4"
+		(at 104.14 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40342d19-838e-482d-a4a5-b4d0690ab1e7")
+	)
+	(label "LTC_S_S6"
+		(at 104.14 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41b03185-0bd3-4cf5-9773-3a0acd5f5a9d")
+	)
+	(label "LTC_S_S8"
+		(at 104.14 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47241abd-de1c-4445-9fa8-12b21e03806d")
+	)
+	(label "LTC_S_S4"
+		(at 104.14 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58088c8f-bf23-494c-9b84-005e0d8ec486")
+	)
+	(label "LTC_S_S10"
+		(at 104.14 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61007fae-a968-4567-ab1a-285c49bbaa6a")
+	)
+	(label "LTC_S_C3"
+		(at 104.14 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e23b665-8cfd-435d-b81a-6c971cbb38dc")
+	)
+	(label "SCK"
+		(at 165.1 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d53c078-b616-4508-91ac-d031a38fa79e")
+	)
+	(label "LTC_S_C7"
+		(at 104.14 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ff0a8e5-1f43-4785-b0f4-b02f6d567861")
+	)
+	(label "{Software Protection Taps}"
+		(at 75.928 102.0572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be4f89c-8858-4914-be8a-4e8d786b36ff")
+	)
+	(label "LTC_S_C10"
+		(at 104.14 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aaab6cb-87a9-4c48-9540-8bf133616d47")
+	)
+	(label "LTC_S_S7"
+		(at 104.14 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f70905d-c4c2-4dd0-8445-e2217aa634f7")
+	)
+	(label "LTC_S_C1"
+		(at 104.14 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a071b1c2-4d68-4213-b44a-2f1ed4578a40")
+	)
+	(label "MISO"
+		(at 165.1 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaaa1b0e-0aa5-435b-853a-3693bf4e8b15")
+	)
+	(label "CS"
+		(at 165.1 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab4b91b2-f7a9-435e-a35f-cecdf02b17d0")
+	)
+	(label "LTC_S_S1"
+		(at 104.14 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4f75cb2-763d-4855-8ccf-f868a15a5b46")
+	)
+	(label "LTC_S_S9"
+		(at 104.14 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cad08cad-8a68-413c-944c-2039231fb5a2")
+	)
+	(label "{SPI_LTC}"
+		(at 193.04 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cec23236-23e3-4af5-9d64-c41d13daa391")
+	)
+	(label "Cell0"
+		(at 104.14 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f87c5345-e03d-49ce-8c09-e74437c8c2e2")
 	)
 	(hierarchical_label "Bat_GND_Fused"
 		(shape passive)
@@ -4147,30 +4386,771 @@
 			)
 			(justify right)
 		)
-		(uuid "eb84004c-72dd-4820-949a-32511212dac5")
+		(uuid "219db5a7-718d-41d8-9e22-6aae76b34580")
 	)
-	(hierarchical_label "Cells Filtered"
-		(shape output)
-		(at 68.58 76.2 180)
+	(hierarchical_label "SPI_LTC"
+		(shape bidirectional)
+		(at 198.12 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2660de88-52bd-4178-9ace-372916d20b22")
+	)
+	(hierarchical_label "Temp3"
+		(shape input)
+		(at 180.34 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4be144e8-7415-495c-bf04-861e33c6af5b")
+	)
+	(hierarchical_label "Temp2"
+		(shape input)
+		(at 180.34 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f68eeb1-f4b1-4b9d-920d-fb4ba97d8c3f")
+	)
+	(hierarchical_label "V_Bat_Fused"
+		(shape input)
+		(at 40.56 56.3372 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ebe5273f-9244-4e24-bedd-8033efb241e2")
+		(uuid "a3bb5491-b42c-4fa1-aa33-67b931afa276")
+	)
+	(hierarchical_label "Temp1"
+		(shape input)
+		(at 180.34 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3d7c02a-8f51-4529-93ad-81171a26078b")
+	)
+	(hierarchical_label "Cells Filtered"
+		(shape output)
+		(at 75.928 102.0572 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e599f9ce-7f8e-4fb6-b4eb-21b5db746ab7")
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
-		(at 53.34 116.84 0)
+		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
+		(at 198.12 104.14 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ae0aaec-ed63-40d2-bd5e-a29010681a91")
+		(property "Reference" "C603"
+			(at 200.914 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 1uF 50V X7R"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 196.85 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36ef32cb-96f0-41d8-a3f7-ad83005b9718")
+		)
+		(pin "2"
+			(uuid "6e5873c0-8c3c-48f2-89f0-d70e5d1018c2")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "C603")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_2_CRCW060310K0FKEI_SamacSys.SchLib")
+		(at 195.58 149.86 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c52ce4d-9331-4945-9dc6-709d37e37b97")
+		(property "Reference" "R602"
+			(at 182.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRCW060310K0FKEI"
+			(at 194.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k, 1%"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW060310K0FKEI"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW060310K0FKEI"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW060310K0FKEI"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
+			(at 195.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k, 1%"
+			(at 182.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW060310K0FKEI"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b45270-736d-4a2e-87c5-958920b132ae")
+		)
+		(pin "2"
+			(uuid "ab023bf5-5e29-4d9c-9d47-ee25148386ed")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "R602")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:V_BattLTC_ARROW")
+		(at 115.57 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0237a05c-458a-4540-9a1d-9a077ef50a36")
+		(uuid "0d597431-3abd-4f66-ad19-bfef4bec028f")
 		(property "Reference" "#PWR?"
-			(at 53.34 116.84 0)
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_BattLTC"
+			(at 115.57 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "234564c5-1f8a-4c43-973c-6ef3cccd59c5")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
+		(at 163.83 62.23 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ed7d8d-2c8b-4fac-9f8d-68f3ae9b1088")
+		(property "Reference" "TP604"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint"
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d472201-99b3-407c-93c1-8719dde271da")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP604")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_0_BCP56-16TF_SamacSys.SchLib")
+		(at 190.5 86.36 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1752d54a-bff6-44bc-94b7-4ef544c3b0a7")
+		(property "Reference" "Q600"
+			(at 198.882 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BCP56-16TF"
+			(at 198.882 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOT230P700X180-4N"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor BJT NPN"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/BCP56T_SER.pdf"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.8mm"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Nexperia"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "BCP56-16TF"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "771-BCP56-16TF"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/BCP56-16TF?qs=uj7TeyS2Sj96ubfysKmpcg%3D%3D"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "BCP56-16TF"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/bcp56-16tf/nexperia?region=nac"
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdb17278-4777-4925-a5b4-faf2e8e767d3")
+		)
+		(pin "2"
+			(uuid "511400b5-5373-498b-9e18-997719fb1d99")
+		)
+		(pin "3"
+			(uuid "cbf1bfe9-30c9-49a0-8977-7f347e99cc11")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "Q600")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
+		(at 170.18 62.23 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf0766b-9bad-4853-83c3-106b54c5923c")
+		(property "Reference" "TP605"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Testpoint"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Testpoint"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6febb5fe-ce33-4e6b-b310-676acb049039")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP605")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
+		(at 165.1 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2033a7b2-c566-4f4a-8ab4-9db627cdfc42")
+		(property "Reference" "#PWR?"
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +5159,7 @@
 			)
 		)
 		(property "Value" "Batt_GND_LTC_S"
-			(at 53.34 120.65 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 116.84 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +5175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 116.84 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +5183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 116.84 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,11 +5191,11 @@
 			)
 		)
 		(pin ""
-			(uuid "b5990215-7575-4a55-a4ca-8d28c948d2ef")
+			(uuid "eddf44b2-1583-46e6-a6ae-3e651d67dad2")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -4223,242 +5203,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
-		(at 177.8 104.5972 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "026ff5bf-e671-43b5-9008-84f9f6738a91")
-		(property "Reference" "C601"
-			(at 180.594 114.5032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF 50V X7R"
-			(at 163.83 109.6772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 1uF 50V X7R"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 177.8 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 176.53 109.9312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5e44399-e2dc-4565-b942-67fd658e156a")
-		)
-		(pin "2"
-			(uuid "0a9c87a0-c2c7-4f8f-a44a-ebb8bcebf947")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "C601")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
-		(at 176.53 62.6872 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "050d9fba-a581-410a-ae2d-7abfa5325272")
-		(property "Reference" "TP606"
-			(at 173.99 55.0672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Testpoint"
-			(at 173.99 55.0672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Testpoint"
-			(at 176.53 62.6872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 62.6872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 62.6872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c613cd9-e26a-4502-8fe5-56f470544a04")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP606")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Vref2_ARROW")
-		(at 177.8 104.5972 180)
+		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
+		(at 165.1 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "106f5d87-3118-4a7b-b54a-91b4e02f3178")
+		(uuid "2a307086-4e28-488b-9d60-67090b4c22fb")
 		(property "Reference" "#PWR?"
-			(at 177.8 104.5972 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,8 +5220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Vref2"
-			(at 177.8 100.7872 0)
+		(property "Value" "Batt_GND_LTC_S"
+			(at 165.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +5229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 104.5972 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +5237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 104.5972 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +5245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 104.5972 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,11 +5253,11 @@
 			)
 		)
 		(pin ""
-			(uuid "ec5777b9-9293-4047-997a-bb8c2eb64204")
+			(uuid "9c76e6db-0a07-4b36-bd4e-2cd09c1af081")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -4511,16 +5265,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_Testpoint_SamacSys.SchLib")
-		(at 187.96 99.5172 0)
+		(lib_id "Battman-altium-import:Software Protection_0_SolderJumper_SamacSys.SchLib")
+		(at 154.94 96.52 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2814d0dd-89a5-48fc-bb3b-5e44fd0c8c46")
-		(property "Reference" "TP601"
-			(at 190.5 104.5972 0)
+		(uuid "349740c8-5752-4dc0-955b-e28d28079ec2")
+		(property "Reference" "JS600"
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,8 +5282,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Testpoint"
-			(at 190.5 104.5972 0)
+		(property "Value" "SolderJumper"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,8 +5292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Testpoint"
-			(at 187.96 99.5172 0)
+		(property "Footprint" "SolderJumper"
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 99.5172 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +5311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 99.5172 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,529 +5320,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "adef342d-439b-4cdd-a68c-c6d3cf20a019")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP601")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
-		(at 187.96 104.5972 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28a6cd0f-b7d9-484a-b242-683e0c9846a1")
-		(property "Reference" "C602"
-			(at 190.754 114.5032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF 50V X7R"
-			(at 189.23 119.8372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 1uF 50V X7R"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 187.96 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 186.69 109.9312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a038b65b-233c-4695-a928-d9c6fbae837b")
+			(uuid "fd3d2bdf-0cf4-4c93-b254-fecce0e434d5")
 		)
 		(pin "2"
-			(uuid "6c01b6ea-d7fb-4b17-a80d-51777bb61544")
+			(uuid "25960e27-7301-4fde-8eca-58ea9dcf1e36")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "C602")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_CRCW0603100RFKEA_SamacSys.SchLib")
-		(at 30.48 102.87 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b5b2e5f-47a2-4a56-8323-21d73e46e48c")
-		(property "Reference" "R604"
-			(at 35.56 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRCW0603100RFKEA"
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 100R, 1%"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100R"
-			(at 35.56 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "052ae23d-fe9b-488d-b189-f05a243f7464")
-		)
-		(pin "2"
-			(uuid "85060bac-9b85-429e-aa34-f38bdca5fbda")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "R604")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_CRCW0603100RFKEA_SamacSys.SchLib")
-		(at 30.48 95.25 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53278a62-365b-464e-9c76-6c66094bd967")
-		(property "Reference" "R600"
-			(at 35.56 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRCW0603100RFKEA"
-			(at 29.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 100R, 1%"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
-			(at 30.48 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100R"
-			(at 35.56 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 29.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
-			(at 29.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ed2c666-86c3-4692-9b1e-d118d0e1914e")
-		)
-		(pin "2"
-			(uuid "f8e516cd-3ad9-49c9-a9b9-e6e180c62a3b")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "R600")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "JS600")
 					(unit 0)
 				)
 			)
@@ -5096,15 +5336,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
-		(at 157.48 62.6872 0)
+		(at 157.48 62.23 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "56a4974c-55fb-473a-8051-3d84f88164c4")
+		(uuid "3cf5e8a6-fe95-4808-b69e-f8e5c32ec9a7")
 		(property "Reference" "TP603"
-			(at 153.67 55.0672 0)
+			(at 153.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5353,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 154.94 55.0672 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5363,7 @@
 			)
 		)
 		(property "Footprint" "Testpoint"
-			(at 157.48 62.6872 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 62.6872 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 62.6872 0)
+			(at 157.48 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,11 +5390,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ee7f744-3204-4d79-9531-577cb07f5426")
+			(uuid "9f7b0bfc-2ca0-41ea-b390-3dbb3c91e51d")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "TP603")
 					(unit 0)
 				)
@@ -5163,194 +5403,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Software Protection_2_CRCW060310K0FKEI_SamacSys.SchLib")
-		(at 195.58 150.3172 0)
+		(at 195.58 157.48 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5c9e657b-bc46-4dd0-8cac-7d702d2c0403")
-		(property "Reference" "R602"
-			(at 182.88 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRCW060310K0FKEI"
-			(at 194.31 154.1272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 10k, 1%"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW060310K0FKEI"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 195.58 150.3172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k, 1%"
-			(at 182.88 154.1272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 194.31 146.5072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "71-CRCW060310K0FKEI"
-			(at 194.31 146.5072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4be14439-22a8-4fe3-a9da-6fbd0cae7e53")
-		)
-		(pin "2"
-			(uuid "b4d4a573-b78c-4ed8-836a-305d78df5ce5")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "R602")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_2_CRCW060310K0FKEI_SamacSys.SchLib")
-		(at 195.58 157.9372 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ebb786d-ba54-415e-8e78-a85ebbbfd7ed")
+		(uuid "3fa65e6d-a163-44e2-911d-2f1af4045b1f")
 		(property "Reference" "R603"
-			(at 182.88 156.6672 0)
+			(at 182.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5420,7 @@
 			)
 		)
 		(property "Value" "CRCW060310K0FKEI"
-			(at 194.31 161.7472 0)
+			(at 194.31 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5430,7 @@
 			)
 		)
 		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5448,7 @@
 			)
 		)
 		(property "Description" "Resistor 10k, 1%"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5457,7 @@
 			)
 		)
 		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5467,7 @@
 			)
 		)
 		(property "HEIGHT" "0.5mm"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5477,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5487,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5497,7 @@
 			)
 		)
 		(property "MOUSER PART NUMBER" "71-CRCW060310K0FKEI"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5507,7 @@
 			)
 		)
 		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5517,7 @@
 			)
 		)
 		(property "ARROW PART NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5527,7 @@
 			)
 		)
 		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 195.58 157.9372 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5537,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k, 1%"
-			(at 182.88 161.7472 0)
+			(at 182.88 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5546,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 194.31 154.1272 0)
+			(at 194.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5556,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-CRCW060310K0FKEI"
-			(at 194.31 154.1272 0)
+			(at 194.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,14 +5566,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbf55fab-8619-4565-8d25-ed2a5829c3d8")
+			(uuid "4d8d0fbf-c9e4-4f65-9d42-6a8873956117")
 		)
 		(pin "2"
-			(uuid "7d1d956f-3484-4ed4-a637-b53da3596e7e")
+			(uuid "4e283595-cc62-4de2-99b6-e938bba7d614")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "R603")
 					(unit 0)
 				)
@@ -5520,16 +5581,195 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_Testpoint_SamacSys.SchLib")
-		(at 198.12 142.6972 0)
+		(lib_id "Battman-altium-import:Software Protection_0_CRCW0603100RFKEA_SamacSys.SchLib")
+		(at 43.18 63.9572 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "607de923-ab60-4815-b3b5-09011e053ca7")
-		(property "Reference" "TP602"
-			(at 200.66 147.7772 0)
+		(uuid "3fac1cee-974c-402d-9a23-05a23fb7f0e6")
+		(property "Reference" "R604"
+			(at 48.26 62.6872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100R, 1%"
+			(at 48.006 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 100R, 1%"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
+			(at 43.18 63.9572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 41.91 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
+			(at 41.91 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 55.88 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d972d5e3-4af6-4976-a881-93671e727fe8")
+		)
+		(pin "2"
+			(uuid "64d68e62-9aeb-4a94-a50a-876a19b390d1")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "R604")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_0_Testpoint_SamacSys.SchLib")
+		(at 187.96 99.06 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44980a05-0f2a-460f-ba59-889413578bec")
+		(property "Reference" "TP601"
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +5778,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 200.66 147.7772 0)
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5788,7 @@
 			)
 		)
 		(property "Footprint" "Testpoint"
-			(at 198.12 142.6972 0)
+			(at 187.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 142.6972 0)
+			(at 187.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 142.6972 0)
+			(at 187.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,12 +5815,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "74c10a47-c51b-4bbd-9052-54b379eaf31a")
+			(uuid "1294a258-8222-4d57-8659-fb64fdd62ed2")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP602")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP601")
 					(unit 0)
 				)
 			)
@@ -5588,15 +5828,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
-		(at 165.1 86.8172 0)
+		(at 66.04 77.9272 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "678f08de-9b81-4390-9dd8-89b4c611c643")
+		(uuid "5bb84853-fd76-4d60-9a1d-3ec3423cd928")
 		(property "Reference" "#PWR?"
-			(at 165.1 86.8172 0)
+			(at 66.04 77.9272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5845,7 @@
 			)
 		)
 		(property "Value" "Batt_GND_LTC_S"
-			(at 165.1 90.6272 0)
+			(at 66.04 81.7372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 86.8172 0)
+			(at 66.04 77.9272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 86.8172 0)
+			(at 66.04 77.9272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 86.8172 0)
+			(at 66.04 77.9272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,11 +5877,11 @@
 			)
 		)
 		(pin ""
-			(uuid "7502e9ba-e255-4be9-930c-75160c4ea55a")
+			(uuid "0fffca1d-8812-4abf-973f-908820b13b72")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -5650,15 +5890,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
-		(at 163.83 62.6872 0)
+		(at 176.53 62.23 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75a32f45-5e45-4e74-b416-99f4b59d4f1a")
-		(property "Reference" "TP604"
-			(at 161.29 55.0672 0)
+		(uuid "5fd81ced-89f8-45d9-a132-d3b321532421")
+		(property "Reference" "TP606"
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5907,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 161.29 55.0672 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5917,7 @@
 			)
 		)
 		(property "Footprint" "Testpoint"
-			(at 163.83 62.6872 0)
+			(at 176.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 62.6872 0)
+			(at 176.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 62.6872 0)
+			(at 176.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,12 +5944,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f72d883-36a7-4305-81f4-96167aca27f1")
+			(uuid "1d908ae9-7fb9-4dea-84bf-1f7ca46d8624")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP604")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP606")
 					(unit 0)
 				)
 			)
@@ -5723,7 +5963,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81979ff1-c977-4b78-8617-12c1168cf408")
+		(uuid "648016fb-b804-4aed-8641-e93f5808eb12")
 		(property "Reference" "#PWR?"
 			(at 68.58 140.1572 0)
 			(effects
@@ -5766,1034 +6006,11 @@
 			)
 		)
 		(pin ""
-			(uuid "994d700a-55eb-480c-88f8-2bde801149f8")
+			(uuid "966b001a-6d65-44f9-8dbc-ea9745349f8a")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_BCP56-16TF_SamacSys.SchLib")
-		(at 190.5 86.8172 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82671c79-23e2-4138-b5d5-b72d89c19852")
-		(property "Reference" "Q600"
-			(at 198.882 86.5632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "BCP56-16TF"
-			(at 198.882 89.1032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOT230P700X180-4N"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transistor BJT NPN"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/BCP56T_SER.pdf"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.8mm"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Nexperia"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "BCP56-16TF"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "771-BCP56-16TF"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/BCP56-16TF?qs=uj7TeyS2Sj96ubfysKmpcg%3D%3D"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "BCP56-16TF"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/bcp56-16tf/nexperia?region=nac"
-			(at 190.5 86.8172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2775bf2-87e1-44c1-a120-55c3112a2082")
-		)
-		(pin "2"
-			(uuid "c7febff7-b416-4737-beba-d36e8a53ab1f")
-		)
-		(pin "3"
-			(uuid "ca8e0b92-936a-4a58-b3f1-9973c309b5f3")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "Q600")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:V_BattLDO_ARROW")
-		(at 58.42 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "938b21b2-a04e-4c0f-8bd2-548d18b9944b")
-		(property "Reference" "#PWR?"
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_BattLDO"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "7f3d4b2d-6c5d-4729-bbed-21cfedf016fd")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_SolderJumper_SamacSys.SchLib")
-		(at 154.94 96.9772 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "946afad2-a376-4124-af8d-5292246495fa")
-		(property "Reference" "JS600"
-			(at 160.02 99.5172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 153.67 100.7872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SolderJumper"
-			(at 154.94 96.9772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 96.9772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 96.9772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01143ff6-8198-47c1-ae6a-c3d84868483e")
-		)
-		(pin "2"
-			(uuid "d92b1022-5b2d-4930-8acc-6022c2efd395")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "JS600")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_0_LTC6811IG-2#PBF_*")
-		(at 119.38 66.4972 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a02d58c7-f6c5-49a4-b43e-d99636307749")
-		(property "Reference" "IC600"
-			(at 124.46 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LTC6811IG-2#PBF"
-			(at 124.46 129.9972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P780X200-48N"
-			(at 119.38 66.4972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 66.4972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Integrated Circuit"
-			(at 119.38 66.4972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0041878.pdf"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "2mm"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Analog Devices"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "LTC6811IG-2#PBF"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "584-LTC6811IG-2#PBF"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC6811IG-2PBF?qs=oahfZPh6IAI0fFYgAupCpg%3D%3D"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "LTC6811IG-2#PBF"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/ltc6811ig-2pbf/analog-devices?region=nac"
-			(at 118.872 63.9572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df74395b-5a15-4760-80c8-774b944630fd")
-		)
-		(pin "2"
-			(uuid "975477c1-90c7-4c48-89ef-158c362302e1")
-		)
-		(pin "3"
-			(uuid "d43413fb-900a-4635-aeca-e3b2742a0ab6")
-		)
-		(pin "4"
-			(uuid "310b9d5e-178c-4cb7-abc1-931b103b010b")
-		)
-		(pin "5"
-			(uuid "458c5da4-d56b-423c-9ad7-fe3f3428bfc1")
-		)
-		(pin "6"
-			(uuid "e3fc3504-f782-45aa-97fb-70592cc6b235")
-		)
-		(pin "7"
-			(uuid "b5ff62d3-1340-4810-bd67-42aa0a88bbec")
-		)
-		(pin "8"
-			(uuid "7ef9afe2-e159-49ad-996d-5cb89d4b466d")
-		)
-		(pin "9"
-			(uuid "a048855c-f28c-4b7e-9d6c-5c5c5c4dd2f7")
-		)
-		(pin "10"
-			(uuid "9f0b9dbc-5da8-4fd3-8804-bb211a43d5a6")
-		)
-		(pin "11"
-			(uuid "304e99a8-4481-4d48-8749-47df2b717892")
-		)
-		(pin "12"
-			(uuid "6153fd3b-6721-400d-a663-9124a53c819a")
-		)
-		(pin "13"
-			(uuid "39ae42fa-9dc6-4726-86f1-2e08e4e411f8")
-		)
-		(pin "14"
-			(uuid "7c6dcecb-a0e4-448e-9574-703508af877e")
-		)
-		(pin "15"
-			(uuid "fbeab192-3805-4ae5-af5d-08ac0a6d6807")
-		)
-		(pin "16"
-			(uuid "bd90adfe-b675-41a6-9474-3c653f5e65a8")
-		)
-		(pin "17"
-			(uuid "b91747c8-cbcd-4bf6-a97b-e68b6890279d")
-		)
-		(pin "18"
-			(uuid "2bdf6037-5941-40b5-9940-c32d94bc756f")
-		)
-		(pin "19"
-			(uuid "b30e2930-4b4b-412e-a625-f5d70d16c19b")
-		)
-		(pin "20"
-			(uuid "c4bef8e3-37b9-4aa5-9678-3880932b1fbf")
-		)
-		(pin "21"
-			(uuid "e1702fc3-1520-468c-9d5b-c2a9fb01fb5f")
-		)
-		(pin "22"
-			(uuid "ffe59093-6372-4aa4-9158-1855d6f2f3bf")
-		)
-		(pin "23"
-			(uuid "7ab48d32-c682-4e4f-bb81-722ac0723525")
-		)
-		(pin "24"
-			(uuid "61950d79-7939-4ba2-b229-b89cc5295ac8")
-		)
-		(pin "48"
-			(uuid "6f8768c1-ae2c-455a-ae58-c8a3734904b5")
-		)
-		(pin "47"
-			(uuid "20a8cd9c-fc70-4d42-bc17-749e04fc8cb2")
-		)
-		(pin "46"
-			(uuid "01c33454-8f44-489e-bb67-0df37bf2ac5b")
-		)
-		(pin "45"
-			(uuid "85bb21b9-2267-497c-9444-1d07764bd8b0")
-		)
-		(pin "44"
-			(uuid "73ae72db-084f-4b8c-b5f0-6c22e86f8e88")
-		)
-		(pin "43"
-			(uuid "40abec4b-6c4f-4b51-b916-0eb33dba8e0b")
-		)
-		(pin "42"
-			(uuid "9eda6087-c69c-4257-9d3e-6017445d1729")
-		)
-		(pin "41"
-			(uuid "9be2a740-455f-4266-a13c-ac18a2402e09")
-		)
-		(pin "40"
-			(uuid "2f00879c-ecbc-4fda-9119-a5be7161d438")
-		)
-		(pin "39"
-			(uuid "bccc4b79-1ab2-42b3-ab60-8b9fb5c67e37")
-		)
-		(pin "38"
-			(uuid "927db4f1-0257-4b04-ab46-834d52db1ae7")
-		)
-		(pin "37"
-			(uuid "58d4b8ed-b874-45ea-b2b5-50b316aa6781")
-		)
-		(pin "36"
-			(uuid "1819cf22-d720-497b-9d00-9c4e3eeea248")
-		)
-		(pin "35"
-			(uuid "af0c3bcd-d0d4-403d-aa89-348325719f2c")
-		)
-		(pin "34"
-			(uuid "ccd5a9e2-fca4-4db6-837c-18256d708f1b")
-		)
-		(pin "33"
-			(uuid "40780cdf-c37e-486f-bd1d-bb97de67c3d2")
-		)
-		(pin "32"
-			(uuid "13f03f1e-bfde-4402-8dcf-b6a71af19147")
-		)
-		(pin "31"
-			(uuid "c60a6c0e-46b4-44e3-8ed6-3e240594700d")
-		)
-		(pin "30"
-			(uuid "578d9d30-a256-4360-83a7-952630969b21")
-		)
-		(pin "29"
-			(uuid "5d659242-09a9-4e72-9702-ec046ad990ef")
-		)
-		(pin "28"
-			(uuid "ab9a122c-6b6d-42ea-9373-ca4766ea0dc8")
-		)
-		(pin "27"
-			(uuid "1ec92c80-6c61-4677-bc19-6bd641cc18f9")
-		)
-		(pin "26"
-			(uuid "e164733d-65a2-43b2-89ba-70a6a4780846")
-		)
-		(pin "25"
-			(uuid "cacd3203-e9e9-4079-b2e3-647d52dca7a7")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "IC600")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
-		(at 49.53 115.57 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a96118d8-0785-40f5-bc53-acfec6a44c4e")
-		(property "Reference" "C604"
-			(at 50.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100 nF, 100V, X7R"
-			(at 31.75 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:MAJx16"
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 100nF, 100V, X7R"
-			(at 49.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.8mm"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MAJCH168BB7104KTEA01"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "963-MAJCH168BB7104KT"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "MAJCH168BB7104KTEA01"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/majch168bb7104ktea01/taiyo-yuden?utm_currency=USD&region=nac"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "963-MAJCH168BB7104KT"
-			(at 46.736 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "726ca72f-fb29-4abd-94e5-6099f5eafe45")
-		)
-		(pin "2"
-			(uuid "d88f3fd7-4d25-4bb0-9b5f-6959d7942fab")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "C604")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
-		(at 198.12 104.5972 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b79a55d7-ff6d-4c12-bc62-24ea819d4fc4")
-		(property "Reference" "C603"
-			(at 200.914 114.5032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF 50V X7R"
-			(at 198.12 109.6772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 1uF 50V X7R"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 198.12 104.5972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "1uF"
-			(at 196.85 109.9312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7db74d65-ba1a-49b0-925d-ddf3806be297")
-		)
-		(pin "2"
-			(uuid "8b9d39f1-9762-4aef-96ee-1bae3159de57")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "C603")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
-		(at 187.96 117.2972 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc5f477e-0265-4519-9481-2e2f73fd0b82")
-		(property "Reference" "#PWR?"
-			(at 187.96 117.2972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Batt_GND_LTC_S"
-			(at 187.96 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 117.2972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 117.2972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 117.2972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3363e955-643b-4e46-b413-705da8dac1eb")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Vref2_ARROW")
-		(at 195.58 142.6972 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c362b805-d7b5-42ca-b842-1746b8ea14ab")
-		(property "Reference" "#PWR?"
-			(at 195.58 142.6972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Vref2"
-			(at 195.58 138.8872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 142.6972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 142.6972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 142.6972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d6649b2a-0622-4566-9064-fec986bfefbc")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -6802,15 +6019,15 @@
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Software Protection_0_Testpoint_SamacSys.SchLib")
-		(at 198.12 94.4372 0)
+		(at 198.12 142.24 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c5de10cf-d3e4-408f-9105-642bd314d718")
-		(property "Reference" "TP600"
-			(at 200.66 99.5172 0)
+		(uuid "699ae0ce-181c-46b3-981e-24df4cea5a9d")
+		(property "Reference" "TP602"
+			(at 200.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6036,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 200.66 99.5172 0)
+			(at 200.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6046,7 @@
 			)
 		)
 		(property "Footprint" "Testpoint"
-			(at 198.12 94.4372 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 94.4372 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 94.4372 0)
+			(at 198.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,28 +6073,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "586d38a4-200a-46a6-ac60-f14ecdaef0e3")
+			(uuid "2e2c581c-4c87-49bb-9b38-a147e0528e0b")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP600")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP602")
 					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Software Protection_2_CRCW060310K0FKEI_SamacSys.SchLib")
-		(at 195.58 142.6972 0)
+		(lib_id "Battman-altium-import:Software Protection_0_CRCW0603100RFKEA_SamacSys.SchLib")
+		(at 43.18 56.3372 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c83ddefe-da4c-4110-ab6e-67d88e6c9a89")
-		(property "Reference" "R601"
-			(at 182.88 141.4272 0)
+		(uuid "6fc4c7f3-1091-4a3a-98cb-2ebac4c41170")
+		(property "Reference" "R600"
+			(at 48.26 55.0672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,18 +6102,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRCW060310K0FKEI"
-			(at 194.31 146.5072 0)
+		(property "Value" "100R, 1%"
+			(at 47.498 60.1472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 195.58 142.6972 0)
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 142.6972 0)
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,8 +6129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k, 1%"
-			(at 195.58 142.6972 0)
+		(property "Description" "Resistor 100R, 1%"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6923,7 +6139,7 @@
 			)
 		)
 		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 195.58 142.6972 0)
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +6149,7 @@
 			)
 		)
 		(property "HEIGHT" "0.5mm"
-			(at 195.58 142.6972 0)
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +6159,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "Vishay"
-			(at 195.58 142.6972 0)
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,8 +6168,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 142.6972 0)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6962,8 +6178,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PART NUMBER" "71-CRCW060310K0FKEI"
-			(at 195.58 142.6972 0)
+		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,8 +6188,8 @@
 				(hide yes)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 195.58 142.6972 0)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,8 +6198,8 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW PART NUMBER" "CRCW060310K0FKEI"
-			(at 195.58 142.6972 0)
+		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,27 +6208,18 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 195.58 142.6972 0)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
+			(at 43.18 56.3372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10k, 1%"
-			(at 182.88 146.5072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 194.31 138.8872 0)
+			(at 41.91 52.5272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,8 +6228,18 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART NUMBER 1" "71-CRCW060310K0FKEI"
-			(at 194.31 138.8872 0)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
+			(at 41.91 52.5272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 55.88 58.8772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,31 +6249,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "25ad4c20-d198-4117-aea4-5bc16c236e20")
+			(uuid "70f673e5-9526-424e-8d74-70d394083b25")
 		)
 		(pin "2"
-			(uuid "576d1e71-33ac-46ce-8487-e76482bc2e41")
+			(uuid "94744d19-3365-4332-be73-792451521e2e")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "R601")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "R600")
 					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
-		(at 165.1 109.6772 0)
+		(lib_id "Battman-altium-import:V_BattLTC_ARROW")
+		(at 62.23 61.4172 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cbd2fefc-bff9-4424-b668-e63a59b2f0b9")
+		(uuid "7c427d52-6f30-447e-805c-68fd8c0afcd8")
 		(property "Reference" "#PWR?"
-			(at 165.1 109.6772 0)
+			(at 62.23 61.4172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,8 +6281,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Batt_GND_LTC_S"
-			(at 165.1 113.4872 0)
+		(property "Value" "V_BattLTC"
+			(at 62.23 57.6072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +6290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 109.6772 0)
+			(at 62.23 61.4172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,7 +6298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 109.6772 0)
+			(at 62.23 61.4172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +6306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 109.6772 0)
+			(at 62.23 61.4172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7097,11 +6314,11 @@
 			)
 		)
 		(pin ""
-			(uuid "84041b14-9c50-4c25-be54-fe446880c8b9")
+			(uuid "8fcc0887-9059-4019-9992-4f7bb98a3775")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7109,16 +6326,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:V_BattLDO_ARROW")
-		(at 198.12 79.1972 180)
-		(unit 1)
+		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
+		(at 187.96 104.14 0)
+		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf73aa97-24a1-4e79-8a85-40623920a8f8")
-		(property "Reference" "#PWR?"
-			(at 198.12 79.1972 0)
+		(uuid "8a096ed0-cf9f-4a87-a39c-84507c133305")
+		(property "Reference" "C602"
+			(at 190.754 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,61 +6361,140 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_BattLDO"
-			(at 198.12 75.3872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 79.1972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 198.12 79.1972 0)
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 198.12 79.1972 0)
+		(property "Description" "Capacitor 1uF 50V X7R"
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin ""
-			(uuid "87d1b61c-1e59-4b29-8448-43fa53275835")
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 186.69 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce69f43e-7c6c-4a38-b520-3b35797e9834")
+		)
+		(pin "2"
+			(uuid "b9a10d87-9c7c-4781-8743-3fb6449c05ef")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "#PWR?")
-					(unit 1)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "C602")
+					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Battman-altium-import:Software Protection_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
-		(at 58.42 115.57 0)
+		(at 71.12 76.6572 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb1c7f16-8272-4552-9488-fdf1377f82cc")
+		(uuid "983e8b80-c78a-43e0-bcb5-3012b812177d")
 		(property "Reference" "C600"
-			(at 59.69 107.95 0)
+			(at 72.39 69.0372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +6503,7 @@
 			)
 		)
 		(property "Value" "100 nF, 100V, X7R"
-			(at 58.42 113.03 0)
+			(at 71.12 74.1172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +6512,7 @@
 			)
 		)
 		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:MAJx16"
-			(at 58.42 115.57 0)
+			(at 71.12 76.6572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +6521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 115.57 0)
+			(at 71.12 76.6572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +6530,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF, 100V, X7R"
-			(at 58.42 115.57 0)
+			(at 71.12 76.6572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +6539,7 @@
 			)
 		)
 		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +6549,7 @@
 			)
 		)
 		(property "HEIGHT" "0.8mm"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +6559,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +6569,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "MAJCH168BB7104KTEA01"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +6579,7 @@
 			)
 		)
 		(property "MOUSER PART NUMBER" "963-MAJCH168BB7104KT"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7275,7 +6589,7 @@
 			)
 		)
 		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +6599,7 @@
 			)
 		)
 		(property "ARROW PART NUMBER" "MAJCH168BB7104KTEA01"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +6609,7 @@
 			)
 		)
 		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/majch168bb7104ktea01/taiyo-yuden?utm_currency=USD&region=nac"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +6619,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +6629,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "963-MAJCH168BB7104KT"
-			(at 55.626 102.362 0)
+			(at 68.326 63.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,14 +6639,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5b50fb1-37b9-4dd6-8a14-6b29c92b443a")
+			(uuid "5ae11081-ba5d-4189-956c-0ed41eb5dd66")
 		)
 		(pin "2"
-			(uuid "b1828fcb-e821-4f2a-8084-3ca354dd629c")
+			(uuid "3b205323-993a-4b94-bbb6-cfe26a064c76")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "C600")
 					(unit 0)
 				)
@@ -7340,16 +6654,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:V_BattLTC_ARROW")
-		(at 49.53 100.33 180)
+		(lib_id "Battman-altium-import:Vref2_ARROW")
+		(at 177.8 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eda5a85d-b6ac-4bd8-a38e-80d16ff7c47c")
+		(uuid "9d5617b1-cca3-4aa8-ac7e-b7054cec7a3b")
 		(property "Reference" "#PWR?"
-			(at 49.53 100.33 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,8 +6671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_BattLTC"
-			(at 49.53 96.52 0)
+		(property "Value" "Vref2"
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +6680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 100.33 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +6688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 100.33 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +6696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 100.33 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,11 +6704,11 @@
 			)
 		)
 		(pin ""
-			(uuid "4aafb060-1e32-4a8f-b225-30cd56f81228")
+			(uuid "c746fff1-08e0-4bcb-bf6b-226639034232")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -7402,16 +6716,996 @@
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:Software Protection_1_Testpoint_SamacSys.SchLib")
-		(at 170.18 62.6872 0)
+		(lib_id "Battman-altium-import:Vref2_ARROW")
+		(at 195.58 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fa9ad42-28f1-488b-b307-513cacb7f63a")
+		(property "Reference" "#PWR?"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vref2"
+			(at 195.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e4f005e2-24b8-482f-9dbf-98f90725e671")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_1_MAJCH168BB7104KTEA01_SamacSys.SchLib")
+		(at 62.23 76.6572 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f02fce1b-f26f-4abf-b6f7-32f1740fc39e")
-		(property "Reference" "TP605"
-			(at 167.64 55.0672 0)
+		(uuid "ae07b901-4b1f-4d31-9130-458f0d34a64a")
+		(property "Reference" "C604"
+			(at 63.5 69.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100 nF, 100V, X7R"
+			(at 44.45 74.1172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:MAJx16"
+			(at 62.23 76.6572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 76.6572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 100nF, 100V, X7R"
+			(at 62.23 76.6572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.8mm"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "TAIYO YUDEN"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MAJCH168BB7104KTEA01"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "963-MAJCH168BB7104KT"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "MAJCH168BB7104KTEA01"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/majch168bb7104ktea01/taiyo-yuden?utm_currency=USD&region=nac"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "963-MAJCH168BB7104KT"
+			(at 59.436 63.4492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b74182e-19b7-49c5-8672-ef7829f97f6b")
+		)
+		(pin "2"
+			(uuid "789c7a84-d232-4166-950c-fcd3a3f1851a")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "C604")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:V_BattLDO_ARROW")
+		(at 198.12 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af6d6172-3ddb-4fae-927f-f3dad56d1d92")
+		(property "Reference" "#PWR?"
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_BattLDO"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2565a66a-6ded-4731-88e5-2b66cf4b5db0")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Batt_GND_LTC_S_BAR")
+		(at 187.96 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb09bd1b-f614-4a5d-b4d1-daefdf34d5a2")
+		(property "Reference" "#PWR?"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Batt_GND_LTC_S"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2f751394-eb45-486b-aa1d-dc1e831c1695")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_0_LTC6811IG-2#PBF_*")
+		(at 119.38 66.04 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0686cca-4974-44b0-b177-690547a02207")
+		(property "Reference" "IC600"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LTC6811IG-2#PBF"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOP50P780X200-48N"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0041878.pdf"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "2mm"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Analog Devices"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "LTC6811IG-2#PBF"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "584-LTC6811IG-2#PBF"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC6811IG-2PBF?qs=oahfZPh6IAI0fFYgAupCpg%3D%3D"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "LTC6811IG-2#PBF"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/ltc6811ig-2pbf/analog-devices?region=nac"
+			(at 118.872 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e4b4425-ab70-41c1-bf78-d68a12767a9a")
+		)
+		(pin "2"
+			(uuid "f113b304-30f8-4386-b7fa-b757b6777f47")
+		)
+		(pin "3"
+			(uuid "954b6aa4-cfa8-4e30-87e7-2bc11c94bcc5")
+		)
+		(pin "4"
+			(uuid "1e8451cb-7160-4682-8767-bc78bb07c9bf")
+		)
+		(pin "5"
+			(uuid "4c49d69f-dffe-411a-a07c-eabbbdb45ed4")
+		)
+		(pin "6"
+			(uuid "33eaac26-1e39-4dff-8397-259cbd65acb8")
+		)
+		(pin "7"
+			(uuid "f9be1c2c-3e72-467e-91a3-b7c6d2f0951f")
+		)
+		(pin "8"
+			(uuid "7723a9f4-2141-4e85-8158-6682eb8398a1")
+		)
+		(pin "9"
+			(uuid "ab3778e4-ac02-4470-9714-0bab2b5680ce")
+		)
+		(pin "10"
+			(uuid "97c2c9c0-06bc-4621-8b34-37c6e06437ef")
+		)
+		(pin "11"
+			(uuid "6ab45bae-4e9a-46b8-819a-c0abc8b440d0")
+		)
+		(pin "12"
+			(uuid "10227063-15c0-43a6-a585-aa7c8b74dd49")
+		)
+		(pin "13"
+			(uuid "5ffb5f59-79fe-4f5a-b721-752422b1c634")
+		)
+		(pin "14"
+			(uuid "07a83171-8c36-4219-849b-8602dfd24ea3")
+		)
+		(pin "15"
+			(uuid "1b531052-ec44-4c7f-b4ff-31fe221b99e4")
+		)
+		(pin "16"
+			(uuid "8a873c00-ec07-48b1-ab88-fb12ccc1ab66")
+		)
+		(pin "17"
+			(uuid "acec3173-dc14-4c10-a1d2-9d599fb0b911")
+		)
+		(pin "18"
+			(uuid "6c8d9d54-8028-4de5-9770-36f6d78bc77b")
+		)
+		(pin "19"
+			(uuid "f1f858c1-f5de-4c67-b5f1-ddb70f1a146b")
+		)
+		(pin "20"
+			(uuid "30e2eb48-4efa-4a78-bdfc-d58846bf6ef3")
+		)
+		(pin "21"
+			(uuid "9372e9c5-c323-46be-9de0-c5f5983543f9")
+		)
+		(pin "22"
+			(uuid "f709862d-7400-4471-b9a1-2989c16235a7")
+		)
+		(pin "23"
+			(uuid "25992f2e-3a7c-457e-a57a-9cc3cf305204")
+		)
+		(pin "24"
+			(uuid "10c32b08-f000-4ce9-b1d9-3cf2fb3b3e75")
+		)
+		(pin "48"
+			(uuid "6e562a16-3f0a-474b-ac16-7d9433e4649c")
+		)
+		(pin "47"
+			(uuid "248a5b61-1156-45d1-9167-fdc536289bfe")
+		)
+		(pin "46"
+			(uuid "c22b003a-c409-40cf-bec8-7fcd36df4895")
+		)
+		(pin "45"
+			(uuid "8cfd2666-9f9d-4bb0-aaf5-8b8d8f2da24e")
+		)
+		(pin "44"
+			(uuid "2e144d72-c640-4536-a07f-b2e7ddc2eb84")
+		)
+		(pin "43"
+			(uuid "0f773b6d-bdfc-44d5-b627-b89734a4a12f")
+		)
+		(pin "42"
+			(uuid "f6729b2b-b0fb-412f-9a00-c7fe9001a733")
+		)
+		(pin "41"
+			(uuid "887732f9-1182-4d41-9435-965b7a86bad8")
+		)
+		(pin "40"
+			(uuid "7e4de576-ba8e-47c7-af6f-fe945e4fb45f")
+		)
+		(pin "39"
+			(uuid "c187e3e7-8cf8-420b-a98c-d479465ce197")
+		)
+		(pin "38"
+			(uuid "ec573d81-c4fd-449f-8350-251c9f317d2d")
+		)
+		(pin "37"
+			(uuid "2b1f1cd7-236f-4eb0-84c3-6b4a1bbfd385")
+		)
+		(pin "36"
+			(uuid "bcfecae6-2c1e-4634-b73a-79d33d718e3f")
+		)
+		(pin "35"
+			(uuid "3562825e-5d81-4a35-b131-bf4bb8cf3201")
+		)
+		(pin "34"
+			(uuid "de1368cf-1a49-4185-8549-2e0b0a8ca2f2")
+		)
+		(pin "33"
+			(uuid "c1e3649c-52e4-49cf-b338-6a950dc036c3")
+		)
+		(pin "32"
+			(uuid "23e4cc85-15a2-4cf3-b683-19d9c89d95c3")
+		)
+		(pin "31"
+			(uuid "0cbe191d-5021-4ba9-9667-b20f9bafb03f")
+		)
+		(pin "30"
+			(uuid "e0cc26f6-fd4a-49cf-a77c-b959489c941f")
+		)
+		(pin "29"
+			(uuid "598fb5b9-0010-4d1e-ad45-d9f9300aa820")
+		)
+		(pin "28"
+			(uuid "d0c6674f-aad3-4daf-a106-4efe7432e1fa")
+		)
+		(pin "27"
+			(uuid "60bd80d1-c4ae-41fe-86f1-968721e21785")
+		)
+		(pin "26"
+			(uuid "42bf2aaa-ecb2-4659-a2da-7cb59743360d")
+		)
+		(pin "25"
+			(uuid "041628bc-b3f4-46e2-b3f5-e5b5b674d687")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "IC600")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_3_06035C105MAT2A_SamacSys.SchLib")
+		(at 177.8 104.14 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d77343c1-8e04-4621-8b8b-16be8841c0b8")
+		(property "Reference" "C601"
+			(at 180.594 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF 50V X7R"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 1uF 50V X7R"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06035C105MAT2A"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06035C105MAT2A"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105MAT2A?qs=%252BdQmOuGyFcHMsevPtc6OZQ%3D%3D"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1uF"
+			(at 176.53 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d242d8d-f322-4c2c-8a3d-d35b146ae141")
+		)
+		(pin "2"
+			(uuid "d630f0f2-fffb-4377-81e5-abfbbd239e7a")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "C601")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_2_CRCW060310K0FKEI_SamacSys.SchLib")
+		(at 195.58 142.24 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e51237e2-30ab-4f17-bd3c-f588c2b549e7")
+		(property "Reference" "R601"
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRCW060310K0FKEI"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k, 1%"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW060310K0FKEI"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW060310K0FKEI"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW060310K0FKEI"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
+			(at 195.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k, 1%"
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW060310K0FKEI"
+			(at 194.31 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "878c3444-487e-4095-9abe-ed1ab23903bd")
+		)
+		(pin "2"
+			(uuid "caf31363-54a9-4088-add0-08a00947086b")
+		)
+		(instances
+			(project ""
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "R601")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Software Protection_0_Testpoint_SamacSys.SchLib")
+		(at 198.12 93.98 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d7ded4-577f-40a5-b10e-4da6a290c630")
+		(property "Reference" "TP600"
+			(at 200.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7714,7 @@
 			)
 		)
 		(property "Value" "Testpoint"
-			(at 167.64 55.0672 0)
+			(at 200.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7724,7 @@
 			)
 		)
 		(property "Footprint" "Testpoint"
-			(at 170.18 62.6872 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 62.6872 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 62.6872 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,28 +7751,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "4445705b-e3df-4d7c-b1c9-d23f58e0acda")
+			(uuid "827ec5db-a247-4e29-a92f-ade147824b40")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
-					(reference "TP605")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
+					(reference "TP600")
 					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:V_BattLTC_ARROW")
-		(at 115.57 66.4972 180)
+		(lib_id "Battman-altium-import:V_BattLDO_ARROW")
+		(at 71.12 55.0672 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd1d20af-dfc4-4062-83af-be099d3d1794")
+		(uuid "fee9fde6-24ff-4926-8566-24464f06ffa0")
 		(property "Reference" "#PWR?"
-			(at 115.57 66.4972 0)
+			(at 71.12 55.0672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,8 +7780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_BattLTC"
-			(at 115.57 62.6872 0)
+		(property "Value" "V_BattLDO"
+			(at 71.12 51.2572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 66.4972 0)
+			(at 71.12 55.0672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 66.4972 0)
+			(at 71.12 55.0672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +7805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 66.4972 0)
+			(at 71.12 55.0672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,11 +7813,11 @@
 			)
 		)
 		(pin ""
-			(uuid "4a4322ed-5e69-48a3-836c-267ff5db04d4")
+			(uuid "024bacc7-37d0-42c1-8509-0c24c60d944a")
 		)
 		(instances
 			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/cbd889f3-3671-4c6d-b6b1-20be61557e52"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/0ae549fa-5a35-4554-8f10-0102037708b4"
 					(reference "#PWR?")
 					(unit 1)
 				)

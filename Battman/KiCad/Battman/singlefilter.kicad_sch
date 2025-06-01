@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "87d85bea-9caa-42cc-9d07-db51e8033aef")
+	(uuid "d9386d51-e5f9-492f-b0e9-c43372e29a36")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Battman-altium-import:CellFilter6_0_0466.250NR_SamacSys.SchLib"
@@ -1444,17 +1444,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A3"
-		(exclude_from_sim no)
-		(at 271.78 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f466cf7-88e8-474e-871e-9cf5a933371f")
-	)
 	(text "${#}"
 		(exclude_from_sim no)
 		(at 255.524 202.3872 0)
@@ -1464,40 +1453,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1e319701-1936-4c11-96bc-2e74d12a31ae")
-	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 223.52 199.8472 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "2094c475-4119-4f89-9f04-b7e05764cda8")
-	)
-	(text "${##}"
-		(exclude_from_sim no)
-		(at 259.588 202.3872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77aefedb-ab52-4f57-8a37-7a0a785f164a")
-	)
-	(text "${FILENAME}"
-		(exclude_from_sim no)
-		(at 208.28 192.2272 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left bottom)
-		)
-		(uuid "aed42ac6-7205-4b94-94fe-77f2e2af2ddb")
+		(uuid "01d4757d-9061-4745-9b45-d9d05a65fe85")
 	)
 	(text "Otto Riha"
 		(exclude_from_sim no)
@@ -1508,29 +1464,51 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b2f42a98-ed44-4d9b-9700-4fa72a1960e5")
+		(uuid "5a6ebd0c-4e97-428e-bcee-9dcecee477e7")
 	)
-	(text_box "P Balance = 4.2V^2/33R = 535mW resistance is rated for 2W, ~\n25mA balancing current, external transistors choosen to not be limited to 60mA balancing current and reduce heat disipation in LTC"
+	(text "A3"
 		(exclude_from_sim no)
-		(at 162.56 136.3472 0)
-		(size -35.56 17.78)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
+		(at 271.78 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
 		)
-		(fill
-			(type color)
-			(color 255 255 150 1)
+		(uuid "5f916c46-0990-41e0-9698-d426c26e7e5c")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 199.8472 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
 		)
+		(uuid "6b390c1a-b84e-4c11-bad8-f0c2f2a83a1e")
+	)
+	(text "${##}"
+		(exclude_from_sim no)
+		(at 259.588 202.3872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left bottom)
 		)
-		(uuid "16bdccc4-ff35-4654-b02a-905b57e20d23")
+		(uuid "b3b5e52a-cae7-43db-ac16-74f2203745c5")
+	)
+	(text "${FILENAME}"
+		(exclude_from_sim no)
+		(at 208.28 192.2272 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4ea859a-1b6d-492a-ad26-d39df17752fe")
 	)
 	(text_box "recommended filtering from LTC 6801 datasheet: 1kOhm 10nF to GND"
 		(exclude_from_sim no)
@@ -1552,7 +1530,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "1e76aa11-9d40-45f4-ad91-799f53bc7b5b")
+		(uuid "0963945e-817e-4e68-a691-6dd5a718456e")
 	)
 	(text_box "recomended filter components for maximum measurement accuracy from LTC 6811 datasheet: 100R 10nF, the zeners are there to reduce stress on internal protection circuit"
 		(exclude_from_sim no)
@@ -1574,149 +1552,41 @@
 			)
 			(justify left top)
 		)
-		(uuid "628d934f-e382-4c43-89a8-4bdce484424d")
+		(uuid "b056cc86-7e13-470e-86be-5451aa0f7b5f")
 	)
-	(junction
-		(at 99.06 93.1672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2385778f-f660-44d2-93d9-d7799fd98028")
+	(text_box "P Balance = 4.2V^2/33R = 535mW resistance is rated for 2W, ~\n25mA balancing current, external transistors choosen to not be limited to 60mA balancing current and reduce heat disipation in LTC"
+		(exclude_from_sim no)
+		(at 162.56 136.3472 0)
+		(size -35.56 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c8c62258-701a-42e6-8c21-ff24c1447fea")
 	)
 	(junction
 		(at 99.06 67.7672)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca540328-1603-4bf9-b998-065766774491")
+		(uuid "81f68bd0-d6ee-420a-8849-d8bde22b857d")
 	)
-	(wire
-		(pts
-			(xy 121.92 67.7672) (xy 160.02 67.7672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b9fef2-c484-40eb-abab-ceafa4b30273")
-	)
-	(wire
-		(pts
-			(xy 160.02 108.4072) (xy 144.78 108.4072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0889a6ce-152a-48b1-8c7b-b40070d0c3ab")
-	)
-	(wire
-		(pts
-			(xy 75.248 49.9872) (xy 99.06 49.9872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2ec3a4-cf46-4bb1-ba85-a9b7187accba")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.1672) (xy 104.14 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e48b62-eed4-4014-855a-4f245eb9ec78")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.7672) (xy 104.14 67.7672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16b90a55-4ce4-4c15-a9a7-7444e9dd8fd8")
-	)
-	(wire
-		(pts
-			(xy 68.58 151.5872) (xy 99.06 151.5872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c3db8ed-d8eb-407a-9b35-273a62e8eb85")
-	)
-	(wire
-		(pts
-			(xy 73.66 161.7472) (xy 73.66 164.2872)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b4defd-6fe1-4e49-bb47-01a9006b403d")
-	)
-	(wire
-		(pts
-			(xy 121.92 70.3072) (xy 121.92 67.7672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36cc93d7-5e6c-43b9-9a54-611979134e66")
-	)
-	(wire
-		(pts
-			(xy 68.63 161.7472) (xy 73.66 161.7472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a1edc2-5db5-4dd2-a804-925a9fdbb385")
-	)
-	(wire
-		(pts
-			(xy 121.92 93.1672) (xy 160.02 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c67a234-3c70-408c-aa2f-ab50469870ba")
-	)
-	(wire
-		(pts
-			(xy 129.54 121.1072) (xy 109.22 121.1072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9bcd53-93e1-4bdd-ae80-945b76fed1bf")
-	)
-	(wire
-		(pts
-			(xy 99.06 116.0272) (xy 99.06 93.1672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ab21a6-2f01-42e7-a8ec-900fef8b58f3")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.1072) (xy 160.02 121.1072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927de72d-a75c-49e8-8fef-c984d7377640")
+	(junction
+		(at 99.06 93.1672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931806c5-f6df-40b6-9f7c-fc6f43040ccb")
 	)
 	(wire
 		(pts
@@ -1726,47 +1596,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "92a94498-4eb8-4c98-8178-00dd034c4b75")
+		(uuid "051f1b0c-73b6-4289-ab1b-b33623407364")
 	)
 	(wire
 		(pts
-			(xy 99.06 151.5872) (xy 99.06 149.0472)
+			(xy 121.92 93.1672) (xy 160.02 93.1672)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fb4c0bf-88a5-47cd-acb4-69b5814c14de")
+		(uuid "1c3e92b4-5e89-45af-b4c7-79b7a6adfa8e")
 	)
 	(wire
 		(pts
-			(xy 99.06 67.7672) (xy 96.52 67.7672)
+			(xy 99.06 67.7672) (xy 104.14 67.7672)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba8f141a-55ef-4877-9865-5a86d22d212f")
-	)
-	(wire
-		(pts
-			(xy 99.06 49.9872) (xy 99.06 67.7672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfb0278-10bb-4e6f-870a-a73ea3ee4b82")
-	)
-	(wire
-		(pts
-			(xy 99.06 93.1672) (xy 99.06 67.7672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9acf1dd-638b-4857-ae63-af12db766e3c")
+		(uuid "1e81adcd-0901-4077-a671-8f9836575907")
 	)
 	(wire
 		(pts
@@ -1776,7 +1626,127 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "da85e315-02c1-4e83-a634-e8f77e5aaea2")
+		(uuid "2238ab5a-e716-44ff-a6e4-172b01db889c")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.7672) (xy 96.52 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f5f6cb-7e60-4505-b0bc-4cd272137534")
+	)
+	(wire
+		(pts
+			(xy 160.02 108.4072) (xy 144.78 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e65b4b7-54e5-4d5e-81be-16a8a4c9f98c")
+	)
+	(wire
+		(pts
+			(xy 99.06 151.5872) (xy 99.06 149.0472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d951ea-2f88-44db-971f-79b8b81a0b53")
+	)
+	(wire
+		(pts
+			(xy 121.92 70.3072) (xy 121.92 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67790b99-81b6-4f72-b94e-c6b7c75038fa")
+	)
+	(wire
+		(pts
+			(xy 75.248 49.9872) (xy 99.06 49.9872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef869f3-a896-4add-a53c-f4f4a37861d2")
+	)
+	(wire
+		(pts
+			(xy 99.06 49.9872) (xy 99.06 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9286ef3b-420b-4be6-bdf6-26c493d15ab1")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.1672) (xy 99.06 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e5fd84-1551-4475-9890-e74b3ab13591")
+	)
+	(wire
+		(pts
+			(xy 68.58 151.5872) (xy 99.06 151.5872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef9da96-63b9-4686-b5d9-6dfc0779335e")
+	)
+	(wire
+		(pts
+			(xy 73.66 161.7472) (xy 73.66 164.2872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64b6956-3397-4e5f-b09c-23d00108f998")
+	)
+	(wire
+		(pts
+			(xy 68.63 161.7472) (xy 73.66 161.7472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6e8854-ce81-4444-a50c-2fd6f1b2a16b")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.1672) (xy 104.14 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc97b0b6-ccf7-460e-8be1-8518f7b049f3")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.7672) (xy 160.02 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0049767-33ea-4e75-82ea-fce7626b7722")
 	)
 	(wire
 		(pts
@@ -1786,95 +1756,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e38596fd-2409-4f21-839e-5291c8b47a12")
+		(uuid "df937d87-dc4b-4f02-8f7e-a2b164306e43")
 	)
-	(hierarchical_label "LTC_S_S"
-		(shape input)
-		(at 160.02 121.1072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 147.32 121.1072) (xy 160.02 121.1072)
 		)
-		(uuid "2331059b-8306-4001-a70a-60ce8023dfbd")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e189c397-1b4d-4bb8-9f3e-aca4d51f96c5")
 	)
-	(hierarchical_label "Cell-"
-		(shape input)
-		(at 68.58 151.5872 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 129.54 121.1072) (xy 109.22 121.1072)
 		)
-		(uuid "3fcbed9c-3fdc-46e4-b878-e806a170d85c")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03f7e7a-e1b9-4967-9dac-192ddce0b7b3")
 	)
-	(hierarchical_label "Vbat-"
-		(shape input)
-		(at 68.63 161.7472 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 99.06 116.0272) (xy 99.06 93.1672)
 		)
-		(uuid "735ac015-a6d4-4a43-bb21-46b5afdb052f")
-	)
-	(hierarchical_label "Cell+_Fused"
-		(shape output)
-		(at 75.248 49.9872 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "7f7fa29b-a4a1-48c2-9e3d-51b61057a2a7")
-	)
-	(hierarchical_label "LTC_H_C+"
-		(shape bidirectional)
-		(at 160.02 67.7672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8821e0c7-a796-460c-bad7-077f003f2a6c")
-	)
-	(hierarchical_label "Cell+"
-		(shape input)
-		(at 68.58 67.7672 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb0ea0c3-5dc8-47bd-9b9e-ec2228bf85fc")
-	)
-	(hierarchical_label "LTC_H_C-"
-		(shape bidirectional)
-		(at 160.02 83.0072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0d72ac6-981a-487a-9345-205734797606")
-	)
-	(hierarchical_label "LTC_S_C-"
-		(shape bidirectional)
-		(at 160.02 108.4072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1822cfe-d58b-447d-870f-bef9697c31d1")
+		(uuid "f4861594-afc7-442d-b37e-483539113917")
 	)
 	(hierarchical_label "LTC_S_C+"
 		(shape bidirectional)
@@ -1885,18 +1797,1377 @@
 			)
 			(justify left)
 		)
-		(uuid "f1ad6016-985e-4694-9b64-edb97bb9418f")
+		(uuid "24d1c0cf-059b-4b8d-a8c9-42af521566a5")
+	)
+	(hierarchical_label "LTC_H_C-"
+		(shape bidirectional)
+		(at 160.02 83.0072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cd4dbff-f31b-4b99-8be6-40bd5d663635")
+	)
+	(hierarchical_label "LTC_S_C-"
+		(shape bidirectional)
+		(at 160.02 108.4072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9218b9f3-10d7-4b2e-b972-28a701b26631")
+	)
+	(hierarchical_label "Cell-"
+		(shape input)
+		(at 68.58 151.5872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "936ef606-a11e-42c7-8c79-1abed8ea2c8b")
+	)
+	(hierarchical_label "Vbat-"
+		(shape input)
+		(at 68.63 161.7472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8cc8ab4-9aab-4713-a8c2-935f78ee51ec")
+	)
+	(hierarchical_label "LTC_H_C+"
+		(shape bidirectional)
+		(at 160.02 67.7672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b99882a9-cc6e-4c00-b0ed-cd6847ed8519")
+	)
+	(hierarchical_label "LTC_S_S"
+		(shape input)
+		(at 160.02 121.1072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de2c2298-a91b-4536-90f2-fc9ca14940fb")
+	)
+	(hierarchical_label "Cell+"
+		(shape input)
+		(at 68.58 67.7672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc1dd117-5e54-4e6b-8762-2d54dccacb4b")
+	)
+	(hierarchical_label "Cell+_Fused"
+		(shape output)
+		(at 75.248 49.9872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe92008c-097f-45df-9824-74022c65eaf4")
 	)
 	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_1_06031C103K4Z2A_SamacSys.SchLib")
-		(at 121.92 83.0072 0)
-		(unit 0)
+		(lib_id "Battman-altium-import:CellFilter6_3_MMSZ4692T1G_SamacSys.SchLib")
+		(at 144.78 67.7672 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22edd3fd-fb37-40ec-bba3-1ed75b911ba3")
-		(property "Reference" "C200"
+		(uuid "08bb5685-eff6-49f6-a9a9-cb41f3549aea")
+		(property "Reference" "Z200J"
+			(at 147.574 72.5932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MMSZ4692T1G"
+			(at 147.574 75.1332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOD3716X135N"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 6.8V"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.35mm"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "onsemi"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MMSZ4692T1G"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "863-MMSZ4692T1G"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ4692T1G?qs=P4IOph%252Bbot8jSn3zyyx1xw%3D%3D"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "MMSZ4692T1G"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmsz4692t1g/on-semiconductor"
+			(at 144.78 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fa915d4-e0d6-438a-b93c-2c89362a8d55")
+		)
+		(pin "2"
+			(uuid "a57ea215-06e2-4bf1-a5f1-92a60ace0ab4")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "Z200B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "Z200I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "Z200H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "Z200G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "Z200A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "Z200E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "Z200J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "Z200D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "Z200C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "Z200F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_0_CRCW0603100RFKEA_SamacSys.SchLib")
+		(at 104.14 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d05d4ae-7341-4bc9-9654-0eac3264ff0e")
+		(property "Reference" "R201J"
+			(at 109.22 91.8972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100R, 1%"
+			(at 108.966 97.4852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 100R, 1%"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.5mm"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
+			(at 104.14 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 102.87 89.3572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
+			(at 102.87 89.3572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100R"
+			(at 116.84 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c8518f6-da3b-4083-ab31-52cb87070594")
+		)
+		(pin "2"
+			(uuid "0d22c043-9b7a-40d0-80c0-0091dfa79286")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "R201B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "R201I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "R201H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "R201G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "R201A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "R201E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "R201J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "R201D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "R201C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "R201F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:Cell_GND_BAR")
+		(at 73.66 164.2872 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c279abe-7f54-415c-8c70-ffb6b45eaf84")
+		(property "Reference" "#PWR?"
+			(at 73.66 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Cell_GND"
+			(at 73.66 168.0972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 164.2872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f5d18695-9c6b-4355-8666-cbdcf590c90d")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_2_NX2301P,215_SamacSys.SchLib")
+		(at 109.22 121.1072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cfa1b83-b4a0-4bd1-80ff-83d6578a82f0")
+		(property "Reference" "Q200J"
+			(at 109.728 120.8532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NX2301P,215"
+			(at 109.728 123.3932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOT95P230X110-3N"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/NX2301P.pdf"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Nexperia"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "NX2301P,215"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "771-NX2301P215"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/NX2301P215?qs=A1cBxND5mHKs%252BLrxCDENxw%3D%3D"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "NX2301P,215"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/nx2301p215/nexperia?utm_currency=USD&region=europe"
+			(at 109.22 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b0bf881-b389-413f-81ea-5f9e739fd4ac")
+		)
+		(pin "2"
+			(uuid "88e0cc4e-b79d-449a-a655-f48008e9a6f8")
+		)
+		(pin "3"
+			(uuid "c5716fb8-ad28-4fec-afb2-de529d178305")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "Q200B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "Q200I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "Q200H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "Q200G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "Q200A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "Q200E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "Q200J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "Q200D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "Q200C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "Q200F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_3_MMSZ4692T1G_SamacSys.SchLib")
+		(at 144.78 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60ffa241-0a53-489e-b06b-cf88a41967e8")
+		(property "Reference" "Z201J"
+			(at 147.574 97.9932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MMSZ4692T1G"
+			(at 147.574 100.5332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOD3716X135N"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diode 6.8V"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.35mm"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "onsemi"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "MMSZ4692T1G"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "863-MMSZ4692T1G"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ4692T1G?qs=P4IOph%252Bbot8jSn3zyyx1xw%3D%3D"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "MMSZ4692T1G"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmsz4692t1g/on-semiconductor"
+			(at 144.78 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4456e5c0-df1d-47aa-9fb4-1c9aaab2ed0f")
+		)
+		(pin "2"
+			(uuid "86d6e4e2-324a-48fa-916d-de16aa3ca11f")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "Z201B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "Z201I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "Z201H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "Z201G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "Z201A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "Z201E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "Z201J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "Z201D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "Z201C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "Z201F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_1_CRM2512-JW-330ELF_SamacSys.SchLib")
+		(at 99.06 149.0472 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a11417c-fdbe-4cae-aab2-f07edf7cd99c")
+		(property "Reference" "R203J"
+			(at 100.33 138.8872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33R, 2W, 5%"
+			(at 100.33 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC6331X80N"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 33R, 2W, 5%"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.8mm"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Bourns"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRM2512-JW-330ELF"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "652-CRM2512JW330ELF"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Bourns/CRM2512-JW-330ELF?qs=dxeCVZFKEXcR8BXxHz0dQA%3D%3D"
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 99.06 149.0472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 97.79 145.2372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "652-CRM2512JW330ELF"
+			(at 97.79 145.2372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bb454c3-3bd3-4034-b5d0-a0fd3d51f07a")
+		)
+		(pin "1"
+			(uuid "02d69323-c5fb-4e2b-a7f0-2c2996cade48")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "R203B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "R203I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "R203H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "R203G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "R203A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "R203E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "R203J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "R203D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "R203C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "R203F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_1_06031C103K4Z2A_SamacSys.SchLib")
+		(at 121.92 108.4072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90be6b53-003c-485d-a6c4-1ea77c23d2c1")
+		(property "Reference" "C201J"
+			(at 121.92 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF 100V X7R"
+			(at 121.92 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 10nF 100V X7R"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.9mm"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kyocera AVX"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "06031C103K4Z2A"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "581-06031C103K4Z2A"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-06031C103K4Z2A"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "06031C103K4Z2A"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/06031c103k4z2a/avx"
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10nF"
+			(at 120.65 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ca6a49f-65ca-40a1-9cbd-490ffc1e8f35")
+		)
+		(pin "2"
+			(uuid "2e99f2da-3c2c-4338-8b56-15e1b2099eb3")
+		)
+		(instances
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "C201B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "C201I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "C201H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "C201G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "C201A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "C201E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "C201J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "C201D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "C201C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "C201F")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battman-altium-import:CellFilter6_1_06031C103K4Z2A_SamacSys.SchLib")
+		(at 121.92 83.0072 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b979f462-e925-461f-92ff-08ddf898aef0")
+		(property "Reference" "C200J"
 			(at 121.92 75.3872 0)
 			(effects
 				(font
@@ -2032,15 +3303,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bb8c89b-db9b-464d-af9c-ae597527d692")
+			(uuid "575daf3d-01e6-493e-bb3d-6d4762807bd2")
 		)
 		(pin "2"
-			(uuid "c5b6a033-71b7-4be0-86cf-0da0a8cb2295")
+			(uuid "23b3d2de-f4d9-4dd7-acb5-d4b40b728bdf")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "C200")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "C200B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "C200I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "C200H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "C200G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "C200A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "C200E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "C200J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "C200D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "C200C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "C200F")
 					(unit 0)
 				)
 			)
@@ -2049,13 +3356,13 @@
 	(symbol
 		(lib_id "Battman-altium-import:CellFilter6_0_CRGH0603F3K3_SamacSys.SchLib")
 		(at 129.54 121.1072 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b782d5f-2608-42ed-b678-7e60f652bca1")
-		(property "Reference" "R202"
+		(uuid "cd3f1bfb-6384-4922-836e-c4ad470f7fb7")
+		(property "Reference" "R202J"
 			(at 134.62 119.8372 0)
 			(effects
 				(font
@@ -2065,7 +3372,7 @@
 			)
 		)
 		(property "Value" "3k3 1%"
-			(at 128.27 124.9172 0)
+			(at 134.366 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,440 +3518,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1f6da08-afae-402d-a49a-a68faa7bf759")
+			(uuid "ba0c53b8-88a0-42a1-a993-15f10d99ab57")
 		)
 		(pin "2"
-			(uuid "cd21c807-6391-457c-a2fa-037404e954c1")
+			(uuid "9b8a8f25-d29f-462e-b01c-b89289f8d464")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "R202")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_2_NX2301P,215_SamacSys.SchLib")
-		(at 109.22 121.1072 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ef0d922-10bc-42bc-9da9-dbdde0f77cfc")
-		(property "Reference" "Q200"
-			(at 109.728 120.8532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "NX2301P,215"
-			(at 109.728 123.3932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOT95P230X110-3N"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Integrated Circuit"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/NX2301P.pdf"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.1mm"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Nexperia"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NX2301P,215"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "771-NX2301P215"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Nexperia/NX2301P215?qs=A1cBxND5mHKs%252BLrxCDENxw%3D%3D"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "NX2301P,215"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/nx2301p215/nexperia?utm_currency=USD&region=europe"
-			(at 109.22 121.1072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12ea2713-a02c-405a-98cf-f0c2d7ae398f")
-		)
-		(pin "2"
-			(uuid "1029c677-deea-4163-8bc0-62909c8b4315")
-		)
-		(pin "3"
-			(uuid "ed7f8c34-7ac1-4a6c-b6ab-de0e8b1f6cba")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "Q200")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Cell_GND_BAR")
-		(at 73.66 164.2872 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a8a1d9a-4d5e-457e-989f-6d8f0b52989c")
-		(property "Reference" "#PWR?"
-			(at 73.66 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Cell_GND"
-			(at 73.66 168.0972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 164.2872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "84f7caf1-f459-4b93-8494-e9db15b40941")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "#PWR?")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "R202B")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:Cell_GND_BAR")
-		(at 121.92 108.4072 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bb8734b-5cec-412a-aa59-db468e7130ee")
-		(property "Reference" "#PWR?"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Cell_GND"
-			(at 121.92 112.2172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "294c0375-0919-44a2-b870-fc41ec28a20e")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "#PWR?")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "R202I")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_3_MMSZ4692T1G_SamacSys.SchLib")
-		(at 144.78 67.7672 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67c8fedf-c61f-4f71-8bed-bc8989d995ea")
-		(property "Reference" "Z200"
-			(at 147.574 72.5932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "R202H")
+					(unit 1)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MMSZ4692T1G"
-			(at 147.574 75.1332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "R202G")
+					(unit 1)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOD3716X135N"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "R202A")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "R202E")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 6.8V"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "R202J")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "R202D")
+					(unit 1)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.35mm"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "R202C")
+					(unit 1)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "onsemi"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MMSZ4692T1G"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "863-MMSZ4692T1G"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ4692T1G?qs=P4IOph%252Bbot8jSn3zyyx1xw%3D%3D"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "MMSZ4692T1G"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmsz4692t1g/on-semiconductor"
-			(at 144.78 67.7672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1fd537c-bcac-4f46-bb5f-5a70f3be5571")
-		)
-		(pin "2"
-			(uuid "13190c3c-a939-4038-8b01-94d26f0d94e1")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "Z200")
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "R202F")
 					(unit 0)
 				)
 			)
@@ -2653,13 +3571,13 @@
 	(symbol
 		(lib_id "Battman-altium-import:CellFilter6_0_AF0603FR-071KL_SamacSys.SchLib")
 		(at 104.14 67.7672 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "791fa362-54d0-48e1-92f0-cc3e3486b7ef")
-		(property "Reference" "R200"
+		(uuid "e7bc0378-24c8-4de9-af3e-16708ae77137")
+		(property "Reference" "R200J"
 			(at 109.22 66.4972 0)
 			(effects
 				(font
@@ -2815,54 +3733,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d7ee08a-88d1-4254-b557-952fdb076a7e")
+			(uuid "1a27c0b6-a7e5-4f7c-850c-c7c646b47f14")
 		)
 		(pin "2"
-			(uuid "e4ccea58-bbd2-4e6d-85e8-54aef90c68c6")
+			(uuid "060d3a39-2dc5-4bf3-97b0-92b895c9c7ef")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "R200")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "R200B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "R200I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "R200H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "R200G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "R200A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "R200E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "R200J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "R200D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "R200C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "R200F")
 					(unit 0)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_1_06031C103K4Z2A_SamacSys.SchLib")
+		(lib_id "Battman-altium-import:Cell_GND_BAR")
 		(at 121.92 108.4072 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "803b41f9-cf5e-4fe9-86df-cb512bda1e35")
-		(property "Reference" "C201"
-			(at 121.92 100.7872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10nF 100V X7R"
-			(at 121.92 105.8672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X90N"
+		(uuid "f3f5d225-b336-4dae-bded-f6d89823ea7d")
+		(property "Reference" "#PWR?"
 			(at 121.92 108.4072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value" "Cell_GND"
+			(at 121.92 112.2172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
@@ -2871,616 +3823,60 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 10nF 100V X7R"
+		(property "Description" ""
 			(at 121.92 108.4072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DATASHEET LINK" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.9mm"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Kyocera AVX"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "06031C103K4Z2A"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "581-06031C103K4Z2A"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-06031C103K4Z2A"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "06031C103K4Z2A"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/06031c103k4z2a/avx"
-			(at 121.92 108.4072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10nF"
-			(at 120.65 114.7572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48127238-1526-4434-9016-6ee31c68db8b")
-		)
-		(pin "2"
-			(uuid "8506d5cf-eae5-4aaa-a24d-ef44280b7f6e")
+		(pin ""
+			(uuid "233099ad-a484-4809-a283-1c60049a1750")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "C201")
-					(unit 0)
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "#PWR?")
+					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_3_MMSZ4692T1G_SamacSys.SchLib")
-		(at 144.78 93.1672 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9559a22b-8e08-4567-9eb5-fd716f528f0a")
-		(property "Reference" "Z201"
-			(at 147.574 97.9932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MMSZ4692T1G"
-			(at 147.574 100.5332 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:SOD3716X135N"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener Diode 6.8V"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "https://www.onsemi.com/pub/Collateral/MMSZ4678T1-D.PDF"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.35mm"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "onsemi"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "#PWR?")
+					(unit 1)
 				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MMSZ4692T1G"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "863-MMSZ4692T1G"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/MMSZ4692T1G?qs=P4IOph%252Bbot8jSn3zyyx1xw%3D%3D"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "MMSZ4692T1G"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/mmsz4692t1g/on-semiconductor"
-			(at 144.78 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06540a91-3899-45bf-9ec0-d04b7fb21454")
-		)
-		(pin "2"
-			(uuid "7db1af7f-2d39-4978-91d1-db64e780272c")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "Z201")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_0_CRCW0603100RFKEA_SamacSys.SchLib")
-		(at 104.14 93.1672 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a11cb294-c406-437b-be1c-6cb6bb9e2276")
-		(property "Reference" "R201"
-			(at 109.22 91.8972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CRCW0603100RFKEA"
-			(at 102.87 96.9772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X50N"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 100R, 1%"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.5mm"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Vishay"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRCW0603100RFKEA"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "71-CRCW0603-100-E3"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW0603100RFKEA?qs=90AHS1y%2FsidGWjjxZAupKg%3D%3D"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" "CRCW0603100RFKEA"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw0603100rfkea/vishay?utm_currency=USD&region=europe"
-			(at 104.14 93.1672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "100R"
-			(at 109.22 96.9772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 102.87 89.3572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "71-CRCW0603-100-E3"
-			(at 102.87 89.3572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff400696-24c1-4b0d-83b5-3f7723b610e3")
-		)
-		(pin "2"
-			(uuid "0fce92b7-9a60-4fca-8c0b-f1330a9cb4e8")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "R201")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battman-altium-import:CellFilter6_1_CRM2512-JW-330ELF_SamacSys.SchLib")
-		(at 99.06 149.0472 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a709a3a9-1acc-4d2e-9dce-bee3b2108943")
-		(property "Reference" "R203"
-			(at 100.33 138.8872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "33R, 2W, 5%"
-			(at 100.33 141.4272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C__Users_otto_Documents_AltiumLL_SamacSys.PcbLib:RESC6331X80N"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 33R, 2W, 5%"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET LINK" "http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "0.8mm"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Bourns"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "CRM2512-JW-330ELF"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PART NUMBER" "652-CRM2512JW330ELF"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Bourns/CRM2512-JW-330ELF?qs=dxeCVZFKEXcR8BXxHz0dQA%3D%3D"
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PART NUMBER" ""
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ARROW PRICE/STOCK" ""
-			(at 99.06 149.0472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 97.79 145.2372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "652-CRM2512JW330ELF"
-			(at 97.79 145.2372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "842a4d0a-cc52-465a-b1cb-2f7ea4d56787")
-		)
-		(pin "2"
-			(uuid "cf485d80-d1c5-4234-9b2d-2d0f5a7c087a")
-		)
-		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "R203")
-					(unit 0)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "#PWR?")
+					(unit 1)
 				)
 			)
 		)
@@ -3488,13 +3884,13 @@
 	(symbol
 		(lib_id "Battman-altium-import:CellFilter6_0_0466.250NR_SamacSys.SchLib")
 		(at 78.74 67.7672 0)
-		(unit 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bf657828-e3d3-42b7-9aa3-2fa777ff84b2")
-		(property "Reference" "F200"
+		(uuid "fbcaf15e-bf9a-47c0-a7e5-f706530d2d0a")
+		(property "Reference" "F200J"
 			(at 83.566 66.4972 0)
 			(effects
 				(font
@@ -3620,15 +4016,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "dbde01ce-8ed1-4752-9b22-fd3abed5c09b")
+			(uuid "93b0f04c-86c1-4a08-a9ce-9b89967cd258")
 		)
 		(pin "2"
-			(uuid "82bc0dde-95f1-4d7c-8f64-6d0a1ef1ee33")
+			(uuid "673380df-5ea4-4e24-a112-397d99431e7d")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
-					(reference "F200")
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "F200B")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "F200I")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "F200H")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "F200G")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "F200A")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "F200E")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "F200J")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "F200D")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "F200C")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
+					(reference "F200F")
 					(unit 0)
 				)
 			)
@@ -3642,7 +4074,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6b83a25-9b13-418a-a1e3-3cc0180329be")
+		(uuid "fe1b36e9-ac9f-42e9-b51a-faa5b8b03b38")
 		(property "Reference" "#PWR?"
 			(at 121.92 83.0072 0)
 			(effects
@@ -3685,11 +4117,47 @@
 			)
 		)
 		(pin ""
-			(uuid "7b96adbb-405c-4a98-a40c-eb5fb3f54d0d")
+			(uuid "53f32dae-3744-44e4-857a-a21de37b8573")
 		)
 		(instances
-			(project ""
-				(path "/f0b8004e-3ee4-49c0-b43c-086c89eb4f6a/64dd36c2-1ce5-4609-83ed-147196465f5f/c095f9be-6602-47b9-a225-9009853566b9"
+			(project "Battman"
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00a95ce2-efc6-4bb4-9e1e-8861096caf1e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/00e65c70-526f-4cf3-837c-8cfaabadeefa"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/21badb71-8eae-44a7-bed3-a5cba111f554"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/55bb2e6e-ccc9-431a-9220-0fb0afba50a6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/5f573614-e4dc-4010-9402-bcecbc00eb14"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/7cd7c776-a430-4161-8557-2717dcca13d3"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/98fc6431-2bb8-4fab-ac25-564059639cde"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a2db2c52-935d-4f4e-a2a5-4d90dadd57e1"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/a3cae789-9497-471a-aa4a-447900147718"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/3c0479cc-7d6f-4324-a1c1-3920e3fac3d7/c9768d5b-a204-424a-98eb-f593deadfe85/ddddea33-59f5-41b0-bbf4-916a2d0df8db"
 					(reference "#PWR?")
 					(unit 1)
 				)

@@ -685,40 +685,12 @@
         "pattern": "V_Bat"
       },
       {
-        "netclass": "Batt+",
-        "pattern": "TS_SinglePath2"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "TS_SinglePath1"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "shunt-_SinglePath2"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "shunt-_SinglePath1"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "shunt+_SinglePath2"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "shunt+_SinglePath1"
-      },
-      {
         "netclass": "Out[1..2]",
         "pattern": "Out2"
       },
       {
         "netclass": "Out[1..2]",
         "pattern": "Out1"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "NetF200_CellFilter10_2"
       },
       {
         "netclass": "Batt+",
@@ -731,14 +703,6 @@
       {
         "netclass": "Batt+",
         "pattern": "LTC_H_C10"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "Gate_SinglePath2"
-      },
-      {
-        "netclass": "Batt+",
-        "pattern": "Gate_SinglePath1"
       },
       {
         "netclass": "Batt+",
@@ -759,6 +723,42 @@
       {
         "netclass": "Batt+",
         "pattern": "VBatt_LTC"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "GateA"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "GateB"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "NetF200J_2"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "shunt+A"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "shunt+B"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "shunt-A"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "shunt-B"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "TSA"
+      },
+      {
+        "netclass": "Batt+",
+        "pattern": "TSB"
       },
       {
         "netclass": "Mult[1..8]",
@@ -1011,80 +1011,112 @@
   },
   "sheets": [
     [
-      "f0b8004e-3ee4-49c0-b43c-086c89eb4f6a",
+      "3c0479cc-7d6f-4324-a1c1-3920e3fac3d7",
       "Root"
     ],
     [
-      "64dd36c2-1ce5-4609-83ed-147196465f5f",
+      "c9768d5b-a204-424a-98eb-f593deadfe85",
       "CellFilter"
     ],
     [
-      "702d3b0d-3fd4-4be9-b17a-d149df716c44",
+      "98fc6431-2bb8-4fab-ac25-564059639cde",
       "CellFilter10"
     ],
     [
-      "4c4bd02b-9eb4-45dd-9c4a-22338896a124",
+      "00e65c70-526f-4cf3-837c-8cfaabadeefa",
       "CellFilter9"
     ],
     [
-      "df55bf8d-bff9-46cd-bdbf-3aa464c2c362",
+      "21badb71-8eae-44a7-bed3-a5cba111f554",
       "CellFilter8"
     ],
     [
-      "23267e6a-186b-43e0-8172-c3e26eb618b5",
+      "55bb2e6e-ccc9-431a-9220-0fb0afba50a6",
       "CellFilter7"
     ],
     [
-      "c095f9be-6602-47b9-a225-9009853566b9",
+      "ddddea33-59f5-41b0-bbf4-916a2d0df8db",
       "CellFilter6"
     ],
     [
-      "efc7523a-bf35-41db-883a-3ddba0905898",
+      "7cd7c776-a430-4161-8557-2717dcca13d3",
       "CellFilter5"
     ],
     [
-      "43745212-7c0c-4330-983b-1c07ca338174",
+      "a2db2c52-935d-4f4e-a2a5-4d90dadd57e1",
       "CellFilter4"
     ],
     [
-      "d98c683b-273b-4eda-89bc-aeee6bcfcebd",
+      "a3cae789-9497-471a-aa4a-447900147718",
       "CellFilter3"
     ],
     [
-      "fa45eee4-3c6b-4908-bbd2-5eb926f39457",
+      "00a95ce2-efc6-4bb4-9e1e-8861096caf1e",
       "CellFilter2"
     ],
     [
-      "983d500b-ecbe-4212-b5d9-2ed921ba3b2c",
+      "5f573614-e4dc-4010-9402-bcecbc00eb14",
       "CellFilter1"
     ],
     [
-      "a6421925-c533-4c7f-91e8-b399bbcde96e",
+      "34ee213a-8c0a-4f50-8108-9a0e240ea16e",
       "Hardware Protection"
     ],
     [
-      "87996e0f-63cf-42c0-b767-5d67e986fec7",
-      "Repeat(Multiplexer,1,8)"
+      "88c0588e-41d9-4765-8572-a9812594c919",
+      "Multiplexer2"
     ],
     [
-      "2ccdaf3b-ffe7-47b7-adf9-11630a44b8d5",
+      "a47da92c-c936-4a39-8603-9efa432f9938",
       "AuxSupply/USB"
     ],
     [
-      "cbd889f3-3671-4c6d-b6b1-20be61557e52",
+      "0ae549fa-5a35-4554-8f10-0102037708b4",
       "Software Protection"
     ],
     [
-      "3be0ccbc-a566-42f6-a6fa-24ba530cd70c",
+      "37945591-e8e4-4f98-9225-78dc0837b1bd",
       "MCU"
     ],
     [
-      "23b9d2e1-f0f6-4075-ac40-3f03ea9c5040",
+      "e36664c8-6518-4f02-9159-749607387a71",
       "PowerPath"
     ],
     [
-      "f0a02514-afda-446b-afbd-d9b42993bfb0",
-      "Repeat(SinglePath,1,2)"
+      "7d378731-c8e4-4ef4-a999-256cac6cf124",
+      "SinglePath1"
+    ],
+    [
+      "bdd3df0b-1d9d-47a5-b093-529cb4470f77",
+      "Multiplexer3"
+    ],
+    [
+      "78811150-8056-4d26-a2cc-29007a317d47",
+      "Multiplexer4"
+    ],
+    [
+      "3f302bf9-6acb-4546-b02f-f0287eec822f",
+      "Multiplexer5"
+    ],
+    [
+      "5932e243-411e-4f4e-a327-3b51e462ccbb",
+      "Multiplexer6"
+    ],
+    [
+      "ec24c7a7-90ee-40cb-9376-d08b621f5e00",
+      "Multiplexer1"
+    ],
+    [
+      "4b2f105b-e378-4dd1-93cd-0802c9573070",
+      "Multiplexer7"
+    ],
+    [
+      "156d7add-d9c2-405a-b2f6-7478852c6ed0",
+      "Multiplexer8"
+    ],
+    [
+      "b22e8893-71a8-4368-9ba7-0994201c5c00",
+      "SinglePath2"
     ]
   ],
   "text_variables": {
