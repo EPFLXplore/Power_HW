@@ -11,7 +11,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text_box "- Fixed charger's LED schematic & layout\n\n- Added Fan speed control by MCU\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+	(text_box "- Fixed charger's LED schematic & layout\n\n- Added Fan speed control by MCU\n\n- Use larger MOSFETs for powerpath\n\n- Remove the RC delay network for the LTC7000, or connect it to TS and not GND.\n\n- Add protection to the TPS3701\n\n- Inverser capa/resistor pour filtre passe bas dans LTC7000\n\n- Utiliser via 0.3 avec smaller annular width to reduce costs (0.3/0.55) or (0.3/0.50).\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
 		(exclude_from_sim no)
 		(at 220.98 40.64 0)
 		(size 58.42 115.57)
