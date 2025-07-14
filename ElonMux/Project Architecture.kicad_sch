@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Project Architecture")
-		(date "Last Modified Date")
+		(date "2025-06-17")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -101,58 +101,6 @@
 			(type none)
 		)
 		(uuid ac51ba7e-a25a-481f-a077-97f7c70a34fb)
-	)
-	(arc
-		(start 151.13 179.07)
-		(mid 152.0251 179.4449)
-		(end 152.4 180.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cab65793-d4e8-41b6-91f0-ddc6fb3f67fd)
-	)
-	(arc
-		(start 152.4 166.37)
-		(mid 153.1439 164.5739)
-		(end 154.94 163.83)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cd71c464-485b-418b-84e2-f51ed87617d4)
-	)
-	(arc
-		(start 154.94 194.31)
-		(mid 153.1498 193.5602)
-		(end 152.4 191.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d358a3c0-fe0c-4a8a-b61f-1f966fb0c0e1)
-	)
-	(arc
-		(start 152.4 177.8)
-		(mid 152.0251 178.6951)
-		(end 151.13 179.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d791b2ba-88cb-4585-a1b1-b734b490212d)
 	)
 	(arc
 		(start 117.475 116.205)
@@ -275,6 +223,20 @@
 		)
 		(uuid "4f70fd4b-59c6-49c3-96b4-5b648d073516")
 	)
+	(text "Page 9"
+		(exclude_from_sim no)
+		(at 207.01 186.69 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#9")
+		)
+		(uuid "665f4a7e-a89a-4279-a9b0-6527d0660a13")
+	)
 	(text "Page 6"
 		(exclude_from_sim no)
 		(at 204.47 101.6 0)
@@ -303,23 +265,9 @@
 		)
 		(uuid "978bb74e-ca07-4b21-b2dc-19b812f717e9")
 	)
-	(text "Page 9"
-		(exclude_from_sim no)
-		(at 204.47 187.96 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 20 60 40 1)
-			)
-			(justify right bottom)
-			(href "#9")
-		)
-		(uuid "a123357d-906d-437b-bfbf-7e1d79800f4a")
-	)
 	(text "Page 4"
 		(exclude_from_sim no)
-		(at 274.32 187.452 0)
+		(at 267.97 186.182 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -414,29 +362,6 @@
 		)
 		(uuid "a0ebd266-8d48-479e-868b-a1b4053b9c02")
 	)
-	(text_box "Sensing"
-		(exclude_from_sim no)
-		(at 133.35 176.53 0)
-		(size 17.145 5.08)
-		(margins 1.4287 1.4287 1.4287 1.4287)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "ac44de46-0694-4d89-a13e-c6a652fd0aea")
-	)
 	(text_box "User"
 		(exclude_from_sim no)
 		(at 333.375 120.65 0)
@@ -470,7 +395,7 @@
 		(at 220.98 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82aac85d-1044-4d3c-b279-9b3a29a6c1dd")
+		(uuid "2114a643-b095-4d54-a5ae-24244cd635c1")
 	)
 	(junction
 		(at 220.98 87.63)
@@ -479,20 +404,26 @@
 		(uuid "85734d4d-f6ba-4999-8c54-1a6c81eb4a29")
 	)
 	(junction
+		(at 163.83 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0683197-1190-4390-a6fe-6ac4882970e7")
+	)
+	(junction
 		(at 168.91 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b4406c-e65f-484b-93c3-3a60b765ff60")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 152.4 180.34) (xy 152.4 191.77)
+			(xy 163.83 143.51) (xy 163.83 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00ee65b1-e6c8-4e20-855d-1e5949b7a576")
+		(uuid "059536c4-aeb6-4d4f-9b73-5cc42292d577")
 	)
 	(polyline
 		(pts
@@ -503,16 +434,6 @@
 			(type default)
 		)
 		(uuid "07c6272b-a95a-4f38-b31f-226f72abb0d9")
-	)
-	(bus
-		(pts
-			(xy 208.28 181.61) (xy 232.41 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cf299f0-c7cd-44e7-866b-9f36745a5f27")
 	)
 	(wire
 		(pts
@@ -606,6 +527,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 125.73) (xy 220.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311803bb-0ea9-4851-b2a1-b5d1672efa84")
+	)
+	(wire
+		(pts
 			(xy 166.37 107.95) (xy 210.82 107.95)
 		)
 		(stroke
@@ -624,16 +555,6 @@
 		)
 		(uuid "3eb44a63-fe85-4faa-a013-c62196840605")
 	)
-	(wire
-		(pts
-			(xy 208.28 153.67) (xy 210.82 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ed64f7-5160-40d4-a3ca-e0643104ccdc")
-	)
 	(bus
 		(pts
 			(xy 208.28 121.92) (xy 232.41 121.92)
@@ -643,16 +564,6 @@
 			(type default)
 		)
 		(uuid "51d6d212-528c-4acd-b9d6-2d3e7052eaac")
-	)
-	(wire
-		(pts
-			(xy 208.28 177.8) (xy 220.98 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d0499f-8ff1-4fd2-89a2-be540a27c0cf")
 	)
 	(wire
 		(pts
@@ -706,16 +617,6 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 177.8) (xy 152.4 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7312e08e-bb87-4d6c-97ef-8c411dee0e86")
-	)
-	(polyline
-		(pts
 			(xy 118.745 114.935) (xy 118.745 103.505)
 		)
 		(stroke
@@ -733,36 +634,6 @@
 			(type default)
 		)
 		(uuid "776aa57d-885d-42f0-a071-9b793bdeadc0")
-	)
-	(bus
-		(pts
-			(xy 269.24 90.17) (xy 283.21 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7838b01b-05ef-4076-b73b-210f219e9125")
-	)
-	(wire
-		(pts
-			(xy 161.29 173.99) (xy 171.45 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80eaacca-4b6e-44a8-a22e-1aa8b235d05c")
-	)
-	(wire
-		(pts
-			(xy 210.82 153.67) (xy 210.82 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83970aff-84eb-440f-8340-0451dc9db304")
 	)
 	(wire
 		(pts
@@ -846,26 +717,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 125.73) (xy 220.98 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae74903c-898a-463d-a021-52269e48b43f")
-	)
-	(wire
-		(pts
-			(xy 161.29 153.67) (xy 161.29 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f0b4ec-2720-45aa-92d4-c07e65ca50d3")
-	)
-	(wire
-		(pts
 			(xy 166.37 90.17) (xy 166.37 107.95)
 		)
 		(stroke
@@ -873,16 +724,6 @@
 			(type default)
 		)
 		(uuid "c183d9a4-da4b-4f0b-a5e7-554199c1cf48")
-	)
-	(wire
-		(pts
-			(xy 161.29 153.67) (xy 171.45 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2efe46b-bab8-4ee3-849e-8af38929b6c6")
 	)
 	(bus
 		(pts
@@ -966,6 +807,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 173.99) (xy 220.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de98d52f-f26d-458d-850a-9de511af4642")
+	)
+	(wire
+		(pts
 			(xy 220.98 87.63) (xy 220.98 125.73)
 		)
 		(stroke
@@ -1016,13 +867,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 173.99) (xy 210.82 173.99)
+			(xy 163.83 173.99) (xy 171.45 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f84f6cf3-feeb-40c0-a6d2-d1d2786c3af9")
+		(uuid "ffbc4c15-1d4e-4f8a-8137-bb8acd3c7da0")
 	)
 	(sheet
 		(at 171.45 139.7)
@@ -1076,32 +927,6 @@
 		(pin "+VOUT" output
 			(at 208.28 143.51 0)
 			(uuid "903516bb-b207-4c6c-b5b7-7d11d6a72c20")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_HIGH" output
-			(at 171.45 153.67 180)
-			(uuid "29f80523-68d9-4344-88c2-435dfe283d9c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENS_LOW" output
-			(at 208.28 153.67 0)
-			(uuid "0e168009-1474-4891-ae20-974bb5fc13ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1330,7 @@
 		)
 	)
 	(sheet
-		(at 171.45 168.91)
+		(at 171.45 167.64)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1517,11 +1342,11 @@
 			(type solid)
 		)
 		(fill
-			(color 109 172 255 0.6000)
+			(color 0 255 255 0.5000)
 		)
-		(uuid "99347527-3de9-4089-9239-f84ef9d2c36f")
-		(property "Sheetname" "Sensing - Battery"
-			(at 171.45 167.8809 0)
+		(uuid "96f8d52e-78ba-45bb-8c73-08b9d7421a1a")
+		(property "Sheetname" "Sensing - Fan Controller"
+			(at 171.45 166.6109 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1530,8 +1355,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sensor - Battery.kicad_sch"
-			(at 171.45 189.8146 0)
+		(property "Sheetfile" "Misc - Fan Controller.kicad_sch"
+			(at 171.45 188.5446 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1541,8 +1366,8 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 208.28 177.8 0)
-			(uuid "5f908847-5105-4c5e-aaf3-f77b77c8a9ee")
+			(at 208.28 173.99 0)
+			(uuid "896ab166-52e2-4650-ad15-3ac44b0d7fe8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,22 +1378,9 @@
 				(justify right)
 			)
 		)
-		(pin "{SPI_BAT}" bidirectional
-			(at 208.28 181.61 0)
-			(uuid "327b0179-9d03-41ca-a0cd-de3c50c23947")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify right)
-			)
-		)
-		(pin "SENS_IN" input
+		(pin "+VSUPPLY" input
 			(at 171.45 173.99 180)
-			(uuid "f240d98b-9ba5-42b4-a8b3-622b8a5ec1ca")
+			(uuid "861833fe-f789-4e7e-a2c8-9538a5b4bed3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,19 +1389,6 @@
 					(color 0 0 0 1)
 				)
 				(justify left)
-			)
-		)
-		(pin "SENS_OUT" input
-			(at 208.28 173.99 0)
-			(uuid "330d2c35-1602-402e-8cfc-9134066dfeae")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -1634,19 +1433,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "{JTAG}" bidirectional
-			(at 283.21 90.17 180)
-			(uuid "7c8bf266-05e7-4729-862b-27a75fadedcd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left)
 			)
 		)
 		(pin "{USB}" bidirectional
@@ -1776,35 +1562,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{JTAG}" bidirectional
-			(at 269.24 90.17 0)
-			(uuid "ea59fa20-66c1-49fc-8d2f-4efe5ce0e94e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify right)
-			)
-		)
 		(pin "+3V3" input
 			(at 232.41 87.63 180)
 			(uuid "bdff6090-3338-486f-862a-f0f6ff236ed7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SPI_BAT}" bidirectional
-			(at 232.41 181.61 180)
-			(uuid "837095e7-f51f-46b9-9f7f-86c4fd95450d")
 			(effects
 				(font
 					(size 1.27 1.27)

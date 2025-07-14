@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power - Generation")
-		(date "Last Modified Date")
+		(date "2025-06-17")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -2019,7 +2019,7 @@
 		)
 		(uuid "6ade7059-7878-46c0-977f-17eb3c02b533")
 	)
-	(text_box "DESIGN NOTE - 3V3 STATUS LED\nSM1206SRC has a typical luminous \nintensity of 28mcd (millicandela) @ 20 mA.\nTyp. Vf = 1.85V Max Vf = 2.3V\n\nTyp. If = (3.3V - 1.85V)/56hm ≈ 26 mA\nMax. If = (3.3V - 2.3V)/56hm ≈ 18 mA\nP = 1.85V×26mA ≈ 48 mW < 69 mW (max rating)"
+	(text_box "DESIGN NOTE - 3V3 STATUS LED\nSM1206SRC has a typical luminous \nintensity of 28mcd (millicandela) @ 20 mA.\nTyp. Vf = 1.85V Max Vf = 2.3V\n\nTyp. If = (3.3V - 1.85V)/200hm ≈ 7.3 mA\nMax. If = (3.3V - 2.3V)/200hm ≈ 5 mA"
 		(exclude_from_sim no)
 		(at 235.585 116.205 0)
 		(size 42.545 19.05)
@@ -2545,16 +2545,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 68.58) (xy 217.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdf7e39-45fb-4a37-b632-bef495a0f91d")
-	)
-	(wire
-		(pts
 			(xy 81.28 83.82) (xy 81.28 85.09)
 		)
 		(stroke
@@ -2776,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 77.47) (xy 223.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c302d1a-45e3-4c05-94f7-54a63ea48db3")
+	)
+	(wire
+		(pts
 			(xy 81.28 62.23) (xy 97.79 62.23)
 		)
 		(stroke
@@ -2857,13 +2857,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 68.58) (xy 238.76 67.31)
+			(xy 220.98 69.85) (xy 223.52 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4796a9fa-353f-4495-b56a-2790b3a1ada7")
+		(uuid "482e8e58-897a-4c05-b9c3-a08d94d9969e")
 	)
 	(wire
 		(pts
@@ -3350,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 68.58) (xy 238.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9630acc-04d2-494d-b1d1-5ecc2fd88189")
+	)
+	(wire
+		(pts
 			(xy 205.74 67.31) (xy 217.17 67.31)
 		)
 		(stroke
@@ -3521,16 +3531,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 217.17 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7f4253-9ca4-4819-b2fd-d0aff2be4299")
-	)
-	(wire
-		(pts
 			(xy 125.73 93.98) (xy 125.73 96.52)
 		)
 		(stroke
@@ -3578,6 +3578,16 @@
 			(type default)
 		)
 		(uuid "e180a69f-af8d-4cf2-9f14-85f8cfe2c719")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.85) (xy 220.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3dde54f-34a2-4433-a6aa-a78173a35453")
 	)
 	(wire
 		(pts
@@ -3668,6 +3678,16 @@
 			(type default)
 		)
 		(uuid "f29f2186-6a7e-4198-b856-36a3474ee009")
+	)
+	(wire
+		(pts
+			(xy 217.17 74.93) (xy 220.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d4919e-9ec6-4100-b2a8-7e4fc455dc17")
 	)
 	(wire
 		(pts
@@ -18811,7 +18831,61 @@
 			"AABlAAAAVwAAADYAAABsAAAANQAAADIAAABuAAAANQAAADEAAABnAAAAUwAAAFQAAAB6AAAAOAAA"
 			"AGgAAAAwAAAANgAAAE4AAAA5AAAAKwAAAEMAAABjAAAASAAAAFAAAAB1AAAAWAAAAHIAAABkAAAA"
 			"RQAAAEYAAABmAAAASgAAAHMAAABSAAAAUAAAACsAAAA4AAAARwAAAEoAAABPAAAAZQAAADQAAABX"
-			"AAAAMwAAAA=="
+			"AAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAYQAAAEUAAABIAAAAMQAAAEoAAAAyAAAANAAAAFUAAAB2AAAANAAAAEMAAAA4AAAA"
+			"MgAAAE8AAAB5AAAAYgAAAFQAAAByAAAAOAAAADAAAAA3AAAARwAAAE4AAAB3AAAATwAAAEoAAAAz"
+			"AAAAMgAAADAAAABMAAAAVAAAAEoAAAAvAAAANAAAAEMAAABZAAAALwAAAHoAAABSAAAAdgAAAEsA"
+			"AABaAAAAcQAAAEsAAABIAAAAaAAAAHUAAAArAAAAdwAAADIAAABZAAAAeQAAAEMAAAB4AAAASgAA"
+			"AG4AAABYAAAAbQAAAEMAAABQAAAANQAAADIAAABKAAAAMAAAAG4AAABSAAAAcwAAADcAAABGAAAA"
+			"RAAAAEQAAABEAAAANAAAAHcAAABhAAAAZAAAAHUAAAA1AAAAQQAAAGUAAAAvAAAAawAAAHAAAABK"
+			"AAAAUAAAAEcAAABwAAAAcgAAAFQAAABCAAAANAAAAFMAAABXAAAAYQAAAGIAAABBAAAAQQAAAFIA"
+			"AABuAAAAdgAAAEMAAAAzAAAAUgAAAGQAAABKAAAAaAAAAFgAAABxAAAAaQAAACsAAABtAAAAdwAA"
+			"AFQAAAB0AAAAcQAAAEMAAABhAAAAYgAAAHQAAABwAAAAbQAAAFQAAAB6AAAARgAAAE4AAABlAAAA"
+			"agAAAGgAAABsAAAARgAAADkAAABOAAAAMAAAAHQAAAAzAAAAdAAAAC8AAABpAAAAcAAAADQAAAA2"
+			"AAAAZQAAAEoAAABDAAAANwAAAGsAAABxAAAAbwAAADQAAABDAAAAbwAAAC8AAABRAAAAawAAAGoA"
+			"AAArAAAANwAAAGoAAAArAAAALwAAAE0AAABJAAAAdgAAAHoAAABnAAAANwAAAHQAAABsAAAALwAA"
+			"AGMAAABlAAAAQwAAAC8AAAAvAAAANAAAAGUAAABtAAAAcQAAAHgAAAArAAAARAAAADEAAABmAAAA"
+			"agAAAEIAAABQAAAAeAAAAC8AAABWAAAAcAAAAHgAAABEAAAARAAAAHUAAABmAAAAVAAAAFgAAABt"
+			"AAAAQgAAAHYAAABFAAAANQAAAGgAAABLAAAASgAAAEoAAABQAAAAagAAAEkAAAB4AAAAMwAAAGYA"
+			"AAB0AAAAcgAAACsAAABpAAAAUgAAAGYAAABZAAAAcAAAAFgAAABYAAAAcgAAAHYAAABDAAAAMQAA"
+			"AE8AAAAvAAAASAAAAEQAAABXAAAAMAAAAGwAAABNAAAAbwAAAHYAAABIAAAARwAAAEMAAAB2AAAA"
+			"VgAAADgAAABSAAAASgAAAC8AAABHAAAAcAAAAG0AAAA2AAAAagAAAHcAAAB1AAAAagAAAHMAAABY"
+			"AAAAZgAAAGc5U3RRVE9WejNLNHI4Sk45N1FxdHRiL0FjdXJpeFQ5SThKdTIvSjdlWHY1T0d4L1J5"
+			"bXowNHFjMXlQa1UyUmM2U2Y5d0I1YWJvLzVCZUJNa01mNmlmZTh1enpwWUtBVTc4SFI0SEJGSGdJ"
+			"SldONmVJZXZ5ckFQcFlZQkNVTW43bzZCUmk4N1RXbmZzODdJOTBQdmtiZVd5ZlcwUEg1UUlnN1VF"
+			"N1UzTWRyQ0srekgyL25hMGwzczNoMmF6UEVORTFWZVBjVGp5NFdCL2UxMTcwWXBVWCs3NXpYelBY"
+			"R3V4c1RicTQ3UU52UDBiV0QvSjMyNEJlcmhVVjE5OUYvbnlQZmdpN1dqbWozVkkrOGQ0eGQvRkdE"
+			"c1J2WkZKakdzL2tXZWRkYjRBcjNHdUhzQTc5MnVGMTl0UWNDYmg4SGZnTlg4QjlYYTErci9tRUxt"
+			"QjFKaC9rdWlaMmZVUGFidEJCRjFpY1R3RFN0bDJQdXQrQTBFZlQvdDJxL1k5TnRlaEYrSHVsRTFM"
+			"VWM1ekp1cUZaVWEvelFLVFhZR01JRGJhQ2YrS0ZJVi9PRWNkTHVEblNxNkl0OFB2andMN09oeStq"
+			"ZXFaTzFmL09OREwxMjY0eTdWZDVmWDNjVWg3YzNDR3c5MnY1TGMyd1BTdEp0THR2blV5YlQ4UmRk"
+			"cERRQTlIRmh5c3lnUzBqZmxkTzR2RmRRR1hPZys5Szh0MzAvNXZGdHRrT2NUZHVmVFBXelcrVDhZ"
+			"UWNuUWZuZXZkd2FVbzlxL21YYXJ4YS9pdWpOOUxNVUYzZWkrbzZ6RkJVSXJONUh5MXh4RkZJdktC"
+			"c0twSk9OKzlQc2lRYzQ4bEV3SWZHK2tMTFhxN1ROTmhSS1cya3hCMGJUOGJ3VVpyUWVnRlFVZyt2"
+			"N09qd3puazJXTUdUb0hzRFY1SktqTjV2ZDg3VlAwVEUzUUoxYzZ4Y094YU94cFhiU2JibEkxV0Nn"
+			"OEdiZk9IeWRKZ2NwVFFaVTd6VkNUcGx5Q2o1cTd2MXJ1YWE3RzRoZHhiUzFIYUwrV2FGVGlGWmMv"
+			"dnRSZTkvZEdEWmQzYkhkWEwwM2pRZkVtb3JXdnJPWVFhcUxNRjVRSHl0U3p3YnBTNlE1YXBCWCtX"
+			"RlJrVjBxMXEwZDNhbjFvSE5FaGVzTHVENnZJb09QVHZLTnFYVFVZTHdBb1JMWEFwNi8xUkpOU2U0"
+			"dGtPalYxaXdodDZjeXRBV1JBQzg2WkQ0RG83dkYzejQ3SUtKZEZESWhUanFqREJucU56SElqeHpi"
+			"Y3ErNUtnRHZrTWl6UzhabUd6K1E1Wi95WlFVazlLY3kxMEtLOVU5ZHZRUG1BeUNUblBLcldYdXNX"
+			"aVp1KzVEUg=="
 		)
 	)
 	(label "SW_3V3"
@@ -19253,7 +19327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05f7fa82-7167-49e5-9da4-db60e33d2ead")
-		(property "Reference" "R608"
+		(property "Reference" "R609"
 			(at 187.96 79.756 0)
 			(effects
 				(font
@@ -19341,7 +19415,112 @@
 		(instances
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R608")
+					(reference "R609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06d51055-95d8-4760-80f4-c33a8732475f")
+		(property "Reference" "R603"
+			(at 233.172 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 233.172 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.362 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8087369-7f9f-4e86-8019-1edf4794d2d4")
+		)
+		(pin "2"
+			(uuid "7afc6655-cf6c-435e-8ad2-94771a0198c0")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -19448,109 +19627,6 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "C601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08760ba6-6639-4d40-9389-6cf286a0c010")
-		(property "Reference" "R604"
-			(at 242.062 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 242.57 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 236.982 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ca498f9-3023-4fde-8c08-7f8daf5bec10")
-		)
-		(pin "1"
-			(uuid "b5795864-88a7-490f-b400-1c72a8a92d74")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -19724,6 +19800,111 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0eff4210-fdab-46a2-9b67-9b02f5c0260b")
+		(property "Reference" "R608"
+			(at 220.726 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R 1% 0.2W"
+			(at 220.726 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 221.742 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7b850e5-ffc0-449f-a56a-2021d1138e7a")
+		)
+		(pin "2"
+			(uuid "7f0eb19a-4660-4445-b49a-e4a7e998c301")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "R608")
 					(unit 1)
 				)
 			)
@@ -20256,109 +20437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 217.17 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa3d8e2-a6c3-49f3-abd9-d9ae7db0d543")
-		(property "Reference" "R602"
-			(at 220.98 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56R 1% 0.1W"
-			(at 224.028 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.392 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "ERJ-2RKF56R0X"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "667-ERJ-2RKF56R0X"
-			(at 217.17 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5a735ff-9385-4065-ba9f-d9e8189c1987")
-		)
-		(pin "1"
-			(uuid "e3a0a957-39be-4fee-857f-6d5f7aa1e32f")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 194.31 73.66 0)
 		(mirror x)
@@ -20663,7 +20741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44c35d8c-75cb-48dd-898f-5075beee5816")
-		(property "Reference" "R609"
+		(property "Reference" "R610"
 			(at 72.644 87.122 90)
 			(effects
 				(font
@@ -20751,7 +20829,7 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R609")
+					(reference "R610")
 					(unit 1)
 				)
 			)
@@ -20858,109 +20936,6 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "C614")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 231.14 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a8d0245-7f9b-490d-8381-973bfa8566eb")
-		(property "Reference" "R603"
-			(at 234.442 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 234.95 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 229.362 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 231.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9232858c-0469-47ca-87a2-7c418ac7f2c5")
-		)
-		(pin "1"
-			(uuid "27bc6957-742b-478e-b6e8-58e24c04e566")
-		)
-		(instances
-			(project "Charge Manager"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -21923,6 +21898,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 254 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b54c902-06e2-414b-94cf-229d6fa390c2")
+		(property "Reference" "R606"
+			(at 256.032 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 256.032 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.222 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d653891a-f3e8-43a7-8ee1-3022fa61c80e")
+		)
+		(pin "2"
+			(uuid "d770ab93-8672-498e-a9cb-5b9df406153a")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "R606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 119.38 173.99 270)
 		(mirror x)
@@ -22352,31 +22432,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 246.38 72.39 0)
+		(at 238.76 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bab07bdc-9d3d-40da-8d7e-0a6bc311a56b")
-		(property "Reference" "R605"
-			(at 249.682 70.866 0)
+		(uuid "bacf9102-a861-4729-a257-f6db4a079f12")
+		(property "Reference" "R604"
+			(at 240.792 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10k 1%"
-			(at 250.19 73.914 0)
+		(property "Value" "100k 1%"
+			(at 240.792 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 244.602 72.39 90)
+			(at 236.982 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,8 +22466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 246.38 72.39 0)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22394,7 +22476,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 246.38 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22402,8 +22484,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 246.38 72.39 0)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22412,7 +22494,7 @@
 			)
 		)
 		(property "Supplier" "Mouser Electronics"
-			(at 246.38 72.39 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,8 +22502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KOA Speer"
-			(at 246.38 72.39 0)
+		(property "Manufacturer" "Panasonic"
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22429,25 +22511,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 246.38 72.39 0)
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "4239f10f-55e1-426c-8406-b13f636d9340")
 		)
 		(pin "1"
-			(uuid "eb7e7547-b237-48f6-b4b9-08fe80d8f725")
+			(uuid "1b9e5623-a10f-42ec-b70b-2ffb6c68b407")
+		)
+		(pin "2"
+			(uuid "3ffaf8fb-bb17-4856-bad9-016dc8978528")
 		)
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R605")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -22780,7 +22862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c4bcfa-3f19-4fad-9c28-fd9067111898")
-		(property "Reference" "R610"
+		(property "Reference" "R611"
 			(at 172.466 84.328 90)
 			(effects
 				(font
@@ -22868,110 +22950,7 @@
 		(instances
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R610")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db4d0d85-426f-48bd-9edb-3d7963941f2e")
-		(property "Reference" "R606"
-			(at 257.302 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 257.81 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 252.222 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/SG73P.pdf"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SG73P1EWTTP1002F"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KOA Speer"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "660-SG73P1EWTTP1002F"
-			(at 254 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83ba9cd3-4772-4b20-89f6-c2a99ad920f1")
-		)
-		(pin "1"
-			(uuid "242145a1-eaa9-4bea-88e1-c3e265b9cd41")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
-					(reference "R606")
+					(reference "R611")
 					(unit 1)
 				)
 			)
@@ -23075,6 +23054,112 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "FB601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef2ad5da-d7ee-4639-bcfd-81ef5d2af6ef")
+		(property "Reference" "R602"
+			(at 216.916 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R 1% 0.2W"
+			(at 216.916 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.948 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CRCW0402100RFKEDHP"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Dale"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "71-CRCW0402100RFKEDH"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a2390b-afb7-4651-9efa-d5b5f3b621cd")
+		)
+		(pin "2"
+			(uuid "caaa0fc6-079d-4612-85b4-372755254f15")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "R602")
 					(unit 1)
 				)
 			)
@@ -23248,6 +23333,111 @@
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
 					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 246.38 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fef37aca-8ed4-4dec-ab63-75659fc54115")
+		(property "Reference" "R605"
+			(at 248.412 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k 1%"
+			(at 248.412 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 244.602 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/315/AOA0000C304-1149620.pdf"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "ERJ-2RKF1003X"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "667-ERJ-2RKF1003X"
+			(at 246.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbcddc22-da32-4258-b174-4b0ce3fa7c8b")
+		)
+		(pin "2"
+			(uuid "779fbc6d-4b5b-40fb-845a-362334520c0a")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/48ff3b30-a438-4b4b-961d-9d1d1a2954de"
+					(reference "R605")
 					(unit 1)
 				)
 			)

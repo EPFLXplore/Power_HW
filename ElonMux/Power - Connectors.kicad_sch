@@ -6,11 +6,215 @@
 	(paper "A3")
 	(title_block
 		(title "Power - Connectors")
-		(date "Last Modified Date")
+		(date "2025-06-17")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
 	(lib_symbols
+		(symbol "Charge_Manager_SYM:Conn_01x02_Mounting"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Mounting"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row with mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Mounting_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Mounting_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 6.35 270)
+					(length 3.81)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 3.81)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Charge_Manager_SYM:SMBJ30CA"
 			(pin_names
 				(hide yes)
@@ -217,248 +421,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Conn_01x02_Mounting_1"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J502"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "XT60PW-M"
-				(at 5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Charge_Manager_FP:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "AMASS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "XT60PW-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Transfer Multisort Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number" "XT60PW-M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Mounting_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Mounting_1_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 6.35 270)
-					(length 3.81)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -8.89 90)
-					(length 3.81)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -957,7 +919,7 @@
 		)
 		(uuid "b640d48f-726b-406f-a53f-e3f01d017864")
 	)
-	(text_box "SMBJ33CA:\n\nReverse Stand off voltage (= working voltage): 33.0V (maximum continuous voltage that can be applied to the diode without it conducting current)\nMin Breakdown Voltage: 36.70V\nMax Breakdown Voltage: 38.6V \nThe breakdown voltage range (from 36.7V to 38.6V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 53.30V (maximun voltage the protected circuit will experience for any spike of 53.3V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
+	(text_box "SMBJ33CA:\n\nReverse Stand off voltage (= working voltage): 30.0V (maximum continuous voltage that can be applied to the diode without it conducting current)\nMin Breakdown Voltage: 33.30V\nMax Breakdown Voltage: 36.8V \nThe breakdown voltage range (from 33.3V to 36.8V) ensures the diode begins to conduct in response to harmful spikes, not minor voltage changes.\nMax Clamping Voltage: 48.40V (maximun voltage the protected circuit will experience for any spike of 53.3V or more)\nPeak Pulse Power Dissipation: 600W\nPeak Forward Surge Currents: 100A"
 		(exclude_from_sim no)
 		(at 73.025 243.205 0)
 		(size 187.325 38.735)
@@ -980,7 +942,7 @@
 		)
 		(uuid "283a220d-f4ac-4b80-890d-82968222bd81")
 	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 30V."
 		(exclude_from_sim no)
 		(at 105.41 88.9 0)
 		(size 38.1 17.145)
@@ -1197,7 +1159,7 @@
 		)
 		(uuid "d875dbd2-306c-44d6-8bfb-f9fb129fdf60")
 	)
-	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 33V."
+	(text_box "DESIGN NOTE:\nDo not exceed the absolute maximum input voltage rating of 30V."
 		(exclude_from_sim no)
 		(at 105.41 187.325 0)
 		(size 38.1 17.145)
@@ -5140,7 +5102,61 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADtMDTM7TBUzO00kMztM"
+			"RTI7THIxOUqeMDdHwC00Q94pMD/yJi48+CMqN/cfJjP1HCIu9BofK/gYHir4GB4q9hkfK/UaICz2"
+			"HCEu9BwiL/EeIzHqICYz2CIoNrgkKjeRJi07ZCgvPjgoLz4aKjFABx0jMAAiKDYAIik3ACIrOQAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhKDQAGB4qCR8lMTooLz5eMjpLWjM7TT0zO0wXMztM"
+			"BDM7TAAzO0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAFh0pABgdKQQYHioHFx0pChgeKQsYHioIGB0pBxgdKRAYHikrGB4qPxgdKSoYHSkX"
+			"GR8rMB0jMEwnLjw0ND1ODRkeKwQYHSkaGB4pNhgdKT8YHSlQGB0pRBgdKSoYHSk7Fx0pOhcdKRQY"
+			"HSkGFx0pBRgeKQQYHikBFx0qDhcdKSwXHSkyGB0pEhcdKQIYHSkCFxwoAjE4SgAzO0wJMztMDjM7"
+			"TAMzO0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGB4qABgeKgAXHSkAGB0pABgeKgAYHSkAFx0pABcdKQAX"
+			"HSkAGB0pARgeKgsXHSkiFx0pGxgeKgYRGSkAGB4pABcdKQAAAAAAGB0pABcdKQAWGygAGB0pCxgd"
+			"KTMXHSlUFx0pPxcdKRUXHSkCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxwo"
+			"ABcdKR4YHip0Fx0p0RgeKfQXHSn9Fx0p+xgeKdgYHilgGB4qBwAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANjY/9jY2P/Y2Nj/2NjY"
+			"/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/"
+			"2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y"
+			"2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY"
+			"2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY"
+			"/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/"
+			"2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y"
+			"2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/xISEv9mZmb/2NjY/9jY"
+			"2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY"
+			"/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/"
+			"2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y"
+			"2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY"
+			"2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY"
+			"/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/"
+			"2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y"
+			"2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY"
+			"2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY"
+			"/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/"
+			"2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2A=="
 		)
 	)
 	(image
@@ -8164,6 +8180,60 @@
 			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6I"
 			"LoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILogu"
 			"iC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiC6ILoguiAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAAARwAAADYAAABk"
+			"AAAAVQAAAEQAAABXAAAAdAAAAHoAAAA5AAAAKwAAAGYAAABJAAAAcAAAAHAAAAA1AAAAeQAAAGkA"
+			"AAAvAAAAdgAAAGoAAABIAAAAUAAAAC8AAAA1AAAAOAAAAFEAAABmAAAAZwAAAHIAAABUAAAALwAA"
+			"AG4AAABSAAAAbgAAAEMAAABUAAAAWAAAACsAAABkAAAATAAAAEwAAABqAAAARAAAAGYAAABhAAAA"
+			"cAAAAHUAAABuAAAANwAAAGQAAAA1AAAAaAAAAEcAAAB0AAAATQAAAFYAAAB0AAAAdAAAAHQAAABs"
+			"AAAARwAAAHIAAABiAAAAcgAAAHEAAABxAAAAbwAAADAAAAA2AAAAcQAAAGwAAABjAAAASgAAAGEA"
+			"AAA3AAAAeAAAAG4AAABvAAAAUwAAADMAAABxAAAAbAAAAFIAAABqAAAAVQAAAHYAAABmAAAAZgAA"
+			"AGUAAABxAAAANQAAADUAAAArAAAAKwAAAHUAAABsAAAARwAAAG4AAABRAAAAMgAAAGYAAAB5AAAA"
+			"WAAAAEoAAABFAAAAbQAAADgAAABkAAAANwAAAHIAAAA0AAAAbQAAAGoAAAAzAAAARQAAAHIAAAAz"
+			"AAAANwAAAGgAAAAxAAAAbAAAAFgAAABGAAAAVwAAADkAAABwAAAAagAAAG0AAABmAAAAdgAAAG0A"
+			"AABSAAAAMAAAAEgAAABuAAAAMQAAAHAAAABsAAAAZQAAAFYAAABSAAAASAAAAHYAAAB5AAAAYQAA"
+			"ADYAAAAwAAAAbQAAADcAAAAzAAAANgAAADcAAAA3AAAANwAAAEgAAABaAAAAeAAAADIAAAA3AAAA"
+			"eAAAAFgAAAA1AAAAZgAAAG8AAABTAAAANQAAAGUAAABSAAAATAAAAHYAAABrAAAAZgAAAFQAAABr"
+			"AAAAYwAAAGMAAAA1AAAAZAAAAEUAAABqAAAAbwAAAGwAAABKAAAARAAAAEwAAABOAAAAaAAAAHoA"
+			"AABlAAAAbAAAAGYAAABGAAAAdQAAAGgAAAA3AAAARgAAAC8AAAB2AAAAUQAAAHAAAABUAAAAWQAA"
+			"ADAAAAB3AAAAUQAAACsAAABnAAAAVAAAAEcAAABwAAAAagAAAEYAAABlAAAAQgAAAEYAAAAwAAAA"
+			"VgAAADQAAAAvAAAASgAAAFoAAABuAAAAVAAAAGEAAAB1AAAAYgAAADQAAAB3AAAATgAAADYAAABv"
+			"AAAAKwAAAG8AAABqAAAAWQAAAFAAAAB5AAAAMQAAAGEAAAA4AAAAagAAAG8AAABUAAAANwAAADYA"
+			"AABwAAAAcQAAAHIAAABKAAAAYQAAAGgAAABPAAAARwAAAGsAAABzAAAAcAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -11450,7 +11520,61 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAADc/UAEsM0MJIyk3UBwjL80ZHyv7GB0p/RcdKf0YHir9Fx0p/hgdKfwYHSn8GB0p/BgdKf0X"
+			"HSn+Fx0p/RgdKfkXHSngGB4p2BgdKfUXHSn9Fx0p/BgdKfQXHSnSGB0pqRcdKcIYHSniFx0p3Bgd"
+			"KdAXHSnfFx0p8BgdKfUYHSn2GB0p+xcdKf0XHSn5GB4q6RkfK+QYHir3Fx0p/RgeKv0XHSn9Fx0p"
+			"+hgeKvYYHir3Fx0p9BcdKfQXHSn2Fx0p+hgdKfsYHSn7GB0p/BcdKf0XHSn8Fx0p+RgeKe8YHinU"
+			"GB4q0xgdKegXHSnwFx0p6hcdKfMYHSn9Fx0p/xgdKf8YHin/GB0p/xgeKv4YHSn9GB0p/hcdKf8X"
+			"HSn9Fx0p+hcdKfgXHSn5GB0p+hgeKfUXHSnyFx0p9hcdKfsXHin8Fx0p7BcdKdEYHSnsGB0p/Bgd"
+			"Kf0XHSn+GB0p/RcdKe0YHiqxFx0pkhgdKc0XHSn1Fx0p/hcdKf4YHir2GB4puxgdKa4YHSnqGB0p"
+			"9RcdKfsYHSn+GB0p+RcdKfQYHSnxGB0p3xgeKukYHSn8GB0p/hcdKfgXHSnzFx0p4xcdKc0XHSns"
+			"GB0p+hgdKfcYHSnpFx0p8RgeKfwYHSnzFx0pzRgdKawYHil9GB4poRgdKQA4AAAAOQAAAGYAAABq"
+			"AAAAcgAAADgAAABkAAAAZgAAAGoAAABUAAAAeQAAAGMAAABNAAAAbgAAAGgAAABkAAAAbwAAADYA"
+			"AABzAAAAbQAAADUAAABoAAAATQAAAGwAAABKAAAAUAAAAEwAAABsAAAAWgAAAFoAAABpAAAAUAAA"
+			"AEEAAABWAAAATQAAADgAAAAvAAAAUAAAAGYAAAAvAAAAMAAAAC8AAABOAAAAUAAAAHoAAABqAAAA"
+			"MAAAADQAAABZAAAAUAAAAEMAAAAvAAAAdwAAAFYAAABMAAAATQAAAFoAAABtAAAAOAAAAFMAAABU"
+			"AAAAYQAAADgAAABXAAAATgAAADIAAAB3AAAAZwAAAHcAAAAxAAAAZgAAAE4AAABQAAAAegAAAHoA"
+			"AAA4AAAAOQAAAC8AAAAvAAAAVAAAADgAAABzAAAAegAAAG4AAABIAAAAMAAAAEMAAABUAAAARQAA"
+			"AGMAAAAwAAAAWgAAAE8AAABMAAAAaQAAAG0AAABZAAAANAAAAHgAAAAvAAAAOAAAAHMAAAB6AAAA"
+			"OQAAAGIAAABmAAAAdQAAADAAAAA3AAAAdgAAAG0AAABXAAAANQAAADUAAAA1AAAAKwAAACsAAABa"
+			"AAAANwAAAG4AAAA0AAAAOQAAAHYAAAA0AAAAcgAAAGEAAABQAAAAdAAAAGQAAABzAAAAZgAAAHgA"
+			"AABDAAAAegAAAHYAAAA4AAAAMQAAAHUAAAAzAAAATwAAAG4AAABoAAAAZgAAAHoAAABEAAAAWQAA"
+			"ADMAAAA5AAAALwAAACsAAABWAAAAdgAAAC8AAAA5AAAASgAAAC8AAAAzAAAALwAAAEMAAABmAAAA"
+			"cAAAADkAAABKAAAANgAAAFkAAABlAAAAUQAAAFcAAABhAAAAOAAAAHoAAABzAAAAbgAAAGEAAAB4"
+			"AAAAVwAAAFgAAABnAAAAcwAAAFoAAAB0AAAAQgAAAEoAAABqAAAAcQAAACsAAABiAAAALwAAAG4A"
+			"AAAvAAAANQAAADcAAAAvAAAAZQAAAC8AAAA3AAAAWAAAAGUAAABZAAAAYgAAAG4AAABCAAAAYwAA"
+			"AHcAAAA3AAAAcwAAAEsAAAB2AAAAWQAAAFIAAABFAAAAeQAAAHUAAABGAAAAVAAAAE4AAAB1AAAA"
+			"SQAAADgAAABCAAAAVQAAAHoAAAB6AAAAOAAAADkAAAAvAAAAOQAAAHgAAABTAAAAOAAAADgAAAAr"
+			"AAAAcAAAADYAAAAwAAAANAAAAHQAAABsAAAAegAAAHoAAAA4AAAAawAAAHUAAABXAAAAdAAAAC8A"
+			"AAAvAAAARwAAAHQAAAAzAAAAcQAAADEAAAAxAAAAMgAAAEUAAAB0AAAAbv//////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////w=="
 		)
 	)
 	(image
@@ -14491,7 +14615,61 @@
 			"AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A"
 			"////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/"
 			"//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//"
-			"/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/w=="
+			"/wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/x0pABgdKQIXHSkIGB0p"
+			"FRcdKS0XHSlKGB4qYBgdKW4XHSl3GB0pexgdKX0YHSl8Fx0peBcdKXEXHSlnGB4qXhgdKVAXHSlB"
+			"Fx0pNBcdKSYYHiocGB4qEhgeKggWHCgCGSEqABcdKQAYHSkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAANQAAAEUAAAAz"
+			"AAAAVQAAAFgAAAB6AAAAYQAAAEsAAAB6AAAAdAAAAEgAAAB0AAAAdAAAAGcAAABrAAAAQgAAAFkA"
+			"AABiAAAARQAAAHUAAABqAAAASgAAAG0AAABUAAAAWgAAAEEAAABlAAAAZAAAAE4AAAAxAAAARgAA"
+			"ADAAAAAwAAAAaQAAADgAAAA3AAAAUwAAADcAAAByAAAAVQAAAEoAAABBAAAAbQAAAEcAAAB4AAAA"
+			"TAAAAFkAAAAyAAAAYQAAAGsAAABHAAAAVQAAAEgAAABuAAAARAAAAGQAAABSAAAAZAAAADkAAABF"
+			"AAAAcwAAAE8AAABrAAAAdQAAADcAAAAxAAAAeQAAAFkAAABJAAAAaAAAAE0AAABXAAAAMgAAAE4A"
+			"AABHAAAAcAAAAEMAAABsAAAAaAAAADEAAAB3AAAAMwAAAGsAAABUAAAAZAAAAFIAAABiAAAAUAAA"
+			"AG8AAABMAAAATwAAADEAAABlAAAAbQAAAHkAAABBAAAAUQAAAEYAAAB0AAAAdgAAAFMAAABxAAAA"
+			"QQAAAGwAAABaAAAAZAAAAHMAAABCAAAANQAAAEUAAAAzAAAAVQAAAFgAAAB6AAAAYQAAAEsAAAB6"
+			"AAAAdAAAAEgAAAB0AAAAdAAAAGcAAABrAAAAQgAAAFkAAABiAAAARQAAAHUAAABqAAAASgAAAG0A"
+			"AABUAAAAWgAAAEEAAABlAAAAZAAAAE4AAAAxAAAARgAAADAAAAAwAAAAaQAAADgAAAA3AAAAUwAA"
+			"ADcAAAByAAAAVQAAAEoAAABBAAAAbQAAAEcAAAB4AAAATAAAAFkAAAAyAAAAYQAAAGsAAABHAAAA"
+			"VQAAAEgAAABuAAAARAAAAGQAAABSAAAAZAAAADkAAABFAAAAcwAAAE8AAABrAAAAdQAAADcAAAAx"
+			"AAAAeQAAAFkAAABJAAAAaAAAAE0AAABXAAAAMgAAAE4AAABHAAAAcAAAAEMAAABsAAAAaAAAADEA"
+			"AAB3AAAAMwAAAGsAAABUAAAAZAAAAFIAAABiAAAAUAAAAG8AAABMAAAATwAAADEAAABlAAAAbQAA"
+			"AHkAAABBAAAAUQAAAEYAAAB0AAAAdgAAAFMAAABxAAAAQQAAAGwAAABaAAAAZAAAAHMAAABCAAAA"
+			"NQAAAEUAAAAzAAAAVQAAAFgAAAB6AAAAYQAAAEsAAAB6AAAAdAAAAEgAAAB0AAAAdAAAAGcAAABr"
+			"AAAAQgAAAFkAAABiAAAARQAAAHUAAABqAAAASgAAAG0AAABUAAAAWgAAAEEAAABlAAAAZAAAAE4A"
+			"AAAxAAAARgAAADAAAAAwAAAAaQAAADgAAAA3AAAAUwAAADcAAAByAAAAVf//////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////3x8fP8AAAD/AAAA/zo6Ov//////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////ubm5/xwcHP8AAAD/AAAA/wAA"
+			"AP8AAAD/AAAA/wAAAP8AAAD/AAAA/x8fH//Hx8f/////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////Y2Nj/wAAAP8BAQH/wMDA////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////////////////////////////////////w=="
 		)
 	)
 	(hierarchical_label "+VSUPPLY"
@@ -14679,7 +14857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d49371b-b703-4237-bc9e-815d5fc0ca61")
-		(property "Reference" "D502"
+		(property "Reference" "D501"
 			(at 175.26 73.66 90)
 			(effects
 				(font
@@ -14688,7 +14866,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ33A"
+		(property "Value" "SMBJ30A"
 			(at 175.26 76.2 90)
 			(effects
 				(font
@@ -14697,7 +14875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 77.8 77.47 0)
 			(effects
 				(font
@@ -14707,7 +14885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=09A6AE9A-73CB-4AC4-ACAC-E6DAB92AB953"
 			(at -22.2 77.47 0)
 			(effects
 				(font
@@ -14717,7 +14895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "Littelfuse SMBJ30A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -14726,7 +14904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SMBJ33A"
+		(property "Manufacturer Part Number" "SMBJ30A"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -14744,7 +14922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "78-SMBJ33A"
+		(property "Supplier Part Number" "576-SMBJ30A"
 			(at 171.45 64.77 0)
 			(effects
 				(font
@@ -14771,123 +14949,14 @@
 		(instances
 			(project "ElonMux"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "D502")
+					(reference "D501")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SMBJ30CA")
-		(at 257.81 161.29 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a0ebe8f-d353-46c7-874f-0c8bccf3e75f")
-		(property "Reference" "D504"
-			(at 254 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33A"
-			(at 254 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at 351.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
-			(at 451.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SMBJ33A"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LITTELFUSE"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "78-SMBJ33A"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 257.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a582c2e0-b8d7-4c29-9425-30e5c43339c8")
-		)
-		(pin "1"
-			(uuid "6795dcf1-fb7d-4de3-8b78-c6446535603b")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "D504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x02_Mounting_1")
-		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(lib_id "Charge_Manager_SYM:Conn_01x02_Mounting")
 		(at 143.51 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14922,7 +14991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -14931,7 +15000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+		(property "Description" "Generic connector, single row with mounting pin"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -14982,10 +15051,10 @@
 		(pin "2"
 			(uuid "140963eb-e12f-4979-9d71-f4c6b0704a45")
 		)
-		(pin "3"
+		(pin "MP1"
 			(uuid "22cdc096-7235-4ea3-8b6c-9366b71c90df")
 		)
-		(pin "4"
+		(pin "MP2"
 			(uuid "e16791f2-b2ce-4392-bd3f-e05d89ab0ad7")
 		)
 		(instances
@@ -15065,6 +15134,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Charge_Manager_SYM:SMBJ30CA")
+		(at 257.81 161.29 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d96d0c8-302d-41b9-af57-879242886399")
+		(property "Reference" "D504"
+			(at 254 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ30A"
+			(at 254 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
+			(at 351.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=09A6AE9A-73CB-4AC4-ACAC-E6DAB92AB953"
+			(at 451.46 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ30A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ30A"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITTELFUSE"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "576-SMBJ30A"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 257.81 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85708313-f22a-43c5-878a-6a0882b18c41")
+		)
+		(pin "1"
+			(uuid "f22c0c2c-75c9-44a5-8671-5ea8714902dd")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "D504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 274.32 180.34 0)
 		(mirror y)
@@ -15133,116 +15310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Charge_Manager_SYM:SMBJ30CA")
-		(at 257.81 64.77 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6667a739-b822-4064-8c1a-d498d1b8554f")
-		(property "Reference" "D501"
-			(at 254 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMBJ33A"
-			(at 254 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DIOM5436X244N"
-			(at 351.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
-			(at 451.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SMBJ33A"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LITTELFUSE"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "78-SMBJ33A"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser Electronics"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ed45eb2-1d57-41fa-a26a-c596f8bbeac7")
-		)
-		(pin "1"
-			(uuid "0f766ddf-6ccd-492b-9c3a-106fa4a9d6d3")
-		)
-		(instances
-			(project "ElonMux"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
-					(reference "D501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x02_Mounting_1")
-		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(lib_id "Charge_Manager_SYM:Conn_01x02_Mounting")
 		(at 143.51 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15277,7 +15345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -15286,7 +15354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+		(property "Description" "Generic connector, single row with mounting pin"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -15337,10 +15405,10 @@
 		(pin "2"
 			(uuid "025c59d2-493d-4106-9879-dd6ece9c8f04")
 		)
-		(pin "3"
+		(pin "MP1"
 			(uuid "5b760215-2790-4b97-b2a1-fc153e842d80")
 		)
-		(pin "4"
+		(pin "MP2"
 			(uuid "8b804004-e98f-4398-b9e8-2e662d0dce25")
 		)
 		(instances
@@ -15415,6 +15483,114 @@
 			(project "Charge Manager"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
 					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Charge_Manager_SYM:SMBJ30CA")
+		(at 257.81 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da2e8a1-7fe7-47c2-b8bf-029f358cb6cb")
+		(property "Reference" "D502"
+			(at 254 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ30A"
+			(at 254 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
+			(at 351.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=09A6AE9A-73CB-4AC4-ACAC-E6DAB92AB953"
+			(at 451.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ30A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMBJ30A"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITTELFUSE"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "576-SMBJ30A"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser Electronics"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f951a4e9-cc49-4f1a-85a1-910c9167cc42")
+		)
+		(pin "1"
+			(uuid "523cb2f8-c1c7-47dc-8d20-be78ff66b51e")
+		)
+		(instances
+			(project "ElonMux"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/3c6a6bb2-bac2-4596-a27d-6bc23ae8595a"
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -15553,8 +15729,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x02_Mounting_1")
-		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(lib_id "Charge_Manager_SYM:Conn_01x02_Mounting")
 		(at 281.94 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -15590,7 +15765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.com/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+		(property "Datasheet" "~"
 			(at 281.94 64.77 0)
 			(effects
 				(font
@@ -15599,7 +15774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+		(property "Description" "Generic connector, single row with mounting pin"
 			(at 281.94 64.77 0)
 			(effects
 				(font
@@ -15650,10 +15825,10 @@
 		(pin "2"
 			(uuid "3ff234be-8e01-48f4-aebf-212f40e3bc8a")
 		)
-		(pin "3"
+		(pin "MP1"
 			(uuid "9893c426-61ad-4428-9255-85461fcb25e8")
 		)
-		(pin "4"
+		(pin "MP2"
 			(uuid "1681d60e-9124-4350-8d3f-f866654b01f7")
 		)
 		(instances
@@ -15666,8 +15841,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x02_Mounting_1")
-		(lib_id "0_connectors:Conn_01x02_Mounting")
+		(lib_id "Charge_Manager_SYM:Conn_01x02_Mounting")
 		(at 281.94 161.29 0)
 		(mirror x)
 		(unit 1)
@@ -15703,7 +15877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.com/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+		(property "Datasheet" "~"
 			(at 281.94 161.29 0)
 			(effects
 				(font
@@ -15712,7 +15886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; yellow; 30A; 500V"
+		(property "Description" "Generic connector, single row with mounting pin"
 			(at 281.94 161.29 0)
 			(effects
 				(font
@@ -15763,10 +15937,10 @@
 		(pin "2"
 			(uuid "e9c44b5e-e27f-4e62-903f-9556287883ae")
 		)
-		(pin "3"
+		(pin "MP1"
 			(uuid "f477599d-ff08-4452-98fb-dd637648a3b4")
 		)
-		(pin "4"
+		(pin "MP2"
 			(uuid "3f5d40e6-68fd-4ddb-b2be-e687ecea9c7a")
 		)
 		(instances
@@ -15787,7 +15961,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eda60990-42c4-48b4-8130-295951bd112c")
+		(uuid "f96baf00-65c3-4f0a-a9b1-a0a085ed5c48")
 		(property "Reference" "D503"
 			(at 171.45 170.18 90)
 			(effects
@@ -15797,7 +15971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ33A"
+		(property "Value" "SMBJ30A"
 			(at 171.45 172.72 90)
 			(effects
 				(font
@@ -15806,7 +15980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIOM5436X244N"
+		(property "Footprint" "Charge_Manager_FP:DIOM5436X244N"
 			(at 73.99 173.99 0)
 			(effects
 				(font
@@ -15816,7 +15990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/SMBJ30CA.pdf"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smbj-series-datasheet?assetguid=09A6AE9A-73CB-4AC4-ACAC-E6DAB92AB953"
 			(at -26.01 173.99 0)
 			(effects
 				(font
@@ -15826,7 +16000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ30CA, Bi-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "Littelfuse SMBJ30A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
 			(at 167.64 161.29 0)
 			(effects
 				(font
@@ -15835,7 +16009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SMBJ33A"
+		(property "Manufacturer Part Number" "SMBJ30A"
 			(at 167.64 161.29 0)
 			(effects
 				(font
@@ -15853,7 +16027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "78-SMBJ33A"
+		(property "Supplier Part Number" "576-SMBJ30A"
 			(at 167.64 161.29 0)
 			(effects
 				(font
@@ -15872,10 +16046,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f2bb61c0-85de-4a21-9a0d-0c821123b511")
+			(uuid "3bfc08dc-6d71-4fbc-a75e-682fc5fbdf7e")
 		)
 		(pin "1"
-			(uuid "076dbf49-7675-4fad-a59a-8b01800fea88")
+			(uuid "4aa7ea44-a1e4-41b1-94fc-ba83ac9c1a67")
 		)
 		(instances
 			(project "ElonMux"
