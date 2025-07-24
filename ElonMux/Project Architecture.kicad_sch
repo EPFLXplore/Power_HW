@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Project Architecture")
-		(date "2025-06-17")
+		(date "2025-07-24")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -51,6 +51,19 @@
 		(uuid 0bc7ffbe-bea5-40cb-bb06-e4bbe970625e)
 	)
 	(arc
+		(start 118.72 164.495)
+		(mid 119.4642 162.7007)
+		(end 121.26 161.955)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1108f12a-8d10-41d5-b8f9-7bd28b753c80)
+	)
+	(arc
 		(start 332.095 123.18)
 		(mid 331.2031 122.8034)
 		(end 330.825 121.91)
@@ -75,6 +88,19 @@
 			(type none)
 		)
 		(uuid 60898ac0-5a85-4fc7-bf3e-7d6661d3b70e)
+	)
+	(arc
+		(start 117.45 177.195)
+		(mid 118.3419 177.5716)
+		(end 118.72 178.465)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7874bc9a-6e04-4d57-93d5-ddcc1b8b2603)
 	)
 	(arc
 		(start 332.13 92.055)
@@ -116,6 +142,19 @@
 		(uuid db946974-f700-4f56-854d-f0affb2b0c52)
 	)
 	(arc
+		(start 118.72 175.925)
+		(mid 118.3454 176.8219)
+		(end 117.45 177.195)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbe13271-4283-48d3-86b9-7b9e45a39199)
+	)
+	(arc
 		(start 330.825 135.88)
 		(mid 330.0808 137.6743)
 		(end 328.285 138.42)
@@ -153,6 +192,19 @@
 			(type none)
 		)
 		(uuid e9c5fcf5-544b-4c6d-bf55-6a400a9261a7)
+	)
+	(arc
+		(start 121.26 192.435)
+		(mid 119.4729 191.6835)
+		(end 118.72 189.895)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f43a9f2c-4c47-486f-a5a1-2ac0b9763bcd)
 	)
 	(arc
 		(start 118.745 80.01)
@@ -362,6 +414,29 @@
 		)
 		(uuid "a0ebd266-8d48-479e-868b-a1b4053b9c02")
 	)
+	(text_box "Sensing"
+		(exclude_from_sim no)
+		(at 90.155 174.625 0)
+		(size 26.015 5.1)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e37ac0b1-0e14-4e6f-a11d-288d4285c792")
+	)
 	(text_box "User"
 		(exclude_from_sim no)
 		(at 333.375 120.65 0)
@@ -524,6 +599,16 @@
 			(type default)
 		)
 		(uuid "26b9c9a7-0575-4ee9-9d73-fe9808a125db")
+	)
+	(polyline
+		(pts
+			(xy 118.72 178.465) (xy 118.72 189.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c68d249-9f53-484e-956d-fed538743d38")
 	)
 	(wire
 		(pts
@@ -774,6 +859,16 @@
 			(type default)
 		)
 		(uuid "d0ee58b4-8b8a-47e4-96c2-4365ab49ba9e")
+	)
+	(polyline
+		(pts
+			(xy 118.72 175.925) (xy 118.72 164.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1aed1ec-4b5e-4886-acbb-e5b80c4c3cc7")
 	)
 	(wire
 		(pts

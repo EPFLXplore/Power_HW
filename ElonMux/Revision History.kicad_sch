@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Revision History")
-		(date "2025-06-17")
+		(date "2025-07-24")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -116,6 +116,19 @@
 		(uuid a7b534db-cd92-455c-999b-3488dafb66d2)
 	)
 	(circle
+		(center 154.5009 117.403)
+		(radius 1.27)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(uuid af357120-2152-4ef2-8f4c-61ee2287506c)
+	)
+	(circle
 		(center 219.71 145.415)
 		(radius 1.27)
 		(stroke
@@ -219,7 +232,7 @@
 		)
 		(uuid eee57e69-3df5-43f9-8111-7529f8cece02)
 	)
-	(text_box "- Fixed charger's LED schematic & layout\n\n- Added Fan speed control by MCU\n\n- Use larger MOSFETs for powerpath\n\n- Remove the RC delay network for the LTC7000, or connect it to TS and not GND.\n\n- Add protection to the TPS3701\n\n- Inverser capa/resistor pour filtre passe bas dans LTC7000\n\n- Utiliser via 0.3 avec smaller annular width to reduce costs (0.3/0.55) or (0.3/0.50).\n\n- added capa to timer pin of the LTC7000 for power path to avoid false inrush triggers\n\n- use transistors rather than just resistor for the OUT LEDs\n\n- changed power tvs diode from SMBJ33A to SMBJ30A -> max input voltage 33 -> 30V\n\n- integrated connectors for current buttons\n\n- removed JTAG\n\n- inverted charge enable button use\n\n- Removed INA current/voltage sensor"
+	(text_box "- Fixed charger's LED schematic & layout\n\n- Added autom. Fan control from temperature\n\n- Use larger MOSFETs for powerpath\n\n- Remove the RC delay network for the LTC7000, or connect it to TS and not GND.\n\n- Add protection to the TPS3701\n\n- Inverser capa/resistor pour filtre passe bas dans LTC7000\n\n- Utiliser via 0.3 avec smaller annular width to reduce costs (0.3/0.55) or (0.3/0.50).\n\n- added capa to timer pin of the LTC7000 for power path to avoid false inrush triggers\n\n- use transistors rather than just resistor for the OUT LEDs\n\n- changed power tvs diode from SMBJ33A to SMBJ30A -> max input voltage 33 -> 30V\n\n- integrated connectors for current buttons\n\n- removed JTAG\n\n- inverted charge enable button use\n\n- Removed INA current/voltage sensor"
 		(exclude_from_sim no)
 		(at 220.98 40.64 0)
 		(size 58.42 115.57)
@@ -310,7 +323,7 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
-	(text_box "- Reduced current in 3V3 ON LED (56->200Ω)\n\n- Increase Pull-up resistor values to reduce power consumption"
+	(text_box "- Reduced current in 3V3 ON LED (56->200Ω)\n\n- Increase Pull-up resistor values to reduce power consumption\n\n- Rebranded PCB to Emux"
 		(exclude_from_sim no)
 		(at 155.575 99.06 0)
 		(size 59.055 55.245)
