@@ -1,0 +1,1261 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ebd1aac-035b-4b09-b21d-2dba46591ffb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PolluxIII-altium-import:3V3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:CAN_0_SN65HVD232QDR_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC127P600X175-8N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAN_0_SN65HVD232QDR_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 22.86 2.54)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:CAN_3_C0603C104K5RACTU_CarrierBoard.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1608X95N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAN_3_C0603C104K5RACTU_CarrierBoard.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.112) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.588) (xy -2.54 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.112) (xy -2.54 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 180.34 93.1672)
+		(end 111.76 136.3472)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47d5c2d3-b128-4e99-b1d1-d5ece0ac6d03)
+	)
+	(text "CAN Bus Controller"
+		(exclude_from_sim no)
+		(at 205.74 189.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96d03476-4d83-4193-acd4-dc8b02caf471")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 274.32 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b602a2-c3e0-4f44-b9cd-e1fd40b57258")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e81b0d-a30a-4ab7-93d4-55c5f76c1b5c")
+	)
+	(text "Arion Zimmermann"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7cb1412-7d0d-4d34-a0c3-61fe5fa3f43b")
+	)
+	(text "EPFL Xplore"
+		(exclude_from_sim no)
+		(at 261.62 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa47ba96-e9bf-48f8-83e5-6e54e9a4c019")
+	)
+	(text_box "CAN controller to communicate with the Maxon motors and potentially the Jetson."
+		(exclude_from_sim no)
+		(at 180.34 126.1872 0)
+		(size -68.58 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "b2705541-7ea8-4913-8599-3c4bd4b10131")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.9472) (xy 137.16 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc1c36e-f407-4c93-ac62-1d560a8c8556")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.0272) (xy 129.54 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478c8490-1a2d-4ad2-8934-b5008ebf6dcd")
+	)
+	(wire
+		(pts
+			(xy 137.16 103.3272) (xy 116.84 103.3272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ea316a-ff0c-4e92-ae0d-860391e09400")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.0272) (xy 129.54 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c23bd1-aa09-43e8-8af4-8af0a9843097")
+	)
+	(hierarchical_label "CANL"
+		(shape bidirectional)
+		(at 175.26 108.4072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dec0969-3762-4318-9046-0c1008cecf0b")
+	)
+	(hierarchical_label "TX"
+		(shape bidirectional)
+		(at 137.16 105.8672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45cd2831-cfd3-438b-8fb6-97c17db3c0d0")
+	)
+	(hierarchical_label "RX"
+		(shape bidirectional)
+		(at 137.16 108.4072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49f8a4b9-a827-4580-8da7-b2672d24f908")
+	)
+	(hierarchical_label "CANH"
+		(shape bidirectional)
+		(at 175.26 105.8672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79bf54cf-0e0a-4fe9-b106-16158ae826e5")
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:CAN_3_C0603C104K5RACTU_CarrierBoard.SCHLIB")
+		(at 116.84 103.3272 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "349bb424-bb4a-4e51-9952-a5ec22bd8f96")
+		(property "Reference" "C21"
+			(at 119.634 110.6932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X95N"
+			(at 116.84 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 116.84 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.farnell.com/datasheets/2205446.pdf"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.95mm"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kemet"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C0603C104K5RACTU"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "80-C0603C104K5R"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "C0603C104K5RACTU"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 119.634 113.2332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "80-C0603C104K5R"
+			(at 114.046 102.8192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfe636a9-d61b-433f-a6f5-d0c194f7bfa2")
+		)
+		(pin "2"
+			(uuid "1f917a97-9ae5-40dd-a8bd-1e5771b44d0e")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/6c1e82d1-a45f-4efc-8d29-c59c7f4c7b5c/531c125c-09ea-4125-950c-8ad61ed8de3f/c3de1f48-603c-44a0-8866-99465af78992"
+					(reference "C21")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:GND_POWER_GROUND")
+		(at 116.84 116.0272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bb98e61-0302-47c5-857e-de29442ac90d")
+		(property "Reference" "#PWR?"
+			(at 116.84 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 122.3772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b6997aa9-9254-4e3a-8569-d76506f1e6de")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/6c1e82d1-a45f-4efc-8d29-c59c7f4c7b5c/531c125c-09ea-4125-950c-8ad61ed8de3f/c3de1f48-603c-44a0-8866-99465af78992"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:CAN_0_SN65HVD232QDR_SamacSys.SchLib")
+		(at 137.16 103.3272 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d53f530b-ed48-462d-b4eb-64fd9f439ad2")
+		(property "Reference" "IC5"
+			(at 142.24 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SN65HVD232QDR"
+			(at 142.24 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:SOIC127P600X175-8N"
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.ti.com/lit/gpn/SN65HVD232Q"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.75mm"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "SN65HVD232QDR"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "595-SN65HVD232QDR"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN65HVD232QDR?qs=QViXGNcIEAuDpfsGPShang%3D%3D"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "SN65HVD232QDR"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/sn65hvd232qdr/texas-instruments?region=nac"
+			(at 136.652 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "388ffba5-922c-4a58-9f85-1422ba5e8cc3")
+		)
+		(pin "2"
+			(uuid "316d9147-585c-4690-b1a1-eb3cdf6adcaa")
+		)
+		(pin "3"
+			(uuid "b128efd7-e531-4c0c-9841-a71fdeea54e3")
+		)
+		(pin "4"
+			(uuid "d3eddaac-1240-488c-a215-9aac9552d36a")
+		)
+		(pin "8"
+			(uuid "4688ceb4-42e8-4673-9d92-9254575752c1")
+		)
+		(pin "7"
+			(uuid "04c7138b-885f-4dad-89de-7795755ccbb3")
+		)
+		(pin "6"
+			(uuid "6ae9bfbd-dcdd-4082-b2c4-f2b1868f2b6e")
+		)
+		(pin "5"
+			(uuid "b749a2b5-a631-4aab-b180-67fa9374593f")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/6c1e82d1-a45f-4efc-8d29-c59c7f4c7b5c/531c125c-09ea-4125-950c-8ad61ed8de3f/c3de1f48-603c-44a0-8866-99465af78992"
+					(reference "IC5")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:3V3_BAR")
+		(at 137.16 103.3272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e86c08f1-ba3f-43ee-b770-5b3e02cb5c25")
+		(property "Reference" "#PWR?"
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 137.16 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "db859a8c-bf46-4de1-ae83-02ab070c7521")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/6c1e82d1-a45f-4efc-8d29-c59c7f4c7b5c/531c125c-09ea-4125-950c-8ad61ed8de3f/c3de1f48-603c-44a0-8866-99465af78992"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

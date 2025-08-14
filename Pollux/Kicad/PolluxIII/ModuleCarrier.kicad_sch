@@ -1,0 +1,1655 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "018a76b4-d710-46da-a0de-5f87f20df137")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PolluxIII-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:HV_0_46562-3001_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*465623001*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HV_0_46562-3001_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 0 35.56)
+					(end -15.24 -38.1)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 33.02 180)
+					(length 5.08)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 30.48 180)
+					(length 5.08)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 27.94 180)
+					(length 5.08)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 25.4 180)
+					(length 5.08)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 22.86 180)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 20.32 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 17.78 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 15.24 180)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 5.08)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "S10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "S11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "S12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 5.08)
+					(name "S13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 5.08)
+					(name "S14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 5.08)
+					(name "S15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 5.08)
+					(name "S16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -17.78 180)
+					(length 5.08)
+					(name "S17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -20.32 180)
+					(length 5.08)
+					(name "S18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -22.86 180)
+					(length 5.08)
+					(name "S19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -25.4 180)
+					(length 5.08)
+					(name "S20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -27.94 180)
+					(length 5.08)
+					(name "S21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -30.48 180)
+					(length 5.08)
+					(name "S22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -33.02 180)
+					(length 5.08)
+					(name "S23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -35.56 180)
+					(length 5.08)
+					(name "S24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:HV_2_0451020.MRL_SamacSys.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*FUSC6127X294N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HV_2_0451020.MRL_SamacSys.SchLib_1_0"
+				(rectangle
+					(start -5.08 1.27)
+					(end -12.7 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -12.7 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "MOD_CTRL_Harness"
+		(members "B_SHDN" "A_SHDN" "B_CTRL" "A_CTRL" "GND" "SCL" "SDA" "3V3")
+	)
+	(rectangle
+		(start 177.8 44.9072)
+		(end 88.9 159.2072)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 322b4d28-1dc2-4dc8-b04c-62d19c7ae6f6)
+	)
+	(text "EPFL Xplore"
+		(exclude_from_sim no)
+		(at 261.62 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f66ac1-1c8c-4aa6-a319-687d09463e4b")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 274.32 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96b3f3dd-26a6-4b94-a871-557d3f0f66d7")
+	)
+	(text "Interface to the Power Modules"
+		(exclude_from_sim no)
+		(at 205.74 189.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5cc6d79-30ab-445d-ab52-01e0f8cb865e")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee42c4a3-6b3b-4cdc-9b8e-efdb6fc85b64")
+	)
+	(text "Arion Zimmermann"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa5b4b8f-5cd9-455a-b503-110f91a477d3")
+	)
+	(text_box "@{\"Id\":\"EHJFKTI~{X}HPJSMCVB\"} is the (heavy and expensive) connector that will carry all the power from the power modules to Pollux III. A 20A replacable fuse ensure that a short-circuit will have limited consequences to the rest of the system."
+		(exclude_from_sim no)
+		(at 175.26 146.5072 0)
+		(size -83.82 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "1d11b920-01f3-4192-828d-fd192020934c")
+	)
+	(bus_entry
+		(at 127 131.2672)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa4c823-f767-4788-a8fa-ec0efcf1f48a")
+	)
+	(bus_entry
+		(at 127 118.5672)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7555ae-cca2-48c2-a6a1-2af4622d2d85")
+	)
+	(bus_entry
+		(at 127 121.1072)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f80bf60-a5f0-4f27-8231-9a4aef0df680")
+	)
+	(bus_entry
+		(at 127 116.0272)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec78676-8551-4b22-b31b-9e12823d4f8a")
+	)
+	(bus_entry
+		(at 127 123.6472)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4d6e94-0e6c-4927-83f4-73a49e2d3bf5")
+	)
+	(bus_entry
+		(at 127 113.4872)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4502e47-27c9-40c4-a8a6-831d80dafc75")
+	)
+	(bus_entry
+		(at 127 128.7272)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4cd452-dd56-4399-a91c-38f26f7dc52b")
+	)
+	(bus_entry
+		(at 127 126.1872)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd156be6-902f-41e0-8fcb-ba676903ce58")
+	)
+	(wire
+		(pts
+			(xy 116.84 121.1072) (xy 127 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005b1d26-87df-46fc-87f2-1534b2cfc9ea")
+	)
+	(wire
+		(pts
+			(xy 127 128.7272) (xy 116.84 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022d7090-18cb-47cf-8683-9f99254ca308")
+	)
+	(bus
+		(pts
+			(xy 129.54 116.0272) (xy 129.54 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1007dd48-0e99-45d8-a2df-f8a2791d1f3d")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.7672) (xy 116.84 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e30e8b-b64b-4863-9d4d-968419df961c")
+	)
+	(wire
+		(pts
+			(xy 127 123.6472) (xy 116.84 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230c5df6-ded3-4371-8ab1-2493d952f130")
+	)
+	(wire
+		(pts
+			(xy 127 118.5672) (xy 116.84 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27085ec1-267a-41a8-8f4b-bca96ec3665e")
+	)
+	(wire
+		(pts
+			(xy 127 113.4872) (xy 116.84 113.4872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc3fe62-09c6-4f8c-9933-fb4eaff5f82e")
+	)
+	(wire
+		(pts
+			(xy 127 126.1872) (xy 116.84 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645b1ad4-23d6-4527-a696-bd558361ab03")
+	)
+	(wire
+		(pts
+			(xy 152.4 65.2272) (xy 152.4 57.6072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661816a6-82e4-445f-8c48-7f0f4f29e87e")
+	)
+	(bus
+		(pts
+			(xy 132.08 123.6472) (xy 142.24 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7213c713-95e4-4768-af56-d4cecf4949a6")
+	)
+	(bus
+		(pts
+			(xy 132.08 128.7272) (xy 132.08 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791fc6b2-890c-4f9f-9154-037ca7b23537")
+	)
+	(bus
+		(pts
+			(xy 129.54 123.6472) (xy 129.54 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db2c601-7ed5-44d7-b0ad-c70a3913a8df")
+	)
+	(bus
+		(pts
+			(xy 129.54 121.1072) (xy 129.54 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f91a2a2-d304-42f1-8e75-f93179d2d4db")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.0272) (xy 127 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e85559-c49f-4c4c-a9ad-f844f861512d")
+	)
+	(wire
+		(pts
+			(xy 152.4 67.7672) (xy 157.48 67.7672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78b5705-51ee-4176-a6b2-c4cd2d0a4630")
+	)
+	(bus
+		(pts
+			(xy 129.54 113.4872) (xy 129.54 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f93814-490a-4e78-a9ee-5ee5a39d8c67")
+	)
+	(bus
+		(pts
+			(xy 129.54 118.5672) (xy 129.54 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a947c184-880d-4ee1-92cc-a3d63b66239b")
+	)
+	(bus
+		(pts
+			(xy 129.54 126.1872) (xy 129.54 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7adcb26-36b8-4ded-96aa-517881062e77")
+	)
+	(bus
+		(pts
+			(xy 129.54 128.7272) (xy 129.54 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1717933-56c6-40cf-ba1e-5fb54c36d721")
+	)
+	(wire
+		(pts
+			(xy 127 131.2672) (xy 116.84 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c295d38f-6a73-42c3-a1e3-47cbf87a2585")
+	)
+	(wire
+		(pts
+			(xy 116.84 65.2272) (xy 152.4 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cde184-b7a7-4aaa-9b0d-ff95ad05d7c5")
+	)
+	(bus
+		(pts
+			(xy 129.54 128.7272) (xy 132.08 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f943b236-3927-4b4b-a913-59c038e80478")
+	)
+	(label "{MOD_CTRL_Harness}"
+		(at 142.24 123.6472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f014744-fd6a-40a4-8217-faf3b43ac6ab")
+	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 157.48 67.7672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10691cb9-210a-4364-9bda-1d066ef95cc6")
+	)
+	(hierarchical_label "MOD_CTRL"
+		(shape passive)
+		(at 142.24 123.6472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6af9ebe0-80e5-4eae-b6f7-bf356eb58583")
+	)
+	(hierarchical_label "B_OUT"
+		(shape output)
+		(at 132.08 62.6872 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d92c22b9-05a3-4070-9cf2-a86ddbb52e03")
+	)
+	(hierarchical_label "A_OUT"
+		(shape output)
+		(at 132.08 70.3072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eed42360-30fb-4f0f-8f1f-ad3c8829b699")
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:HV_2_0451020.MRL_SamacSys.SchLib")
+		(at 152.4 67.7672 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21be0106-812a-4e30-8917-e35ffdc7ba73")
+		(property "Reference" "F1"
+			(at 139.446 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0451020.MRL"
+			(at 139.446 71.5772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:FUSC6127X294N"
+			(at 152.4 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 152.4 67.7672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://m.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "2.94mm"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "LITTELFUSE"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "0451020.MRL"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "576-0451020.MRL"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Littelfuse/0451020MRL?qs=ZaMXuU%252B6JZZbQqgd%2F3uvYw%3D%3D"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "0451020.MRL"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/0451020.mrl/littelfuse"
+			(at 134.112 66.4972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4306989-4365-4fc2-a2d3-f2a336102cd4")
+		)
+		(pin "2"
+			(uuid "dfc3e403-72ca-43a7-8bce-c6cd4c68bbce")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/f09fe289-e19e-46fc-8d7f-cc4d6f5d92a5"
+					(reference "F1")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:HV_0_46562-3001_SamacSys.SchLib")
+		(at 111.76 95.7072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ff9e523-c833-4590-9770-98e2aa0f9383")
+		(property "Reference" "J13"
+			(at 96.52 60.1472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "46562-3001"
+			(at 96.52 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "465623001"
+			(at 111.76 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector"
+			(at 111.76 95.7072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 96.52 138.8872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "P2"
+			(uuid "1b189128-3f5b-46be-9b68-bc0b7a787d71")
+		)
+		(pin "P1"
+			(uuid "a655798b-6874-45a0-ae18-2c7d2c75db2c")
+		)
+		(pin "P3"
+			(uuid "08d38a45-b250-4f55-9254-77d18753ffa7")
+		)
+		(pin "P4"
+			(uuid "71cb8702-d51e-4b2f-8a6a-1bdc6acd0818")
+		)
+		(pin "S1"
+			(uuid "02a28ac0-f275-4d6b-a772-712556a6b324")
+		)
+		(pin "S2"
+			(uuid "16a9ca7f-04d8-4d46-becd-d6665575c03c")
+		)
+		(pin "S3"
+			(uuid "1d14300e-544e-48c5-8439-a06bae7f61e9")
+		)
+		(pin "S4"
+			(uuid "3b6e279a-10dc-4294-9344-ad2c66d708a5")
+		)
+		(pin "S5"
+			(uuid "1ed25647-55f6-4d5e-b920-9c0341f3399c")
+		)
+		(pin "S6"
+			(uuid "5670c562-196d-4ed6-bec7-70ebb8b9cebb")
+		)
+		(pin "S7"
+			(uuid "3b96c99a-6f96-4dc6-8891-1973ded31735")
+		)
+		(pin "S8"
+			(uuid "271d708d-7d69-4fa8-b655-0a0d7361d46d")
+		)
+		(pin "S9"
+			(uuid "834b2ea9-3f35-4af2-86a8-ffa41aa9654a")
+		)
+		(pin "S10"
+			(uuid "eb6fd63d-01ab-4d68-ac75-be2a3dec8917")
+		)
+		(pin "S11"
+			(uuid "ec4f7045-aa02-4e48-9c68-20dd2c01e082")
+		)
+		(pin "S12"
+			(uuid "816559e0-c285-4477-bba7-26d1302b53e5")
+		)
+		(pin "S13"
+			(uuid "10dd27c6-7f96-414f-b797-8f32ca39b143")
+		)
+		(pin "S14"
+			(uuid "780503c6-7c61-419c-bade-3b8c0d370e2a")
+		)
+		(pin "S15"
+			(uuid "db08b60f-35a4-4742-bfac-8cd8b6b6f1d3")
+		)
+		(pin "S16"
+			(uuid "00dce1cd-4d9b-4d5a-9f0c-731771f442e6")
+		)
+		(pin "S17"
+			(uuid "ab8eb549-fa26-4fc9-a407-1602b629fb0b")
+		)
+		(pin "S18"
+			(uuid "e1cc20cf-dcfe-43c8-96c7-17148c24053e")
+		)
+		(pin "S19"
+			(uuid "b89bdf40-40fb-4a98-baee-b867a1f036b3")
+		)
+		(pin "S20"
+			(uuid "d3a7d410-f485-43ee-ab60-fe5f40c22507")
+		)
+		(pin "S21"
+			(uuid "50319ce3-9b33-4ed8-83dd-888231a383c1")
+		)
+		(pin "S22"
+			(uuid "24639ac9-7f14-494c-943f-869fb15cfd9a")
+		)
+		(pin "S23"
+			(uuid "5d9df822-5823-4b0d-be10-65c210fcd669")
+		)
+		(pin "S24"
+			(uuid "3d897a5d-70df-45a8-a291-963bbbeb1cb1")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/f09fe289-e19e-46fc-8d7f-cc4d6f5d92a5"
+					(reference "J13")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:GND_POWER_GROUND")
+		(at 152.4 57.6072 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33c7f380-084d-4439-990a-bfd1432ed539")
+		(property "Reference" "#PWR?"
+			(at 152.4 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 51.2572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 57.6072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b83ca07e-cc27-4ab9-9d29-38c6b7fbe295")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/f09fe289-e19e-46fc-8d7f-cc4d6f5d92a5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

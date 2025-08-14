@@ -1,0 +1,1813 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "45112715-dc1f-4a8a-ab75-0f12f9bdb8ce")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PolluxIII-altium-import:3V3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:AFE1_0_INA229AQDGSRQ1_*"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Integrated Circuit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOP50P490X110-10N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFE1_0_INA229AQDGSRQ1_*_1_0"
+				(rectangle
+					(start 25.4 2.54)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:AFE1_0_PCS2512FR0010ET_SamacSys.SchLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC6430X90N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFE1_0_PCS2512FR0010ET_SamacSys.SchLib_1_0"
+				(rectangle
+					(start 12.7 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:AFE1_1_C0603C104K5RACTU_CarrierBoard.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CAPC1608X95N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFE1_1_C0603C104K5RACTU_CarrierBoard.SCHLIB_1_0"
+				(polyline
+					(pts
+						(xy -2.54 7.112) (xy 2.54 7.112)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.588) (xy 2.54 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.112) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "AFE_Harness"
+		(members "SCK" "MISO" "MOSI" "CS")
+	)
+	(rectangle
+		(start 190.5 95.7072)
+		(end 83.82 164.2872)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40231b81-1fef-42c8-9a99-4f9c33bfd493)
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 274.32 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45662b12-c784-4792-b516-bfb80b99c66f")
+	)
+	(text "Power Monitor"
+		(exclude_from_sim no)
+		(at 205.74 189.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51a5ec0b-206b-435e-af64-f5f039a4da78")
+	)
+	(text "Arion Zimmermann"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69beb116-e8ab-4add-9abc-6273a7319a96")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f85ee8c-91b5-4259-9377-ffd842b3f939")
+	)
+	(text "EPFL Xplore"
+		(exclude_from_sim no)
+		(at 261.62 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d453a058-7de3-4423-b12b-b91ca80d5055")
+	)
+	(text_box "SPI delta-sigma power monitor with embedded temperature sensor. 16-bits. 160mV full-scale. Maximum sensed current: 40A (shunt thermal limit)"
+		(exclude_from_sim no)
+		(at 182.88 151.5872 0)
+		(size -91.44 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "546a3c4d-6158-47d0-a3f2-e1a808828172")
+	)
+	(junction
+		(at 152.4 141.4272)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72131eb4-1b04-432f-a5ae-a34c7105888d")
+	)
+	(junction
+		(at 152.4 123.6472)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7958431-5895-4645-9fa7-4aa2bb8118bb")
+	)
+	(bus_entry
+		(at 111.76 128.7272)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90893d9f-5347-4675-a7cc-850e8e8344c0")
+	)
+	(bus_entry
+		(at 111.76 126.1872)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b469443-fb44-4db2-84c2-c6ac4f84601e")
+	)
+	(bus_entry
+		(at 111.76 121.1072)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a9ee88-809c-486c-b75a-ca8ec3760af6")
+	)
+	(bus_entry
+		(at 111.76 123.6472)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7cea38-1ca5-4c8d-a04c-dfb0204e9d93")
+	)
+	(wire
+		(pts
+			(xy 111.76 126.1872) (xy 121.92 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011ff00d-1ea2-4745-9224-03168e5ea21c")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.6472) (xy 170.18 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d43e11-703e-483a-9c08-7c0712fb2150")
+	)
+	(wire
+		(pts
+			(xy 147.32 108.4072) (xy 152.4 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dcf8b9-140a-4880-967c-b521448dc2c2")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.6472) (xy 121.92 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2991e134-a72d-4f7a-9f92-19a55c927115")
+	)
+	(bus
+		(pts
+			(xy 109.22 121.1072) (xy 109.22 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba16425-14d3-481e-9e46-604cb966d269")
+	)
+	(wire
+		(pts
+			(xy 147.32 121.1072) (xy 152.4 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370969a9-4b8b-48ac-9922-6a34b41df1ae")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.6472) (xy 152.4 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a382a8c-39c3-4ee5-8de9-c915a9f123e2")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.6472) (xy 170.18 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42aac6f1-5c38-41cd-9664-8d386c0d6de3")
+	)
+	(bus
+		(pts
+			(xy 109.22 126.1872) (xy 109.22 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e28ad0-4cb8-4f8b-9e19-5151c1f5e84d")
+	)
+	(bus
+		(pts
+			(xy 109.22 126.1872) (xy 106.68 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eda0b2-4dc1-410b-b992-1966fd1cd731")
+	)
+	(bus
+		(pts
+			(xy 106.68 126.1872) (xy 106.68 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7741ba35-ecdf-4ff5-aa21-04f39a7fc242")
+	)
+	(wire
+		(pts
+			(xy 170.18 108.4072) (xy 175.26 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a45be1-17d2-4725-a7fa-f4746c403ed5")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.1072) (xy 152.4 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f4b5e9-bedf-4a23-a975-f15aac0aa743")
+	)
+	(bus
+		(pts
+			(xy 109.22 123.6472) (xy 109.22 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1080c7-8f83-485a-a17f-c6a94dbb938f")
+	)
+	(wire
+		(pts
+			(xy 152.4 126.1872) (xy 152.4 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba16d4b-baa7-42c9-9219-8b6cf5c46b15")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.1072) (xy 121.92 121.1072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01d43dd-e753-4bb7-99b5-ad008e5c6531")
+	)
+	(wire
+		(pts
+			(xy 170.18 141.4272) (xy 152.4 141.4272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3985ba2-fca8-4c69-b72b-9a10b387eff8")
+	)
+	(bus
+		(pts
+			(xy 99.06 123.6472) (xy 106.68 123.6472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a91a38-6181-4661-8259-c88723e7b2d5")
+	)
+	(wire
+		(pts
+			(xy 152.4 141.4272) (xy 152.4 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9249c6b-c2dc-4248-8cef-f5ca6d7007f4")
+	)
+	(wire
+		(pts
+			(xy 111.76 128.7272) (xy 121.92 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f954a6-d29c-4098-aeed-4ae2c6ed2a6f")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.7272) (xy 180.34 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e767b20c-edd3-4305-9c52-ce8f5a47e55c")
+	)
+	(label "{AFE_Harness}"
+		(at 99.06 123.6472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f21daa5f-5513-41bc-8227-939949ff873e")
+	)
+	(hierarchical_label "In"
+		(shape input)
+		(at 147.32 108.4072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "665e3316-ec57-4741-850e-663100fe13d5")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 175.26 108.4072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9207ede3-ed81-4205-b923-55fa8f2d7b59")
+	)
+	(hierarchical_label "SPI"
+		(shape passive)
+		(at 99.06 123.6472 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cab2b607-f949-41f6-a00c-3d98d9c2df53")
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:GND_POWER_GROUND")
+		(at 152.4 141.4272 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f002636-ec52-4370-86ed-530617a47a74")
+		(property "Reference" "#PWR?"
+			(at 152.4 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 147.7772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a8cfd59b-5b8e-49eb-942a-dd4f3b436561")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/346fdfa8-30b3-4eb2-b66a-d895a7f88174"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:3V3_BAR")
+		(at 180.34 128.7272 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42e9ddb9-7862-442b-b95a-4d95d2f9b36d")
+		(property "Reference" "#PWR?"
+			(at 180.34 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 180.34 124.9172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 128.7272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c4c91430-52ac-4e7d-82ab-d76bae5c363e")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/346fdfa8-30b3-4eb2-b66a-d895a7f88174"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:AFE1_0_PCS2512FR0010ET_SamacSys.SchLib")
+		(at 152.4 108.4072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c970dfb-42f9-4af0-8784-09220846deb8")
+		(property "Reference" "R11"
+			(at 157.48 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCS2512FR0010ET"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:RESC6430X90N"
+			(at 152.4 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.mouser.com/datasheet/2/303/res_pcs-1665423.pdf"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.904mm"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Ohmite"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "PCS2512FR0010ET"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "588-PCS2512FR0010ET"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Ohmite/PCS2512FR0010ET?qs=Zz7%252BYVVL6bExv9xLWZznUg%3D%3D"
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 151.892 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1m"
+			(at 157.48 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7f903b64-40d8-42e8-9cbb-3430c556307e")
+		)
+		(pin "2"
+			(uuid "492bfa7f-1a66-4e10-b578-18ffe9bb4453")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/346fdfa8-30b3-4eb2-b66a-d895a7f88174"
+					(reference "R11")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:AFE1_1_C0603C104K5RACTU_CarrierBoard.SCHLIB")
+		(at 170.18 141.4272 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83053f2c-22c1-4d83-af12-74d6767b5bbc")
+		(property "Reference" "C26"
+			(at 172.72 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:CAPC1608X95N"
+			(at 170.18 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 170.18 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.farnell.com/datasheets/2205446.pdf"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.95mm"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Kemet"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "C0603C104K5RACTU"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "80-C0603C104K5R"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/KEMET/C0603C104K5RACTU?qs=l5k%252BbMnNDkkVcnZPSAaaiQ%3D%3D"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "C0603C104K5RACTU"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/c0603c104k5ractu/kemet-corporation"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100n"
+			(at 172.974 138.6332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "80-C0603C104K5R"
+			(at 167.386 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "331ec5a5-6b97-492f-bf70-3c969236082b")
+		)
+		(pin "2"
+			(uuid "f462c21d-a68c-46ce-a3d4-8c5ec8e98b82")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/346fdfa8-30b3-4eb2-b66a-d895a7f88174"
+					(reference "C26")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:AFE1_0_INA229AQDGSRQ1_*")
+		(at 121.92 121.1072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d07f9642-6ed2-4ab0-aa4d-ed139c43e72b")
+		(property "Reference" "IC4"
+			(at 127 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "INA239AQDGSRQ1"
+			(at 127 136.3472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:SOP50P490X110-10N"
+			(at 121.92 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Integrated Circuit"
+			(at 121.92 121.1072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.ti.com/lit/ds/symlink/ina229-q1.pdf?ts=1625593362739"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "1.1mm"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Texas Instruments"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "INA229AQDGSRQ1"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "595-INA229AQDGSRQ1"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA229AQDGSRQ1?qs=QNEnbhJQKvYTGkxSAfXBrQ%3D%3D"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "INA229AQDGSRQ1"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/ina229aqdgsrq1/texas-instruments?region=nac"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "595-INA239AQDGSRQ1"
+			(at 121.412 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "57d2e5f2-63da-4b8c-a54f-bdfa09e86733")
+		)
+		(pin "1"
+			(uuid "a898a5db-4f0c-4755-81f0-9a7b36e8f4a7")
+		)
+		(pin "2"
+			(uuid "ea2e3dd1-0a18-42d0-b8c2-bd77ca4db780")
+		)
+		(pin "3"
+			(uuid "e0d0d255-0a52-49c0-bfe9-fa1bfecbb2cb")
+		)
+		(pin "4"
+			(uuid "9fab6be5-aaac-4ffe-a5f7-320a57cf85dc")
+		)
+		(pin "5"
+			(uuid "fde6e992-a752-48db-bfdf-71d854031400")
+		)
+		(pin "9"
+			(uuid "332719a2-6fa4-4fba-bf5c-05c43ffaefd8")
+		)
+		(pin "8"
+			(uuid "1ec182ce-7d9a-405f-98c0-c17e83fdef93")
+		)
+		(pin "7"
+			(uuid "1e13578a-6f38-4afc-a6fb-68783ce4d56e")
+		)
+		(pin "6"
+			(uuid "de07a8f4-462a-412b-bf95-dc7328cac572")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/346fdfa8-30b3-4eb2-b66a-d895a7f88174"
+					(reference "IC4")
+					(unit 0)
+				)
+			)
+		)
+	)
+)

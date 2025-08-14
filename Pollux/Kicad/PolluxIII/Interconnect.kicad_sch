@@ -1,0 +1,4019 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba7ff4e4-d5ad-4b6d-b882-4352fbaf7d85")
+	(paper "A4")
+	(lib_symbols
+		(symbol "PolluxIII-altium-import:3V3_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:Interconnect_0_53048-0450_*"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SHDRRA4W35P0X125_1X4_675X550X350P*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Interconnect_0_53048-0450_*_1_0"
+				(rectangle
+					(start 15.24 2.54)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:Interconnect_0_CRCW060310R0FKEAC_CarrierBoard.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Interconnect_0_CRCW060310R0FKEAC_CarrierBoard.SCHLIB_1_0"
+				(rectangle
+					(start 12.7 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:Interconnect_0_CRCW060320R0FKEAC_CarrierBoard.SCHLIB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RESC1608X55N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Interconnect_0_CRCW060320R0FKEAC_CarrierBoard.SCHLIB_1_0"
+				(rectangle
+					(start 12.7 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:Interconnect_0_KRTBDWLM32.32-T4U6-JW+AAAB-J3+R4S6-5V_CarrierBoard.SCHLIB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*KRTBDWLM3232T4U6JWAAABJ3R4S65V*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Interconnect_0_KRTBDWLM32.32-T4U6-JW+AAAB-J3+R4S6-5V_CarrierBoard.SCHLIB_1_0"
+				(rectangle
+					(start 22.86 2.54)
+					(end 5.08 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "C1T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "C2R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "C3B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "A1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "A1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "A1_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "A1_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PolluxIII-altium-import:Interconnect_2_ERF5-020-07.0-L-DV-K-TR_SamacSys.SchLib"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*ERF5-020-XX.X-Y-DV-K-TR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Interconnect_2_ERF5-020-07.0-L-DV-K-TR_SamacSys.SchLib_1_0"
+				(rectangle
+					(start -5.08 50.8)
+					(end -17.78 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -22.86 48.26 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 45.72 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 43.18 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 40.64 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 38.1 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 35.56 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 33.02 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 30.48 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 27.94 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 25.4 0)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 22.86 0)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 20.32 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 17.78 0)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 15.24 0)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 12.7 0)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 10.16 0)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 7.62 0)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 5.08 0)
+					(length 5.08)
+					(name "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 2.54 0)
+					(length 5.08)
+					(name "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 0 0)
+					(length 5.08)
+					(name "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 48.26 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 45.72 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 43.18 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 40.64 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 38.1 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 35.56 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 33.02 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 30.48 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 27.94 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 25.4 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 22.86 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 20.32 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 17.78 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 15.24 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 180)
+					(length 5.08)
+					(name "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 180)
+					(length 5.08)
+					(name "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 5.08)
+					(name "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 182.88 70.3072)
+		(end 152.4 103.3272)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35852bc3-fc02-4529-a56e-61338a171d03)
+	)
+	(rectangle
+		(start 147.32 70.3072)
+		(end 22.86 143.9672)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 381132e8-d655-44b3-8927-9a389d14b10e)
+	)
+	(rectangle
+		(start 274.32 85.5472)
+		(end 187.96 123.6472)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b25cc8a-133c-4a71-990e-aed25b7232f2)
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 223.52 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0511cb53-b642-49e7-83de-2258fd8c36a9")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 274.32 197.3072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bccc6bd-31da-4890-9c3a-26399f935de7")
+	)
+	(text "EPFL Xplore"
+		(exclude_from_sim no)
+		(at 261.62 202.3872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2094ed40-03a3-46fa-ba8e-2e071d2b32ee")
+	)
+	(text "Arion Zimmermann"
+		(exclude_from_sim no)
+		(at 261.62 204.9272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "473f58fd-950d-4bc8-a81a-f55b35ac201d")
+	)
+	(text "BMS_TX"
+		(exclude_from_sim no)
+		(at 73.66 128.7272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51749815-cf0c-4adc-ae2e-79467b4945b8")
+	)
+	(text "BMS_RX"
+		(exclude_from_sim no)
+		(at 73.66 126.1872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7770c862-748d-44b4-8268-19f9d8435bd1")
+	)
+	(text "Interface to Castor"
+		(exclude_from_sim no)
+		(at 205.74 189.6872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de7715de-393d-4873-b251-6e61f75b2c39")
+	)
+	(text_box "LEDs to display Castor's state."
+		(exclude_from_sim no)
+		(at 233.68 88.0872 0)
+		(size -38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "55837fa9-e650-4008-8c22-89f2b3d9a7a8")
+	)
+	(text_box "Extension connector to Castor."
+		(exclude_from_sim no)
+		(at 180.34 70.3072 0)
+		(size -25.4 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "6ad963a6-57c6-4fbd-86fa-ab759b6c0de0")
+	)
+	(text_box "Connector to Castor (the 2.4GHz WiFi module)."
+		(exclude_from_sim no)
+		(at 132.08 70.3072 0)
+		(size -93.98 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "d185cdd8-76c2-4d6f-b1d5-f43977805741")
+	)
+	(junction
+		(at 114.3 118.5672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ad9f8f-fd35-40ba-a955-e30896049b80")
+	)
+	(junction
+		(at 114.3 131.2672)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e73bd23b-814e-4d0b-a125-444511bd9bfc")
+	)
+	(no_connect
+		(at 144.78 95.7072)
+		(uuid "2bea9592-4d0c-4a0b-9b02-e6994432d845")
+	)
+	(no_connect
+		(at 71.12 126.1872)
+		(uuid "46c6ebde-3342-44d3-be51-081fa043c50b")
+	)
+	(no_connect
+		(at 144.78 93.1672)
+		(uuid "582b3401-982f-4add-a241-a3f2edf7b329")
+	)
+	(no_connect
+		(at 71.12 128.7272)
+		(uuid "7f517111-153c-42dc-ac5b-b862d140d130")
+	)
+	(bus_entry
+		(at 60.96 93.1672)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d2b5c9-637d-4ac7-9769-cd8cedfcf062")
+	)
+	(bus_entry
+		(at 60.96 90.6272)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1bd15f-817e-4391-bcce-01fd16c2f5ac")
+	)
+	(bus_entry
+		(at 60.96 98.2472)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c1135c-3847-4e91-930c-d3fdbb4625ac")
+	)
+	(bus_entry
+		(at 60.96 88.0872)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7d2b69-3804-4581-b5ea-ea41c138b3ce")
+	)
+	(bus_entry
+		(at 60.96 95.7072)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503f8d60-2277-4de8-bc44-b13ce681a200")
+	)
+	(bus_entry
+		(at 60.96 100.7872)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a4971e-daac-466f-b4f4-16fe2dbd1c31")
+	)
+	(bus_entry
+		(at 60.96 85.5472)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5e866c-f410-4829-861f-f07ed26db2a2")
+	)
+	(bus
+		(pts
+			(xy 58.42 93.1672) (xy 58.42 95.7072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "00b29944-a6d9-4c1a-aac7-3bd334a3a376")
+	)
+	(bus
+		(pts
+			(xy 58.42 85.5472) (xy 58.42 88.0872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "06547fcb-4f74-42b3-a0d2-15de55ffe525")
+	)
+	(wire
+		(pts
+			(xy 114.3 123.6472) (xy 114.3 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3672bc-0534-45f5-ace8-16d8794e9c6e")
+	)
+	(wire
+		(pts
+			(xy 193.04 108.4072) (xy 114.3 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ec1a31-6141-41f2-bcfa-9dcfc2cb7ca0")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.7072) (xy 144.78 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16aa3a68-ed6b-4f5d-bbe6-9f82ea4ff60c")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.8672) (xy 185.42 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd23527-4e9e-4d2c-b6c4-2308fe941d81")
+	)
+	(wire
+		(pts
+			(xy 238.76 110.9472) (xy 238.76 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e1ccce-cb6f-4354-9675-02d5e1b3f04f")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.9472) (xy 185.42 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b16b345-28e4-4e76-9536-cbc628d4314e")
+	)
+	(bus
+		(pts
+			(xy 43.18 80.4672) (xy 55.88 80.4672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2c9e8f23-78fe-4a34-b9cc-f7a58bb44eb5")
+	)
+	(wire
+		(pts
+			(xy 241.3 93.1672) (xy 269.24 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f69837d-b410-4945-b0f9-cb0fcddba871")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.0872) (xy 60.96 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4415d9bf-7fbd-4561-9c73-ae69dc546c66")
+	)
+	(bus
+		(pts
+			(xy 58.42 83.0072) (xy 58.42 85.5472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "44fc3a1e-53b9-4c2a-a326-41f814b4ef35")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.5672) (xy 132.08 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45292994-e741-41b1-92a0-f21c9bfec2b9")
+	)
+	(wire
+		(pts
+			(xy 114.3 131.2672) (xy 132.08 131.2672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4688f9f4-7f45-4b07-b572-3528fb6dbe66")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.6272) (xy 162.56 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c953e54-f752-4a16-a4ab-407f568af6a6")
+	)
+	(wire
+		(pts
+			(xy 269.24 93.1672) (xy 269.24 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edf3a7b-dc4e-458b-a4d0-859d06352d1e")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.7872) (xy 193.04 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5427b8de-f2e7-4a56-9688-7634cf62d449")
+	)
+	(bus
+		(pts
+			(xy 58.42 90.6272) (xy 58.42 93.1672)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "653c2975-5c02-4586-91d6-7a40c8976a04")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.0272) (xy 193.04 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698acdd4-3d8f-48f8-bc97-2c1690e306e7")
+	)
+	(bus
+		(pts
+			(xy 58.42 98.2472) (xy 58.42 100.7872)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6df78658-26a7-4b10-b139-956ce0ff1483")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.1672) (xy 114.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e03bec4-0687-4444-8e1d-1cd714c0a02f")
+	)
+	(wire
+		(pts
+			(xy 114.3 131.2672) (xy 114.3 133.8072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e75b90b-bc6a-41a0-91df-4b6c09327cde")
+	)
+	(wire
+		(pts
+			(xy 71.12 128.7272) (xy 91.44 128.7272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1d10eb-002d-442f-9a7a-371be82120bc")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.7872) (xy 238.76 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81494874-a295-44d3-9a9a-74112bf86577")
+	)
+	(wire
+		(pts
+			(xy 60.96 90.6272) (xy 68.58 90.6272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818eea8c-3125-4212-9137-2ee11b30e921")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.7072) (xy 60.96 95.7072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87af12fa-30a7-4060-828f-fb48ad301900")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.1072) (xy 114.3 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7fa4fc-1d44-4d13-9a92-d392b1082e4a")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.5672) (xy 114.3 116.0272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92361fca-83fa-44b3-8af9-c73442c6737d")
+	)
+	(wire
+		(pts
+			(xy 241.3 103.3272) (xy 241.3 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50084fc-5ccd-45b4-ae3f-a057c45d7615")
+	)
+	(wire
+		(pts
+			(xy 241.3 110.9472) (xy 238.76 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cc7e3e-779e-4abf-8da0-60b72784a3c1")
+	)
+	(wire
+		(pts
+			(xy 238.76 108.4072) (xy 241.3 108.4072)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a5337f-d6f2-41e5-bc57-59b9ae2194a3")
+	)
+	(wire
+		(pts
+			(xy 114.3 85.5472) (xy 162.56 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3629ff9-4918-435a-9491-d55b0503151d")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.7872) (xy 60.96 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e1533c-76a2-4dbe-ae6f-09fd8c80cf53")
+	)
+	(wire
+		(pts
+			(xy 71.12 126.1872) (xy 91.44 126.1872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5435d1c-0c27-4e93-86f0-94104cfe448b")
+	)
+	(wire
+		(pts
+			(xy 238.76 105.8672) (xy 241.3 105.8672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5521433-7dfc-49bd-8376-d858a4dc6ccc")
+	)
+	(wire
+		(pts
+			(xy 185.42 105.8672) (xy 185.42 100.7872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ba97d6-ff84-40c4-b88d-499e4a414960")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.1672) (xy 68.58 93.1672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d790ac14-1a87-49dd-b858-ac5603b066a9")
+	)
+	(wire
+		(pts
+			(xy 60.96 85.5472) (xy 91.44 85.5472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da85582d-e8b6-4a51-9924-821b570b7fe2")
+	)
+	(wire
+		(pts
+			(xy 91.44 98.2472) (xy 60.96 98.2472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e775d2-ab4d-4427-b2a9-5fd94639d951")
+	)
+	(bus
+		(pts
+			(xy 55.88 80.4672) (xy 58.42 83.0072)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e8ccbe5e-0925-4ecd-afa6-4e2c7bd4ff06")
+	)
+	(bus
+		(pts
+			(xy 58.42 95.7072) (xy 58.42 98.2472)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "eba6a3de-2052-478d-974e-5a8177a37697")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.0872) (xy 162.56 88.0872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd7e40e-ff4e-477a-9cda-1ce56351f073")
+	)
+	(bus
+		(pts
+			(xy 58.42 88.0872) (xy 58.42 90.6272)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f1077d12-0882-40e3-8b91-5145655e8f40")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.9472) (xy 185.42 110.9472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f474138d-fbe9-414d-8391-dc6af178ca16")
+	)
+	(label "GPIO3"
+		(at 134.62 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121483d7-3707-48db-ad80-86deaadbc721")
+	)
+	(label "GPIO1"
+		(at 134.62 88.0872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b52f9d-5fea-4639-bcfa-d82595350f40")
+	)
+	(label "GPIO2"
+		(at 134.62 90.6272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44dc7d79-9494-4599-a524-7d5908abfb0d")
+	)
+	(label "SBUS1"
+		(at 60.96 88.0872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5424f313-fa69-446a-adfc-438591b0a2f6")
+	)
+	(label "SBUS3"
+		(at 60.96 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58c7e383-27d0-4aec-85c3-34c16a3f3ea9")
+	)
+	(label "SBUS0"
+		(at 60.96 85.5472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f29a2e5-412c-404b-aced-03c1a7dc2f04")
+	)
+	(label "3V3"
+		(at 241.3 93.1672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74202824-a5f8-4fe8-a620-f65b8df8821c")
+	)
+	(label "SBUS5"
+		(at 60.96 98.2472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9be6249b-6cdb-4007-9669-837f8c429e31")
+	)
+	(label "SBUS4"
+		(at 60.96 95.7072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7f1b402-1684-446e-9a54-bedd791ead80")
+	)
+	(label "GPIO4"
+		(at 134.62 95.7072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c497c91c-b0e4-4a6a-baac-2062a9d4284a")
+	)
+	(label "SBUS6"
+		(at 60.96 100.7872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef9ff9a8-97c4-4370-bfb9-436f82ff0cf9")
+	)
+	(label "GPIO0"
+		(at 134.62 85.5472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ba26d0-08b1-4be0-a3bb-81565e1e6462")
+	)
+	(label "SBUS2"
+		(at 60.96 90.6272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe06bceb-490b-47ae-8706-b161074382da")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 91.44 133.8072 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fb9b185-8706-4fde-b707-1eff9916c7b7")
+	)
+	(hierarchical_label "SBUS[6..0]"
+		(shape bidirectional)
+		(at 43.18 80.4672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "321a9309-d715-4af4-a348-38313e328b04")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 91.44 131.2672 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c09eea8-b23f-4267-bd60-6aaca0f776c1")
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_0_CRCW060310R0FKEAC_CarrierBoard.SCHLIB")
+		(at 220.98 116.0272 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07702d98-874a-4d5a-aff5-ff0475ee814a")
+		(property "Reference" "R18"
+			(at 226.06 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRCW060310R0JNEAC"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 220.98 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://ms.componentsearchengine.com/Datasheets/1/CRCW060310R0FKEAC.pdf"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW060310R0FKEAC"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW060310R0FKEAC"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310R0FKEAC?qs=E3Y5ESvWgWP5XvJ40P8QAg%3D%3D"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW060310R0FKEAC"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310r0fkeac/vishay"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10"
+			(at 226.06 119.8372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Distrelec"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "16059657"
+			(at 220.472 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53d6b01e-5b50-4225-8b43-480510c24b2a")
+		)
+		(pin "1"
+			(uuid "8db2611f-e4ac-41f2-9605-6a03c61bdd26")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "R18")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_0_CRCW060320R0FKEAC_CarrierBoard.SCHLIB")
+		(at 220.98 108.4072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4be44a1d-fe47-41eb-b903-b5862daf0118")
+		(property "Reference" "R16"
+			(at 226.06 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 108.4072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://www.vishay.com/docs/28773/crcwce3.pdf"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060320r0fkeac/vishay"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "20"
+			(at 226.06 112.2172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-CRCW060320R0FKEAC"
+			(at 220.472 107.1372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8c8c6e6-7441-4eef-8a17-b82c5a230aed")
+		)
+		(pin "1"
+			(uuid "8f2b211c-42c5-4eb9-bc12-6b37f45d2d4b")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "R16")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:GND_POWER_GROUND")
+		(at 132.08 131.2672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fba7f50-3381-45de-b623-1d0701c6da8f")
+		(property "Reference" "#PWR?"
+			(at 132.08 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 137.6172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 131.2672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "de5b40ef-c070-45ca-9108-07b6973880c9")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:3V3_BAR")
+		(at 132.08 118.5672 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "616795db-c72e-40f4-bcb6-174f5ce93efd")
+		(property "Reference" "#PWR?"
+			(at 132.08 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 132.08 114.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 118.5672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "86536e9f-2763-47b3-bbfd-bfd081591e1b")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_0_53048-0450_*")
+		(at 162.56 85.5472 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797f7202-b26d-4d54-b534-6b4b051e1b68")
+		(property "Reference" "J7"
+			(at 167.64 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "53048-0450"
+			(at 167.64 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SHDRRA4W35P0X125_1X4_675X550X350P"
+			(at 162.56 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector"
+			(at 162.56 85.5472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://www.molex.com/pdm_docs/sd/530480450_sd.pdf"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "3.5mm"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Molex"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "53048-0450"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "538-53048-0450"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Molex/53048-0450?qs=0lSvoLzn4L%252Bhzo05ywM78Q%3D%3D"
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 162.052 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e8bfe78-826b-479f-b4c2-9c969d3c1cdb")
+		)
+		(pin "1"
+			(uuid "d313e416-f28f-4c8b-b104-dc18fd12338d")
+		)
+		(pin "3"
+			(uuid "98b7f626-74f8-491f-8083-838037565aec")
+		)
+		(pin "4"
+			(uuid "b2bfa0aa-cb9b-4671-a78d-0b66bc2cb484")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "J7")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_2_ERF5-020-07.0-L-DV-K-TR_SamacSys.SchLib")
+		(at 114.3 133.8072 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d38ed649-24e9-491d-afda-28f0ae1aa317")
+		(property "Reference" "J10"
+			(at 96.52 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ERF5-020-07.0-L-DV-K-TR"
+			(at 96.52 138.8872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:ERF5-020-XX.X-Y-DV-K-TR"
+			(at 114.3 133.8072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 133.8072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector"
+			(at 114.3 133.8072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "http://suddendocs.samtec.com/prints/erf5-xxx-xx.x-x-dv-xx-tr-mkt.pdf"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "SAMTEC"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "ERF5-020-07.0-L-DV-K-TR"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "200-ERF5020070LDVKTR"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Samtec/ERF5-020-070-L-DV-K-TR?qs=PB6%2FjmICvI2cw95I39aPSA%3D%3D"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "ERF5-020-07.0-L-DV-K-TR"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/erf5-020-07.0-l-dv-k-tr/samtec"
+			(at 90.932 83.0072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SYSTEM" "Connector"
+			(at 90.932 141.4272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b95a24d7-eef3-421c-b729-4c51bbf26806")
+		)
+		(pin "2"
+			(uuid "63a5ef36-f22b-4c8c-9033-358a7e630958")
+		)
+		(pin "3"
+			(uuid "a3cdef6f-317e-4fd1-adac-ef0c8773397c")
+		)
+		(pin "4"
+			(uuid "27ce0b88-6668-4274-a23c-39da5f42be4b")
+		)
+		(pin "5"
+			(uuid "d8ea8d0d-ef36-4ec6-ac5a-272a318ecca3")
+		)
+		(pin "6"
+			(uuid "2cdeca16-7452-4d03-9b25-f77f2883e881")
+		)
+		(pin "7"
+			(uuid "0b0118dc-2174-410f-addb-0c07bac40bff")
+		)
+		(pin "8"
+			(uuid "ecf51f20-dfed-4ad2-ac63-dfdb082e4db9")
+		)
+		(pin "9"
+			(uuid "4e8934a3-8b5c-4739-90d0-032079affa7f")
+		)
+		(pin "10"
+			(uuid "10968314-3830-4449-8757-ae210cbdb701")
+		)
+		(pin "11"
+			(uuid "b457cf86-5d6e-47fe-bb74-f186c4631d0a")
+		)
+		(pin "12"
+			(uuid "8860788a-ac93-4ac5-9336-b09a9c1a7f40")
+		)
+		(pin "13"
+			(uuid "5c6bf970-9913-4aed-bc20-c4993c885dc7")
+		)
+		(pin "14"
+			(uuid "23d080a0-b81e-40ae-8c4e-15797434f5dc")
+		)
+		(pin "15"
+			(uuid "8146038f-e302-4e90-85bf-d3019418cbb8")
+		)
+		(pin "16"
+			(uuid "79e982d4-4921-45b7-8eec-bc360fc0fad0")
+		)
+		(pin "17"
+			(uuid "dcf59b2c-4801-4453-8add-0ae760f1e44a")
+		)
+		(pin "18"
+			(uuid "5c8c4979-6e01-49c0-af07-e63ab9f73f30")
+		)
+		(pin "19"
+			(uuid "b6174444-47a6-4370-9724-47651a950756")
+		)
+		(pin "20"
+			(uuid "7a36b3b8-c74e-45c6-97b9-511df36503f9")
+		)
+		(pin "21"
+			(uuid "e0e7e40f-b5e0-41f8-8fb5-33379fba15f2")
+		)
+		(pin "22"
+			(uuid "9b3016c1-cfa0-400f-aad2-d65b12461765")
+		)
+		(pin "23"
+			(uuid "d1c22169-eeb2-4456-a87b-8af9024f839b")
+		)
+		(pin "24"
+			(uuid "1f252ac3-ebd3-4925-b81c-e6b1296dfd0a")
+		)
+		(pin "25"
+			(uuid "8b3736fd-8b4d-4553-a87f-aae6b5dbf760")
+		)
+		(pin "26"
+			(uuid "c86ce085-347e-4f8c-b7fb-89f211b2ba7a")
+		)
+		(pin "27"
+			(uuid "6fdaffed-02ec-4926-b090-df849e7e60d7")
+		)
+		(pin "28"
+			(uuid "d797b835-9ff9-4118-83b2-d51f3a6f5daf")
+		)
+		(pin "29"
+			(uuid "48e17776-2434-4159-bdf3-215e2a55bfa9")
+		)
+		(pin "30"
+			(uuid "16ca51a3-3e1b-43f6-afd3-295a5c0b7571")
+		)
+		(pin "31"
+			(uuid "e4dae0c2-f57e-48f5-bec3-119e1f2369d6")
+		)
+		(pin "32"
+			(uuid "a58b3cac-866c-4021-a695-e6f66ff342eb")
+		)
+		(pin "33"
+			(uuid "32dddf85-5881-45bf-91f5-95d8b4c23243")
+		)
+		(pin "34"
+			(uuid "b1f1b522-12f3-4e37-b1e1-000b80df77f7")
+		)
+		(pin "35"
+			(uuid "14d4e015-03f8-4f05-a3d3-b78c01033b90")
+		)
+		(pin "36"
+			(uuid "37f07563-92a2-47e0-a0e5-6834cd7c372d")
+		)
+		(pin "37"
+			(uuid "222e58a5-8c52-4357-909f-d21721c546f1")
+		)
+		(pin "38"
+			(uuid "07c22c78-7b8c-4a86-ac2c-518e807f7328")
+		)
+		(pin "39"
+			(uuid "e4559c31-d9e5-415c-a03e-1c8ac72050cc")
+		)
+		(pin "40"
+			(uuid "e0c244c0-7bc4-4bad-ae0f-6487b8758039")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "J10")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:GND_POWER_GROUND")
+		(at 162.56 93.1672 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e497cc9a-11a0-4c0d-b9d1-bc968eaf1712")
+		(property "Reference" "#PWR?"
+			(at 162.56 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 93.1672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bc5be9b7-6e59-41e7-8b0b-d14e19760d83")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_0_KRTBDWLM32.32-T4U6-JW+AAAB-J3+R4S6-5V_CarrierBoard.SCHLIB")
+		(at 241.3 103.3272 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec552545-cf90-4431-818e-9bff90634831")
+		(property "Reference" "LED2"
+			(at 246.38 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "KRTBDWLM"
+			(at 246.38 116.0272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:KRTBDWLM3232T4U6JWAAABJ3R4S65V"
+			(at 241.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED"
+			(at 241.3 103.3272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://dammedia.osram.info/media/resource/hires/osram-dam-12226989/KRTBDWLM32.32_EN.pdf"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.7mm"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "OSRAM"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "KRTBDWLM32.32-T4U6-JW+AAAB-J3+R4S6-5V"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "720-KRTBDWLM323A7940"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/KRTBDWLM3232-T4U6-JW%2bAAAB-J3%2bR4S6-5V?qs=DPoM0jnrROWJ%2F8aeLsBacQ%3D%3D"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" ""
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" ""
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "720-KRTBDWLM323A7940"
+			(at 240.792 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabdb8da-c328-4baa-8864-065178820a84")
+		)
+		(pin "2"
+			(uuid "96690346-d9f3-491c-a80f-32fd0c351651")
+		)
+		(pin "3"
+			(uuid "d2ad0f33-4080-49b5-bd4d-5623644658e5")
+		)
+		(pin "4"
+			(uuid "30f92949-f46b-4579-9d61-52e7765bbd41")
+		)
+		(pin "5"
+			(uuid "43d98908-4981-4994-86df-098f125f9ef3")
+		)
+		(pin "6"
+			(uuid "afa08a62-a3fd-4a8e-bea7-e5caf296b39c")
+		)
+		(pin "7"
+			(uuid "8f71e34c-7447-4fc2-89de-7842bf4c901a")
+		)
+		(pin "8"
+			(uuid "58def734-58f7-4906-b449-bdbccd4f051a")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "LED2")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PolluxIII-altium-import:Interconnect_0_CRCW060310R0FKEAC_CarrierBoard.SCHLIB")
+		(at 220.98 100.7872 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f30a0609-18c5-43d3-91fa-b337160d485d")
+		(property "Reference" "R17"
+			(at 226.06 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CRCW060310R0JNEAC"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C__Users_Arion_Documents_AltiumLL_SamacSys.PcbLib:RESC1608X55N"
+			(at 220.98 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.98 100.7872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET LINK" "https://ms.componentsearchengine.com/Datasheets/1/CRCW060310R0FKEAC.pdf"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" "0.55mm"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Vishay"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "CRCW060310R0FKEAC"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PART NUMBER" "71-CRCW060310R0FKEAC"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER PRICE/STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310R0FKEAC?qs=E3Y5ESvWgWP5XvJ40P8QAg%3D%3D"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PART NUMBER" "CRCW060310R0FKEAC"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/crcw060310r0fkeac/vishay"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10"
+			(at 226.06 104.5972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Distrelec"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "16059657"
+			(at 220.472 99.5172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3620632e-ff21-43fb-a5fd-94349ce3ba7e")
+		)
+		(pin "2"
+			(uuid "e19fac3f-8ab8-464b-be27-246640d808e2")
+		)
+		(instances
+			(project ""
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(reference "R17")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 98.2472)
+		(size 27.94 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "0c99da73-a833-45cf-abb1-787bb5048c39")
+		(property "Sheetname" "LED_ST_G"
+			(at 193.04 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 208.28 98.2472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "CTRL" input
+			(at 193.04 100.7872 180)
+			(uuid "d949a8b1-d510-43e6-9adf-0963dea0acdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRAIN" input
+			(at 220.98 100.7872 0)
+			(uuid "14daabca-a95c-4165-8d0d-2028c882d992")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PolluxIII"
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 105.8672)
+		(size 27.94 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "8032cac8-3633-44c8-af3a-8f92fb094762")
+		(property "Sheetname" "LED_ST_R"
+			(at 193.04 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 208.28 105.8672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "CTRL" input
+			(at 193.04 108.4072 180)
+			(uuid "98265a30-fc07-4fbe-82c8-4989da907db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRAIN" input
+			(at 220.98 108.4072 0)
+			(uuid "aba4e73f-bc29-4999-b060-b44ccdfa3b72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PolluxIII"
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 113.4872)
+		(size 27.94 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "a2da3af1-c4d5-4fee-bec3-04dd5dcc28f8")
+		(property "Sheetname" "LED_ST_B"
+			(at 193.04 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 208.28 113.4872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "CTRL" input
+			(at 193.04 116.0272 180)
+			(uuid "4034c9fd-6ed1-4fb8-9775-3d7cb860581e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRAIN" input
+			(at 220.98 116.0272 0)
+			(uuid "785206c1-47cf-44f8-848d-83aa1054ba21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PolluxIII"
+				(path "/78cbccd7-8c27-49d0-bb29-fa9036621d13/97dcb0c0-00bf-4e8e-92c8-974f38a9b137"
+					(page "11")
+				)
+			)
+		)
+	)
+)
