@@ -232,6 +232,16 @@
 		)
 		(uuid eee57e69-3df5-43f9-8111-7529f8cece02)
 	)
+	(text "Future Improvements:\n- Route the feedback signal for 3V3 away from switching elements, and use this trace only for this purpose\n- Instead of a TVS flat clamp that is overkill and expensive (and wrongly placed (should be after RC filter), use a zener didode instead, cheaper and simpler.\n- you can route power on layer 3\n- weird coper pours shape, especially for vbat, also put solder jumper on top, to be able to route signals in straight line on L4"
+		(exclude_from_sim no)
+		(at 69.342 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3636534-3bf5-45d0-88cc-d8208a1dfb40")
+	)
 	(text_box "- Fixed charger's LED schematic & layout\n\n- Added autom. Fan control from temperature\n\n- Use larger MOSFETs for powerpath\n\n- Remove the RC delay network for the LTC7000, or connect it to TS and not GND.\n\n- Add protection to the TPS3701\n\n- Inverser capa/resistor pour filtre passe bas dans LTC7000\n\n- Utiliser via 0.3 avec smaller annular width to reduce costs (0.3/0.55) or (0.3/0.50).\n\n- added capa to timer pin of the LTC7000 for power path to avoid false inrush triggers\n\n- use transistors rather than just resistor for the OUT LEDs\n\n- changed power tvs diode from SMBJ33A to SMBJ30A -> max input voltage 33 -> 30V\n\n- integrated connectors for current buttons\n\n- removed JTAG\n\n- inverted charge enable button use\n\n- Removed INA current/voltage sensor"
 		(exclude_from_sim no)
 		(at 220.98 40.64 0)
