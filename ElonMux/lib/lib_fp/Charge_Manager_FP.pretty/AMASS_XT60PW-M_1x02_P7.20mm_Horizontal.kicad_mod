@@ -1,7 +1,7 @@
 (footprint "AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf")
 	(tags "RC Connector XT60")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d45b8caf-2988-4762-a5b7-2a8ca518b7ea")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -387,7 +374,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "b5768b90-eee4-4803-88b4-d930d799b51d")
 	)
@@ -398,7 +385,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Fab")
 		(uuid "98d6123d-e6cb-449a-889d-cfeeb1c2f12f")
 	)
@@ -471,31 +458,9 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "e2d6540c-9a89-40e6-8550-631e6671d268")
-	)
-	(fp_text user "-"
-		(at -6.355 2.195 0)
-		(layer "F.SilkS")
-		(uuid "31bfc3e7-147b-4531-a0c5-e3a305c1647d")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "+"
-		(at 7.045 2.195 0)
-		(layer "F.SilkS")
-		(uuid "7668b629-abd6-4e14-be84-df90ae487fc6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.22 -3.655 0)
@@ -1486,24 +1451,25 @@
 		(remove_unused_layers no)
 		(uuid "608231f9-abd2-42aa-b83a-e92b594447e8")
 	)
-	(pad "3" thru_hole roundrect
+	(pad "MP1" thru_hole roundrect
 		(at -6.53 -6.055)
 		(size 0.9 2)
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.15)
 		(uuid "7ed93237-c9ed-4def-9f8d-ee8590a6a6aa")
 	)
-	(pad "4" thru_hole roundrect
+	(pad "MP2" thru_hole roundrect
 		(at 6.97 -6.055)
 		(size 0.9 2)
 		(drill oval 0.6 1.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.15)
 		(uuid "c2ad5014-fe1f-4040-a790-b72c07c5f712")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3D_models/XT60PW-M.STEP"
 		(offset
 			(xyz 0.25 38.5 4.3)

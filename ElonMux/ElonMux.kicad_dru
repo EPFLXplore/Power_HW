@@ -21,28 +21,16 @@
 
 # ----------------------------------- High Voltage to GND Clearance ---------------------
 
-# (rule "High Voltage to GND Clearance"
-#     (constraint clearance (min 0.2mm))
-# 	(layer outer)
-#     (condition "(A.NetClass == 'Other High Voltage' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply') && B.NetClass == 'GND'")
-#)
-# 
-# (rule "High Voltage to GND Clearance (Reversed)"
-#     (constraint clearance (min 0.2mm))
-# 	(layer outer)
-#     (condition "(B.NetClass == 'Other High Voltage' || B.NetClass == 'Power Bat' || B.NetClass == 'Power Charge' || B.NetClass == 'Power Out' || B.NetClass == 'Power Supply') && A.NetClass == 'GND'")
-# )
-
 (rule "High Voltage to GND Clearance"
-     (constraint clearance (min 0.6mm))
+	(constraint clearance (min 0.6mm))
  	(layer outer)
-     (condition "(A.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply') && B.NetClass == 'GND'")
+	(condition "(A.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || A.NetClass == 'Power Bat' || A.NetClass == 'Power Charge' || A.NetClass == 'Power Out' || A.NetClass == 'Power Supply') && B.NetClass == 'GND'")
 )
  
 (rule "High Voltage to GND Clearance (Reversed)"
-     (constraint clearance (min 0.6mm))
+	(constraint clearance (min 0.6mm))
  	(layer outer)
-     (condition "(B.NetClass == 'Other High Voltage' || A.NetClass == 'Rounded Gates' || B.NetClass == 'Power Bat' || B.NetClass == 'Power Charge' || B.NetClass == 'Power Out' || B.NetClass == 'Power Supply') && A.NetClass == 'GND'")
+	(condition "(B.NetClass == 'Other High Voltage' || B.NetClass == 'Rounded Gates' || B.NetClass == 'Power Bat' || B.NetClass == 'Power Charge' || B.NetClass == 'Power Out' || B.NetClass == 'Power Supply') && A.NetClass == 'GND'")
 )
 
 # ------------------------------------------------------------------------------------------------------
@@ -106,7 +94,7 @@
 (condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
 
 (rule "pad to pad clearance (without hole, different nets)"
-(constraint clearance (min 0.2mm))
+(constraint clearance (min 0.15mm))
 (condition "A.Type == 'Pad' && B.Type == 'Pad'"))
 
 (rule "NPTH to Track clearance"
