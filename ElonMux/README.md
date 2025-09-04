@@ -1,8 +1,8 @@
 <p align="center" width="100%">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Logos/ElonMuxLight.png">
-    <source media="(prefers-color-scheme: light)" srcset="./Logos/ElonMuxDark.png">
-    <img alt="ElonMux logo" width="33%" src="./Logos/ElonMuxDark.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./Logos/EmuxLight.png">
+    <source media="(prefers-color-scheme: light)" srcset="./Logos/EmuxDark.png">
+    <img alt="ElonMux logo" width="33%" src="./Logos/EmuxDark.png">
   </picture>
 </p>
 
@@ -12,25 +12,25 @@
 
 <h1 align="center">ElonMux</h1>
 
-ElonMux was designed by Théo Heng for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring fast switching times. 
+EMux (formerly ElonMux) was designed by Théo Heng for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring a power multiplexer with fast switching times and sufficient safety margins.
 The system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible.
 
 <p align="center" width="100%">
-    <img src="./Images/ElonMux_r1.png">
+    <img src="./Images/ElonMux_r1.1.png">
 </p>
 
 ***
 
 ## SPECIFICATIONS
 
-| Parameter | ElonMux V1.0 | 
+| Parameter | EMux V1.1 | 
 | --- | --- |
-| Voltage Input | 10-33V |
+| Voltage Input | 10-30V |
 | Continuous Supply Current | 30A |
 | Continuous Discharge Current | 30A |
 | Max. Continuous Charge Current | 10A |
 | Mass | TBD |
-| Communication | USB 2.0 / JTAG / UART / I2C |
+| Communication | USB 2.0 / UART / I2C |
 | MCU | ESP32-S3FN8 |
 | Dimensions | 100x70x14mm |
 | Designer   | Théo Heng        |
@@ -61,7 +61,8 @@ ElonMux
 |       └── Gerbers     # Gerbers
 ├── Schematic           # PDF of schematic
 ├── STEP                # Step file of the board
-└── Templates           # Title block templates
+├── Templates           # Title block templates
+└── Thermal             # Thermal images from testing at the PEL
 
 ```
 
@@ -69,7 +70,9 @@ ElonMux
 
 ## FIRMWARE
 
-The firware for ElonMux was written in the Arduino Framwork on Platform.io in VScode and flashed over USB. This is the recommended way of flashing the firmware. The firmware can be found on the [ERC_POWER_SW](https://github.com/EPFLXplore/ERC_POWER_SW/tree/master/ElonMux) repository.
+The firware for EMux was written in the Arduino Framwork on Platform.io in VScode and flashed over USB. This is the recommended way of flashing the firmware. The firmware can be found on the [ERC_POWER_SW](https://github.com/EPFLXplore/ERC_POWER_SW/tree/master/ElonMux) repository.
+
+To make the code more modular and be useful to others, I isolated the code that control the charger over I2C in a custom C++ library that automatically adapts to the target MCU, meaning it can run on ESP32, STM32, and Arduino platforms without changing a line of code. ([bq25756e_multiplatform](https://github.com/theohg/bq25756e_multiplatform))
 
 ***
 
@@ -104,9 +107,9 @@ Schematic template & project structure is hugely inspired by the work of Vincent
 </p>
 
 <p align="center" width="100%">
-    <img src="./Images/ElonMuxFront4.png">
+    <img src="./Images/EmuxFront1.png">
 </p>
 
 <p align="center" width="100%">
-    <img src="./Images/ElonMuxBack4.png">
+    <img src="./Images/EmuxBack1.png">
 </p>
