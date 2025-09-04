@@ -10,7 +10,7 @@
     <img src="./Images/Photos/IMG_5259.JPG">
 </p>
 
-<h1 align="center">ElonMux</h1>
+<h1 align="center">EMux</h1>
 
 EMux (formerly ElonMux) was designed by Théo Heng for EPFL [Xplore's](https://github.com/EPFLXplore) rover in the context of the European Rover Challenge. This board is capable to power the rover while simultaneously charging it's battery. The user have to be able to plug and unplug the power supply from the rover without shuting down/rebooting the load, requiring a power multiplexer with fast switching times and sufficient safety margins.
 The system will always try to use the external power supply as the primary power source for the rover, but will default to the battery if it is not availaible.
