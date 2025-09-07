@@ -1,0 +1,166 @@
+Protel Design System Design Rule Check
+PCB File : Y:\Library\CloudStorage\GoogleDrive-arion.zimmermann@epfl.ch\Shared drives\EPFL Xplore\4. Technics\2. Power\4. Power supply\Pollux III\Pollux III.PcbDoc
+Date     : 4/15/2023
+Time     : 11:39:02 PM
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (InNet('HVA') OR InNet('OHVA')),(Not InNet('HVA') AND Not InNet('OHVA'))
+   Violation between Clearance Constraint: (0.223mm < 0.4mm) Between Pad IC4_AFE4-8(32mm,41.45mm) on Top Layer And Track (32.473mm,40.773mm)(32.786mm,40.461mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (InNet('LVB') OR InNet('OLVB')),(Not InNet('LVB') AND Not InNet('OLVB'))
+   Violation between Clearance Constraint: (0.198mm < 0.4mm) Between Pad IC4_AFE5-8(90.875mm,60.05mm) on Top Layer And Track (89.854mm,61.275mm)(90.427mm,60.702mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (InNet('LVA') OR InNet('OLVA')),(Not InNet('LVA') AND Not InNet('OLVA'))
+   Violation between Clearance Constraint: (0.198mm < 0.4mm) Between Pad IC4_AFE6-8(90.95mm,43.55mm) on Top Layer And Track (90.163mm,44.541mm)(90.502mm,44.202mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (InNet('HVB') OR InNet('OHVB')),(Not InNet('HVB') AND Not InNet('OHVB'))
+   Violation between Clearance Constraint: (0.2mm < 0.4mm) Between Pad IC4_AFE3-8(32mm,24.95mm) on Top Layer And Track (32.45mm,24.275mm)(33.325mm,23.4mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (InNet('V_IN') OR InNet('V_OUT') OR InNet('V_BAT')),(Not InNet('V_IN') AND Not InNet('V_OUT') AND Not InNet('V_BAT'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.125mm) (Max=10mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.525mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (100mm,23mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (100mm,42.25mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (100mm,61.5mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (23mm,23mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (23mm,42.25mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (23mm,61.5mm) from Top Layer to Bottom Layer 
+Rule Violations :6
+
+Processing Rule : Room LED_ST_G (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('LED_ST_G'))
+Rule Violations :0
+
+Processing Rule : Room LED_ST_R (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('LED_ST_R'))
+Rule Violations :0
+
+Processing Rule : Room LV (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('LV'))
+Rule Violations :0
+
+Processing Rule : Room HV (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('HV'))
+Rule Violations :0
+
+Processing Rule : Room LED_ST_B (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('LED_ST_B'))
+Rule Violations :0
+
+Processing Rule : Room Interconnect (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('Interconnect'))
+Rule Violations :0
+
+Processing Rule : Room IMU (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('IMU'))
+Rule Violations :0
+
+Processing Rule : Room PWR2B1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR2B1'))
+Rule Violations :0
+
+Processing Rule : Room PWR2A2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR2A2'))
+Rule Violations :0
+
+Processing Rule : Room TopLevel (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('TopLevel'))
+Rule Violations :0
+
+Processing Rule : Room PWR2B2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR2B2'))
+Rule Violations :0
+
+Processing Rule : Room PWR2A1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR2A1'))
+Rule Violations :0
+
+Processing Rule : Room PWR1A2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR1A2'))
+Rule Violations :0
+
+Processing Rule : Room PWR1A1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR1A1'))
+Rule Violations :0
+
+Processing Rule : Room PWR1B2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR1B2'))
+Rule Violations :0
+
+Processing Rule : Room PWR1B1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('PWR1B1'))
+Rule Violations :0
+
+Processing Rule : Room FLASH (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('FLASH'))
+Rule Violations :0
+
+Processing Rule : Room AFE6 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE6'))
+Rule Violations :0
+
+Processing Rule : Room AUDIO (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AUDIO'))
+Rule Violations :0
+
+Processing Rule : Room AFE1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE1'))
+Rule Violations :0
+
+Processing Rule : Room AFE5 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE5'))
+Rule Violations :0
+
+Processing Rule : Room AFE2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE2'))
+Rule Violations :0
+
+Processing Rule : Room AFE3 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE3'))
+Rule Violations :0
+
+Processing Rule : Room AFE4 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AFE4'))
+Rule Violations :0
+
+Processing Rule : Room AUX (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('AUX'))
+Rule Violations :0
+
+Processing Rule : Room DISP (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('DISP'))
+Rule Violations :0
+
+Processing Rule : Room DIV1 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('DIV1'))
+Rule Violations :0
+
+Processing Rule : Room DIV2 (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('DIV2'))
+Rule Violations :0
+
+Processing Rule : Room CAN (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('CAN'))
+Rule Violations :0
+
+Processing Rule : Room CTA (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('CTA'))
+Rule Violations :0
+
+Processing Rule : Room CU (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (Disabled)(InComponentClass('CU'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Waived Violations : 0
+Time Elapsed        : 00:00:04

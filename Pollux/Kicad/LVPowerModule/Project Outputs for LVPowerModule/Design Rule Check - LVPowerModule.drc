@@ -1,0 +1,66 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\alzimmer\Downloads\4. Power supply\LVPowerModule\LVPowerModule.PcbDoc
+Date     : 20.04.2023
+Time     : 17:18:02
+
+Processing Rule : Clearance Constraint (Gap=0.7mm) (InNetClass('HV1')),(Not InNetClass('HV2'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.7mm) (InNetClass('HV2')),(Not InNetClass('HV1'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.7mm) (InNetClass('HV')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.7mm) (InNetClass('HV4')),(Not InNetClass('HV3'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.7mm) (InNetClass('HV3')),(Not InNetClass('HV4'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.4mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Arc (20.685mm,50.975mm) on Top Overlay And Pad IC4_D2-4(20.973mm,51.245mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.1mm) Between Arc (20.935mm,24.475mm) on Top Overlay And Pad IC4_D1-4(21.153mm,24.85mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :2
+
+Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=1mm) (All)
+   Violation between Net Antennae: Via (50mm,30mm) from Top Layer to Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Disabled)(All)
+Rule Violations :0
+
+
+Violations Detected : 3
+Waived Violations : 0
+Time Elapsed        : 00:00:01
