@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1a9fc915-5dd1-4af9-a64c-4ad958efcc64")
 	(paper "A4")
 	(lib_symbols
@@ -119,6 +119,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -198,7 +199,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -215,7 +217,179 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 71.755 50.165)
+		(end 150.495 95.885)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1321ffc2-e702-4362-b564-2a125e069dc8)
+	)
+	(rectangle
+		(start 155.575 50.165)
+		(end 234.315 95.885)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a0f859f-558e-41af-b4d5-b815d5e93b41)
+	)
+	(rectangle
+		(start 155.575 99.06)
+		(end 234.315 144.78)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c156d11-d29c-42bf-804d-40143a6773ad)
+	)
+	(rectangle
+		(start 71.755 99.06)
+		(end 150.495 144.78)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c26760bf-7c8d-47a5-a664-c9f6b92abe2a)
+	)
+	(text_box "[9-12] Power - Power Out\n"
+		(exclude_from_sim no)
+		(at 12.065 25.4 0)
+		(size 272.415 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "003206cd-2836-4e45-bf13-8b123143c1ed")
+	)
+	(text_box "Output Rail 1"
+		(exclude_from_sim no)
+		(at 72.39 85.09 0)
+		(size 77.47 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "5b4454f6-0a9e-4cd7-813f-d8406354e2b7")
+	)
+	(text_box "Output Rail 3\n"
+		(exclude_from_sim no)
+		(at 72.39 133.985 0)
+		(size 77.47 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "99cc3b65-aafb-44da-b258-59edd094360f")
+	)
+	(text_box "Output Rail 2\n\n"
+		(exclude_from_sim no)
+		(at 156.21 85.09 0)
+		(size 77.47 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "9c5644e3-61ef-4db7-82bc-66da7a6609fa")
+	)
+	(text_box "Output Rail 4"
+		(exclude_from_sim no)
+		(at 156.21 133.985 0)
+		(size 77.47 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "c1f5caa2-7e3c-454c-b97f-4a0e837b0a4d")
 	)
 	(junction
 		(at 184.785 123.825)
@@ -617,176 +791,9 @@
 		)
 		(uuid "f164ce17-4763-406e-98bd-cd12b09fd0a7")
 	)
-	(rectangle
-		(start 71.755 50.165)
-		(end 150.495 95.885)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1321ffc2-e702-4362-b564-2a125e069dc8)
-	)
-	(rectangle
-		(start 155.575 50.165)
-		(end 234.315 95.885)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1a0f859f-558e-41af-b4d5-b815d5e93b41)
-	)
-	(rectangle
-		(start 155.575 99.06)
-		(end 234.315 144.78)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3c156d11-d29c-42bf-804d-40143a6773ad)
-	)
-	(rectangle
-		(start 71.755 99.06)
-		(end 150.495 144.78)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c26760bf-7c8d-47a5-a664-c9f6b92abe2a)
-	)
-	(text_box "[9-12] Power - Power Out\n"
-		(exclude_from_sim no)
-		(at 12.065 25.4 0)
-		(size 272.415 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "003206cd-2836-4e45-bf13-8b123143c1ed")
-	)
-	(text_box "Output Rail 1"
-		(exclude_from_sim no)
-		(at 72.39 85.09 0)
-		(size 77.47 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "5b4454f6-0a9e-4cd7-813f-d8406354e2b7")
-	)
-	(text_box "Output Rail 3\n"
-		(exclude_from_sim no)
-		(at 72.39 133.985 0)
-		(size 77.47 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "99cc3b65-aafb-44da-b258-59edd094360f")
-	)
-	(text_box "Output Rail 2\n\n"
-		(exclude_from_sim no)
-		(at 156.21 85.09 0)
-		(size 77.47 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "9c5644e3-61ef-4db7-82bc-66da7a6609fa")
-	)
-	(text_box "Output Rail 4"
-		(exclude_from_sim no)
-		(at 156.21 133.985 0)
-		(size 77.47 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "c1f5caa2-7e3c-454c-b97f-4a0e837b0a4d")
-	)
 	(hierarchical_label "RAIL1"
 		(shape input)
 		(at 95.25 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -800,7 +807,6 @@
 	(hierarchical_label "RAIL4"
 		(shape input)
 		(at 179.07 121.285 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -814,7 +820,6 @@
 	(hierarchical_label "RAIL3"
 		(shape input)
 		(at 95.25 121.285 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -828,7 +833,6 @@
 	(hierarchical_label "RAIL2"
 		(shape input)
 		(at 179.07 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
