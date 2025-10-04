@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "30143b30-a487-472f-8bef-02d5e8f82211")
 	(paper "A5")
 	(lib_symbols
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP9700BT-E/TT "
+			(property "Value" "MCP9700BT-E/TT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,24 +65,6 @@
 					)
 				)
 				(pin input line
-					(at 10.16 8.89 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 8.89 0)
 					(length 2.54)
 					(name "VOUT"
@@ -93,6 +75,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -119,6 +119,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -196,7 +197,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -208,7 +209,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -222,7 +223,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -239,6 +241,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -318,7 +321,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -335,7 +339,68 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 44.45 32.385)
+		(end 171.45 88.9)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e995f578-2aa6-45ee-8908-c8c938d20be2)
+	)
+	(text_box "[18] Interface - Temperature Sensor\n\n"
+		(exclude_from_sim no)
+		(at 12.065 15.24 0)
+		(size 186.055 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "58c5b173-480d-4017-99ca-ff406143b1c1")
+	)
+	(text_box "Temperature Sensor\n"
+		(exclude_from_sim no)
+		(at 44.45 78.105 0)
+		(size 127 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ce33c4ad-d806-4264-b06c-94be0976ee94")
 	)
 	(wire
 		(pts
@@ -387,68 +452,9 @@
 		)
 		(uuid "d8f2b4d4-44f7-4cb0-84d3-c2bf95bc0a2e")
 	)
-	(rectangle
-		(start 44.45 32.385)
-		(end 171.45 88.9)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e995f578-2aa6-45ee-8908-c8c938d20be2)
-	)
-	(text_box "[18] Interface - Temperature Sensor\n\n"
-		(exclude_from_sim no)
-		(at 12.065 15.24 0)
-		(size 186.055 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "58c5b173-480d-4017-99ca-ff406143b1c1")
-	)
-	(text_box "Temperature Sensor\n"
-		(exclude_from_sim no)
-		(at 44.45 78.105 0)
-		(size 127 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "ce33c4ad-d806-4264-b06c-94be0976ee94")
-	)
 	(hierarchical_label "TEMP_SENS"
 		(shape output)
 		(at 95.885 59.055 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

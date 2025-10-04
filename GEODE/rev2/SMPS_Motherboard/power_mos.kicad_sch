@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dca415a9-aef7-4b63-bd4f-d7a69e878606")
 	(paper "A5")
 	(lib_symbols
@@ -86,19 +86,7 @@
 			(symbol "SQJQ186E-T1_GE3_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 8.89 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.08)
+						(xy 7.62 0) (xy 10.16 0)
 					)
 					(stroke
 						(width 0.127)
@@ -122,7 +110,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 10.16 0)
+						(xy 7.62 -5.08) (xy 8.89 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -134,7 +122,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.89 -8.89) (xy 17.78 -8.89)
+						(xy 7.62 -7.62) (xy 8.89 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -156,9 +144,31 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 8.89 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 10.16 -3.81) (xy 14.605 -3.81)
+						(xy 8.89 -8.89) (xy 17.78 -8.89)
 					)
 					(stroke
 						(width 0.127)
@@ -182,55 +192,19 @@
 				)
 				(polyline
 					(pts
+						(xy 10.16 -3.81) (xy 14.605 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 14.605 -6.35) (xy 14.605 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -6.35) (xy 15.24 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -5.715) (xy 17.145 -5.715)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -4.445) (xy 15.24 -3.175)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 -2.54) (xy 15.24 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -254,10 +228,116 @@
 				)
 				(polyline
 					(pts
+						(xy 15.24 -2.54) (xy 15.24 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -4.445) (xy 15.24 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.715) (xy 17.145 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -6.35) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 -3.175) (xy 15.24 -3.81) (xy 16.51 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 16.51 -3.81) (xy 17.145 -3.81)
 					)
 					(stroke
 						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.51 -3.81)
+					(radius 3.81)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -1.27) (xy 18.415 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.145 -1.905) (xy 17.145 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 17.145 -5.715)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -290,42 +370,6 @@
 				)
 				(polyline
 					(pts
-						(xy 17.145 -1.905) (xy 17.145 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.145 -1.27) (xy 18.415 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -8.89) (xy 17.78 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 17.78 1.27) (xy 17.78 -1.27)
 					)
 					(stroke
@@ -336,9 +380,31 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 17.78 -1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 17.78 -6.35)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 18.415 -6.35) (xy 18.415 -4.445)
+						(xy 17.78 -8.89) (xy 17.78 -6.35)
 					)
 					(stroke
 						(width 0.127)
@@ -362,7 +428,43 @@
 				)
 				(polyline
 					(pts
+						(xy 18.415 -6.35) (xy 18.415 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 19.05 -3.175) (xy 17.78 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -4.445) (xy 17.78 -4.445) (xy 18.415 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 1.27) (xy 17.78 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -390,108 +492,6 @@
 					)
 					(stroke
 						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 21.59 1.27) (xy 17.78 1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -3.175) (xy 15.24 -3.81) (xy 16.51 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -4.445) (xy 17.78 -4.445) (xy 18.415 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 8.89 -7.62)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.89 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 16.51 -3.81)
-					(radius 3.81)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 17.145 -5.715)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 17.78 -6.35)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 17.78 -1.27)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -602,9 +602,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -723,7 +726,118 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 17.78 38.735)
+		(end 193.04 86.995)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 427c10b7-64b0-47c3-bc9e-a28f975bc92b)
+	)
+	(text_box "[16] Power - MOS\n"
+		(exclude_from_sim no)
+		(at 12.065 13.335 0)
+		(size 185.42 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "29b8472e-1496-464f-b829-bb6664f663fa")
+	)
+	(text_box "DESIGN NOTE:\nMaximum steady state FET Junction Temperature : 120 °C "
+		(exclude_from_sim no)
+		(at 159.385 15.24 0)
+		(size 33.02 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8ee3158e-fecf-4d9a-a9aa-72e287c98e21")
+	)
+	(text_box "DESIGN NOTE:\n4 parallel MOS.\nUp to 10000uF bulk capacitance"
+		(exclude_from_sim no)
+		(at 18.415 15.875 0)
+		(size 30.48 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "a1ba11e9-2735-40d5-a87d-b59af246afd7")
+	)
+	(text_box "Power Hot-Swap Circuit\n"
+		(exclude_from_sim no)
+		(at 18.415 79.375 0)
+		(size 174.625 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e80d1e79-a2ce-4fee-b4c0-642ec21a2760")
 	)
 	(junction
 		(at 70.485 68.58)
@@ -1447,116 +1561,9 @@
 		)
 		(uuid "ffe1a030-bdcb-4183-a07b-16c4377360f6")
 	)
-	(rectangle
-		(start 17.78 38.735)
-		(end 193.04 86.995)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 427c10b7-64b0-47c3-bc9e-a28f975bc92b)
-	)
-	(text_box "[16] Power - MOS\n"
-		(exclude_from_sim no)
-		(at 12.065 13.335 0)
-		(size 185.42 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "29b8472e-1496-464f-b829-bb6664f663fa")
-	)
-	(text_box "DESIGN NOTE:\nMaximum steady state FET Junction Temperature : 120 °C "
-		(exclude_from_sim no)
-		(at 159.385 15.24 0)
-		(size 33.02 20.32)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "8ee3158e-fecf-4d9a-a9aa-72e287c98e21")
-	)
-	(text_box "DESIGN NOTE:\n4 parallel MOS.\nUp to 10000uF bulk capacitance"
-		(exclude_from_sim no)
-		(at 18.415 15.875 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "a1ba11e9-2735-40d5-a87d-b59af246afd7")
-	)
-	(text_box "Power Hot-Swap Circuit\n"
-		(exclude_from_sim no)
-		(at 18.415 79.375 0)
-		(size 174.625 6.985)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "e80d1e79-a2ce-4fee-b4c0-642ec21a2760")
-	)
 	(hierarchical_label "G"
 		(shape input)
 		(at 66.04 47.625 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,7 +1575,6 @@
 	(hierarchical_label "D"
 		(shape input)
 		(at 37.465 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1580,7 +1586,6 @@
 	(hierarchical_label "S"
 		(shape input)
 		(at 144.78 78.105 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

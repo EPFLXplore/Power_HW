@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f94a29bf-3647-4349-bd08-4265abcf539b")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,11 +143,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -261,6 +270,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -340,11 +350,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -442,6 +457,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -521,7 +537,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -538,7 +555,190 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 83.185 30.48)
+		(end 159.385 92.075)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5721db45-081a-48a7-a5db-ba4549634a8b)
+	)
+	(rectangle
+		(start 162.56 30.48)
+		(end 193.675 92.075)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b1834cb-02f8-4c86-9f39-e2d1ff35633f)
+	)
+	(rectangle
+		(start 15.875 30.48)
+		(end 80.645 92.075)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a369f80-590f-4c86-8080-872bbc509e59)
+	)
+	(text_box "Module Holes"
+		(exclude_from_sim no)
+		(at 83.185 82.55 0)
+		(size 76.2 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "0a9ad9ef-c895-4f0d-9008-0d09661b788b")
+	)
+	(text_box "Back"
+		(exclude_from_sim no)
+		(at 162.56 61.595 0)
+		(size 31.115 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "157527eb-c1f3-4697-b3dd-4b4533d48e6d")
+	)
+	(text_box "Fiducial Markers"
+		(exclude_from_sim no)
+		(at 162.56 81.915 0)
+		(size 31.115 8.89)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3150e73e-3fa7-450c-b05e-0f2128d03f84")
+	)
+	(text_box "Front"
+		(exclude_from_sim no)
+		(at 162.56 35.56 0)
+		(size 31.115 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify bottom)
+		)
+		(uuid "354b0a5e-fe36-40e6-bf5a-ad9d85727d98")
+	)
+	(text_box "Drilling Holes"
+		(exclude_from_sim no)
+		(at 15.875 82.55 0)
+		(size 64.77 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "919b7945-0f8b-4ea6-927e-aaee58daecde")
+	)
+	(text_box "[22] Mechanical Holes"
+		(exclude_from_sim no)
+		(at 12.065 13.335 0)
+		(size 184.15 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "bb691679-9b27-449a-a8f9-1a225ab52e8b")
 	)
 	(junction
 		(at 130.81 42.545)
@@ -1435,182 +1635,6 @@
 			(type default)
 		)
 		(uuid "fe6f80eb-97d7-4793-bf59-98f343889cd7")
-	)
-	(rectangle
-		(start 83.185 30.48)
-		(end 159.385 92.075)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5721db45-081a-48a7-a5db-ba4549634a8b)
-	)
-	(rectangle
-		(start 162.56 30.48)
-		(end 193.675 92.075)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8b1834cb-02f8-4c86-9f39-e2d1ff35633f)
-	)
-	(rectangle
-		(start 15.875 30.48)
-		(end 80.645 92.075)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9a369f80-590f-4c86-8080-872bbc509e59)
-	)
-	(text_box "Module Holes"
-		(exclude_from_sim no)
-		(at 83.185 82.55 0)
-		(size 76.2 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "0a9ad9ef-c895-4f0d-9008-0d09661b788b")
-	)
-	(text_box "Back"
-		(exclude_from_sim no)
-		(at 162.56 61.595 0)
-		(size 31.115 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "157527eb-c1f3-4697-b3dd-4b4533d48e6d")
-	)
-	(text_box "Fiducial Markers"
-		(exclude_from_sim no)
-		(at 162.56 81.915 0)
-		(size 31.115 8.89)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "3150e73e-3fa7-450c-b05e-0f2128d03f84")
-	)
-	(text_box "Front"
-		(exclude_from_sim no)
-		(at 162.56 35.56 0)
-		(size 31.115 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify bottom)
-		)
-		(uuid "354b0a5e-fe36-40e6-bf5a-ad9d85727d98")
-	)
-	(text_box "Drilling Holes"
-		(exclude_from_sim no)
-		(at 15.875 82.55 0)
-		(size 64.77 7.62)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "919b7945-0f8b-4ea6-927e-aaee58daecde")
-	)
-	(text_box "[22] Mechanical Holes"
-		(exclude_from_sim no)
-		(at 12.065 13.335 0)
-		(size 184.15 12.7)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "bb691679-9b27-449a-a8f9-1a225ab52e8b")
 	)
 	(symbol
 		(lib_id "power:GND")

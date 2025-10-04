@@ -1,152 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "76fdf276-640d-4309-b858-be8054ec6225")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SMBJ51CD-M3/H_1"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -205,10 +70,10 @@
 			(symbol "SMBJ51CD-M3/H_1_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -229,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -278,6 +143,195 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT60PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT60PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-M"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -357,7 +411,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -374,25 +429,129 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 19.685 41.91)
+		(end 102.87 83.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d8be390-f0b8-4d62-b51e-0990b765228c)
+	)
+	(rectangle
+		(start 105.41 41.91)
+		(end 190.5 83.82)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e3a3c3ad-53d9-40ae-a0d7-7b47908f0d6d)
+	)
+	(text_box "[5] Connector - Power\n"
+		(exclude_from_sim no)
+		(at 12.065 13.97 0)
+		(size 185.42 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "05464fd2-16ef-4c79-a274-96bc82d15933")
+	)
+	(text_box "Power Connectors Out, TVS Diode"
+		(exclude_from_sim no)
+		(at 107.315 73.025 0)
+		(size 80.645 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3ec58eca-9dcb-4d45-bd35-0148f0a95a53")
+	)
+	(text_box "Power Connectors In, TVS Diode"
+		(exclude_from_sim no)
+		(at 22.225 73.025 0)
+		(size 80.645 9.525)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f28bcb52-3f98-4347-8ed9-59fe54cafb2b")
+	)
 	(junction
-		(at 51.435 55.245)
+		(at 73.66 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03eeab3b-dafa-4f83-a0b7-8af6ad9d8e7f")
+	)
+	(junction
+		(at 51.435 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e658599-d8b9-4757-9d70-6fe001dca586")
+	)
+	(junction
+		(at 127 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2657f9b7-3510-4085-92b9-ee9bec897129")
 	)
 	(junction
 		(at 137.16 55.245)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "378adea9-ede3-4972-ba86-dc604a0b6d2b")
-	)
-	(junction
-		(at 137.16 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5198a83e-9568-4e6f-9d8d-8e41c09834db")
 	)
 	(junction
 		(at 159.385 55.245)
@@ -413,10 +572,10 @@
 		(uuid "8bd55d49-cb22-45ca-9b9c-4eb9660713ab")
 	)
 	(junction
-		(at 73.66 55.245)
+		(at 137.16 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "99a70838-980f-4fb2-9118-271887b6c0f9")
+		(uuid "96db995f-ea63-49ad-aee5-04555906b23f")
 	)
 	(junction
 		(at 159.385 68.58)
@@ -446,17 +605,27 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "0f1cbad6-9765-468c-b343-4189afb071bc")
+	)
+	(wire
+		(pts
 			(xy 137.16 65.405) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c1b1bda-1d72-4aa4-9924-e0fc6268ddc6")
+		(uuid "0f7c2519-572b-4c8e-9b40-e2a9b08454f8")
 	)
 	(wire
 		(pts
-			(xy 41.275 68.58) (xy 41.275 62.865)
+			(xy 41.91 68.58) (xy 41.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 55.245) (xy 51.435 55.245)
+			(xy 41.275 54.61) (xy 51.435 54.61)
 		)
 		(stroke
 			(width 0.381)
@@ -506,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 55.245) (xy 51.435 57.785)
+			(xy 51.435 54.61) (xy 51.435 57.785)
 		)
 		(stroke
 			(width 0)
@@ -516,23 +685,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.245) (xy 73.66 57.785)
+			(xy 73.66 54.61) (xy 73.66 57.785)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54fa126a-5e51-4f33-a056-87bdbd6b36ea")
-	)
-	(wire
-		(pts
-			(xy 39.37 60.325) (xy 41.275 60.325)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "567f5e41-209f-4472-8ead-1715e620ec95")
 	)
 	(wire
 		(pts
@@ -576,16 +735,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 62.865) (xy 39.37 62.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715be60c-8c01-4432-81ac-a99b0fd17f6e")
-	)
-	(wire
-		(pts
 			(xy 73.66 65.405) (xy 73.66 68.58)
 		)
 		(stroke
@@ -616,16 +765,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 62.865) (xy 125.095 62.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a581ca7-174b-4fc5-935f-ae21ff6d9e07")
-	)
-	(wire
-		(pts
 			(xy 159.385 65.405) (xy 159.385 68.58)
 		)
 		(stroke
@@ -636,17 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.245) (xy 91.44 55.245)
-		)
-		(stroke
-			(width 0.381)
-			(type default)
-		)
-		(uuid "9d0e50d4-712c-48bd-b50f-df0471a14efd")
-	)
-	(wire
-		(pts
-			(xy 127 55.245) (xy 127 60.325)
+			(xy 127 55.245) (xy 127 59.69)
 		)
 		(stroke
 			(width 0.381)
@@ -666,7 +795,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 55.245) (xy 41.275 60.325)
+			(xy 41.275 60.96) (xy 40.64 60.96)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "a5c094be-c345-40ae-8c32-b77e0be46939")
+	)
+	(wire
+		(pts
+			(xy 41.275 54.61) (xy 41.275 60.96)
 		)
 		(stroke
 			(width 0.381)
@@ -676,7 +815,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 68.58) (xy 51.435 68.58)
+			(xy 51.435 54.61) (xy 73.66 54.61)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "af2c82a9-0a2a-470d-a6d5-2dbe4f428803")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 51.435 68.58)
 		)
 		(stroke
 			(width 0)
@@ -686,27 +835,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.095 60.325) (xy 127 60.325)
+			(xy 127 59.69) (xy 127 60.325)
 		)
 		(stroke
 			(width 0.381)
 			(type default)
 		)
-		(uuid "c32791e6-8c46-4b2c-850d-d19106e9d6ec")
+		(uuid "d35b915a-0885-46f6-8f63-dc27f750cbb9")
 	)
 	(wire
 		(pts
-			(xy 51.435 55.245) (xy 73.66 55.245)
+			(xy 41.91 63.5) (xy 40.64 63.5)
 		)
 		(stroke
-			(width 0.381)
+			(width 0)
 			(type default)
 		)
-		(uuid "e1bd1c0c-f1f7-4970-af71-e80738ad4f53")
+		(uuid "dd4eae5d-c425-4cc4-8fd6-ab0503c0e973")
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 127 62.865)
+			(xy 127 68.58) (xy 127 62.23)
 		)
 		(stroke
 			(width 0)
@@ -724,104 +873,19 @@
 		)
 		(uuid "ed3ea913-1cb4-4b0b-a699-1e402f17e8ab")
 	)
-	(rectangle
-		(start 19.685 41.91)
-		(end 102.87 83.82)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 91.44 55.245)
+		)
 		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 3d8be390-f0b8-4d62-b51e-0990b765228c)
-	)
-	(rectangle
-		(start 105.41 41.91)
-		(end 190.5 83.82)
-		(stroke
-			(width 1)
-			(type default)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e3a3c3ad-53d9-40ae-a0d7-7b47908f0d6d)
-	)
-	(text_box "[5] Connector - Power\n"
-		(exclude_from_sim no)
-		(at 12.065 13.97 0)
-		(size 185.42 12.7)
-		(stroke
-			(width -0.0001)
+			(width 0.381)
 			(type default)
 		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 6 6)
-				(thickness 1.2)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-		)
-		(uuid "05464fd2-16ef-4c79-a274-96bc82d15933")
-	)
-	(text_box "Power Connectors Out, TVS Diode"
-		(exclude_from_sim no)
-		(at 107.315 73.025 0)
-		(size 80.645 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "3ec58eca-9dcb-4d45-bd35-0148f0a95a53")
-	)
-	(text_box "Power Connectors In, TVS Diode"
-		(exclude_from_sim no)
-		(at 22.225 73.025 0)
-		(size 80.645 9.525)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "f28bcb52-3f98-4347-8ed9-59fe54cafb2b")
+		(uuid "f1b74603-dd8f-4f2e-b19f-4d1a5687e820")
 	)
 	(hierarchical_label "+VBAT_OUT"
 		(shape output)
 		(at 177.165 55.245 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -834,8 +898,7 @@
 	)
 	(hierarchical_label "+VBAT_IN"
 		(shape output)
-		(at 91.44 55.245 0)
-		(fields_autoplaced yes)
+		(at 91.44 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -872,7 +935,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 42.545 55.245 0)
+		(at 41.91 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -882,12 +945,264 @@
 		)
 		(uuid "e877e8ba-6696-435e-8111-ed24bbdfe25a")
 		(property "High Power" "High Power"
-			(at 42.545 50.165 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 					(color 255 0 0 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 127 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b4e08dc-d85b-4fbd-9d34-78d7395de41a")
+		(property "Reference" "J3"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 115.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 107.95 -32.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 107.95 -132.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 107.95 -332.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 107.95 -432.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 107.95 -532.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 107.95 -632.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 107.95 -732.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddac7222-f9ee-4f02-a063-a1185b760ea3")
+		)
+		(pin "4"
+			(uuid "36bbe41e-cff7-4027-aa5e-0cc9aa811b02")
+		)
+		(pin "1"
+			(uuid "2846de6a-68ac-4215-8889-2ce3c0176f54")
+		)
+		(pin "3"
+			(uuid "a87b5707-62b0-4ed3-a3b5-39f3d08892b5")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 40.64 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c7660f4-5cb5-441e-9ea9-4c358c314f02")
+		(property "Reference" "J2"
+			(at 29.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWM"
+			(at 21.59 -31.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 21.59 -131.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 21.59 -331.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 21.59 -431.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 21.59 -531.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 21.59 -631.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 21.59 -731.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b50ee469-319b-4142-86dd-bfa4bbfdc721")
+		)
+		(pin "2"
+			(uuid "86e50b17-5c35-4030-b321-e517634f6ea3")
+		)
+		(pin "3"
+			(uuid "39f14911-7317-4458-9c2d-81e67f462598")
+		)
+		(pin "1"
+			(uuid "9158b6c7-b5af-4fbe-ba0c-fefe0e688f1d")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
+					(reference "J2")
+					(unit 1)
 				)
 			)
 		)
@@ -954,75 +1269,6 @@
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
 					(reference "#PWR0502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 120.015 62.865 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6214a16a-505e-43ad-8e21-a43d72375746")
-		(property "Reference" "J502"
-			(at 117.475 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT90PW-F"
-			(at 117.475 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_connectors:AMASS_XT90PW-F"
-			(at 120.015 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.015 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.015 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb2512a7-cc4f-4ae1-80fb-fa9d9d54b52a")
-		)
-		(pin "2"
-			(uuid "d4997bb3-bdd0-4408-9e64-012dd051a8ef")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
-					(reference "J502")
 					(unit 1)
 				)
 			)
@@ -1344,75 +1590,6 @@
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
 					(reference "D501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 34.29 62.865 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce6db4dc-dd2c-4231-ac60-54e694b25e1c")
-		(property "Reference" "J501"
-			(at 31.75 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT90PW-M"
-			(at 31.75 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_connectors:AMASS_XT90PW-M"
-			(at 34.29 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdec080e-9210-4804-86d7-ba5e15916bf7")
-		)
-		(pin "2"
-			(uuid "b1bf8ff1-f770-499b-b24c-e7cc043fb09c")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7ff8721b-aa5b-400a-ac87-59d1922401fd"
-					(reference "J501")
 					(unit 1)
 				)
 			)
