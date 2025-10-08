@@ -2675,6 +2675,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_4"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_5"
 			(power)
 			(pin_names
@@ -6769,6 +6870,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:502585-0470"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "502585-0470"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "5025850470"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Conn Wire to Board RCP 4 POS 1.5mm Solder RA SMD CLIK-Mate T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.6"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-502585-0470"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/502585-0470?qs=3OKVfsn1b5AU8ip3wCejKg%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "502585-0470"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "502585-0470_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:FTSH-105-01-F-D-RA-K"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7868,6 +8193,19 @@
 		)
 		(uuid 295d7a4d-55d6-49ac-b58e-4041b5099fe4)
 	)
+	(rectangle
+		(start 80.01 241.3)
+		(end 158.75 281.94)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30d9e850-9ac1-485b-af27-c4ffd1d3d307)
+	)
 	(arc
 		(start 246.385 191.765)
 		(mid 246.7555 190.8655)
@@ -8395,6 +8733,30 @@
 		)
 		(uuid "e2de3ef0-81f0-48b1-a8df-02e948cd1be2")
 	)
+	(text_box "USART Connector"
+		(exclude_from_sim no)
+		(at 80.01 274.32 0)
+		(size 78.74 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e7c10270-b7b1-4148-a181-8c9c06adc873")
+	)
 	(junction
 		(at 182.88 218.44)
 		(diameter 0)
@@ -8710,6 +9072,14 @@
 	(no_connect
 		(at 62.23 211.455)
 		(uuid "397f1050-add7-42ba-9c84-ae775561221e")
+	)
+	(no_connect
+		(at 104.14 254)
+		(uuid "9bd640de-0d80-497a-88f9-af2d7c2f1a5b")
+	)
+	(no_connect
+		(at 104.14 256.54)
+		(uuid "af8d4f62-d572-489d-b404-e05df0441123")
 	)
 	(no_connect
 		(at 62.23 208.915)
@@ -10154,6 +10524,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 254) (xy 130.81 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408855ad-0f9e-4aa9-b357-8acec80092b8")
+	)
+	(wire
+		(pts
 			(xy 243.205 152.4) (xy 252.73 152.4)
 		)
 		(stroke
@@ -10441,6 +10821,16 @@
 			(type default)
 		)
 		(uuid "4e25493c-534e-4edf-a47f-9d698a0a8a1b")
+	)
+	(wire
+		(pts
+			(xy 127 259.08) (xy 130.81 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e83c35b-9471-4300-bc38-a78dc643c207")
 	)
 	(wire
 		(pts
@@ -11192,6 +11582,16 @@
 		)
 		(uuid "881bc85d-3f86-4663-9d8e-bc3098a5cd32")
 	)
+	(wire
+		(pts
+			(xy 127 261.62) (xy 130.81 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8921a702-f9ee-4070-921a-4137a2da6114")
+	)
 	(polyline
 		(pts
 			(xy 338.465 191.77) (xy 338.46 201.29)
@@ -11514,6 +11914,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 261.62) (xy 130.81 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a239df29-3fda-49b8-b6ef-17e284cf4afa")
+	)
+	(wire
+		(pts
 			(xy 178.435 203.2) (xy 182.88 203.2)
 		)
 		(stroke
@@ -11781,6 +12191,16 @@
 			(type default)
 		)
 		(uuid "b5e41e24-cbd5-4fd4-a14c-367cbf11dded")
+	)
+	(wire
+		(pts
+			(xy 130.81 254) (xy 130.81 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6179a45-ba53-4bf2-a90f-386f0acad6cd")
 	)
 	(bus
 		(pts
@@ -12121,6 +12541,16 @@
 			(type default)
 		)
 		(uuid "d09c1a9b-605a-4e46-ab2c-c4b8e4bc71ae")
+	)
+	(wire
+		(pts
+			(xy 127 256.54) (xy 130.81 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c69722-8b59-4239-b0ad-027c61f63401")
 	)
 	(wire
 		(pts
@@ -12672,7 +13102,7 @@
 		)
 		(uuid "04c99679-4586-46ea-a259-3ecad55ca62f")
 	)
-	(label "FDCAN1_RX"
+	(label "USART3_RX"
 		(at 156.845 121.285 180)
 		(effects
 			(font
@@ -12852,7 +13282,7 @@
 		)
 		(uuid "338842f6-09c9-4d4b-8ae4-59bcc6924c14")
 	)
-	(label "FDCAN1_TX"
+	(label "USART3_TX"
 		(at 156.845 123.825 180)
 		(effects
 			(font
@@ -13382,6 +13812,16 @@
 		)
 		(uuid "b2f50b0b-06a0-43fc-b5bb-2af38f81e520")
 	)
+	(label "USART3_TX"
+		(at 130.81 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b32e1b32-c194-44c7-a16d-835c2ae304a8")
+	)
 	(label "I2C3_SDA"
 		(at 89.535 123.825 0)
 		(effects
@@ -13511,6 +13951,16 @@
 			(justify left bottom)
 		)
 		(uuid "c829e2bd-f96d-4b4d-b719-cfedf0188c1f")
+	)
+	(label "USART3_RX"
+		(at 130.81 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caa4a014-69d1-41dc-814f-fc5a61d80eae")
 	)
 	(label "I2C2_SDA"
 		(at 243.205 130.175 0)
@@ -16667,6 +17117,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 130.81 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6edc8ee1-9e97-4d86-91f7-b9306bed4dd1")
+		(property "Reference" "#PWR03"
+			(at 130.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d49b376-4432-4077-96b2-f3450530825c")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 83.82 175.26 0)
 		(unit 1)
@@ -18692,6 +19209,138 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:502585-0470")
+		(at 104.14 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1deb617-87e0-46db-926f-e1b9f3427fc9")
+		(property "Reference" "J7"
+			(at 115.57 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "502585-0470"
+			(at 115.57 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5025850470"
+			(at 123.19 348.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 448.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Conn Wire to Board RCP 4 POS 1.5mm Solder RA SMD CLIK-Mate T/R"
+			(at 104.14 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.6"
+			(at 123.19 648.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-502585-0470"
+			(at 123.19 748.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/502585-0470?qs=3OKVfsn1b5AU8ip3wCejKg%3D%3D"
+			(at 123.19 848.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 123.19 948.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "502585-0470"
+			(at 123.19 1048.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b3616a0-6696-4f97-8e86-29cd512599c6")
+		)
+		(pin "4"
+			(uuid "0c122fcf-8f5d-4e14-82dd-b9a801d0f1ee")
+		)
+		(pin "1"
+			(uuid "811d1f7c-5e0f-4ad4-bc49-ddd06e39a893")
+		)
+		(pin "3"
+			(uuid "dbeb66d8-ce16-4c68-a5c8-864cba6eac57")
+		)
+		(pin "MP2"
+			(uuid "bb835d69-8bcb-4f23-ba07-e1eba2576500")
+		)
+		(pin "MP1"
+			(uuid "0688ba3f-7982-48a1-bff2-d0e1516a1cc0")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 297.815 71.12 0)
 		(unit 1)
@@ -18887,6 +19536,72 @@
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
 					(reference "D402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 130.81 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d233c1f1-4824-461f-9e29-8f8e8f494152")
+		(property "Reference" "#PWR07"
+			(at 130.81 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.81 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35e715c-3086-48ed-b16b-1a7acf1bcf8b")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

@@ -5,27 +5,49 @@
 	(uuid "1a9fc915-5dd1-4af9-a64c-4ad958efcc64")
 	(paper "A4")
 	(lib_symbols
-		(symbol "0_connectors:Molex__755611500"
+		(symbol "SamacSys_Parts:XT60PW-M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Molex_755611500"
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "XT60PW-M"
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "XT60PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,28 +56,60 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" ""
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Molex__755611500_1_1"
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-M"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_1_1"
 				(rectangle
-					(start -5.08 7.62)
-					(end 5.715 1.27)
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -65,9 +119,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 5.715 0)
-					(length 2.54)
-					(name "Vout"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -83,9 +137,9 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 3.175 0)
-					(length 2.54)
-					(name "GND"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -101,16 +155,34 @@
 					)
 				)
 				(pin passive line
-					(at 8.255 5.715 180)
-					(length 2.54)
-					(name "MP"
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -391,99 +463,41 @@
 		)
 		(uuid "c1f5caa2-7e3c-454c-b97f-4a0e837b0a4d")
 	)
-	(junction
-		(at 184.785 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35d7a79b-cebd-41e6-ac4a-be67f967ad37")
-	)
-	(junction
-		(at 182.88 121.285)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4639ca81-2167-428f-a412-0c26bbec8610")
-	)
-	(junction
-		(at 100.965 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5304cc25-7e12-4214-8e6c-154c1ba12df5")
-	)
-	(junction
-		(at 184.785 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6313ad7c-af55-46c0-9032-d26696b49206")
-	)
-	(junction
-		(at 100.965 123.825)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d6014a-ddd5-4e83-9770-6cfd5bc24235")
-	)
-	(junction
-		(at 99.06 121.285)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "930f8fb3-556d-4249-a835-436e5157c0bf")
-	)
-	(junction
-		(at 182.88 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94585e45-8525-4364-bf9a-09af201c1b5a")
-	)
-	(junction
-		(at 99.06 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d995f9cd-0bd6-4e99-b586-a72b62b57dd8")
-	)
 	(no_connect
-		(at 202.565 61.595)
+		(at 213.36 68.58)
 		(uuid "24ab5fd7-c026-4466-8321-196a01c4568c")
 	)
 	(no_connect
-		(at 118.745 110.49)
+		(at 130.81 123.19)
 		(uuid "67d0c483-99a5-472d-bdb9-3e6ea3f3d4da")
 	)
 	(no_connect
-		(at 202.565 72.39)
+		(at 213.36 71.12)
 		(uuid "6aef1800-69d3-4aea-9ab2-197db5e2a880")
 	)
 	(no_connect
-		(at 118.745 61.595)
+		(at 128.27 71.12)
 		(uuid "6ebd860d-7332-4439-b2b7-9dbaeed11fba")
 	)
 	(no_connect
-		(at 202.565 110.49)
+		(at 214.63 118.11)
 		(uuid "94da4338-c2da-4362-b0a5-86bae533575c")
 	)
 	(no_connect
-		(at 118.745 121.285)
+		(at 130.81 120.65)
 		(uuid "bd05e120-7b7e-42ce-a3f2-53e2a7420be3")
 	)
 	(no_connect
-		(at 202.565 121.285)
+		(at 214.63 120.65)
 		(uuid "bf7cd7e1-7497-4c7c-863b-dfbf799a865c")
 	)
 	(no_connect
-		(at 118.745 72.39)
+		(at 128.27 68.58)
 		(uuid "d35c8d91-e777-493d-8eb9-a478ed8ff735")
 	)
 	(wire
 		(pts
-			(xy 99.06 61.595) (xy 99.06 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03be8050-169a-4cb1-bdda-9d8f31d849af")
-	)
-	(wire
-		(pts
-			(xy 95.25 121.285) (xy 99.06 121.285)
+			(xy 92.71 120.015) (xy 101.6 120.015)
 		)
 		(stroke
 			(width 0)
@@ -493,7 +507,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 64.135) (xy 100.965 64.135)
+			(xy 105.41 71.12) (xy 100.965 71.12)
 		)
 		(stroke
 			(width 0)
@@ -503,47 +517,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 100.965 74.93)
+			(xy 100.965 123.19) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bba122d-17fe-48dc-bea2-e5e70c9a9138")
+		(uuid "1cb791f0-b5b7-471a-a4f8-15d236350863")
 	)
 	(wire
 		(pts
-			(xy 99.06 121.285) (xy 102.87 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114037c5-eec3-4784-b95b-5fbea1ab4bb8")
-	)
-	(wire
-		(pts
-			(xy 100.965 113.03) (xy 100.965 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15aaae3f-46a8-4766-9d79-82b17e1fca06")
-	)
-	(wire
-		(pts
-			(xy 182.88 121.285) (xy 186.69 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17703bdb-4709-4472-8ba2-09cf7282e881")
-	)
-	(wire
-		(pts
-			(xy 179.07 121.285) (xy 182.88 121.285)
+			(xy 180.34 118.11) (xy 191.77 118.11)
 		)
 		(stroke
 			(width 0)
@@ -553,67 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 61.595) (xy 182.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c790d23-ffc6-4d5c-9b74-18a55b4d9766")
-	)
-	(wire
-		(pts
-			(xy 102.87 61.595) (xy 99.06 61.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31094128-cdd8-4ecf-bcad-7458b3b08119")
-	)
-	(wire
-		(pts
-			(xy 100.965 74.93) (xy 100.965 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3991aa20-e4ca-4b15-a386-4e66a2ceffda")
-	)
-	(wire
-		(pts
-			(xy 102.87 123.825) (xy 100.965 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3995c32f-cf0f-4c6b-861c-f318c81bc80c")
-	)
-	(wire
-		(pts
-			(xy 182.88 72.39) (xy 186.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a41c774-8db0-43f1-ba44-8ac3c6a96c70")
-	)
-	(wire
-		(pts
-			(xy 186.69 113.03) (xy 184.785 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fd0137d-7550-4656-b5b7-ea33e421f247")
-	)
-	(wire
-		(pts
-			(xy 186.69 64.135) (xy 184.785 64.135)
+			(xy 190.5 71.12) (xy 184.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -623,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 72.39) (xy 182.88 72.39)
+			(xy 179.07 68.58) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -633,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 72.39) (xy 99.06 72.39)
+			(xy 95.25 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -643,47 +567,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 123.825) (xy 184.785 123.825)
+			(xy 184.785 120.65) (xy 184.785 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "580d5e5f-6b04-48ac-a18f-584e3c8b3c08")
+		(uuid "5944637e-2f8b-43a5-bc3c-ef23072e473b")
 	)
 	(wire
 		(pts
-			(xy 184.785 74.93) (xy 184.785 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa9c8ad-9556-41db-9208-30918b86914c")
-	)
-	(wire
-		(pts
-			(xy 186.69 110.49) (xy 182.88 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638a3110-0200-4303-a8c9-d1c76641bdec")
-	)
-	(wire
-		(pts
-			(xy 184.785 113.03) (xy 184.785 123.825)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0408a1-6b66-46f4-9238-4978a224b6e3")
-	)
-	(wire
-		(pts
-			(xy 102.87 110.49) (xy 99.06 110.49)
+			(xy 107.95 120.65) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -693,67 +587,27 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 61.595) (xy 182.88 61.595)
+			(xy 184.15 71.12) (xy 184.15 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73611752-d192-4d5b-bb8a-60aa9f4c51f6")
+		(uuid "88619518-1351-4d2e-9294-efbf7e66105a")
 	)
 	(wire
 		(pts
-			(xy 182.88 110.49) (xy 182.88 121.285)
+			(xy 184.785 120.65) (xy 191.77 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c332500-5f2e-4c09-9e4d-4560b655cd66")
+		(uuid "934e06fc-44a8-4b10-9a0c-aa7ec6c099b1")
 	)
 	(wire
 		(pts
-			(xy 99.06 72.39) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c003cfd-a9a5-4dcc-b32a-e0308c0981b8")
-	)
-	(wire
-		(pts
-			(xy 102.87 113.03) (xy 100.965 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a918d332-6d19-4a4c-bd38-8180ae17165f")
-	)
-	(wire
-		(pts
-			(xy 184.785 64.135) (xy 184.785 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2181f3f-4937-4647-bdfb-92ea9f4dea39")
-	)
-	(wire
-		(pts
-			(xy 186.69 74.93) (xy 184.785 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c80cf2-b90b-4e26-9b0a-d1cfb8371f04")
-	)
-	(wire
-		(pts
-			(xy 100.965 64.135) (xy 100.965 74.93)
+			(xy 100.965 71.12) (xy 100.965 78.105)
 		)
 		(stroke
 			(width 0)
@@ -763,17 +617,27 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 123.825) (xy 184.785 127)
+			(xy 184.15 76.2) (xy 184.785 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd1c21b7-5e69-4348-82d5-fe6619c23030")
+		(uuid "d63b4325-5e93-405a-bd74-f278b03f9f05")
 	)
 	(wire
 		(pts
-			(xy 99.06 110.49) (xy 99.06 121.285)
+			(xy 100.965 123.19) (xy 100.965 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27cbe42-b0e5-4d8f-b2e6-d811220c6943")
+	)
+	(wire
+		(pts
+			(xy 101.6 120.65) (xy 101.6 120.015)
 		)
 		(stroke
 			(width 0)
@@ -781,19 +645,9 @@
 		)
 		(uuid "e3c00002-fedd-432b-bb39-b86e7222f33b")
 	)
-	(wire
-		(pts
-			(xy 100.965 123.825) (xy 100.965 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f164ce17-4763-406e-98bd-cd12b09fd0a7")
-	)
 	(hierarchical_label "RAIL1"
 		(shape input)
-		(at 95.25 72.39 180)
+		(at 95.25 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -806,7 +660,7 @@
 	)
 	(hierarchical_label "RAIL4"
 		(shape input)
-		(at 179.07 121.285 180)
+		(at 180.34 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -819,7 +673,7 @@
 	)
 	(hierarchical_label "RAIL3"
 		(shape input)
-		(at 95.25 121.285 180)
+		(at 92.71 120.015 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,7 +686,7 @@
 	)
 	(hierarchical_label "RAIL2"
 		(shape input)
-		(at 179.07 72.39 180)
+		(at 179.07 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -844,33 +698,53 @@
 		(uuid "913c9745-245d-49e5-a140-4d6994f55b04")
 	)
 	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 110.49 67.31 0)
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 105.41 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1172cefc-9d49-4fdd-8f8b-182e40071bb0")
-		(property "Reference" "Molex_602"
-			(at 110.8075 57.785 0)
+		(uuid "36556c87-e822-4871-9e82-22122be27a45")
+		(property "Reference" "J2"
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 110.49 67.31 0)
+		(property "Value" "XT60PW-M"
+			(at 116.84 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 110.49 67.31 0)
+		(property "Footprint" "XT60PWM"
+			(at 124.46 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 124.46 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 105.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,70 +752,125 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 67.31 0)
+		(property "Height" "8.4"
+			(at 124.46 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 67.31 0)
+		(property "Mouser Part Number" ""
+			(at 124.46 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a2f90dfd-47b3-4d29-9211-5f76a6f0e489")
+		(property "Mouser Price/Stock" ""
+			(at 124.46 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 124.46 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 124.46 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4b5b8f37-7148-493a-99a0-4a901068b459")
 		)
 		(pin "2"
-			(uuid "ef2f8d7c-3a2c-41e4-a011-a1ca657f0212")
+			(uuid "95ded7e9-d607-4325-af89-6f34a2513853")
 		)
-		(pin "MP"
-			(uuid "81efb8b3-8403-4499-8790-dae4705ffd3f")
+		(pin "1"
+			(uuid "84e4edbe-7455-4d3d-9535-3d6a3d11fcc9")
+		)
+		(pin "3"
+			(uuid "02010838-4de5-4963-abb0-e3972861e846")
 		)
 		(instances
-			(project "smps_legged_robot"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_602")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 194.31 78.105 0)
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 191.77 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18f81f63-52f2-49f6-9fcf-2bbf149219cc")
-		(property "Reference" "Molex_604"
-			(at 194.6275 68.58 0)
+		(uuid "38c4686a-67c6-4889-8be2-f7a09646d5dc")
+		(property "Reference" "J4"
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 194.31 78.105 0)
+		(property "Value" "XT60PW-M"
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 194.31 78.105 0)
+		(property "Footprint" "XT60PWM"
+			(at 210.82 213.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 210.82 313.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 191.77 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,179 +878,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 194.31 78.105 0)
+		(property "Height" "8.4"
+			(at 210.82 513.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 78.105 0)
+		(property "Mouser Part Number" ""
+			(at 210.82 613.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f4c40748-8b27-4709-b7a0-a537790b415d")
+		(property "Mouser Price/Stock" ""
+			(at 210.82 713.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 210.82 813.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 210.82 913.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0df288ad-7b68-4272-9fe9-30e0f91e7879")
 		)
 		(pin "2"
-			(uuid "86be28af-4491-4a21-9fb7-21ea664d8946")
+			(uuid "2ae6afa0-6b68-4f7b-abdd-d9d188deec61")
 		)
-		(pin "MP"
-			(uuid "168f5d30-8144-405e-bdc3-c7f39d6dedc6")
+		(pin "1"
+			(uuid "f18ca2ed-c97a-4fab-a0a6-4245150f5304")
+		)
+		(pin "3"
+			(uuid "b17379b7-bf44-4303-8a4e-6d564a6f5f89")
 		)
 		(instances
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 110.49 116.205 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c118264-8427-438f-9b34-bac87189609d")
-		(property "Reference" "Molex_605"
-			(at 110.8075 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 110.49 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 110.49 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33767d54-2d6b-4388-9821-ece46ce822ce")
-		)
-		(pin "2"
-			(uuid "00875e62-ffef-450c-9d0d-e8603f798060")
-		)
-		(pin "MP"
-			(uuid "8adab925-6f21-4b3c-a05f-4d1dba2c6c4e")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 194.31 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7341121f-4b11-4f4f-8484-7f61e21e87ed")
-		(property "Reference" "Molex_603"
-			(at 194.6275 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc77b1bb-def8-4d00-87c0-20dbe27335b0")
-		)
-		(pin "2"
-			(uuid "e9548c5c-d9a4-4f31-a2e9-b544bad165d7")
-		)
-		(pin "MP"
-			(uuid "25429512-c401-4070-9d9a-1c8671d5a9b4")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_603")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1194,33 +1016,53 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 110.49 127 0)
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 107.95 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8eb5c3ff-a4f4-4042-b1b2-6b0690eedbfd")
-		(property "Reference" "Molex_606"
-			(at 110.8075 117.475 0)
+		(uuid "849a10e5-6ee4-47a5-876c-1d84ed7725f0")
+		(property "Reference" "J5"
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 110.49 127 0)
+		(property "Value" "XT60PW-M"
+			(at 119.38 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 110.49 127 0)
+		(property "Footprint" "XT60PWM"
+			(at 127 215.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 127 315.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,37 +1070,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 127 0)
+		(property "Height" "8.4"
+			(at 127 515.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 127 0)
+		(property "Mouser Part Number" ""
+			(at 127 615.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "59959a78-47b6-4581-a6d7-f9f728f87145")
+		(property "Mouser Price/Stock" ""
+			(at 127 715.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 127 815.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 127 915.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8a2be56a-c23b-440c-803f-37595774359b")
 		)
 		(pin "2"
-			(uuid "e6f7ff1f-af3c-4f94-9025-68214853fe3f")
+			(uuid "a2c3c061-234a-481a-8ba5-d20b342b35d8")
 		)
-		(pin "MP"
-			(uuid "6b1c8fd9-33ad-4be8-91e4-1ae445e8902c")
+		(pin "1"
+			(uuid "c6e3448c-d0a7-4015-a0bf-0d88ce61b115")
+		)
+		(pin "3"
+			(uuid "db8f6ff2-ca8f-41b4-97cc-ecf57c64224a")
 		)
 		(instances
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_606")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1266,7 +1143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.785 78.105 0)
+		(at 184.785 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1275,7 +1152,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3ec8ca9-f2fa-4f9f-9714-c9ba046823c6")
 		(property "Reference" "#PWR0601"
-			(at 184.785 84.455 0)
+			(at 184.785 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.785 83.185 0)
+			(at 184.785 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.785 78.105 0)
+			(at 184.785 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.785 78.105 0)
+			(at 184.785 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 78.105 0)
+			(at 184.785 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,33 +1208,53 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 194.31 127 0)
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 190.5 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7a3492a-0450-4e3b-8248-11cba5da2338")
-		(property "Reference" "Molex_608"
-			(at 194.6275 117.475 0)
+		(uuid "bbb16594-0725-4d86-b53d-533ee7467664")
+		(property "Reference" "J3"
+			(at 201.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 194.31 127 0)
+		(property "Value" "XT60PW-M"
+			(at 201.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 194.31 127 0)
+		(property "Footprint" "XT60PWM"
+			(at 209.55 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 209.55 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,37 +1262,72 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 194.31 127 0)
+		(property "Height" "8.4"
+			(at 209.55 463.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 194.31 127 0)
+		(property "Mouser Part Number" ""
+			(at 209.55 563.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6f169299-58eb-4ad7-9f71-8316b8dae467")
+		(property "Mouser Price/Stock" ""
+			(at 209.55 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 209.55 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 209.55 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "593fef7f-726a-4bcf-a3c2-33572870f979")
 		)
 		(pin "2"
-			(uuid "56557338-6b03-4c3f-bcf0-22141ea8fa8d")
+			(uuid "c13fb68b-4f8f-49d7-9f96-1dd65e247e2b")
 		)
-		(pin "MP"
-			(uuid "e7d8f187-923e-41c1-9264-ca5ed06693e8")
+		(pin "1"
+			(uuid "1b124105-bf31-4bb0-af96-d8f5fb5a2352")
+		)
+		(pin "3"
+			(uuid "570685a8-8538-4ab2-912c-dcc99f09e792")
 		)
 		(instances
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_608")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1468,77 +1400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 110.49 78.105 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3768cd2-ea19-4586-a15c-fcb50f297df9")
-		(property "Reference" "Molex_601"
-			(at 110.8075 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 110.49 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 110.49 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cef1ef08-d01d-46cc-9667-c7a828071098")
-		)
-		(pin "2"
-			(uuid "0c027ee4-eb11-4460-a2f8-dd2cb87c3fb8")
-		)
-		(pin "MP"
-			(uuid "f48b4e48-3f44-42bb-9f2a-2d9abf892088")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.965 78.105 0)
 		(unit 1)
@@ -1599,77 +1460,6 @@
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
 					(reference "#PWR0701")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connectors:Molex__755611500")
-		(at 194.31 116.205 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc35eebd-708f-41d6-af5e-e0f2982be657")
-		(property "Reference" "Molex_607"
-			(at 194.6275 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 194.31 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_connectors:172448-YY02"
-			(at 194.31 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf712da0-f4c8-4c7a-b0b0-b29ca8abbd6a")
-		)
-		(pin "2"
-			(uuid "7ec030ae-05d0-49e2-999b-d592d4066d0c")
-		)
-		(pin "MP"
-			(uuid "fec9d32b-9d5e-4eee-881f-2267ecf924a2")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "Molex_607")
 					(unit 1)
 				)
 			)
