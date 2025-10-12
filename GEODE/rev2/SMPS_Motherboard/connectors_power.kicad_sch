@@ -5,12 +5,12 @@
 	(uuid "1a9fc915-5dd1-4af9-a64c-4ad958efcc64")
 	(paper "A4")
 	(lib_symbols
-		(symbol "SamacSys_Parts:XT60PW-M"
+		(symbol "SamacSys_Parts:XT30PW-M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 19.05 7.62 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +18,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "XT60PW-M"
-				(at 19.05 5.08 0)
+			(property "Value" "XT30PW-M"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,18 +27,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "XT60PWM"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-				(at 19.05 -194.92 0)
+			(property "Footprint" "XT30PWM"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +37,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,8 +56,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "8.4"
-				(at 19.05 -394.92 0)
+			(property "Height" "5"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +67,7 @@
 				)
 			)
 			(property "Mouser Part Number" ""
-				(at 19.05 -494.92 0)
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -77,7 +77,7 @@
 				)
 			)
 			(property "Mouser Price/Stock" ""
-				(at 19.05 -594.92 0)
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87,7 +87,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Amass"
-				(at 19.05 -694.92 0)
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -96,8 +96,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "XT60PW-M"
-				(at 19.05 -794.92 0)
+			(property "Manufacturer_Part_Number" "XT30PW-M"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,10 +106,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "XT60PW-M_1_1"
+			(symbol "XT30PW-M_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 17.78 -5.08)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -155,16 +155,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 0 180)
+					(at 20.32 0 180)
 					(length 5.08)
-					(name "MH1"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,16 +173,16 @@
 					)
 				)
 				(pin passive line
-					(at 22.86 -2.54 180)
+					(at 20.32 -2.54 180)
 					(length 5.08)
-					(name "MH2"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -476,7 +476,7 @@
 		(uuid "6aef1800-69d3-4aea-9ab2-197db5e2a880")
 	)
 	(no_connect
-		(at 128.27 71.12)
+		(at 125.73 71.12)
 		(uuid "6ebd860d-7332-4439-b2b7-9dbaeed11fba")
 	)
 	(no_connect
@@ -492,7 +492,7 @@
 		(uuid "bf7cd7e1-7497-4c7c-863b-dfbf799a865c")
 	)
 	(no_connect
-		(at 128.27 68.58)
+		(at 125.73 68.58)
 		(uuid "d35c8d91-e777-493d-8eb9-a478ed8ff735")
 	)
 	(wire
@@ -517,7 +517,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 123.19) (xy 107.95 123.19)
+			(xy 100.965 123.19) (xy 110.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +527,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 118.11) (xy 191.77 118.11)
+			(xy 180.34 118.11) (xy 194.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 71.12) (xy 184.15 71.12)
+			(xy 184.15 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 190.5 68.58)
+			(xy 179.07 68.58) (xy 193.04 68.58)
 		)
 		(stroke
 			(width 0)
@@ -577,7 +577,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 101.6 120.65)
+			(xy 101.6 120.65) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
@@ -597,7 +597,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 120.65) (xy 191.77 120.65)
+			(xy 184.785 120.65) (xy 194.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -698,158 +698,32 @@
 		(uuid "913c9745-245d-49e5-a140-4d6994f55b04")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 105.41 68.58 0)
+		(lib_id "SamacSys_Parts:XT30PW-M")
+		(at 194.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "36556c87-e822-4871-9e82-22122be27a45")
-		(property "Reference" "J2"
-			(at 116.84 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 124.46 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 124.46 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 124.46 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 124.46 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 124.46 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 124.46 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 124.46 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4b5b8f37-7148-493a-99a0-4a901068b459")
-		)
-		(pin "2"
-			(uuid "95ded7e9-d607-4325-af89-6f34a2513853")
-		)
-		(pin "1"
-			(uuid "84e4edbe-7455-4d3d-9535-3d6a3d11fcc9")
-		)
-		(pin "3"
-			(uuid "02010838-4de5-4963-abb0-e3972861e846")
-		)
-		(instances
-			(project ""
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 191.77 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38c4686a-67c6-4889-8be2-f7a09646d5dc")
+		(uuid "75b05173-442d-4068-8540-dec4864208c0")
 		(property "Reference" "J4"
-			(at 203.2 110.49 0)
+			(at 204.47 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT60PW-M"
-			(at 203.2 113.03 0)
+		(property "Value" "XT30PW-M"
+			(at 204.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "XT60PWM"
+		(property "Footprint" "XT30PWM"
 			(at 210.82 213.03 0)
 			(effects
 				(font
@@ -859,7 +733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
 			(at 210.82 313.03 0)
 			(effects
 				(font
@@ -869,8 +743,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 191.77 118.11 0)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8.4"
+		(property "Height" "5"
 			(at 210.82 513.03 0)
 			(effects
 				(font
@@ -918,7 +792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
+		(property "Manufacturer_Part_Number" "XT30PW-M"
 			(at 210.82 913.03 0)
 			(effects
 				(font
@@ -928,17 +802,17 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "0df288ad-7b68-4272-9fe9-30e0f91e7879")
+		(pin "3"
+			(uuid "791ae39e-07cd-4202-bd1b-0bc445f80974")
 		)
 		(pin "2"
-			(uuid "2ae6afa0-6b68-4f7b-abdd-d9d188deec61")
+			(uuid "49763e9a-dfe3-4945-804b-dab89481bca5")
 		)
 		(pin "1"
-			(uuid "f18ca2ed-c97a-4fab-a0a6-4245150f5304")
+			(uuid "0f9ae812-6999-40ec-a7cc-b80a6b97b80c")
 		)
-		(pin "3"
-			(uuid "b17379b7-bf44-4303-8a4e-6d564a6f5f89")
+		(pin "4"
+			(uuid "58faa781-8d88-4814-b7a3-0d4e2a730320")
 		)
 		(instances
 			(project "smps_legged_robot"
@@ -1016,32 +890,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 107.95 120.65 0)
+		(lib_id "SamacSys_Parts:XT30PW-M")
+		(at 110.49 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "849a10e5-6ee4-47a5-876c-1d84ed7725f0")
-		(property "Reference" "J5"
-			(at 119.38 113.03 0)
+		(uuid "856f3a53-5c3d-4064-b553-e13814d851a7")
+		(property "Reference" "J8"
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT60PW-M"
-			(at 119.38 115.57 0)
+		(property "Value" "XT30PW-M"
+			(at 120.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "XT60PWM"
+		(property "Footprint" "XT30PWM"
 			(at 127 215.57 0)
 			(effects
 				(font
@@ -1051,7 +925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
 			(at 127 315.57 0)
 			(effects
 				(font
@@ -1061,8 +935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 107.95 120.65 0)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8.4"
+		(property "Height" "5"
 			(at 127 515.57 0)
 			(effects
 				(font
@@ -1110,7 +984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
+		(property "Manufacturer_Part_Number" "XT30PW-M"
 			(at 127 915.57 0)
 			(effects
 				(font
@@ -1120,22 +994,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "8a2be56a-c23b-440c-803f-37595774359b")
+		(pin "3"
+			(uuid "fbf16834-1892-431b-959e-56f5c65c92fc")
 		)
 		(pin "2"
-			(uuid "a2c3c061-234a-481a-8ba5-d20b342b35d8")
+			(uuid "537aea81-4e58-4682-8cec-abbc7062d168")
 		)
 		(pin "1"
-			(uuid "c6e3448c-d0a7-4015-a0bf-0d88ce61b115")
+			(uuid "d7d6f264-75bb-4a5c-a09a-00eafb80e9b7")
 		)
-		(pin "3"
-			(uuid "db8f6ff2-ca8f-41b4-97cc-ecf57c64224a")
+		(pin "4"
+			(uuid "90965b36-78bc-4ae3-a54a-634acd80770b")
 		)
 		(instances
-			(project "smps_legged_robot"
+			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1208,132 +1082,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-M")
-		(at 190.5 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbb16594-0725-4d86-b53d-533ee7467664")
-		(property "Reference" "J3"
-			(at 201.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 201.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWM"
-			(at 209.55 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
-			(at 209.55 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
-			(at 190.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 209.55 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 209.55 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 209.55 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 209.55 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 209.55 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "593fef7f-726a-4bcf-a3c2-33572870f979")
-		)
-		(pin "2"
-			(uuid "c13fb68b-4f8f-49d7-9f96-1dd65e247e2b")
-		)
-		(pin "1"
-			(uuid "1b124105-bf31-4bb0-af96-d8f5fb5a2352")
-		)
-		(pin "3"
-			(uuid "570685a8-8538-4ab2-912c-dcc99f09e792")
-		)
-		(instances
-			(project "smps_legged_robot"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.965 127 0)
 		(unit 1)
@@ -1394,6 +1142,258 @@
 			(project "smps_legged_robot"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
 					(reference "#PWR0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-M")
+		(at 193.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98e40ac-b213-4972-90b0-0f3e47e67061")
+		(property "Reference" "J3"
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWM"
+			(at 209.55 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 209.55 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 209.55 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 209.55 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 209.55 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 209.55 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-M"
+			(at 209.55 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "82cb0f68-46ab-4b07-a88a-b024ee717a66")
+		)
+		(pin "2"
+			(uuid "cb15e1b9-a9c6-4281-bd52-0513f75d7455")
+		)
+		(pin "1"
+			(uuid "bd75aebb-742c-4743-a8be-00c63c6622f3")
+		)
+		(pin "4"
+			(uuid "81c580e0-b745-4554-a6d7-240655c9a23d")
+		)
+		(instances
+			(project "smps_legged_robot"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-M")
+		(at 105.41 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f645924a-f7df-4c9c-a4c2-385640a42e0f")
+		(property "Reference" "J2"
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWM"
+			(at 121.92 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 121.92 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30A Low Temperature Rise Fire Retardant Plug"
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 121.92 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 121.92 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 121.92 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 121.92 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-M"
+			(at 121.92 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c3a044-830b-485f-ada8-53b348cf1950")
+		)
+		(pin "2"
+			(uuid "3035f938-1c11-40d4-87e7-52a7b69fea2e")
+		)
+		(pin "4"
+			(uuid "dfead073-ef3e-42d3-b2ee-8d9be0e1fc3d")
+		)
+		(pin "3"
+			(uuid "abaaccf7-426e-41cb-845c-726b1fb63166")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/00331108-f7ff-4054-b63a-a3b87091e381"
+					(reference "J2")
 					(unit 1)
 				)
 			)
