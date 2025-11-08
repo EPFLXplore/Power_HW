@@ -2963,6 +2963,28 @@
 		)
 		(uuid 7bddd146-ae47-4708-b96a-2b3edc7949f3)
 	)
+	(text_box "Local Power generation to power the MCU and peripherals. Schematics adapted from GEODE\n"
+		(exclude_from_sim no)
+		(at 49.53 171.45 0)
+		(size 53.34 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "83225a54-41f8-4d65-a42e-fddb641799c1")
+	)
 	(text_box "DESIGN NOTE:\nL = ((Vin - Vout) * D) / (f_sw * Iout * LIR )\nL = (0.25*36V) / (2.1E6 Hz*2A*0.30)\nL = 7.14 uH"
 		(exclude_from_sim no)
 		(at 211.455 99.06 0)
