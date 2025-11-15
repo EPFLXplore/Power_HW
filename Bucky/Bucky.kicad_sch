@@ -1709,6 +1709,66 @@
 				(justify left)
 			)
 		)
+		(pin "FAN_CTRL" output
+			(at 138.43 55.88 180)
+			(uuid "6edf9b91-af8a-4455-8057-f77cab282f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SHDN_CTRL}" bidirectional
+			(at 138.43 86.36 180)
+			(uuid "770ec7fb-693d-44f3-bd10-ca92569a4169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_DISP}" bidirectional
+			(at 154.94 73.66 0)
+			(uuid "33b9f45e-c6f6-4b67-a25a-292a7597c269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PRE_BUS}" bidirectional
+			(at 138.43 82.55 180)
+			(uuid "d31a2bc5-9585-495b-9280-643af690c7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN" input
+			(at 138.43 90.17 180)
+			(uuid "92aac1f8-4449-424d-9f55-c6f1df2049eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_SENS" input
+			(at 138.43 60.96 180)
+			(uuid "1da8bbdd-cf73-4cad-b8c9-dc8f179b7535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Bucky"
 				(path "/cbc1d598-d671-4ecd-a680-5b661c261ed9"

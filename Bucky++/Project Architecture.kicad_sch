@@ -1,0 +1,545 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
+	(paper "A4")
+	(title_block
+		(title "Project Architecture")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 162.56 81.026 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "978bb74e-ca07-4b21-b2dc-19b812f717e9")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 97.79 67.818 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 80.01 22.86 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d285b11-833d-44db-a5c8-f795c1074612")
+	)
+	(wire
+		(pts
+			(xy 128.27 118.11) (xy 124.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4099e898-174c-400c-a96b-3109d31790cc")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b8ebf3-1413-47c4-aa25-31892463596c")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 128.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f60e5c-386a-42c1-a974-649dbb76c929")
+	)
+	(bus
+		(pts
+			(xy 165.1 102.87) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9c676c-b3a7-4d1b-abc8-9c222235f940")
+	)
+	(wire
+		(pts
+			(xy 124.46 118.11) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0f823d-8dfe-493c-b0fd-37182752c7f4")
+	)
+	(wire
+		(pts
+			(xy 118.11 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5bbc38-1db5-4072-a635-bf5aeb028bd2")
+	)
+	(bus
+		(pts
+			(xy 165.1 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd948e9a-76a2-49f8-9380-0b842a538221")
+	)
+	(sheet
+		(at 128.27 111.76)
+		(size 36.83 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 217 45 255 0.5020)
+		)
+		(uuid "0a3a8431-1070-4a1b-95bb-cb7cd1b8d37c")
+		(property "Sheetname" "Sensors"
+			(at 128.27 110.7309 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 128.27 141.5546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sensor_Input" tri_state
+			(at 128.27 118.11 180)
+			(uuid "51ba19bb-884b-40db-8953-ae9f16470ea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Shunt_output" tri_state
+			(at 128.27 125.73 180)
+			(uuid "381f5ac2-6ea6-4191-b197-bbee007d6712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_BAT}" bidirectional
+			(at 165.1 118.11 0)
+			(uuid "e5577404-badd-4629-9262-a557bdff6ba8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 62.23)
+		(size 36.83 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 252 255 167 0.5020)
+		)
+		(uuid "0b884d20-85c8-4e14-bcd5-df65213f1de9")
+		(property "Sheetname" "PowerConnectors"
+			(at 81.28 61.2009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerConnectors.kicad_sch"
+			(at 81.28 141.5546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBatt" input
+			(at 118.11 67.31 0)
+			(uuid "1998bec7-084e-43cb-9228-4c68e3757d62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Buck_Output" tri_state
+			(at 118.11 82.55 0)
+			(uuid "9e562115-1fba-4879-803a-cfaf1a480f4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Output" tri_state
+			(at 118.11 125.73 0)
+			(uuid "7ef2620a-adae-46cd-bc91-dbcc1afc1bd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 63.5)
+		(size 36.83 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 119 110 0.5020)
+		)
+		(uuid "20f2e49e-3c3c-4877-a054-2792c8a24538")
+		(property "Sheetname" "LocalPowerGeneration"
+			(at 172.72 62.4709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LocalPowerGeneration.kicad_sch"
+			(at 172.72 93.2946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+VBAT" input
+			(at 172.72 67.31 180)
+			(uuid "78d4a273-f8e4-4776-87bd-f58ec4c3faaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" output
+			(at 172.72 85.09 180)
+			(uuid "bc4a80d6-4263-4004-8a22-5017e3cc5e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 172.72 77.47 180)
+			(uuid "c4c0e339-76ce-4ccd-aac2-12794b71b131")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 100.33)
+		(size 36.83 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 161 218 255 0.5020)
+		)
+		(uuid "694c70cd-5237-46a2-a5ef-62c4b649ef6f")
+		(property "Sheetname" "MCU"
+			(at 172.72 99.3009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 172.72 141.5546 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FAN" input
+			(at 172.72 134.62 180)
+			(uuid "1c277079-214a-4f43-82f1-f88a0d074db4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP_SENS" input
+			(at 172.72 132.08 180)
+			(uuid "a0da322a-cf95-4c3c-adf3-0600b09a41e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_DISP}" bidirectional
+			(at 172.72 129.54 180)
+			(uuid "d5f6161e-659d-44ea-bf79-c693aaf19b60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SHDN_CTRL}" bidirectional
+			(at 172.72 102.87 180)
+			(uuid "4e2e8c19-2a82-4963-9c6c-0aa70bbf0d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_BAT}" bidirectional
+			(at 172.72 118.11 180)
+			(uuid "ce962ecf-b59a-4652-98f9-1066b39c126d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_CTRL" output
+			(at 172.72 127 180)
+			(uuid "b07e38af-8e03-4892-a587-5333199d84f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 74.93)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "ProtectionCircuitry"
+			(at 128.27 73.9009 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ProtectionCircuitry.kicad_sch"
+			(at 128.27 105.9946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{Buck Inputs}" tri_state
+			(at 128.27 82.55 180)
+			(uuid "f4b07632-b623-4912-96f3-4cab773fd71a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{Safe Output}" tri_state
+			(at 128.27 99.06 180)
+			(uuid "50f9e3c4-a3d3-41c1-b011-0d32e8df9bb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SHDN_CTRL}" tri_state
+			(at 165.1 102.87 0)
+			(uuid "8450ccdd-5d22-4811-bd38-eba2215d8af6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "4")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,5405 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
+	(paper "A4")
+	(title_block
+		(title "Power Connectors")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols
+		(symbol "SamacSys_Parts:0806040.WR"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0806040.WR"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "FUSC3216X110N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-806-datasheet?assetguid=a8479f54-3b43-4b97-8985-2bc550feee6f"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Surface Mount Fuses High Current 40A 36V , FUSE 36V HIGH CURRENT 1206 FA 40A | Series: 806 ,200A @ 36VDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0806040.WR"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0806040.WR_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:SMBJ51CD-M3_H"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMBJ51CD-M3_H"
+				(at 10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIOM5436X244N"
+				(at 10.16 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+				(at 10.16 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.44"
+				(at 10.16 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SMBJ51CD-M3/H"
+				(at 10.16 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ51CD-M3-H?qs=lBTPRtX1sU%252BY7hek7nzA7Q%3D%3D"
+				(at 10.16 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 10.16 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMBJ51CD-M3/H"
+				(at 10.16 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SMBJ51CD-M3_H_1_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT30AW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30AW-M"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT30AWM"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.china-amass.com/biao/272.html?fbclid=IwZXh0bgNhZW0CMTEAAR1NvX_4aFpbUb2nO8NynRjoma90JrwdPu4OP5agqrddJY_N3HJJ-jDn6Lk_aem_mR-XhVJeUbZ7SJKgTTHkqQ"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT30; male; PIN: 2; on PCBs; THT; 20A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.7"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30AW-M"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30AW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT30PW-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30PW-F"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT30PWF"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30PW-F"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30PW-F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT30UPB-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30UPB-F"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT30UPBF"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30UPB-F"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30UPB-F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT60PW-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT60PW-F"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT60PWF"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-F"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:XT60PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT60PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-M"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 154.94 39.37)
+		(end 205.74 115.57)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 348065d9-cba3-4cfd-a924-aa63eb05dff6)
+	)
+	(rectangle
+		(start 104.14 39.37)
+		(end 151.13 115.57)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b457276-bf08-4671-aa1c-d5f34d2b03cd)
+	)
+	(rectangle
+		(start 33.02 39.37)
+		(end 99.06 116.84)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94e7eb65-152e-4e67-b9df-d10b1a07dc23)
+	)
+	(rectangle
+		(start 210.82 39.37)
+		(end 265.43 115.57)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad813111-cced-4da9-987a-78b0a2783c06)
+	)
+	(text_box "Battery connector"
+		(exclude_from_sim no)
+		(at 41.91 108.585 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "05ac4248-71fd-4564-b3c1-a6972ff39dcf")
+	)
+	(text_box "Output"
+		(exclude_from_sim no)
+		(at 213.36 107.95 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "3fd98ef4-f915-4cb8-bb9e-4a72c4306d8e")
+	)
+	(text_box "To Buck Modules"
+		(exclude_from_sim no)
+		(at 106.68 107.315 0)
+		(size 41.91 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "78302fd9-5a5d-4078-9a01-bad0315c5eee")
+	)
+	(text_box "The battery is directly connected to Bucky via J1 and the power is directly transfered to the motors through J2. It is also connected to the bucks' input through VBuck_in. The output of the buck are then connected to their respective voltage nets. The same ground is used for the whole board.\n"
+		(exclude_from_sim no)
+		(at 21.59 154.94 0)
+		(size 60.96 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 0 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "9019e2e7-d1a8-45c5-8014-962531cc4914")
+	)
+	(text_box "Buck Output\n"
+		(exclude_from_sim no)
+		(at 154.94 107.95 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "cfba4c34-6901-4194-ad38-9adc4adfb8c2")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 73.66 15.24 0)
+		(size 161.29 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "fa4a8a86-ff7e-414e-8c2f-e2f89075d3d6")
+	)
+	(junction
+		(at 64.77 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc404896-2b41-41be-b716-d3eb6bdb913f")
+	)
+	(no_connect
+		(at 251.46 49.53)
+		(uuid "3b43b98d-4ff7-40b9-ae37-836fc21bd189")
+	)
+	(no_connect
+		(at 251.46 77.47)
+		(uuid "45f34b99-fdf4-4adc-a18a-cd373cfc6681")
+	)
+	(no_connect
+		(at 251.46 92.71)
+		(uuid "489c3266-47ac-4bd7-b9f6-cdb38c6d4621")
+	)
+	(no_connect
+		(at 251.46 64.77)
+		(uuid "4c20d6e3-7893-4d94-a6bb-ef4c74b54aa4")
+	)
+	(no_connect
+		(at 251.46 95.25)
+		(uuid "5ca0484f-3b68-43a4-8df3-8c3db154732e")
+	)
+	(no_connect
+		(at 251.46 46.99)
+		(uuid "7fc071dc-dac3-4858-af35-a82a086b2258")
+	)
+	(no_connect
+		(at 251.46 80.01)
+		(uuid "8b98d8bf-74c0-4362-b24f-dd3345611ae4")
+	)
+	(no_connect
+		(at 86.36 81.28)
+		(uuid "91b75a7c-e8af-49be-9d59-aa4b7ce2a59d")
+	)
+	(no_connect
+		(at 95.25 53.34)
+		(uuid "a34bfb5a-0d7c-4492-ac96-09174fba1554")
+	)
+	(no_connect
+		(at 95.25 50.8)
+		(uuid "b7bffd59-008e-4fe0-b206-c0e268676acf")
+	)
+	(no_connect
+		(at 246.38 64.77)
+		(uuid "f10ee16b-b113-4bb8-b29a-4588d883369c")
+	)
+	(no_connect
+		(at 251.46 62.23)
+		(uuid "f15cf1c1-ebf5-4e12-b72e-4a7daf65edf7")
+	)
+	(no_connect
+		(at 86.36 83.82)
+		(uuid "fd104363-5bf5-4bf0-a60e-7b1cf83d85fc")
+	)
+	(bus_entry
+		(at 214.63 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a31896-7c6a-4186-917b-5d39187ceae5")
+	)
+	(bus_entry
+		(at 214.63 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890f2fc2-4bcb-49a5-9086-4fa7596e8b0a")
+	)
+	(bus_entry
+		(at 172.72 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbd231a-ebb2-4590-967c-bb1e6a4aaf93")
+	)
+	(bus_entry
+		(at 214.63 128.27)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a056aa8a-06b3-4a13-9cdb-587dc75de65c")
+	)
+	(bus_entry
+		(at 172.72 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf1c864-db25-4e0b-abfe-948d22101341")
+	)
+	(bus_entry
+		(at 214.63 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba549e80-f43a-488a-966e-ee39bb7d64c2")
+	)
+	(bus_entry
+		(at 172.72 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a5fbe7-0378-4ff1-9d21-e9d6fe8760b7")
+	)
+	(bus_entry
+		(at 172.72 128.27)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f599e441-abae-4ec2-9580-43a0ee95d699")
+	)
+	(bus
+		(pts
+			(xy 214.63 128.27) (xy 214.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5e373c-626b-4304-afae-49802ba15bcf")
+	)
+	(wire
+		(pts
+			(xy 64.77 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14407a91-c4ef-47fc-80d5-29270909d380")
+	)
+	(bus
+		(pts
+			(xy 214.63 143.51) (xy 214.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168fb6b6-0288-474c-8725-bb1a652efc43")
+	)
+	(wire
+		(pts
+			(xy 204.47 135.89) (xy 212.09 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bbee68-63e3-4248-b55b-4266beffb438")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 173.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac714c5-af52-4785-a007-c04703a4d1cf")
+	)
+	(bus
+		(pts
+			(xy 172.72 133.35) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476db2e4-653e-4ffe-8e13-22ab396a5d04")
+	)
+	(wire
+		(pts
+			(xy 204.47 130.81) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ceeffee-25f1-48a6-b04f-c2072d36b9c8")
+	)
+	(wire
+		(pts
+			(xy 36.83 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7874ae-ee86-4e15-890e-8d63848d3451")
+	)
+	(bus
+		(pts
+			(xy 214.63 124.46) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0cb7a7-494f-4b21-9249-bcfc9113cebf")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510fe3c0-8412-480f-a66f-44f2b884266e")
+	)
+	(bus
+		(pts
+			(xy 172.72 138.43) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639a86a7-7437-4276-9f9c-cc8b13cd18ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dae7aa8-73e7-4286-ad7d-2633c2f1f3b8")
+	)
+	(wire
+		(pts
+			(xy 220.98 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6fd579-0e42-44dd-851b-880f7006b966")
+	)
+	(bus
+		(pts
+			(xy 172.72 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733b1435-ab8c-48a8-b5d4-be17e4dc7a14")
+	)
+	(wire
+		(pts
+			(xy 162.56 146.05) (xy 170.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7454b0ed-c924-42d5-bc34-76e61fe28a4d")
+	)
+	(wire
+		(pts
+			(xy 231.14 95.25) (xy 224.79 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ea087d-ab81-422e-ba17-77cdada4b7f3")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81666f39-839d-4186-a855-f3fb6379beb4")
+	)
+	(wire
+		(pts
+			(xy 166.37 62.23) (xy 173.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e0b60-7426-4eb8-9d57-2215178c221f")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 231.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87081fc8-ed97-4622-925b-f10cf2c429cb")
+	)
+	(wire
+		(pts
+			(xy 222.25 92.71) (xy 231.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb5738b-28ad-4959-bdc4-e2304c73d169")
+	)
+	(bus
+		(pts
+			(xy 214.63 138.43) (xy 214.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987d0cfe-0c89-4757-bcbf-c0eb1a335391")
+	)
+	(wire
+		(pts
+			(xy 166.37 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3464e13-758d-462d-b660-c94631c7b292")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 170.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ddea73-5d35-4956-825f-9f522e080c56")
+	)
+	(wire
+		(pts
+			(xy 162.56 135.89) (xy 170.18 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3b3ba9-7858-449e-bc79-02945325decd")
+	)
+	(bus
+		(pts
+			(xy 214.63 133.35) (xy 214.63 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc3e443-ae4b-449e-bfe0-a938a1d7542b")
+	)
+	(wire
+		(pts
+			(xy 231.14 80.01) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21d1bc5-eefa-4f48-bc86-27769d6c0f8c")
+	)
+	(wire
+		(pts
+			(xy 224.79 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4460537-4b0d-40b4-9d7e-f1dbfb3cf97b")
+	)
+	(wire
+		(pts
+			(xy 110.49 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6276270-f033-4995-9195-bf52c4f78419")
+	)
+	(wire
+		(pts
+			(xy 44.45 81.28) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd0b4a1-38a0-4a68-b358-64ff7cd5875a")
+	)
+	(wire
+		(pts
+			(xy 110.49 46.99) (xy 118.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19c9102-3c73-49a3-8d0d-f397cc189f95")
+	)
+	(wire
+		(pts
+			(xy 204.47 146.05) (xy 212.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66cc2d3-fa8f-4d8c-adb6-f0ea0f36e481")
+	)
+	(wire
+		(pts
+			(xy 224.79 49.53) (xy 231.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91d181b-9f47-4e68-b0dd-7cf25a263627")
+	)
+	(wire
+		(pts
+			(xy 57.15 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2a023a-03e5-4a3f-aec8-575a9a7f6853")
+	)
+	(bus
+		(pts
+			(xy 172.72 143.51) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1564ab-02b8-46d0-8f52-a53f48a69d93")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb95cbaa-855f-47d2-a5df-0f7c127e2bc2")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef01b7ea-8d90-4ff4-8d00-3c59bab746c4")
+	)
+	(wire
+		(pts
+			(xy 204.47 140.97) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52470d2-98cb-4fa6-abd7-89b910f3b191")
+	)
+	(wire
+		(pts
+			(xy 162.56 140.97) (xy 170.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f96005-9314-4b9d-803c-a8e49006c217")
+	)
+	(bus
+		(pts
+			(xy 172.72 128.27) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2fe048-3a58-4420-9284-af5abfdff489")
+	)
+	(label "Vout_5V"
+		(at 220.98 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "029a5a02-a087-4458-9d08-18ccde4f72f0")
+	)
+	(label "Vin_5V"
+		(at 162.56 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10c2ad58-d770-4ec9-a932-205b0c482fa1")
+	)
+	(label "Vout_24V"
+		(at 204.47 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "149435de-7038-4cb5-b53f-07ba74e47cb5")
+	)
+	(label "Vout_24V"
+		(at 222.25 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a68863c-76a3-459b-8dab-ba255d22e322")
+	)
+	(label "Vin_5V"
+		(at 165.1 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c8f6798-f5a7-4c42-af44-8c1fe76ebd9e")
+	)
+	(label "Vout_15V"
+		(at 222.25 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30b6d7f9-6b3f-4345-9bac-b33954075ac0")
+	)
+	(label "VBuck_in"
+		(at 110.49 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e02bb9e-df6a-435f-ac35-d718aa687f1b")
+	)
+	(label "Vin_15V"
+		(at 162.56 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40cf0451-0227-4d94-93cf-13d4e9516c6f")
+	)
+	(label "Vin_24V"
+		(at 162.56 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "491b023a-c929-4d20-8eaf-a24f486d4c95")
+	)
+	(label "VBuck_in"
+		(at 110.49 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "492a2eae-7ea0-4c2f-a316-5d62c8c75bfb")
+	)
+	(label "Vout_12V"
+		(at 220.98 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "509f3830-79c1-4aee-ab5c-28c21d15122f")
+	)
+	(label "Vin_12V"
+		(at 162.56 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dddd1bc-9b62-4b5b-8da6-e15d7f96792f")
+	)
+	(label "Vout_5V"
+		(at 204.47 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e09b74b-f3a9-49f4-8875-60a1d3de55e3")
+	)
+	(label "VBuck_in"
+		(at 110.49 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d85096-923a-41d7-aa5e-e300fc2f840a")
+	)
+	(label "Vin_15V"
+		(at 166.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85f2334d-4c4f-453b-b9e4-7b6053bdd515")
+	)
+	(label "Vin_12V"
+		(at 166.37 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8666d6b2-6656-41af-a38b-7e2bb10badd6")
+	)
+	(label "VBuck_in"
+		(at 36.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8934341a-6a09-4d88-b0d4-f06da3b41043")
+	)
+	(label "Vout_12V"
+		(at 204.47 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89f2e771-f4ab-4465-8222-d6384294f961")
+	)
+	(label "VBuck_in"
+		(at 46.99 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b598dda9-b427-4b79-bc2e-0b884a89cd6d")
+	)
+	(label "VBuck_in"
+		(at 110.49 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1e5ba7b-2539-402f-93ae-c0d955af527f")
+	)
+	(label "VBatt_in"
+		(at 62.23 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2d5b8eb-f087-4beb-934f-f588b108cdcd")
+	)
+	(label "Vout_15V"
+		(at 204.47 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0afc743-6dd2-43f1-94d4-c66dfdb0c216")
+	)
+	(label "Vin_24V"
+		(at 166.37 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "debd78c1-349b-407f-885d-9f8f2d2bde40")
+	)
+	(hierarchical_label "Output"
+		(shape tri_state)
+		(at 222.25 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d5514ec-5da3-4f66-b9c0-bba8809c980e")
+	)
+	(hierarchical_label "VBatt"
+		(shape output)
+		(at 44.45 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70e56130-b156-4e22-a27c-0d46ac626399")
+	)
+	(hierarchical_label "Buck_Output"
+		(shape tri_state)
+		(at 180.34 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cef01a22-9241-4cba-96f5-d2467f30ae6f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09cb3f5f-a4c3-4974-9a3f-66aa4943056a")
+		(property "Reference" "#PWR071"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2615e9e-5d57-403a-b919-3c189c931d65")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-F")
+		(at 63.5 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1288450c-7be1-4d13-8173-ea08e1cc4f04")
+		(property "Reference" "J2"
+			(at 74.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-F"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWF"
+			(at 82.55 176.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+			(at 82.55 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 82.55 476.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 82.55 576.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 82.55 676.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 82.55 776.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-F"
+			(at 82.55 876.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3947288-9724-4e76-bfda-358dd143e20e")
+		)
+		(pin "2"
+			(uuid "8f146c3f-0e89-4eff-ba43-832dd0d0f656")
+		)
+		(pin "3"
+			(uuid "ade2dc98-7a87-44e5-977c-36f8176e5539")
+		)
+		(pin "4"
+			(uuid "736692c1-12e6-4a2d-96f0-0d196e5f57f3")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fd1264b-1535-41b2-9892-6009c7ee5c5d")
+		(property "Reference" "#PWR025"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a077bfa2-d8bd-4049-9d4a-2cbcd0628fca")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "290e8cf3-1233-441f-8540-d00bed8def0a")
+		(property "Reference" "#PWR076"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64379d06-6388-4778-a58c-f77a7a3fcb53")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc1e1b6-7653-49de-890d-5f29f8022e1e")
+		(property "Reference" "#PWR070"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3619a551-839f-41bc-bfa6-954c34fd925b")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 118.11 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33fc7be4-6a93-4f79-ad7d-f7c932f3d7ef")
+		(property "Reference" "J17"
+			(at 134.62 49.5301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 134.62 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 134.62 -45.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 134.62 -145.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 134.62 -345.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 134.62 -445.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 134.62 -545.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 134.62 -645.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 134.62 -745.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2fad622-dea1-47e9-a09b-8fe138ca59de")
+		)
+		(pin "2"
+			(uuid "b0f4645b-1b69-45ca-90f6-dd9de704823c")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3478a169-5df7-4676-b2c4-326a7d902b87")
+		(property "Reference" "#PWR075"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6debc905-257f-4119-9ffc-dbcfd390c00a")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-F")
+		(at 231.14 64.77 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee37f23-acea-4d37-b1fe-74d1d3e98998")
+		(property "Reference" "J4"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 241.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWF"
+			(at 247.65 -30.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 247.65 -130.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 247.65 -330.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 247.65 -430.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-F"
+			(at 247.65 -530.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 -630.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 -730.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 -830.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 -930.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40801b02-9f8b-418c-a384-abe4263bc213")
+		)
+		(pin "4"
+			(uuid "35986aee-744b-44b9-9169-a97f984e4b33")
+		)
+		(pin "3"
+			(uuid "51a52178-70b0-48ab-9ac5-682054039b9c")
+		)
+		(pin "2"
+			(uuid "4d727a01-2722-406b-8b70-0b603aa4d422")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30AW-M")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41d9faf0-64f1-4b4d-a969-5f108fd2fbfc")
+		(property "Reference" "J13"
+			(at 190.5 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30AW-M"
+			(at 190.5 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:XT30AWM"
+			(at 190.5 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.china-amass.com/biao/272.html?fbclid=IwZXh0bgNhZW0CMTEAAR1NvX_4aFpbUb2nO8NynRjoma90JrwdPu4OP5agqrddJY_N3HJJ-jDn6Lk_aem_mR-XhVJeUbZ7SJKgTTHkqQ"
+			(at 190.5 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT30; male; PIN: 2; on PCBs; THT; 20A"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7"
+			(at 190.5 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 190.5 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 190.5 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 190.5 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30AW-M"
+			(at 190.5 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e66fb87-59b2-4fa6-92d0-38e02c2c651c")
+		)
+		(pin "1"
+			(uuid "ea75d439-bb9a-47bc-947e-017c64a5d8be")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43fbcf50-ab16-4819-a241-a540fda3385d")
+		(property "Reference" "#PWR078"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5ed33e-ca51-4a4a-87ab-136e47a73c2c")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 118.11 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a95265e-395b-43e8-a170-e43117168757")
+		(property "Reference" "J18"
+			(at 134.62 63.5001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 134.62 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 134.62 -31.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 134.62 -131.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 134.62 -331.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 134.62 -431.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 134.62 -531.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 134.62 -631.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 134.62 -731.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "796251d1-cf32-4fc4-b1d4-a9b52bdb770e")
+		)
+		(pin "1"
+			(uuid "fa30f61c-2198-4d0b-8d7a-832e59e4a289")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5064f39f-b69b-41a3-bcc6-498a237ae927")
+		(property "Reference" "#PWR069"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f758a673-a797-47d2-8669-8d2ab9df2b0f")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b47d676-d931-459c-8b7d-6719b7295d18")
+		(property "Reference" "#PWR080"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cb371bc-69f1-41c8-8ea0-29022303b677")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:SMBJ51CD-M3_H")
+		(at 64.77 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e21a42b-bcf1-404f-8461-e55a3159bddf")
+		(property "Reference" "D1"
+			(at 67.056 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ51CD-M3_H"
+			(at 67.056 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:DIOM5436X244N"
+			(at -28.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf"
+			(at -128.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes 51V 600W Bidir TransZorb 3.5% Tol"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at -328.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-SMBJ51CD-M3/H"
+			(at -428.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SMBJ51CD-M3-H?qs=lBTPRtX1sU%252BY7hek7nzA7Q%3D%3D"
+			(at -528.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -628.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ51CD-M3/H"
+			(at -728.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2410c217-3f48-43ab-aa65-8995bffbd796")
+		)
+		(pin "1"
+			(uuid "ffc7db11-94d5-4fe4-9091-b947a1b7efa6")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f86b92c-ffc9-4060-b899-fa17898ad540")
+		(property "Reference" "#PWR074"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "077e0153-daca-413d-90de-ac59a471c512")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30AW-M")
+		(at 173.99 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "612f5809-e633-4840-a5af-0d571fae2d77")
+		(property "Reference" "J14"
+			(at 190.5 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30AW-M"
+			(at 190.5 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:XT30AWM"
+			(at 190.5 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.china-amass.com/biao/272.html?fbclid=IwZXh0bgNhZW0CMTEAAR1NvX_4aFpbUb2nO8NynRjoma90JrwdPu4OP5agqrddJY_N3HJJ-jDn6Lk_aem_mR-XhVJeUbZ7SJKgTTHkqQ"
+			(at 190.5 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT30; male; PIN: 2; on PCBs; THT; 20A"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7"
+			(at 190.5 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 190.5 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 190.5 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 190.5 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30AW-M"
+			(at 190.5 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0d49d68-d333-4b5f-a596-1e9bc7e5aafa")
+		)
+		(pin "1"
+			(uuid "57b18da7-fd28-4dc1-b685-96424c48443b")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-F")
+		(at 231.14 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a5bb4f-7ba8-49ea-a8f1-413594e25357")
+		(property "Reference" "J5"
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 241.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWF"
+			(at 247.65 -14.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 247.65 -114.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 247.65 -314.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 247.65 -414.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-F"
+			(at 247.65 -514.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 -614.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 -714.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 -814.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 -914.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65e31cf0-7f15-45cd-aeef-ca12c8bd70db")
+		)
+		(pin "4"
+			(uuid "82e5a5bc-421e-49b8-a957-824c55943bdd")
+		)
+		(pin "3"
+			(uuid "794b04e7-7bec-470a-8dbe-c668318e20bf")
+		)
+		(pin "2"
+			(uuid "ddb895ac-316f-4eca-a4bc-e9a248e1dac7")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 118.11 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8163cead-d85a-4d09-8d1e-82dc43a89faa")
+		(property "Reference" "J7"
+			(at 134.62 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 134.62 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 134.62 -17.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 134.62 -117.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 134.62 -317.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 134.62 -417.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 134.62 -517.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 134.62 -617.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 134.62 -717.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c59818ca-ac37-47ab-a602-f4107f1624f5")
+		)
+		(pin "1"
+			(uuid "2fdc3af7-d750-4228-9efb-74b09bf2e5ba")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 118.11 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81bd5e39-247b-41ab-aeb7-ee8f03c34161")
+		(property "Reference" "J8"
+			(at 134.62 95.2501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 134.62 92.7101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 134.62 0.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 134.62 -99.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 134.62 -299.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 134.62 -399.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 134.62 -499.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 134.62 -599.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 134.62 -699.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25045205-5931-4ce6-8a4d-4ab5900f8f41")
+		)
+		(pin "1"
+			(uuid "ce17d35c-24c7-4689-9123-570939c7f877")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0806040.WR")
+		(at 44.45 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "835b97dc-5aac-49a8-ae9d-fbb4a8ffb47b")
+		(property "Reference" "F6"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0806040.WR"
+			(at 53.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:FUSC3216X110N"
+			(at 58.42 146.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-806-datasheet?assetguid=a8479f54-3b43-4b97-8985-2bc550feee6f"
+			(at 58.42 246.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses High Current 40A 36V , FUSE 36V HIGH CURRENT 1206 FA 40A | Series: 806 ,200A @ 36VDC"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 58.42 446.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 58.42 546.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 58.42 646.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 58.42 746.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0806040.WR"
+			(at 58.42 846.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5d2685d-ead4-463c-bc07-5e1f56cb5fa4")
+		)
+		(pin "1"
+			(uuid "c46af794-eb23-4c0e-85c8-f2606159824d")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-M")
+		(at 72.39 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86f049a9-b439-48bb-9e60-8c23f4d263b5")
+		(property "Reference" "J1"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:XT60PWM"
+			(at 91.44 -41.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf"
+			(at 91.44 -141.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 91.44 -341.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 91.44 -441.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 91.44 -541.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 91.44 -641.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-M"
+			(at 91.44 -741.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "213b804c-1701-4f3f-b816-e6d7d78fe844")
+		)
+		(pin "1"
+			(uuid "ad286b8d-3f2f-4084-80c6-bc14a512a8d8")
+		)
+		(pin "2"
+			(uuid "e70f3cb4-9301-40c0-b726-0e89a08f8bb5")
+		)
+		(pin "3"
+			(uuid "29f316e9-ed5f-41d4-87ee-bf5caa542912")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d36ffb-dce3-47af-82f9-927a42af2d21")
+		(property "Reference" "#PWR067"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de00145d-e6a3-47ec-8613-969d3818a528")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-F")
+		(at 231.14 95.25 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "891ad9a6-5c2d-4fdd-bc26-82ee0b75a63b")
+		(property "Reference" "J6"
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 241.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWF"
+			(at 247.65 0.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 247.65 -99.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 247.65 -299.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 247.65 -399.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-F"
+			(at 247.65 -499.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 -599.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 -699.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 -799.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 -899.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87b9a2ec-3320-458d-acd7-6faffdff2ef2")
+		)
+		(pin "4"
+			(uuid "79308938-78f3-44d5-bf41-1831d36fdd0f")
+		)
+		(pin "3"
+			(uuid "58b938b8-6a48-4bce-8f49-100406b87882")
+		)
+		(pin "2"
+			(uuid "8f70866a-21cf-4ae0-a9a5-1409e92b3afd")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2eea82-cb52-4884-a640-dfddd3b11a1c")
+		(property "Reference" "#PWR073"
+			(at 173.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e08a2a-1105-4150-8d3a-d0ef8c3466e7")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afcb43fb-e6e6-4b8a-9b63-0a2677c21a24")
+		(property "Reference" "#PWR072"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c9095c-d02b-4598-a2b5-ae2ebe6a24a4")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0a4bbf-e602-46b3-b305-4e51225e6a49")
+		(property "Reference" "#PWR077"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c897bb49-135e-4cc0-9118-885455675594")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30AW-M")
+		(at 173.99 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5536fe5-5f06-4b6e-a09b-dba5a9004c07")
+		(property "Reference" "J11"
+			(at 190.5 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30AW-M"
+			(at 190.5 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:XT30AWM"
+			(at 190.5 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.china-amass.com/biao/272.html?fbclid=IwZXh0bgNhZW0CMTEAAR1NvX_4aFpbUb2nO8NynRjoma90JrwdPu4OP5agqrddJY_N3HJJ-jDn6Lk_aem_mR-XhVJeUbZ7SJKgTTHkqQ"
+			(at 190.5 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT30; male; PIN: 2; on PCBs; THT; 20A"
+			(at 173.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7"
+			(at 190.5 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 190.5 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 190.5 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 190.5 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30AW-M"
+			(at 190.5 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25259d0c-67fb-4d6a-939a-8058d890dc37")
+		)
+		(pin "1"
+			(uuid "e933cdc3-524a-488f-bf1b-8f358978ca83")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e83f3fd7-ab69-4692-8db7-31baf3700641")
+		(property "Reference" "#PWR079"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f103e27f-5372-446c-a04b-ac2447e23130")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6b7eaa-7c15-4c33-bf77-7ef840f58066")
+		(property "Reference" "#PWR068"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb01f1d3-9f34-4dfe-86a0-194b4c9b4110")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30PW-F")
+		(at 231.14 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f050ecf9-a0db-4143-814c-cfc9553f55ae")
+		(property "Reference" "J3"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 241.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30PWF"
+			(at 247.65 -45.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
+			(at 247.65 -145.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5"
+			(at 247.65 -345.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 247.65 -445.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30PW-F"
+			(at 247.65 -545.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 247.65 -645.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 247.65 -745.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 247.65 -845.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 247.65 -945.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b7ec83-2427-405e-ae5f-0aba7d1b1393")
+		)
+		(pin "4"
+			(uuid "6b7e631f-463d-4982-a257-19e918fa06ed")
+		)
+		(pin "3"
+			(uuid "cae6197e-562c-4a34-b2dc-47e76e1e4874")
+		)
+		(pin "2"
+			(uuid "968e484d-4613-4c04-aca4-d05bcc7aba88")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30AW-M")
+		(at 173.99 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa5f48bb-db57-488b-9df3-5d9551cf08fd")
+		(property "Reference" "J12"
+			(at 190.5 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30AW-M"
+			(at 190.5 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:XT30AWM"
+			(at 190.5 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.china-amass.com/biao/272.html?fbclid=IwZXh0bgNhZW0CMTEAAR1NvX_4aFpbUb2nO8NynRjoma90JrwdPu4OP5agqrddJY_N3HJJ-jDn6Lk_aem_mR-XhVJeUbZ7SJKgTTHkqQ"
+			(at 190.5 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT30; male; PIN: 2; on PCBs; THT; 20A"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7"
+			(at 190.5 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 190.5 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 190.5 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 190.5 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30AW-M"
+			(at 190.5 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a325416e-3d4a-436c-8618-5abd2483ee8f")
+		)
+		(pin "1"
+			(uuid "88e0d712-e7fd-4206-87a3-2d7b04e61ef0")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
