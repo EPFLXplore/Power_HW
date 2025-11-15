@@ -62,15 +62,41 @@
 		)
 		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
 	)
+	(junction
+		(at 165.1 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f0bc19-0343-4cac-a5d4-7df3befcd5ce")
+	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 128.27 99.06)
+			(xy 163.83 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbc2488-2f5b-4719-8aff-e8e6e00b7553")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d285b11-833d-44db-a5c8-f795c1074612")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2e0ad0-2305-464d-8df1-7db6dc44ebb0")
 	)
 	(wire
 		(pts
@@ -84,13 +110,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 128.27 82.55)
+			(xy 118.11 82.55) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53b8ebf3-1413-47c4-aa25-31892463596c")
+	)
+	(wire
+		(pts
+			(xy 118.11 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3f137-2944-419d-a349-5b87cc0e9488")
+	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e55817-8943-4fc7-bea9-702be3d14c56")
 	)
 	(wire
 		(pts
@@ -102,9 +148,19 @@
 		)
 		(uuid "85f60e5c-386a-42c1-a974-649dbb76c929")
 	)
+	(wire
+		(pts
+			(xy 165.1 64.77) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937a981d-381d-4590-9da9-ca36051cf28d")
+	)
 	(bus
 		(pts
-			(xy 165.1 102.87) (xy 172.72 102.87)
+			(xy 163.83 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -121,16 +177,6 @@
 			(type default)
 		)
 		(uuid "ab0f823d-8dfe-493c-b0fd-37182752c7f4")
-	)
-	(wire
-		(pts
-			(xy 118.11 67.31) (xy 172.72 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5bbc38-1db5-4072-a635-bf5aeb028bd2")
 	)
 	(bus
 		(pts
@@ -252,16 +298,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VBatt" input
-			(at 118.11 67.31 0)
-			(uuid "1998bec7-084e-43cb-9228-4c68e3757d62")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Buck_Output" tri_state
 			(at 118.11 82.55 0)
 			(uuid "9e562115-1fba-4879-803a-cfaf1a480f4a")
@@ -282,6 +318,26 @@
 				(justify right)
 			)
 		)
+		(pin "VBatt_safe" input
+			(at 118.11 64.77 0)
+			(uuid "48b06c92-a6b4-4a77-98d6-d5c58ccbdbe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBatt_in" output
+			(at 118.11 80.01 0)
+			(uuid "aa6f2fc4-d6cf-42d1-ba0d-a2981b42ff15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -291,8 +347,8 @@
 		)
 	)
 	(sheet
-		(at 172.72 63.5)
-		(size 36.83 29.21)
+		(at 172.72 62.23)
+		(size 36.83 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -307,7 +363,7 @@
 		)
 		(uuid "20f2e49e-3c3c-4877-a054-2792c8a24538")
 		(property "Sheetname" "LocalPowerGeneration"
-			(at 172.72 62.4709 0)
+			(at 172.72 61.2009 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -327,7 +383,7 @@
 			)
 		)
 		(pin "+VBAT" input
-			(at 172.72 67.31 180)
+			(at 172.72 64.77 180)
 			(uuid "78d4a273-f8e4-4776-87bd-f58ec4c3faaf")
 			(effects
 				(font
@@ -400,36 +456,6 @@
 				(justify left top)
 			)
 		)
-		(pin "FAN" input
-			(at 172.72 134.62 180)
-			(uuid "1c277079-214a-4f43-82f1-f88a0d074db4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TEMP_SENS" input
-			(at 172.72 132.08 180)
-			(uuid "a0da322a-cf95-4c3c-adf3-0600b09a41e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SPI_DISP}" bidirectional
-			(at 172.72 129.54 180)
-			(uuid "d5f6161e-659d-44ea-bf79-c693aaf19b60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{SHDN_CTRL}" bidirectional
 			(at 172.72 102.87 180)
 			(uuid "4e2e8c19-2a82-4963-9c6c-0aa70bbf0d66")
@@ -450,16 +476,6 @@
 				(justify left)
 			)
 		)
-		(pin "FAN_CTRL" output
-			(at 172.72 127 180)
-			(uuid "b07e38af-8e03-4892-a587-5333199d84f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -469,8 +485,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 74.93)
-		(size 36.83 30.48)
+		(at 127 69.85)
+		(size 36.83 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -485,7 +501,7 @@
 		)
 		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
 		(property "Sheetname" "ProtectionCircuitry"
-			(at 128.27 73.9009 0)
+			(at 127 68.8209 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -495,7 +511,7 @@
 			)
 		)
 		(property "Sheetfile" "ProtectionCircuitry.kicad_sch"
-			(at 128.27 105.9946 0)
+			(at 127 105.9946 0)
 			(effects
 				(font
 					(face "Arial")
@@ -505,7 +521,7 @@
 			)
 		)
 		(pin "{Buck Inputs}" tri_state
-			(at 128.27 82.55 180)
+			(at 127 82.55 180)
 			(uuid "f4b07632-b623-4912-96f3-4cab773fd71a")
 			(effects
 				(font
@@ -515,7 +531,7 @@
 			)
 		)
 		(pin "{Safe Output}" tri_state
-			(at 128.27 99.06 180)
+			(at 127 99.06 180)
 			(uuid "50f9e3c4-a3d3-41c1-b011-0d32e8df9bb5")
 			(effects
 				(font
@@ -525,8 +541,28 @@
 			)
 		)
 		(pin "{SHDN_CTRL}" tri_state
-			(at 165.1 102.87 0)
+			(at 163.83 102.87 0)
 			(uuid "8450ccdd-5d22-4811-bd38-eba2215d8af6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBatt" input
+			(at 127 80.01 180)
+			(uuid "06e31911-1aa5-40a7-a82c-ee8940661427")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBatt_safe" output
+			(at 163.83 72.39 0)
+			(uuid "302bdefd-a9de-4630-9d90-9736aa391dc6")
 			(effects
 				(font
 					(size 1.27 1.27)

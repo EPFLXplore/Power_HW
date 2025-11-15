@@ -11,173 +11,6 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols
-		(symbol "SamacSys_Parts:0806040.WR"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "0806040.WR"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "FUSC3216X110N"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-806-datasheet?assetguid=a8479f54-3b43-4b97-8985-2bc550feee6f"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Surface Mount Fuses High Current 40A 36V , FUSE 36V HIGH CURRENT 1206 FA 40A | Series: 806 ,200A @ 36VDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "LITTELFUSE"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "0806040.WR"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "0806040.WR_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:SMBJ51CD-M3_H"
 			(pin_names
 				(hide yes)
@@ -1779,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 50.8) (xy 44.45 50.8)
+			(xy 55.88 81.28) (xy 63.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1986,16 +1819,6 @@
 			(type default)
 		)
 		(uuid "c6276270-f033-4995-9195-bf52c4f78419")
-	)
-	(wire
-		(pts
-			(xy 44.45 81.28) (xy 63.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd0b4a1-38a0-4a68-b358-64ff7cd5875a")
 	)
 	(wire
 		(pts
@@ -2258,7 +2081,7 @@
 		(uuid "8666d6b2-6656-41af-a38b-7e2bb10badd6")
 	)
 	(label "VBuck_in"
-		(at 36.83 50.8 0)
+		(at 55.88 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,16 +2099,6 @@
 			(justify left bottom)
 		)
 		(uuid "89f2e771-f4ab-4465-8222-d6384294f961")
-	)
-	(label "VBuck_in"
-		(at 46.99 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b598dda9-b427-4b79-bc2e-0b884a89cd6d")
 	)
 	(label "VBuck_in"
 		(at 110.49 92.71 0)
@@ -2338,16 +2151,27 @@
 		)
 		(uuid "3d5514ec-5da3-4f66-b9c0-bba8809c980e")
 	)
-	(hierarchical_label "VBatt"
-		(shape output)
-		(at 44.45 81.28 180)
+	(hierarchical_label "VBatt_safe"
+		(shape input)
+		(at 55.88 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "70e56130-b156-4e22-a27c-0d46ac626399")
+		(uuid "ac48d2bb-72fd-4e10-b107-a1a60a5c8274")
+	)
+	(hierarchical_label "VBatt_in"
+		(shape output)
+		(at 62.23 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad0fa8bd-fa41-4634-96aa-bd460a013d7a")
 	)
 	(hierarchical_label "Buck_Output"
 		(shape tri_state)
@@ -4219,126 +4043,6 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0806040.WR")
-		(at 44.45 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "835b97dc-5aac-49a8-ae9d-fbb4a8ffb47b")
-		(property "Reference" "F6"
-			(at 53.34 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0806040.WR"
-			(at 53.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:FUSC3216X110N"
-			(at 58.42 146.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-806-datasheet?assetguid=a8479f54-3b43-4b97-8985-2bc550feee6f"
-			(at 58.42 246.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Fuses High Current 40A 36V , FUSE 36V HIGH CURRENT 1206 FA 40A | Series: 806 ,200A @ 36VDC"
-			(at 44.45 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.1"
-			(at 58.42 446.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 58.42 546.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 58.42 646.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 58.42 746.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0806040.WR"
-			(at 58.42 846.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5d2685d-ead4-463c-bc07-5e1f56cb5fa4")
-		)
-		(pin "1"
-			(uuid "c46af794-eb23-4c0e-85c8-f2606159824d")
-		)
-		(instances
-			(project "Bucky++"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
-					(reference "F6")
 					(unit 1)
 				)
 			)
