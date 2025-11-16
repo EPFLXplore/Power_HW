@@ -356,6 +356,86 @@
 		)
 		(uuid "f83749c6-b936-446a-aba7-d64f007662b2")
 	)
+	(label "Vin_5V"
+		(at 57.15 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fbe62b5-4904-409a-a1b7-55bb15e944d7")
+	)
+	(label "Vin_15V"
+		(at 57.15 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "301382b4-102d-450b-9469-0334e3ceda16")
+	)
+	(label "5V_safe"
+		(at 154.94 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37973630-4668-4d3b-b12a-2dfe0a3ada88")
+	)
+	(label "24V_safe"
+		(at 154.94 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "559962f9-d615-432d-a724-9da95707fafb")
+	)
+	(label "Vin_24V"
+		(at 57.15 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68364108-016f-4076-9a67-13a21b23f035")
+	)
+	(label "Vin_12V"
+		(at 57.15 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7748c301-efbb-4679-bb6b-bcde3ee0e1e8")
+	)
+	(label "12V_safe"
+		(at 154.94 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c849afb-c41c-4923-86e2-38c25d7195df")
+	)
+	(label "15V_safe"
+		(at 154.94 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1c9685e-3da4-4904-a84a-1f9f2294c150")
+	)
 	(hierarchical_label "{SHDN_CTRL}"
 		(shape tri_state)
 		(at 161.29 44.45 0)
@@ -367,7 +447,7 @@
 		)
 		(uuid "044cf062-bbc6-4b15-a378-bbfeb0768a7d")
 	)
-	(hierarchical_label "{Buck Inputs}"
+	(hierarchical_label "{Buck_Outputs}"
 		(shape tri_state)
 		(at 43.18 38.1 180)
 		(effects
@@ -378,7 +458,7 @@
 		)
 		(uuid "2ee14a57-9b21-46c7-93ed-e6323baf670b")
 	)
-	(hierarchical_label "{Safe Output}"
+	(hierarchical_label "{Safe_Outputs}"
 		(shape tri_state)
 		(at 165.1 68.58 0)
 		(effects
