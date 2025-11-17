@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "81bbb1f3-b845-49d8-b70b-497a257eed5b")
 	(paper "A4")
+	(title_block
+		(title "Reverse_Current_Protection")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1580,50 +1583,218 @@
 		)
 	)
 	(rectangle
-		(start 19.05 161.29)
-		(end 88.9 193.04)
+		(start 144.78 99.06)
+		(end 265.43 154.94)
 		(stroke
-			(width 0)
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 42210c96-6002-4451-9b1b-ea4f861bf98b)
+	)
+	(rectangle
+		(start 17.78 160.02)
+		(end 92.71 193.04)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 619e328b-af76-4d2e-b60e-227d096dfc3e)
+	)
+	(rectangle
+		(start 144.78 35.56)
+		(end 265.43 95.25)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85710a90-bf2c-4a63-a1df-c6373fd5872c)
+	)
+	(rectangle
+		(start 17.78 35.56)
+		(end 138.43 95.25)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d142a1f8-4ca4-4bbe-a3a2-66362954fe47)
+	)
+	(rectangle
+		(start 17.78 99.06)
+		(end 138.43 154.94)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e17a6791-a87a-4f20-a521-52dc36334906)
+	)
+	(text_box "DESIGN NOTE:\nTVS diodes are added to protect the chip and MOSFETS\n"
+		(exclude_from_sim no)
+		(at 17.78 22.86 0)
+		(size 36.83 10.16)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4ecd2641-e29a-4802-b2f4-09b5d7441ab7")
+	)
+	(text_box "5V Rail"
+		(exclude_from_sim no)
+		(at 86.36 87.63 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "97c5bb22-04d1-4dc5-a691-0a42f4bd2978")
+	)
+	(text_box "DESIGN NOTE:\nISC016N04NM7V was chosen as it can hold 40V and up to 174A.\n\nWith power dissipation of over 80W, this is more than enough even for the main input as P=I2R. This Transistor can theoretically hold over 200A.\n\n"
+		(exclude_from_sim no)
+		(at 228.6 13.97 0)
+		(size 36.83 20.32)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "98b91092-9c32-4d48-9a16-1752e769dfbe")
+	)
+	(text_box "12V Rail"
+		(exclude_from_sim no)
+		(at 214.63 87.63 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "9dc0f779-1dbb-4db8-a94c-70ca9c8c8fa0")
+	)
+	(text_box "15V Rail"
+		(exclude_from_sim no)
+		(at 86.36 147.32 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ad07985f-aece-4765-ac2c-74d87c6fd06d")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 58.42 17.78 0)
+		(size 167.64 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
 			(type default)
 		)
 		(fill
 			(type none)
 		)
-		(uuid 4dedbc12-b8a0-4e85-961f-8a59a5a36f81)
-	)
-	(text "Control\n"
-		(exclude_from_sim no)
-		(at 29.21 166.116 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.2)
 				(bold yes)
-				(color 18 0 255 1)
+				(color 162 22 34 1)
 			)
 		)
-		(uuid "3265c34a-1d39-4e03-adfe-1e9b6bd48a20")
+		(uuid "b13674ee-8580-483b-aa1f-9c10954c39cd")
 	)
-	(text "Reverse Current Protection\n"
+	(text_box "24V Rail"
 		(exclude_from_sim no)
-		(at 105.41 30.226 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 18 0 255 1)
-			)
-		)
-		(uuid "8720f1f5-d18c-44eb-97a7-c8998a721ce3")
-	)
-	(text_box "Reverse current protection to protect and shutdown the current in case of an issue in the bucks. Schematics adapted from GEODE\n"
-		(exclude_from_sim no)
-		(at 139.7 10.16 0)
-		(size 53.34 22.86)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+		(at 213.36 147.32 0)
+		(size 50.8 6.985)
+		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
-			(width 0.0508)
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
@@ -1631,35 +1802,15 @@
 		)
 		(effects
 			(font
-				(face "Arial")
+				(face "Times New Roman")
 				(size 2.54 2.54)
-				(color 0 0 0 1)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
 			)
-			(justify top)
+			(justify bottom)
 		)
-		(uuid "ab7ca21a-0b4a-41cb-90d6-40e492a26f78")
-	)
-	(text_box "A TVS Diode is added to protect against voltage spikes after each buck output "
-		(exclude_from_sim no)
-		(at 19.05 17.78 0)
-		(size 53.34 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0.0508)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.54 2.54)
-				(color 0 0 0 1)
-			)
-			(justify top)
-		)
-		(uuid "d9d5f88b-ad72-4690-b68f-7c33f03c4b53")
+		(uuid "c535acd0-9da0-4733-9e52-4ae696a406db")
 	)
 	(junction
 		(at 80.645 63.5)
@@ -4133,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -4491,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -4815,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 50.8 111.76 0)
 			(effects
 				(font
@@ -5040,7 +5191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -6151,7 +6302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -6237,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -6461,7 +6612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 204.47 110.49 0)
 			(effects
 				(font
@@ -6613,7 +6764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
 			(at 172.72 50.8 0)
 			(effects
 				(font

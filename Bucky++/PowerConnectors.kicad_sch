@@ -1216,6 +1216,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 154.94 39.37)
@@ -1341,14 +1442,15 @@
 		)
 		(uuid "78302fd9-5a5d-4078-9a01-bad0315c5eee")
 	)
-	(text_box "The battery is directly connected to Bucky via J1 and the power is directly transfered to the motors through J2. It is also connected to the bucks' input through VBuck_in. The output of the buck are then connected to their respective voltage nets. The same ground is used for the whole board.\n"
+	(text_box "DESIGN NOTE:\nThe battery is directly connected to Bucky via J1 and the power is directly transfered to the motors through J2. It is also connected to the bucks' input through VBuck_in. \nThe output of the buck are then connected to their respective voltage nets. \nThe same ground is used for the whole board.\n"
 		(exclude_from_sim no)
-		(at 21.59 154.94 0)
-		(size 60.96 40.64)
-		(margins 0.9525 0.9525 0.9525 0.9525)
+		(at 33.02 120.65 0)
+		(size 38.1 27.94)
+		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
-			(width 0.0508)
+			(width 0.8)
 			(type solid)
+			(color 200 200 200 1)
 		)
 		(fill
 			(type none)
@@ -1356,12 +1458,13 @@
 		(effects
 			(font
 				(face "Arial")
-				(size 2.54 2.54)
+				(size 1.27 1.27)
+				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify top)
+			(justify left top)
 		)
-		(uuid "9019e2e7-d1a8-45c5-8014-962531cc4914")
+		(uuid "897986ca-4eb6-4395-a29f-10305cbd6e2a")
 	)
 	(text_box "Buck Output\n"
 		(exclude_from_sim no)
@@ -1409,6 +1512,12 @@
 			)
 		)
 		(uuid "fa4a8a86-ff7e-414e-8c2f-e2f89075d3d6")
+	)
+	(junction
+		(at 71.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85d80d55-cb9d-4e84-b956-b7a75372c0fb")
 	)
 	(junction
 		(at 64.77 50.8)
@@ -1469,7 +1578,7 @@
 		(uuid "fd104363-5bf5-4bf0-a60e-7b1cf83d85fc")
 	)
 	(bus_entry
-		(at 214.63 138.43)
+		(at 231.14 137.16)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1478,7 +1587,7 @@
 		(uuid "67a31896-7c6a-4186-917b-5d39187ceae5")
 	)
 	(bus_entry
-		(at 214.63 143.51)
+		(at 231.14 142.24)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1487,7 +1596,7 @@
 		(uuid "890f2fc2-4bcb-49a5-9086-4fa7596e8b0a")
 	)
 	(bus_entry
-		(at 172.72 143.51)
+		(at 179.07 142.24)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1496,7 +1605,7 @@
 		(uuid "9cbd231a-ebb2-4590-967c-bb1e6a4aaf93")
 	)
 	(bus_entry
-		(at 214.63 128.27)
+		(at 231.14 127)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1505,7 +1614,7 @@
 		(uuid "a056aa8a-06b3-4a13-9cdb-587dc75de65c")
 	)
 	(bus_entry
-		(at 172.72 133.35)
+		(at 179.07 132.08)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1514,7 +1623,7 @@
 		(uuid "adf1c864-db25-4e0b-abfe-948d22101341")
 	)
 	(bus_entry
-		(at 214.63 133.35)
+		(at 231.14 132.08)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1523,7 +1632,7 @@
 		(uuid "ba549e80-f43a-488a-966e-ee39bb7d64c2")
 	)
 	(bus_entry
-		(at 172.72 138.43)
+		(at 179.07 137.16)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1532,7 +1641,7 @@
 		(uuid "c2a5fbe7-0378-4ff1-9d21-e9d6fe8760b7")
 	)
 	(bus_entry
-		(at 172.72 128.27)
+		(at 179.07 127)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1542,7 +1651,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 128.27) (xy 214.63 124.46)
+			(xy 231.14 127) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1552,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 72.39 50.8)
+			(xy 64.77 50.8) (xy 71.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1671,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 143.51) (xy 214.63 138.43)
+			(xy 231.14 142.24) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 135.89) (xy 212.09 135.89)
+			(xy 220.98 134.62) (xy 228.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1701,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 133.35) (xy 172.72 128.27)
+			(xy 179.07 132.08) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 130.81) (xy 212.09 130.81)
+			(xy 220.98 129.54) (xy 228.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1731,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 124.46) (xy 222.25 124.46)
+			(xy 231.14 123.19) (xy 238.76 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1751,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 138.43) (xy 172.72 133.35)
+			(xy 179.07 137.16) (xy 179.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1781,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 124.46) (xy 180.34 124.46)
+			(xy 179.07 123.19) (xy 186.69 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1682,13 +1791,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 146.05) (xy 170.18 146.05)
+			(xy 168.91 144.78) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7454b0ed-c924-42d5-bc34-76e61fe28a4d")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac9280e-cd2f-4058-9011-d408a370a905")
 	)
 	(wire
 		(pts
@@ -1742,7 +1861,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 138.43) (xy 214.63 133.35)
+			(xy 231.14 137.16) (xy 231.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 130.81) (xy 170.18 130.81)
+			(xy 168.91 129.54) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1772,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 135.89) (xy 170.18 135.89)
+			(xy 168.91 134.62) (xy 176.53 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1901,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 133.35) (xy 214.63 128.27)
+			(xy 231.14 132.08) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 146.05) (xy 212.09 146.05)
+			(xy 220.98 144.78) (xy 228.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +1981,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 143.51) (xy 172.72 138.43)
+			(xy 179.07 142.24) (xy 179.07 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 140.97) (xy 212.09 140.97)
+			(xy 220.98 139.7) (xy 228.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 140.97) (xy 170.18 140.97)
+			(xy 168.91 139.7) (xy 176.53 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +2031,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 128.27) (xy 172.72 124.46)
+			(xy 179.07 127) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +2050,7 @@
 		(uuid "029a5a02-a087-4458-9d08-18ccde4f72f0")
 	)
 	(label "Vin_5V"
-		(at 162.56 130.81 0)
+		(at 168.91 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +2060,7 @@
 		(uuid "10c2ad58-d770-4ec9-a932-205b0c482fa1")
 	)
 	(label "out24V"
-		(at 204.47 146.05 0)
+		(at 220.98 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,7 +2110,7 @@
 		(uuid "3e02bb9e-df6a-435f-ac35-d718aa687f1b")
 	)
 	(label "Vin_15V"
-		(at 162.56 140.97 0)
+		(at 168.91 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,7 +2120,7 @@
 		(uuid "40cf0451-0227-4d94-93cf-13d4e9516c6f")
 	)
 	(label "Vin_24V"
-		(at 162.56 146.05 0)
+		(at 168.91 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,7 +2150,7 @@
 		(uuid "509f3830-79c1-4aee-ab5c-28c21d15122f")
 	)
 	(label "Vin_12V"
-		(at 162.56 135.89 0)
+		(at 168.91 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2041,7 +2160,7 @@
 		(uuid "6dddd1bc-9b62-4b5b-8da6-e15d7f96792f")
 	)
 	(label "out5V"
-		(at 204.47 130.81 0)
+		(at 220.98 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,7 +2210,7 @@
 		(uuid "8934341a-6a09-4d88-b0d4-f06da3b41043")
 	)
 	(label "out12V"
-		(at 204.47 135.89 0)
+		(at 220.98 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2121,7 +2240,7 @@
 		(uuid "c2d5b8eb-f087-4beb-934f-f588b108cdcd")
 	)
 	(label "out15V"
-		(at 204.47 140.97 0)
+		(at 220.98 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2142,7 +2261,7 @@
 	)
 	(hierarchical_label "{Shunt_Outputs}"
 		(shape tri_state)
-		(at 222.25 124.46 0)
+		(at 238.76 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2294,7 @@
 	)
 	(hierarchical_label "{Buck_Outputs}"
 		(shape tri_state)
-		(at 180.34 124.46 0)
+		(at 186.69 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4701,6 +4820,72 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce163064-d124-4028-8d27-625ca2153b18")
+		(property "Reference" "#FLG07"
+			(at 71.12 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea06250-746f-4015-a52a-db4ef7d66f4e")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
