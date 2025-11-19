@@ -4030,10 +4030,10 @@
 		)
 		(uuid "78492bcd-561d-4643-bd02-a7dc24bdaf2a")
 	)
-	(text_box "DESIGN NOTE:\nA current slew rate can be set by limiting the input current at I_INRUSH = CL • 10µA/C26\nHere we set it at x.xA.\n\nA timer during which the max current is exceeded can be set using the formula: C(nF) = 62 • t(ms)\nHere we set it at 1ms"
+	(text_box "DESIGN NOTE:\nA current slew rate can be set by limiting the input current at I_INRUSH = CL • 10µA/C26\nWith CL being the capacitance on the Nav Board (2*68uF = 136uF)\nHere we set it at 0.62A.\n\nA timer during which the max current is exceeded can be set using the formula: C(nF) = 62 • t(ms)\nHere we set it at 1ms"
 		(exclude_from_sim no)
 		(at 384.81 43.18 0)
-		(size 21.59 31.75)
+		(size 21.59 43.18)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
@@ -4127,7 +4127,7 @@
 	)
 	(text_box "DESIGN NOTE:\nA 1mOhm Shunt resistor is used to set the current limit at 47A (I=47mV/1mOhm).\n\nUsing a votage divider, UV was set at roughly 22V (1.233V on the ON pin)."
 		(exclude_from_sim no)
-		(at 384.81 77.47 0)
+		(at 384.81 88.9 0)
 		(size 21.59 24.13)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -13242,7 +13242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n X7R 50V"
+		(property "Value" "2.2n X7R 50V"
 			(at 330.2 102.87 0)
 			(effects
 				(font
