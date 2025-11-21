@@ -10153,6 +10153,10 @@
 		(uuid "60b11a8b-36dc-4aa3-806b-f868360cc972")
 	)
 	(no_connect
+		(at 321.31 76.2)
+		(uuid "6a4e8d48-5a10-499f-b42c-92e8b4afdce8")
+	)
+	(no_connect
 		(at 321.31 58.42)
 		(uuid "7258e54d-a826-4385-add2-8729badfa3d9")
 	)
@@ -10211,6 +10215,10 @@
 	(no_connect
 		(at 346.71 101.6)
 		(uuid "abee68e3-66e5-4241-8568-6f8f00000530")
+	)
+	(no_connect
+		(at 321.31 81.28)
+		(uuid "aed0d512-8a7a-4411-89af-971b9b74da6a")
 	)
 	(no_connect
 		(at 127 48.26)
@@ -12018,16 +12026,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.785 81.28) (xy 321.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a34e690f-2608-40bd-b9ee-99a42f84bbf8")
-	)
-	(wire
-		(pts
 			(xy 26.67 200.025) (xy 30.48 200.025)
 		)
 		(stroke
@@ -12979,16 +12977,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.785 76.2) (xy 321.31 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77065bb-5ae8-4c16-8e0e-ccf0af6e8350")
-	)
-	(wire
-		(pts
 			(xy 310.515 144.145) (xy 310.515 144.78)
 		)
 		(stroke
@@ -13097,16 +13085,6 @@
 		)
 		(uuid "0a4159b2-69ea-4c84-aaf3-ec0834d74705")
 	)
-	(label "APWM"
-		(at 311.785 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e10f52f-48de-416d-8ec1-0b35fbc71262")
-	)
 	(label "MV24_SHDN"
 		(at 216.535 222.885 0)
 		(effects
@@ -13186,16 +13164,6 @@
 			(justify right bottom)
 		)
 		(uuid "228b7b6b-f1bc-4ec2-a905-7876b06ee2b2")
-	)
-	(label "nSHDN"
-		(at 311.785 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "292c3edf-548e-4b9c-8e0c-6c01ed2b70a0")
 	)
 	(label "SPI1_NSS0"
 		(at 85.09 101.6 180)
@@ -15640,7 +15608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55ed4517-10c8-476e-a975-fda633f12207")
-		(property "Reference" "U401"
+		(property "Reference" "U1"
 			(at 93.98 33.655 0)
 			(effects
 				(font
@@ -15881,7 +15849,7 @@
 		(instances
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
-					(reference "U401")
+					(reference "U1")
 					(unit 1)
 				)
 			)
