@@ -687,6 +687,398 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Management:ADM1270ACPZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADM1270ACPZ"
+				(at 2.54 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm"
+				(at 3.81 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1270.pdf"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage Input Protection Device"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "high-voltage mosfet-driver hot-swap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LFCSP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADM1270ACPZ_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADM1270ACPZ_1_0"
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADM1270ACPZ_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "UV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "OV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "RPFG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "VCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "SENSE-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 15.24 270)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "FLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "FB_PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TIMER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TIMER_OFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "PWRGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:LT1641-2"
 			(pin_names
 				(offset 1.016)
@@ -4125,7 +4517,7 @@
 		)
 		(uuid "d0a078f1-15ab-45f1-899e-c92d3c9a8924")
 	)
-	(text_box "DESIGN NOTE:\nA 1mOhm Shunt resistor is used to set the current limit at 47A (I=47mV/1mOhm).\n\nUsing a votage divider, UV was set at roughly 22V (1.233V on the ON pin)."
+	(text_box "DESIGN NOTE:\nA 1mOhm Shunt resistor is used to set the current limit at 50A (I=50mV/1mOhm).\n\nUsing a votage divider, UV was set at roughly 22V (1.233V on the ON pin)."
 		(exclude_from_sim no)
 		(at 384.81 88.9 0)
 		(size 21.59 24.13)
@@ -4269,12 +4661,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c0dc9d8-4d90-4738-92c2-42060d9fe781")
-	)
-	(junction
-		(at 290.83 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e764169-10ba-452b-8be9-e86649de6875")
 	)
 	(junction
 		(at 219.71 156.21)
@@ -4601,12 +4987,6 @@
 		(uuid "a3e2f473-f858-4459-8c9c-f0873f855ead")
 	)
 	(junction
-		(at 290.83 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7196ff0-114c-4e59-bfab-4e0ab1ddea30")
-	)
-	(junction
 		(at 31.75 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4713,6 +5093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db902c29-ffa9-47ae-8cb9-dcdc367aa663")
+	)
+	(junction
+		(at 351.79 -54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de81840c-e30c-404c-a353-e0981612c2e8")
 	)
 	(junction
 		(at 95.25 198.12)
@@ -5202,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 -11.43) (xy 341.63 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a487506-faf9-4ec6-8f4e-da3b247daeff")
+	)
+	(wire
+		(pts
 			(xy 219.71 168.91) (xy 219.71 171.45)
 		)
 		(stroke
@@ -5552,6 +5948,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 -34.29) (xy 351.79 -54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ad2da4-bd5c-455d-a4be-ec96f6fab76a")
+	)
+	(wire
+		(pts
+			(xy 346.71 -36.83) (xy 346.71 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587e2b51-b0d7-4d6d-97fc-9e55327be89b")
+	)
+	(wire
+		(pts
 			(xy 40.64 190.5) (xy 52.07 190.5)
 		)
 		(stroke
@@ -5752,6 +6168,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 -16.51) (xy 340.36 -16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7972fede-3375-42ee-92aa-d825152eb187")
+	)
+	(wire
+		(pts
 			(xy 99.06 69.85) (xy 99.06 67.31)
 		)
 		(stroke
@@ -5882,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 -13.97) (xy 335.28 -1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b22635-77c6-4e55-b998-eeea95a4ca79")
+	)
+	(wire
+		(pts
 			(xy 158.75 83.82) (xy 158.75 85.09)
 		)
 		(stroke
@@ -5932,6 +6368,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 -13.97) (xy 335.28 -13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8031a4-6e4c-4a29-b4c6-2dc6c1f65d6f")
+	)
+	(wire
+		(pts
 			(xy 327.66 64.77) (xy 327.66 66.04)
 		)
 		(stroke
@@ -5969,6 +6415,16 @@
 			(type default)
 		)
 		(uuid "911a28ba-225d-4564-8c0a-bf76886f6471")
+	)
+	(wire
+		(pts
+			(xy 351.79 -62.23) (xy 351.79 -54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93cbb1c8-baee-45ef-8f15-a12ef40a8999")
 	)
 	(wire
 		(pts
@@ -6072,6 +6528,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 -52.07) (xy 361.95 -34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba77974-3629-4e26-ac0f-b7e47cda12bd")
+	)
+	(wire
+		(pts
 			(xy 34.29 179.07) (xy 52.07 179.07)
 		)
 		(stroke
@@ -6152,7 +6618,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 95.25) (xy 290.83 95.25)
+			(xy 280.67 95.25) (xy 303.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6272,6 +6738,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 -1.27) (xy 367.03 -1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68253f4-fc5f-49e8-bde1-fbdb6a793bc1")
+	)
+	(wire
+		(pts
 			(xy 280.67 110.49) (xy 280.67 111.76)
 		)
 		(stroke
@@ -6352,6 +6828,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 -54.61) (xy 346.71 -54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0862077-888b-46c8-9e8b-c656c0c99239")
+	)
+	(wire
+		(pts
 			(xy 99.06 67.31) (xy 99.06 64.77)
 		)
 		(stroke
@@ -6392,6 +6878,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 -11.43) (xy 367.03 -1.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd3794c-728d-4d9f-bd0c-95eab5937db3")
+	)
+	(wire
+		(pts
 			(xy 55.88 102.87) (xy 55.88 113.03)
 		)
 		(stroke
@@ -6399,16 +6895,6 @@
 			(type default)
 		)
 		(uuid "ce4620f3-49a9-40b0-9f1b-2454a6d1e4e1")
-	)
-	(wire
-		(pts
-			(xy 290.83 95.25) (xy 303.53 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce80adcb-518d-4d41-825a-24d3882c35b5")
 	)
 	(wire
 		(pts
@@ -6479,6 +6965,16 @@
 			(type default)
 		)
 		(uuid "d7d1a5a3-63cc-4fda-8b3d-404ee0d428f3")
+	)
+	(wire
+		(pts
+			(xy 354.33 -62.23) (xy 351.79 -62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9669f2f-80b4-43ba-87e7-742886ae98aa")
 	)
 	(wire
 		(pts
@@ -6592,6 +7088,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 -16.51) (xy 340.36 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6feae04-9e35-4c44-8df3-932119ce21d8")
+	)
+	(wire
+		(pts
 			(xy 340.36 92.71) (xy 340.36 97.79)
 		)
 		(stroke
@@ -6659,6 +7165,16 @@
 			(type default)
 		)
 		(uuid "ed7e35bb-f7f7-4e64-ad9d-dc50748c7bad")
+	)
+	(wire
+		(pts
+			(xy 351.79 -3.81) (xy 356.87 -3.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef522d8d-6fd8-4e5d-9f11-25c26e2c4d38")
 	)
 	(wire
 		(pts
@@ -15370,6 +15886,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:ADM1270ACPZ")
+		(at 354.33 -19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a3dfb76-0923-45ab-b470-210e8c921dfd")
+		(property "Reference" "U4"
+			(at 359.0133 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADM1270ACPZ"
+			(at 359.0133 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm"
+			(at 358.14 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1270.pdf"
+			(at 354.33 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage Input Protection Device"
+			(at 355.6 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "219d8fa0-97c4-4113-89f8-460736deb9f7")
+		)
+		(pin "9"
+			(uuid "2f6d7ba9-e30c-4431-8b95-4efc1262d61f")
+		)
+		(pin "5"
+			(uuid "7248cde5-7e32-4741-8d1c-11122fc13a37")
+		)
+		(pin "2"
+			(uuid "2db23a21-1550-443a-b472-d7378d39ebc5")
+		)
+		(pin "15"
+			(uuid "372b6b64-7eb1-4779-bcd6-4827d32737f0")
+		)
+		(pin "17"
+			(uuid "2116a051-bb4f-4fe2-b125-1c50570def3a")
+		)
+		(pin "3"
+			(uuid "7d1e8492-ef95-4eaa-bb08-20c82960dc27")
+		)
+		(pin "1"
+			(uuid "1dc8438f-a7d6-4016-8b47-97abd636df06")
+		)
+		(pin "8"
+			(uuid "09b142fb-6ac8-4748-8602-02bd7fc04a3f")
+		)
+		(pin "7"
+			(uuid "5b18225b-5739-4ca2-be8c-36e127ae120f")
+		)
+		(pin "13"
+			(uuid "36b50f47-166e-4020-bbde-5d9874a57355")
+		)
+		(pin "11"
+			(uuid "d87e8c41-fcc9-4757-93ed-b9a94da29041")
+		)
+		(pin "4"
+			(uuid "155566a1-9e36-42b0-98e8-db20ae6c50c8")
+		)
+		(pin "14"
+			(uuid "54d7f94d-56a5-4de7-be11-08b9afd1d85d")
+		)
+		(pin "10"
+			(uuid "201c0688-ec51-4d30-836c-a8032e2c6982")
+		)
+		(pin "12"
+			(uuid "f085629a-e6cc-4a89-941c-2a11c05de606")
+		)
+		(pin "6"
+			(uuid "156b1a12-1a99-4986-aa6c-df604adda945")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/94d32dcc-fc6d-4e4f-aae9-13bdaaae099f"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 102.87 0)
 		(unit 1)
@@ -15437,7 +16068,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:WSL39211L000JEA")
-		(at 290.83 95.25 90)
+		(at 346.71 -36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15446,7 +16077,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f13b7be-5827-4472-979b-ad0b88a652aa")
 		(property "Reference" "R39"
-			(at 293.37 85.0899 90)
+			(at 349.25 -46.9901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +16086,7 @@
 			)
 		)
 		(property "Value" "WSL39211L000JEA"
-			(at 293.37 87.6299 90)
+			(at 349.25 -44.4501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15464,7 +16095,7 @@
 			)
 		)
 		(property "Footprint" "WSL39211L000JEA"
-			(at 387.02 81.28 0)
+			(at 442.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +16105,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/30110/wsl3921-wsl5931.pdf"
-			(at 487.02 81.28 0)
+			(at 542.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +16115,7 @@
 			)
 		)
 		(property "Description" "1 mOhms +/-5% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
-			(at 290.83 95.25 0)
+			(at 346.71 -36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15493,7 +16124,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 687.02 81.28 0)
+			(at 742.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15503,7 +16134,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 787.02 81.28 0)
+			(at 842.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15513,7 +16144,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 887.02 81.28 0)
+			(at 942.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15523,7 +16154,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 987.02 81.28 0)
+			(at 1042.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15533,7 +16164,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "WSL39211L000JEA"
-			(at 1087.02 81.28 0)
+			(at 1142.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15543,7 +16174,7 @@
 			)
 		)
 		(property "Allied_Number" "71589971"
-			(at 1187.02 81.28 0)
+			(at 1242.9 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15559,7 +16190,7 @@
 			(uuid "8a498ac1-b6f9-4b38-ad01-3bd9fb20d8c9")
 		)
 		(instances
-			(project ""
+			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/94d32dcc-fc6d-4e4f-aae9-13bdaaae099f"
 					(reference "R39")
 					(unit 1)
@@ -17066,7 +17697,7 @@
 	)
 	(symbol
 		(lib_id "ISC016N04NM7V:ISC016N04NM7V")
-		(at 308.61 69.85 90)
+		(at 359.41 -57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17074,7 +17705,7 @@
 		(dnp no)
 		(uuid "7decb7ff-48c7-437e-88e9-a0c4e6baa7e0")
 		(property "Reference" "Q9"
-			(at 303.53 61.468 90)
+			(at 354.33 -65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17082,7 +17713,7 @@
 			)
 		)
 		(property "Value" "ISC016N04NM7V"
-			(at 309.626 59.182 90)
+			(at 360.426 -67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17090,7 +17721,7 @@
 			)
 		)
 		(property "Footprint" "0_transistor_fet:IFX-PG-TDSON-8-36-V"
-			(at 308.61 69.85 0)
+			(at 359.41 -57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17099,7 +17730,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Infineon_6-24-2025_DS_ISC016N04NM7V_1_0.pdf?_gl=1*jfccxs*_gcl_aw*R0NMLjE3NjI4OTA2MjIuQ2p3S0NBaUEyc3ZJQmhCLUVpd0FSV0RQamdvV0FZSHZaQkE4VjB4MTAzcEg1c1pjUjZnblZJODBjeFFlQmJZSmZpRkp3NDRhaVdNbnZCb0NZZ1lRQXZEX0J3RQ..*_gcl_au*MTExMzU0Mzc3Ni4xNzU4OTcyNDc5LjEyODI1MDMwMzEuMTc2Mjg5MDM0MS4xNzYyODkxNDE2*_ga*MTk3NDYyMTgwMy4xNzQyNDExMTU0*_ga_15W4STQT4T*czE3NjMzOTEyNDMkbzk1JGcwJHQxNzYzMzkxMjQzJGo2MCRsMCRoMA.."
-			(at 308.61 69.85 0)
+			(at 359.41 -57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17739,7 @@
 			)
 		)
 		(property "Description" "Insulated-Gate Field-Effect Transistor (IGFET), N-Channel, Enhancement, Body Diode, Pin 1 Source, 2 Source, 3 Source, 4 Gate, 5 Drain, 6 Drain, 7 Drain, 8 Drain, 8 Pins"
-			(at 311.15 58.42 90)
+			(at 361.95 -68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
