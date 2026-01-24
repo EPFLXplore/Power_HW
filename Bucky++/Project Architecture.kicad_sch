@@ -476,6 +476,16 @@
 		)
 		(uuid "348ad54d-7cbd-4507-afac-2357ca01507d")
 	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 193.04 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3576e932-91b2-4d9d-907a-b692c3b9e6f7")
+	)
 	(bus
 		(pts
 			(xy 118.11 127) (xy 128.27 127)
@@ -485,6 +495,26 @@
 			(type default)
 		)
 		(uuid "36920d51-c661-4c2b-924c-230b2b46597a")
+	)
+	(wire
+		(pts
+			(xy 165.1 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43520935-6641-4b6e-bc50-a2858c49adb4")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 198.12 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5893f6b3-15a4-49b9-8b1e-4fff5f82f9b9")
 	)
 	(wire
 		(pts
@@ -498,6 +528,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 123.19) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78035887-241e-47a0-9b56-20dddeb6572d")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 195.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817bb76b-8bd6-46e5-bea9-d2835132cbb8")
+	)
+	(wire
+		(pts
 			(xy 124.46 82.55) (xy 124.46 105.41)
 		)
 		(stroke
@@ -505,6 +555,16 @@
 			(type default)
 		)
 		(uuid "9eab6a94-d74a-4317-b5b9-a30683073ce9")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 171.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbe2d86-fc61-41fe-8df5-3389d20eb0e6")
 	)
 	(wire
 		(pts
@@ -526,6 +586,16 @@
 		)
 		(uuid "ad88cc60-bbfd-4079-9d37-c3a17f137ad1")
 	)
+	(wire
+		(pts
+			(xy 193.04 118.11) (xy 193.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41d4808-b7e2-4521-ba4c-771a16f02b0c")
+	)
 	(bus
 		(pts
 			(xy 165.1 101.6) (xy 171.45 101.6)
@@ -535,6 +605,26 @@
 			(type default)
 		)
 		(uuid "c42344c3-c65a-4370-8f24-5eb5f2b443e5")
+	)
+	(wire
+		(pts
+			(xy 195.58 120.65) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8445f63-2b97-4d67-bde0-2dd8f2a0d1d9")
+	)
+	(wire
+		(pts
+			(xy 190.5 115.57) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9420f14-4a7b-43b8-98d4-21152e73e466")
 	)
 	(wire
 		(pts
@@ -1634,6 +1724,16 @@
 				(justify left)
 			)
 		)
+		(pin "input alert" output
+			(at 165.1 71.12 0)
+			(uuid "26056a7e-05a4-4d41-b834-116f6cfb7211")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -1643,8 +1743,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 60.96)
-		(size 36.83 80.01)
+		(at 82.55 60.96)
+		(size 35.56 80.01)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1659,7 +1759,7 @@
 		)
 		(uuid "0b884d20-85c8-4e14-bcd5-df65213f1de9")
 		(property "Sheetname" "PowerConnectors"
-			(at 81.28 59.9309 0)
+			(at 82.55 59.9309 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1669,7 +1769,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerConnectors.kicad_sch"
-			(at 81.28 141.5546 0)
+			(at 82.55 141.5546 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1727,8 +1827,8 @@
 		)
 	)
 	(sheet
-		(at 171.45 115.57)
-		(size 36.83 24.13)
+		(at 171.45 128.27)
+		(size 31.75 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1743,7 +1843,7 @@
 		)
 		(uuid "20f2e49e-3c3c-4877-a054-2792c8a24538")
 		(property "Sheetname" "LocalPowerGeneration"
-			(at 171.45 114.5409 0)
+			(at 171.45 127.2409 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1782,7 +1882,7 @@
 	)
 	(sheet
 		(at 171.45 59.69)
-		(size 36.83 48.26)
+		(size 31.75 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1839,6 +1939,56 @@
 		(pin "12V" input
 			(at 171.45 104.14 180)
 			(uuid "175fa420-d341-4d0d-9398-ac8abd0e8189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "input alert" input
+			(at 171.45 71.12 180)
+			(uuid "1070f21f-cddb-49c2-8e3a-890118ec0438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_5V" input
+			(at 190.5 107.95 270)
+			(uuid "3847425a-adaf-42ab-b08d-4d0f21260645")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_12V" input
+			(at 193.04 107.95 270)
+			(uuid "787d4281-5ce7-4572-a808-e7e1fc0492ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_15V" input
+			(at 195.58 107.95 270)
+			(uuid "8f2c79d0-ee42-4504-b59a-3fccfb26480d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_24V" input
+			(at 198.12 107.95 270)
+			(uuid "9ec557e4-2200-4600-88fe-c2486d6d7200")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,6 +2093,46 @@
 		(pin "12V_fans" output
 			(at 165.1 104.14 0)
 			(uuid "e7faec13-bc4c-4118-9fc1-e80d165e59c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_24V" output
+			(at 165.1 123.19 0)
+			(uuid "da29b265-ed81-4633-a32b-953e6c41c7a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_12V" output
+			(at 165.1 118.11 0)
+			(uuid "24943938-9f40-4d47-897c-c09462c81ed1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_5V" output
+			(at 165.1 115.57 0)
+			(uuid "aafee1a0-102d-4e31-8bd6-9a2f2ca464a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_15V" output
+			(at 165.1 120.65 0)
+			(uuid "f74c5efa-a520-40c6-ab53-10f4e794f461")
 			(effects
 				(font
 					(size 1.27 1.27)

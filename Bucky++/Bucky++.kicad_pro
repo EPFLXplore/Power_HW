@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "shorting_items|119300000|79050000|434fd60d-cd0e-4ac2-9b31-ba4d08daa72b|8e228b8f-7254-4c2c-91d4-8ddd8348c40d",
-          "both nets are connected"
-        ],
-        [
-          "shorting_items|120300000|79050000|0f702626-da0f-4905-8f5a-57ae35241b2c|8794156b-3c96-4509-b0a2-8d6b5300994f",
-          "both nets are connected"
-        ],
-        [
-          "shorting_items|84000000|79350000|28e6f27d-7181-4f96-a7b6-bbfbdcb3dde3|402b3371-3a3e-418a-935d-9db60378d0b7",
-          "Both nets are connected"
-        ],
-        [
-          "shorting_items|95200000|109400000|46cafdb9-116d-4186-835e-3ec7dbcefd9e|4bceada0-768c-487c-b5d3-a2e7d2b8474d",
-          "both nets are connected"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -874,11 +857,11 @@
   "text_variables": {
     "BOARD_NAME": "Bucky++",
     "COMPANY": "Xplore",
-    "DESIGNER": "Alain",
+    "DESIGNER": "Alain Aziz",
     "DOC_TYPE": "Fabrication",
     "PROJECT_NAME": "XRC",
     "RELEASE_DATE": "Release Date",
-    "REVIEWER": "Reviewer Name",
+    "REVIEWER": "Eliot Abramo",
     "REVISION": "B",
     "VARIANT": "1.0"
   }

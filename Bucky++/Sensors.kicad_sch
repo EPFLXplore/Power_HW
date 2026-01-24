@@ -703,6 +703,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:WSL39211L000JEA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "WSL39211L000JEA"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "WSL39211L000JEA"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/30110/wsl3921-wsl5931.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "1 mOhms +/-5% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.5"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "WSL39211L000JEA"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Allied_Number" "71589971"
+				(at 13.97 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "WSL39211L000JEA_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -1063,8 +1228,8 @@
 	)
 	(text_box "Battery Input Sensor\n"
 		(exclude_from_sim no)
-		(at 16.51 114.935 0)
-		(size 86.36 9.525)
+		(at 49.53 114.935 0)
+		(size 53.34 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -1084,6 +1249,28 @@
 			(justify bottom)
 		)
 		(uuid "65431895-b6c2-4669-b5dd-1970d17da270")
+	)
+	(text_box "DESIGN NOTE:\nThe shunt resistance value was chosen to handle a range of :\n- 40.96/3 = 13.48 A range for the rails\n- 40.96/1 = 40.96 A range for the battery input\n"
+		(exclude_from_sim no)
+		(at 245.11 17.78 0)
+		(size 33.02 27.94)
+		(margins 1.3525 1.3525 1.3525 1.3525)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7712a7ef-6bc6-43f2-9b4d-d3642996ede9")
 	)
 	(text_box "5V Rail Sensor\n"
 		(exclude_from_sim no)
@@ -1158,6 +1345,12 @@
 		(uuid "d6cd403b-dc68-4f83-8a7f-1a7e81ae5382")
 	)
 	(junction
+		(at 106.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e98ded8-cb6d-42fe-93e6-d17819b7bf09")
+	)
+	(junction
 		(at 240.665 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1204,18 +1397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66a51a4f-6c2c-4fd2-a610-aa17fedfe401")
-	)
-	(junction
-		(at 104.14 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6700c391-4339-4454-bc9f-f3e25888b7d9")
-	)
-	(junction
-		(at 104.14 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cb70240-b207-494e-a7c6-fcd8b7557d9f")
 	)
 	(junction
 		(at 115.57 93.98)
@@ -1272,6 +1453,12 @@
 		(uuid "d41585db-8938-486c-ad44-53a8bf49ea6c")
 	)
 	(junction
+		(at 106.68 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5971bd0-acb6-4d38-872d-97b488bd2b02")
+	)
+	(junction
 		(at 219.71 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1310,10 +1497,6 @@
 	(no_connect
 		(at 187.325 85.09)
 		(uuid "31af6931-5c1f-492a-8e26-cb6dacc77d16")
-	)
-	(no_connect
-		(at 50.8 144.78)
-		(uuid "5949d216-71af-4498-a3a6-96cb47f533fa")
 	)
 	(no_connect
 		(at 187.325 135.89)
@@ -1641,7 +1824,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 129.54) (xy 115.57 129.54)
+			(xy 101.6 119.38) (xy 106.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1788,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "20c3851a-826f-463b-8f9f-f4131c06a5c2")
+	)
+	(wire
+		(pts
+			(xy 39.37 144.78) (xy 50.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2163572b-bb2e-466b-a2d4-e1226dd59550")
 	)
 	(wire
 		(pts
@@ -2068,16 +2261,6 @@
 			(type default)
 		)
 		(uuid "495ade10-4154-48e6-bf31-4f258112145a")
-	)
-	(wire
-		(pts
-			(xy 101.6 129.54) (xy 104.14 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4991ac7c-f86a-474b-8156-70bda3e641c6")
 	)
 	(wire
 		(pts
@@ -2471,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 101.6 134.62)
+			(xy 101.6 119.38) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2759,6 +2942,16 @@
 		)
 		(uuid "baecb600-ef6c-4a43-be71-fc6685a88dc2")
 	)
+	(wire
+		(pts
+			(xy 106.68 137.16) (xy 115.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfa2693-0d65-4515-84c1-e54d3f0c5c94")
+	)
 	(bus
 		(pts
 			(xy 172.72 125.73) (xy 172.72 128.27)
@@ -2848,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "ccfc5103-047b-4a44-9413-2dfcc0c5ddc0")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2b273a-0888-4ae4-b1d2-7a47c77bb706")
 	)
 	(bus
 		(pts
@@ -3001,16 +3204,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 137.16) (xy 104.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2baf3fb-5793-4e91-8096-5d7545a2ef4f")
-	)
-	(wire
-		(pts
 			(xy 113.03 91.44) (xy 111.125 91.44)
 		)
 		(stroke
@@ -3051,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 137.16) (xy 115.57 137.16)
+			(xy 100.965 137.16) (xy 106.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3463,7 @@
 		(uuid "169ddaaf-54e1-4818-a9a5-799e01ce26ad")
 	)
 	(label "Vin_5V"
-		(at 120.65 35.56 0)
+		(at 125.73 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3460,7 +3653,7 @@
 		(uuid "5da668fa-cc78-4237-aace-16303bf6fd30")
 	)
 	(label "Vin_12V"
-		(at 245.11 69.85 0)
+		(at 251.46 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3470,7 +3663,7 @@
 		(uuid "5feb1287-eb39-4b57-9be1-b01d65f6d171")
 	)
 	(label "InBatt"
-		(at 115.57 129.54 180)
+		(at 115.57 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3744,6 +3937,17 @@
 		)
 		(uuid "64428067-b15d-496c-bc04-ba61ae22b532")
 	)
+	(hierarchical_label "input alert"
+		(shape output)
+		(at 39.37 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f768bd6-26df-4231-a427-76d037bc9007")
+	)
 	(hierarchical_label "{Buck_Outputs}"
 		(shape tri_state)
 		(at 66.04 158.75 180)
@@ -3779,7 +3983,7 @@
 	)
 	(hierarchical_label "Batt_in"
 		(shape input)
-		(at 115.57 129.54 0)
+		(at 115.57 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3872,7 +4076,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3m"
+		(property "Value" "3m"
 			(at 120.65 90.17 90)
 			(effects
 				(font
@@ -3907,7 +4111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "WSLP3921L3000FEA"
+		(property "Model" "WSLP39213L000FEA"
 			(at 117.856 76.708 90)
 			(effects
 				(font
@@ -3992,82 +4196,6 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0a3a8431-1070-4a1b-95bb-cb7cd1b8d37c"
 					(reference "NT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 104.14 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "391b0d55-05e3-414f-935d-194c28b6a358")
-		(property "Reference" "R8"
-			(at 111.76 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.3m"
-			(at 109.22 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:RES_WSLP3921_.003OHM_VIS"
-			(at 102.362 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "WSLP3921L3000FEA"
-			(at 106.68 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49a70a05-21f1-4cbe-b318-15f938d217f2")
-		)
-		(pin "2"
-			(uuid "5b2a6a0d-a605-4b91-b19c-91bcac7c1d42")
-		)
-		(instances
-			(project "Bucky++"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0a3a8431-1070-4a1b-95bb-cb7cd1b8d37c"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3m"
+		(property "Value" "3m"
 			(at 118.364 32.258 90)
 			(effects
 				(font
@@ -4892,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "WSLP3921L3000FEA"
+		(property "Model" "WSLP39213L000FEA"
 			(at 116.332 25.4 90)
 			(effects
 				(font
@@ -5381,7 +5509,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3m"
+		(property "Value" "3m"
 			(at 245.745 124.46 90)
 			(effects
 				(font
@@ -5416,7 +5544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "WSLP3921L3000FEA"
+		(property "Model" "WSLP39213L000FEA"
 			(at 242.697 110.998 90)
 			(effects
 				(font
@@ -5879,6 +6007,137 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:WSL39211L000JEA")
+		(at 106.68 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6de644f-b77d-4df8-a228-c13116972a8f")
+		(property "Reference" "R8"
+			(at 113.284 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WSL39211L000JEA"
+			(at 126.746 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "WSL39211L000JEA"
+			(at 10.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/30110/wsl3921-wsl5931.pdf"
+			(at -89.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 mOhms +/-5% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.5"
+			(at -289.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -389.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -489.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -589.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "WSL39211L000JEA"
+			(at -689.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Allied_Number" "71589971"
+			(at -789.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee30e2fa-e3cd-4cc6-8479-12f7ca1eba37")
+		)
+		(pin "2"
+			(uuid "777bfca5-8fcb-4cb1-9dd0-12d959e557b1")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0a3a8431-1070-4a1b-95bb-cb7cd1b8d37c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 90.17 0)
 		(unit 1)
@@ -5963,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3m"
+		(property "Value" "3m"
 			(at 247.015 73.66 90)
 			(effects
 				(font
@@ -5998,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "WSLP3921L3000FEA"
+		(property "Model" "WSLP39213L000FEA"
 			(at 243.713 59.69 90)
 			(effects
 				(font

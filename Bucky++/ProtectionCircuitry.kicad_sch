@@ -118,6 +118,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 78.74) (xy 67.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162bbe03-6dfb-4b11-9dce-c414127b924f")
+	)
+	(wire
+		(pts
 			(xy 144.78 59.69) (xy 158.75 59.69)
 		)
 		(stroke
@@ -248,6 +258,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 67.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8765cb1c-4ca7-445e-9442-c024b0bb7019")
+	)
+	(wire
+		(pts
 			(xy 93.98 58.42) (xy 115.57 58.42)
 		)
 		(stroke
@@ -288,6 +308,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 71.12) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b078e748-eea6-43e6-a92c-ca9869898aeb")
+	)
+	(wire
+		(pts
 			(xy 55.88 57.15) (xy 67.31 57.15)
 		)
 		(stroke
@@ -325,6 +355,16 @@
 			(type default)
 		)
 		(uuid "ccaac1dd-35dd-41e6-a21f-b03dd75de1d0")
+	)
+	(wire
+		(pts
+			(xy 62.23 73.66) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae87290-330c-4e21-93a6-4de1c5fb23d7")
 	)
 	(wire
 		(pts
@@ -511,6 +551,17 @@
 		)
 		(uuid "4395bc61-b9a7-4ab9-92e5-98428896fa21")
 	)
+	(hierarchical_label "PG_15V"
+		(shape output)
+		(at 62.23 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "755fff65-f110-4d57-9c59-335b43743170")
+	)
 	(hierarchical_label "VBatt_protection"
 		(shape input)
 		(at 50.8 60.96 180)
@@ -522,9 +573,42 @@
 		)
 		(uuid "943d069d-3f05-4058-a080-b40535bae129")
 	)
+	(hierarchical_label "PG_5V"
+		(shape output)
+		(at 62.23 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99ab63f2-c373-462b-a586-b037d2b8c596")
+	)
+	(hierarchical_label "PG_24V"
+		(shape output)
+		(at 62.23 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adc8daa2-0dfe-4fd9-b39c-aebecc3a2522")
+	)
+	(hierarchical_label "PG_12V"
+		(shape output)
+		(at 62.23 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdeea34b-9b1e-4b31-8e4e-0df71992668f")
+	)
 	(sheet
 		(at 67.31 41.91)
-		(size 26.67 22.86)
+		(size 26.67 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -548,7 +632,7 @@
 			)
 		)
 		(property "Sheetfile" "OC_OV_Protection.kicad_sch"
-			(at 67.31 65.3546 0)
+			(at 67.31 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,6 +738,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PG_5V" output
+			(at 67.31 71.12 180)
+			(uuid "6bc41502-2ef4-455f-b928-cea9c02085e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_15V" output
+			(at 67.31 76.2 180)
+			(uuid "146e58b4-62ca-4eb2-9164-40c109bd0334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_24V" output
+			(at 67.31 78.74 180)
+			(uuid "31a9a1ff-26f7-432c-8afc-15f2d613b37e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_12V" output
+			(at 67.31 73.66 180)
+			(uuid "9b9d30a8-0b8d-4f8d-b0b7-c93c267610e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -4059,6 +4059,12 @@
 		(uuid "3972cd44-3c1f-4d87-aea1-2ba5c0805550")
 	)
 	(junction
+		(at 237.49 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39ba7f39-b4e3-4f36-b61c-4d6bc13f7adf")
+	)
+	(junction
 		(at 99.06 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4105,6 +4111,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53609ec1-17b5-4cf3-b6e8-fb115c7847b1")
+	)
+	(junction
+		(at 115.57 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59dd404b-0f17-4eb8-b46b-c6dd6203e7a0")
 	)
 	(junction
 		(at 219.71 71.12)
@@ -4159,6 +4171,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70666698-f017-43c6-857f-bf0937804dd4")
+	)
+	(junction
+		(at 113.03 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "721d3be2-5a52-49ba-a485-13d86b1040af")
 	)
 	(junction
 		(at 219.71 166.37)
@@ -4309,6 +4327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3f6ed26-b269-455e-8048-abca3130edea")
+	)
+	(junction
+		(at 232.41 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50ceb6e-6d63-4961-91d5-b49282bdb9de")
 	)
 	(junction
 		(at 176.53 156.21)
@@ -4566,6 +4590,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e75c2c-40aa-4836-b432-226546e52566")
+	)
+	(wire
+		(pts
 			(xy 248.92 90.17) (xy 248.92 95.25)
 		)
 		(stroke
@@ -4763,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "1d51471e-cac1-4b29-bf68-a26b1fd5e6d3")
+	)
+	(wire
+		(pts
+			(xy 113.03 181.61) (xy 119.38 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e462306-306f-4711-bb2f-8ec4ac386056")
 	)
 	(wire
 		(pts
@@ -5986,6 +6030,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 177.8) (xy 241.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2995540-6dce-4317-9ee0-93ea3350e703")
+	)
+	(wire
+		(pts
 			(xy 149.86 63.5) (xy 158.75 63.5)
 		)
 		(stroke
@@ -6483,6 +6537,16 @@
 			(type default)
 		)
 		(uuid "f53bb845-672f-4428-a3ea-4c95e576ace9")
+	)
+	(wire
+		(pts
+			(xy 237.49 87.63) (xy 246.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e15e11-9f88-4133-a2da-cac4d4110cb4")
 	)
 	(wire
 		(pts
@@ -11821,6 +11885,17 @@
 		)
 		(uuid "f46365e0-7c1a-459a-b5ec-aed51a9f7005")
 	)
+	(hierarchical_label "PG_5V"
+		(shape output)
+		(at 119.38 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a87f8f6-5128-4f7a-9702-b4ade33c74f2")
+	)
 	(hierarchical_label "15V_fused"
 		(shape input)
 		(at 101.6 157.48 0)
@@ -11842,6 +11917,17 @@
 			(justify left)
 		)
 		(uuid "3ffe3dca-4708-4686-b66d-f65de79df5f7")
+	)
+	(hierarchical_label "PG_24V"
+		(shape output)
+		(at 241.3 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4118e88b-20ba-4d35-bb3a-6b538fcd0a0c")
 	)
 	(hierarchical_label "12V_fused"
 		(shape input)
@@ -11887,6 +11973,17 @@
 		)
 		(uuid "a366d00b-995b-449f-9c2f-26d7bafb8b54")
 	)
+	(hierarchical_label "PG_12V"
+		(shape output)
+		(at 246.38 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8fdacd0-c7a5-4f9c-9d8f-a76822bac6be")
+	)
 	(hierarchical_label "Vin12V"
 		(shape input)
 		(at 142.24 63.5 180)
@@ -11908,6 +12005,17 @@
 			(justify right)
 		)
 		(uuid "b467691a-dd17-4545-bba3-a7ccf1d6cedf")
+	)
+	(hierarchical_label "PG_15V"
+		(shape output)
+		(at 119.38 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5bf1d24-265f-4a9d-8656-1c6b0639dd26")
 	)
 	(hierarchical_label "VBatt"
 		(shape input)
