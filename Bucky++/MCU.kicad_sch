@@ -9885,6 +9885,12 @@
 		(uuid "5acae5b6-1277-4ce7-8c77-1f784b15f40c")
 	)
 	(junction
+		(at 163.83 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1180b3-29d9-44a9-b13e-8aa6c3f6bac0")
+	)
+	(junction
 		(at 318.135 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10083,6 +10089,12 @@
 		(uuid "f1401541-e334-4e4e-be47-989eb1e34ca5")
 	)
 	(junction
+		(at 346.71 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22e8b79-7889-4ebb-8abb-f5cd69ece67d")
+	)
+	(junction
 		(at 287.02 165.735)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10189,24 +10201,12 @@
 		(uuid "a0bc94f0-cfd5-4aaa-9a83-c41382c0893e")
 	)
 	(no_connect
-		(at 346.71 104.14)
-		(uuid "a94cc6a5-1a22-4e8d-ad3a-6f130faf5ade")
-	)
-	(no_connect
-		(at 346.71 101.6)
-		(uuid "abee68e3-66e5-4241-8568-6f8f00000530")
-	)
-	(no_connect
 		(at 321.31 81.28)
 		(uuid "aed0d512-8a7a-4411-89af-971b9b74da6a")
 	)
 	(no_connect
 		(at 127 48.26)
 		(uuid "b4c1f803-781d-4678-a019-2ae0d5a639c6")
-	)
-	(no_connect
-		(at 163.83 257.81)
-		(uuid "b63eecd0-564b-4455-8092-ba931c0ae5eb")
 	)
 	(no_connect
 		(at 321.31 55.88)
@@ -10247,10 +10247,6 @@
 	(no_connect
 		(at 127 86.36)
 		(uuid "fa56bae8-23b0-4f4a-af04-f1e315dfb8d9")
-	)
-	(no_connect
-		(at 163.83 255.27)
-		(uuid "fafb09cf-43aa-49c3-88d2-a7d17be86955")
 	)
 	(bus_entry
 		(at 267.97 224.79)
@@ -11592,6 +11588,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 257.81) (xy 163.83 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "754245d8-da53-445e-8fd3-b0aa31cdd6bc")
+	)
+	(wire
+		(pts
 			(xy 71.12 166.37) (xy 71.12 179.705)
 		)
 		(stroke
@@ -12342,6 +12348,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 255.27) (xy 163.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c3f9f6-1101-4f63-b932-3643560cc351")
+	)
+	(wire
+		(pts
 			(xy 57.785 175.895) (xy 85.09 175.895)
 		)
 		(stroke
@@ -13000,6 +13016,16 @@
 			(type default)
 		)
 		(uuid "f7a62d2d-2af3-4a11-9d28-fc18c539a9cd")
+	)
+	(wire
+		(pts
+			(xy 346.71 101.6) (xy 346.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90e117b-6e63-4d3e-aa2f-99ed6a3eb0b5")
 	)
 	(wire
 		(pts
@@ -15001,6 +15027,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 163.83 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "331d622c-e8e8-4d09-a313-cdbd95c80cf6")
+		(property "Reference" "#PWR0120"
+			(at 163.83 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 263.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291bafc7-037c-4014-bf3c-80f2ed1ca719")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 61.595 168.275 90)
 		(mirror x)
@@ -16827,6 +16921,74 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 346.71 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73469873-d302-4582-ad8b-7a001d7c742e")
+		(property "Reference" "#PWR0119"
+			(at 346.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971877d5-827a-47ad-a343-9bdf1ca5b640")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
