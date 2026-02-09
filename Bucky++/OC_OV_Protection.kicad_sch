@@ -3805,7 +3805,7 @@
 		)
 		(uuid "d0a078f1-15ab-45f1-899e-c92d3c9a8924")
 	)
-	(text_box "DESIGN NOTE:\nA 1mOhm Shunt resistor is used to set the current limit at 35A (I=35mV/1mOhm).\nVsense is set at 35mV using a voltage divider setting Viset at 1.403V: 3.6V*(2.3k/5.9k)\nViset = Vsense*40\n\nThe Under-Voltage UV and Over-Voltage OV thresholds are set using a three-resistor divider against the internal 1V reference VREF.\n\nUnder-Voltage UV Threshold V_UV The UV pin monitors the voltage divider formed by R1 on the high side and R2 plus R3 on the low side. V_UV equals 1V times 1 plus 19.23 which results in 20.23V. V_UV = 20.23V\n\nOver-Voltage OV Threshold V_OV The OV pin monitors the voltage divider formed by R1 plus R2 on the high side and R3 on the low side. The total high side resistance is  1015k Ohms. V_OV equals 1V times 1 plus the ratio of 1015k Ohms to 37k Ohms. V_OV equals 1V times 1 plus 27.43 which results in 28.43V. V_OV = 28.43V"
+	(text_box "DESIGN NOTE:\nA 1mOhm Shunt resistor is used to set the current limit at 35A (I=35mV/1mOhm).\nVsense is set at 35mV using a voltage divider setting Viset at 1.403V: 3.6V*(2.3k/5.9k)\nViset = Vsense*40\n\nThe Under-Voltage UV and Over-Voltage OV thresholds are set using a three-resistor divider against the internal 1V reference VREF.\n\nUnder-Voltage UV Threshold V_UV The UV pin monitors the voltage divider formed by R1 on the high side and R2 plus R3 on the low side. V_UV equals 1V times 1 plus 19.23 which results in 20.23V. V_UV = 20.23V\n\nOver-Voltage OV Threshold V_OV The OV pin monitors the voltage divider formed by R1 plus R2 on the high side and R3 on the low side. The total high side resistance is  1050k Ohms. V_OV = 29.5V. \nThis allows the board to operate at the maximum battery volatage of 28.5V while also allowing for a mesurment tolerance."
 		(exclude_from_sim no)
 		(at 261.62 13.97 0)
 		(size 142.24 26.67)
@@ -5750,6 +5750,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 130.81) (xy 336.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce97329-f60d-4e9d-8038-41be19a7492c")
+	)
+	(wire
+		(pts
 			(xy 233.68 113.03) (xy 233.68 114.3)
 		)
 		(stroke
@@ -6587,6 +6597,16 @@
 			(type default)
 		)
 		(uuid "fccc2303-284b-4133-91a9-4d84b326fa79")
+	)
+	(wire
+		(pts
+			(xy 336.55 137.16) (xy 347.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7ce904-f80f-4391-9cea-7a05c47d5c1c")
 	)
 	(wire
 		(pts
@@ -12006,6 +12026,17 @@
 		)
 		(uuid "b467691a-dd17-4545-bba3-a7ccf1d6cedf")
 	)
+	(hierarchical_label "PG_Batt"
+		(shape output)
+		(at 347.98 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce411870-4091-4a6d-a87c-913b082d3e29")
+	)
 	(hierarchical_label "PG_15V"
 		(shape output)
 		(at 119.38 181.61 0)
@@ -14624,7 +14655,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M 1% 1/16W"
+		(property "Value" "1.05M 1% 1/16W"
 			(at 267.208 91.44 0)
 			(effects
 				(font
@@ -15395,7 +15426,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WSL39211L000JEA"
+		(property "Value" "WSL39211L000FEA"
 			(at 319.024 83.566 90)
 			(effects
 				(font
@@ -15404,7 +15435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WSL39211L000JEA"
+		(property "Footprint" "WSL39211L000FEA"
 			(at 312.42 -32.69 0)
 			(effects
 				(font
@@ -15424,7 +15455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 mOhms +/-5% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+		(property "Description" "1 mOhms +/-1% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
 			(at 326.39 63.5 0)
 			(effects
 				(font
@@ -20921,7 +20952,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15k 1% 1/16W"
+		(property "Value" "16.9k 1% 1/16W"
 			(at 267.208 99.06 0)
 			(effects
 				(font

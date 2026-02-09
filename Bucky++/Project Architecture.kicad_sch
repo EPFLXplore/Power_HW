@@ -436,6 +436,26 @@
 		(color 0 0 0 0)
 		(uuid "d6bb7b59-aa74-46ee-b1bd-f38c77ca4ad4")
 	)
+	(wire
+		(pts
+			(xy 200.66 125.73) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017c828a-13b7-44ce-b95d-002f85b0634a")
+	)
+	(wire
+		(pts
+			(xy 165.1 125.73) (xy 200.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca389ee-825c-4aeb-9ef8-11efbf412f66")
+	)
 	(bus
 		(pts
 			(xy 165.1 64.77) (xy 171.45 64.77)
@@ -468,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 137.16) (xy 171.45 137.16)
+			(xy 167.64 138.43) (xy 171.45 138.43)
 		)
 		(stroke
 			(width 0)
@@ -585,6 +605,16 @@
 			(type default)
 		)
 		(uuid "ad88cc60-bbfd-4079-9d37-c3a17f137ad1")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cf4ead-fb8a-418c-98ce-3b0c816c4e35")
 	)
 	(wire
 		(pts
@@ -1827,8 +1857,8 @@
 		)
 	)
 	(sheet
-		(at 171.45 128.27)
-		(size 31.75 11.43)
+		(at 171.45 133.35)
+		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1843,7 +1873,7 @@
 		)
 		(uuid "20f2e49e-3c3c-4877-a054-2792c8a24538")
 		(property "Sheetname" "LocalPowerGeneration"
-			(at 171.45 127.2409 0)
+			(at 171.45 132.3209 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1853,7 +1883,7 @@
 			)
 		)
 		(property "Sheetfile" "LocalPowerGeneration.kicad_sch"
-			(at 171.45 140.2846 0)
+			(at 171.45 141.5546 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1863,7 +1893,7 @@
 			)
 		)
 		(pin "+VBAT" input
-			(at 171.45 137.16 180)
+			(at 171.45 138.43 180)
 			(uuid "48aa64ca-749c-4934-b86a-240046c04fcb")
 			(effects
 				(font
@@ -1989,6 +2019,16 @@
 		(pin "PG_24V" input
 			(at 198.12 107.95 270)
 			(uuid "9ec557e4-2200-4600-88fe-c2486d6d7200")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_Batt" input
+			(at 200.66 107.95 270)
+			(uuid "0a5164c2-42ce-43d3-a324-e82368ae8b44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,6 +2173,16 @@
 		(pin "PG_15V" output
 			(at 165.1 120.65 0)
 			(uuid "f74c5efa-a520-40c6-ab53-10f4e794f461")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_Batt" output
+			(at 165.1 125.73 0)
+			(uuid "44939761-5705-41f8-8f05-c31656377f4a")
 			(effects
 				(font
 					(size 1.27 1.27)

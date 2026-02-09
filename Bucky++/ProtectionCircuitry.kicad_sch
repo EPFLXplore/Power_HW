@@ -358,6 +358,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 81.28) (xy 67.31 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25c1fa6-b9c2-42b4-a3fd-b5e3d6286f10")
+	)
+	(wire
+		(pts
 			(xy 62.23 73.66) (xy 67.31 73.66)
 		)
 		(stroke
@@ -517,6 +527,17 @@
 			(justify right)
 		)
 		(uuid "1ee94ecf-212d-4b3b-b908-90ebc40dda49")
+	)
+	(hierarchical_label "PG_Batt"
+		(shape output)
+		(at 62.23 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cc67e26-fd5b-4ffb-a0cb-e49245c2479d")
 	)
 	(hierarchical_label "{Safe_Outputs}"
 		(shape tri_state)
@@ -773,6 +794,16 @@
 		(pin "PG_12V" output
 			(at 67.31 73.66 180)
 			(uuid "9b9d30a8-0b8d-4f8d-b0b7-c93c267610e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG_Batt" output
+			(at 67.31 81.28 180)
+			(uuid "2b3eeb2c-31cf-4684-861b-e2b9aa129a80")
 			(effects
 				(font
 					(size 1.27 1.27)

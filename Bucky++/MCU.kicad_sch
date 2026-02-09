@@ -9897,6 +9897,12 @@
 		(uuid "5e6ca4bd-4794-475b-ac21-326121fdfe7b")
 	)
 	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608a49e8-33eb-400a-a76c-33bfc1825a9b")
+	)
+	(junction
 		(at 66.675 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10167,10 +10173,6 @@
 	(no_connect
 		(at 91.44 114.3)
 		(uuid "827f1b87-0f19-426c-a94f-a4140c8f0512")
-	)
-	(no_connect
-		(at 91.44 96.52)
-		(uuid "8341f83e-660a-4ca9-ae7c-a024b81d082f")
 	)
 	(no_connect
 		(at 133.35 40.64)
@@ -10768,7 +10770,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 91.44 119.38)
+			(xy 62.23 119.38) (xy 66.04 119.38)
 		)
 		(stroke
 			(width 0)
@@ -11235,6 +11237,16 @@
 			(type default)
 		)
 		(uuid "4fd1520e-91cb-4fda-a793-d3d05e517540")
+	)
+	(wire
+		(pts
+			(xy 76.2 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff41e43-93c6-448d-9084-1118b39d114a")
 	)
 	(wire
 		(pts
@@ -11785,6 +11797,16 @@
 			(type default)
 		)
 		(uuid "8babbb53-21c2-4e33-9418-d7c0546db6b0")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 91.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc047eb-83a8-4d73-8188-2906c1400e42")
 	)
 	(wire
 		(pts
@@ -13831,6 +13853,17 @@
 		)
 		(uuid "54342526-bfd1-4274-a050-6996493569d3")
 	)
+	(hierarchical_label "PG_Batt"
+		(shape input)
+		(at 76.2 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "626d05a8-0f6f-4ce0-b538-3817913c66d1")
+	)
 	(hierarchical_label "PG_5V"
 		(shape input)
 		(at 76.2 86.36 180)
@@ -13844,7 +13877,7 @@
 	)
 	(hierarchical_label "input alert"
 		(shape input)
-		(at 86.36 119.38 180)
+		(at 62.23 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14817,6 +14850,76 @@
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22440e98-ed73-43c1-9668-d6bf2565df3f")
+		(property "Reference" "R47"
+			(at 67.945 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k 1% 1/16W"
+			(at 67.945 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+			(at 67.818 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6773c6-f955-4bd0-b93e-1a74a1efc897")
+		)
+		(pin "2"
+			(uuid "5b8ec572-1b81-4486-a14f-5f5cd1223d3d")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
+					(reference "R47")
+					(unit 1)
 				)
 			)
 		)
@@ -20335,6 +20438,72 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc6e0e2c-5bef-4fc7-be83-41279a6f3089")
+		(property "Reference" "#PWR0121"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "441f14a3-1398-4835-94d3-c45b585a6cd7")
+		)
+		(instances
+			(project "Bucky++"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
