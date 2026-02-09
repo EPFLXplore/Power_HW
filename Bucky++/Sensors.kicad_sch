@@ -1494,22 +1494,6 @@
 		(color 0 0 0 0)
 		(uuid "ff7f7c11-759d-488d-81f1-9f1c93629044")
 	)
-	(no_connect
-		(at 187.325 85.09)
-		(uuid "31af6931-5c1f-492a-8e26-cb6dacc77d16")
-	)
-	(no_connect
-		(at 187.325 135.89)
-		(uuid "7dd00662-4c6b-4097-a061-1d418dddaf25")
-	)
-	(no_connect
-		(at 60.96 50.8)
-		(uuid "a2af7372-98cb-4ba1-b6f5-58e5cf413d7e")
-	)
-	(no_connect
-		(at 60.96 101.6)
-		(uuid "ab2d8c7f-36bb-41aa-91ff-5bd2503942f4")
-	)
 	(bus_entry
 		(at 69.85 160.02)
 		(size 2.54 2.54)
@@ -1764,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 128.27) (xy 187.325 128.27)
+			(xy 175.26 128.27) (xy 186.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +1788,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 133.35) (xy 187.325 133.35)
+			(xy 175.26 133.35) (xy 186.69 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 74.93) (xy 232.41 74.93)
+			(xy 218.44 74.93) (xy 232.41 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 130.81) (xy 187.325 130.81)
+			(xy 175.26 130.81) (xy 186.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1954,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 130.81) (xy 219.71 130.81)
+			(xy 217.17 130.81) (xy 219.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2054,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 85.09) (xy 219.71 85.09)
+			(xy 218.44 85.09) (xy 219.71 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2084,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 77.47) (xy 187.325 77.47)
+			(xy 175.26 77.47) (xy 187.96 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2204,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 80.01) (xy 219.71 80.01)
+			(xy 218.44 80.01) (xy 219.71 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 135.89) (xy 219.71 135.89)
+			(xy 217.17 135.89) (xy 219.71 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 77.47) (xy 219.71 77.47)
+			(xy 218.44 77.47) (xy 219.71 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 128.27) (xy 219.71 128.27)
+			(xy 217.17 128.27) (xy 219.71 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2704,6 +2688,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d63b64-b671-4f97-912b-48c11b889d00")
+	)
+	(wire
+		(pts
 			(xy 113.03 86.36) (xy 115.57 86.36)
 		)
 		(stroke
@@ -2714,13 +2708,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 133.35) (xy 226.695 133.35)
+			(xy 217.17 133.35) (xy 226.695 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b5644a4-fb3c-4713-8128-42d506e17a7d")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b75eba5-637a-4148-bd3a-afc1b169d186")
 	)
 	(wire
 		(pts
@@ -2764,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 187.325 80.01)
+			(xy 175.26 80.01) (xy 187.96 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2781,6 +2785,16 @@
 			(type default)
 		)
 		(uuid "918b625e-0404-426b-b1f3-14d17e468568")
+	)
+	(wire
+		(pts
+			(xy 176.53 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935074bd-858a-4d1a-8536-4afdbefe0471")
 	)
 	(wire
 		(pts
@@ -2964,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 74.93) (xy 187.325 74.93)
+			(xy 175.26 74.93) (xy 187.96 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 82.55) (xy 226.695 82.55)
+			(xy 218.44 82.55) (xy 226.695 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.805 125.73) (xy 232.41 125.73)
+			(xy 217.17 125.73) (xy 232.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 187.325 82.55)
+			(xy 175.26 82.55) (xy 187.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3121,6 +3135,16 @@
 			(type default)
 		)
 		(uuid "d5bb5bca-92fc-4ff9-99b6-8270eb38aca2")
+	)
+	(wire
+		(pts
+			(xy 177.8 135.89) (xy 186.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fa498d-1ab6-4f7a-b5dd-35234530f129")
 	)
 	(wire
 		(pts
@@ -3294,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 187.325 125.73)
+			(xy 175.26 125.73) (xy 186.69 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3915,6 +3939,17 @@
 		)
 		(uuid "47b5e0d1-be0a-4a81-bbed-63d72dcccb9d")
 	)
+	(hierarchical_label "24V alert"
+		(shape output)
+		(at 177.8 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d70423f-73e8-49e7-8321-632779a2b8dc")
+	)
 	(hierarchical_label "{SPI_BAT}"
 		(shape bidirectional)
 		(at 33.02 130.81 180)
@@ -3925,6 +3960,17 @@
 			(justify right)
 		)
 		(uuid "59b30806-aee4-4c25-970a-017a6be68a61")
+	)
+	(hierarchical_label "12V alert"
+		(shape output)
+		(at 176.53 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60643238-308f-4791-a658-693841fabace")
 	)
 	(hierarchical_label "{SPI_BAT}"
 		(shape bidirectional)
@@ -3970,6 +4016,17 @@
 		)
 		(uuid "8ccb713d-3d42-4cbd-b2d7-93cdede84b64")
 	)
+	(hierarchical_label "5V alert"
+		(shape output)
+		(at 46.99 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c4c338-1462-43c2-a12a-9abe95c8b3cc")
+	)
 	(hierarchical_label "{Shunt_Outputs}"
 		(shape tri_state)
 		(at 74.93 182.88 0)
@@ -3991,6 +4048,17 @@
 			(justify left)
 		)
 		(uuid "9e2931d3-827f-4a8b-84a1-37dc2585577a")
+	)
+	(hierarchical_label "15V alert"
+		(shape output)
+		(at 48.26 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0555e76-ffd9-4512-a25c-811d8f2fbed8")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -4270,7 +4338,7 @@
 	)
 	(symbol
 		(lib_id "INA239AQDGSRQ1:INA239AQDGSRQ1")
-		(at 187.325 74.93 0)
+		(at 187.96 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4279,7 +4347,7 @@
 		(fields_autoplaced yes)
 		(uuid "42ab08cc-aa10-41ab-aa08-8a048fb31559")
 		(property "Reference" "IC1"
-			(at 202.565 67.945 0)
+			(at 203.2 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4355,7 @@
 			)
 		)
 		(property "Value" "INA239AQDGSRQ1"
-			(at 202.565 70.485 0)
+			(at 203.2 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4363,7 @@
 			)
 		)
 		(property "Footprint" "0_diode_smd:SOP50P490X110-10N"
-			(at 213.995 169.85 0)
+			(at 214.63 169.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +4373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina239-q1.pdf?ts=1649085907566&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA239-Q1"
-			(at 213.995 269.85 0)
+			(at 214.63 269.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.325 74.93 0)
+			(at 187.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4392,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 213.995 469.85 0)
+			(at 214.63 469.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4402,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA239AQDGSRQ1"
-			(at 213.995 569.85 0)
+			(at 214.63 569.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4412,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA239AQDGSRQ1?qs=QNEnbhJQKva5RO79sS938A%3D%3D"
-			(at 213.995 669.85 0)
+			(at 214.63 669.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4422,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 213.995 769.85 0)
+			(at 214.63 769.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4432,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA239AQDGSRQ1"
-			(at 213.995 869.85 0)
+			(at 214.63 869.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4826,7 @@
 	)
 	(symbol
 		(lib_id "INA239AQDGSRQ1:INA239AQDGSRQ1")
-		(at 187.325 125.73 0)
+		(at 186.69 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4767,7 +4835,7 @@
 		(fields_autoplaced yes)
 		(uuid "68bda345-9bc9-4cf2-a000-ce6899da8b36")
 		(property "Reference" "IC3"
-			(at 202.565 118.745 0)
+			(at 201.93 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4775,7 +4843,7 @@
 			)
 		)
 		(property "Value" "INA239AQDGSRQ1"
-			(at 202.565 121.285 0)
+			(at 201.93 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4851,7 @@
 			)
 		)
 		(property "Footprint" "0_diode_smd:SOP50P490X110-10N"
-			(at 213.995 220.65 0)
+			(at 213.36 220.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina239-q1.pdf?ts=1649085907566&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA239-Q1"
-			(at 213.995 320.65 0)
+			(at 213.36 320.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.325 125.73 0)
+			(at 186.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +4880,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 213.995 520.65 0)
+			(at 213.36 520.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA239AQDGSRQ1"
-			(at 213.995 620.65 0)
+			(at 213.36 620.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4900,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA239AQDGSRQ1?qs=QNEnbhJQKva5RO79sS938A%3D%3D"
-			(at 213.995 720.65 0)
+			(at 213.36 720.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4910,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 213.995 820.65 0)
+			(at 213.36 820.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4920,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA239AQDGSRQ1"
-			(at 213.995 920.65 0)
+			(at 213.36 920.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WSL39211L000JEA"
+		(property "Value" "WSL39211L000FEA"
 			(at 126.746 126.746 90)
 			(effects
 				(font
@@ -6053,7 +6121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 mOhms +/-5% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
+		(property "Description" "1 mOhms +/-1% 3W Chip Resistor Nonstandard Anti-Sulfur, Automotive AEC-Q200, Current Sense, Moisture Resistant, Pulse Withstanding Metal Element"
 			(at 106.68 119.38 0)
 			(effects
 				(font

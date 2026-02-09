@@ -488,6 +488,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 77.47) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331a5d6e-a6d8-4282-b989-369de8e9a020")
+	)
+	(wire
+		(pts
 			(xy 167.64 138.43) (xy 171.45 138.43)
 		)
 		(stroke
@@ -568,6 +578,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 80.01) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bec746f-aa5d-412f-94d5-2e3b941ecd25")
+	)
+	(wire
+		(pts
 			(xy 124.46 82.55) (xy 124.46 105.41)
 		)
 		(stroke
@@ -645,6 +665,26 @@
 			(type default)
 		)
 		(uuid "c8445f63-2b97-4d67-bde0-2dd8f2a0d1d9")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86b9112-a59c-48e1-b152-a0249585c94b")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca81ab73-ac49-4f24-97ee-295cb466e4ec")
 	)
 	(wire
 		(pts
@@ -1764,6 +1804,46 @@
 				(justify right)
 			)
 		)
+		(pin "24V alert" output
+			(at 165.1 85.09 0)
+			(uuid "5139b02e-5f7b-4a3b-9d54-c1e58bd371a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V alert" output
+			(at 165.1 77.47 0)
+			(uuid "f2bc3384-05e7-4899-8e12-12a87b212fab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "15V alert" output
+			(at 165.1 80.01 0)
+			(uuid "f3593838-ad37-404b-9f1d-35a45d5fef54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V alert" output
+			(at 165.1 82.55 0)
+			(uuid "f2adde13-996a-4275-ab84-2097b9389b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -2029,6 +2109,46 @@
 		(pin "PG_Batt" input
 			(at 200.66 107.95 270)
 			(uuid "0a5164c2-42ce-43d3-a324-e82368ae8b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V alert" input
+			(at 171.45 85.09 180)
+			(uuid "1435c7a0-1704-40b5-96c6-86691ad69565")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "15V alert" input
+			(at 171.45 82.55 180)
+			(uuid "eba38694-9369-498b-bcc7-a4172ba1d4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V alert" input
+			(at 171.45 80.01 180)
+			(uuid "3b88e2ff-5b93-4175-8ef6-7b5ef99018a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V alert" input
+			(at 171.45 77.47 180)
+			(uuid "a93fe9f4-de77-4c9d-b6a4-c61a5e845a34")
 			(effects
 				(font
 					(size 1.27 1.27)
