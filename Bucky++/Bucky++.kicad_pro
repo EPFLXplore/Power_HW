@@ -58,56 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|142930000|111215000|3194dca8-8b2e-4eac-a714-f53b7ce811d4|6d65d9d5-b0bf-4f9b-ac94-a68a88181c7b",
-          "SWD connector"
-        ],
-        [
-          "clearance|143565000|110580000|6d65d9d5-b0bf-4f9b-ac94-a68a88181c7b|69d2fb16-ad8f-4ce7-ad10-775429f52a15",
-          "SWD connector"
-        ],
-        [
-          "clearance|143565000|111850000|3194dca8-8b2e-4eac-a714-f53b7ce811d4|c03b4e65-aab8-4bdf-bc17-ffdd8777c004",
-          "SWD connector"
-        ],
-        [
-          "clearance|144200000|111215000|c03b4e65-aab8-4bdf-bc17-ffdd8777c004|69d2fb16-ad8f-4ce7-ad10-775429f52a15",
-          "SWD connector"
-        ],
-        [
-          "clearance|144835000|110580000|69d2fb16-ad8f-4ce7-ad10-775429f52a15|84566e23-e3e4-448a-adba-4a11de49d1b0",
-          ""
-        ],
-        [
-          "clearance|145470000|111215000|438024ec-966b-46ac-a5b1-73314b84b090|84566e23-e3e4-448a-adba-4a11de49d1b0",
-          "SWD connector"
-        ],
-        [
-          "clearance|146105000|110580000|84566e23-e3e4-448a-adba-4a11de49d1b0|3f4feded-9109-478e-89c7-aa36bee6c453",
-          "SWD connector"
-        ],
-        [
-          "clearance|146105000|111850000|438024ec-966b-46ac-a5b1-73314b84b090|9dc9611e-d86d-40ad-b1c5-b65f5d05073c",
-          "SWD connector"
-        ],
-        [
-          "clearance|146740000|111215000|9dc9611e-d86d-40ad-b1c5-b65f5d05073c|3f4feded-9109-478e-89c7-aa36bee6c453",
-          ""
-        ],
-        [
-          "clearance|147375000|110580000|3f4feded-9109-478e-89c7-aa36bee6c453|a182c931-26d3-452b-b15d-1637c8061dd8",
-          ""
-        ],
-        [
-          "clearance|147375000|111850000|9dc9611e-d86d-40ad-b1c5-b65f5d05073c|84df75ad-fb9d-4205-bbd4-633b8172c6dc",
-          "SWD connector"
-        ],
-        [
-          "clearance|148010000|111215000|84df75ad-fb9d-4205-bbd4-633b8172c6dc|a182c931-26d3-452b-b15d-1637c8061dd8",
-          "SWD connector"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -173,22 +124,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
-        "min_connection": 0.0,
+        "min_clearance": 0.15,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_drill": 0.2,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -547,7 +498,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -559,13 +510,13 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
+        "via_diameter": 0.6,
         "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -576,7 +527,7 @@
         "priority": 0,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
+        "via_diameter": 0.6,
         "via_drill": 0.25,
         "wire_width": 24
       }
@@ -593,7 +544,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "amulet_controller.net",
-      "plot": "",
+      "plot": "Manufacturing/Fabrication/Gerbers/BuckyV1.1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "STEP/amulet_controller.step",
