@@ -1203,7 +1203,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U9"
-				(at 2.1433 -30.48 0)
+				(at 4.6833 -30.226 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 				)
 			)
 			(property "Value" "LT8705AxFE"
-				(at 2.1433 -33.02 0)
+				(at 4.6833 -32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1368,7 +1368,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -2.54 0)
+					(at -22.86 2.54 0)
 					(length 2.54)
 					(name "~{SHDN}"
 						(effects
@@ -2959,6 +2959,16 @@
 		)
 		(uuid "ca4b9e0c-26cc-4490-8e98-9b1f617d8d5c")
 	)
+	(text "Mode Floating for Burst operation"
+		(exclude_from_sim no)
+		(at 78.232 154.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4ab282c-5ab5-4eff-88ae-c78d5a052c3c")
+	)
 	(junction
 		(at 146.304 86.868)
 		(diameter 0)
@@ -3060,6 +3070,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ea9533-c2a5-4a09-a270-5c0730fbd13f")
+	)
+	(junction
+		(at 108.458 141.478)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81f92092-6177-4fe6-a73b-3a9ce5ffef86")
 	)
 	(junction
 		(at 150.114 71.628)
@@ -3515,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.284 144.018) (xy 108.458 144.018)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e180bd-5ca1-473b-a958-58560ac880d8")
+	)
+	(wire
+		(pts
 			(xy 165.354 171.958) (xy 180.594 171.958)
 		)
 		(stroke
@@ -3815,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 141.478) (xy 113.284 141.478)
+			(xy 102.87 141.478) (xy 108.458 141.478)
 		)
 		(stroke
 			(width 0)
@@ -4032,16 +4058,6 @@
 			(type default)
 		)
 		(uuid "6453c612-9f35-4b3e-834e-b1ed13af704c")
-	)
-	(wire
-		(pts
-			(xy 110.744 149.098) (xy 113.284 149.098)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6539b608-2f6f-4121-b824-ef18f9bad60f")
 	)
 	(wire
 		(pts
@@ -4595,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 108.458 141.478) (xy 113.284 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08649ba-b715-4376-a500-106dc9014ee5")
+	)
+	(wire
+		(pts
 			(xy 146.304 113.538) (xy 146.304 99.568)
 		)
 		(stroke
@@ -4642,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "b89beb9a-32bb-47fd-af5e-12c625964457")
+	)
+	(wire
+		(pts
+			(xy 108.458 144.018) (xy 108.458 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93142a0-4dfd-44da-bfb3-3dd5b112869d")
 	)
 	(wire
 		(pts
@@ -5252,17 +5288,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2427eb4-cdb9-4e28-8b18-1e506abe910d")
-	)
-	(hierarchical_label "EN"
-		(shape input)
-		(at 110.744 149.098 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "018b3c67-95ee-4200-8cfa-04166ead82d6")
 	)
 	(hierarchical_label "Vout"
 		(shape output)
