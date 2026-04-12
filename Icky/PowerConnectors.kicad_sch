@@ -2671,7 +2671,7 @@
 	)
 	(rectangle
 		(start 21.59 39.37)
-		(end 78.74 115.57)
+		(end 78.74 133.35)
 		(stroke
 			(width 1)
 			(type default)
@@ -2696,8 +2696,8 @@
 		(uuid ad813111-cced-4da9-987a-78b0a2783c06)
 	)
 	(rectangle
-		(start 16.51 138.43)
-		(end 93.98 167.64)
+		(start 21.59 138.43)
+		(end 95.25 185.42)
 		(stroke
 			(width 1)
 			(type default)
@@ -2710,7 +2710,7 @@
 	)
 	(text_box "Battery connector"
 		(exclude_from_sim no)
-		(at 26.67 107.315 0)
+		(at 26.67 125.73 0)
 		(size 50.8 6.985)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2780,9 +2780,9 @@
 		)
 		(uuid "78302fd9-5a5d-4078-9a01-bad0315c5eee")
 	)
-	(text_box "DESIGN NOTE:\nThe battery is directly connected to Bucky via J1 and the power is directly transfered to the motors through J2. It is also connected to the bucks' input through VBuck_in. \nThe output of the buck are then connected to their respective voltage nets. \nThe same ground is used for the whole board.\n"
+	(text_box "DESIGN NOTE:\nThe battery is directly connected via J1 and the power is directly transfered to the motors through J2. It is also connected to the bucks' input through VBuck_in. \nThe output of the buck are then connected to their respective voltage nets. \nThe same ground is used for the whole board.\n"
 		(exclude_from_sim no)
-		(at 21.59 118.11 0)
+		(at 81.28 118.11 0)
 		(size 57.15 17.78)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -2805,7 +2805,7 @@
 	)
 	(text_box "Power Buses"
 		(exclude_from_sim no)
-		(at 26.67 141.605 0)
+		(at 31.75 141.605 0)
 		(size 50.8 6.985)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2881,7 +2881,7 @@
 		(uuid "00033486-6f2e-4a0c-81bc-430fb8231aec")
 	)
 	(junction
-		(at 40.64 85.09)
+		(at 40.64 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00aa1b05-9fba-4975-aea7-a524bb9ed395")
@@ -2915,6 +2915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "185e8a24-5594-4fb4-9a2b-de191f55ef0e")
+	)
+	(junction
+		(at 40.64 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eaccc1a-de2d-4b5b-be73-6e3ed4dc240a")
 	)
 	(junction
 		(at 160.02 57.15)
@@ -2977,7 +2983,7 @@
 		(uuid "58437a50-86fb-497a-b085-3844084f5f58")
 	)
 	(junction
-		(at 40.64 95.25)
+		(at 40.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a69a97b-f4d9-4c83-88b6-5902270a5ab9")
@@ -3023,6 +3029,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "828b4b68-dd6c-4719-91ae-58ef9f42eb8f")
+	)
+	(junction
+		(at 40.64 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bf005b-fc4e-4098-8852-02e99174ecec")
 	)
 	(junction
 		(at 218.44 46.99)
@@ -3079,12 +3091,20 @@
 		(uuid "f402b2cd-6988-4d4f-9936-960874cff227")
 	)
 	(no_connect
+		(at 71.12 109.22)
+		(uuid "36d6cd81-0c32-408d-95ef-6aeb62bf7edb")
+	)
+	(no_connect
 		(at 265.43 57.15)
 		(uuid "3b43b98d-4ff7-40b9-ae37-836fc21bd189")
 	)
 	(no_connect
 		(at 265.43 68.58)
 		(uuid "5086492c-7c7a-4f4e-ac0c-d90ef1027352")
+	)
+	(no_connect
+		(at 71.12 119.38)
+		(uuid "55cf8b5d-042f-497f-80b9-64ccabab0b89")
 	)
 	(no_connect
 		(at 265.43 88.9)
@@ -3095,7 +3115,7 @@
 		(uuid "7fc071dc-dac3-4858-af35-a82a086b2258")
 	)
 	(no_connect
-		(at 71.12 85.09)
+		(at 71.12 81.28)
 		(uuid "91b75a7c-e8af-49be-9d59-aa4b7ce2a59d")
 	)
 	(no_connect
@@ -3115,11 +3135,11 @@
 		(uuid "f3520d92-f8dd-4876-a008-90041c143b08")
 	)
 	(no_connect
-		(at 71.12 95.25)
+		(at 71.12 91.44)
 		(uuid "fd104363-5bf5-4bf0-a60e-7b1cf83d85fc")
 	)
 	(bus_entry
-		(at 34.29 156.21)
+		(at 39.37 156.21)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3128,7 +3148,7 @@
 		(uuid "06214fd8-783f-4ef1-9d1e-135a89c65833")
 	)
 	(bus_entry
-		(at 73.66 156.21)
+		(at 78.74 156.21)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3137,7 +3157,7 @@
 		(uuid "141d0e7a-8b5e-4954-97cd-5c25f385097e")
 	)
 	(bus_entry
-		(at 73.66 158.75)
+		(at 78.74 158.75)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3146,7 +3166,7 @@
 		(uuid "2979d0bb-d3a9-43dc-9bc9-e3a7d427cf07")
 	)
 	(bus_entry
-		(at 34.29 158.75)
+		(at 39.37 158.75)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3155,7 +3175,7 @@
 		(uuid "4b54ae54-9b1f-4369-9cad-8a11461c1bb4")
 	)
 	(bus_entry
-		(at 73.66 153.67)
+		(at 78.74 153.67)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3164,7 +3184,7 @@
 		(uuid "50580a4b-6041-48dc-b3c9-5f2e2a6c5353")
 	)
 	(bus_entry
-		(at 34.29 153.67)
+		(at 39.37 153.67)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3191,6 +3211,16 @@
 			(type default)
 		)
 		(uuid "01f4c804-f277-41d4-a0cf-cdbc7e679475")
+	)
+	(wire
+		(pts
+			(xy 40.64 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0233efd8-d9b5-4edd-a4ba-45457fce0170")
 	)
 	(wire
 		(pts
@@ -3234,7 +3264,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 95.25) (xy 40.64 93.98)
+			(xy 40.64 91.44) (xy 40.64 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3384,13 +3414,23 @@
 	)
 	(bus
 		(pts
-			(xy 34.29 156.21) (xy 34.29 158.75)
+			(xy 39.37 156.21) (xy 39.37 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b63e246-363e-4662-a0f0-e0bfacdc0a66")
+	)
+	(wire
+		(pts
+			(xy 48.26 119.38) (xy 40.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8efe9d-d949-4297-92b0-567f516dc794")
 	)
 	(wire
 		(pts
@@ -3414,6 +3454,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 109.22) (xy 40.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa30a01-380b-4754-b476-b6bd54341746")
+	)
+	(wire
+		(pts
 			(xy 158.75 88.9) (xy 163.83 88.9)
 		)
 		(stroke
@@ -3434,6 +3484,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 119.38) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4809259e-92fa-492a-a3c8-c78b87be8d92")
+	)
+	(wire
+		(pts
 			(xy 160.02 48.26) (xy 160.02 46.99)
 		)
 		(stroke
@@ -3444,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 85.09) (xy 40.64 85.09)
+			(xy 38.1 81.28) (xy 40.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 95.25) (xy 40.64 95.25)
+			(xy 48.26 91.44) (xy 40.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3474,7 +3534,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 151.13) (xy 71.12 151.13)
+			(xy 74.93 151.13) (xy 76.2 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 85.09) (xy 48.26 85.09)
+			(xy 40.64 81.28) (xy 48.26 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3524,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 86.36) (xy 40.64 85.09)
+			(xy 40.64 82.55) (xy 40.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3594,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 153.67) (xy 73.66 156.21)
+			(xy 78.74 153.67) (xy 78.74 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3624,7 @@
 	)
 	(bus
 		(pts
-			(xy 71.12 151.13) (xy 73.66 153.67)
+			(xy 76.2 151.13) (xy 78.74 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3654,7 +3714,7 @@
 	)
 	(bus
 		(pts
-			(xy 34.29 153.67) (xy 34.29 156.21)
+			(xy 39.37 153.67) (xy 39.37 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3664,7 +3724,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 151.13) (xy 31.75 151.13)
+			(xy 35.56 151.13) (xy 36.83 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 158.75) (xy 87.63 158.75)
+			(xy 81.28 158.75) (xy 92.71 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3794,7 @@
 	)
 	(bus
 		(pts
-			(xy 31.75 151.13) (xy 34.29 153.67)
+			(xy 36.83 151.13) (xy 39.37 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3824,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 156.21) (xy 48.26 156.21)
+			(xy 41.91 156.21) (xy 53.34 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3854,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 156.21) (xy 87.63 156.21)
+			(xy 81.28 156.21) (xy 92.71 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 161.29) (xy 48.26 161.29)
+			(xy 41.91 161.29) (xy 53.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +4034,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 156.21) (xy 73.66 158.75)
+			(xy 78.74 156.21) (xy 78.74 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3984,13 +4044,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 161.29) (xy 87.63 161.29)
+			(xy 81.28 161.29) (xy 92.71 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6625577-8eec-424b-b902-4cb51fc7fb9a")
+	)
+	(wire
+		(pts
+			(xy 40.64 110.49) (xy 40.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2eefab-0183-4c23-9a1a-5e9ac39ad179")
 	)
 	(wire
 		(pts
@@ -4074,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 158.75) (xy 48.26 158.75)
+			(xy 41.91 158.75) (xy 53.34 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4173,7 @@
 		(uuid "ffb9f0e0-2945-4858-a338-9e78840ecccc")
 	)
 	(label "15V_VBUCK"
-		(at 87.63 158.75 180)
+		(at 92.71 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4113,7 +4183,7 @@
 		(uuid "02ece012-6354-4d16-870f-3775c6d8dacd")
 	)
 	(label "24V_VSAFE"
-		(at 48.26 161.29 180)
+		(at 53.34 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4123,7 +4193,7 @@
 		(uuid "071029aa-8c23-4efb-bf8f-744b1c776ab8")
 	)
 	(label "5V_VBUCK"
-		(at 87.63 156.21 180)
+		(at 92.71 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4131,6 +4201,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b62c464-d528-4f01-82da-3bff3dd606ba")
+	)
+	(label "VMOT_OUT"
+		(at 38.1 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eb95b0c-714f-43eb-81a8-67d1a2863360")
 	)
 	(label "24V_VBUCK"
 		(at 151.13 88.9 0)
@@ -4153,7 +4233,7 @@
 		(uuid "691adb62-fe21-42f1-812f-d2cc2f6715b8")
 	)
 	(label "24V_VBUCK"
-		(at 87.63 161.29 180)
+		(at 92.71 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4163,7 +4243,7 @@
 		(uuid "792b5e0b-8b3a-4463-ac46-058584ed56e7")
 	)
 	(label "15V_VSAFE"
-		(at 48.26 158.75 180)
+		(at 53.34 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,7 +4253,7 @@
 		(uuid "797bd1a8-e98c-43e3-94f1-b7eccf51e45f")
 	)
 	(label "VBAT_OUT"
-		(at 38.1 85.09 0)
+		(at 38.1 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4183,7 +4263,7 @@
 		(uuid "8934341a-6a09-4d88-b0d4-f06da3b41043")
 	)
 	(label "5V_VSAFE"
-		(at 48.26 156.21 180)
+		(at 53.34 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4255,7 +4335,7 @@
 	)
 	(hierarchical_label "{VBUCK}"
 		(shape output)
-		(at 69.85 151.13 180)
+		(at 74.93 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4277,7 +4357,7 @@
 	)
 	(hierarchical_label "{VSAFE}"
 		(shape input)
-		(at 30.48 151.13 180)
+		(at 35.56 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,7 +4368,7 @@
 	)
 	(hierarchical_label "VBAT_OUT"
 		(shape input)
-		(at 38.1 85.09 180)
+		(at 38.1 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4307,6 +4387,17 @@
 			(justify right)
 		)
 		(uuid "ad0fa8bd-fa41-4634-96aa-bd460a013d7a")
+	)
+	(hierarchical_label "VMOT_OUT"
+		(shape input)
+		(at 38.1 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d386ed13-ab63-4668-9059-4b094ce7a52c")
 	)
 	(hierarchical_label "VIN_SAFE"
 		(shape input)
@@ -4555,7 +4646,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:XT60PW-F")
-		(at 48.26 85.09 0)
+		(at 48.26 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4563,7 +4654,7 @@
 		(dnp no)
 		(uuid "1288450c-7be1-4d13-8173-ea08e1cc4f04")
 		(property "Reference" "J2"
-			(at 59.69 77.47 0)
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4662,7 @@
 			)
 		)
 		(property "Value" "XT60PW-F"
-			(at 59.69 80.01 0)
+			(at 59.69 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4670,7 @@
 			)
 		)
 		(property "Footprint" "XT60PWF"
-			(at 67.31 180.01 0)
+			(at 67.31 176.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4680,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
-			(at 67.31 280.01 0)
+			(at 67.31 276.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4690,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 48.26 85.09 0)
+			(at 48.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4699,7 @@
 			)
 		)
 		(property "Height" "8.4"
-			(at 67.31 480.01 0)
+			(at 67.31 476.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4709,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 67.31 580.01 0)
+			(at 67.31 576.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4719,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 67.31 680.01 0)
+			(at 67.31 676.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,7 +4729,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 67.31 780.01 0)
+			(at 67.31 776.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4739,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT60PW-F"
-			(at 67.31 880.01 0)
+			(at 67.31 876.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 95.25 0)
+		(at 40.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4759,7 +4850,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fd1264b-1535-41b2-9892-6009c7ee5c5d")
 		(property "Reference" "#PWR025"
-			(at 40.64 101.6 0)
+			(at 40.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 100.33 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 95.25 0)
+			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 95.25 0)
+			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 95.25 0)
+			(at 40.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5091,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 40.64 90.17 90)
+		(at 40.64 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5008,7 +5099,7 @@
 		(dnp no)
 		(uuid "2ab4cd7c-4f38-45b9-beb9-3d72e6d9ea8e")
 		(property "Reference" "D5"
-			(at 32.258 91.186 90)
+			(at 32.258 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5016,7 +5107,7 @@
 			)
 		)
 		(property "Value" "5.0SMDJ30CA"
-			(at 32.258 88.646 90)
+			(at 32.258 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" "DIONM7959X262N"
-			(at 40.64 90.17 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 90.17 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5133,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 40.64 90.17 0)
+			(at 40.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5142,7 @@
 			)
 		)
 		(property "Height" "2.62"
-			(at 434.29 77.47 0)
+			(at 434.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5152,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-5.0SMDJ30CA"
-			(at 534.29 77.47 0)
+			(at 534.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5162,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/5.0SMDJ30CA?qs=YCa%2FAAYMW01THUdwvuZNTg%3D%3D"
-			(at 634.29 77.47 0)
+			(at 634.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5172,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 734.29 77.47 0)
+			(at 734.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "5.0SMDJ30CA"
-			(at 834.29 77.47 0)
+			(at 834.29 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,71 +5696,6 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 40.64 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ee9f1a1-7b02-4b97-9511-513c8596f4f7")
-		(property "Reference" "#FLG08"
-			(at 38.735 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 33.02 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 40.64 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "351e34b2-f1f0-4a08-9017-799d2d62d58e")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -6310,6 +6336,72 @@
 			(project "Bucky++"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b617934-bc92-4879-82a0-3ad1a7cd7270")
+		(property "Reference" "#PWR046"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6575459-8eb2-43e6-ba54-620817af2fda")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7075,6 +7167,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:XT60PW-F")
+		(at 48.26 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac51d27a-29aa-4c12-b053-64c189eb269d")
+		(property "Reference" "J4"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-F"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWF"
+			(at 67.31 204.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+			(at 67.31 304.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 67.31 504.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 604.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 704.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 67.31 804.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-F"
+			(at 67.31 904.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44513fad-1b67-461a-8395-1bd0696df2d2")
+		)
+		(pin "2"
+			(uuid "9478df7e-3e1a-4c2f-bc90-e946c4c843e1")
+		)
+		(pin "3"
+			(uuid "d2e760c3-82c8-4c44-912b-7bdba017ef78")
+		)
+		(pin "4"
+			(uuid "ec8b76b9-f703-4b0a-8a43-af62857c3e50")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:XT30PW-F")
 		(at 245.11 99.06 0)
 		(mirror x)
@@ -7665,6 +7882,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd12b5a4-a7e4-4e5c-bd84-2e020ea05dd6")
+		(property "Reference" "#FLG09"
+			(at 38.735 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "248c11dd-22d1-4fef-8dfd-45effef9fd31")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ30CA")
 		(at 100.33 53.34 90)
 		(unit 1)
@@ -7776,6 +8058,123 @@
 			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 40.64 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1a4f739-e75a-4cd2-a983-8a5b4e6b41e8")
+		(property "Reference" "D6"
+			(at 32.258 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.0SMDJ30CA"
+			(at 32.258 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DIONM7959X262N"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.62"
+			(at 434.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-5.0SMDJ30CA"
+			(at 534.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/5.0SMDJ30CA?qs=YCa%2FAAYMW01THUdwvuZNTg%3D%3D"
+			(at 634.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 734.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5.0SMDJ30CA"
+			(at 834.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f66b0efd-3a8d-46be-850a-1e913021fe7c")
+		)
+		(pin "1"
+			(uuid "4365c341-3696-43ab-b132-4aa23b39e0c4")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "D6")
 					(unit 1)
 				)
 			)

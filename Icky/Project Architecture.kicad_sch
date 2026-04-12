@@ -362,9 +362,9 @@
 	(bus_alias ""
 		(members)
 	)
-	(bus_alias "SPI_BAT"
+	(bus_alias "SPI_SENSORS"
 		(members "SPI1_MISO" "SPI1_MOSI" "SPI1_SCK" "SPI1_NSS0" "SPI1_NSS1" "SPI1_NSS2"
-			"SPI1_NSS3"
+			"SPI1_NSS3" "SPI1_NSS4"
 		)
 	)
 	(rectangle
@@ -441,20 +441,14 @@
 		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
 	)
 	(junction
-		(at 129.54 66.04)
+		(at 121.92 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e3abf2f-bbf1-40bf-9291-31f6e6707449")
-	)
-	(junction
-		(at 181.61 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d06c1473-b0e0-44c0-8960-0f84030a97af")
+		(uuid "b2ee3452-8ab7-4248-a4fc-479991d4c808")
 	)
 	(bus
 		(pts
-			(xy 173.99 80.01) (xy 189.23 80.01)
+			(xy 171.45 91.44) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -464,17 +458,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 71.12) (xy 120.65 71.12)
+			(xy 118.11 80.01) (xy 121.92 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "121bcb29-70c8-44fd-968f-7a9d5281c783")
+		(uuid "0894dac3-14e6-433d-9997-65e79f3d85fa")
 	)
 	(bus
 		(pts
-			(xy 173.99 76.2) (xy 189.23 76.2)
+			(xy 171.45 102.87) (xy 186.69 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c55fd4-fef0-4583-8c08-edcde5e95c75")
+	)
+	(bus
+		(pts
+			(xy 171.45 87.63) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -484,7 +488,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 85.09) (xy 137.16 85.09)
+			(xy 118.11 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -494,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 137.16 66.04)
+			(xy 118.11 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -504,27 +508,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 66.04) (xy 181.61 66.04)
+			(xy 171.45 76.2) (xy 186.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "498b69d2-7b0d-4be4-bca6-79ac2697a511")
-	)
-	(wire
-		(pts
-			(xy 181.61 66.04) (xy 189.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527eb6a5-91c8-4f58-83e5-b575e10aca4d")
+		(uuid "3408eadf-f336-49aa-b382-c34da36e9692")
 	)
 	(bus
 		(pts
-			(xy 173.99 83.82) (xy 189.23 83.82)
+			(xy 171.45 95.25) (xy 186.69 95.25)
 		)
 		(stroke
 			(width 0)
@@ -534,17 +528,27 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 66.04) (xy 129.54 66.04)
+			(xy 121.92 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f9b365e-e4da-4943-a47d-c5233a93f8b3")
+		(uuid "7d754b5c-165f-458c-94ce-cc14e3a4f00f")
 	)
 	(bus
 		(pts
-			(xy 120.65 81.28) (xy 137.16 81.28)
+			(xy 171.45 99.06) (xy 186.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3e10e7-2752-4a5d-accf-5c52a9d8bca8")
+	)
+	(bus
+		(pts
+			(xy 118.11 100.33) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
@@ -552,19 +556,9 @@
 		)
 		(uuid "86e1df86-4363-4908-a23e-0f668d40acad")
 	)
-	(wire
-		(pts
-			(xy 181.61 66.04) (xy 181.61 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d09e0e-ed87-4305-aeba-005e9eec7a2e")
-	)
 	(bus
 		(pts
-			(xy 173.99 69.85) (xy 189.23 69.85)
+			(xy 171.45 80.01) (xy 186.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -574,43 +568,33 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 120.65 106.68)
+			(xy 118.11 87.63) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b21d8408-065d-42c5-9f88-dab1d421c395")
+		(uuid "c38e41e6-6643-46f5-873e-65108fd77eb7")
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 129.54 71.12)
+			(xy 118.11 91.44) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0a37e52-64d2-4c26-a924-bb0c08430065")
+		(uuid "db2ec8a9-ecc4-4a8c-9c0d-e5841fbe4c86")
 	)
 	(wire
 		(pts
-			(xy 173.99 95.25) (xy 189.23 95.25)
+			(xy 121.92 80.01) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1af34fe-0275-4d7d-ab50-b9e8c851c742")
-	)
-	(wire
-		(pts
-			(xy 173.99 91.44) (xy 189.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd582e57-5729-4f5a-b27c-0ebb321c2782")
+		(uuid "f2066c60-70f1-4f81-ba34-935bdcb21475")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1565,8 +1549,8 @@
 		)
 	)
 	(sheet
-		(at 85.09 62.23)
-		(size 35.56 54.61)
+		(at 82.55 72.39)
+		(size 35.56 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1581,7 +1565,7 @@
 		)
 		(uuid "0b884d20-85c8-4e14-bcd5-df65213f1de9")
 		(property "Sheetname" "PowerConnectors"
-			(at 85.09 61.2009 0)
+			(at 82.55 71.3609 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1591,7 +1575,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerConnectors.kicad_sch"
-			(at 85.09 117.4246 0)
+			(at 82.55 109.8046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1601,7 +1585,7 @@
 			)
 		)
 		(pin "VBAT_IN" output
-			(at 120.65 66.04 0)
+			(at 118.11 76.2 0)
 			(uuid "708e6aa3-84d0-4738-b620-0df35cd1a4f5")
 			(effects
 				(font
@@ -1611,7 +1595,7 @@
 			)
 		)
 		(pin "VBAT_OUT" input
-			(at 120.65 71.12 0)
+			(at 118.11 80.01 0)
 			(uuid "3ec9552a-ee9f-4bed-a49b-7c6982ce3e09")
 			(effects
 				(font
@@ -1621,7 +1605,7 @@
 			)
 		)
 		(pin "VIN_SAFE" input
-			(at 120.65 106.68 0)
+			(at 118.11 87.63 0)
 			(uuid "cb6fa425-3cbc-4b30-9712-56aa6eb43f16")
 			(effects
 				(font
@@ -1631,7 +1615,7 @@
 			)
 		)
 		(pin "{VBUCK}" output
-			(at 120.65 81.28 0)
+			(at 118.11 100.33 0)
 			(uuid "f6329347-75da-4af0-a6e6-bc7a302f3a7f")
 			(effects
 				(font
@@ -1641,8 +1625,18 @@
 			)
 		)
 		(pin "{VSAFE}" input
-			(at 120.65 85.09 0)
+			(at 118.11 104.14 0)
 			(uuid "ae7141bb-67d5-45ae-a2fc-53e38c89e4ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VMOT_OUT" input
+			(at 118.11 91.44 0)
+			(uuid "91ef9b29-dc8e-4485-bf0d-eb782ef728c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1653,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 62.23)
+		(at 186.69 72.39)
 		(size 36.83 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1675,7 +1669,7 @@
 		)
 		(uuid "694c70cd-5237-46a2-a5ef-62c4b649ef6f")
 		(property "Sheetname" "MCU & Local Power"
-			(at 189.23 61.2009 0)
+			(at 186.69 71.3609 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1685,7 +1679,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 189.23 99.6446 0)
+			(at 186.69 109.8046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1694,38 +1688,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{SPI_BAT}" bidirectional
-			(at 189.23 69.85 180)
-			(uuid "ce962ecf-b59a-4652-98f9-1066b39c126d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VIN_FLT" input
-			(at 189.23 91.44 180)
-			(uuid "8f9cb197-836d-4bbb-b6d8-730041f6ecc9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VMOT_ALERT" input
-			(at 189.23 95.25 180)
-			(uuid "85b800b7-e87c-4923-82e4-0ff217ab7862")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{5V_PROT}" bidirectional
-			(at 189.23 76.2 180)
+			(at 186.69 87.63 180)
 			(uuid "6152c535-fa15-4bd6-b8dd-6aa2f3e1c97b")
 			(effects
 				(font
@@ -1735,7 +1699,7 @@
 			)
 		)
 		(pin "{15V_PROT}" bidirectional
-			(at 189.23 80.01 180)
+			(at 186.69 91.44 180)
 			(uuid "3bc28402-4bd1-44e4-a4d2-0cd29f632a7e")
 			(effects
 				(font
@@ -1745,7 +1709,7 @@
 			)
 		)
 		(pin "{24V_PROT}" bidirectional
-			(at 189.23 83.82 180)
+			(at 186.69 95.25 180)
 			(uuid "336aac8f-d374-4b45-82ed-f0a6a2bc1521")
 			(effects
 				(font
@@ -1754,9 +1718,39 @@
 				(justify left)
 			)
 		)
-		(pin "VIN_SAFE" input
-			(at 189.23 66.04 180)
-			(uuid "ba958d0f-1637-4892-99d0-6daae036d07a")
+		(pin "{SPI_SENSORS}" bidirectional
+			(at 186.69 80.01 180)
+			(uuid "72db192b-a7f2-457f-91e0-114db95cdd65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{VMOT_PROT}" bidirectional
+			(at 186.69 99.06 180)
+			(uuid "3e8875fe-5fd2-43e2-ac93-3cc6d293a96c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN_SAFE_LOCAL" input
+			(at 186.69 76.2 180)
+			(uuid "b006ad73-f746-437e-92ba-4cc8b9b87ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{VIN_PROT}" bidirectional
+			(at 186.69 102.87 180)
+			(uuid "59e64c15-64e2-4bb8-907a-3aacf62cac98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1767,7 @@
 		)
 	)
 	(sheet
-		(at 137.16 62.23)
+		(at 134.62 72.39)
 		(size 36.83 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1789,7 +1783,7 @@
 		)
 		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
 		(property "Sheetname" "Protection & Monitoring"
-			(at 137.16 61.2009 0)
+			(at 134.62 71.3609 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -1799,7 +1793,7 @@
 			)
 		)
 		(property "Sheetfile" "ProtectionCircuitry.kicad_sch"
-			(at 137.16 99.6446 0)
+			(at 134.62 109.8046 0)
 			(effects
 				(font
 					(face "Arial")
@@ -1809,7 +1803,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 137.16 66.04 180)
+			(at 134.62 76.2 180)
 			(uuid "f1ef4b66-caae-4920-8fd4-e33cbcdf7729")
 			(effects
 				(font
@@ -1818,38 +1812,18 @@
 				(justify left)
 			)
 		)
-		(pin "VIN_FLT" output
-			(at 173.99 91.44 0)
-			(uuid "6faa65f4-9516-4f95-bec3-cf9fab29bd9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VIN_SAFE" output
-			(at 173.99 66.04 0)
+			(at 134.62 87.63 180)
 			(uuid "c07afe36-0bad-490f-9ab8-451913a0f2f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "VMOT_ALERT" output
-			(at 173.99 95.25 0)
-			(uuid "9901730f-63a8-4eb5-9317-35a04c96ad18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{5V_PROT}" bidirectional
-			(at 173.99 76.2 0)
+			(at 171.45 87.63 0)
 			(uuid "9fadc27f-b82a-41af-9975-da88c56607a9")
 			(effects
 				(font
@@ -1859,7 +1833,7 @@
 			)
 		)
 		(pin "{15V_PROT}" bidirectional
-			(at 173.99 80.01 0)
+			(at 171.45 91.44 0)
 			(uuid "4bff285b-23fb-47b9-a012-500f6b73df29")
 			(effects
 				(font
@@ -1869,7 +1843,7 @@
 			)
 		)
 		(pin "{24V_PROT}" bidirectional
-			(at 173.99 83.82 0)
+			(at 171.45 95.25 0)
 			(uuid "12207dd1-c7f0-47a8-a5cc-5a2eaf97938f")
 			(effects
 				(font
@@ -1878,18 +1852,8 @@
 				(justify right)
 			)
 		)
-		(pin "{SPI_BAT}" bidirectional
-			(at 173.99 69.85 0)
-			(uuid "7bdcad3d-cc7b-4615-b289-ba23a1a265ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{VBUCK}" input
-			(at 137.16 81.28 180)
+			(at 134.62 100.33 180)
 			(uuid "69cbc345-b7b8-40b7-8985-936f7a9332cd")
 			(effects
 				(font
@@ -1899,13 +1863,63 @@
 			)
 		)
 		(pin "{VSAFE}" output
-			(at 137.16 85.09 180)
+			(at 134.62 104.14 180)
 			(uuid "e4c531be-c441-4328-a50f-57de7433d6ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VMOT" output
+			(at 134.62 91.44 180)
+			(uuid "2a1dc2a7-ae86-4bc6-b94f-34786022b520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI_SENSORS}" bidirectional
+			(at 171.45 80.01 0)
+			(uuid "d2243474-b428-48b1-a7b4-d6da5e8b447d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{VMOT_PROT}" bidirectional
+			(at 171.45 99.06 0)
+			(uuid "6346b50b-3ff6-4e9b-8a34-4e352e5c3f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN_SAFE_LOCAL" output
+			(at 171.45 76.2 0)
+			(uuid "a268402a-1553-4dec-a16b-0538895f7be6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{VIN_PROT}" bidirectional
+			(at 171.45 102.87 0)
+			(uuid "17ab7f3e-851b-4267-891b-60d83d077874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
