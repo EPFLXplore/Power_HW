@@ -3359,296 +3359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 63.5 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12c9e56d-4d3d-4c56-b132-fdb0aee14f65")
-		(property "Reference" "R40"
-			(at 63.754 58.42 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "10 1% 1/16W"
-			(at 62.23 59.944 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 63.5 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9afe7be-a1fe-4195-b089-359b29eecbb6")
-		)
-		(pin "1"
-			(uuid "07c0fd7e-82b0-40d0-bbb0-0e424394e9d8")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17066699-5867-4e6e-8979-4fd470ef17c7")
-		(property "Reference" "C27"
-			(at 73.914 36.576 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8 nF X7R 50V"
-			(at 71.374 34.544 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "0603B682K500NT"
-			(at 72.39 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3031bb4-eff0-4912-b703-cf303ab42325")
-		)
-		(pin "1"
-			(uuid "0bbe29e5-f7cc-49b4-bb30-6fc564f976e3")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2afd7a04-e7ac-4478-938e-a040052aeb2f")
-		(property "Reference" "C28"
-			(at 73.914 55.626 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.8 nF X7R 50V"
-			(at 71.374 53.594 0)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "0603B682K500NT"
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bea052c1-9a65-437c-8db1-678a012e96a9")
-		)
-		(pin "1"
-			(uuid "79606422-1a2b-4bd7-8b42-a4affd4c32b0")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 80.01 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30bbce5d-54c9-4fdf-8f26-600fc3325817")
-		(property "Reference" "R43"
-			(at 80.264 58.42 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Value" "10 1% 1/16W"
-			(at 78.74 59.944 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3b8c2779-b3a6-4390-8c0a-8860e3c7191c")
-		)
-		(pin "1"
-			(uuid "e3d83c19-2742-4e41-8470-3efd837457ff")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "SQJQ112E-T1_GE3_1")
 		(lib_id "SQJQ112E-T1_GE3:SQJQ112E-T1_GE3")
 		(at 87.63 60.96 270)
@@ -3809,15 +3519,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 43.18 270)
+		(at 80.01 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4e3334c4-5cd4-4eac-b7ec-b9cfd87f4dc4")
-		(property "Reference" "R42"
-			(at 80.264 39.37 90)
+		(uuid "4f26b4b5-60c9-425d-8e8d-afe1e11fe583")
+		(property "Reference" "R14"
+			(at 80.264 58.42 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3825,7 +3535,7 @@
 			)
 		)
 		(property "Value" "10 1% 1/16W"
-			(at 78.74 40.894 90)
+			(at 78.74 59.944 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3833,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 43.18 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 43.18 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3561,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 43.18 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,15 +3570,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1ad4f6e-0aed-4078-b153-d99ab5033318")
+			(uuid "b9e52d14-db72-4d84-ac6a-9f50bdf479c4")
 		)
 		(pin "1"
-			(uuid "cf6537bf-8f8c-45ff-9af1-22a77e2eeae1")
+			(uuid "5e2bf589-23a3-4278-a168-9b787ee5c54a")
 		)
 		(instances
 			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "R42")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3882,8 +3592,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ebe5b73b-9956-4ebe-854a-ba646f8934cf")
-		(property "Reference" "R8"
+		(uuid "a729f3ee-e1d2-4ea5-8330-cbd186a60b21")
+		(property "Reference" "R15"
 			(at 63.754 39.37 90)
 			(effects
 				(font
@@ -3927,15 +3637,305 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb750307-f52b-4f7d-83c7-41452e53ccb0")
+			(uuid "c7389eff-edf5-4ffc-8da0-9d4773c29c0a")
 		)
 		(pin "1"
-			(uuid "570ec1c9-8690-4756-b0fd-7593b8cef8d1")
+			(uuid "d76be50c-db5a-401c-a0ac-b043c82c9999")
 		)
 		(instances
 			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
-					(reference "R8")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab1e062e-1c84-4ba5-bcb1-2f57cee48af2")
+		(property "Reference" "C1"
+			(at 73.914 36.576 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8 nF X7R 50V"
+			(at 71.374 34.544 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "0603B682K500NT"
+			(at 72.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ba299e9-f124-4c83-b807-42eb4f18f426")
+		)
+		(pin "1"
+			(uuid "15941d4d-1281-49cd-9d8f-488c093f8228")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 80.01 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2232ddb-0881-4913-b3c6-0123acecf365")
+		(property "Reference" "R13"
+			(at 80.264 39.37 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "10 1% 1/16W"
+			(at 78.74 40.894 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "713df47f-6ba7-4ee9-942c-40034ef428dd")
+		)
+		(pin "1"
+			(uuid "880e4b7a-1be4-42a8-81dd-77eb1d3bd043")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 63.5 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c825b85d-3fbd-41ef-b0a4-a6fc82e55372")
+		(property "Reference" "R16"
+			(at 63.754 58.42 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Value" "10 1% 1/16W"
+			(at 62.23 59.944 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8037250-c49b-4e26-94dc-e9dd281bc7d7")
+		)
+		(pin "1"
+			(uuid "1e38eac0-8329-4ac7-95c1-7fdb9367bc26")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 72.39 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0b4a910-60dc-4c89-8bb5-4fcc9ef863fb")
+		(property "Reference" "C5"
+			(at 73.914 55.626 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8 nF X7R 50V"
+			(at 71.374 53.594 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "0603B682K500NT"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad254057-2334-4b97-acdf-848fc2aa0b5c")
+		)
+		(pin "1"
+			(uuid "c43e53eb-9617-4320-bf15-b0cb73491084")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/0ac79125-99a9-4895-af38-26a2dd11c563"
+					(reference "C5")
 					(unit 1)
 				)
 			)
