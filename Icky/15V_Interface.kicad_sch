@@ -148,132 +148,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2308,7 +2182,7 @@
 	)
 	(text_box "15V Rail Sensor\n"
 		(exclude_from_sim no)
-		(at 160.02 38.735 0)
+		(at 177.8 41.275 0)
 		(size 86.36 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
@@ -2409,19 +2283,19 @@
 		(uuid "a9044d48-b84e-49b9-847b-72b040cdf791")
 	)
 	(junction
-		(at 232.41 68.58)
+		(at 248.92 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5f130d-744d-47ea-8eec-2094fc095198")
 	)
 	(junction
-		(at 225.425 75.565)
+		(at 241.935 75.565)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b742fd0c-cbd4-4d86-b266-8d8f08d6ba4d")
 	)
 	(junction
-		(at 225.425 63.5)
+		(at 241.935 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bac82be9-22de-4fb6-ba6a-b7070c5226ec")
@@ -2445,7 +2319,7 @@
 		(uuid "fa7dbc52-8ea8-48ee-8904-8a3edb4c3b3a")
 	)
 	(bus_entry
-		(at 178.435 60.96)
+		(at 194.945 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2454,7 +2328,7 @@
 		(uuid "16372c8e-c5ff-4ec5-8f74-0a2f5427010f")
 	)
 	(bus_entry
-		(at 178.435 58.42)
+		(at 194.945 58.42)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2463,7 +2337,7 @@
 		(uuid "284b252d-f2ee-43d4-beb0-88723a2076fd")
 	)
 	(bus_entry
-		(at 178.435 66.04)
+		(at 194.945 66.04)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2481,7 +2355,7 @@
 		(uuid "350fdfa1-a690-4989-973e-598bd91e449e")
 	)
 	(bus_entry
-		(at 178.435 63.5)
+		(at 194.945 63.5)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2509,7 +2383,7 @@
 	)
 	(bus
 		(pts
-			(xy 178.435 60.96) (xy 178.435 63.5)
+			(xy 194.945 60.96) (xy 194.945 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 75.565) (xy 225.425 76.2)
+			(xy 241.935 75.565) (xy 241.935 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 71.12) (xy 225.425 75.565)
+			(xy 241.935 71.12) (xy 241.935 75.565)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 63.5) (xy 240.665 63.5)
+			(xy 241.935 63.5) (xy 251.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 66.04) (xy 225.425 66.04)
+			(xy 240.03 66.04) (xy 241.935 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2619,17 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 60.96) (xy 245.745 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab00250-8c2b-4930-b69d-8d498ac7820b")
-	)
-	(wire
-		(pts
-			(xy 34.29 62.23) (xy 55.88 62.23)
+			(xy 46.99 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +2593,7 @@
 	)
 	(bus
 		(pts
-			(xy 178.435 63.5) (xy 178.435 66.04)
+			(xy 194.945 63.5) (xy 194.945 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 68.58) (xy 193.04 68.58)
+			(xy 197.485 68.58) (xy 209.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2623,7 @@
 	)
 	(bus
 		(pts
-			(xy 178.435 58.42) (xy 178.435 60.96)
+			(xy 194.945 58.42) (xy 194.945 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.425 63.5) (xy 225.425 66.04)
+			(xy 241.935 63.5) (xy 241.935 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 225.425 63.5)
+			(xy 240.03 63.5) (xy 241.935 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 225.425 71.12)
+			(xy 240.03 71.12) (xy 241.935 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 63.5) (xy 193.04 63.5)
+			(xy 197.485 63.5) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2753,7 @@
 	)
 	(bus
 		(pts
-			(xy 178.435 58.42) (xy 177.165 57.15)
+			(xy 194.945 58.42) (xy 193.675 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2919,23 +2783,13 @@
 	)
 	(bus
 		(pts
-			(xy 177.165 57.15) (xy 175.26 57.15)
+			(xy 193.675 57.15) (xy 191.77 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c1c69c0-2a3a-4d80-81c8-7954263c1af9")
-	)
-	(wire
-		(pts
-			(xy 232.41 68.58) (xy 256.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6c0b56-1cc3-447a-b82a-5a830591457f")
 	)
 	(wire
 		(pts
@@ -2959,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 68.58) (xy 232.41 69.85)
+			(xy 248.92 68.58) (xy 248.92 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 74.93) (xy 232.41 75.565)
+			(xy 248.92 74.93) (xy 248.92 75.565)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 66.04) (xy 193.04 66.04)
+			(xy 197.485 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 60.96) (xy 240.665 60.96)
+			(xy 240.03 60.96) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3086,16 +2940,6 @@
 			(type default)
 		)
 		(uuid "be131fc7-b285-4d8e-ae77-d478ab202854")
-	)
-	(wire
-		(pts
-			(xy 245.745 63.5) (xy 259.08 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3cfc9a1-968f-45aa-a885-025ac113b3b0")
 	)
 	(wire
 		(pts
@@ -3149,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.12) (xy 193.04 71.12)
+			(xy 198.12 71.12) (xy 209.55 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 68.58) (xy 232.41 68.58)
+			(xy 240.03 68.58) (xy 248.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 75.565) (xy 225.425 75.565)
+			(xy 248.92 75.565) (xy 241.935 75.565)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.975 60.96) (xy 193.04 60.96)
+			(xy 197.485 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7581,7 +7425,7 @@
 		)
 	)
 	(label "SPI1_SCK"
-		(at 180.975 68.58 0)
+		(at 197.485 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7621,7 +7465,7 @@
 		(uuid "21c688d9-914f-413b-9600-3ccb1df84c79")
 	)
 	(label "15V_IN"
-		(at 36.83 62.23 0)
+		(at 67.31 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7641,7 +7485,7 @@
 		(uuid "2550a780-af35-4203-a80c-17082637a2bc")
 	)
 	(label "SPI1_MOSI"
-		(at 180.975 63.5 0)
+		(at 197.485 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7651,7 +7495,7 @@
 		(uuid "30022be9-fa61-49ce-a2c3-6fc87ed68037")
 	)
 	(label "15V_ALERT"
-		(at 181.61 71.12 0)
+		(at 198.12 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7671,7 +7515,7 @@
 		(uuid "442a2321-1f1e-45e2-b453-1e177a092c26")
 	)
 	(label "15V_D"
-		(at 259.08 60.96 180)
+		(at 251.46 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7691,7 +7535,7 @@
 		(uuid "4dc9f328-bfce-4019-beec-e39f662418ea")
 	)
 	(label "15V_OUT"
-		(at 259.08 63.5 180)
+		(at 251.46 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7701,7 +7545,7 @@
 		(uuid "748173d8-841c-4782-8a77-23e3ab3ff658")
 	)
 	(label "SPI1_MISO"
-		(at 180.975 66.04 0)
+		(at 197.485 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7731,7 +7575,7 @@
 		(uuid "92d0a306-53b4-4822-b5d0-cb84d10b808b")
 	)
 	(label "SPI1_NSS1"
-		(at 180.975 60.96 0)
+		(at 197.485 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7739,26 +7583,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5d6a362-e32e-4e75-956d-10dae35e6ec1")
-	)
-	(label "shunt15+"
-		(at 226.695 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4a395db-6a54-4d2c-8c43-8f05077444ad")
-	)
-	(label "shunt15-"
-		(at 226.695 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e30b0068-8eec-40ed-b4e0-313ca483dabb")
 	)
 	(hierarchical_label "15V_OUT"
 		(shape output)
@@ -7784,7 +7608,7 @@
 	)
 	(hierarchical_label "{SPI_SENSORS}"
 		(shape bidirectional)
-		(at 175.26 57.15 180)
+		(at 191.77 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +7619,7 @@
 	)
 	(hierarchical_label "15V_IN"
 		(shape input)
-		(at 34.29 62.23 180)
+		(at 46.99 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,73 +7696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 243.205 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bf44532-b240-4074-b885-d89fef554a43")
-		(property "Reference" "NT4"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTieShuntL"
-			(at 244.475 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_net_tie:NetTie-2_SMD_Pad0.2mm"
-			(at 243.205 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.205 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.205 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "954c32ac-ee67-4362-bd84-6f190f78205e")
-		)
-		(pin "2"
-			(uuid "950da015-2ccb-4140-8f4b-30995475e4ff")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/41e6cded-2849-4e29-ba8c-68504b3f6d2b"
-					(reference "NT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 105.41 0)
 		(unit 1)
@@ -7966,7 +7723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 135.89 105.41 0)
 			(effects
 				(font
@@ -8036,7 +7793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.532 115.57 90)
 			(effects
 				(font
@@ -8103,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 80.518 90)
 			(effects
 				(font
@@ -8172,7 +7929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.482 97.79 90)
 			(effects
 				(font
@@ -8242,7 +7999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.532 95.25 90)
 			(effects
 				(font
@@ -8309,7 +8066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 74.93 0)
 			(effects
 				(font
@@ -8377,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 116.84 60.452 90)
 			(effects
 				(font
@@ -8410,6 +8167,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mfr" "HoLLR2010-1.5W-4mR-1%"
+			(at 116.84 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8455,7 +8221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 82.55 0)
 			(effects
 				(font
@@ -8499,7 +8265,7 @@
 	)
 	(symbol
 		(lib_id "INA239AQDGSRQ1:INA239AQDGSRQ1")
-		(at 193.04 60.96 0)
+		(at 209.55 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8508,7 +8274,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cd49d65-14ab-4ee1-a9e3-ea30a3148cae")
 		(property "Reference" "IC2"
-			(at 208.28 53.975 0)
+			(at 224.79 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,15 +8282,15 @@
 			)
 		)
 		(property "Value" "INA239AQDGSRQ1"
-			(at 208.28 56.515 0)
+			(at 224.79 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "0_diode_smd:SOP50P490X110-10N"
-			(at 219.71 155.88 0)
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
+			(at 236.22 155.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina239-q1.pdf?ts=1649085907566&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA239-Q1"
-			(at 219.71 255.88 0)
+			(at 236.22 255.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 60.96 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8319,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 219.71 455.88 0)
+			(at 236.22 455.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8329,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-INA239AQDGSRQ1"
-			(at 219.71 555.88 0)
+			(at 236.22 555.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,7 +8339,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA239AQDGSRQ1?qs=QNEnbhJQKva5RO79sS938A%3D%3D"
-			(at 219.71 655.88 0)
+			(at 236.22 655.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8349,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 219.71 755.88 0)
+			(at 236.22 755.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8359,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "INA239AQDGSRQ1"
-			(at 219.71 855.88 0)
+			(at 236.22 855.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -8723,7 +8489,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 256.54 68.58 0)
+		(at 248.92 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8731,7 +8497,7 @@
 		(dnp no)
 		(uuid "8170162e-4ecd-418e-afa1-7d0b319c7b0a")
 		(property "Reference" "#PWR048"
-			(at 256.54 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8506,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 260.096 68.072 0)
+			(at 252.476 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 68.58 0)
+			(at 248.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +8644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_package_SOT_TO_SMD:SOT-23-3"
+		(property "Footprint" "SamacSys_Parts:BSS123N"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -8975,7 +8741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 90.17 68.58 0)
 			(effects
 				(font
@@ -9030,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 232.41 72.39 0)
+		(at 248.92 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9038,7 +8804,7 @@
 		(dnp no)
 		(uuid "977b4582-3016-44fe-8b4a-d177d08c3bdc")
 		(property "Reference" "C2"
-			(at 234.315 72.39 0)
+			(at 250.825 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9047,7 +8813,7 @@
 			)
 		)
 		(property "Value" "100n X7R 50V"
-			(at 233.045 74.93 0)
+			(at 249.555 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,8 +8821,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
-			(at 232.41 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,7 +8831,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +8840,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +8849,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +8858,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GCM155R71H104KE02J"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +8867,7 @@
 			)
 		)
 		(property "Supplier 1" "Digikey"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +8876,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "490-14514-1-ND"
-			(at 232.41 72.39 0)
+			(at 248.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +8926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -9213,7 +8979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 225.425 76.2 0)
+		(at 241.935 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9222,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6a8383e-7813-4eb5-9363-3ab4c09e75fa")
 		(property "Reference" "#PWR047"
-			(at 225.425 82.55 0)
+			(at 241.935 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +8997,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.425 81.28 0)
+			(at 241.935 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.425 76.2 0)
+			(at 241.935 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.425 76.2 0)
+			(at 241.935 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 225.425 76.2 0)
+			(at 241.935 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 74.93 0)
 			(effects
 				(font
@@ -9372,7 +9138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.082 82.55 90)
 			(effects
 				(font
@@ -9441,7 +9207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 80.01 90)
 			(effects
 				(font
@@ -9508,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-10N"
 			(at 119.38 185.09 0)
 			(effects
 				(font
@@ -9721,7 +9487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 65.532 105.41 90)
 			(effects
 				(font
@@ -9758,73 +9524,6 @@
 			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/41e6cded-2849-4e29-ba8c-68504b3f6d2b"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 243.205 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "edcd2b34-226a-4d7c-852d-1fffa42df63d")
-		(property "Reference" "NT3"
-			(at 243.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTieShuntH"
-			(at 244.475 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_net_tie:NetTie-2_SMD_Pad0.2mm"
-			(at 243.205 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.205 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.205 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4292e5dc-bfbe-4dc0-b787-252eef10653b")
-		)
-		(pin "2"
-			(uuid "53ac35a2-eaa1-46f7-b40b-15e6ea0c1af3")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e/41e6cded-2849-4e29-ba8c-68504b3f6d2b"
-					(reference "NT3")
 					(unit 1)
 				)
 			)

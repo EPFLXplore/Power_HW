@@ -1100,214 +1100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:XT30PW-F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 5.842 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "XT30PW-F"
-				(at 5.842 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "XT30PWF"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "5"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Amass"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "XT30PW-F"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "XT30PW-F_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -10.16 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:XT30UPB-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2756,7 +2548,7 @@
 		)
 		(uuid "3fd98ef4-f915-4cb8-bb9e-4a72c4306d8e")
 	)
-	(text_box "To Buck Modules"
+	(text_box "To Bucks Input"
 		(exclude_from_sim no)
 		(at 87.63 107.315 0)
 		(size 41.91 6.985)
@@ -2827,7 +2619,7 @@
 		)
 		(uuid "85fce46c-b22f-4bb8-bab5-13a1f70ddf64")
 	)
-	(text_box "Buck Output\n"
+	(text_box "From Buck Output\n"
 		(exclude_from_sim no)
 		(at 143.51 107.315 0)
 		(size 50.8 6.985)
@@ -3095,24 +2887,8 @@
 		(uuid "36d6cd81-0c32-408d-95ef-6aeb62bf7edb")
 	)
 	(no_connect
-		(at 265.43 57.15)
-		(uuid "3b43b98d-4ff7-40b9-ae37-836fc21bd189")
-	)
-	(no_connect
-		(at 265.43 68.58)
-		(uuid "5086492c-7c7a-4f4e-ac0c-d90ef1027352")
-	)
-	(no_connect
 		(at 71.12 119.38)
 		(uuid "55cf8b5d-042f-497f-80b9-64ccabab0b89")
-	)
-	(no_connect
-		(at 265.43 88.9)
-		(uuid "56274e9b-dc77-4baf-b7c9-87f68c0942a0")
-	)
-	(no_connect
-		(at 265.43 46.99)
-		(uuid "7fc071dc-dac3-4858-af35-a82a086b2258")
 	)
 	(no_connect
 		(at 71.12 81.28)
@@ -3125,14 +2901,6 @@
 	(no_connect
 		(at 71.12 54.61)
 		(uuid "b7bffd59-008e-4fe0-b206-c0e268676acf")
-	)
-	(no_connect
-		(at 265.43 99.06)
-		(uuid "f1c65bb9-4b5d-4266-91ea-cbad080490a1")
-	)
-	(no_connect
-		(at 265.43 78.74)
-		(uuid "f3520d92-f8dd-4876-a008-90041c143b08")
 	)
 	(no_connect
 		(at 71.12 91.44)
@@ -4797,7 +4565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.4552 97.79 0)
 			(effects
 				(font
@@ -5207,6 +4975,129 @@
 		)
 	)
 	(symbol
+		(lib_name "XT30UPB-F_3")
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 245.11 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bbd7eab-884b-4bb4-af40-1288130f49ac")
+		(property "Reference" "J4"
+			(at 261.62 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 261.62 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 261.62 4.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 261.62 -95.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 245.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 261.62 -295.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 261.62 -395.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 261.62 -495.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 261.62 -595.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 261.62 -695.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcfb04f1-0b15-472b-9322-7a0764290148")
+		)
+		(pin "1"
+			(uuid "85a1a67d-5cb8-4a6e-b5b3-00605b590961")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ24CA")
 		(at 158.75 93.98 90)
 		(unit 1)
@@ -5539,7 +5430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.4552 55.88 0)
 			(effects
 				(font
@@ -5825,43 +5716,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT30PW-F")
-		(at 245.11 78.74 0)
-		(mirror x)
+		(lib_id "SamacSys_Parts:XT60PW-F")
+		(at 48.26 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55c9a97f-159c-475f-b072-55ebda54b042")
-		(property "Reference" "J5"
-			(at 263.144 72.136 0)
+		(uuid "4ca8d94a-bf35-49e8-8ca8-8a2a547ba802")
+		(property "Reference" "J6"
+			(at 59.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT30PW-F"
-			(at 267.208 74.422 0)
+		(property "Value" "XT60PW-F"
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "XT30PWF"
-			(at 261.62 -16.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 261.62 -116.18 0)
+		(property "Footprint" "XT60PWF"
+			(at 67.31 204.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,8 +5750,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 245.11 78.74 0)
+		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+			(at 67.31 304.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 48.26 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,8 +5769,28 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5"
-			(at 261.62 -316.18 0)
+		(property "Height" "8.4"
+			(at 67.31 504.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 604.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 704.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5800,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 261.62 -416.18 0)
+			(at 67.31 804.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,48 +5809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 261.62 -516.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 261.62 -616.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 261.62 -716.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 261.62 -816.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 261.62 -916.18 0)
+		(property "Manufacturer_Part_Number" "XT60PW-F"
+			(at 67.31 904.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,16 +5820,138 @@
 			)
 		)
 		(pin "1"
-			(uuid "63202e5b-9388-4e92-b9ec-d1436b6d8c40")
-		)
-		(pin "4"
-			(uuid "4d0dd7bd-e91d-455e-8366-859253053053")
-		)
-		(pin "3"
-			(uuid "1f92576c-1381-49e3-becb-2d17da52da6b")
+			(uuid "747efb34-07f6-423e-8151-a7df6c26e31d")
 		)
 		(pin "2"
-			(uuid "d0faca14-02b7-4b4b-b93f-8a02dd207504")
+			(uuid "972b458b-13a3-4f1d-bf1a-8441564d2bf7")
+		)
+		(pin "3"
+			(uuid "2674c4cb-46bf-4bdf-9044-d81d4f2099dd")
+		)
+		(pin "4"
+			(uuid "475cfe75-def2-4a76-9d23-a9670629f04b")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 101.6 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57852f68-ea17-44db-aac7-79afc1dd9c49")
+		(property "Reference" "J5"
+			(at 118.11 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-F"
+			(at 118.11 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT30UPBF"
+			(at 118.11 4.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 118.11 -95.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.4"
+			(at 118.11 -295.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 118.11 -395.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 118.11 -495.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 118.11 -595.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 118.11 -695.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41e6fba2-2dd4-41e5-be2d-e29c9a982f5f")
+		)
+		(pin "1"
+			(uuid "40a2c6db-ea17-4dc7-8b7d-90b96d7a1be7")
 		)
 		(instances
 			(project "Icky"
@@ -6598,7 +6590,7 @@
 	(symbol
 		(lib_name "XT30UPB-F_3")
 		(lib_id "SamacSys_Parts:XT30UPB-F")
-		(at 101.6 99.06 0)
+		(at 245.11 57.15 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6607,7 +6599,7 @@
 		(dnp no)
 		(uuid "81bd5e39-247b-41ab-aeb7-ee8f03c34161")
 		(property "Reference" "J8"
-			(at 118.11 99.0601 0)
+			(at 261.62 57.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +6608,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-F"
-			(at 118.11 96.5201 0)
+			(at 261.62 54.6101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6617,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPBF"
-			(at 118.11 4.14 0)
+			(at 261.62 -37.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6627,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
-			(at 118.11 -95.86 0)
+			(at 261.62 -137.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6637,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 101.6 99.06 0)
+			(at 245.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6646,7 @@
 			)
 		)
 		(property "Height" "9.4"
-			(at 118.11 -295.86 0)
+			(at 261.62 -337.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6656,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 118.11 -395.86 0)
+			(at 261.62 -437.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6666,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 118.11 -495.86 0)
+			(at 261.62 -537.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6684,7 +6676,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 118.11 -595.86 0)
+			(at 261.62 -637.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6686,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT30UPB-F"
-			(at 118.11 -695.86 0)
+			(at 261.62 -737.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6702,7 @@
 			(uuid "ce17d35c-24c7-4689-9123-570939c7f877")
 		)
 		(instances
-			(project "Bucky++"
+			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "J8")
 					(unit 1)
@@ -6937,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 55.88 0)
 			(effects
 				(font
@@ -7007,7 +6999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 97.79 0)
 			(effects
 				(font
@@ -7167,277 +7159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT60PW-F")
-		(at 48.26 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac51d27a-29aa-4c12-b053-64c189eb269d")
-		(property "Reference" "J4"
-			(at 59.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-F"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PWF"
-			(at 67.31 204.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
-			(at 67.31 304.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 48.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8.4"
-			(at 67.31 504.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 67.31 604.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "RS Price/Stock" ""
-			(at 67.31 704.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 67.31 804.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT60PW-F"
-			(at 67.31 904.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44513fad-1b67-461a-8395-1bd0696df2d2")
-		)
-		(pin "2"
-			(uuid "9478df7e-3e1a-4c2f-bc90-e946c4c843e1")
-		)
-		(pin "3"
-			(uuid "d2e760c3-82c8-4c44-912b-7bdba017ef78")
-		)
-		(pin "4"
-			(uuid "ec8b76b9-f703-4b0a-8a43-af62857c3e50")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:XT30PW-F")
-		(at 245.11 99.06 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac78454a-2122-4902-b78b-7df68f67de75")
-		(property "Reference" "J6"
-			(at 263.144 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT30PW-F"
-			(at 267.208 94.742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT30PWF"
-			(at 261.62 4.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 261.62 -95.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 245.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "5"
-			(at 261.62 -295.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 261.62 -395.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 261.62 -495.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 261.62 -595.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 261.62 -695.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 261.62 -795.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 261.62 -895.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59ddeab2-dfc5-4c5f-b9e1-dfa751819063")
-		)
-		(pin "4"
-			(uuid "6a57e171-26b8-4482-9777-db35b09ff1c0")
-		)
-		(pin "3"
-			(uuid "161ff88e-0876-4455-9547-0c13da373a5d")
-		)
-		(pin "2"
-			(uuid "1943e464-58cd-48fb-a45a-308722b60b94")
-		)
-		(instances
-			(project "Icky"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 237.49 73.66 0)
 		(unit 1)
@@ -7465,7 +7186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.4552 77.47 0)
 			(effects
 				(font
@@ -8246,43 +7967,36 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:XT30PW-F")
-		(at 245.11 57.15 0)
+		(lib_name "XT30UPB-F_3")
+		(lib_id "SamacSys_Parts:XT30UPB-F")
+		(at 245.11 78.74 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f050ecf9-a0db-4143-814c-cfc9553f55ae")
+		(uuid "eaca6a27-0677-43bc-85d5-45cebe0c8c56")
 		(property "Reference" "J3"
-			(at 263.144 50.546 0)
+			(at 261.62 78.7401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "XT30PW-F"
-			(at 267.208 52.832 0)
+		(property "Value" "XT30UPB-F"
+			(at 261.62 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PWF"
-			(at 261.62 -37.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf"
-			(at 261.62 -137.77 0)
+		(property "Footprint" "XT30UPBF"
+			(at 261.62 -16.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8291,8 +8005,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Socket; DC supply; XT30; female; PIN:2; on PCBs; THT; Colour: yellow"
-			(at 245.11 57.15 0)
+		(property "Datasheet" "https://www.tme.eu/Document/81f11ca924696756331f21b972812074/XT30PB-F.pdf"
+			(at 261.62 -116.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 245.11 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,8 +8024,28 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5"
-			(at 261.62 -337.77 0)
+		(property "Height" "9.4"
+			(at 261.62 -316.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 261.62 -416.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 261.62 -516.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8055,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amass"
-			(at 261.62 -437.77 0)
+			(at 261.62 -616.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,8 +8064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT30PW-F"
-			(at 261.62 -537.77 0)
+		(property "Manufacturer_Part_Number" "XT30UPB-F"
+			(at 261.62 -716.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,61 +8073,15 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Part Number" ""
-			(at 261.62 -637.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 261.62 -737.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 261.62 -837.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 261.62 -937.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19b7ec83-2427-405e-ae5f-0aba7d1b1393")
-		)
-		(pin "4"
-			(uuid "6b7e631f-463d-4982-a257-19e918fa06ed")
-		)
-		(pin "3"
-			(uuid "cae6197e-562c-4a34-b2dc-47e76e1e4874")
 		)
 		(pin "2"
-			(uuid "968e484d-4613-4c04-aca4-d05bcc7aba88")
+			(uuid "8a57914b-5416-41ae-b51b-fa9e45a76b69")
+		)
+		(pin "1"
+			(uuid "898ac4ca-7594-4124-a1e9-aef05bf621bd")
 		)
 		(instances
-			(project "Bucky++"
+			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b884d20-85c8-4e14-bcd5-df65213f1de9"
 					(reference "J3")
 					(unit 1)
@@ -8419,7 +8117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 225.7552 77.47 0)
 			(effects
 				(font

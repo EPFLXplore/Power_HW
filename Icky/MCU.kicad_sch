@@ -8821,7 +8821,7 @@
 		)
 		(uuid "5720fb1b-01dd-4946-82d3-6d61b3796b0f")
 	)
-	(text_box "DESIGN NOTE:\nCs = 2 pF\nCL = 8 pF\nCL1 = CL2 = 2*(CL-CS) = 12 pF\nChoose C0G/NP0 1-2% tol."
+	(text_box "DESIGN NOTE:\nCs = 2 pF\nCL = 7 pF\nCL1 = CL2 = 2*(CL-CS) = 10 pF\nChoose C0G/NP0 1-2% tol."
 		(exclude_from_sim no)
 		(at 50.8 46.99 0)
 		(size 30.48 15.24)
@@ -8974,12 +8974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05486f61-a07f-48c8-ac67-c378553ec161")
-	)
-	(junction
-		(at 323.215 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05ed92a5-4953-4337-bca0-7c17925ddca8")
 	)
 	(junction
 		(at 158.75 215.9)
@@ -9388,6 +9382,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf4d461-f18c-4114-abb1-40b3e5f1d5be")
+	)
+	(junction
+		(at 322.58 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3375c2f-e4c7-4579-b863-d2def725697f")
 	)
 	(junction
 		(at 320.04 184.15)
@@ -10023,7 +10023,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 66.675) (xy 55.88 75.565)
+			(xy 55.88 67.31) (xy 55.88 75.565)
 		)
 		(stroke
 			(width 0)
@@ -10253,6 +10253,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 215.9) (xy 359.41 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15158f8f-b284-4256-b6ec-cd410f747fd0")
+	)
+	(wire
+		(pts
 			(xy 325.755 69.215) (xy 334.645 69.215)
 		)
 		(stroke
@@ -10440,16 +10450,6 @@
 			(type default)
 		)
 		(uuid "2401d823-d6c6-49fd-ba63-65049b7a860a")
-	)
-	(wire
-		(pts
-			(xy 323.215 208.915) (xy 322.58 208.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c65c41-c7cb-401a-b7ae-8c56158b417e")
 	)
 	(wire
 		(pts
@@ -10643,7 +10643,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 66.675) (xy 55.88 66.675)
+			(xy 66.04 67.31) (xy 55.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -11033,7 +11033,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.675) (xy 71.12 66.675)
+			(xy 78.74 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -12574,16 +12574,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.215 215.9) (xy 359.41 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37295be-d1be-40fc-a3f4-f1aeea18b796")
-	)
-	(wire
-		(pts
 			(xy 241.935 128.27) (xy 278.13 128.27)
 		)
 		(stroke
@@ -12694,7 +12684,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 215.9) (xy 323.215 215.9)
+			(xy 306.07 215.9) (xy 322.58 215.9)
 		)
 		(stroke
 			(width 0)
@@ -12754,7 +12744,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.215 208.915) (xy 323.215 215.9)
+			(xy 322.58 208.915) (xy 322.58 215.9)
 		)
 		(stroke
 			(width 0)
@@ -13214,7 +13204,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.675) (xy 78.74 73.66)
+			(xy 78.74 67.31) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14237,7 +14227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0805_2012_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.2602 203.2 0)
 			(effects
 				(font
@@ -14342,7 +14332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 286.0802 78.74 0)
 			(effects
 				(font
@@ -14447,7 +14437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.4252 213.36 0)
 			(effects
 				(font
@@ -14552,7 +14542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 206.7052 201.93 0)
 			(effects
 				(font
@@ -14769,7 +14759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 314.0202 78.74 0)
 			(effects
 				(font
@@ -14874,7 +14864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0805_2012_DensityHighest"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.5952 201.93 0)
 			(effects
 				(font
@@ -14979,7 +14969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 236.22 198.12 0)
 			(effects
 				(font
@@ -15342,7 +15332,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.468 133.35 90)
 			(effects
 				(font
@@ -15402,7 +15392,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR36506MSC5RPERQ1"
+		(property "Value" "LMR36506MSCQRPERQ1"
 			(at 158.75 177.8 0)
 			(effects
 				(font
@@ -15410,7 +15400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_switching_regulator:LMR36503"
+		(property "Footprint" "SamacSys_Parts:LMR36506MSC5RPERQ1"
 			(at 187.96 305.74 0)
 			(effects
 				(font
@@ -15449,7 +15439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LMR36503MSC5RPERQ1"
+		(property "Manufacturer Part Number" "LMR36506MSCQRPERQ1"
 			(at 187.96 1005.74 0)
 			(effects
 				(font
@@ -15468,7 +15458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "296-LMR36506MSC5RPERQ1CT-ND"
+		(property "Supplier Part Number 1" "LMR36506MSCQRPERQ1"
 			(at 158.75 210.82 0)
 			(effects
 				(font
@@ -15540,7 +15530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_1210_3225_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 305.1048 191.77 0)
 			(effects
 				(font
@@ -15609,7 +15599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_inductor_smd:L_Coilcraft_LPS4018"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS4018"
 			(at 179.705 184.15 0)
 			(effects
 				(font
@@ -15714,7 +15704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 199.898 198.12 90)
 			(effects
 				(font
@@ -15819,7 +15809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 235.585 74.93 0)
 			(effects
 				(font
@@ -16156,7 +16146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.368 48.26 90)
 			(effects
 				(font
@@ -16225,7 +16215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.738 193.04 90)
 			(effects
 				(font
@@ -16329,7 +16319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 118.872 90)
 			(effects
 				(font
@@ -16398,7 +16388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 258.445 74.93 0)
 			(effects
 				(font
@@ -16495,7 +16485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ABM8W-48.0000MHZ-4-D1X-T3"
+		(property "Value" "ABM8W-48.0000MHZ-7-D1X-T3"
 			(at 90.805 81.28 0)
 			(effects
 				(font
@@ -16504,7 +16494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_diode_smd:ABM8W480000MHZ6D1XT3"
+		(property "Footprint" "SamacSys_Parts:ABM8W480000MHZ6D1XT3"
 			(at 91.44 50.165 0)
 			(effects
 				(font
@@ -16513,7 +16503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Resonators/ABM10W.pdf"
+		(property "Datasheet" ""
 			(at 91.44 50.165 0)
 			(effects
 				(font
@@ -16531,7 +16521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer ref" "ABM10W-48.0000MHZ-8-D7G-T3"
+		(property "Manufacturer ref" "ABM8W-48.0000MHZ-7-D1X-T3 "
 			(at 91.44 50.165 0)
 			(effects
 				(font
@@ -16540,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey ref" "535-ABM10W-48.0000MHZ-8-D7G-T3CT-ND"
+		(property "Digikey ref" "ABM8W-48.0000MHZ-7-D1X-T3 "
 			(at 91.44 50.165 0)
 			(effects
 				(font
@@ -16597,7 +16587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.142 189.23 90)
 			(effects
 				(font
@@ -16835,7 +16825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.688 67.31 90)
 			(effects
 				(font
@@ -17016,7 +17006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a5bb21-cb4e-42dd-8a33-373678d059c6")
-		(property "Reference" "L802"
+		(property "Reference" "L5"
 			(at 360.68 176.53 90)
 			(effects
 				(font
@@ -17034,7 +17024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_inductor_smd:L_Coilcraft_LPS3314"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 363.22 184.15 0)
 			(effects
 				(font
@@ -17043,7 +17033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/3ba581dc-6d87-4be6-9dea-9167ac97554d/lps3314.pdf"
+		(property "Datasheet" "DFE252012PD-2R2M"
 			(at 363.22 184.15 0)
 			(effects
 				(font
@@ -17052,7 +17042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power Inductors - SMD 2.2uH Shld 20% 1.2A 100 mOhms"
+		(property "Description" "Power Inductors - SMD 2.2uH"
 			(at 363.22 184.15 0)
 			(effects
 				(font
@@ -17061,7 +17051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LPS3314-222MRC"
+		(property "Manufacturer Part Number" "DFE252012PD-2R2M"
 			(at 354.33 181.61 90)
 			(effects
 				(font
@@ -17079,7 +17069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "994-LPS3314-222MRC"
+		(property "Supplier Part Number 1" "DFE252012PD-2R2M"
 			(at 363.22 184.15 90)
 			(effects
 				(font
@@ -17088,7 +17078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" ""
 			(at 363.22 184.15 0)
 			(effects
 				(font
@@ -17106,7 +17096,7 @@
 		(instances
 			(project "Icky"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
-					(reference "L802")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -17273,7 +17263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.698 208.28 90)
 			(effects
 				(font
@@ -17378,7 +17368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.67 116.84 0)
 			(effects
 				(font
@@ -17483,7 +17473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0805_2012_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.5002 203.2 0)
 			(effects
 				(font
@@ -17725,7 +17715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 297.815 74.93 0)
 			(effects
 				(font
@@ -18078,7 +18068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12p NP0 25V"
+		(property "Value" "10p NP0 25V"
 			(at 53.975 86.36 90)
 			(effects
 				(font
@@ -18087,7 +18077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 84.455 0)
 			(effects
 				(font
@@ -18114,7 +18104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey ref" "311-3707-1-ND"
+		(property "Digikey ref" ""
 			(at 68.58 84.455 0)
 			(effects
 				(font
@@ -18123,7 +18113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer ref" "CC0402BRNPO9BN6R0"
+		(property "Manufacturer ref" ""
 			(at 68.58 84.455 0)
 			(effects
 				(font
@@ -18240,7 +18230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.825 74.93 0)
 			(effects
 				(font
@@ -18346,7 +18336,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 209.55 90)
 			(effects
 				(font
@@ -18451,7 +18441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 224.4852 201.93 0)
 			(effects
 				(font
@@ -18556,7 +18546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 325.755 74.93 0)
 			(effects
 				(font
@@ -18966,94 +18956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 68.58 66.675 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76175d2a-2bff-4c9b-972f-9bb02fdf4dfe")
-		(property "Reference" "C203"
-			(at 69.85 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12p NP0 25V"
-			(at 53.975 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 68.58 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
-			(at 68.58 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey ref" "311-3707-1-ND"
-			(at 68.58 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer ref" "CC0402BRNPO9BN6R0"
-			(at 68.58 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abe6f301-8d32-4645-853a-8391e0f1d272")
-		)
-		(pin "2"
-			(uuid "29ddd81d-c769-4ca9-a729-763f595d39c0")
-		)
-		(instances
-			(project "Bucky++"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 280.67 130.81 90)
 		(unit 1)
@@ -19078,7 +18980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 280.67 130.81 0)
 			(effects
 				(font
@@ -19183,7 +19085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 243.205 74.93 0)
 			(effects
 				(font
@@ -19286,7 +19188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_switching_regulator:SOTFL50P160X60-8N"
+		(property "Footprint" "SamacSys_Parts:SOTFL50P160X60-8N"
 			(at 346.075 254.94 0)
 			(effects
 				(font
@@ -19426,7 +19328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 326.6948 55.88 0)
 			(effects
 				(font
@@ -19751,7 +19653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 324.358 205.105 90)
 			(effects
 				(font
@@ -19889,7 +19791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 313.69 192.278 90)
 			(effects
 				(font
@@ -19992,7 +19894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 280.67 128.27 0)
 			(effects
 				(font
@@ -20344,7 +20246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.355 189.23 0)
 			(effects
 				(font
@@ -20716,7 +20618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.1352 79.375 0)
 			(effects
 				(font
@@ -20822,7 +20724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 373.38 130.81 0)
 			(effects
 				(font
@@ -20927,7 +20829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 210.82 0)
 			(effects
 				(font
@@ -21032,7 +20934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 119.0752 203.2 0)
 			(effects
 				(font
@@ -21137,7 +21039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0805_2012_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 375.6152 201.93 0)
 			(effects
 				(font
@@ -21242,7 +21144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.398 48.26 90)
 			(effects
 				(font
@@ -21312,7 +21214,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_switching_regulator:SOTFL50P160X60-8N"
+		(property "Footprint" "SamacSys_Parts:SOTFL50P160X60-8N"
 			(at 273.05 198.755 0)
 			(effects
 				(font
@@ -21534,6 +21436,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c637ea51-90d5-44d9-b8f4-1ddf42ba0b3a")
+		(property "Reference" "C31"
+			(at 70.866 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p NP0 25V"
+			(at 54.356 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey ref" ""
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer ref" ""
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "291fb5cc-1c5a-4f86-bfd8-669e0ec2e6a2")
+		)
+		(pin "2"
+			(uuid "3c3a48ff-2bb3-48c5-85e5-9e964ef26aeb")
+		)
+		(instances
+			(project "Icky"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/694c70cd-5237-46a2-a5ef-62c4b649ef6f"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 335.28 46.99 0)
 		(unit 1)
@@ -21624,7 +21614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0805_2012_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 82.55 185.928 90)
 			(effects
 				(font
@@ -21797,7 +21787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0805_2012_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 203.2 0)
 			(effects
 				(font
@@ -21902,7 +21892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 293.0652 199.39 0)
 			(effects
 				(font
@@ -22071,7 +22061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 119.888 90)
 			(effects
 				(font
@@ -22208,7 +22198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 261.62 116.84 0)
 			(effects
 				(font
@@ -22313,7 +22303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.738 209.55 90)
 			(effects
 				(font
@@ -22555,7 +22545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.988 86.36 90)
 			(effects
 				(font
@@ -22624,7 +22614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.4752 78.74 0)
 			(effects
 				(font
@@ -22730,7 +22720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.548 110.49 90)
 			(effects
 				(font

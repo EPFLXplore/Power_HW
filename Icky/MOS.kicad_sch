@@ -662,7 +662,7 @@
 		)
 		(uuid 269a9692-2cff-487a-9077-6dc73380bc3e)
 	)
-	(text_box "DESIGN NOTE - 3 parallel pairs / temperature check\n50A path 2 MOSFETs in parallel per leg back to back = 6 total\nWorst case OC is technically 60A, best 33A.\nDerating: at 125°C, RDSon is 2.53 * 2.1 (@ 125°C) = 5,3 * 20² = 2.12W * 40°C = 84°C + 55°C = 140°C << 175°C so tight\nMoreover this doesnt protect the motors so its more like 25A which means 8.3A per mosfet and realistically derated gives:\n2.53*2 = 5.06 * 8.3² = 0.36 * 40°C = 16°C + 55°C = 70°C so between overspect and tight."
+	(text_box "DESIGN NOTE - 3 parallel pairs / temperature check\nWorst case OC is technically 60A, best 33A.\nDerating: at 125°C, RDSon is 2.53 * 2.1 (@ 125°C) = 5,3 * 20² = 2.12W * 40°C = 84°C + 55°C = 140°C << 175°C so tight\nMoreover this doesnt protect the motors so its more like 25A which means 8.3A per mosfet and realistically derated gives:\n2.53*2 = 5.06 * 8.3² = 0.36 * 40°C = 16°C + 55°C = 70°C so between overspect and tight."
 		(exclude_from_sim no)
 		(at 121.92 19.05 0)
 		(size 53.34 27.94)
@@ -3495,7 +3495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 60.96 0)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 				)
 			)
 		)
-		(property "Value" "SQJQ112E-T1_GE3"
+		(property "Value" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 53.086 64.77 90)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 87.63 59.69 0)
 			(effects
 				(font
@@ -3946,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 60.96 0)
 			(effects
 				(font
@@ -4013,7 +4013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -4082,7 +4082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 39.37 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 57.15 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 43.18 0)
 			(effects
 				(font
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 63.5 78.74 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 74.93 0)
 			(effects
 				(font
@@ -4529,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DPAK_2E-T1_GE3_VIS"
+		(property "Footprint" "SamacSys_Parts:DPAK_2E-T1_GE3_VIS"
 			(at 87.63 41.91 0)
 			(effects
 				(font
