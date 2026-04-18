@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.4"
+      "Version": "10.0.0"
     },
-    "CreationDate": "2024-10-15T19:46:01+02:00"
+    "CreationDate": "2026-04-17T00:09:05+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,10 +14,10 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 53.1257,
-      "Y": 63.33
+      "X": 47.24,
+      "Y": 133.73
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness": 1.6062,
     "Finish": "None",
     "ImpedanceControlled": true
@@ -25,6 +25,15 @@
   "DesignRules": [
     {
       "Layers": "Outer",
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
+      "TrackToTrack": 0.125,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.15,
+      "RegionToRegion": 0.15
+    },
+    {
+      "Layers": "Inner",
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": 0.125,
@@ -39,8 +48,18 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "power_hat-In1_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "power_hat-In2_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "power_hat-B_Cu (Sig).gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -102,11 +121,39 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.5162,
+      "Thickness": 0.1,
       "Material": "FR4",
       "DielectricConstant": "4.3",
-      "Name": "F.Cu (Sig)/B.Cu (Sig)",
-      "Notes": "Type: dielectric layer 1 (from F.Cu (Sig) to B.Cu (Sig))"
+      "Name": "F.Cu (Sig)/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu (Sig) to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.2462,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/B.Cu (Sig)",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu (Sig))"
     },
     {
       "Type": "Copper",

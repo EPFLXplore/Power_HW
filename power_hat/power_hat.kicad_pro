@@ -659,7 +659,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -709,12 +709,300 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Construction Date",
+          "name": "Construction Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Converter_Type",
+          "name": "Converter_Type",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inductor type",
+          "name": "Inductor type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Manufacturer ref",
+          "name": "Manufacturer ref",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max applied VDS",
+          "name": "Max applied VDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max applied VGS",
+          "name": "Max applied VGS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max repetitive VCE",
+          "name": "Max repetitive VCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Min specified VCE",
+          "name": "Min specified VCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Min specified VDS",
+          "name": "Min specified VDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Min specified VGS",
+          "name": "Min specified VGS",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Ref",
+          "name": "Mouser Ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating_Power",
+          "name": "Operating_Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER_DISSIPATION",
+          "name": "POWER_DISSIPATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power loss",
+          "name": "Power loss",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Radiating surface",
+          "name": "Radiating surface",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Radiation",
+          "name": "Radiation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated_Power",
+          "name": "Rated_Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sheet",
+          "name": "Sheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME ref",
+          "name": "TME ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Table 14",
+          "name": "Table 14",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Table 16",
+          "name": "Table 16",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Table 17a",
+          "name": "Table 17a",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Table 17b",
+          "name": "Table 17b",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature",
+          "name": "Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature_Ambiant",
+          "name": "Temperature_Ambiant",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature_Junction",
+          "name": "Temperature_Junction",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Transistor type",
+          "name": "Transistor type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "alpha_c",
+          "name": "alpha_c",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "alpha_s",
+          "name": "alpha_s",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
