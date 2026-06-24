@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Power-Path Design Guide — TPS25983 &amp; the MOSFET as a Pass Element</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c2330; --ink:#e6edf3; --muted:#9aa7b4;
+    --line:#2b3440; --accent:#4cc2ff; --accent2:#ffb454; --good:#3fb950; --bad:#f85149;
+    --tps:#4cc2ff; --adm:#ffb454; --code:#0b0f14;
+    --maxw:1080px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{padding:48px 24px 36px;background:radial-gradient(1200px 400px at 30% -10%,#1c2740,transparent),var(--panel);
+    border-bottom:1px solid var(--line)}
+  header .wrap{max-width:var(--maxw);margin:0 auto}
+  h1{font-size:30px;margin:0 0 8px;letter-spacing:-.4px}
+  .sub{color:var(--muted);font-size:16px;max-width:760px}
+  main{max-width:var(--maxw);margin:0 auto;padding:0 24px 96px}
+  section{padding:34px 0 8px;border-bottom:1px solid var(--line)}
+  h2{font-size:23px;margin:6px 0 4px;letter-spacing:-.3px}
+  h2 .n{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:10px}
+  h3{font-size:18px;margin:26px 0 6px;color:#cdd9e5}
+  h4{font-size:15px;margin:18px 0 4px;color:var(--accent2);text-transform:uppercase;letter-spacing:.06em}
+  p{margin:10px 0}
+  a{color:var(--accent);text-decoration:none}
+  code{font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:.9em;
+    background:#0b0f14;border:1px solid var(--line);padding:1px 6px;border-radius:5px;color:#e6edf3}
+  ul,ol{margin:8px 0 8px 0;padding-left:22px}
+  li{margin:5px 0}
+  .lead{font-size:17px;color:#cdd9e5}
+  .pill{display:inline-block;font-size:12px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);
+    color:var(--muted);margin-right:6px}
+  .pill.tps{color:var(--tps);border-color:#2b4a5e}
+  .pill.adm{color:var(--adm);border-color:#5e4a2b}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:820px){.grid2{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:16px 0}
+  .card.tps{border-left:3px solid var(--tps)}
+  .card.adm{border-left:3px solid var(--adm)}
+  .eq{background:var(--code);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:14px 0;
+    font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:15px;overflow-x:auto;line-height:1.9}
+  .eq .lbl{float:right;color:var(--muted);font-size:12px;font-family:inherit}
+  .eq b{color:var(--accent)}
+  .frac{display:inline-block;text-align:center;vertical-align:middle;margin:0 4px}
+  .frac > span{display:block;padding:0 6px}
+  .frac .den{border-top:1px solid #6b7785}
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px}
+  th,td{border:1px solid var(--line);padding:8px 11px;text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:#cdd9e5;font-weight:600}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .note{border-left:3px solid var(--accent);background:#10202c;padding:10px 16px;border-radius:0 8px 8px 0;margin:14px 0}
+  .warn{border-left:3px solid var(--bad);background:#2a1416;padding:10px 16px;border-radius:0 8px 8px 0;margin:14px 0}
+  .tip{border-left:3px solid var(--good);background:#0f2417;padding:10px 16px;border-radius:0 8px 8px 0;margin:14px 0}
+  .fig{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin:18px 0}
+  .fig figcaption{color:var(--muted);font-size:13.5px;margin-top:8px}
+  svg{display:block;max-width:100%;height:auto;margin:0 auto}
+  nav.toc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 22px;margin:26px 0}
+  nav.toc ol{columns:2;column-gap:34px}
+  @media(max-width:820px){nav.toc ol{columns:1}}
+  nav.toc a{color:#cdd9e5}
+  .kpi{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+  .kpi div{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 14px;min-width:120px}
+  .kpi b{display:block;font-size:20px;color:var(--accent)}
+  .kpi span{font-size:12px;color:var(--muted)}
+  .small{font-size:13.5px;color:var(--muted)}
+  .swatch{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:5px;vertical-align:middle}
+  hr{border:none;border-top:1px dashed var(--line);margin:22px 0}
+  .checklist li{list-style:none;position:relative;padding-left:6px}
+  .checklist li::before{content:"☐";position:absolute;left:-18px;color:var(--accent)}
+  footer{max-width:var(--maxw);margin:0 auto;padding:24px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Power-Path Design Guide</h1>
+    <div class="sub">Dimensioning the protection stage around the <b>TPS25983</b> integrated hot-swap eFuse, with the
+    <b>ADM1270</b> external-FET current limiter used to explain how a controller's gate pin commands a MOSFET.
+    Focus: <b>transistor selection — SOA, the I–V plane, gate charge, and controller compatibility.</b></div>
+    <div style="margin-top:14px">
+      <span class="pill tps">IC1 · TPS259830LNRGER · ≤26 V · integrated FET</span>
+      <span class="pill adm">U17 · ADM1270ARQZ · external P-FET</span>
+      <span class="pill">Q1 CSD18540Q5B (N-ch, BGATE)</span>
+      <span class="pill">Q4/Q5 SQJ461EP (P-ch)</span>
+    </div>
+    <div class="small" style="margin-top:10px">Values below are read directly from <code>power_hat.kicad_sch</code>
+    / <code>power_hat.kicad_pcb</code> (branch <code>Pollux</code>). Parts still carrying placeholder values in the
+    schematic are flagged <span style="color:var(--bad)">TBD</span>.</div>
+  </div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <strong>Contents</strong>
+  <ol>
+    <li><a href="#mosfet">The MOSFET as a controlled valve</a></li>
+    <li><a href="#arch">Two architectures on this board</a></li>
+    <li><a href="#soa">Transistor selection: SOA, I–V, charge</a></li>
+    <li><a href="#compat">Is the FET compatible with the controller?</a></li>
+    <li><a href="#tps">Dimensioning every passive around the TPS25983</a></li>
+    <li><a href="#adm">The gate pin ↔ transistor gate (ADM1270)</a></li>
+    <li><a href="#checklist">Design checklist</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================= -->
+<section id="mosfet">
+  <h2><span class="n">1</span>The MOSFET as a controlled valve</h2>
+  <p class="lead">Before sizing anything, you have to be clear about <em>which region of the transistor</em> the
+  application drives it into. That single choice — fully-on switch vs. linear regulator — is what separates a
+  gate driver / DC-DC FET from a hot-swap / eFuse pass FET, and it is the reason SOA matters here but not there.</p>
+
+  <p>An N-channel MOSFET conducts when the gate-to-source voltage <code>V<sub>GS</sub></code> exceeds the threshold
+  <code>V<sub>GS(th)</sub></code>. The channel it forms behaves in three regimes:</p>
+
+  <table>
+    <tr><th>Region</th><th>Condition</th><th>Behaviour</th><th>Where you see it</th></tr>
+    <tr><td><b>Cut-off</b></td><td>V<sub>GS</sub> &lt; V<sub>GS(th)</sub></td>
+        <td>No channel. I<sub>D</sub>≈0, the FET blocks V<sub>DS</sub>.</td><td>Switch OFF</td></tr>
+    <tr><td><b>Ohmic / triode</b></td><td>V<sub>GS</sub> ≫ V<sub>th</sub>, small V<sub>DS</sub></td>
+        <td>Acts like a resistor R<sub>DS(on)</sub>. Loss = I²·R<sub>DS(on)</sub>.</td><td>Switch fully ON</td></tr>
+    <tr><td><b>Saturation / active</b></td><td>V<sub>GS</sub> &gt; V<sub>th</sub>, large V<sub>DS</sub></td>
+        <td>FET is a <em>current source</em> set by V<sub>GS</sub>: I<sub>D</sub>≈ ½·k·(V<sub>GS</sub>−V<sub>th</sub>)².
+            Dissipates I<sub>D</sub>·V<sub>DS</sub> — a lot.</td><td>Inrush, current limit, linear reg.</td></tr>
+  </table>
+
+  <div class="warn"><b>Terminology trap — "saturation" does NOT mean "fully on" for a MOSFET.</b> This is the opposite
+  of a BJT and it confuses everyone. For a <em>bipolar</em> transistor, "saturation" = hard on, collector-emitter
+  fully closed. For a <em>MOSFET</em>, "saturation" = the <em>constant-current / active</em> region: the channel is
+  pinched off at the drain end, so I<sub>D</sub> stops rising with V<sub>DS</sub> and the device behaves as a
+  current source — it is <b>only partially on and dropping a large V<sub>DS</sub></b>. The MOSFET's "fully on"
+  state is the <b>ohmic / triode</b> region (sometimes called the "linear" region because I<sub>D</sub>∝V<sub>DS</sub>
+  like a resistor). So:
+  <ul style="margin:8px 0 0">
+    <li><b>Switch fully ON</b> → ohmic/triode (low V<sub>DS</sub>, acts as R<sub>DS(on)</sub>).</li>
+    <li><b>Hot-swap holding current</b> → saturation/active (high V<sub>DS</sub>, current-source behaviour, lots of heat).</li>
+  </ul>
+  When this guide says the controller "parks the FET in saturation," it means exactly this partially-on,
+  high-dissipation state — which is why SOA matters. (Annoyingly, datasheets also call this linear-mode operation
+  "linear," meaning the third use of that word — the device acting as a <em>linear regulator</em>. Don't conflate it
+  with the ohmic "linear region.")</div>
+
+  <h4>Gate drivers &amp; DC-DC converters: you live in the corners</h4>
+  <p>In a buck/boost or a gate-driver-fed switch, the FET is slammed between <b>cut-off</b> and <b>ohmic</b> as fast
+  as possible. The gate driver's whole job is to shove charge into the gate quickly so the device crosses the
+  high-dissipation saturation region in nanoseconds. Loss is dominated by conduction (I²·R<sub>DS(on)</sub>) and by
+  <em>switching</em> energy (the brief transit through saturation, ×f<sub>sw</sub>). You pick the FET on
+  R<sub>DS(on)</sub>, on gate charge Q<sub>g</sub> (drive loss &amp; speed), and on Q<sub>gd</sub> (the Miller charge
+  that sets dV/dt and shoot-through risk). SOA is almost irrelevant because the device never <em>dwells</em> in
+  saturation.</p>
+
+  <h4>Hot-swap / eFuse / current limiter: you deliberately sit in saturation</h4>
+  <p>A hot-swap or current-limiting controller does the opposite. To tame inrush into a big output capacitor — or to
+  hold the load current at a ceiling during a fault — it <b>parks the FET in saturation on purpose</b>, modulating
+  V<sub>GS</sub> so the device behaves as a controlled current source. During that interval the FET simultaneously
+  carries the full current <em>and</em> drops most of the bus voltage:</p>
+  <div class="eq">P<sub>FET</sub> = I<sub>D</sub> · V<sub>DS</sub> &nbsp; with both large at once &nbsp;→&nbsp;
+     this is the stress that the <b>Safe Operating Area</b> describes.<span class="lbl">linear-mode dissipation</span></div>
+  <p>This is why, for the TPS/ADM class of parts, the dominant transistor question is not "how low is R<sub>DS(on)</sub>"
+  but <b>"can the FET survive sitting in the linear region long enough for the controller's timer to act?"</b></p>
+
+  <div class="note"><b>The controller never touches the load directly.</b> It only sets the gate voltage. Every amp
+  that flows, and every volt dropped across the pass element, is a <em>consequence</em> of where the controller has
+  positioned V<sub>GS</sub> on the transistor's I–V surface. Sizing the FET = making sure that surface, and its SOA,
+  contains every operating point the controller will command.</div>
+</section>
+
+<!-- ============================================================= -->
+<section id="arch">
+  <h2><span class="n">2</span>Two architectures on this board</h2>
+  <p>The two protection parts solve the same problem with opposite topologies. Knowing which one hides the FET and
+  which one exposes it tells you <em>where</em> you get to make transistor choices.</p>
+
+  <div class="grid2">
+    <div class="card tps">
+      <h3 style="margin-top:0;color:var(--tps)">TPS25983 — integrated eFuse</h3>
+      <p>The pass FET is <b>inside the IC</b> (R<sub>ON</sub> ≈ 2.7 mΩ, 20 A). You do <em>not</em> size the main
+      transistor — TI already guaranteed its SOA, and inrush is handled by an internal, dV/dt-controlled charge pump
+      driving that internal gate. Your job is the <b>passives that program the IC</b>: current limit, slew rate,
+      fault timer, UV/OV, current monitor.</p>
+      <p>The <b>only external transistor</b> in this path is an optional <b>N-channel reverse-blocking FET</b> driven
+      by the <code>dVdt/BGATE</code> pin (here the <b>CSD18540Q5B</b>). It conducts forward through its body/channel
+      and is turned <em>off</em> to block reverse current when the eFuse is disabled.</p>
+    </div>
+    <div class="card adm">
+      <h3 style="margin-top:0;color:var(--adm)">ADM1270 — external-FET current limiter</h3>
+      <p>The controller has <b>no internal pass device</b>. It drives an <b>external P-channel FET</b> (here the
+      <b>SQJ461EP</b>) through the <code>GATE</code> pin and senses current across an external R<sub>SENSE</sub>. A
+      second P-FET on <code>RPFG</code> does reverse-polarity protection.</p>
+      <p>Because the FET is external, <b>you</b> own its SOA. The controller's <code>TIMER</code> + <code>FLB</code>
+      (foldback) pins exist specifically to keep that FET inside its SOA during inrush and faults. This is the part
+      that makes the gate-pin↔gate relationship visible, so we use it to teach §6.</p>
+    </div>
+  </div>
+
+  <div class="tip"><b>Why this guide focuses on the TPS but borrows the ADM:</b> the TPS25983 gives you a turnkey,
+  guaranteed pass element and a rich set of passives to dimension — that's the bulk of the work on this board. But it
+  <em>hides</em> the gate-control physics. The ADM1270 exposes exactly that physics (a literal GATE pin charging a
+  literal MOSFET gate), so it is the perfect vehicle to explain inrush control, foldback, and FET/controller
+  compatibility — knowledge you then apply when choosing the TPS's external BGATE FET.</div>
+</section>
+
+<!-- ============================================================= -->
+<section id="soa">
+  <h2><span class="n">3</span>Transistor selection: SOA, the I–V plane, and charge</h2>
+
+  <h3>3.1 The output (I–V) characteristic — where the operating point lives</h3>
+  <p>The output characteristic plots drain current vs. drain-source voltage for a family of gate voltages. It is the
+  map of every state the controller can command. A switch lives hard against the left wall (ohmic); a hot-swap FET is
+  dragged out into the flat plateaus (saturation) during start-up and faults.</p>
+
+  <figure class="fig">
+  <svg viewBox="0 0 720 420" role="img" aria-label="MOSFET output characteristics">
+    <!-- axes -->
+    <line x1="70" y1="360" x2="690" y2="360" stroke="#6b7785" stroke-width="1.5"/>
+    <line x1="70" y1="360" x2="70" y2="30" stroke="#6b7785" stroke-width="1.5"/>
+    <text x="380" y="398" fill="#9aa7b4" font-size="14" text-anchor="middle">V<tspan dy="3" font-size="10">DS</tspan> (drain–source voltage) →</text>
+    <text x="24" y="200" fill="#9aa7b4" font-size="14" transform="rotate(-90 24 200)" text-anchor="middle">I<tspan dy="3" font-size="10">D</tspan> (drain current) →</text>
+    <!-- saturation boundary (parabola-ish) -->
+    <path d="M70,360 Q150,90 250,70" fill="none" stroke="#5a6573" stroke-width="1.4" stroke-dasharray="5 4"/>
+    <text x="210" y="60" fill="#8a95a3" font-size="12">V<tspan dy="3" font-size="9">DS</tspan><tspan dy="-3">=V</tspan><tspan dy="3" font-size="9">GS</tspan><tspan dy="-3">−V</tspan><tspan dy="3" font-size="9">th</tspan></text>
+    <!-- curves for several VGS -->
+    <!-- highest VGS -->
+    <path d="M70,360 C95,150 110,95 140,90 L690,78" fill="none" stroke="#4cc2ff" stroke-width="2.4"/>
+    <path d="M70,360 C92,210 108,150 135,145 L690,135" fill="none" stroke="#4cc2ff" stroke-width="2" opacity=".8"/>
+    <path d="M70,360 C90,265 105,212 130,208 L690,200" fill="none" stroke="#4cc2ff" stroke-width="2" opacity=".62"/>
+    <path d="M70,360 C88,310 102,278 126,275 L690,270" fill="none" stroke="#4cc2ff" stroke-width="2" opacity=".45"/>
+    <path d="M70,360 C86,338 100,330 120,329 L690,326" fill="none" stroke="#4cc2ff" stroke-width="2" opacity=".3"/>
+    <text x="694" y="80" fill="#4cc2ff" font-size="11">V<tspan dy="3" font-size="8">GS</tspan> high</text>
+    <text x="694" y="330" fill="#7fb6cf" font-size="11">low</text>
+    <!-- region labels -->
+    <text x="120" y="200" fill="#9aa7b4" font-size="13" transform="rotate(-72 120 200)">OHMIC</text>
+    <text x="420" y="120" fill="#9aa7b4" font-size="13">SATURATION (constant-current) — hot-swap dwells here</text>
+    <!-- switch operating point -->
+    <circle cx="96" cy="120" r="6" fill="#3fb950"/><text x="106" y="116" fill="#3fb950" font-size="12">switch ON (low V·high I, tiny loss)</text>
+    <!-- hot-swap operating point -->
+    <circle cx="470" cy="135" r="6" fill="#f85149"/><text x="300" y="172" fill="#f85149" font-size="12">inrush / current-limit point (high V × high I = heat)</text>
+    <line x1="470" y1="135" x2="470" y2="360" stroke="#f85149" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+    <line x1="470" y1="135" x2="70" y2="135" stroke="#f85149" stroke-width="1" stroke-dasharray="3 3" opacity=".6"/>
+  </svg>
+  <figcaption><span class="swatch" style="background:#4cc2ff"></span>Each curve = one V<sub>GS</sub>. The controller
+  picks the curve by setting the gate. In current-limit it holds I<sub>D</sub> flat (red) while V<sub>DS</sub> can be
+  almost the full bus — that product is the heat the FET must survive.</figcaption>
+  </figure>
+
+  <h3>3.2 The Safe Operating Area (SOA)</h3>
+  <p>The SOA is the manufacturer's promise, on a log-log I<sub>D</sub>–V<sub>DS</sub> plot, of which
+  (voltage, current) points the die survives <em>for a given pulse duration</em> before a hot-spot runs away (thermal
+  instability / "spirito" effect). It is bounded by four limits:</p>
+  <ul>
+    <li><b>R<sub>DS(on)</sub> line</b> (top-left, slope +1): you can't have high current at low voltage beyond the on-resistance.</li>
+    <li><b>Current limit</b> (top, horizontal): bond-wire / package max I<sub>D</sub>.</li>
+    <li><b>Power / thermal limits</b> (the diagonal −1 slope lines): one per pulse width — 100 µs, 1 ms, 10 ms, DC. Shorter pulses allow more power.</li>
+    <li><b>V<sub>DS(max)</sub> line</b> (right, vertical): avalanche breakdown.</li>
+  </ul>
+
+  <figure class="fig">
+  <svg viewBox="0 0 720 430" role="img" aria-label="Safe operating area">
+    <line x1="70" y1="370" x2="690" y2="370" stroke="#6b7785" stroke-width="1.5"/>
+    <line x1="70" y1="370" x2="70" y2="30" stroke="#6b7785" stroke-width="1.5"/>
+    <text x="380" y="408" fill="#9aa7b4" font-size="14" text-anchor="middle">V<tspan dy="3" font-size="10">DS</tspan> (log) →</text>
+    <text x="24" y="210" fill="#9aa7b4" font-size="14" transform="rotate(-90 24 210)" text-anchor="middle">I<tspan dy="3" font-size="10">D</tspan> (log) →</text>
+    <!-- gridlines -->
+    <g stroke="#222a35" stroke-width="1">
+      <line x1="195" y1="30" x2="195" y2="370"/><line x1="320" y1="30" x2="320" y2="370"/>
+      <line x1="445" y1="30" x2="445" y2="370"/><line x1="570" y1="30" x2="570" y2="370"/>
+      <line x1="70" y1="290" x2="690" y2="290"/><line x1="70" y1="210" x2="690" y2="210"/>
+      <line x1="70" y1="130" x2="690" y2="130"/><line x1="70" y1="70" x2="690" y2="70"/>
+    </g>
+    <text x="195" y="386" fill="#5a6573" font-size="10" text-anchor="middle">1V</text>
+    <text x="320" y="386" fill="#5a6573" font-size="10" text-anchor="middle">10V</text>
+    <text x="445" y="386" fill="#5a6573" font-size="10" text-anchor="middle">24V</text>
+    <text x="570" y="386" fill="#5a6573" font-size="10" text-anchor="middle">60V (V<tspan dy="2" font-size="8">DS,max</tspan>)</text>
+    <!-- RDSon line slope +1 -->
+    <line x1="70" y1="330" x2="250" y2="60" stroke="#3fb950" stroke-width="1.6"/>
+    <text x="120" y="70" fill="#3fb950" font-size="11">R<tspan dy="2" font-size="8">DS(on)</tspan></text>
+    <!-- current limit top -->
+    <line x1="180" y1="60" x2="620" y2="60" stroke="#9aa7b4" stroke-width="1.6"/>
+    <text x="360" y="52" fill="#9aa7b4" font-size="11">I<tspan dy="2" font-size="8">D,max</tspan> (package)</text>
+    <!-- pulse power lines slope -1 -->
+    <line x1="250" y1="60" x2="620" y2="60" stroke="none"/>
+    <line x1="250" y1="60"  x2="610" y2="290" stroke="#4cc2ff" stroke-width="1.8"/>
+    <line x1="220" y1="95"  x2="560" y2="320" stroke="#4cc2ff" stroke-width="1.6" opacity=".8"/>
+    <line x1="195" y1="135" x2="500" y2="330" stroke="#4cc2ff" stroke-width="1.5" opacity=".62"/>
+    <line x1="175" y1="185" x2="430" y2="345" stroke="#4cc2ff" stroke-width="1.5" opacity=".45"/>
+    <text x="600" y="305" fill="#4cc2ff" font-size="10">100µs</text>
+    <text x="548" y="335" fill="#7fb6cf" font-size="10">1ms</text>
+    <text x="487" y="345" fill="#6fa6bf" font-size="10">10ms</text>
+    <text x="418" y="360" fill="#5f96af" font-size="10">DC</text>
+    <!-- VDS max -->
+    <line x1="570" y1="30" x2="570" y2="370" stroke="#f85149" stroke-width="1.6"/>
+    <!-- operating point -->
+    <circle cx="445" cy="150" r="7" fill="#ffb454"/>
+    <text x="455" y="146" fill="#ffb454" font-size="12">worst-case inrush point</text>
+    <text x="455" y="164" fill="#9aa7b4" font-size="11">(≈24 V across FET, peak inrush I, for t<tspan dy="2" font-size="8">INRUSH</tspan>)</text>
+    <path d="M445,150 l40,60" stroke="#ffb454" stroke-width="1" opacity=".5"/>
+  </svg>
+  <figcaption>Pick the FET so your <b>worst-case linear-mode point</b> (orange) sits <em>below</em> the SOA line for
+  the <b>duration the controller will hold it there</b>. Newer trench/super-junction FETs derate hard at high
+  V<sub>DS</sub> — always read the actual datasheet SOA, never assume P = constant.</figcaption>
+  </figure>
+
+  <div class="warn"><b>SOA sign-off is a time question, not just a power question.</b> "10 A at 24 V" might be inside the
+  1 ms line but far outside the DC line. So you cannot sign off a FET until you know <em>how long</em> the controller
+  parks it there — which is set by the slew-rate cap (TPS <code>C<sub>dVdt</sub></code>) or the timer cap
+  (ADM <code>C<sub>TIMER</sub></code>). Transistor sizing and passive sizing are the same calculation.</div>
+
+  <h3>3.3 Inrush energy and the charge that must be delivered</h3>
+  <p>During start-up the pass FET charges the entire downstream capacitance C<sub>OUT</sub> from 0 to V<sub>BUS</sub>.
+  Two "charge" budgets matter, and people mix them up:</p>
+
+  <h4>(a) Load charge / inrush energy — sizes the FET's SOA</h4>
+  <p>The charge moved into the load cap is <code>Q<sub>load</sub> = C<sub>OUT</sub>·V<sub>BUS</sub></code>. With a
+  controlled, constant ramp the inrush current is flat:</p>
+  <div class="eq">I<sub>inrush</sub> = C<sub>OUT</sub> ·
+    <span class="frac"><span class="num">dV</span><span class="den">dt</span></span>
+    = C<sub>OUT</sub> · SR &nbsp;&nbsp;&nbsp; t<sub>inrush</sub> =
+    <span class="frac"><span class="num">V<sub>BUS</sub></span><span class="den">SR</span></span>
+    <span class="lbl">constant-dV/dt start-up</span></div>
+  <p>The energy the FET dissipates during that ramp (current flat, V<sub>DS</sub> falling linearly from V<sub>BUS</sub>
+  to ~0) is:</p>
+  <div class="eq">E<sub>FET</sub> ≈ ½ · C<sub>OUT</sub> · V<sub>BUS</sub><sup>2</sup>
+    <span class="lbl">heat dumped into the die per start-up</span></div>
+  <p>This E and its duration t<sub>inrush</sub> are exactly the point you plot on the SOA. <b>Slower ramp = lower
+  I<sub>inrush</sub> but longer dwell</b> — you trade one SOA axis for the other, so you check both.</p>
+
+  <h4>(b) Gate charge Q<sub>g</sub> — sizes the controller's drive capability &amp; the ramp speed</h4>
+  <p>This is the charge the controller must push into the <em>gate</em> to turn the FET on. It's read off the gate-charge
+  curve. The flat <b>Miller plateau</b> (Q<sub>gd</sub>) is where V<sub>DS</sub> swings — the controller dwells there
+  while the output ramps, so a weak gate pull-up current stretches the ramp:</p>
+
+  <figure class="fig">
+  <svg viewBox="0 0 680 320" role="img" aria-label="Gate charge curve">
+    <line x1="70" y1="270" x2="640" y2="270" stroke="#6b7785" stroke-width="1.5"/>
+    <line x1="70" y1="270" x2="70" y2="25" stroke="#6b7785" stroke-width="1.5"/>
+    <text x="350" y="305" fill="#9aa7b4" font-size="13" text-anchor="middle">Q<tspan dy="3" font-size="9">g</tspan> gate charge delivered (nC) →</text>
+    <text x="26" y="150" fill="#9aa7b4" font-size="13" transform="rotate(-90 26 150)" text-anchor="middle">V<tspan dy="3" font-size="9">GS</tspan> →</text>
+    <polyline points="70,270 120,150 130,135" fill="none" stroke="#4cc2ff" stroke-width="2.5"/>
+    <polyline points="130,135 360,120" fill="none" stroke="#ffb454" stroke-width="2.5"/>
+    <polyline points="360,120 470,55 620,40" fill="none" stroke="#4cc2ff" stroke-width="2.5"/>
+    <line x1="130" y1="135" x2="130" y2="270" stroke="#5a6573" stroke-dasharray="3 3"/>
+    <line x1="360" y1="120" x2="360" y2="270" stroke="#5a6573" stroke-dasharray="3 3"/>
+    <text x="92"  y="288" fill="#9aa7b4" font-size="10">Q<tspan dy="2" font-size="8">gs</tspan></text>
+    <text x="235" y="288" fill="#ffb454" font-size="10">Q<tspan dy="2" font-size="8">gd</tspan> (Miller plateau)</text>
+    <text x="500" y="288" fill="#9aa7b4" font-size="10">Q<tspan dy="2" font-size="8">g</tspan> overdrive</text>
+    <text x="200" y="112" fill="#ffb454" font-size="11">V<tspan dy="2" font-size="8">GS</tspan> flat → V<tspan dy="2" font-size="8">DS</tspan> is swinging (output ramps here)</text>
+    <text x="60" y="138" fill="#9aa7b4" font-size="10" text-anchor="end">V<tspan dy="2" font-size="8">plateau</tspan></text>
+  </svg>
+  <figcaption>Ramp time ≈ Q<sub>gd</sub> / I<sub>gate</sub>. A controller that sources only tens of µA into the gate
+  (ADM1270: ~20 µA) charges a 90–140 nC FET <em>slowly</em> — that slow gate ramp is exactly how it limits inrush.</figcaption>
+  </figure>
+</section>
+
+<!-- ============================================================= -->
+<section id="compat">
+  <h2><span class="n">4</span>Is a given transistor compatible with the controller?</h2>
+  <p>"Compatible" means four independent checks pass. Run all of them for any external FET — the ADM's pass P-FET
+  (SQJ461EP) or the TPS's reverse-block N-FET (CSD18540Q5B).</p>
+
+  <table>
+    <tr><th>Check</th><th>What can go wrong</th><th>Rule</th></tr>
+    <tr><td><b>1. Voltage rating</b></td><td>Avalanche on transients / reverse spikes.</td>
+      <td>V<sub>DS(max)</sub> ≥ V<sub>BUS,max</sub> + margin (≥1.3× for hot-plug ringing). 60 V parts on a ≤26 V / ≤60 V bus = comfortable.</td></tr>
+    <tr><td><b>2. Gate-drive voltage</b></td><td>FET never fully enhances → huge R<sub>DS(on)</sub>, or gate over-volted.</td>
+      <td>Controller's gate-drive swing must exceed V<sub>GS(th)</sub> with margin <em>and</em> stay under V<sub>GS(max)</sub>. See clamp note below.</td></tr>
+    <tr><td><b>3. Gate charge vs. drive current</b></td><td>Ramp too fast (inrush spike) or too slow (SOA dwell too long).</td>
+      <td>t<sub>ramp</sub> ≈ Q<sub>gd</sub>/I<sub>gate</sub> must land in the intended inrush window.</td></tr>
+    <tr><td><b>4. SOA at the controlled operating point</b></td><td>Die hot-spot runaway during inrush / current limit.</td>
+      <td>(V<sub>DS</sub>, I<sub>D</sub>, t) point sits under the SOA curve <em>for that pulse width</em>, with foldback/timer accounted for.</td></tr>
+  </table>
+
+  <h3>4.1 The gate-clamp / V<sub>GS(max)</sub> interaction</h3>
+  <p>Controllers protect the FET from over-drive with an internal gate clamp. The ADM1270 clamps
+  <code>ΔV<sub>GATE</sub> = V<sub>CC</sub> − V<sub>GATE</sub></code> to <b>~10–14 V</b> (typ 12 V). So whatever the
+  bus voltage, the P-FET sees at most ~12 V of |V<sub>GS</sub>|. That means:</p>
+  <ul>
+    <li>The FET <b>must be fully enhanced at ≤ that clamp</b> — its R<sub>DS(on)</sub> spec at V<sub>GS</sub>=−10 V is
+    the relevant one (SQJ461EP: 16 mΩ @ −10 V ✓).</li>
+    <li>The FET's <b>V<sub>GS(max)</sub> must exceed the clamp</b> (SQJ461EP: ±20 V &gt; 12 V ✓), or the gate oxide is at risk.</li>
+  </ul>
+  <p>The TPS25983's internal charge pump drives its internal gate to <code>V<sub>IN</sub> + 3.6 V</code> (that level is
+  also what asserts <code>PGOOD</code>). For the external BGATE reverse FET, TI's BGATE driver and the chosen N-FET's
+  V<sub>GS(max)</sub> must likewise be compatible — the CSD18540Q5B's ±20 V rating covers it.</p>
+
+  <div class="tip"><b>Worked compatibility — Q5 = SQJ461EP on the ADM1270, ≈24 V bus, 10 A limit:</b>
+  <ul style="margin-bottom:0">
+    <li>V: V<sub>DS,max</sub> 60 V &gt; 24 V×1.3 ≈ 31 V ✓</li>
+    <li>Gate: enhanced at −10 V (R<sub>DS(on)</sub> = 16 mΩ); ADM clamp ~12 V &lt; 20 V V<sub>GS(max)</sub> ✓</li>
+    <li>Charge: Q<sub>g</sub> ≈ 90 nC (140 max); I<sub>GATEDN</sub> ≈ 20 µA ⇒ gate ramp ≈ Q<sub>gd</sub>/20 µA → tens of ms, naturally soft-starting ✓</li>
+    <li>SOA: the check to actually plot — (≈24 V, 10 A) held for the <b>220 ms</b> TIMER dwell (§6.4). This only
+    passes <em>because</em> the foldback (§6.3) lowers the current while V<sub>DS</sub> is high; verify it on the
+    SQJ461EP SOA curve.</li>
+  </ul></div>
+</section>
+
+<!-- ============================================================= -->
+<section id="tps">
+  <h2><span class="n">5</span>Dimensioning every passive around the TPS25983</h2>
+  <p>The TPS25983 (ref <b>IC1</b>) is configured by one resistor or capacitor per pin. Below is each passive with its
+  exact datasheet equation and <b>the value actually placed on this board</b>, plus what that value implies. The
+  current-limit and UV/OV-divider parts are <span style="color:var(--bad)">still placeholders</span> in the schematic
+  — this section doubles as the worksheet to finalize them.</p>
+
+  <div class="kpi">
+    <div><b>≈24 V</b><span>bus (6S; D1 SMCJ28A TVS)</span></div>
+    <div><b>≈10 A</b><span>implied by R<sub>IMON</sub>/R<sub>SENSE</sub></span></div>
+    <div><b>2.7 mΩ</b><span>internal R<sub>ON</sub></span></div>
+    <div><b>Q1</b><span>CSD18540Q5B on BGATE</span></div>
+  </div>
+
+  <div class="card tps">
+    <h4 style="margin-top:0">Board actuals — TPS25983 (IC1)</h4>
+    <table style="margin:6px 0 0">
+      <tr><th>Pin</th><th>Part</th><th>Placed value</th><th>Status / implication</th></tr>
+      <tr><td>ILIM (8)</td><td>Rillim1</td><td style="color:var(--bad)">TBD (placeholder)</td><td>Current limit not yet set — use §5.1.</td></tr>
+      <tr><td>dVdt/BGATE (15)</td><td>CdVdt1 + RG1</td><td>0.1 µF (C0G 630 V) + 100 Ω</td><td>Drives reverse-block N-FET Q1 (see §5.2/5.7).</td></tr>
+      <tr><td>ITIMER (7)</td><td>Citimer1</td><td>47 nF</td><td>≈21.9 ms blanking (§5.3).</td></tr>
+      <tr><td>EN/UVLO (6)</td><td>R1, R2</td><td style="color:var(--bad)">TBD (placeholder)</td><td>UVLO divider not set — §5.4.</td></tr>
+      <tr><td>OVLO (12)</td><td>R2, R3</td><td style="color:var(--bad)">TBD (placeholder)</td><td>OVLO divider not set — §5.4.</td></tr>
+      <tr><td>IMON (9)</td><td>Rimon1 + filter</td><td>1.33 kΩ; 10 kΩ + 0.1 µF</td><td>Full-scale ≈10 A → 3.23 V; f<sub>c</sub>≈159 Hz (§5.5).</td></tr>
+      <tr><td>RETRY_DLY (10)</td><td>Cretry_dly1</td><td>220 pF</td><td>Auto-retry delay between fault retries.</td></tr>
+      <tr><td>NRETRY (11)</td><td>R4</td><td>0 Ω</td><td>Sets retry count / latch-vs-auto-retry mode.</td></tr>
+      <tr><td>IN</td><td>D1; Cin1–4</td><td>SMCJ28A; 2×10 µF + 2×4.7 µF Ta</td><td>Input TVS + bulk (§5.6).</td></tr>
+    </table>
+  </div>
+
+  <div class="warn"><b>Headroom watch:</b> TPS25983 is 26 V operating / 30 V absolute-max. A 6S Li-ion pack tops out
+  ~25.2 V — fine nominally. But the input TVS is a <b>SMCJ28A</b> (28 V stand-off, ~31 V breakdown, ~45 V clamp): it
+  will <em>not</em> conduct until well above the part's 30 V abs-max, so it does not protect the eFuse against a fast
+  &gt;30 V transient. Confirm this is acceptable, or move to a lower-clamp device (e.g. SMCJ24A/26A) and make sure the
+  OVLO divider (§5.4) trips below 26 V.</div>
+
+  <h3>5.1 <code>R<sub>ILIM</sub></code> — current-limit / circuit-breaker threshold</h3>
+  <p>One resistor from ILIM to GND sets the overcurrent threshold (do not float, do not short — both are faults).</p>
+  <div class="eq">R<sub>ILIM</sub> (Ω) =
+    <span class="frac"><span class="num">1460</span><span class="den">I<sub>LIM</sub>(A) − 0.11</span></span>
+    &nbsp;→&nbsp; 10 A → 147.6 Ω &nbsp;·&nbsp; 15 A → 98.0 Ω &nbsp;·&nbsp; 20 A → 73.4 Ω
+    <span class="lbl">datasheet Eq. 5</span></div>
+  <div class="warn"><b>Board status: Rillim1 is a placeholder (no value set).</b> The IMON full-scale (§5.5) implies a
+  design point near <b>10 A</b>, which gives <b>R<sub>ILIM</sub> ≈ 147 Ω (E96, 1%)</b>. Pick the target current first,
+  then commit this resistor. Do not float (threshold→0, instant trip) or short (fault).</div>
+  <p class="small">Accuracy is ±8% for I<sub>LIM</sub>&gt;5 A. The fast-trip (short-circuit) threshold I<sub>FT</sub> is
+  internally fixed and reacts in &lt;400 ns regardless of this resistor.</p>
+
+  <h3>5.2 <code>C<sub>dVdt</sub></code> — output slew rate &amp; inrush control</h3>
+  <p>This is the inrush knob. Pick the inrush current you'll allow, derive the slew rate, then the cap:</p>
+  <div class="eq">SR (V/ms) =
+    <span class="frac"><span class="num">I<sub>inrush</sub>(mA)</span><span class="den">C<sub>OUT</sub>(µF)</span></span>
+    &nbsp;&nbsp;&nbsp; C<sub>dVdt</sub>(pF) =
+    <span class="frac"><span class="num">4600</span><span class="den">SR(V/ms)</span></span>
+    <span class="lbl">Eq. 3 &amp; 4</span></div>
+  <p><b>For reference,</b> a pure-slew design limiting inrush to 3 A into 1000 µF ⇒ SR = 3000/1000 = 3 V/ms ⇒
+  C<sub>dVdt</sub> = 4600/3 ≈ <b>1.5 nF</b>, giving start-up ≈ V<sub>BUS</sub>/SR = 24/3 = 8 ms.</p>
+
+  <div class="warn"><b>Board status — this pin is wired as BGATE, not as a slew cap.</b> On this board pin 15
+  (<code>dVdt/BGATE</code>) goes through <b>RG1 = 100 Ω</b> to the gate of <b>Q1 (CSD18540Q5B, N-ch)</b>, with
+  <b>CdVdt1 = 0.1 µF</b> on the net — i.e. the pin is being used in its <em>BGATE</em> role to drive the external
+  reverse-current-blocking FET (§5.7), not purely to program output slew.
+  <ul style="margin:8px 0 0">
+    <li>Taken literally as a slew cap, 0.1 µF (100 000 pF) gives SR = 4600/100000 ≈ <b>0.046 V/ms</b> → a ~520 ms
+    ramp at 24 V. That is almost certainly <em>not</em> the intended start-up time, which is the tell that this is
+    BGATE-mode wiring rather than a dV/dt value.</li>
+    <li><b>Action:</b> confirm the intended mode. The dVdt/BGATE pin serves one role at a time — if you need both a
+    slow programmed slew <em>and</em> an external reverse FET, verify against TI's BGATE application circuit that the
+    100 Ω + 0.1 µF network matches their recommended gate components, and don't expect Eq. 3/4 to predict the ramp.</li>
+  </ul></div>
+  <div class="note">When the pin <em>is</em> used as a slew cap, C<sub>dVdt</sub> is what keeps the <em>internal</em>
+  FET inside its SOA — it sets both the inrush current and the dwell time from §3.3, the integrated equivalent of the
+  ADM's foldback + timer.</div>
+
+  <h3>5.3 <code>C<sub>ITIMER</sub></code> — transient-fault blanking timer</h3>
+  <p>Sets how long an overcurrent above I<sub>LIM</sub> (but below fast-trip) is tolerated before the breaker
+  trips / current-limit engages — lets real load transients pass without nuisance trips.</p>
+  <div class="eq">t<sub>ITIMER</sub>(ms) =
+    <span class="frac"><span class="num">C<sub>ITIMER</sub>(nF) · ΔV<sub>ITIMER</sub></span><span class="den">I<sub>ITIMER</sub>(µA)</span></span>
+    , &nbsp; ΔV<sub>ITIMER</sub>≈0.98 V, I<sub>ITIMER</sub>≈2.1 µA
+    <span class="lbl">Eq. 6</span></div>
+  <p><b>Board: Citimer1 = 47 nF</b> ⇒ t<sub>ITIMER</sub> = 47 nF × 0.98 V / 2.1 µA ≈ <b>21.9 ms</b> of overcurrent
+  blanking before the breaker/limiter engages. Open = trip immediately; short = fault.</p>
+  <div class="warn"><b>Upper bound (Eq. 7):</b> too-large C<sub>ITIMER</sub> hasn't charged past the pin-short
+  detect level by the time start-up finishes → false fault. Keep
+  C<sub>ITIMER</sub> &lt; 53000 · t<sub>GHI</sub>/(V<sub>IN</sub>+3.6), where
+  t<sub>GHI</sub> = t<sub>D,ON</sub> + C<sub>dVdt</sub>·(V<sub>IN</sub>+3.6)/I<sub>dVdt</sub>. If they conflict,
+  enlarge C<sub>dVdt</sub> (longer start-up) to buy timer room.</div>
+
+  <h3>5.4 UVLO &amp; OVLO dividers (EN/UVLO and OVLO pins)</h3>
+  <p>Two resistor dividers from the bus. Same divider form, different reference:</p>
+  <div class="eq">V<sub>IN(UV)</sub> = V<sub>UVLO(F)</sub> ·
+    <span class="frac"><span class="num">R<sub>VL1</sub>+R<sub>VL2</sub></span><span class="den">R<sub>VL2</sub></span></span>
+    &nbsp;&nbsp;&nbsp; V<sub>IN(OV)</sub> = V<sub>OV(F)</sub> ·
+    <span class="frac"><span class="num">R<sub>VL1</sub>+R<sub>VL2</sub></span><span class="den">R<sub>VL2</sub></span></span>
+    <span class="lbl">Eq. 1 &amp; 2</span></div>
+  <p>Pin thresholds are ~1.2 V class (V<sub>UVLO</sub>) / ~1.2 V (V<sub>OVLO</sub>) — read the exact rising/falling
+  values from the EC table for your turn-on/off points and hysteresis. <b>Size the divider so its current is ≥20×
+  the pin leakage</b> (datasheet rule) — e.g. total 1–2 MΩ keeps standby loss low while staying 20× above the µA-class
+  pin bias. Tighter ratios (lower R) trade a little quiescent current for better accuracy.</p>
+  <div class="warn"><b>Board status:</b> the UVLO divider (<b>R1, R2</b>) and OVLO divider (<b>R2, R3</b>) are
+  <span style="color:var(--bad)">placeholders</span> (symbol value "R_Small", no resistance set). R2 is the shared
+  middle leg of the two dividers. These set the turn-on floor and the overvoltage cutoff — <b>finalize them so OVLO
+  trips below the 26 V max</b> (e.g. ~26 V OV, with a UV floor matched to the minimum pack voltage). Until then the
+  eFuse has no programmed UV/OV protection.</div>
+
+  <h3>5.5 <code>R<sub>IMON</sub></code> — analog current monitor</h3>
+  <p>IMON sources a current proportional to load current; R<sub>IMON</sub> to GND converts it to a voltage for your ADC.</p>
+  <div class="eq">V<sub>IMON</sub> = I<sub>LOAD</sub> · R<sub>IMON</sub> · G<sub>IMON</sub>,
+     &nbsp; G<sub>IMON</sub> ≈ 243 µA/A
+    <span class="lbl">Eq. 8</span></div>
+  <p><b>Board: Rimon1 = 1.33 kΩ</b> ⇒ V<sub>IMON</sub> = I<sub>LOAD</sub> × 1330 Ω × 243 µA/A =
+  <b>0.323 V/A</b>. So the monitor reaches the 3.3 V ceiling at ≈<b>10.2 A</b> — i.e. the board is scaled for a
+  ~10 A full-scale measurement, which is the basis for the 10 A current-limit recommendation in §5.1. The
+  filter <b>R<sub>imon_filter</sub> = 10 kΩ + C<sub>imon_filter</sub> = 0.1 µF</b> gives f<sub>c</sub> ≈
+  1/(2π·10 k·0.1 µF) ≈ <b>159 Hz</b> into the ADC, and satisfies the ≥10 kΩ series recommendation. Keep
+  V<sub>IMON</sub> ≤ 3.3 V for amplifier headroom (Table 7-2).</p>
+
+  <h3>5.6 PGOOD, retry config, input &amp; output capacitors</h3>
+  <ul>
+    <li><b>PGOOD (pin 13):</b> open-drain, active-high. <b>On this board it is left unconnected</b> — no power-good
+    feedback to the rest of the system. If you want it, add a <b>pull-up</b> (10–100 kΩ) to the logic rail; it
+    asserts once the internal gate reaches V<sub>IN</sub>+3.6 V.</li>
+    <li><b>Retry behaviour:</b> <b>Cretry_dly1 = 220 pF</b> on RETRY_DLY sets the delay between auto-retries, and
+    <b>R4 = 0 Ω</b> on NRETRY selects the retry count / latch-vs-auto-retry behaviour — confirm the resulting mode
+    against the datasheet's NRETRY table is what you want (auto-retry vs latch-off after a persistent fault).</li>
+    <li><b>Input caps:</b> the board fits <b>Cin2/Cin3 = 10 µF (T521D106, 50 V)</b> and <b>Cin1/Cin4 = 4.7 µF
+    (T521D475, 63 V)</b> low-ESR tantalum bulk on the EFUSE input rail, plus the SMCJ28A TVS (D1). Keep a local
+    ceramic right at the IN pins as well to damp hot-plug di/dt and avoid nuisance fast-trips.</li>
+    <li><b>Output cap (C<sub>OUT</sub>):</b> on <code>/Efuse_out</code> — this is the load capacitance that sets
+    inrush. If the dVdt/BGATE pin is in slew mode, bigger C<sub>OUT</sub> ⇒ slower SR needed ⇒ larger C<sub>dVdt</sub>
+    ⇒ longer start-up. Re-check §5.2 whenever output bulk changes.</li>
+  </ul>
+
+  <h3>5.7 The one external transistor: BGATE reverse-blocking N-FET — Q1 (CSD18540Q5B)</h3>
+  <p>On this board <b>Q1 = CSD18540Q5B</b> (60 V N-ch) is driven from pin 15 through <b>RG1 = 100 Ω</b>, with
+  <b>CdVdt1 = 0.1 µF</b> on the gate net. The TPS25983 drives this external N-FET (source toward the bus, body diode
+  pointing forward) so that when the eFuse is OFF/disabled it actively blocks <em>reverse</em> current that would
+  otherwise flow through a normal FET's body diode. Sizing it:</p>
+  <ul>
+    <li><b>V<sub>DS(max)</sub></b> ≥ bus + margin → 60 V CSD18540Q5B on ≤26 V ✓ (very comfortable).</li>
+    <li><b>R<sub>DS(on)</sub></b> low — it's in the <em>forward</em> conduction path continuously, so it adds to total
+    path loss on top of the 2.7 mΩ internal FET. The CSD18540Q5B's milliohm-class R<sub>DS(on)</sub> at the BGATE
+    drive level keeps this negligible.</li>
+    <li><b>V<sub>GS(th)</sub> / V<sub>GS(max)</sub></b> compatible with the BGATE driver swing (CSD: ~1.9 V th, ±20 V max ✓).</li>
+    <li>It is <b>not</b> a linear pass element here (the internal FET does inrush), so its SOA stress is mild — the §4 checks 1–3 dominate, check 4 is light.</li>
+  </ul>
+</section>
+
+<!-- ============================================================= -->
+<section id="adm">
+  <h2><span class="n">6</span>The gate pin ↔ transistor gate, made explicit (ADM1270)</h2>
+  <p class="lead">The ADM1270 (ref <b>U17</b>) is a pure <em>linear</em> current limiter — the most delicate kind of
+  inrush control, because there is no internal FET to hide behind. Watching how its <code>GATE</code> pin commands
+  the SQJ461EP P-FET is the clearest way to understand what the TPS does internally.</p>
+
+  <div class="card adm">
+    <h4 style="margin-top:0">Board actuals — ADM1270 (U17)</h4>
+    <table style="margin:6px 0 0">
+      <tr><th>Pin</th><th>Part</th><th>Placed value</th><th>Implication</th></tr>
+      <tr><td>GATE (15)</td><td>→ gate of <b>Q5</b> (SQJ461EP, P-ch)</td><td>—</td><td>Q5 is the main pass FET.</td></tr>
+      <tr><td>RPFG (2)</td><td>→ gate of <b>Q4</b> (SQJ461EP, P-ch)</td><td>—</td><td>Q4 is the reverse-polarity FET.</td></tr>
+      <tr><td>SENSE± (1,16)</td><td>R33</td><td>5 mΩ</td><td>With default 50 mV ⇒ I<sub>LIM</sub> ≈ 10 A (§6.2).</td></tr>
+      <tr><td>ISET (4)</td><td>tied to VCAP</td><td>default</td><td>50 mV sense threshold (2 V internal ref).</td></tr>
+      <tr><td>VCAP (3)</td><td>C38, R32</td><td>1 µF; 10 kΩ</td><td>Internal-LDO bypass (≥1 µF ✓).</td></tr>
+      <tr><td>FLB (13)</td><td>R34, R35</td><td>90.9 kΩ, 174 Ω</td><td>Foldback divider (§6.3).</td></tr>
+      <tr><td>FB_PG (12)</td><td>R35, R36</td><td>174 Ω, 4 kΩ</td><td>Power-good threshold divider.</td></tr>
+      <tr><td>UV / OV (5,6)</td><td>R27/R28/R29, C39</td><td style="color:var(--bad)">TBD</td><td>UV/OV dividers are placeholders (+1 nF filter).</td></tr>
+      <tr><td>TIMER (10)</td><td>C40</td><td>2.2 µF</td><td>SOA dwell ≈ 220 ms (§6.4).</td></tr>
+      <tr><td>TIMER_OFF (11)</td><td>C41</td><td>100 nF</td><td>Retry cool-down.</td></tr>
+    </table>
+  </div>
+
+  <h3>6.1 How the GATE pin controls current flow</h3>
+  <p>The pass element is a high-side <b>P-channel</b> FET. A P-FET turns <em>on</em> as its gate is pulled
+  <em>below</em> its source (the bus). The controller expresses this as
+  <code>ΔV<sub>GATE</sub> = V<sub>CC</sub> − V<sub>GATE</sub></code>: the bigger ΔV<sub>GATE</sub>, the harder the FET
+  is on.</p>
+  <ul>
+    <li><b>To turn ON:</b> an internal current source <code>I<sub>GATEDN</sub></code> (~20 µA) pulls the gate down,
+    charging the gate capacitance. Because it's a tiny, controlled current charging Q<sub>g</sub>, V<sub>GATE</sub>
+    ramps slowly → V<sub>GS</sub> ramps slowly → the FET creeps up its I–V curves → <b>the output ramps gently and
+    inrush is bounded</b>. This is the same mechanism as the TPS's C<sub>dVdt</sub>, but here the "capacitor" is the
+    FET's own gate and the "current" is the GATE pin source current.</li>
+    <li><b>To regulate / limit:</b> the current-sense amp (gain 40) watches V<sub>SENSE</sub>=I<sub>LOAD</sub>·R<sub>SENSE</sub>.
+    The moment it hits the reference, the loop <em>stops driving the gate further</em> and instead servos
+    V<sub>GATE</sub> to hold the FET exactly on the saturation curve that produces I<sub>LIM</sub>. The transistor is
+    now a regulator: V<sub>GS</sub> is whatever it must be so I<sub>D</sub>=I<sub>LIM</sub>.</li>
+    <li><b>To turn OFF / fault:</b> a stronger <code>I<sub>GATEUP</sub></code> (~50–80 µA, mA-class in fault) pulls the
+    gate back up to V<sub>CC</sub>, removing V<sub>GS</sub> and opening the switch.</li>
+  </ul>
+  <div class="note"><b>The relationship in one line:</b> the controller pin doesn't "send current to the load" — it
+  charges/discharges the FET gate, and the gate voltage <em>positions the transistor's operating point on its I–V
+  surface</em>. Current limiting is the controller refusing to let V<sub>GS</sub> go any higher than the value that
+  yields I<sub>LIM</sub>.</div>
+
+  <h3>6.2 Setting the current limit — R<sub>SENSE</sub> and ISET</h3>
+  <p>The sense amp trips at a programmable V<sub>SENSE</sub> from <b>12.5 mV to 62.5 mV</b> (default 50 mV when ISET is
+  tied to VCAP; adjust with a divider from VCAP into ISET).</p>
+  <div class="eq">I<sub>LIM</sub> =
+    <span class="frac"><span class="num">V<sub>SENSE(limit)</sub></span><span class="den">R<sub>SENSE</sub></span></span>
+    &nbsp;→&nbsp; board: <b>R<sub>SENSE</sub> = R33 = 5 mΩ</b>, ISET tied to VCAP (50 mV) ⇒
+    I<sub>LIM</sub> = 50 mV / 5 mΩ = <b>10 A</b>
+    <span class="lbl">matches the ~10 A scaling of the TPS path</span></div>
+  <p>The two paths are therefore both dimensioned around <b>~10 A</b>. The sense resistor dissipates
+  I²·R<sub>SENSE</sub> ≈ 10²·0.005 = <b>0.5 W</b> at the limit — size R33's power rating and use a Kelvin (4-wire)
+  connection to the SENSE pins. If you later want a different limit without changing R33, retune it with an ISET
+  divider from VCAP (12.5–62.5 mV range).</p>
+
+  <h3>6.3 Foldback (FLB) — the SOA insurance that the TPS does internally</h3>
+  <p>Here is the "delicate" part. During inrush the FET sees the <em>full bus across V<sub>DS</sub></em> while carrying
+  the limit current — the worst SOA corner (§3.2). Foldback fixes it: a divider from the FET <b>source</b> (≈V<sub>OUT</sub>)
+  to FLB <em>reduces the current limit while V<sub>DS</sub> is large</em>, then restores it as the output rises and
+  V<sub>DS</sub> collapses. The reference selector always uses the <em>lower</em> of ISET and FLB.</p>
+  <div class="eq">current-limit ref = min(V<sub>ISET</sub>, V<sub>FLB</sub>), &nbsp; clamped so V<sub>FLB</sub> ≥ 200 mV
+     (≡ 10 mV across R<sub>SENSE</sub>, never zero)
+     <span class="lbl">keeps the start-up point under the SOA curve</span></div>
+  <p>Design the FLB divider so V<sub>FLB</sub> = V<sub>ISET</sub>/2 occurs when V<sub>OUT</sub> has dropped to the level
+  you want the foldback to kick in. This is precisely the job C<sub>dVdt</sub> does inside the TPS — only there it's a
+  fixed dV/dt ramp rather than a V<sub>DS</sub>-dependent current reduction.</p>
+  <p><b>Board:</b> the foldback divider is <b>R34 = 90.9 kΩ</b> (top, from the FET source) and <b>R35 = 174 Ω</b>
+  (bottom, shared with the FB_PG divider whose top leg is <b>R36 = 4 kΩ</b>). Verify the resulting V<sub>FLB</sub>(V<sub>OUT</sub>)
+  curve drives the start-up operating point (≈24 V across the FET at I<sub>LIM</sub>) under the SQJ461EP SOA, given
+  the 220 ms TIMER dwell below — this is the single most important SOA check on the ADM path.</p>
+
+  <h3>6.4 TIMER — bounding the SOA dwell time</h3>
+  <p>While the FET sits in current limit (in saturation, dissipating heat) the <code>TIMER</code> cap charges from a
+  ~20 µA source. When it reaches ~2 V the controller declares an SOA fault and turns the FET off:</p>
+  <div class="eq">t<sub>SOA</sub> = C<sub>TIMER</sub> ·
+    <span class="frac"><span class="num">V<sub>TIMERH</sub></span><span class="den">I<sub>TIMERUP</sub></span></span>
+    = C<sub>TIMER</sub> ·
+    <span class="frac"><span class="num">2.0 V</span><span class="den">20 µA</span></span>
+    &nbsp;→&nbsp; board: <b>C40 = 2.2 µF</b> ⇒ t<sub>SOA</sub> = 2.2 µF·2 V/20 µA = <b>220 ms</b>
+    <span class="lbl">the FET must survive its worst-case point for 220 ms</span></div>
+  <p><b>This closes the loop with §3.2:</b> read the SQJ461EP's SOA at (≈24 V, the folded I<sub>LIM</sub>) and confirm
+  the <b>220 ms</b> dwell sits under the relevant SOA line — 220 ms is close to the DC SOA limit, so this is a
+  demanding point and depends heavily on the foldback (§6.3) actually lowering the current while V<sub>DS</sub> is
+  high. <b>TIMER_OFF = C41 = 100 nF</b> sets the cool-down before an auto-retry, giving the die time to recover
+  (retry duty cycle).</p>
+  <div class="warn"><b>Sanity-check the 220 ms dwell against the SOA.</b> A 2.2 µF TIMER cap is a long time to hold a
+  P-FET in linear mode at full bus voltage. If the foldback divider doesn't fold the current back hard enough at low
+  V<sub>OUT</sub>, the SQJ461EP could leave its SOA before the timer expires. Either confirm the foldback curve covers
+  it, or shorten C40.</div>
+
+  <div class="tip"><b>Mapping ADM concepts → TPS passives</b>
+  <table style="margin-bottom:0">
+    <tr><th>ADM1270 (external FET, you size SOA)</th><th>TPS25983 (internal FET, TI sized SOA)</th></tr>
+    <tr><td>GATE pin charging Q<sub>g</sub> at I<sub>GATEDN</sub></td><td><code>C<sub>dVdt</sub></code> setting dV/dt</td></tr>
+    <tr><td>R<sub>SENSE</sub> + ISET divider</td><td><code>R<sub>ILIM</sub></code></td></tr>
+    <tr><td>FLB foldback divider (SOA protection)</td><td>internal dV/dt + foldback (automatic)</td></tr>
+    <tr><td>C<sub>TIMER</sub> (SOA dwell limit)</td><td><code>C<sub>ITIMER</sub></code> blanking timer</td></tr>
+    <tr><td>UV / OV dividers</td><td>EN/UVLO &amp; OVLO dividers</td></tr>
+    <tr><td>PWRGD (FB_PG divider)</td><td><code>PGOOD</code> + pull-up</td></tr>
+  </table></div>
+</section>
+
+<!-- ============================================================= -->
+<section id="checklist">
+  <h2><span class="n">7</span>Design checklist</h2>
+  <ul class="checklist">
+    <li>Confirm bus max (incl. hot-plug ringing) &lt; 26 V operating / 30 V abs-max for the TPS25983.</li>
+    <li>R<sub>ILIM</sub> from Eq. 5 for the target I<sub>LIM</sub>; verify ±8% band is acceptable.</li>
+    <li>Choose I<sub>inrush</sub>, compute SR and C<sub>dVdt</sub>; record start-up time = V<sub>BUS</sub>/SR.</li>
+    <li>C<sub>ITIMER</sub> for the blanking window; check it against the Eq. 7 upper bound.</li>
+    <li>UVLO / OVLO dividers: set thresholds, keep divider current ≥20× pin leakage, OVLO trips &lt;26 V.</li>
+    <li>R<sub>IMON</sub> for full-scale ADC voltage; V<sub>IMON</sub>≤ table limit; add ≥10 kΩ RC filter.</li>
+    <li>PGOOD pull-up to correct logic rail; C<sub>IN</sub> local ceramic; C<sub>OUT</sub> consistent with §5.2.</li>
+    <li>External FETs (BGATE N-FET, ADM P-FETs): run all four §4 checks — V, gate drive vs clamp, Q<sub>g</sub>/I<sub>gate</sub> ramp, SOA at the controlled point.</li>
+    <li>For the ADM path: R<sub>SENSE</sub> from I<sub>LIM</sub>; FLB divider for foldback; C<sub>TIMER</sub> shorter than the FET's SOA pulse width at (V<sub>BUS</sub>, I<sub>LIM</sub>).</li>
+  </ul>
+  <div class="warn"><b>Single most common mistake:</b> signing off a pass FET on R<sub>DS(on)</sub> and steady-state
+  current alone. In these parts the FET's survival is decided in the linear region during inrush/fault — always plot
+  the (V<sub>DS</sub>, I<sub>D</sub>, t) point on the datasheet SOA and make the timer/slew passive enforce that t.</div>
+
+  <div class="card" style="border-left:3px solid var(--bad)">
+    <h4 style="margin-top:0;color:var(--bad)">Open items found in the current schematic (branch Pollux)</h4>
+    <ol style="margin:6px 0 0">
+      <li><b>Rillim1 (TPS ILIM)</b> — placeholder. Set per §5.1 (≈147 Ω for 10 A).</li>
+      <li><b>R1 / R2 / R3 (TPS EN-UVLO &amp; OVLO dividers)</b> — placeholders. Set OVLO &lt; 26 V, UV at min pack voltage.</li>
+      <li><b>R27 / R28 / R29 (ADM UV &amp; OV dividers)</b> — placeholders. Set thresholds.</li>
+      <li><b>dVdt/BGATE mode</b> — confirm pin 15 is intended as BGATE (driving Q1) vs. slew; the 0.1 µF value is not a sane slew cap (§5.2).</li>
+      <li><b>SMCJ28A TVS (D1)</b> — clamps above the TPS 30 V abs-max; reconsider for true transient protection (§5 headroom note).</li>
+      <li><b>ADM 220 ms TIMER vs SQJ461EP SOA</b> — verify the foldback keeps Q5 in SOA for the full dwell (§6.3/6.4).</li>
+      <li><b>PGOOD (TPS) and PWRGD (ADM)</b> — currently unconnected; add pull-ups if the system needs the flags.</li>
+    </ol>
+  </div>
+</section>
+
+</main>
+<footer>
+  Built from the on-board parts and their datasheets: TPS25983 (SLVSHH5C), ADM1270 (Rev. A), CSD18540Q5B,
+  SQJ461EP. Equation numbers reference the respective datasheets. Worked numbers are illustrative — substitute the
+  Power-HAT's actual rail, current, and C<sub>OUT</sub> targets before committing values.
+</footer>
+</body>
+</html>
