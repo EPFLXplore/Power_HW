@@ -1,1 +1,0 @@
-The Bucky board serves as a power distribution stage that draws energy from the battery, transfers it to the Buck-Boost converters, and ensures protection through fuses and transient voltage clamping before delivering the regulated output power.
