@@ -1,6 +1,4 @@
-# Project Title
-
-Power Wago + INA
+# Power Wago + INA
 
 ## Description
 
@@ -8,7 +6,7 @@ Based on the "power_hat_wago" design, this design adds current and voltage monit
 
 ## Design choices/constraints
 
-The wago is sized to withstand a max current of 40A at 5, 15 and 25V (depending on what volatge is inputed). 
+The wago is sized to withstand a max current of 40A at 5, 15, 24V and Vbatt (depending on what voltage bus it's connected on). 
 
 This version also adds some very basic protections but this board is not meant to protect the system. This is something that we plan either to implement on a dedicated board or on the buck converters.
  
